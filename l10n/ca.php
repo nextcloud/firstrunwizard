@@ -2,7 +2,7 @@
 $TRANSLATIONS = array(
 "Welcome to %s" => "Benvingut a %s",
 "Your personal web services. All your files, contacts, calendar and more, in one place." => "Els vostres serveis personals. Tots els fitxers, contactes, calendaris i més en un sol lloc.",
-"Get the apps to sync your files" => "Obtén les aplicacions per sincronitzar fitxers",
+"Get the apps to sync your files" => "Obtingueu les aplicacions per sincronitzar els vostres fitxers",
 "Connect your desktop apps to %s" => "Connecteu les aplicacions d'escriptori a %s",
 "Connect your Calendar" => "Connecteu el vostre calendari",
 "Connect your Contacts" => "Connecteu els vostres contactes",
