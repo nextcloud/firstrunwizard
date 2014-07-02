@@ -25,6 +25,10 @@
 	opacity: .65;
 }
 
+#firstrunwizard .button {
+	display: inline-block;
+}
+
 #firstrunwizard p a {
 	font-weight: bold;
 }
