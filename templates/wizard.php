@@ -51,7 +51,7 @@
 		&body=ownCloud is a great open software to sync and share your files. 
 		You can freely get it from http://owncloud.org">
 		recommend it to your friends</a>
-	and <a href="http://owncloud.org/contribute/#promote"
+	and <a href="http://owncloud.org/promote"
 		target="_blank">spread the word</a>!')); ?>
 <?php else: ?>
 © 2014 <a href="https://owncloud.com" target="_blank">ownCloud Inc.</a>
