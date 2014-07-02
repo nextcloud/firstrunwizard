@@ -46,7 +46,13 @@
 <p class="footnote">
 <?php if (OC_Util::getEditionString() === ''): ?>
 <?php print_unescaped($l->t('There’s more information in the <a target="_blank" href="%s">documentation</a> and on our <a target="_blank" href="http://owncloud.org">website</a>.', array(link_to_docs('user_manual')))); ?><br>
-<?php print_unescaped($l->t('If you like ownCloud, <a href="mailto:?subject=ownCloud&body=ownCloud is a great open software to sync and share your files. You can freely get it from http://owncloud.org">recommend it to your friends</a>!')); ?>
+<?php print_unescaped($l->t('If you like ownCloud,
+	<a href="mailto:?subject=ownCloud
+		&body=ownCloud is a great open software to sync and share your files. 
+		You can freely get it from http://owncloud.org">
+		recommend it to your friends</a>
+	and <a href="http://owncloud.org/promote"
+		target="_blank">spread the word</a>!')); ?>
 <?php else: ?>
 © 2014 <a href="https://owncloud.com" target="_blank">ownCloud Inc.</a>
 <?php endif; ?>
