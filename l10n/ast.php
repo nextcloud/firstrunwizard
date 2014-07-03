@@ -8,7 +8,6 @@ $TRANSLATIONS = array(
 "Connect your Contacts" => "Coneuta los tos Contautos",
 "Access files via WebDAV" => "Ficheru d'accesu vía WebDAV",
 "Documentation" => "Documentación",
-"There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"http://owncloud.org\">website</a>." => "Hai más información na <a target=\"_blank\" href=\"%s\">documentación y nel nuesu <a target=\"_blank\" href=\"http://owncloud.org\">sitiu web</a>.",
-"If you like ownCloud, <a href=\"mailto:?subject=ownCloud&body=ownCloud is a great open software to sync and share your files. You can freely get it from http://owncloud.org\">recommend it to your friends</a>!" => "Si te presta ownCloud, <a href=\"mailto:?subject=ownCloud&body=ownCloud is a great open software to sync and share your files. You can freely get it from http://owncloud.org\">recomiénda-yoslu a los tos collacios</a>!"
+"There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"http://owncloud.org\">website</a>." => "Hai más información na <a target=\"_blank\" href=\"%s\">documentación y nel nuesu <a target=\"_blank\" href=\"http://owncloud.org\">sitiu web</a>."
 );
 $PLURAL_FORMS = "nplurals=2; plural=(n != 1);";

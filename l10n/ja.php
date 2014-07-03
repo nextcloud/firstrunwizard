@@ -8,7 +8,6 @@ $TRANSLATIONS = array(
 "Connect your Contacts" => "連絡先に接続する",
 "Access files via WebDAV" => "WebDAV経由でファイルにアクセス",
 "Documentation" => "ドキュメント",
-"There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"http://owncloud.org\">website</a>." => "詳細な情報は、<a target=\"_blank\" href=\"%s\">ドキュメント</a> と <a target=\"_blank\" href=\"http://owncloud.org\">ウェブサイト</a> にあります。",
-"If you like ownCloud, <a href=\"mailto:?subject=ownCloud&body=ownCloud is a great open software to sync and share your files. You can freely get it from http://owncloud.org\">recommend it to your friends</a>!" => "ownCloud を気に入っていただけたら、<a href=\"mailto:?subject=ownCloud&body=ownCloud はファイルの同期や共有のための素晴らしいオープンソースソフトウェアです。http://owncloud.org から自由にダウンロードすることができます。\">友達に紹介してください</a>！"
+"There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"http://owncloud.org\">website</a>." => "詳細な情報は、<a target=\"_blank\" href=\"%s\">ドキュメント</a> と <a target=\"_blank\" href=\"http://owncloud.org\">ウェブサイト</a> にあります。"
 );
 $PLURAL_FORMS = "nplurals=1; plural=0;";

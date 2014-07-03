@@ -5,7 +5,6 @@ $TRANSLATIONS = array(
 "Connect your Calendar" => "اتصال تقویم خودتان",
 "Connect your Contacts" => "اتصال مخاطبان شما",
 "Access files via WebDAV" => "دسترسی فایل ها از طریق WebDAV",
-"Documentation" => "مستندسازی",
-"If you like ownCloud, <a href=\"mailto:?subject=ownCloud&body=ownCloud is a great open software to sync and share your files. You can freely get it from http://owncloud.org\">recommend it to your friends</a>!" => "اگر شما ownCloud را دوست دارید، <a href=\"mailto:?subject=ownCloud&body=ownCloud is a great open software to sync and share your files. You can freely get it from http://owncloud.org\">اون رو به دوستانتان معرفی کنید</a>!"
+"Documentation" => "مستندسازی"
 );
 $PLURAL_FORMS = "nplurals=1; plural=0;";
