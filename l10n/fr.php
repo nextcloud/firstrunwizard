@@ -8,6 +8,7 @@ $TRANSLATIONS = array(
 "Connect your Contacts" => "Connectez vos contacts",
 "Access files via WebDAV" => "Accéder aux fichiers via WebDAV",
 "Documentation" => "Documentation",
-"There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"http://owncloud.org\">website</a>." => "Des informations complémentaires sont disponibles dans la <a target=\"_blank\" href=\"%s\">documentation</a> et sur notre <a target=\"_blank\" href=\"http://owncloud.org\">site web</a>."
+"There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"http://owncloud.org\">website</a>." => "Des informations complémentaires sont disponibles dans la <a target=\"_blank\" href=\"%s\">documentation</a> et sur notre <a target=\"_blank\" href=\"http://owncloud.org\">site web</a>.",
+"If you like ownCloud,\n\t<a href=\"mailto:?subject=ownCloud\n\t\t&body=ownCloud is a great open software to sync and share your files. \n\t\tYou can freely get it from http://owncloud.org\">\n\t\trecommend it to your friends</a>\n\tand <a href=\"http://owncloud.org/promote\"\n\t\ttarget=\"_blank\">spread the word</a>!" => "Si vous aimez ownCloud,\n\t<a href=\"mailto:?subject=ownCloud\n\t\t&body=ownCloud est un super logiciel libre pour synchroniser et partager vos fichiers. \n\t\tVous pouvez gratuitement l'obtenir sur http://owncloud.org\">\n\t\trecommandez le à vos amis</a>\n\tet <a href=\"http://owncloud.org/promote\"\n\t\ttarget=\"_blank\">faites passer le mot</a> !"
 );
 $PLURAL_FORMS = "nplurals=2; plural=(n > 1);";
