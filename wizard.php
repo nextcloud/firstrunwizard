@@ -28,10 +28,21 @@ OCP\User::checkLoggedIn();
 $defaults = new \OCP\Defaults();
 
 //links to clients
+//these methods are in core #9520
+if (method_exists($defaults, 'getAndroidClientUrl')) {
+	$androidurl = $defaults->getAndroidClientURL();
+} else {
+	$androidurl = 'https://play.google.com/store/apps/details?id=com.owncloud.android';
+}
+if (method_exists($defaults, 'getiOSClientUrl')) {
+	$iosurl = $defaults->getiOSClientUrl();
+} else {
+	$iosurl = 'https://itunes.apple.com/us/app/owncloud/id543672169?mt=8';
+}
 $clients = array(
 	'desktop' => OCP\Config::getSystemValue('customclient_desktop', $defaults->getSyncClientUrl()),
-	'android' => OCP\Config::getSystemValue('customclient_android', 'https://play.google.com/store/apps/details?id=com.owncloud.android'),
-	'ios'     => OCP\Config::getSystemValue('customclient_ios', 'https://itunes.apple.com/us/app/owncloud/id543672169?mt=8')
+	'android' => OCP\Config::getSystemValue('customclient_android', $androidurl),
+	'ios'     => OCP\Config::getSystemValue('customclient_ios', $iosurl)
 );
 
 $tmpl = new OCP\Template( 'firstrunwizard', 'wizard', '' );
