@@ -30,8 +30,8 @@ $defaults = new \OCP\Defaults();
 //links to clients
 $clients = array(
 	'desktop' => OCP\Config::getSystemValue('customclient_desktop', $defaults->getSyncClientUrl()),
-	'android' => OCP\Config::getSystemValue('customclient_android', 'https://play.google.com/store/apps/details?id=com.owncloud.android'),
-	'ios'     => OCP\Config::getSystemValue('customclient_ios', 'https://itunes.apple.com/us/app/owncloud/id543672169?mt=8')
+	'android' => OCP\Config::getSystemValue('customclient_android', $defaults->getAndroidClientUrl()),
+	'ios'     => OCP\Config::getSystemValue('customclient_ios', $defaults->getiOSClientUrl())
 );
 
 $tmpl = new OCP\Template( 'firstrunwizard', 'wizard', '' );
