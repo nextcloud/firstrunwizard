@@ -6,7 +6,7 @@
 The First Run Wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the First Run Wizard documentation, as well as the theming documentation.
 </description>
 	<licence>AGPL</licence>
-	<author>Frank Karlitschek</author>
+	<author>Frank Karlitschek, Jan-Christoph Borchardt</author>
 	<require>4.9</require>
 	<shipped>true</shipped>
 	<default_enable/>
