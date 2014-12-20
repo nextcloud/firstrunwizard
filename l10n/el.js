@@ -4,6 +4,8 @@ OC.L10N.register(
     "Welcome to %s" : "Καλωσήρθατε στο %s",
     "Your personal web services. All your files, contacts, calendar and more, in one place." : "Οι προσωπικές υπηρεσίες ιστού. Όλα τα αρχεία, οι επαφές, το ημερολόγιό σας και πολλά άλλα, σε μια τοποθεσία.",
     "Get the apps to sync your files" : "Λήψη των εφαρμογών για συγχρονισμό των αρχείων σας",
+    "Android app" : "Εφαρμογή Android",
+    "iOS app" : "Εφαρμογή iOS",
     "Connect your desktop apps to %s" : "Συνδέστε τις εφαρμογές του υπολογιστή σας με το %s",
     "Connect your Calendar" : "Συνδέστε το Ημερολόγιό σας",
     "Connect your Contacts" : "Συνδέστε τις Επαφές σας",

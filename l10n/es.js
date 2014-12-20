@@ -4,6 +4,8 @@ OC.L10N.register(
     "Welcome to %s" : "Bienvenido a %s",
     "Your personal web services. All your files, contacts, calendar and more, in one place." : "Sus servicios web personales. Todos sus archivos, contactos, calendario y más en un único lugar.",
     "Get the apps to sync your files" : "Obtenga las apps para sincronizar sus archivos",
+    "Android app" : "Aplicación de Android",
+    "iOS app" : "Aplicación de iOS",
     "Connect your desktop apps to %s" : "Conecte sus aplicaciones de escritorio a %s",
     "Connect your Calendar" : "Conecte su Calendario",
     "Connect your Contacts" : "Conecte sus Contactos",
