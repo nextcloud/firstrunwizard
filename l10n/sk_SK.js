@@ -4,6 +4,8 @@ OC.L10N.register(
     "Welcome to %s" : "Vitajte v %s",
     "Your personal web services. All your files, contacts, calendar and more, in one place." : "Vaše osobné webové služby. Všetky vaše súbory, kontakty, kalendár a ďalšie, na jednom mieste.",
     "Get the apps to sync your files" : "Získať aplikácie na synchronizáciu vašich súborov",
+    "Android app" : "Android aplikácia",
+    "iOS app" : "iOS aplikácia",
     "Connect your desktop apps to %s" : "Pripojiť svoju desktopovú aplikáciu na %s",
     "Connect your Calendar" : "Pripojte svoj ​​kalendár",
     "Connect your Contacts" : "Pripojte svoje kontakty",
