@@ -54,7 +54,7 @@
 	and <a href="http://owncloud.org/promote"
 		target="_blank">spread the word</a>!')); ?>
 <?php else: ?>
-© 2014 <a href="https://owncloud.com" target="_blank">ownCloud Inc.</a>
+© 2011-2015 <a href="https://owncloud.com" target="_blank">ownCloud Inc.</a>
 <?php endif; ?>
 </p>
 
