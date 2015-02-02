@@ -1,7 +1,7 @@
 <?php
 $TRANSLATIONS = array(
 "Welcome to %s" => "Willkommen bei %s",
-"Your personal web services. All your files, contacts, calendar and more, in one place." => "Deine persönlichen Web-Services. Alle deine Dateien, Kontakte, Kalender und mehr an einem Ort.",
+"Your personal web services. All your files, contacts, calendar and more, in one place." => "Deine persönlichen Web-Services. Alle Deine Dateien, Kontakte, Kalender und mehr an einem Ort.",
 "Get the apps to sync your files" => "Lade die Apps zur Synchronisierung Deiner Daten herunter",
 "Desktop client" => "Desktop-Client",
 "Android app" => "Android-App",
