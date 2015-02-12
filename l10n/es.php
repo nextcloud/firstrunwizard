@@ -8,7 +8,7 @@ $TRANSLATIONS = array(
 "iOS app" => "Aplicación de iOS",
 "Connect your desktop apps to %s" => "Conecte sus aplicaciones de escritorio a %s",
 "Connect your Calendar" => "Conecte su Calendario",
-"Connect your Contacts" => "Conecte sus Contactos",
+"Connect your Contacts" => "Conecte con sus contactos",
 "Access files via WebDAV" => "Acceda a sus archivos vía WebDAV",
 "Documentation" => "Documentación",
 "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"http://owncloud.org\">website</a>." => "Hay más información en la <a target=\"_blank\" href=\"%s\">documentación</a> y en nuestro  <a target=\"_blank\" href=\"http://owncloud.org\">sitio web</a>.",
