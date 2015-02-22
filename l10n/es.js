@@ -8,7 +8,7 @@ OC.L10N.register(
     "Android app" : "Aplicación de Android",
     "iOS app" : "Aplicación de iOS",
     "Connect your desktop apps to %s" : "Conecte sus aplicaciones de escritorio a %s",
-    "Connect your Calendar" : "Conecte su Calendario",
+    "Connect your Calendar" : "Conecte su calendario",
     "Connect your Contacts" : "Conecte con sus contactos",
     "Access files via WebDAV" : "Acceda a sus archivos vía WebDAV",
     "Documentation" : "Documentación",
