@@ -1,7 +1,11 @@
 <?php
 $TRANSLATIONS = array(
+"Welcome to %s" => "Bun venit la %s",
 "Your personal web services. All your files, contacts, calendar and more, in one place." => "Serviciile tale web personale. Toate fișierele, contactele, calendarele și multe altele într-un singur loc.",
 "Get the apps to sync your files" => "Obține aplicația pentru sincronizarea fișierelor",
+"Desktop client" => "Client Desktop",
+"Android app" => "Aplicatie Android",
+"iOS app" => "Aplicație iOS",
 "Connect your Calendar" => "Conectează-ți calendarul",
 "Connect your Contacts" => "Conectează-ți contactele",
 "Access files via WebDAV" => "Accesează fișierele prin WebDAV",
