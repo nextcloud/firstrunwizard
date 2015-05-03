@@ -37,5 +37,6 @@ $clients = array(
 $tmpl = new OCP\Template( 'firstrunwizard', 'wizard', '' );
 $tmpl->assign('logo', OCP\Util::linkTo('core','img/logo-inverted.svg'));
 $tmpl->assign('clients', $clients);
+$tmpl->assign('edition', OCA\FirstRunWizard\Util::getEdition());
 $tmpl->printPage();
 
