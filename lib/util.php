@@ -20,19 +20,50 @@
  * License along with this library.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-
 namespace OCA\FirstRunWizard;
 
+use OCP\App\IAppManager;
+use OCP\Defaults;
+use OCP\IConfig;
+
 class Util {
+
+	protected $appManager;
+
+	protected $config;
+
+	protected $defaults;
+
+	/**
+	 * @param IAppManager $appManager
+	 * @param IConfig $config
+	 * @param Defaults $defaults
+	 */
+	public function __construct(IAppManager $appManager, IConfig $config, Defaults $defaults) {
+		$this->appManager = $appManager;
+		$this->config = $config;
+		$this->defaults = $defaults;
+	}
 
 	/**
 	 * mimic \OC_Util::getEditionString()
 	 * @return string
 	 */
-	public static function getEdition() {
-		if (\OC::$server->getAppManager()->isEnabledForUser('enterprise_key')) {
-			return "Enterprise";
+	public function getEdition() {
+		if ($this->appManager->isEnabledForUser('enterprise_key')) {
+			return 'Enterprise';
 		}
 		return '';
+	}
+
+	/**
+	 * @return array
+	 */
+	public function getSyncClientUrls() {
+		return array(
+			'desktop' => $this->config->getSystemValue('customclient_desktop', $this->defaults->getSyncClientUrl()),
+			'android' => $this->config->getSystemValue('customclient_android', $this->defaults->getAndroidClientUrl()),
+			'ios'     => $this->config->getSystemValue('customclient_ios', $this->defaults->getiOSClientUrl())
+		);
 	}
 }
