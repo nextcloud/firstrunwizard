@@ -44,13 +44,9 @@ class Config {
 	* @brief Check if the FirstRunWizard is enabled or not
 	* @return bool
 	*/
-	public static function isenabled() {
-		$conf=\OCP\CONFIG::getUserValue( \OCP\User::getUser() , 'firstrunwizard' , 'show' , 1 );
-		if($conf==1) {
-			return(true);
-		}else{
-			return(false);
-		}
+	public static function isEnabled() {
+		$conf = \OCP\CONFIG::getUserValue( \OCP\User::getUser() , 'firstrunwizard' , 'show' , 1 );
+		return (intval($conf) === 1);
 	}
 
 
