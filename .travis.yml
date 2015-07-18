@@ -11,7 +11,11 @@ php:
   - 5.4
   # aliased to a recent 5.5.x version
   - 5.5
-
+  # aliased to a recent 5.5.x version
+  - 5.6
+  # aliased to a recent 7 version
+  - 7
+  
 # optionally specify a list of environments, for example to test different RDBMS
 #env:
 #  - DB=mysql
