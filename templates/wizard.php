@@ -4,7 +4,7 @@
 	<img class="svg" src="<?php print_unescaped(OCP\Util::imagePath('core', 'actions/close.svg')); ?>">
 </a>
 <h1><?php p($l->t('Welcome to %s', array($theme->getTitle()))); ?></h1>
-<?php if (OC_Util::getEditionString() === ''): ?>
+<?php if ($_['edition'] === ''): ?>
 <p><?php p($l->t('Your personal web services. All your files, contacts, calendar and more, in one place.'));?></p>
 <?php else: ?>
 <p><?php p($theme->getSlogan()); ?></p>
@@ -25,7 +25,7 @@
 		alt="<?php p($l->t('iOS app'));?>" />
 </a>
 
-<?php if (OC_Util::getEditionString() === ''): ?>
+<?php if ($_['edition'] === ''): ?>
 <h2><?php p($l->t('Connect your desktop apps to %s', array($theme->getName()))); ?></h2>
 <a target="_blank" class="button" href="<?php p(link_to_docs('user-sync-calendars')) ?>">
 	<img class="appsmall appsmall-calendar svg" alt=""
@@ -53,7 +53,7 @@
 <?php endif; ?>
 
 <p class="footnote">
-<?php if (OC_Util::getEditionString() === ''): ?>
+<?php if ($_['edition'] === ''): ?>
 <?php print_unescaped($l->t('There’s more information in the <a target="_blank" href="%s">documentation</a> and on our <a target="_blank" href="http://owncloud.org">website</a>.', array(link_to_docs('user_manual')))); ?><br>
 <?php print_unescaped($l->t('If you like ownCloud,
 	<a href="mailto:?subject=ownCloud

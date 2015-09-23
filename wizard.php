@@ -20,22 +20,24 @@
 * License along with this library.  If not, see <http://www.gnu.org/licenses/>.
 *
 */
+namespace OCA\FirstRunWizard;
 
+use OCP\Defaults;
+use OCP\User;
+use OCP\Util as CoreUtil;
+use OCP\Template;
 
 // Check if we are a user
-OCP\User::checkLoggedIn();
+User::checkLoggedIn();
 
-$defaults = new \OCP\Defaults();
+$appManager = \OC::$server->getAppManager();
+$config = \OC::$server->getConfig();
+$defaults = new Defaults();
 
-//links to clients
-$clients = array(
-	'desktop' => OCP\Config::getSystemValue('customclient_desktop', $defaults->getSyncClientUrl()),
-	'android' => OCP\Config::getSystemValue('customclient_android', $defaults->getAndroidClientUrl()),
-	'ios'     => OCP\Config::getSystemValue('customclient_ios', $defaults->getiOSClientUrl())
-);
+$util = new Util($appManager, $config, $defaults);
 
-$tmpl = new OCP\Template( 'firstrunwizard', 'wizard', '' );
-$tmpl->assign('logo', OCP\Util::linkTo('core','img/logo-inverted.svg'));
-$tmpl->assign('clients', $clients);
+$tmpl = new Template('firstrunwizard', 'wizard', '');
+$tmpl->assign('logo', CoreUtil::linkTo('core','img/logo-inverted.svg'));
+$tmpl->assign('clients', $util->getSyncClientUrls());
+$tmpl->assign('edition', $util->getEdition());
 $tmpl->printPage();
-

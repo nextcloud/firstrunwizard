@@ -1,5 +1,4 @@
 <?php
-
 /**
  * ownCloud - firstrunwizard App
  *
@@ -20,16 +19,20 @@
  * License along with this library.  If not, see <http://www.gnu.org/licenses/>.
  * 
  */
+namespace OCA\FirstRunWizard;
 
+use OCP\Util;
 
-OC::$CLASSPATH['OCA_FirstRunWizard\Config'] = 'firstrunwizard/lib/firstrunwizard.php';
+Util::addStyle('firstrunwizard', 'colorbox');
+Util::addScript('firstrunwizard', 'jquery.colorbox');
+Util::addScript('firstrunwizard', 'firstrunwizard');
 
-OCP\Util::addStyle( 'firstrunwizard', 'colorbox');
-OCP\Util::addScript( 'firstrunwizard', 'jquery.colorbox');
-OCP\Util::addScript( 'firstrunwizard', 'firstrunwizard');
+Util::addStyle('firstrunwizard', 'firstrunwizard');
 
-OCP\Util::addStyle('firstrunwizard', 'firstrunwizard');
+$config = \OC::$server->getConfig();
+$userSession = \OC::$server->getUserSession();
+$firstRunConfig = new Config($config, $userSession);
 
-if(\OCP\User::isLoggedIn() and \OCA_FirstRunWizard\Config::isenabled()){
-	OCP\Util::addScript( 'firstrunwizard', 'activate');
+if ($userSession->isLoggedIn() && $firstRunConfig->isEnabled()) {
+	Util::addScript( 'firstrunwizard', 'activate');
 }
