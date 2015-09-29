@@ -37,20 +37,17 @@
 		src="<?php print_unescaped(OCP\Util::imagePath('core', 'places/contacts-dark.svg')); ?>" />
 	<?php p($l->t('Connect your Contacts'));?>
 </a>
-<a target="_blank" class="button" href="<?php p(link_to_docs('user-webdav')); ?>">
-	<img class="appsmall svg" alt=""
-		src="<?php print_unescaped(OCP\Util::imagePath('files', 'folder.svg')); ?>" />
-	<?php p($l->t('Access files via WebDAV'));?>
-</a>
 <?php else: ?>
 <br><br><br>
 <a target="_blank" class="button" href="<?php p(link_to_docs('user-manual')); ?>">
 	<img class="appsmall svg" src="<?php print_unescaped(OCP\Util::imagePath('settings', 'help.svg')); ?>" /> <?php p($l->t('Documentation'));?>
 </a>
-<a target="_blank" class="button" href="<?php p(link_to_docs('user-webdav')); ?>">
-	<img class="appsmall svg" src="<?php print_unescaped(OCP\Util::imagePath('core', 'places/folder.svg')); ?>" /> <?php p($l->t('Access files via WebDAV'));?>
-</a>
 <?php endif; ?>
+<a target="_blank" class="button" href="<?php p(link_to_docs('user-webdav')); ?>">
+	<img class="appsmall svg" alt=""
+		src="<?php print_unescaped(OCP\Util::imagePath('files', 'folder.svg')); ?>" />
+	<?php p($l->t('Access files via WebDAV'));?>
+</a>
 
 <p class="footnote">
 <?php if ($_['edition'] === ''): ?>
