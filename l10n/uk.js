@@ -10,8 +10,8 @@ OC.L10N.register(
     "Connect your desktop apps to %s" : "Під'єднати ваші додатки до %s",
     "Connect your Calendar" : "Під'єднати  ваш Календар",
     "Connect your Contacts" : "Під'єднати ваші Контакти",
-    "Access files via WebDAV" : "Доступ до файлів за допомогою WebDAV",
     "Documentation" : "Документація",
+    "Access files via WebDAV" : "Доступ до файлів за допомогою WebDAV",
     "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"http://owncloud.org\">website</a>." : "Є більше інформації в <a target=\"_blank\" href=\"%s\">документації</a> і на нашому <a target=\"_blank\" href=\"http://owncloud.org\">сайті</a>.",
     "If you like ownCloud,\n\t<a href=\"mailto:?subject=ownCloud\n\t\t&body=ownCloud is a great open software to sync and share your files. \n\t\tYou can freely get it from http://owncloud.org\">\n\t\trecommend it to your friends</a>\n\tand <a href=\"http://owncloud.org/promote\"\n\t\ttarget=\"_blank\">spread the word</a>!" : "Якщо вам до вподоби ownCloud,\n⇥<a href=\"mailto:?subject=ownCloud\n⇥⇥&body=ownCloud OwnCloud чудове відкрите програмне забезпечення для синхронізації і обміну файлами.\n\n⇥⇥Ви можете безкоштовно завантажити його на сайті http://owncloud.org\">\n⇥⇥порадьте його вашим друзям</a>\n⇥та <a href=\"http://owncloud.org/promote\"\n⇥⇥target=\"_blank\">розкажіть усім</a>!"
 },

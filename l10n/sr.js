@@ -10,8 +10,8 @@ OC.L10N.register(
     "Connect your desktop apps to %s" : "Повежите ваш рачунар на %s",
     "Connect your Calendar" : "Повежите календар",
     "Connect your Contacts" : "Повежите контакте",
-    "Access files via WebDAV" : "Приступите фајловима преко ВебДАВ-а",
     "Documentation" : "Документација",
+    "Access files via WebDAV" : "Приступите фајловима преко ВебДАВ-а",
     "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"http://owncloud.org\">website</a>." : "Више информација имате у <a target=\"_blank\" href=\"%s\">документацији</a> и на нашем <a target=\"_blank\" href=\"http://owncloud.org\">веб сајту</a>.",
     "If you like ownCloud,\n\t<a href=\"mailto:?subject=ownCloud\n\t\t&body=ownCloud is a great open software to sync and share your files. \n\t\tYou can freely get it from http://owncloud.org\">\n\t\trecommend it to your friends</a>\n\tand <a href=\"http://owncloud.org/promote\"\n\t\ttarget=\"_blank\">spread the word</a>!" : "Ако вам се допада оунКлауд,\n\t<a href=\"mailto:?subject=ownCloud\n\t\t&body=оунКлауд је софтвер отвореног кода за синхронизацију и дељење фајлова. \n\t\tМожете га слободно преузети са http://owncloud.org\">\n\t\tпрепоручити пријатељима</a>\n\tи <a href=\"http://owncloud.org/promote\"\n\t\ttarget=\"_blank\">промовисати</a>!"
 },
