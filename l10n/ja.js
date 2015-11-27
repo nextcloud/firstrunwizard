@@ -1,7 +1,7 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "A safe home for all your data" : "あなたの持っているデータ全ての安全な保存先",
+    "A safe home for all your data" : "あなたの持っているデータすべての安全な保存先",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "あなたの好きなように、どの端末からでもファイルやカレンダー、連絡先、メール等にアクセス、そして共有",
     "Get the apps to sync your files" : "ファイルを同期するアプリを取得しましょう",
     "Desktop client" : "デスクトップクライアント",
