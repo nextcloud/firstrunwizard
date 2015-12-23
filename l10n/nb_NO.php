@@ -1,5 +1,6 @@
 <?php
 $TRANSLATIONS = array(
+"A safe home for all your data" => "Et trygt hjem for alle dine data",
 "Get the apps to sync your files" => "Hent apper som synkroniserer filene dine",
 "Desktop client" => "Skrivebordsklient",
 "Android app" => "Android-app",
