@@ -1,6 +1,7 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "A safe home for all your data" : "Turvaline kodu kõigile sinu andmetele",
     "Get the apps to sync your files" : "Hangi rakendusi failide sünkroniseerimiseks",
     "Desktop client" : "Töölaua klient",
     "Android app" : "Androidi rakendus",
