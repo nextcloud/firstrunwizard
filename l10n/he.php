@@ -10,6 +10,8 @@ $TRANSLATIONS = array(
 "Connect your Calendar" => "חבר את לוח השנה שלך",
 "Connect your Contacts" => "חבר את אנשי הקשר שלך",
 "Documentation" => "תיעוד",
-"Access files via WebDAV" => "גש לקבצים דרך WebDAV"
+"Access files via WebDAV" => "גש לקבצים דרך WebDAV",
+"There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"http://owncloud.org\">website</a>." => "קיים עוד מידע <a target=\"_blank\" href=\"%s\">בתיעוד</a> כמו כן <a target=\"_blank\" href=\"http://owncloud.org\">באתר</a>.",
+"If you like ownCloud,\n\t<a href=\"mailto:?subject=ownCloud\n\t\t&body=ownCloud is a great open software to sync and share your files.\n\t\tYou can freely get it from http://owncloud.org\">\n\t\trecommend it to your friends</a>\n\tand <a href=\"http://owncloud.org/promote\"\n\t\ttarget=\"_blank\">spread the word</a>!" => "אם ownCloud אהוב עליך,\n\t<a href=\"mailto:?subject=ownCloud\n\t\t&body=ownCloud הנה תוכנת קוד פתוח לסנכרון ושיתוף של הקבצים שלך.\n\t\tניתן להוריד אותה מ- http://owncloud.org\">\n\t\tכדאי להמליץ לחברים</a>\n\tוכן <a href=\"http://owncloud.org/promote\"\n\t\ttarget=\"_blank\">כדאי להפיץ את המילה</a>!"
 );
 $PLURAL_FORMS = "nplurals=2; plural=(n != 1);";
