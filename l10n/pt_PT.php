@@ -1,6 +1,7 @@
 <?php
 $TRANSLATIONS = array(
 "A safe home for all your data" => "Um local seguro para todos os seus dados",
+"Access & share your files, calendars, contacts, mail & more from any device, on your terms" => "Aceda e partilhe os seus ficheiros, calendários, contatos, correio e muito mais a partir de qualquer aparelho, nos seus termos",
 "Get the apps to sync your files" => "Obtenha as aplicações para sincronizar os seus ficheiros",
 "Desktop client" => "Cliente Desktop",
 "Android app" => "Aplicação Android",
@@ -10,6 +11,7 @@ $TRANSLATIONS = array(
 "Connect your Contacts" => "Ligar os seus contactos",
 "Documentation" => "Documentação",
 "Access files via WebDAV" => "Aceder aos ficheiros via WebDAV",
-"There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"http://owncloud.org\">website</a>." => "Encontre mais informação na <a target=\"_blank\" href=\"%s\">documentação</a> e no nosso <a target=\"_blank\" href=\"http://owncloud.org\">sítio</a>."
+"There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"http://owncloud.org\">website</a>." => "Encontre mais informação na <a target=\"_blank\" href=\"%s\">documentação</a> e no nosso <a target=\"_blank\" href=\"http://owncloud.org\">sítio</a>.",
+"If you like ownCloud,\n\t<a href=\"mailto:?subject=ownCloud\n\t\t&body=ownCloud is a great open software to sync and share your files.\n\t\tYou can freely get it from http://owncloud.org\">\n\t\trecommend it to your friends</a>\n\tand <a href=\"http://owncloud.org/promote\"\n\t\ttarget=\"_blank\">spread the word</a>!" => "Se gosta do ownCloud,\n\t<a href=\"mailto:?subject=ownCloud\n\t\t&body=ownCloud é um software aberto excelente para sincronizar e partilhar os seus ficheiros.\n\t\tPode obtê-lo aqui gratuitamente http://owncloud.org\">\n\t\trecomende aos seus amigos</a>\n\te <a href=\"http://owncloud.org/promote\"\n\t\ttarget=\"_blank\">espalhe a palavra</a>!"
 );
 $PLURAL_FORMS = "nplurals=2; plural=(n != 1);";
