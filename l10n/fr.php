@@ -1,7 +1,7 @@
 <?php
 $TRANSLATIONS = array(
 "A safe home for all your data" => "Un endroit sûr pour toutes vos données",
-"Access & share your files, calendars, contacts, mail & more from any device, on your terms" => "Consultez et partagez vos fichiers, calendriers, carnets d'adresses, emails et bien plus. Depuis les appareils de votre choix, sous vos conditions.",
+"Access & share your files, calendars, contacts, mail & more from any device, on your terms" => "Consultez et partagez vos fichiers, calendriers, carnets d'adresses, emails et bien plus depuis les appareils de votre choix, sous vos conditions.",
 "Get the apps to sync your files" => "Obtenez les applications vous permettant de synchroniser vos fichiers",
 "Desktop client" => "Client de bureau",
 "Android app" => "Application Android",
