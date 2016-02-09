@@ -12,16 +12,16 @@
 
 <h2><?php p($l->t('Get the apps to sync your files'));?></h2>
 <a target="_blank" href="<?php p($_['clients']['desktop']); ?>">
-	<img src="<?php print_unescaped(OCP\Util::imagePath('core', 'desktopapp.png')); ?>"
+	<img src="<?php print_unescaped(OCP\Util::imagePath('core', 'desktopapp.svg')); ?>"
 		alt="<?php p($l->t('Desktop client'));?>" />
 </a>
 <a target="_blank" href="<?php p($_['clients']['android']); ?>">
-	<img src="<?php print_unescaped(OCP\Util::imagePath('core', 'googleplay.png')); ?>"
-		alt="<?php p($l->t('Android app'));?>" />
+	<img src="<?php print_unescaped(OCP\Util::imagePath('core', 'googleplay.svg')); ?>"
+		alt="<?php p($l->t('Android app'));?>" style="height:60px"/>
 </a>
 <a target="_blank" href="<?php p($_['clients']['ios']); ?>">
-	<img src="<?php print_unescaped(OCP\Util::imagePath('core', 'appstore.png')); ?>"
-		alt="<?php p($l->t('iOS app'));?>" />
+	<img src="<?php print_unescaped(OCP\Util::imagePath('core', 'appstore.svg')); ?>"
+		alt="<?php p($l->t('iOS app'));?>" style="height:60px"/>
 </a>
 
 <?php if ($_['edition'] === ''): ?>
