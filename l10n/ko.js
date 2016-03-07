@@ -1,6 +1,8 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "A safe home for all your data" : "내 모든 데이터 안전 저장소",
+    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "내 파일, 달력, 연락처, 이메일을 내가 원하는 모든 장소에서 접근하고 공유하기",
     "Get the apps to sync your files" : "파일 동기화 앱 가져오기",
     "Desktop client" : "데스크톱 클라이언트",
     "Android app" : "Android 앱",
