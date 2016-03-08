@@ -10,6 +10,7 @@ The First run wizard can be customized to meet specific design goals, or to chan
 	<dependencies>
 		<owncloud min-version="9.0" max-version="9.1" />
 	</dependencies>
+	<version>1.1</version>
 	<shipped>true</shipped>
 	<default_enable/>
 	<ocsid>166055</ocsid>
