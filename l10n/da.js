@@ -1,6 +1,8 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "A safe home for all your data" : "Et sikkert sted til dine data",
+    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Få adgang og giv andre adgang til dine filer, kalendere, kontakter, emails med mere, fra enhver enhed og på dine betingelser",
     "Get the apps to sync your files" : "Hent applikationerne for at synkronisere dine filer",
     "Desktop client" : "Skrivebordsklient",
     "Android app" : "Android-app",
