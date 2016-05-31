@@ -59,7 +59,7 @@
 	and <a href="http://owncloud.org/promote"
 		target="_blank">spread the word</a>!')); ?>
 <?php else: ?>
-© 2011-<?php p(date('Y')) ?> <a href="https://owncloud.com" target="_blank">ownCloud Inc.</a>
+<?php p(date('Y')) ?> <a href="<?php p($theme->getBaseUrl()); ?>" target="_blank"><?php p($theme->getEntity()); ?></a>
 <?php endif; ?>
 </p>
 
