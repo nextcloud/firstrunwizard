@@ -1,6 +1,7 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "A safe home for all your data" : "Bezpieczne miejsce dla wszystkich Twoich informacji",
     "Get the apps to sync your files" : "Pobierz aplikacje aby zsynchronizować swoje pliki",
     "Desktop client" : "Klient na komputer",
     "Android app" : "Aplikacja Android",
