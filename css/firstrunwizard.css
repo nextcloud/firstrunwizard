@@ -32,12 +32,13 @@
 #firstrunwizard h1 {
 	font-size: 40px;
 	font-weight: 300;
-	line-height: 100%;
+	line-height: 120%;
 	padding: 0 0 10px
 }
 
 #firstrunwizard h2 {
 	margin: 35px 0 10px;
+	line-height: 120%;
 }
 
 #firstrunwizard .appsmall {
