@@ -1,13 +1,41 @@
 #firstrunwizard {
-	margin: 12px;
 	text-align: center;
+}
+
+#cboxLoadedContent {
+	border-radius: 3px;
+}
+
+#firstrunwizard .firstrunwizard-header {
+	height: 220px;
+	padding-top: 20px;
+	width: 100%;
+	background-color: #0082c9;
+	background-image: url('../../../core/img/background.jpg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+#firstrunwizard .firstrunwizard-header .logo {
+	background-image: url('../../../core/img/logo-icon.svg');
+	background-repeat: no-repeat;
+	background-size: 175px;
+	background-position: center;
+	width: 252px;
+	height: 120px;
+	margin: 0 auto;
+}
+
+#firstrunwizard .firstrunwizard-content {
+	margin: 12px;
 }
 
 #firstrunwizard h1 {
 	font-size: 40px;
 	font-weight: 300;
-	line-height: 130%;
-	margin: 50px 0 20px;
+	line-height: 100%;
+	padding: 0 0 10px
 }
 
 #firstrunwizard h2 {
@@ -32,6 +60,7 @@
 
 #firstrunwizard p a {
 	font-weight: bold;
+	color: #0082c9;
 }
 #firstrunwizard p a:hover,
 #firstrunwizard p a:focus {
@@ -45,5 +74,5 @@
 	position: absolute;
 	top: 0;
 	right: 0;
-	padding: 20px;
+	padding: 10px;
 }

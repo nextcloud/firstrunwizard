@@ -1,14 +1,25 @@
 <div id="firstrunwizard">
 
+<div class="firstrunwizard-header">
+
 <a id="closeWizard" class="close">
-	<img class="svg" src="<?php print_unescaped(OCP\Util::imagePath('core', 'actions/close.svg')); ?>">
+	<img class="svg" src="<?php print_unescaped(OCP\Util::imagePath('core', 'actions/view-close.svg')); ?>">
 </a>
+<div class="logo">
+	<p class="hidden-visually">
+		<?php p($theme->getName()); ?>
+	</p>
+</div>
 <h1><?php p($l->t('A safe home for all your data')); ?></h1>
 <?php if ($_['edition'] === ''): ?>
 <p><?php p($l->t('Access & share your files, calendars, contacts, mail & more from any device, on your terms'));?></p>
 <?php else: ?>
 <p><?php p($theme->getSlogan()); ?></p>
 <?php endif; ?>
+
+</div>
+
+<div class="firstrunwizard-content">
 
 <h2><?php p($l->t('Get the apps to sync your files'));?></h2>
 <a target="_blank" href="<?php p($_['clients']['desktop']); ?>">
