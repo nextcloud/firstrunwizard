@@ -14,6 +14,8 @@
 <h1><?php p($_['slogan']); ?></h1>
 <p><?php p($l->t('Access & share your files, calendars, contacts, mail & more from any device, on your terms'));?></p>
 
+</div>
+
 <div class="firstrunwizard-content">
 
 <h2><?php p($l->t('Get the apps to sync your files'));?></h2>
