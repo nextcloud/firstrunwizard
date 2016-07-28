@@ -66,4 +66,25 @@ class Util {
 			'ios'     => $this->config->getSystemValue('customclient_ios', $this->defaults->getiOSClientUrl())
 		);
 	}
+
+	/**
+	 * @return string
+	 */
+	public function getSlogan() {
+		return $this->defaults->getSlogan();
+	}
+
+	/**
+	 * @return string
+	 */
+	public function getUrl() {
+		return $this->defaults->getBaseUrl();
+	}
+
+	/**
+	 * @return string
+	 */
+	public function getDocumentationUrl() {
+		return $this->defaults->getDocBaseUrl();
+	}
 }
