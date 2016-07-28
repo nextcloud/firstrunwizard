@@ -1,10 +1,10 @@
 function showfirstrunwizard(){
 	$.colorbox({
-		opacity:0.4, 
-		transition:"elastic", 
-		speed:100, 
-		width:"70%", 
-		height:"70%", 
+		opacity: 0.7,
+		transition: 'elastic',
+		speed: 100,
+		width: '80%',
+		height: '80%',
 		href: OC.filePath('firstrunwizard', '', 'wizard.php'),
 		onComplete : function(){
 			if (!SVGSupport()) {
@@ -16,14 +16,14 @@ function showfirstrunwizard(){
 			url: OC.filePath('firstrunwizard', 'ajax', 'disable.php'),
 			data: ""
 			});
-		}  
+		}
 	});
 }
 
-$('#showWizard').live('click', function () {	
+$('#showWizard').live('click', function () {
 	showfirstrunwizard();
 });
 
-$('#closeWizard').live('click', function () {	
+$('#closeWizard').live('click', function () {
 		$.colorbox.close();
 });
