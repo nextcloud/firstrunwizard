@@ -11,11 +11,7 @@
 	</p>
 </div>
 <h1><?php p($l->t('A safe home for all your data')); ?></h1>
-<?php if ($_['edition'] === ''): ?>
 <p><?php p($l->t('Access & share your files, calendars, contacts, mail & more from any device, on your terms'));?></p>
-<?php else: ?>
-<p><?php p($theme->getSlogan()); ?></p>
-<?php endif; ?>
 
 </div>
 
