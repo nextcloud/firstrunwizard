@@ -40,4 +40,7 @@ $tmpl = new Template('firstrunwizard', 'wizard', '');
 $tmpl->assign('logo', CoreUtil::linkTo('core','img/logo-inverted.svg'));
 $tmpl->assign('clients', $util->getSyncClientUrls());
 $tmpl->assign('edition', $util->getEdition());
+$tmpl->assign('slogan', $util->getSlogan());
+$tmpl->assign('url', $util->getUrl());
+$tmpl->assign('documentation', $util->getDocumentationUrl());
 $tmpl->printPage();

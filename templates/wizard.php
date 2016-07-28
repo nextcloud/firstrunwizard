@@ -10,10 +10,9 @@
 		<?php p($theme->getName()); ?>
 	</p>
 </div>
-<h1><?php p($l->t('A safe home for all your data')); ?></h1>
-<p><?php p($l->t('Access & share your files, calendars, contacts, mail & more from any device, on your terms'));?></p>
 
-</div>
+<h1><?php p($_['slogan']); ?></h1>
+<p><?php p($l->t('Access & share your files, calendars, contacts, mail & more from any device, on your terms'));?></p>
 
 <div class="firstrunwizard-content">
 
@@ -56,7 +55,7 @@
 </a>
 
 <p class="footnote">
-<?php print_unescaped($l->t('There’s more information in the <a target="_blank" href="%s">documentation</a> and on our <a target="_blank" href="https://nextcloud.com">website</a>.', array(link_to_docs('user_manual')))); ?><br>
+<?php print_unescaped($l->t('There’s more information in the <a target="_blank" href="%s">documentation</a> and on our <a target="_blank" href="%s">website</a>.', array($_['documentation'], $_['url']))); ?><br>
 <?php print_unescaped($l->t('If you like Nextcloud,
 	<a href="mailto:?subject=Nextcloud
 		&body=Nextcloud is a great open software to sync and share your files.
