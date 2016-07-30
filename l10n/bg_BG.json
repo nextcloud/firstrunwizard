@@ -7,7 +7,6 @@
     "Connect your Calendar" : "Свържете календара си",
     "Connect your Contacts" : "Свържете контактите си",
     "Documentation" : "Документация",
-    "Access files via WebDAV" : "Достъп до файловете Ви чрез WebDAV",
-    "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"http://owncloud.org\">website</a>." : "Повече информация в <a target=\"_blank\" href=\"%s\">документацията</a> и на нашата <a target=\"_blank\" href=\"http://owncloud.org\">интернет страница</a>."
+    "Access files via WebDAV" : "Достъп до файловете Ви чрез WebDAV"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

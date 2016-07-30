@@ -8,7 +8,6 @@ $TRANSLATIONS = array(
 "Connect your Calendar" => "Öz kalendarınıza qoşulun",
 "Connect your Contacts" => "Əlaqələri qoşun",
 "Documentation" => "Sənədlər",
-"Access files via WebDAV" => "Fayllara WebDAV ilə yetki",
-"There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"http://owncloud.org\">website</a>." => "Orda çoxlu informasiya var <a target=\"_blank\" href=\"%s\">sənədləşmədə</a> və bizim <a target=\"_blank\" href=\"http://owncloud.org\">web səhifədə</a>."
+"Access files via WebDAV" => "Fayllara WebDAV ilə yetki"
 );
 $PLURAL_FORMS = "nplurals=2; plural=(n != 1);";
