@@ -9,6 +9,8 @@ $TRANSLATIONS = array(
 "Connect your Calendar" => "Подключите свой календарь",
 "Connect your Contacts" => "Подключите свои контакты",
 "Documentation" => "Документация",
-"Access files via WebDAV" => "Доступ к файлам через WebDAV"
+"Access files via WebDAV" => "Доступ к файлам через WebDAV",
+"There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." => "Дополнительная информация в <a target=\"_blank\" href=\"%s\">документации</a> и на нашем <a target=\"_blank\" href=\"%s\">веб-сайте</a>.",
+"If you like Nextcloud,\n\t<a href=\"mailto:?subject=Nextcloud\n\t\t&body=Nextcloud is a great open software to sync and share your files.\n\t\tYou can freely get it from https://nextcloud.com\">\n\t\trecommend it to your friends</a>\n\tand <a href=\"https://nextcloud.com/contribute/\"\n\t\ttarget=\"_blank\">contribute back</a>!" => "Если вам нравится Nextcloud,\n⇥<a href=\"mailto:?subject=Nextcloud\n⇥⇥&body=Nextcloud is a great open software to sync and share your files.\n⇥⇥You can freely get it from https://nextcloud.com\">\n⇥⇥порекомендуйте его своим друзьям</a>\n⇥и <a href=\"https://nextcloud.com/contribute/\"\n⇥⇥target=\"_blank\">возвращайтесь</a>!"
 );
 $PLURAL_FORMS = "nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);";
