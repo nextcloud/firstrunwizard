@@ -9,6 +9,7 @@ $TRANSLATIONS = array(
 "Connect your Calendar" => "Yhdistä kalenteriisi",
 "Connect your Contacts" => "Yhdistä yhteystietoihisi",
 "Documentation" => "Dokumentaatio",
-"Access files via WebDAV" => "Käytä tiedostoja WebDAVin välityksellä"
+"Access files via WebDAV" => "Käytä tiedostoja WebDAVin välityksellä",
+"If you like Nextcloud,\n\t<a href=\"mailto:?subject=Nextcloud\n\t\t&body=Nextcloud is a great open software to sync and share your files.\n\t\tYou can freely get it from https://nextcloud.com\">\n\t\trecommend it to your friends</a>\n\tand <a href=\"https://nextcloud.com/contribute/\"\n\t\ttarget=\"_blank\">contribute back</a>!" => "Jos pidät Nextcloud:sta,\n\t<a href=\"mailto:?subject=Nextcloud\n\t\t&body=Nextcloud on mahtava avoin ohjelmisto tiedostojesi synkronointiin ja jakoon.\n\t\tSaat sen vapaasti osoitteesta https://nextcloud.com\">\n\t\tsuosittele sitä ystävillesi</a>\n\tja <a href=\"https://nextcloud.com/contribute/\"\n\t\ttarget=\"_blank\">osallistu</a>!"
 );
 $PLURAL_FORMS = "nplurals=2; plural=(n != 1);";
