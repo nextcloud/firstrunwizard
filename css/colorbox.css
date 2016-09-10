@@ -34,5 +34,5 @@
         #cboxNext:hover{background-position:bottom right;}
         #cboxLoadingOverlay{background:#fff;}
         #cboxLoadingGraphic{background:none;}
-        #cboxClose{position:absolute; top:5px; right:5px; display:block; background:none; width:38px; height:19px; text-indent:-9999px;}
+        #cboxClose{position:absolute; top:5px; right:5px; display:block; background:none; width:38px; height:19px; text-indent:-9999px; border:none;}
         #cboxClose:hover{background-position:bottom center;}
