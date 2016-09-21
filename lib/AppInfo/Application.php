@@ -45,6 +45,10 @@ class Application extends App {
 	}
 
 	protected function registerScripts() {
+		if (\OC::$CLI) {
+			return;
+		}
+
 		/** @var EventDispatcherInterface $dispatcher */
 		$dispatcher = $this->getContainer()->query(EventDispatcherInterface::class);
 
