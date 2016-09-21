@@ -37,4 +37,17 @@ $firstRunConfig = new Config($config, $userSession);
 
 if ($userSession->isLoggedIn() && $firstRunConfig->isEnabled()) {
 	Util::addScript( 'firstrunwizard', 'activate');
+
+	$jobList = \OC::$server->getJobList();
+	$jobList->add('OCA\FirstRunWizard\Notification\BackgroundJob', ['uid' => $userSession->getUser()->getUID()]);
 }
+
+\OC::$server->getNotificationManager()->registerNotifier(function() {
+	return \OC::$server->query('OCA\FirstRunWizard\Notification\Notifier');
+}, function() {
+	$l = \OC::$server->getL10NFactory()->get('firstrunwizard');
+	return [
+		'id' => 'firstrunwizard',
+		'name' => $l->t('First run wizard'),
+	];
+});
