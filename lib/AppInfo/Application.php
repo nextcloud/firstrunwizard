@@ -25,7 +25,13 @@ namespace OCA\FirstRunWizard\AppInfo;
 
 use OCA\FirstRunWizard\Notification\Notifier;
 use OCP\AppFramework\App;
+use OCP\IConfig;
 use OCP\IL10N;
+use OCP\IRequest;
+use OCP\IUser;
+use OCP\IUserSession;
+use OCP\Util;
+use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 
 class Application extends App {
 
@@ -34,7 +40,42 @@ class Application extends App {
 	}
 
 	public function register() {
+		$this->registerScripts();
 		$this->registerNotificationNotifier();
+	}
+
+	protected function registerScripts() {
+		/** @var EventDispatcherInterface $dispatcher */
+		$dispatcher = $this->getContainer()->query(EventDispatcherInterface::class);
+
+		// Display the first run wizard only on the files app,
+		$dispatcher->addListener('OCA\Files::loadAdditionalScripts', function() {
+			/** @var IUserSession $userSession */
+			$userSession = $this->getContainer()->query(IUserSession::class);
+			$user = $userSession->getUser();
+
+			if (!$user instanceof IUser) {
+				return;
+			}
+
+			/** @var IConfig $config */
+			$config = $this->getContainer()->query(IConfig::class);
+
+			if ($config->getUserValue($user->getUID(), 'firstrunwizard', 'show', '1') !== '0') {
+				style('firstrunwizard', ['colorbox', 'firstrunwizard']);
+				script('firstrunwizard', ['jquery.colorbox', 'firstrunwizard', 'activate']);
+			}
+		});
+
+		/** @var IRequest $request */
+		$request = $this->getContainer()->query(IRequest::class);
+		// Allow to enable the first run wizard with the button on the personal page
+		if (strpos($request->getPathInfo(), '/settings/personal') === 0) {
+			Util::addStyle('firstrunwizard', 'colorbox');
+			Util::addStyle('firstrunwizard', 'firstrunwizard');
+			Util::addScript('firstrunwizard', 'jquery.colorbox');
+			Util::addScript('firstrunwizard', 'firstrunwizard');
+		}
 	}
 
 	protected function registerNotificationNotifier() {

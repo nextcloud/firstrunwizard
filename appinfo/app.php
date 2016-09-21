@@ -1,9 +1,8 @@
 <?php
 /**
- * @copyright 2012 Frank Karlitschek karlitschek@kde.org
+ * @copyright Copyright (c) 2016, Joas Schilling <coding@schilljs.com>
  *
- * @author Georg Ehrke <georg@owncloud.com>
- * @author Lukas Reschke <lukas@statuscode.ch>
+ * @author Joas Schilling <coding@schilljs.com>
  *
  * @license GNU AGPL version 3 or any later version
  *
@@ -21,26 +20,6 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-namespace OCA\FirstRunWizard;
 
-use OCA\FirstRunWizard\AppInfo\Application;
-use OCP\Util;
-
-Util::addStyle('firstrunwizard', 'colorbox');
-Util::addScript('firstrunwizard', 'jquery.colorbox');
-Util::addScript('firstrunwizard', 'firstrunwizard');
-
-Util::addStyle('firstrunwizard', 'firstrunwizard');
-
-$config = \OC::$server->getConfig();
-$userSession = \OC::$server->getUserSession();
-
-if ($userSession->isLoggedIn() && $config->getUserValue($userSession->getUser()->getUID(), 'firstrunwizard', 'show', 1) === 1) {
-	Util::addScript( 'firstrunwizard', 'activate');
-
-	$jobList = \OC::$server->getJobList();
-	$jobList->add('OCA\FirstRunWizard\Notification\BackgroundJob', ['uid' => $userSession->getUser()->getUID()]);
-}
-
-$app = new Application();
+$app = new \OCA\FirstRunWizard\AppInfo\Application();
 $app->register();
