@@ -5,11 +5,11 @@ function showfirstrunwizard(){
 		speed: 100,
 		width: '80%',
 		height: '80%',
-		href: OC.filePath('firstrunwizard', '', 'wizard.php'),
+		href: OC.generateUrl('/apps/firstrunwizard/wizard'),
 		onClosed : function(){
 			$.ajax({
-			url: OC.filePath('firstrunwizard', 'ajax', 'disable.php'),
-			data: ""
+				url: OC.generateUrl('/apps/firstrunwizard/wizard'),
+				type: 'delete'
 			});
 		}
 	});

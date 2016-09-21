@@ -33,9 +33,8 @@ Util::addStyle('firstrunwizard', 'firstrunwizard');
 
 $config = \OC::$server->getConfig();
 $userSession = \OC::$server->getUserSession();
-$firstRunConfig = new Config($config, $userSession);
 
-if ($userSession->isLoggedIn() && $firstRunConfig->isEnabled()) {
+if ($userSession->isLoggedIn() && $config->getUserValue($userSession->getUser()->getUID(), 'firstrunwizard', 'show', 1) === 1) {
 	Util::addScript( 'firstrunwizard', 'activate');
 
 	$jobList = \OC::$server->getJobList();
