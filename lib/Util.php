@@ -29,10 +29,13 @@ use OCP\IConfig;
 
 class Util {
 
+	/** @var IAppManager */
 	protected $appManager;
 
+	/** @var IConfig */
 	protected $config;
 
+	/** @var Defaults */
 	protected $defaults;
 
 	/**
