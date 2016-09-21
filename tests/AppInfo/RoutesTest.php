@@ -21,20 +21,25 @@
  *
  */
 
-if (!defined('PHPUNIT_RUN')) {
-	define('PHPUNIT_RUN', 1);
+namespace OCA\FirstRunWizard\Tests\AppInfo;
+
+use Test\TestCase;
+
+/**
+ * Class RoutesTest
+ *
+ * @package OCA\FirstRunWizard\Tests\AppInfo
+ */
+class RoutesTest extends TestCase  {
+	public function testRoutes() {
+		$routes = include(__DIR__ . '/../../appinfo/routes.php');
+		$this->assertInternalType('array', $routes);
+		$this->assertCount(1, $routes);
+		$this->assertArrayHasKey('routes', $routes);
+		$this->assertInternalType('array', $routes['routes']);
+		$this->assertSame([
+			['name' => 'Wizard#show', 'url' => '/wizard', 'verb' => 'GET'],
+			['name' => 'Wizard#disable', 'url' => '/wizard', 'verb' => 'DELETE'],
+		], $routes['routes']);
+	}
 }
-
-require_once __DIR__.'/../../../lib/base.php';
-
-// Fix for "Autoload path not allowed: .../tests/lib/testcase.php"
-\OC::$loader->addValidRoot(OC::$SERVERROOT . '/tests');
-
-// Fix for "Autoload path not allowed: .../firstrunwizard/*.php"
-\OC_App::loadApp('firstrunwizard');
-
-if(!class_exists('PHPUnit_Framework_TestCase')) {
-	require_once('PHPUnit/Autoload.php');
-}
-
-OC_Hook::clear();

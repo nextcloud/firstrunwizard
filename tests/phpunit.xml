@@ -6,16 +6,14 @@
 		 timeoutForLargeTests="900"
 		>
 	<testsuite name='FirstRunWizard App Tests'>
-		<directory suffix='test.php'>.</directory>
+		<directory suffix='Test.php'>.</directory>
 	</testsuite>
 	<!-- filters for code coverage -->
 	<filter>
 		<whitelist>
-			<directory suffix=".php">../firstrunwizard</directory>
-			<exclude>
-				<directory suffix=".php">../firstrunwizard/l10n</directory>
-				<directory suffix=".php">../firstrunwizard/tests</directory>
-			</exclude>
+			<directory suffix=".php">../../firstrunwizard/appinfo</directory>
+			<directory suffix=".php">../../firstrunwizard/lib</directory>
+			<directory suffix=".php">../../firstrunwizard/template</directory>
 		</whitelist>
 	</filter>
 	<logging>
