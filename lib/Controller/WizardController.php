@@ -27,15 +27,11 @@ use OCP\AppFramework\Http\DataResponse;
 use OCP\AppFramework\Http\TemplateResponse;
 use OCP\IConfig;
 use OCP\IRequest;
-use OCP\IURLGenerator;
 
 class WizardController extends Controller  {
 
 	/** @var IConfig */
 	protected $config;
-
-	/** @var IURLGenerator */
-	protected $urlGenerator;
 
 	/** @var string */
 	protected $userId;
@@ -44,14 +40,12 @@ class WizardController extends Controller  {
 	 * @param string $appName
 	 * @param IRequest $request
 	 * @param IConfig $config
-	 * @param IURLGenerator $urlGenerator
 	 * @param string $userId
 	 */
-	public function __construct($appName, IRequest $request, IConfig $config, IURLGenerator $urlGenerator, $userId) {
+	public function __construct($appName, IRequest $request, IConfig $config, $userId) {
 		parent::__construct($appName, $request);
 
 		$this->config = $config;
-		$this->urlGenerator = $urlGenerator;
 		$this->userId = $userId;
 	}
 
@@ -71,15 +65,9 @@ class WizardController extends Controller  {
 	public function show() {
 		$theming = \OC::$server->getThemingDefaults();
 		return new TemplateResponse('firstrunwizard', 'wizard', [
-			'logo' => $this->urlGenerator->linkTo('core','img/logo-inverted.svg'),
-			'clients' => [
-				'desktop' => $this->config->getSystemValue('customclient_desktop', $theming->getSyncClientUrl()),
-				'android' => $this->config->getSystemValue('customclient_android', $theming->getAndroidClientUrl()),
-				'ios'     => $this->config->getSystemValue('customclient_ios', $theming->getiOSClientUrl())
-			],
-			'slogan' => $theming->getSlogan(),
-			'url' => $theming->getBaseUrl(),
-			'documentation' => $theming->getDocBaseUrl(),
+			'desktop'      => $this->config->getSystemValue('customclient_desktop', $theming->getSyncClientUrl()),
+			'android'      => $this->config->getSystemValue('customclient_android', $theming->getAndroidClientUrl()),
+			'ios'          => $this->config->getSystemValue('customclient_ios', $theming->getiOSClientUrl()),
 		], '');
 	}
 }

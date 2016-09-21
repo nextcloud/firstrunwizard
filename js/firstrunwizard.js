@@ -1,4 +1,4 @@
-function showfirstrunwizard(){
+function showFirstRunWizard(){
 	$.colorbox({
 		opacity: 0.7,
 		transition: 'elastic',
@@ -6,7 +6,7 @@ function showfirstrunwizard(){
 		width: '80%',
 		height: '80%',
 		href: OC.generateUrl('/apps/firstrunwizard/wizard'),
-		onClosed : function(){
+		onClosed : function() {
 			$.ajax({
 				url: OC.generateUrl('/apps/firstrunwizard/wizard'),
 				type: 'delete'
@@ -15,10 +15,12 @@ function showfirstrunwizard(){
 	});
 }
 
-$('#showWizard').live('click', function () {
-	showfirstrunwizard();
-});
+$(document).ready(function() {
+	$('#showWizard').live('click', function () {
+		showFirstRunWizard();
+	});
 
-$('#closeWizard').live('click', function () {
+	$('#closeWizard').live('click', function () {
 		$.colorbox.close();
+	});
 });
