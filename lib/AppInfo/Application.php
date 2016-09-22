@@ -70,6 +70,9 @@ class Application extends App {
 			if ($config->getUserValue($user->getUID(), 'firstrunwizard', 'show', '1') !== '0') {
 				style('firstrunwizard', ['colorbox', 'firstrunwizard']);
 				script('firstrunwizard', ['jquery.colorbox', 'firstrunwizard', 'activate']);
+
+				$jobList = $this->getContainer()->getServer()->getJobList();
+				$jobList->add('OCA\FirstRunWizard\Notification\BackgroundJob', ['uid' => $userSession->getUser()->getUID()]);
 			}
 		});
 
