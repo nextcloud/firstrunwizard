@@ -63,22 +63,22 @@ class Notifier implements INotifier {
 			throw new \InvalidArgumentException();
 		}
 
-		$user = $this->userManager->get($notification->getUser());
-		if (
-			(!$user->canChangeDisplayName() || $user->getDisplayName()) &&
-			$user->getDisplayName() &&
-			(!$user->canChangeAvatar() || $user->getAvatarImage(32) !== null)
-		) {
-			// Everything done, mark the notification as processed...
-			$this->notificationManager->markProcessed($notification);
-			throw new \InvalidArgumentException();
-		}
-
-		// Read the language from the notification
-		$l = $this->factory->get('firstrunwizard', $languageCode);
-
 		switch ($notification->getSubject()) {
 			case 'profile':
+				$user = $this->userManager->get($notification->getUser());
+				if (
+					(!$user->canChangeDisplayName() || $user->getDisplayName()) &&
+					$user->getEMailAddress() &&
+					(!$user->canChangeAvatar() || $user->getAvatarImage(32) !== null)
+				) {
+					// Everything done, mark the notification as processed...
+					$this->notificationManager->markProcessed($notification);
+					throw new \InvalidArgumentException();
+				}
+
+				// Read the language from the notification
+				$l = $this->factory->get('firstrunwizard', $languageCode);
+
 				$notification->setParsedSubject(
 					$l->t('Add your profile information! :) For example your email is needed to reset your password.')
 				);
