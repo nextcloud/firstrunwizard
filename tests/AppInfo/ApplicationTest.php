@@ -31,6 +31,7 @@ use OCA\FirstRunWizard\Notification\Notifier;
 use OCP\AppFramework\App;
 use OCP\AppFramework\Controller;
 use OCP\BackgroundJob\IJob;
+use OCP\Notification\IManager;
 use OCP\Notification\INotifier;
 use Test\TestCase;
 
@@ -47,15 +48,9 @@ class ApplicationTest extends TestCase {
 	/** @var \OCP\AppFramework\IAppContainer */
 	protected $container;
 
-	protected function setUp() {
-		parent::setUp();
-		$this->app = new Application();
-		$this->container = $this->app->getContainer();
-	}
-
 	public function testContainerAppName() {
-		$this->app = new Application();
-		$this->assertEquals('firstrunwizard', $this->container->getAppName());
+		$app = new Application();
+		$this->assertEquals('firstrunwizard', $app->getContainer()->getAppName());
 	}
 
 	public function dataContainerQuery() {
@@ -80,6 +75,65 @@ class ApplicationTest extends TestCase {
 	 * @param string $expected
 	 */
 	public function testContainerQuery($service, $expected) {
-		$this->assertTrue($this->container->query($service) instanceof $expected);
+		$app = new Application();
+		$this->assertInstanceOf($expected, $app->getContainer()->query($service));
+	}
+
+	public function dataRegister() {
+		return [
+			[false, true],
+			[true, false],
+		];
+	}
+
+	/**
+	 * @dataProvider dataRegister
+	 * @param bool $isCLI
+	 * @param bool $register
+	 */
+	public function testRegister($isCLI, $register) {
+		/** @var Application|\PHPUnit_Framework_MockObject_MockObject $app */
+		$app = $this->getMockBuilder(Application::class)
+			->disableOriginalConstructor()
+			->setMethods([
+				'registerScripts',
+				'registerNotificationNotifier',
+			])
+			->getMock();
+
+		if ($register) {
+			$app->expects($this->once())
+				->method('registerScripts');
+			$app->expects($this->once())
+				->method('registerNotificationNotifier');
+		} else {
+			$app->expects($this->never())
+				->method('registerScripts');
+			$app->expects($this->never())
+				->method('registerNotificationNotifier');
+		}
+
+		$this->invokePrivate($app, 'isCLI', [$isCLI]);
+		$app->register();
+	}
+
+	public function testRegisterNotifier() {
+		$app = new Application();
+
+		$manager = $this->createMock(IManager::class);
+		$manager->expects($this->once())
+			->method('registerNotifier')
+			->willReturnCallback(function($service, $info) {
+				$this->assertInstanceOf(\Closure::class, $service);
+				$this->assertInstanceOf(INotifier::class, $service());
+
+				$this->assertInstanceOf(\Closure::class, $info);
+				$data = $info();
+				$this->assertArrayHasKey('id', $data);
+				$this->assertArrayHasKey('name', $data);
+			});
+
+		$this->overwriteService('NotificationManager', $manager);
+		$this->invokePrivate($app, 'registerNotificationNotifier');
 	}
 }

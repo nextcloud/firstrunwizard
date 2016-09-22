@@ -35,20 +35,22 @@ use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 
 class Application extends App {
 
+	/** @var bool */
+	protected $isCLI;
+
 	public function __construct() {
 		parent::__construct('firstrunwizard');
+		$this->isCLI = \OC::$CLI;
 	}
 
 	public function register() {
-		$this->registerScripts();
-		$this->registerNotificationNotifier();
+		if (!$this->isCLI) {
+			$this->registerScripts();
+			$this->registerNotificationNotifier();
+		}
 	}
 
 	protected function registerScripts() {
-		if (\OC::$CLI) {
-			return;
-		}
-
 		/** @var EventDispatcherInterface $dispatcher */
 		$dispatcher = $this->getContainer()->query(EventDispatcherInterface::class);
 
