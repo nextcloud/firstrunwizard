@@ -62,13 +62,7 @@
 
 <p class="footnote">
 <?php print_unescaped($l->t('There’s more information in the <a target="_blank" href="%s">documentation</a> and on our <a target="_blank" href="%s">website</a>.', array($theme->getDocBaseUrl(), $theme->getBaseUrl()))); ?><br>
-<?php print_unescaped($l->t('If you like Nextcloud,
-	<a href="mailto:?subject=Nextcloud
-		&body=Nextcloud is a great open software to sync and share your files.
-		You can freely get it from https://nextcloud.com">
-		recommend it to your friends</a>
-	and <a href="https://nextcloud.com/contribute/"
-		target="_blank">contribute back</a>!')); ?>
+<?php print_unescaped($l->t('If you like Nextcloud, <a href="mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com"> recommend it to your friends</a> and <a href="https://nextcloud.com/contribute/" target="_blank">contribute back</a>!')); ?>
 </p>
 
 </div>
