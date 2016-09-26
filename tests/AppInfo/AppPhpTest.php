@@ -1,9 +1,8 @@
 <?php
 /**
- * @copyright 2012 Frank Karlitschek frank@owncloud.org
+ * @copyright Copyright (c) 2016, Joas Schilling <coding@schilljs.com>
  *
- * @author Georg Ehrke <georg@owncloud.com>
- * @author Lukas Reschke <lukas@statuscode.ch>
+ * @author Joas Schilling <coding@schilljs.com>
  *
  * @license GNU AGPL version 3 or any later version
  *
@@ -21,16 +20,19 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-namespace OCA\FirstRunWizard;
 
-use OCP\JSON;
+namespace OCA\FirstRunWizard\Tests\AppInfo;
 
-JSON::checkLoggedIn();
-JSON::checkAppEnabled('firstrunwizard');
-JSON::callCheck();
+use Test\TestCase;
 
-$config = \OC::$server->getConfig();
-$userSession = \OC::$server->getUserSession();
-$firstRunConfig = new Config($config, $userSession);
-
-$firstRunConfig->disable();
+/**
+ * Class AppPhpTest
+ *
+ * @package OCA\FirstRunWizard\Tests\AppInfo
+ */
+class AppPhpTest extends TestCase  {
+	public function testRoutes() {
+		$void = include(__DIR__ . '/../../appinfo/app.php');
+		$this->assertSame(1, $void); // See http://de2.php.net/manual/de/function.include.php#example-137
+	}
+}

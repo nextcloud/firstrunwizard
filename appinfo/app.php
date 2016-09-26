@@ -1,9 +1,8 @@
 <?php
 /**
- * @copyright 2012 Frank Karlitschek karlitschek@kde.org
+ * @copyright Copyright (c) 2016, Joas Schilling <coding@schilljs.com>
  *
- * @author Georg Ehrke <georg@owncloud.com>
- * @author Lukas Reschke <lukas@statuscode.ch>
+ * @author Joas Schilling <coding@schilljs.com>
  *
  * @license GNU AGPL version 3 or any later version
  *
@@ -21,20 +20,6 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-namespace OCA\FirstRunWizard;
 
-use OCP\Util;
-
-Util::addStyle('firstrunwizard', 'colorbox');
-Util::addScript('firstrunwizard', 'jquery.colorbox');
-Util::addScript('firstrunwizard', 'firstrunwizard');
-
-Util::addStyle('firstrunwizard', 'firstrunwizard');
-
-$config = \OC::$server->getConfig();
-$userSession = \OC::$server->getUserSession();
-$firstRunConfig = new Config($config, $userSession);
-
-if ($userSession->isLoggedIn() && $firstRunConfig->isEnabled()) {
-	Util::addScript( 'firstrunwizard', 'activate');
-}
+$app = new \OCA\FirstRunWizard\AppInfo\Application();
+$app->register();

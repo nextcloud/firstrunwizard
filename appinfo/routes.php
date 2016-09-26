@@ -1,8 +1,6 @@
 <?php
 /**
-
- *
- * @author Morris Jobke <hey@morrisjobke.de>
+ * @copyright Copyright (c) 2016 Joas Schilling <coding@schilljs.com>
  *
  * @license GNU AGPL version 3 or any later version
  *
@@ -21,12 +19,9 @@
  *
  */
 
-/** @var $this OC\Route\Router */
-
-$this->create('firstrunwizard_enable', 'ajax/enable.php')
-	->actionInclude('firstrunwizard/ajax/enable.php');
-$this->create('firstrunwizard_disable', 'ajax/disable.php')
-	->actionInclude('firstrunwizard/ajax/disable.php');
-$this->create('firstrunwizard_wizard', 'wizard.php')
-	->actionInclude('firstrunwizard/wizard.php');
-
+return [
+	'routes' => [
+		['name' => 'Wizard#show', 'url' => '/wizard', 'verb' => 'GET'],
+		['name' => 'Wizard#disable', 'url' => '/wizard', 'verb' => 'DELETE'],
+	],
+];
