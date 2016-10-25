@@ -9,9 +9,8 @@ OC.L10N.register(
     "Connect your desktop apps to %s" : "اربط تطبيقات نظامك بـ %s",
     "Connect your Calendar" : "ربط التقويم",
     "Connect your Contacts" : "ربط جهات الاتصال",
-    "Documentation" : "التوثيق",
     "Access files via WebDAV" : "دخول الملفات باستخدام WebDAV",
-    "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "هناك المزيد من المعلومات على  <a target=\"_blank\" href=\"%s\">الوثائق</a> وعلى <a target=\"_blank\" href=\"%s\">الموقع</a>.",
-    "If you like Nextcloud,\n\t<a href=\"mailto:?subject=Nextcloud\n\t\t&body=Nextcloud is a great open software to sync and share your files.\n\t\tYou can freely get it from https://nextcloud.com\">\n\t\trecommend it to your friends</a>\n\tand <a href=\"https://nextcloud.com/contribute/\"\n\t\ttarget=\"_blank\">contribute back</a>!" : "اذا اعجبك Nextcloud,\n\t<a href=\"mailto:?subject=Nextcloud\n\t\t&body=Nextcloud هو برنامج مفتوح المصدر لمزامنة ومشاركة ملفاتك.\n\t\tيمكن الحصول عليه بشكل مجاني https://nextcloud.com\">\n\t\tإنصح أحد أصدقائك به</a>\n\tو <a href=\"https://nextcloud.com/contribute/\"\n\t\ttarget=\"_blank\">ساهم معنا</a>!"
+    "Documentation" : "التوثيق",
+    "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "هناك المزيد من المعلومات على  <a target=\"_blank\" href=\"%s\">الوثائق</a> وعلى <a target=\"_blank\" href=\"%s\">الموقع</a>."
 },
 "nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;");
