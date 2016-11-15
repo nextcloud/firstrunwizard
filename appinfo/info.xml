@@ -19,4 +19,5 @@ The First run wizard can be customized to meet specific design goals, or to chan
 
 	<namespace>FirstRunWizard</namespace>
 	<version>2.0</version>
+	<default_enable/>
 </info>
