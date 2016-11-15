@@ -56,9 +56,6 @@
 		src="<?php p(image_path('files', 'folder.svg')); ?>" />
 	<?php p($l->t('Access files via WebDAV'));?>
 </a>
-<a target="_blank" class="button" href="<?php p(link_to_docs('user-manual')); ?>">
-	<img class="appsmall svg" src="<?php p(image_path('settings', 'help.svg')); ?>" /> <?php p($l->t('Documentation'));?>
-</a>
 
 <p class="footnote">
 <?php print_unescaped($l->t('There’s more information in the <a target="_blank" href="%s">documentation</a> and on our <a target="_blank" href="%s">website</a>.', array($theme->getDocBaseUrl(), $theme->getBaseUrl()))); ?><br>
