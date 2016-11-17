@@ -11,7 +11,6 @@ OC.L10N.register(
     "Connect your Calendar" : "Takviminizi bağlayın",
     "Connect your Contacts" : "Kişilerinizi bağlayın",
     "Access files via WebDAV" : "WebDAV ile dosyalarınıza erişin",
-    "Documentation" : "Belgelendirme",
     "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Daha fazla bilgiyi <a target=\"_blank\" href=\"%s\">belgelendirmelerimizde</a> ve <a target=\"_blank\" href=\"%s\">internet adresimizde</a> bulabilirsiniz."
 },
 "nplurals=2; plural=(n > 1);");

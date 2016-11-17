@@ -10,7 +10,6 @@ OC.L10N.register(
     "Connect your Calendar" : "Hubungkan Kalender Anda",
     "Connect your Contacts" : "Hubungkan Kontak Anda",
     "Access files via WebDAV" : "Akses berkas via WebDAV",
-    "Documentation" : "Dokumentasi",
     "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Tersedia informasi lainnya di <a target=\"_blank\" href=\"%s\">dokumentasi</a> dan <a target=\"_blank\" href=\"%s\">laman web</a> kami."
 },
 "nplurals=1; plural=0;");

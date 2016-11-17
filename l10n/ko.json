@@ -9,7 +9,6 @@
     "Connect your desktop apps to %s" : "내 데스크톱 앱을 %s에 연결하기",
     "Connect your Calendar" : "내 달력 연결하기",
     "Connect your Contacts" : "내 연락처 연결하기",
-    "Access files via WebDAV" : "WebDAV로 파일에 접근하기",
-    "Documentation" : "문서"
+    "Access files via WebDAV" : "WebDAV로 파일에 접근하기"
 },"pluralForm" :"nplurals=1; plural=0;"
 }

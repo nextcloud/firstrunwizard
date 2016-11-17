@@ -10,7 +10,6 @@ OC.L10N.register(
     "Connect your Calendar" : "Tengdu dagatalið þitt",
     "Connect your Contacts" : "Tengdu tengiliðalistana þína",
     "Access files via WebDAV" : "Nálgastu skrár í gegnum WebDAV",
-    "Documentation" : "Hjálparskjöl",
     "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Ítarlegri upplýsingar er að finna í <a target=\"_blank\" href=\"%s\">hjálparskjölum</a> og á <a target=\"_blank\" href=\"%s\">vefsvæðinu</a> okkar."
 },
 "nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);");

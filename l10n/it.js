@@ -12,7 +12,6 @@ OC.L10N.register(
     "Connect your Calendar" : "Connetti il tuo calendario",
     "Connect your Contacts" : "Connetti i tuoi contatti",
     "Access files via WebDAV" : "Accedi ai file tramite WebDAV",
-    "Documentation" : "Documentazione",
     "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Ulteriori informazioni sono disponibili nella <a target=\"_blank\" href=\"%s\">documentazione</a> e sul nostro <a target=\"_blank\" href=\"%s\">sito web</a>.",
     "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "Se ti piace Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud è un ottimo software libero per sincronizzare e condividere i tuoi file. Puoi ottenerlo gratuitamente da https://nextcloud.com\"> consiglialo ai tuoi amici</a>\te <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">dai il tuo contributo</a>!"
 },

@@ -10,7 +10,6 @@ OC.L10N.register(
     "Connect your Calendar" : "Συνδέστε το Ημερολόγιό σας",
     "Connect your Contacts" : "Συνδέστε τις Επαφές σας",
     "Access files via WebDAV" : "Πρόσβαση στα αρχεία μέσω WebDAV",
-    "Documentation" : "Τεκμηρίωση",
     "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Θα βρείτε περισσότερες πληροφορίες στην <a target=\"_blank\" href=\"%s\">τεκμηρίωση</a> και στην <a target=\"_blank\" href=\"%s\">ιστοσελίδα</a> μας."
 },
 "nplurals=2; plural=(n != 1);");

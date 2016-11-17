@@ -12,7 +12,6 @@ OC.L10N.register(
     "Connect your Calendar" : "連接您的日曆",
     "Connect your Contacts" : "連接您的聯絡人",
     "Access files via WebDAV" : "透過 WebDAV 存取檔案",
-    "Documentation" : "說明文件",
     "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "尚有資訊在此 <a target=\"_blank\" href=\"%s\">documentation</a> 及我們的 <a target=\"_blank\" href=\"%s\">網頁</a>."
 },
 "nplurals=1; plural=0;");

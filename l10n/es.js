@@ -12,7 +12,6 @@ OC.L10N.register(
     "Connect your Calendar" : "Conecte su calendario",
     "Connect your Contacts" : "Conecte con sus contactos",
     "Access files via WebDAV" : "Acceda a sus archivos vía WebDAV",
-    "Documentation" : "Documentación",
     "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Hay más información en <a target=\"_blank\" href=\"%s\">documentaciónn</a> y en nuestro <a target=\"_blank\" href=\"%s\">website</a>."
 },
 "nplurals=2; plural=(n != 1);");
