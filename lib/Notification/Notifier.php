@@ -80,7 +80,7 @@ class Notifier implements INotifier {
 				$l = $this->factory->get('firstrunwizard', $languageCode);
 
 				$notification->setParsedSubject(
-					$l->t('Add your profile information! :) For example your email is needed to reset your password.')
+					$l->t('Add your profile information! For example your email is needed to reset your password.')
 				);
 				return $notification;
 
