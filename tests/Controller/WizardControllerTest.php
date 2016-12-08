@@ -109,7 +109,7 @@ class WizardControllerTest extends TestCase {
 		$this->config->expects($this->exactly(3))
 			->method('getSystemValue')
 			->willReturnMap([
-				['customclient_desktop', 'https://nextcloud.com/install', $desktopUrl],
+				['customclient_desktop', 'https://nextcloud.com/install/#install-clients', $desktopUrl],
 				['customclient_android', 'https://play.google.com/store/apps/details?id=com.nextcloud.client', $androidUrl],
 				['customclient_ios', 'https://itunes.apple.com/us/app/nextcloud/id1125420102?mt=8', $iosUrl],
 			]);
