@@ -187,7 +187,7 @@ class NotifierTest extends TestCase {
 
 			$notification->expects($this->once())
 				->method('setParsedSubject')
-				->with('Add your profile information! :) For example your email is needed to reset your password.')
+				->with('Add your profile information! For example your email is needed to reset your password.')
 				->willReturnSelf();
 		}
 
