@@ -2,7 +2,6 @@ OC.L10N.register(
     "firstrunwizard",
     {
     "First run wizard" : "Első indíráskori varázsló",
-    "Add your profile information! :) For example your email is needed to reset your password." : "Add meg a profil információdat! :) Például az email szükséges a jelszó visszaállításhoz.",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Férj hozzá és oszd meg a fájljaidat, naptáradat, névjegyzéked, leveled és még sok mást bármely eszközről, a saját szabályaid alapján.",
     "Get the apps to sync your files" : "Alkalmazások a fájljaid szinkronizálásához",
     "Desktop client" : "Asztali kliens",

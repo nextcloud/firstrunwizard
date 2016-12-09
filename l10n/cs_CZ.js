@@ -2,7 +2,6 @@ OC.L10N.register(
     "firstrunwizard",
     {
     "First run wizard" : "Průvodce prvním spuštěním",
-    "Add your profile information! :) For example your email is needed to reset your password." : "Přidejte si do profilu informace! Například email je potřebný při obnově hesla.",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Přiistupujte a sdílejte své soubory, kalendáře, kontakty emaily a další z jakéhokoliv přístroje, dle vlastních podmínek",
     "Get the apps to sync your files" : "Získat aplikace pro synchronizaci souborů",
     "Desktop client" : "Aplikace pro počítač",

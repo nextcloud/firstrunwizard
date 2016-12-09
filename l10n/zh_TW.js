@@ -2,7 +2,6 @@ OC.L10N.register(
     "firstrunwizard",
     {
     "First run wizard" : "首次使用精靈",
-    "Add your profile information! :) For example your email is needed to reset your password." : "更新您的個人資訊！舉例來說，重設密碼時，我們必須知道您的 Email",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "在任何裝置存取、分享您的檔案、行事曆、聯絡人、郵件和其他更多",
     "Get the apps to sync your files" : "下載應用程式來同步您的檔案",
     "Desktop client" : "桌面客戶端",

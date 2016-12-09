@@ -2,7 +2,6 @@ OC.L10N.register(
     "firstrunwizard",
     {
     "First run wizard" : "Førstegangs veiviser",
-    "Add your profile information! :) For example your email is needed to reset your password." : "Legg til informasjon i profilen din! :) For eksempel så trenger vi e-postadressen for å kunne tilbakestille passordet ditt.",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Tilgang til dine filer, kalendre, kontakter, epost & mer fra alle enheter, på dine betingelser",
     "Get the apps to sync your files" : "Hent apper som synkroniserer filene dine",
     "Desktop client" : "Skrivebordsklient",

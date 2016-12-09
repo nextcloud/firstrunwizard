@@ -1,7 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Add your profile information! :) For example your email is needed to reset your password." : "Lägg till din profilinformation! :) Till exempel behövs din epostadress för att återställa ditt lösenord.",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Din personliga webbtjänst. Synka & dela dina filer, kalender, kontakter, mail och ännu mer från vilken enhet som helst, på dina villkor",
     "Get the apps to sync your files" : "Skaffa apparna för att synkronisera dina filer",
     "Desktop client" : "Skrivbordsklient",

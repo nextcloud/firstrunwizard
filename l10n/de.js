@@ -2,7 +2,6 @@ OC.L10N.register(
     "firstrunwizard",
     {
     "First run wizard" : "Einrichtungsassistent",
-    "Add your profile information! :) For example your email is needed to reset your password." : "Füge deine Profil-Informationen hinzu! :) Z.B. wird deine E-Mail Adresse zum Zurücksetzen deines Passwortes benötigt.",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Greife auf und teile deine Dateien, Kalender, Kontakte, E-Mail und mehr von jedem Gerät aus, zu deinen Bedingungen",
     "Get the apps to sync your files" : "Lade die Apps zur Synchronisierung Deiner Daten herunter",
     "Desktop client" : "Desktop-Client",
