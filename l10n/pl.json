@@ -1,5 +1,6 @@
 { "translations": {
     "First run wizard" : "Kreator pierwszego uruchomienia",
+    "Add your profile information! For example your email is needed to reset your password." : "Dodaj swoje informacje do profilu! Na przykład konieczny jest Twój adres e-mail, aby zresetować hasło.",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Dostęp i udostępnianie plików, kalendarzy, kontaktów, poczty i innych z dowolnego urządzenia, na swoich warunkach",
     "Get the apps to sync your files" : "Pobierz aplikacje aby zsynchronizować swoje pliki",
     "Desktop client" : "Klient na komputer",
