@@ -10,6 +10,8 @@ OC.L10N.register(
     "Connect your desktop apps to %s" : "Lidhni aplikacionet tuaja për desktop me %s",
     "Connect your Calendar" : "Lidhni Kalendarin tuaj",
     "Connect your Contacts" : "Lidhni Kontaket tuaja",
-    "Access files via WebDAV" : "Hyni në kartela përmes WebDAV-it"
+    "Access files via WebDAV" : "Hyni në kartela përmes WebDAV-it",
+    "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Më shumë informacione gjeni tek <a target=\"_blank\" href=\"%s\">dokumentacioni</a> dhe në <a target=\"_blank\" href=\"%s\">faqen tonë të internetit</a>.",
+    "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "Nëse ju pëlqen Nextcloud,<a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> rekomandoje atë tek shokët a tu</a> dhe <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">kontriboni sërish</a>!"
 },
 "nplurals=2; plural=(n != 1);");
