@@ -2,6 +2,7 @@ OC.L10N.register(
     "firstrunwizard",
     {
     "First run wizard" : "初期ウィザード",
+    "Add your profile information! For example your email is needed to reset your password." : "プロフィール情報を追加しましょう! パスワードをリセットするにはメールアドレスが必要です。",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "あなたの好きなように、どの端末からでもファイルやカレンダー、連絡先、メール等にアクセス、そして共有",
     "Get the apps to sync your files" : "ファイルを同期するアプリを取得しましょう",
     "Desktop client" : "デスクトップクライアント",
