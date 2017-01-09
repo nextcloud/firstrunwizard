@@ -24,12 +24,7 @@
 namespace OCA\FirstRunWizard\Tests\Notification;
 
 
-use OCA\FirstRunWizard\Controller\WizardController;
 use OCA\FirstRunWizard\Notification\BackgroundJob;
-use OCP\AppFramework\Http;
-use OCP\AppFramework\Http\DataResponse;
-use OCP\IRequest;
-use OCP\IURLGenerator;
 use OCP\Notification\IManager;
 use OCP\Notification\INotification;
 use Test\TestCase;
@@ -44,19 +39,14 @@ class BackgroundJobTest extends TestCase {
 	/** @var IManager|\PHPUnit_Framework_MockObject_MockObject */
 	protected $notificationManager;
 
-	/** @var IURLGenerator|\PHPUnit_Framework_MockObject_MockObject */
-	protected $urlGenerator;
-
 	/** @var BackgroundJob */
 	protected $job;
 
 	protected function setUp() {
 		parent::setUp();
 		$this->notificationManager = $this->createMock(IManager::class);
-		$this->urlGenerator = $this->createMock(IURLGenerator::class);
 		$this->job = new BackgroundJob(
-			$this->notificationManager,
-			$this->urlGenerator
+			$this->notificationManager
 		);
 	}
 
@@ -97,14 +87,9 @@ class BackgroundJobTest extends TestCase {
 			$notification->expects($this->once())
 				->method('setDateTime')
 				->willReturnSelf();
-			$notification->expects($this->once())
-				->method('setLink')
-				->willReturnSelf();
 		} else {
 			$notification->expects($this->never())
 				->method('setDateTime');
-			$notification->expects($this->never())
-				->method('setLink');
 		}
 
 		$this->notificationManager->expects($this->once())

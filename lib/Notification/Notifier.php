@@ -22,6 +22,7 @@
 namespace OCA\FirstRunWizard\Notification;
 
 
+use OCP\IURLGenerator;
 use OCP\IUserManager;
 use OCP\L10N\IFactory;
 use OCP\Notification\IManager as INotificationManager;
@@ -39,15 +40,20 @@ class Notifier implements INotifier {
 	/** @var INotificationManager */
 	protected $notificationManager;
 
+	/** @var IURLGenerator */
+	protected $url;
+
 	/**
 	 * @param IFactory $factory
 	 * @param IUserManager $userManager
 	 * @param INotificationManager $notificationManager
+	 * @param IURLGenerator $urlGenerator
 	 */
-	public function __construct(IFactory $factory, IUserManager $userManager, INotificationManager $notificationManager) {
+	public function __construct(IFactory $factory, IUserManager $userManager, INotificationManager $notificationManager, IURLGenerator $urlGenerator) {
 		$this->factory = $factory;
 		$this->userManager = $userManager;
 		$this->notificationManager = $notificationManager;
+		$this->url = $urlGenerator;
 	}
 
 	/**
@@ -80,8 +86,9 @@ class Notifier implements INotifier {
 				$l = $this->factory->get('firstrunwizard', $languageCode);
 
 				$notification->setParsedSubject(
-					$l->t('Add your profile information! For example your email is needed to reset your password.')
-				);
+						$l->t('Add your profile information! For example your email is needed to reset your password.')
+					)
+					->setLink($this->url->getAbsoluteURL('index.php/settings/personal'));
 				return $notification;
 
 			default:
