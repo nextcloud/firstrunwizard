@@ -22,7 +22,6 @@
 namespace OCA\FirstRunWizard\Notification;
 
 use OC\BackgroundJob\QueuedJob;
-use OCP\IURLGenerator;
 use OCP\Notification\IManager as INotificationManager;
 
 class BackgroundJob extends QueuedJob  {
@@ -30,18 +29,13 @@ class BackgroundJob extends QueuedJob  {
 	/** @var INotificationManager */
 	protected $notificationManager;
 
-	/** @var IURLGenerator */
-	protected $urlGenerator;
-
 	/**
 	 * BackgroundJob constructor.
 	 *
 	 * @param INotificationManager $notificationManager
-	 * @param IURLGenerator $urlGenerator
 	 */
-	public function __construct(INotificationManager $notificationManager, IURLGenerator $urlGenerator) {
+	public function __construct(INotificationManager $notificationManager) {
 		$this->notificationManager = $notificationManager;
-		$this->urlGenerator = $urlGenerator;
 	}
 
 	/**
@@ -55,8 +49,7 @@ class BackgroundJob extends QueuedJob  {
 			->setUser($argument['uid']);
 
 		if ($this->notificationManager->getCount($notification) === 0) {
-			$notification->setDateTime(new \DateTime())
-				->setLink($this->urlGenerator->getAbsoluteURL('index.php/settings/personal'));
+			$notification->setDateTime(new \DateTime());
 			$this->notificationManager->notify($notification);
 		}
 	}
