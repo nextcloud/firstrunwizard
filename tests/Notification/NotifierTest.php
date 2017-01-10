@@ -26,6 +26,7 @@ namespace OCA\FirstRunWizard\Tests\Notification;
 use OCA\FirstRunWizard\Notification\Notifier;
 use OCP\IImage;
 use OCP\IL10N;
+use OCP\IURLGenerator;
 use OCP\IUser;
 use OCP\IUserManager;
 use OCP\L10N\IFactory;
@@ -43,6 +44,8 @@ class NotifierTest extends TestCase {
 	protected $userManager;
 	/** @var IFactory|\PHPUnit_Framework_MockObject_MockObject */
 	protected $factory;
+	/** @var IURLGenerator|\PHPUnit_Framework_MockObject_MockObject */
+	protected $urlGenerator;
 	/** @var IL10N|\PHPUnit_Framework_MockObject_MockObject */
 	protected $l;
 
@@ -51,6 +54,7 @@ class NotifierTest extends TestCase {
 
 		$this->manager = $this->createMock(IManager::class);
 		$this->userManager = $this->createMock(IUserManager::class);
+		$this->urlGenerator = $this->createMock(IURLGenerator::class);
 		$this->l = $this->createMock(IL10N::class);
 		$this->l->expects($this->any())
 			->method('t')
@@ -65,7 +69,8 @@ class NotifierTest extends TestCase {
 		$this->notifier = new Notifier(
 			$this->factory,
 			$this->userManager,
-			$this->manager
+			$this->manager,
+			$this->urlGenerator
 		);
 	}
 
@@ -149,9 +154,7 @@ class NotifierTest extends TestCase {
 	 */
 	public function testPrepare($language, $user, $changeName, $changeAvatar, $name, $email, $avatar, $dismissNotification) {
 		/** @var \OCP\Notification\INotification|\PHPUnit_Framework_MockObject_MockObject $notification */
-		$notification = $this->getMockBuilder('OCP\Notification\INotification')
-			->disableOriginalConstructor()
-			->getMock();
+		$notification = $this->createMock(INotification::class);
 
 		$notification->expects($this->once())
 			->method('getApp')
@@ -172,8 +175,13 @@ class NotifierTest extends TestCase {
 				->method('markProcessed')
 				->with($notification);
 
+			$this->urlGenerator->expects($this->never())
+				->method('getAbsoluteURL');
+
 			$notification->expects($this->never())
 				->method('setParsedSubject');
+			$notification->expects($this->never())
+				->method('setLink');
 
 			$this->setExpectedException(\InvalidArgumentException::class);
 		} else {
@@ -185,9 +193,18 @@ class NotifierTest extends TestCase {
 				->with('firstrunwizard', $language)
 				->willReturn($this->l);
 
+			$this->urlGenerator->expects($this->once())
+				->method('getAbsoluteURL')
+				->with('index.php/settings/personal')
+				->willReturnArgument(0);
+
 			$notification->expects($this->once())
 				->method('setParsedSubject')
 				->with('Add your profile information! For example your email is needed to reset your password.')
+				->willReturnSelf();
+			$notification->expects($this->once())
+				->method('setLink')
+				->with($this->stringEndsWith('/settings/personal'))
 				->willReturnSelf();
 		}
 
