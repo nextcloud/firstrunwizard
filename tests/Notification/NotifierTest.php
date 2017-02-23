@@ -183,7 +183,7 @@ class NotifierTest extends TestCase {
 			$notification->expects($this->never())
 				->method('setLink');
 
-			$this->expectException(\InvalidArgumentException::class);
+			$this->setExpectedException(\InvalidArgumentException::class);
 		} else {
 			$this->manager->expects($this->never())
 				->method('markProcessed');
