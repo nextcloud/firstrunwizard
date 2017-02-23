@@ -71,29 +71,49 @@ class Notifier implements INotifier {
 
 		switch ($notification->getSubject()) {
 			case 'profile':
-				$user = $this->userManager->get($notification->getUser());
-				if (
-					(!$user->canChangeDisplayName() || $user->getDisplayName()) &&
-					$user->getEMailAddress() &&
-					(!$user->canChangeAvatar() || $user->getAvatarImage(32) !== null)
-				) {
+				$subject = $this->getSubject($notification, $languageCode);
+				if ($subject === '') {
 					// Everything done, mark the notification as processed...
 					$this->notificationManager->markProcessed($notification);
 					throw new \InvalidArgumentException();
 				}
 
-				// Read the language from the notification
-				$l = $this->factory->get('firstrunwizard', $languageCode);
-
-				$notification->setParsedSubject(
-						$l->t('Add your profile information! For example your email is needed to reset your password.')
-					)
+				$notification->setParsedSubject($subject)
 					->setLink($this->url->getAbsoluteURL('index.php/settings/personal'));
 				return $notification;
 
 			default:
 				// Unknown subject => Unknown notification => throw
 				throw new \InvalidArgumentException();
+		}
+	}
+
+	/**
+	 * @param INotification $notification
+	 * @param string $languageCode
+	 * @return string
+	 */
+	protected function getSubject(INotification $notification, $languageCode) {
+		$l = $this->factory->get('firstrunwizard', $languageCode);
+		$user = $this->userManager->get($notification->getUser());
+
+		$email = $user->getEMailAddress();
+		if ($email === null || $email === '') {
+			return $l->t('Add your profile information! For example your email is needed to reset your password.');
+		}
+
+		if ($user->canChangeDisplayName() && $user->getDisplayName() === $user->getUID()) {
+			if ($user->canChangeAvatar() && $user->getAvatarImage(32) === null) {
+				return $l->t('Add your profile information! Set a profile picture and full name for easier recognition across all features.');
+			} else  {
+				return $l->t('Add your profile information! Set a full name for easier recognition across all features.');
+			}
+		} else {
+			if ($user->canChangeAvatar() && $user->getAvatarImage(32) === null) {
+				return $l->t('Add your profile information! Set a profile picture for easier recognition across all features.');
+			} else  {
+				return '';
+			}
 		}
 	}
 }

@@ -106,17 +106,15 @@ class NotifierTest extends TestCase {
 	}
 
 	/**
-	 * @return \OCP\IUser|\PHPUnit_Framework_MockObject_Builder_InvocationMocker
-	 */
-	/**
 	 * @param bool $changeName
 	 * @param bool $changeAvatar
+	 * @param string $uid
 	 * @param string $name
 	 * @param string $email
 	 * @param IImage|null $avatar
 	 * @return IUser|\PHPUnit_Framework_MockObject_MockObject
 	 */
-	protected function getUserMock($changeName, $changeAvatar, $name, $email, $avatar) {
+	protected function getUserMock($changeName, $changeAvatar, $uid, $name, $email, $avatar) {
 		$user = $this->createMock(IUser::class);
 		$user->expects($this->atMost(1))
 			->method('canChangeDisplayName')
@@ -124,6 +122,9 @@ class NotifierTest extends TestCase {
 		$user->expects($this->atMost(1))
 			->method('canChangeAvatar')
 			->willReturn($changeAvatar);
+		$user->expects($this->atMost(1))
+			->method('getUID')
+			->willReturn($uid);
 		$user->expects($this->atMost(1))
 			->method('getDisplayName')
 			->willReturn($name);
@@ -138,21 +139,20 @@ class NotifierTest extends TestCase {
 
 	public function dataPrepare() {
 		return [
-			['en', 'user', false, false, 'Changed Name', 'Changed Email', $this->createMock(IImage::class), true],
-			['en', 'user', true, true, 'Changed Name', 'Changed Email', $this->createMock(IImage::class), true],
-
-			['en', 'user', true, true, '', 'Changed Email', $this->createMock(IImage::class), false], // No name
-			['en', 'user', false, true, '', 'Changed Email', $this->createMock(IImage::class), true], // No name - but stuck with it
-			['en', 'user', true, true, 'Changed Name', '', $this->createMock(IImage::class), false], // No email
-			['de', 'user2', true, true, 'Changed Name', 'Changed Email', null, false], // No avatar
-			['de', 'user2', false, false, 'Changed Name', 'Changed Email', null, true], // No avatar - but stuck with it
+			['en', 'user', false, false, 'Changed Name', 'Changed Email', $this->createMock(IImage::class), false],
+			['en', 'user', true, true, 'Changed Name', 'Changed Email', $this->createMock(IImage::class), false],
+			['en', 'user', true, true, 'user', 'Changed Email', $this->createMock(IImage::class), $this->stringContains('full name')], // No name
+			['en', 'user', false, true, 'user', 'Changed Email', $this->createMock(IImage::class), false], // No name - but stuck with it
+			['en', 'user', true, true, 'Changed Name', '', $this->createMock(IImage::class), $this->stringContains('email')], // No email
+			['de', 'user2', true, true, 'Changed Name', 'Changed Email', null, $this->stringContains('picture')], // No avatar
+			['de', 'user2', false, false, 'Changed Name', 'Changed Email', null, false], // No avatar - but stuck with it
 		];
 	}
 
 	/**
 	 * @dataProvider dataPrepare
 	 */
-	public function testPrepare($language, $user, $changeName, $changeAvatar, $name, $email, $avatar, $dismissNotification) {
+	public function testPrepare($language, $user, $changeName, $changeAvatar, $name, $email, $avatar, $subjectContains) {
 		/** @var \OCP\Notification\INotification|\PHPUnit_Framework_MockObject_MockObject $notification */
 		$notification = $this->createMock(INotification::class);
 
@@ -168,9 +168,9 @@ class NotifierTest extends TestCase {
 
 		$this->userManager->expects($this->once())
 			->method('get')
-			->willReturn($this->getUserMock($changeName, $changeAvatar, $name, $email, $avatar));
+			->willReturn($this->getUserMock($changeName, $changeAvatar, $user, $name, $email, $avatar));
 
-		if ($dismissNotification) {
+		if ($subjectContains === false) {
 			$this->manager->expects($this->once())
 				->method('markProcessed')
 				->with($notification);
@@ -200,7 +200,7 @@ class NotifierTest extends TestCase {
 
 			$notification->expects($this->once())
 				->method('setParsedSubject')
-				->with('Add your profile information! For example your email is needed to reset your password.')
+				->with($subjectContains)
 				->willReturnSelf();
 			$notification->expects($this->once())
 				->method('setLink')
