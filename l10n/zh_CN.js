@@ -3,6 +3,9 @@ OC.L10N.register(
     {
     "First run wizard" : "首次运行显示向导",
     "Add your profile information! For example your email is needed to reset your password." : "请添加您的个人信息！比如您的邮件被用来重置您的密码。",
+    "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "添加您的个人资料信息！设置个人资料图片和全名，以便在所有功能中轻松识别。",
+    "Add your profile information! Set a full name for easier recognition across all features." : "添加您的个人资料信息！设置全名，以便在所有功能中轻松识别。",
+    "Add your profile information! Set a profile picture for easier recognition across all features." : "添加您的个人资料信息！设置个人资料图片，以便在所有功能中轻松识别。",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "在任何设备上访问和共享您的文件，日历，联系人，邮件等等，一切尽在掌控中",
     "Get the apps to sync your files" : "安装应用进行文件同步",
     "Desktop client" : "桌面客户端",

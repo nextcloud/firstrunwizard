@@ -3,6 +3,9 @@ OC.L10N.register(
     {
     "First run wizard" : "Помощник при первом запуске",
     "Add your profile information! For example your email is needed to reset your password." : "Добавьте данные в профиль! Например, Ваш email позволит сбросить пароль.",
+    "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Добавьте данные в профиль! Установите изображение профиля и укажите имя для более понятной работы.",
+    "Add your profile information! Set a full name for easier recognition across all features." : "Добавьте данные в профиль! Укажите имя для более понятной работы.",
+    "Add your profile information! Set a profile picture for easier recognition across all features." : "Добавьте данные в профиль! Установите изображение профиля для более понятной работы.",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Доступ и обмен Вашими файлами, календарями, контактами, почтой и многим другим с Ваших устройств, на Ваших условиях",
     "Get the apps to sync your files" : "Скачать приложения для синхронизации файлов",
     "Desktop client" : "Клиент для ПК",
