@@ -2,7 +2,7 @@ OC.L10N.register(
     "firstrunwizard",
     {
     "First run wizard" : "Einrichtungsassistent",
-    "Add your profile information! For example your email is needed to reset your password." : "Fügen Sie Ihre Profil-Informationen hinzu! Z.B. wird Ihre E-Mail Adresse zum Zurücksetzen Ihres Passwortes benötigt.",
+    "Add your profile information! For example your email is needed to reset your password." : "Fügen Sie Ihre Profil-Informationen hinzu! Ihre E-Mail Adresse wird z.B. zum Zurücksetzen Ihres Passwortes benötigt.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Fügen Sie Ihre Profil-Informationen hinzu! Hinterlegen Sie ein Profilbild und Ihren vollständigen Namen für eine einfachere Wiedererkennung über alle Funktionen hinweg.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Fügen Sie Ihre Profil-Informationen hinzu! Hinterlegen Sie Ihren vollständigen Namen für eine einfachere Wiedererkennung über alle Funktionen hinweg.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Fügen Sie Ihre Profil-Informationen hinzu! Hinterlegen Sie ein Profilbild für eine einfachere Wiedererkennung über alle Funktionen hinweg.",
