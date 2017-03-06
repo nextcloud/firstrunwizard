@@ -3,6 +3,9 @@ OC.L10N.register(
     {
     "First run wizard" : "Fyrsta-skiptis-leiðarvísir",
     "Add your profile information! For example your email is needed to reset your password." : "Settu inn upplýsingar fyrir persónusniðið þitt. Til dæmis þarftu að setja inn tölvupóstfangið þitt til að geta endurstillt lykilorð.",
+    "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Bættu við notandaupplýsingarnar þínar! Settu auðkennismynd og fullt nafn svo auðveldara verði að nota marga eiginleika.",
+    "Add your profile information! Set a full name for easier recognition across all features." : "Bættu við notandaupplýsingarnar þínar! Settu inn fullt nafn svo auðveldara verði að nota marga eiginleika.",
+    "Add your profile information! Set a profile picture for easier recognition across all features." : "Bættu við notandaupplýsingarnar þínar! Settu inn auðkennismynd svo auðveldara verði að nota marga eiginleika.",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Fáðu aðgang að og deildu skrám, dagatölum, tengiliðum, tölvupósti og ýmsu fleiru, á hvaða tæki sem er og á þínum eigin forsendum",
     "Get the apps to sync your files" : "Náðu í forrit til að samstilla skrárnar þínar",
     "Desktop client" : "Skjáborðsforrit",
