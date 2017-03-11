@@ -2,11 +2,11 @@ OC.L10N.register(
     "firstrunwizard",
     {
     "First run wizard" : "Einrichtungsassistent",
-    "Add your profile information! For example your email is needed to reset your password." : "Fügen Sie Ihre Profil-Informationen hinzu! Ihre E-Mail Adresse wird z.B. zum Zurücksetzen Ihres Passwortes benötigt.",
+    "Add your profile information! For example your email is needed to reset your password." : "Fügen Sie Ihre Profil-Informationen hinzu! Ihre E-Mail-Adresse z.B. wird zum Rücksetzen Ihres Passwortes benötigt.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Fügen Sie Ihre Profil-Informationen hinzu! Hinterlegen Sie ein Profilbild und Ihren vollständigen Namen für eine einfachere Wiedererkennung über alle Funktionen hinweg.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Fügen Sie Ihre Profil-Informationen hinzu! Hinterlegen Sie Ihren vollständigen Namen für eine einfachere Wiedererkennung über alle Funktionen hinweg.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Fügen Sie Ihre Profil-Informationen hinzu! Hinterlegen Sie ein Profilbild für eine einfachere Wiedererkennung über alle Funktionen hinweg.",
-    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Erreiche & Teile deine Dateien, Kalender, Kontakte, Mails & mehr von jedem Gerät unter deinen Bedingungen",
+    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Erreiche und teile Deine Dateien, Kalender, Kontakte, Mails, etc von jedem Gerät. Unter deinen Bedingungen",
     "Get the apps to sync your files" : "Laden Sie die Apps zur Synchronisierung Ihrer Daten herunter",
     "Desktop client" : "Desktop-Client",
     "Android app" : "Android-App",

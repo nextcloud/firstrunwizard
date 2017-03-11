@@ -3,6 +3,9 @@ OC.L10N.register(
     {
     "First run wizard" : "Průvodce prvním spuštěním",
     "Add your profile information! For example your email is needed to reset your password." : "Přidejte si své profilové informace. Například váš e-mail je nutný pro obnovu hesla.",
+    "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Přidejte si své profilové informace. Nastavte si obrázek a jméno  pro jednoduší rozpoznání ve všech oblastech aplikace.",
+    "Add your profile information! Set a full name for easier recognition across all features." : "Přidejte si své profilové informace. Nastavte si plné jméno pro jednoduší rozpoznání ve všech oblastech aplikace.",
+    "Add your profile information! Set a profile picture for easier recognition across all features." : "Přidejte si své profilové informace. Nastavte si obrázek pro jednoduší rozpoznání ve všech oblastech aplikace.",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Přiistupujte a sdílejte své soubory, kalendáře, kontakty emaily a další z jakéhokoliv přístroje, dle vlastních podmínek",
     "Get the apps to sync your files" : "Získat aplikace pro synchronizaci souborů",
     "Desktop client" : "Aplikace pro počítač",
