@@ -1,5 +1,9 @@
 { "translations": {
     "First run wizard" : "Pirmojo paleidimo vediklis",
+    "Add your profile information! For example your email is needed to reset your password." : "Pridėkite savo profilio informaciją! Pavyzdžiui, jūsų el. paštas yra reikalingas, norint atstatyti savo slaptažodį.",
+    "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Pridėkite savo profilio informaciją! Nustatykite profilio paveikslą ir visą vardą, kad lengviau būtumėte atpažinti tarp visų ypatybių.",
+    "Add your profile information! Set a full name for easier recognition across all features." : "Pridėkite savo profilio informaciją! Nustatykite visą vardą, kad lengviau būtumėte atpažinti tarp visų ypatybių.",
+    "Add your profile information! Set a profile picture for easier recognition across all features." : "Pridėkite savo profilio informaciją! Nustatykite profilio paveikslą, kad lengviau būtumėte atpažinti tarp visų ypatybių.",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Gaukite prieigą ir bendrinkite savo failus, kalendorius, kontaktus, paštą ir daug daugiau iš bet kurio įrenginio, savo sąlygomis",
     "Get the apps to sync your files" : "Atsisiųskite programėles, kad sinchronizuotumėte savo failus",
     "Desktop client" : "Darbalaukio klientas",
