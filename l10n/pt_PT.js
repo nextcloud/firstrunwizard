@@ -9,7 +9,6 @@ OC.L10N.register(
     "Connect your desktop apps to %s" : "Ligue as suas aplicações de PC para %s",
     "Connect your Calendar" : "Ligar o seu calendário",
     "Connect your Contacts" : "Ligar os seus contactos",
-    "Documentation" : "Documentação",
     "Access files via WebDAV" : "Aceder aos ficheiros via WebDAV"
 },
 "nplurals=2; plural=(n != 1);");

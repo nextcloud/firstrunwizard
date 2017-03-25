@@ -7,7 +7,6 @@
     "Connect your desktop apps to %s" : "Forbind dine applikationer til %s",
     "Connect your Calendar" : "Tilslut din kalender",
     "Connect your Contacts" : "Tilslut dine kontaktpersoner",
-    "Documentation" : "Dokumentation",
     "Access files via WebDAV" : "Adgang til filer via WebDAV"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
