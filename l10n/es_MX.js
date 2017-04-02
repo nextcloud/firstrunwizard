@@ -11,8 +11,10 @@ OC.L10N.register(
     "Desktop client" : "Cliente de escritorio",
     "Android app" : "Aplicación Android",
     "iOS app" : "Aplicación iOS",
+    "Connect your desktop apps to %s" : "Conecte su aplicación de escritorio a %s",
     "Connect your Calendar" : "Conectar su Calendario",
     "Connect your Contacts" : "Conecte sus Contactos",
-    "Access files via WebDAV" : "Acceda a sus archivos vía WebDAV"
+    "Access files via WebDAV" : "Acceda a sus archivos vía WebDAV",
+    "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Puede encontrar más información en la <a target=\"_blank\" href=\"%s\">documentación</a> y en nuestro <a target=\"_blank\" href=\"%s\">sitio web</a>."
 },
 "nplurals=2; plural=(n != 1);");
