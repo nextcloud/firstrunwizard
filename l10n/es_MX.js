@@ -15,6 +15,7 @@ OC.L10N.register(
     "Connect your Calendar" : "Conectar su Calendario",
     "Connect your Contacts" : "Conecte sus Contactos",
     "Access files via WebDAV" : "Acceda a sus archivos vía WebDAV",
-    "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Puede encontrar más información en la <a target=\"_blank\" href=\"%s\">documentación</a> y en nuestro <a target=\"_blank\" href=\"%s\">sitio web</a>."
+    "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Puede encontrar más información en la <a target=\"_blank\" href=\"%s\">documentación</a> y en nuestro <a target=\"_blank\" href=\"%s\">sitio web</a>.",
+    "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "Si le agrada NextCloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud es un gran software abierto para sincronizar y compartir sus archivos. Puede obtenerlo de forma gratuita desde https://nextcloud.com\"> recomiéndelo a sus amigos</a> y <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribuya</a>!"
 },
 "nplurals=2; plural=(n != 1);");
