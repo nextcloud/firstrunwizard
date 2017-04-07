@@ -25,6 +25,7 @@ namespace OCA\FirstRunWizard\Controller;
 use OCP\AppFramework\Controller;
 use OCP\AppFramework\Http\DataResponse;
 use OCP\AppFramework\Http\TemplateResponse;
+use OCP\Defaults;
 use OCP\IConfig;
 use OCP\IRequest;
 
@@ -63,7 +64,8 @@ class WizardController extends Controller  {
 	 * @return TemplateResponse
 	 */
 	public function show() {
-		$theming = \OC::$server->getThemingDefaults();
+		/** @var Defaults $theming */
+		$theming = \OC::$server->query(Defaults::class);
 		return new TemplateResponse('firstrunwizard', 'wizard', [
 			'desktop'      => $this->config->getSystemValue('customclient_desktop', $theming->getSyncClientUrl()),
 			'android'      => $this->config->getSystemValue('customclient_android', $theming->getAndroidClientUrl()),
