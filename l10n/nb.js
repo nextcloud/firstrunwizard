@@ -10,7 +10,7 @@ OC.L10N.register(
     "Get the apps to sync your files" : "Hent programmer som synkroniserer filene dine",
     "Desktop client" : "Skrivebordsklient",
     "Android app" : "Android-program",
-    "iOS app" : "iOS-app",
+    "iOS app" : "iOS-program",
     "Connect your desktop apps to %s" : "Koble dine skrivebord-programmer til %s",
     "Connect your Calendar" : "Koble til kalenderen din",
     "Connect your Contacts" : "Koble til kontaktene dine",
