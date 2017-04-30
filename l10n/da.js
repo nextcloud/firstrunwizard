@@ -15,6 +15,7 @@ OC.L10N.register(
     "Connect your Calendar" : "Tilslut din kalender",
     "Connect your Contacts" : "Tilslut dine kontaktpersoner",
     "Access files via WebDAV" : "Adgang til filer via WebDAV",
-    "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Der er mere information i <a target=\"_blank\" href=\"%s\">dokumentationen</a> og på vores <a target=\"_blank\" href=\"%s\">hjemmeside</a>."
+    "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Der er mere information i <a target=\"_blank\" href=\"%s\">dokumentationen</a> og på vores <a target=\"_blank\" href=\"%s\">hjemmeside</a>.",
+    "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "Hvis du kan lide Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud er en fed opensource software til at synkronisere og dele dine filer. Du kan få den gratis fra https://nextcloud.com\"> anbefal dine venner</a> og <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">bidrag til projektet</a>!"
 },
 "nplurals=2; plural=(n != 1);");
