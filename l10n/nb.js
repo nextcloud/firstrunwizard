@@ -11,7 +11,7 @@ OC.L10N.register(
     "Desktop client" : "Skrivebordsklient",
     "Android app" : "Android-program",
     "iOS app" : "iOS-program",
-    "Connect your desktop apps to %s" : "Koble dine skrivebord-programmer til %s",
+    "Connect your desktop apps to %s" : "Koble dine skrivebordsprogrammer til %s",
     "Connect your Calendar" : "Koble til kalenderen din",
     "Connect your Contacts" : "Koble til kontaktene dine",
     "Access files via WebDAV" : "Få tilgang til filer via WebDAV",
