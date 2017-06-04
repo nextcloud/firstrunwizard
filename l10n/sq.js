@@ -1,6 +1,7 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "First run wizard" : "Përpara ekzekutoni magjistarin",
     "Add your profile information! For example your email is needed to reset your password." : "Shtoni informacionin e profilit tuaj. Për shembull nevojitet emaili juaj për të rivendosur fjalëkalimin.",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Përdorni & ndani me të tjerët skedaret tuaja, kalendarët, kontaktet, email-et & të tjera, nga cilado pajisje, sipas kushteve tuaja",
     "Get the apps to sync your files" : "Merrni aplikacionet për njëkohësim të kartelave tuaja",
