@@ -8,7 +8,6 @@ OC.L10N.register(
     "Connect your desktop apps to %s" : "اتصال برنامه دسکتاب خود به %s",
     "Connect your Calendar" : "اتصال تقویم خودتان",
     "Connect your Contacts" : "اتصال مخاطبان شما",
-    "Documentation" : "مستندسازی",
     "Access files via WebDAV" : "دسترسی فایل ها از طریق WebDAV"
 },
 "nplurals=1; plural=0;");

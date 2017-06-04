@@ -1,6 +1,11 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "First run wizard" : "Fyrsta-skiptis-leiðarvísir",
+    "Add your profile information! For example your email is needed to reset your password." : "Bættu við notandaupplýsingarnar þínar! Til dæmis þarftu að setja inn tölvupóstfangið þitt til að geta endurstillt lykilorð.",
+    "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Bættu við notandaupplýsingarnar þínar! Settu auðkennismynd og fullt nafn svo auðveldara verði að nota marga eiginleika.",
+    "Add your profile information! Set a full name for easier recognition across all features." : "Bættu við notandaupplýsingarnar þínar! Settu inn fullt nafn svo auðveldara verði að nota marga eiginleika.",
+    "Add your profile information! Set a profile picture for easier recognition across all features." : "Bættu við notandaupplýsingarnar þínar! Settu inn auðkennismynd svo auðveldara verði að nota marga eiginleika.",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Fáðu aðgang að og deildu skrám, dagatölum, tengiliðum, tölvupósti og ýmsu fleiru, á hvaða tæki sem er og á þínum eigin forsendum",
     "Get the apps to sync your files" : "Náðu í forrit til að samstilla skrárnar þínar",
     "Desktop client" : "Skjáborðsforrit",
@@ -10,6 +15,7 @@ OC.L10N.register(
     "Connect your Calendar" : "Tengdu dagatalið þitt",
     "Connect your Contacts" : "Tengdu tengiliðalistana þína",
     "Access files via WebDAV" : "Nálgastu skrár í gegnum WebDAV",
-    "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Ítarlegri upplýsingar er að finna í <a target=\"_blank\" href=\"%s\">hjálparskjölum</a> og á <a target=\"_blank\" href=\"%s\">vefsvæðinu</a> okkar."
+    "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Ítarlegri upplýsingar er að finna í <a target=\"_blank\" href=\"%s\">hjálparskjölum</a> og á <a target=\"_blank\" href=\"%s\">vefsvæðinu</a> okkar.",
+    "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "Ef þér líkar Nextcloud,  <a href=\"mailto:?subject=Nextcloud &body=Nextcloud er frábær frjáls hugbúnaður til að samstilla og deila skránum þínum með öðrum. Þú færð það án nokkurra skuldbindinga frá https://nextcloud.com\"> mæltu með því við vini þína</a> og <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">leggðu þitt af mörkum</a>!"
 },
 "nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);");

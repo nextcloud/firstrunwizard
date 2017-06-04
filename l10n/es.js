@@ -2,6 +2,10 @@ OC.L10N.register(
     "firstrunwizard",
     {
     "First run wizard" : "Primera ejecución del asistente",
+    "Add your profile information! For example your email is needed to reset your password." : "¡Agrega tu información de perfil! Por ejemplo, tu correo electrónico es necesario para reiniciar tu contraseña.",
+    "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "¡Agregue su información de perfil! Agregue su imagen de perfil y nombre completo para un reconocimiento más sencillo a través de todas las características.",
+    "Add your profile information! Set a full name for easier recognition across all features." : "¡Agregue su información de perfil! Agregue su nombre completo para un mejor reconocimiento a través de todas las características.",
+    "Add your profile information! Set a profile picture for easier recognition across all features." : "¡Agregue su información de perfil! Agregue su imagen de perfil para un reconocimiento mas sencillo a través de todas las características.",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Acceda y comparta sus archivos, calendarios, contactos, mail y más desde cualquier dispositivo, en sus términos",
     "Get the apps to sync your files" : "Obtenga las apps para sincronizar sus archivos",
     "Desktop client" : "Cliente de escritorio",

@@ -1,5 +1,9 @@
 { "translations": {
     "First run wizard" : "初期ウィザード",
+    "Add your profile information! For example your email is needed to reset your password." : "プロフィール情報を追加しましょう! パスワードをリセットするにはメールアドレスが必要です。",
+    "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "プロフィール情報を追加してください! プロフィール画像とフルネームを設定すると、すべての機能をより簡単に認識できます。",
+    "Add your profile information! Set a full name for easier recognition across all features." : "プロフィール情報を追加してください! フルネームを設定すると、すべての機能をより簡単に認識できます。",
+    "Add your profile information! Set a profile picture for easier recognition across all features." : "プロフィール情報を追加してください! プロフィール画像を設定すると、すべての機能をより簡単に認識できます。",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "あなたの好きなように、どの端末からでもファイルやカレンダー、連絡先、メール等にアクセス、そして共有",
     "Get the apps to sync your files" : "ファイルを同期するアプリを取得しましょう",
     "Desktop client" : "デスクトップクライアント",
