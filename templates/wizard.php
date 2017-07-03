@@ -44,12 +44,12 @@
 <a target="_blank" class="button" href="<?php p(link_to_docs('user-sync-calendars')) ?>">
 	<img class="appsmall appsmall-calendar svg" alt=""
 		src="<?php p(image_path('core', 'places/calendar-dark.svg')); ?>" />
-	<?php p($l->t('Connect your Calendar'));?>
+	<?php p($l->t('Connect your calendar'));?>
 </a>
 <a target="_blank" class="button" href="<?php p(link_to_docs('user-sync-contacts')) ?>">
 	<img class="appsmall appsmall-contacts svg" alt=""
 		src="<?php p(image_path('core', 'places/contacts-dark.svg')); ?>" />
-	<?php p($l->t('Connect your Contacts'));?>
+	<?php p($l->t('Connect your contacts'));?>
 </a>
 <a target="_blank" class="button" href="<?php p(link_to_docs('user-webdav')); ?>">
 	<img class="appsmall svg" alt=""
