@@ -75,16 +75,6 @@ class Application extends App {
 				$jobList->add('OCA\FirstRunWizard\Notification\BackgroundJob', ['uid' => $userSession->getUser()->getUID()]);
 			}
 		});
-
-		/** @var IRequest $request */
-		$request = $this->getContainer()->query(IRequest::class);
-		// Allow to enable the first run wizard with the button on the personal page
-		if (strpos($request->getPathInfo(), '/settings/personal') === 0) {
-			Util::addStyle('firstrunwizard', 'colorbox');
-			Util::addStyle('firstrunwizard', 'firstrunwizard');
-			Util::addScript('firstrunwizard', 'jquery.colorbox');
-			Util::addScript('firstrunwizard', 'firstrunwizard');
-		}
 	}
 
 	protected function registerNotificationNotifier() {
