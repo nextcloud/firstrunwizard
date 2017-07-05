@@ -6,8 +6,8 @@ OC.L10N.register(
     "Android app" : "Androidi rakendus",
     "iOS app" : "iOS-i rakendus",
     "Connect your desktop apps to %s" : "Ühenda oma töölaua rakendus %s",
+    "Access files via WebDAV" : "Ligipääs WebDAV vahendusel",
     "Connect your Calendar" : "Ühenda oma kalender",
-    "Connect your Contacts" : "Ühenda oma kontaktid",
-    "Access files via WebDAV" : "Ligipääs WebDAV vahendusel"
+    "Connect your Contacts" : "Ühenda oma kontaktid"
 },
 "nplurals=2; plural=(n != 1);");

@@ -6,16 +6,16 @@ OC.L10N.register(
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Tilføj dine profil informationer! Tilføj et profil billede og fuldt navn for nemmere genkendelse på tværs af alle funktioner.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Tilføj dine profil informationer! Tilføj et fuldt navn for nemmere genkendelse på tværs af alle funktioner.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Tilføj dine profil informationer! Tilføj et profil billede for nemmere genkendelse på tværs af alle funktioner.",
-    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Få adgang og giv andre adgang til dine filer, kalendere, kontakter, emails med mere, fra enhver enhed og på dine betingelser",
     "Get the apps to sync your files" : "Hent applikationerne for at synkronisere dine filer",
     "Desktop client" : "Skrivebordsklient",
     "Android app" : "Android-app",
     "iOS app" : "iOS-app",
+    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Få adgang og giv andre adgang til dine filer, kalendere, kontakter, emails med mere, fra enhver enhed og på dine betingelser",
     "Connect your desktop apps to %s" : "Forbind dine applikationer til %s",
-    "Connect your Calendar" : "Tilslut din kalender",
-    "Connect your Contacts" : "Tilslut dine kontaktpersoner",
     "Access files via WebDAV" : "Adgang til filer via WebDAV",
     "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Der er mere information i <a target=\"_blank\" href=\"%s\">dokumentationen</a> og på vores <a target=\"_blank\" href=\"%s\">hjemmeside</a>.",
-    "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "Hvis du kan lide Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud er en fed opensource software til at synkronisere og dele dine filer. Du kan få den gratis fra https://nextcloud.com\"> anbefal dine venner</a> og <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">bidrag til projektet</a>!"
+    "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "Hvis du kan lide Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud er en fed opensource software til at synkronisere og dele dine filer. Du kan få den gratis fra https://nextcloud.com\"> anbefal dine venner</a> og <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">bidrag til projektet</a>!",
+    "Connect your Calendar" : "Tilslut din kalender",
+    "Connect your Contacts" : "Tilslut dine kontaktpersoner"
 },
 "nplurals=2; plural=(n != 1);");
