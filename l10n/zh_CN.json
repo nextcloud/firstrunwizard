@@ -8,6 +8,7 @@
     "Desktop client" : "桌面客户端",
     "Android app" : "安卓应用",
     "iOS app" : "iOS 应用",
+    "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "如果您想支持这个项目 {contributeopen}加入开发团队{linkclose} 或 {contributeopen}帮助我们宣传{linkclose}!",
     "Show First Run Wizard again" : "再次显示运行向导",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "在任何设备上访问和共享您的文件，日历，联系人，邮件等等，一切尽在掌控中",
     "Connect your desktop apps to %s" : "使用桌面应用连接到 %s",
