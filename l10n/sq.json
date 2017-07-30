@@ -8,6 +8,8 @@
     "Desktop client" : "Klient për desktop",
     "Android app" : "Aplikacion Android",
     "iOS app" : "Aplikacion iOS",
+    "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "Në qoftë se doni të suportoni projektin {contributeopen} bashkohu zhvillimit {linkclose} ose {contributeopen} përhap fjalën {linkclose}!",
+    "Show First Run Wizard again" : "Shfaq First Run Wizard përsëri",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Përdorni & ndani me të tjerët skedaret tuaja, kalendarët, kontaktet, email-et & të tjera, nga cilado pajisje, sipas kushteve tuaja",
     "Connect your desktop apps to %s" : "Lidhni aplikacionet tuaja për desktop me %s",
     "Connect your calendar" : "Lidh kalendarin tuaj",
