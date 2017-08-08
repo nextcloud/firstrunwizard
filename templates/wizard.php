@@ -2,7 +2,7 @@
 /**
  * @var array $_
  * @var \OCP\IL10N $l
- * @var \OC_Defaults $theme
+ * @var \OCP\Defaults $theme
  */
 ?>
 <div id="firstrunwizard">
