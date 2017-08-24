@@ -79,7 +79,7 @@ class Notifier implements INotifier {
 				}
 
 				$notification->setParsedSubject($subject)
-					->setLink($this->url->getAbsoluteURL('index.php/settings/personal'));
+					->setLink($this->url->linkToRouteAbsolute('settings.PersonalSettings.index'));
 				return $notification;
 
 			default:
