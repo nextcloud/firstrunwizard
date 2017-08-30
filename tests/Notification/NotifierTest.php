@@ -176,7 +176,7 @@ class NotifierTest extends TestCase {
 				->with($notification);
 
 			$this->urlGenerator->expects($this->never())
-				->method('getAbsoluteURL');
+				->method('linkToRouteAbsolute');
 
 			$notification->expects($this->never())
 				->method('setParsedSubject');
@@ -194,9 +194,9 @@ class NotifierTest extends TestCase {
 				->willReturn($this->l);
 
 			$this->urlGenerator->expects($this->once())
-				->method('getAbsoluteURL')
-				->with('index.php/settings/personal')
-				->willReturnArgument(0);
+				->method('linkToRouteAbsolute')
+				->with('settings.PersonalSettings.index')
+				->willReturn('https://example.org/settings/user');
 
 			$notification->expects($this->once())
 				->method('setParsedSubject')
@@ -204,7 +204,7 @@ class NotifierTest extends TestCase {
 				->willReturnSelf();
 			$notification->expects($this->once())
 				->method('setLink')
-				->with($this->stringEndsWith('/settings/personal'))
+				->with($this->stringEndsWith('/settings/user'))
 				->willReturnSelf();
 		}
 
