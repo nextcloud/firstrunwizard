@@ -14,6 +14,8 @@
     "Connect your calendar" : "Ühenda oma kalender",
     "Connect your contacts" : "Ühenda oma kontaktid",
     "Access files via WebDAV" : "Ligipääs WebDAV vahendusel",
+    "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "<a target=\"_blank\" href=\"%s\">Dokumentatsioonis</a> ja meie <a target=\"_blank\" href=\"%s\">veebilehel</a> on rohkem informatsiooni.",
+    "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "Kui sulle meeldib Nextcloud, siis <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\">soovita seda oma sõpradele</a> ja <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">löö kaasa</a>!",
     "Connect your Calendar" : "Ühenda oma kalender",
     "Connect your Contacts" : "Ühenda oma kontaktid"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
