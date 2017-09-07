@@ -12,7 +12,7 @@ OC.L10N.register(
     "iOS app" : "iOS app",
     "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "Als je het project wilt ondersteunen {contributeopen}help met de ontwikkeling{linkclose} of {contributeopen}zegt het voort{linkclose}!",
     "Show First Run Wizard again" : "Toon de eerste start wizard opnieuw",
-    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Bereik & deel je bestanden, agenda's, contactpersonen, e-mail & meer, vanaf elk apparaat, op je eigen voorwaarden",
+    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Gebruik & deel je bestanden, agenda's, contactpersonen, e-mail & meer, vanaf elk apparaat, op je eigen voorwaarden",
     "Connect your desktop apps to %s" : "Verbind je desktop apps met %s",
     "Connect your calendar" : "Verbind je agenda",
     "Connect your contacts" : "Verbind je contactpersonen",
