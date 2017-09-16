@@ -12,7 +12,7 @@ OC.L10N.register(
     "iOS app" : "iOS app",
     "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "Om du vill stödja projektet {contributeopen}gå med i utveckling{linkclose} eller {contributeopen}sprida information{linkclose}!",
     "Show First Run Wizard again" : "Visa introduktionsguiden igen",
-    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Synka & dela dina filer, kalender, kontakter, e-post och ännu mer från vilken enhet som helst, på dina villkor",
+    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Synka & dela dina filer, kalender, kontakter, e-post och ännu mer från vilken enhet som helst på dina villkor",
     "Connect your desktop apps to %s" : "Anslut dina skrivbordsappar till %s",
     "Connect your calendar" : "Anslut din kalender",
     "Connect your contacts" : "Anslut dina kontakter",
