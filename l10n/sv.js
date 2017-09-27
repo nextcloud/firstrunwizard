@@ -1,7 +1,7 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "First run wizard" : "Uppstartsrutan",
+    "First run wizard" : "Uppstartsguiden",
     "Add your profile information! For example your email is needed to reset your password." : "Fyll i dina personliga inställningar! Till exempel behövs din e-postadress för att återställa ditt lösenord.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Fyll i dina personliga inställningar! Välj en profilbild och fyll i ditt namn för att enklare kunna arbeta med samtliga funktioner i molnet.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Fyll i dina personliga inställningar! Fyll i ditt namn för att enklare kunna arbeta med samtliga funktioner i molnet.",
@@ -12,7 +12,7 @@ OC.L10N.register(
     "iOS app" : "iOS app",
     "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "Om du vill stödja projektet {contributeopen}gå med i utveckling{linkclose} eller {contributeopen}sprida information{linkclose}!",
     "Show First Run Wizard again" : "Visa introduktionsguiden igen",
-    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Synka & dela dina filer, kalender, kontakter, e-post och ännu mer från vilken enhet som helst på dina villkor",
+    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Din personliga webbtjänst. Synka & dela dina filer, kalender, kontakter, mail och ännu mer från vilken enhet som helst, på dina villkor",
     "Connect your desktop apps to %s" : "Anslut dina skrivbordsappar till %s",
     "Connect your calendar" : "Anslut din kalender",
     "Connect your contacts" : "Anslut dina kontakter",
