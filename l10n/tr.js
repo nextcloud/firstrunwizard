@@ -1,7 +1,7 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "First run wizard" : "İlk çalıştırma yardımcısı",
+    "First run wizard" : "İlk çalıştırma sihirbazı",
     "Add your profile information! For example your email is needed to reset your password." : "Profil bilgilerinizi yazın! Örneğin parolanızı sıfırlayabilmeniz için e-posta adresiniz gereklidir.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Profil bilgilerinizi ekleyin! Bir profil görseli ekleyerek ve tam adınızı yazarak tüm özellikler tarafından kolayca tanının.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Profil bilgilerinizi ekleyin! Tam adınızı yazarak tüm özellikler tarafından kolayca tanının.",
@@ -11,7 +11,7 @@ OC.L10N.register(
     "Android app" : "Android uygulaması",
     "iOS app" : "iOS uygulaması",
     "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "Projeyi desteklemek için {contributeopen}geliştirmeye katılabilir{linkclose} ya da {contributeopen}tanıtımını yapabilirsiniz{linkclose}!",
-    "Show First Run Wizard again" : "İlk Çalıştırma Yardımcısı yeniden görüntülensin",
+    "Show First Run Wizard again" : "İlk Çalıştırma Sihirbazı'nı yeniden görüntüle",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Herhangi bir aygıttan dosyalarınız, takvimleriniz, kişileriniz, e-postalarınız ve başka pek çok ögenize istediğiniz şekilde erişip paylaşabilirsiniz.",
     "Connect your desktop apps to %s" : "Masaüstü uygulamalarınızı %s üzerine bağlayın",
     "Connect your calendar" : "Takviminizi bağlayın",
