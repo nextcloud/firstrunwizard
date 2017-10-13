@@ -1,5 +1,6 @@
 { "translations": {
     "First run wizard" : "Čarovnik prvega zagona",
+    "Add your profile information! For example your email is needed to reset your password." : "Dodajte svoje podatke o profilu! Na primer vaš e-poštni naslov je potreben za ponastavitev gesla.",
     "Get the apps to sync your files" : "Pridobi programe za usklajevanje datotek",
     "Desktop client" : "Namizni odjemalec",
     "Android app" : "Aplikacija za Android",
