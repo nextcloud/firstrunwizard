@@ -3,6 +3,9 @@ OC.L10N.register(
     {
     "First run wizard" : "Első indíráskori varázsló",
     "Add your profile information! For example your email is needed to reset your password." : "Add meg a profil adataidat! Az e-mail címedre pédául jelszó visszaállításkor lehet szükség.",
+    "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Add meg a profil információidat! Állíts be egy profilképet és teljes nevet az egyszerűbb azonosíthatóságért minden szolgáltatásban.",
+    "Add your profile information! Set a full name for easier recognition across all features." : "Add meg a profil információidat! Állítsd be a teljes neved az egyszerűbb azonosíthatóságért minden szolgáltatásban.",
+    "Add your profile information! Set a profile picture for easier recognition across all features." : "Add meg a profil információidat! Állítsd be egy profilképet az egyszerűbb azonosíthatóságért minden szolgáltatásban.",
     "Get the apps to sync your files" : "Alkalmazások a fájljaid szinkronizálásához",
     "Desktop client" : "Asztali kliens",
     "Android app" : "Android alkalmazás",
