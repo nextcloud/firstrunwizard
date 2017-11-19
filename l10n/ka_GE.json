@@ -8,7 +8,7 @@
     "Desktop client" : "დესკტოპ-კლიენტი",
     "Android app" : "Android აპლიკაცია",
     "iOS app" : "iOS აპლიკაცია",
-    "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "თუ გსურთ დაეხმაროთ პროექტს {contributeopen}შეუერთდით დეველომენტს{linkclose} ან {contributeopen}გაავრცელეთ სიტყვა{linkclose}!",
+    "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "თუ გსურთ დაეხმაროთ პროექტს {contributeopen}შეუერთდით დეველოპმენტს{linkclose} ან {contributeopen}გაავრცელეთ სიტყვა{linkclose}!",
     "Show First Run Wizard again" : "პირველი გაშვების ოსტატის ახლიდან ჩვენება",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "იქონიეთ წვდომა და თქვენი პირობებით, ნებისმიერი მოწყობილობიდან გააზიარეთ ფაილები, კალენდარი, კონტაქტები, ელ-ფოსტა და სხვა",
     "Connect your desktop apps to %s" : "დაუკავშირეთ თქვენი დესკტოპ აპლიკაციები %s-ს",
@@ -18,6 +18,6 @@
     "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "მეტი ინფორმაციაა <a target=\"_blank\" href=\"%s\">დოკუმენტაციაში</a> და ჩვენს <a target=\"_blank\" href=\"%s\">ვებ-საიტზე</a>.",
     "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "თუ მოგეწონათ Nextcloud-ი, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\">გაუწიეთ რეკომენდაცია მეგობრებთან</a> და <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">შეიტანეთ წვლილი მის განვითარებაში</a>!",
     "Connect your Calendar" : "დაუკავშირდით თქვენ კალენდარს",
-    "Connect your Contacts" : "დაუკავშირდით თქვენ კონტაქტებს"
+    "Connect your Contacts" : "დააკავშირეთ თქვენი კონტაქტები"
 },"pluralForm" :"nplurals=1; plural=0;"
 }
