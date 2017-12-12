@@ -18,7 +18,7 @@
 	</p>
 </div>
 
-<h1><?php p($theme->getSlogan()); ?></h1>
+<h1><?php print_unescaped($theme->getSlogan()); ?></h1>
 <p><?php p($l->t('Access & share your files, calendars, contacts, mail & more from any device, on your terms'));?></p>
 
 </div>
