@@ -10,7 +10,7 @@ OC.L10N.register(
     "Desktop client" : "Клиент для ПК",
     "Android app" : "Приложение для Android",
     "iOS app" : "Приложение для iOS ",
-    "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "Если хотите поддержать проект —{contributeopen}присоединяйтесь к разработке{linkclose} или {contributeopen}расскажите о нём другим{linkclose}!",
+    "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "Если хотите поддержать проект — {contributeopen}присоединяйтесь к разработке{linkclose} или {contributeopen}расскажите о нём другим{linkclose}!",
     "Show First Run Wizard again" : "Повторно показать мастера первого запуска",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Доступ и обмен вашими файлами, календарями, контактами, почтой и многим другим со всех  устройств только на ваших условиях",
     "Connect your desktop apps to %s" : "Подключите приложения с компьютера к %s",
