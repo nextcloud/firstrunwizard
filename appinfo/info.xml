@@ -11,7 +11,7 @@ The First run wizard can be customized to meet specific design goals, or to chan
 	<author>Jan-Christoph Borchardt</author>
 
 	<dependencies>
-		<nextcloud min-version="13" max-version="13" />
+		<nextcloud min-version="14" max-version="14" />
 	</dependencies>
 
 	<types>
@@ -19,7 +19,7 @@ The First run wizard can be customized to meet specific design goals, or to chan
 	</types>
 
 	<namespace>FirstRunWizard</namespace>
-	<version>2.2.1</version>
+	<version>2.3.0</version>
 	<default_enable/>
 
 	<settings>
