@@ -5,7 +5,7 @@ lang_map = bg_BG: bg, cs_CZ: cs, fi_FI: fi, hu_HU: hu, nb_NO: nb, sk_SK: sk, th_
 
 [nextcloud.firstrunwizard]
 file_filter = <lang>/firstrunwizard.po
-source_file = templates/firstrunwizard.pot
+source_file = translationfiles/templates/firstrunwizard.pot
 source_lang = en
 type = PO
 
