@@ -1,7 +1,7 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "First run wizard" : "Primera ejecución del asistente",
+    "First run wizard" : "Asistente de la primera ejecución",
     "Add your profile information! For example your email is needed to reset your password." : "¡Añade información a tu perfil! Por ejemplo, se necesita tu correo electrónico para restablecer tu contraseña.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "¡Añade información a tu perfil! Pon una imagen a tu perfil y tu nombre completo para un reconocimiento más sencillo a través de todas las características.",
     "Add your profile information! Set a full name for easier recognition across all features." : "¡Añade información a tu perfil! Pon tu nombre completo para un mejor reconocimiento a través de todas las características.",
@@ -11,7 +11,7 @@ OC.L10N.register(
     "Android app" : "Aplicación de Android",
     "iOS app" : "Aplicación de iOS",
     "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "Si quieres apoyar el proyecto, ¡{contributeopen}únete al desarrollo{linkclose} o {contributeopen}difunde la palabra{linkclose}!",
-    "Show First Run Wizard again" : "Mostrar de nuevo el asistente de primera ejecución",
+    "Show First Run Wizard again" : "Mostrar de nuevo el asistente de la primera ejecución",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Accede y comparte tus archivos, calendarios, contactos, correo y más desde cualquier dispositivo, en tus propios términos",
     "Connect your desktop apps to %s" : "Conecta tus aplicaciones de escritorio a %s",
     "Connect your calendar" : "Conecta tu calendario",
