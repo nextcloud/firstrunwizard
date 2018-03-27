@@ -41,6 +41,7 @@
 	line-height: 120%;
 }
 
+.clientslinks .appsmall,
 #firstrunwizard .appsmall {
 	height: 32px;
 	width: 32px;
@@ -48,7 +49,7 @@
 	opacity: .5;
 	vertical-align: middle;
 }
-
+.clientslinks .button,
 #firstrunwizard .button {
 	display: inline-block;
 	padding: 8px;
@@ -73,4 +74,9 @@
 	top: 0;
 	right: 0;
 	padding: 10px;
+}
+
+.clientslinks {
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
