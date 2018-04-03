@@ -21,6 +21,7 @@
  *
  */
 
+/** @var \OCP\Defaults $theme */
 /** @var array $_ */
 style('firstrunwizard', ['colorbox', 'firstrunwizard']);
 script('firstrunwizard', ['jquery.colorbox', 'firstrunwizard']);
@@ -28,31 +29,51 @@ script('firstrunwizard', ['jquery.colorbox', 'firstrunwizard']);
 
 <div id="clientsbox" class="section clientsbox">
 	<h2><?php p($l->t('Get the apps to sync your files'));?></h2>
-	<a href="<?php p($_['clients']['desktop']); ?>" rel="noreferrer" target="_blank">
-		<img src="<?php print_unescaped(image_path('core', 'desktopapp.svg')); ?>"
-			 alt="<?php p($l->t('Desktop client'));?>" />
-	</a>
-	<a href="<?php p($_['clients']['android']); ?>" rel="noreferrer" target="_blank">
-		<img src="<?php print_unescaped(image_path('core', 'googleplay.png')); ?>"
-			 alt="<?php p($l->t('Android app'));?>" />
-	</a>
-	<a href="<?php p($_['clients']['ios']); ?>" rel="noreferrer" target="_blank">
-		<img src="<?php print_unescaped(image_path('core', 'appstore.svg')); ?>"
-			 alt="<?php p($l->t('iOS app'));?>" />
-	</a>
 
-	<p>
-		<?php print_unescaped(str_replace(
-			[
-				'{contributeopen}',
-				'{linkclose}',
-			],
-			[
-				'<a href="https://nextcloud.com/contribute" target="_blank" rel="noreferrer">',
-				'</a>',
-			],
-			$l->t('If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!'))); ?>
-	</p>
+	<p><?php p($l->t('%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost.', [$theme->getName()])); ?></p>
 
-	<p><a class="button" href="#" id="showWizard"><?php p($l->t('Show First Run Wizard again'));?></a></p>
+	<div class="clientslinks">
+		<a href="<?php p($_['clients']['desktop']); ?>" rel="noreferrer" target="_blank">
+			<img src="<?php print_unescaped(image_path('core', 'desktopapp.svg')); ?>"
+				 alt="<?php p($l->t('Desktop client'));?>"/>
+		</a>
+		<a href="<?php p($_['clients']['android']); ?>" rel="noreferrer" target="_blank">
+			<img src="<?php print_unescaped(image_path('core', 'googleplay.png')); ?>"
+				 alt="<?php p($l->t('Android app'));?>" />
+		</a>
+		<a href="<?php p($_['clients']['ios']); ?>" rel="noreferrer" target="_blank">
+			<img src="<?php print_unescaped(image_path('core', 'appstore.svg')); ?>"
+				 alt="<?php p($l->t('iOS app'));?>" />
+		</a>
+	</div>
+	<p><?php print_unescaped($l->t('Setup sync clients using an <a href="">app password</a>. That way you can make sure you are able to revoke access in case you loose that device.')); ?></p>
+</div>
+<div class="followupsection">
+	<h2><?php p($l->t('Connect other apps to %s', array($theme->getName()))); ?></h2>
+
+	<p><?php print_unescaped($l->t('Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s.', [$theme->getName()])); ?></p>
+
+	<div class="clientslinks">
+		<a target="_blank" class="button" href="<?php p(link_to_docs('user-sync-calendars')) ?>">
+			<img class="appsmall appsmall-calendar svg" alt=""
+				 src="<?php p(image_path('core', 'places/calendar-dark.svg')); ?>" />
+			<?php p($l->t('Connect your calendar'));?>
+		</a>
+		<a target="_blank" class="button" href="<?php p(link_to_docs('user-sync-contacts')) ?>">
+			<img class="appsmall appsmall-contacts svg" alt=""
+				 src="<?php p(image_path('core', 'places/contacts-dark.svg')); ?>" />
+			<?php p($l->t('Connect your contacts'));?>
+		</a>
+		<a target="_blank" class="button" href="<?php p(link_to_docs('user-webdav')); ?>">
+			<img class="appsmall svg" alt=""
+				 src="<?php p(image_path('files', 'folder.svg')); ?>" />
+			<?php p($l->t('Access files via WebDAV'));?>
+		</a>
+	</div>
+</div>
+
+<div class="followupsection">
+	<h2><?php p($l->t('First run wizard'));?></h2>
+	<p><?php p($l->t('The first run wizard helps you to get started with %s.', [$theme->getName()])); ?></p>
+	<p><a class="button" href="#" id="showWizard"><?php p($l->t('Show first run wizard again'));?></a></p>
 </div>
