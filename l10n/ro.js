@@ -5,9 +5,9 @@ OC.L10N.register(
     "Desktop client" : "Client desktop",
     "Android app" : "Aplicație Android",
     "iOS app" : "Aplicație iOS",
+    "Access files via WebDAV" : "Accesează fișierele prin WebDAV",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Accesează-ți și împărtășește-ți fișierele, calendarele, persoanele de contact, mesajele electronice și multe altele de pe orice dispozitiv, respectând termenii tăi",
     "Connect your desktop apps to %s" : "Conectează-ți aplicațiile desktop la %s",
-    "Access files via WebDAV" : "Accesează fișierele prin WebDAV",
     "Connect your Calendar" : "Conectează-ți calendarul",
     "Connect your Contacts" : "Conectează-ți contactele"
 },

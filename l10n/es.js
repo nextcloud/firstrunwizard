@@ -10,16 +10,16 @@ OC.L10N.register(
     "Desktop client" : "Cliente de escritorio",
     "Android app" : "Aplicación de Android",
     "iOS app" : "Aplicación de iOS",
-    "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "Si quieres apoyar el proyecto, ¡{contributeopen}únete al desarrollo{linkclose} o {contributeopen}difunde la palabra{linkclose}!",
-    "Show First Run Wizard again" : "Mostrar de nuevo el asistente de la primera ejecución",
-    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Accede y comparte tus archivos, calendarios, contactos, correo y más desde cualquier dispositivo, en tus propios términos",
-    "Connect your desktop apps to %s" : "Conecta tus aplicaciones de escritorio a %s",
     "Connect your calendar" : "Conecta tu calendario",
     "Connect your contacts" : "Conecta tus contactos",
     "Access files via WebDAV" : "Accede tus archivos vía WebDAV",
+    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Accede y comparte tus archivos, calendarios, contactos, correo y más desde cualquier dispositivo, en tus propios términos",
+    "Connect your desktop apps to %s" : "Conecta tus aplicaciones de escritorio a %s",
     "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Hay más información en la <a target=\"_blank\" href=\"%s\">documentación</a> y en nuestro <a target=\"_blank\" href=\"%s\">sitio web</a>.",
     "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "Si te gusta Nextcloud, ¡<a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recomiéndalo a tus amigos</a> y <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribuye</a>!",
     "Connect your Calendar" : "Conecta tu calendario",
-    "Connect your Contacts" : "Conecta tus contactos"
+    "Connect your Contacts" : "Conecta tus contactos",
+    "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "Si quieres apoyar el proyecto, ¡{contributeopen}únete al desarrollo{linkclose} o {contributeopen}difunde la palabra{linkclose}!",
+    "Show First Run Wizard again" : "Mostrar de nuevo el asistente de la primera ejecución"
 },
 "nplurals=2; plural=(n != 1);");

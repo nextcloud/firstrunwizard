@@ -5,8 +5,8 @@ OC.L10N.register(
     "Desktop client" : "Клієнт для ПК",
     "Android app" : "Android-додаток",
     "iOS app" : "iOS додаток",
-    "Connect your desktop apps to %s" : "Під'єднати ваші додатки до %s",
     "Access files via WebDAV" : "Доступ до файлів за допомогою WebDAV",
+    "Connect your desktop apps to %s" : "Під'єднати ваші додатки до %s",
     "Connect your Calendar" : "Під'єднати  ваш Календар",
     "Connect your Contacts" : "Під'єднати ваші Контакти"
 },

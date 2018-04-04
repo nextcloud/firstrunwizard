@@ -4,14 +4,14 @@
     "Desktop client" : "تطبيق سطح المكتب",
     "Android app" : "تطبيق أندرويد",
     "iOS app" : "تطبيق iOS",
-    "Show First Run Wizard again" : "إعادة إظهار هذا الدليل للتشغيل لأول مرة",
-    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "مشاركة ملفاتك و الوصول الى التقويم و جهات الاتصال و البريد الإلكتروني والمزيد, وذلك من أي جهاز وتحت تصرفك.",
-    "Connect your desktop apps to %s" : "اربط تطبيقات نظامك بـ %s",
     "Connect your calendar" : "قم بربط مُفكّرتك",
     "Connect your contacts" : "قم بريط قائمة مراسليك",
     "Access files via WebDAV" : "دخول الملفات باستخدام WebDAV",
+    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "مشاركة ملفاتك و الوصول الى التقويم و جهات الاتصال و البريد الإلكتروني والمزيد, وذلك من أي جهاز وتحت تصرفك.",
+    "Connect your desktop apps to %s" : "اربط تطبيقات نظامك بـ %s",
     "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "هناك المزيد من المعلومات على  <a target=\"_blank\" href=\"%s\">الوثائق</a> وعلى <a target=\"_blank\" href=\"%s\">الموقع</a>.",
     "Connect your Calendar" : "ربط التقويم",
-    "Connect your Contacts" : "ربط جهات الاتصال"
+    "Connect your Contacts" : "ربط جهات الاتصال",
+    "Show First Run Wizard again" : "إعادة إظهار هذا الدليل للتشغيل لأول مرة"
 },"pluralForm" :"nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;"
 }

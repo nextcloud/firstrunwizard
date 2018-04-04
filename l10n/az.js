@@ -5,8 +5,8 @@ OC.L10N.register(
     "Desktop client" : "Desktop client",
     "Android app" : "Android proqramı",
     "iOS app" : "iOS proqramı",
-    "Connect your desktop apps to %s" : "Desktop proqramınızı %s-ə qoşun",
     "Access files via WebDAV" : "Fayllara WebDAV ilə yetki",
+    "Connect your desktop apps to %s" : "Desktop proqramınızı %s-ə qoşun",
     "Connect your Calendar" : "Öz kalendarınıza qoşulun",
     "Connect your Contacts" : "Əlaqələri qoşun"
 },

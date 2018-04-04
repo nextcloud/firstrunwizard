@@ -8,16 +8,16 @@
     "Desktop client" : "Klient për desktop",
     "Android app" : "Aplikacion Android",
     "iOS app" : "Aplikacion iOS",
-    "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "Në qoftë se doni të suportoni projektin {contributeopen} bashkohu zhvillimit {linkclose} ose {contributeopen} përhap fjalën {linkclose}!",
-    "Show First Run Wizard again" : "Shfaq First Run Wizard përsëri",
-    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Përdorni & ndani me të tjerët skedaret tuaja, kalendarët, kontaktet, email-et & të tjera, nga cilado pajisje, sipas kushteve tuaja",
-    "Connect your desktop apps to %s" : "Lidhni aplikacionet tuaja për desktop me %s",
     "Connect your calendar" : "Lidh kalendarin tuaj",
     "Connect your contacts" : "Lidh kontaktet e tua",
     "Access files via WebDAV" : "Hyni në kartela përmes WebDAV-it",
+    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Përdorni & ndani me të tjerët skedaret tuaja, kalendarët, kontaktet, email-et & të tjera, nga cilado pajisje, sipas kushteve tuaja",
+    "Connect your desktop apps to %s" : "Lidhni aplikacionet tuaja për desktop me %s",
     "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Më shumë informacione gjeni tek <a target=\"_blank\" href=\"%s\">dokumentacioni</a> dhe në <a target=\"_blank\" href=\"%s\">faqen tonë të internetit</a>.",
     "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "Nëse ju pëlqen Nextcloud,<a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> rekomandojenni atë tek shokët a tu</a> dhe <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">kontriboni sërish</a>!",
     "Connect your Calendar" : "Lidhni Kalendarin tuaj",
-    "Connect your Contacts" : "Lidhni Kontaket tuaja"
+    "Connect your Contacts" : "Lidhni Kontaket tuaja",
+    "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "Në qoftë se doni të suportoni projektin {contributeopen} bashkohu zhvillimit {linkclose} ose {contributeopen} përhap fjalën {linkclose}!",
+    "Show First Run Wizard again" : "Shfaq First Run Wizard përsëri"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
