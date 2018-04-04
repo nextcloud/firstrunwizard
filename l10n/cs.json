@@ -8,16 +8,16 @@
     "Desktop client" : "Aplikace pro počítač",
     "Android app" : "Aplikace pro Android",
     "iOS app" : "iOS aplikace",
-    "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "Pokud chcete podpořit projekt {contributeopen}připojte se k jeho vývoji{linkclose} nebo {contributeopen}šiřte osvětu{linkclose}!",
-    "Show First Run Wizard again" : "Znovu zobrazit průvodce prvním spuštěním",
-    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Přistupujte a sdílejte své soubory, kalendáře, kontakty e-maily a další z jakéhokoliv přístroje, dle vlastních podmínek",
-    "Connect your desktop apps to %s" : "Propojte své aplikace s %s",
     "Connect your calendar" : "Připojit kalendář",
     "Connect your contacts" : "Připojit kontakty",
     "Access files via WebDAV" : "Přistupovat k souborům přes WebDAV",
+    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Přistupujte a sdílejte své soubory, kalendáře, kontakty e-maily a další z jakéhokoliv přístroje, dle vlastních podmínek",
+    "Connect your desktop apps to %s" : "Propojte své aplikace s %s",
     "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Více informací naleznete v <a target=\"_blank\" href=\"%s\">dokumentaci</a> a na našem <a target=\"_blank\" href=\"%s\">webu</a>.",
     "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "Poked se vám Nextcloud líbí, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> doporučte jej svým přátelům</a> a <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">přispějte k jeho vývoji</a>!",
     "Connect your Calendar" : "Připojit kalendář",
-    "Connect your Contacts" : "Připojit kontakty"
+    "Connect your Contacts" : "Připojit kontakty",
+    "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "Pokud chcete podpořit projekt {contributeopen}připojte se k jeho vývoji{linkclose} nebo {contributeopen}šiřte osvětu{linkclose}!",
+    "Show First Run Wizard again" : "Znovu zobrazit průvodce prvním spuštěním"
 },"pluralForm" :"nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;"
 }

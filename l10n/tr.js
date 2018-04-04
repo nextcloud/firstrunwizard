@@ -10,16 +10,16 @@ OC.L10N.register(
     "Desktop client" : "Masaüstü istemcisi",
     "Android app" : "Android uygulaması",
     "iOS app" : "iOS uygulaması",
-    "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "Projeyi desteklemek için {contributeopen}geliştirmeye katılabilir{linkclose} ya da {contributeopen}tanıtımını yapabilirsiniz{linkclose}!",
-    "Show First Run Wizard again" : "İlk Çalıştırma Sihirbazı'nı yeniden görüntüle",
-    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Herhangi bir aygıttan dosyalarınız, takvimleriniz, kişileriniz, e-postalarınız ve başka pek çok ögenize istediğiniz şekilde erişip paylaşabilirsiniz.",
-    "Connect your desktop apps to %s" : "Masaüstü uygulamalarınızı %s üzerine bağlayın",
     "Connect your calendar" : "Takviminizi bağlayın",
     "Connect your contacts" : "Kişilerinizi bağlayın",
     "Access files via WebDAV" : "WebDAV üzerinden dosyalarınıza erişin",
+    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Herhangi bir aygıttan dosyalarınız, takvimleriniz, kişileriniz, e-postalarınız ve başka pek çok ögenize istediğiniz şekilde erişip paylaşabilirsiniz.",
+    "Connect your desktop apps to %s" : "Masaüstü uygulamalarınızı %s üzerine bağlayın",
     "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Ayrıntılı bilgi almak için <a target=\"_blank\" href=\"%s\">belgelere</a> ve <a target=\"_blank\" href=\"%s\">eb sitemize</a> bakabilirsiniz.",
     "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "Nextcloud hoşunuza gittiyse, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud dosyalarınızı yedeklemek ve paylaşmak için harika bir açık kaynaklı yazılım.  https://nextcloud.com adresinden ücretsiz edinebilirsin\">arkadaşlarınıza önerin</a> ve <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\"> katkıda bulunun</a>!",
     "Connect your Calendar" : "Takviminizi bağlayın",
-    "Connect your Contacts" : "Kişilerinizi bağlayın"
+    "Connect your Contacts" : "Kişilerinizi bağlayın",
+    "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "Projeyi desteklemek için {contributeopen}geliştirmeye katılabilir{linkclose} ya da {contributeopen}tanıtımını yapabilirsiniz{linkclose}!",
+    "Show First Run Wizard again" : "İlk Çalıştırma Sihirbazı'nı yeniden görüntüle"
 },
 "nplurals=2; plural=(n > 1);");

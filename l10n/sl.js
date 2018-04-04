@@ -7,13 +7,13 @@ OC.L10N.register(
     "Desktop client" : "Namizni odjemalec",
     "Android app" : "Aplikacija za Android",
     "iOS app" : "Aplikacija za iOS",
-    "Show First Run Wizard again" : "Ponovno prikaži čarovnika prvega zagona",
-    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Dostop in souporaba datotek, koledarja, stikov, elektronske pošte in drugih virov na napravi, pod vašimi pogoji!",
-    "Connect your desktop apps to %s" : "Povežite namizne programe z %s",
     "Connect your calendar" : "Poveži svoj koledar",
     "Connect your contacts" : "Poveži svoje kontakte",
     "Access files via WebDAV" : "Dostopaj do datotek preko WebDAV",
+    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Dostop in souporaba datotek, koledarja, stikov, elektronske pošte in drugih virov na napravi, pod vašimi pogoji!",
+    "Connect your desktop apps to %s" : "Povežite namizne programe z %s",
     "Connect your Calendar" : "Poveži svoj koledar",
-    "Connect your Contacts" : "Poveži svoje stike"
+    "Connect your Contacts" : "Poveži svoje stike",
+    "Show First Run Wizard again" : "Ponovno prikaži čarovnika prvega zagona"
 },
 "nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);");

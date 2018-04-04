@@ -5,9 +5,9 @@ OC.L10N.register(
     "Desktop client" : "מחשב אישי",
     "Android app" : "אפליקציית אנרואיד",
     "iOS app" : "אפליקציית אייפון",
+    "Access files via WebDAV" : "גש לקבצים דרך WebDAV",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "כניסה ושיתוף של קבצים, לוחות השנה, פרטי קשר, דואר אלקטרוני ועוד מכל מכשיר, ובתנאים שלך",
     "Connect your desktop apps to %s" : "חיבור אפליקציית המחשב האישי אל %s",
-    "Access files via WebDAV" : "גש לקבצים דרך WebDAV",
     "Connect your Calendar" : "חבר את לוח השנה שלך",
     "Connect your Contacts" : "חבר את אנשי הקשר שלך"
 },

@@ -10,16 +10,16 @@ OC.L10N.register(
     "Desktop client" : "桌面客戶端",
     "Android app" : "Android 應用程式",
     "iOS app" : "iOS 應用程式",
-    "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "如果您想支持這個專案，請{contributeopen}參與開發{linkclose}，或{contributeopen}廣而告之{linkclose}！",
-    "Show First Run Wizard again" : "再次顯示首次使用精靈",
-    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "在任何裝置存取、分享您的檔案、行事曆、聯絡人、郵件和更多其他——由您掌控！",
-    "Connect your desktop apps to %s" : "連接您的桌面應用程式到 %s",
     "Connect your calendar" : "連接您的日曆",
     "Connect your contacts" : "連接您的聯絡人",
     "Access files via WebDAV" : "透過 WebDAV 存取檔案",
+    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "在任何裝置存取、分享您的檔案、行事曆、聯絡人、郵件和更多其他——由您掌控！",
+    "Connect your desktop apps to %s" : "連接您的桌面應用程式到 %s",
     "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "我們的<a target=\"_blank\" href=\"%s\">說明文件</a>和<a target=\"_blank\" href=\"%s\">網站</a>上面有更多資訊",
     "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "如果您喜歡 Nextcloud，<a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\">將它推薦給朋友</a>，或是<a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">貢獻一己之力</a>！",
     "Connect your Calendar" : "連接您的日曆",
-    "Connect your Contacts" : "連接您的聯絡人"
+    "Connect your Contacts" : "連接您的聯絡人",
+    "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "如果您想支持這個專案，請{contributeopen}參與開發{linkclose}，或{contributeopen}廣而告之{linkclose}！",
+    "Show First Run Wizard again" : "再次顯示首次使用精靈"
 },
 "nplurals=1; plural=0;");
