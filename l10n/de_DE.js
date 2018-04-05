@@ -13,6 +13,7 @@ OC.L10N.register(
     "Connect your calendar" : "Verbinden Sie Ihre Kalender ",
     "Connect your contacts" : "Verbinden Sie Ihre Kontakte",
     "Access files via WebDAV" : "Greifen Sie auf Dateien über WebDAV zu",
+    "Show first run wizard again" : "Den Einrichtungsassistenten erneut anzeigen",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Erreiche und teile Deine Dateien, Kalender, Kontakte, Mails, etc von jedem Gerät. Unter deinen Bedingungen",
     "Connect your desktop apps to %s" : "Verbinden Sie Ihre Desktop-Anwendungen mit %s",
     "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Weitere Informationen finden Sie in der <a target=\"_blank\" href=\"%s\">Dokumentation</a> und auf unserer  <a target=\"_blank\" href=\"%s\">Webseite</a>.",

@@ -10,6 +10,7 @@ OC.L10N.register(
     "Desktop client" : "Πελάτης σταθερού υπολογιστή",
     "Android app" : "Εφαρμογή Android",
     "iOS app" : "Εφαρμογή iOS",
+    "Connect other apps to %s" : "Σύνδεση άλλων εφαρμογών στο %s",
     "Connect your calendar" : "Σύνδεσε το ημερολόγιό σου",
     "Connect your contacts" : "Σύνδεσε τις επαφές σου",
     "Access files via WebDAV" : "Πρόσβαση στα αρχεία μέσω WebDAV",
