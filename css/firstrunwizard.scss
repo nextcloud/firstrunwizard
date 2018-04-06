@@ -1,5 +1,4 @@
 #firstrunwizard {
-	text-align: center;
 }
 
 #cboxLoadedContent {
@@ -14,6 +13,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #fff;
+	text-align: center;
 }
 #firstrunwizard .firstrunwizard-header .logo {
 	background-image: url('../../../core/img/logo.svg');
@@ -37,7 +37,7 @@
 }
 
 #firstrunwizard h2 {
-	margin: 35px 0 10px;
+	margin: 30px 0 10px;
 	line-height: 120%;
 }
 
@@ -57,6 +57,53 @@
 	font-size: 14px;
 }
 
+#firstrunwizard .page {
+	margin-bottom: 50px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	.image {
+		padding: 20px;
+		max-width: calc(50% - 40px);
+		flex-grow: 1;
+		img {
+			width: 100%;
+		}
+	}
+	.content {
+		padding: 20px;
+	}
+	.description {
+		margin: 20px;
+		width: auto;
+		flex-grow: 1;
+		max-width: calc(50% - 40px);
+	}
+	ul {
+		margin: 10px;
+		li {
+			margin-left: 20px;
+			list-style-type: circle;
+			list-style-position: outside;
+		}
+	}
+	a:not(.button) {
+		text-decoration: underline;
+	}
+}
+
+.wizard-navigation {
+	display: flex;
+	position: absolute;
+	bottom: 10px;
+	width: calc(100% - 24px);
+	.prev, .next {
+		flex-grow: 1;
+	}
+	.next {
+		text-align: right;
+	}
+}
 #firstrunwizard p a {
 	font-weight: bold;
 	color: #0082c9;
