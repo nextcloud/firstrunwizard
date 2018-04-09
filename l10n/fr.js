@@ -7,6 +7,7 @@ OC.L10N.register(
     "Add your profile information! Set a full name for easier recognition across all features." : "Ajoutez vos informations de profil ! Renseignez un nom complet pour une reconnaissance plus facile à travers toutes les fonctionnalités.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Ajoutez vos informations de profil ! Renseignez une photo de profil pour une reconnaissance plus facile à travers toutes les fonctionnalités.",
     "Get the apps to sync your files" : "Obtenez les applications vous permettant de synchroniser vos fichiers",
+    "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s vous donnes accès à vos fichiers où que vous soyez. Nos interfaces mobiles et de bureaux sont disponibles sur toutes les plate-formes principales sans coût.",
     "Desktop client" : "Client de bureau",
     "Android app" : "Application Android",
     "iOS app" : "Application iOS",
