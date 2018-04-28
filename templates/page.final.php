@@ -6,7 +6,7 @@
  */
 ?>
 
-<div class="page" data-title="<?php p($l->t('Get help')); ?>">
+<div class="page" data-title="<?php p($l->t('Get help')); ?>" data-subtitle="">
 	<div class="description">
 		<div class="description-block">
 			<h2><?php p($l->t('Get more information')); ?></h2>

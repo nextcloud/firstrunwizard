@@ -32,9 +32,12 @@
 	<div class="description">
 		<p><?php p($l->t('You can extend the functionality of your %s with extra features from the Nextcloud app store. Among the more than 100 apps you can find features that enhance sharing, including:', $theme->getName())); ?></p>
 		<ul>
-			<li><?php p($l->t('Groupware apps like Calendar, Contacts, Mail, News, Notes, Bookmarks and Tasks')); ?></li>
-			<li><?php p($l->t('Collaboration and productivity apps Keepass management, Video Calls, a Kanban app, music players, Password managers, Checksums, download manager, a Markdown editor and collaborative text editing.')); ?></li>
-			<li><?php p($l->t('Security and authentication features like two-factor authentication mechanisms, SSO, Ransomware protection, admin announcements, Zimbra integration, a tiny CMS app and more.')); ?></li>
+			<li><?php p($l->t('Groupware apps like Calendar, Contacts, Mail')); ?></li>
+			<li><?php p($l->t('Communication with Nextcloud Talk')); ?></li>
+			<li><?php p($l->t('Collaboration apps for document editing')); ?></li>
+			<li><?php p($l->t('Security and authentication features like two-factor authentication, SSO and randsomeware protection')); ?></li>
+			<li><?php p($l->t('Many others like a music players, password managers, a kanban app, download manager or a markdown editor')); ?></li>
+
 		</ul>
 		<p class="details-link"><a href="/index.php/settings/apps" target="_blank"><?php p($l->t('Browse the app store')); ?></a></p>
 	</div>

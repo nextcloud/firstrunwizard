@@ -28,7 +28,7 @@
  */
 ?>
 
-<div class="page" data-title="a safe home for all your data">
+<div class="page" data-title="a safe home for all your data" data-subtitle="">
 	<div class="content">
 		<p>
 			<?php p($l->t('Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know.')); ?>
