@@ -1,6 +1,3 @@
-#firstrunwizard {
-}
-
 #cboxLoadedContent {
 	border-radius: 3px;
 }
@@ -41,16 +38,14 @@
 	line-height: 120%;
 }
 
-.clientslinks .appsmall,
-#firstrunwizard .appsmall {
+.clientslinks .appsmall {
 	height: 32px;
 	width: 32px;
 	position: relative;
 	opacity: .5;
 	vertical-align: middle;
 }
-.clientslinks .button,
-#firstrunwizard .button {
+.clientslinks .button {
 	display: inline-block;
 	padding: 8px;
 	font-weight: normal;
@@ -58,10 +53,13 @@
 }
 
 #firstrunwizard .page {
-	margin-bottom: 50px;
+	margin-bottom: 60px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	h2 {
+		margin: 0 0 10px 0;
+	}
 	.image {
 		padding: 20px;
 		max-width: calc(50% - 40px);
@@ -73,6 +71,9 @@
 	.content {
 		padding: 20px;
 	}
+	p, .description-block {
+		margin-bottom: 20px;
+	}
 	.description {
 		margin: 20px;
 		width: auto;
@@ -83,12 +84,23 @@
 		margin: 10px;
 		li {
 			margin-left: 20px;
+			margin-bottom: 10px;
 			list-style-type: circle;
 			list-style-position: outside;
 		}
 	}
 	a:not(.button) {
 		text-decoration: underline;
+	}
+	.button {
+
+		img {
+			width: 16px;
+			height: 16px;
+			opacity: .5;
+			margin-top: -3px;
+			vertical-align: middle;
+		}
 	}
 }
 
@@ -99,9 +111,24 @@
 	width: calc(100% - 24px);
 	.prev, .next {
 		flex-grow: 1;
+		flex-basis: 200px;
 	}
 	.next {
 		text-align: right;
+	}
+	.position-indicator {
+		list-style-type: circle;
+		list-style-position: inside;
+		padding: 0;
+		margin: 10px 0 0;
+		color: $color-primary;
+		font-size: 120%;
+		li {
+			float:left;
+			&.active {
+				list-style-type: disc;
+			}
+		}
 	}
 }
 #firstrunwizard p a {
@@ -126,4 +153,38 @@
 .clientslinks {
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+
+#firstrunwizard .page #wizard-values {
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	li {
+		display: block;
+		min-width: 300px;
+		width: 50%;
+		margin: 20px 0 20px 0;
+		span {
+			opacity: .7;
+			display: block;
+			height: 50px;
+			background-size: 40px;
+		}
+		h2 {
+			margin: 10px 0 10px 0;
+			font-size: 130%;
+			text-align: center;
+		}
+	}
+}
+
+.details-link {
+	text-align: center;
+}
+
+.icon-source {
+	background-image: url('../img/source.svg');
+}
+.icon-world {
+	background-image: url('../img/world.svg');
 }
