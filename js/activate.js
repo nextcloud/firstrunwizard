@@ -1,3 +1,3 @@
 $(document).ready(function() {
-	showFirstRunWizard();
+	OCA.FirstRunWizard.Wizard.showFirstRunWizard();
 });
