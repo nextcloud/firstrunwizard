@@ -29,7 +29,7 @@
 ?>
 
 <div class="page" data-title="a safe home for all your data" data-subtitle="">
-	<div class="content">
+	<div class="content content-values">
 		<p>
 			<?php p($l->t('Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know.')); ?>
 		</p>
@@ -44,12 +44,8 @@
 				<h2><?php p($l->t('Open Standards and Interoperability')); ?></h2>
 			</li>
 			<li>
-				<span class="icon-source"></span>
-				<h2><?php p($l->t('100%% Open Source')); ?></h2>
-			</li>
-			<li>
 				<span class="icon-user"></span>
-				<h2><?php p($l->t('Community focus')); ?></h2>
+				<h2><?php p($l->t('100%% Open Source & community-focused')); ?></h2>
 			</li>
 		</ul>
 

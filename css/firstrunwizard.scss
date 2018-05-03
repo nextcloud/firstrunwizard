@@ -36,6 +36,7 @@
 #firstrunwizard h2 {
 	margin: 30px 0 10px;
 	line-height: 120%;
+	padding: 0;
 }
 
 .clientslinks .appsmall {
@@ -71,8 +72,11 @@
 	.content {
 		padding: 20px;
 	}
-	p, .description-block {
+	p {
 		margin-bottom: 20px;
+	}
+	.description-block {
+		margin-bottom: 40px;
 	}
 	.description {
 		margin: 20px;
@@ -93,6 +97,7 @@
 		text-decoration: underline;
 	}
 	.button {
+		display: inline-block;
 
 		img {
 			width: 16px;
@@ -100,6 +105,24 @@
 			opacity: .5;
 			margin-top: -3px;
 			vertical-align: middle;
+		}
+	}
+}
+#firstrunwizard {
+	.content-clients {
+		width: 100%;
+		text-align: center;
+		a {
+			text-decoration: none;
+			display: inline-block;
+		}
+	}
+	.content-final {
+		h2 {
+			background-position: 0;
+			background-size: 16px 16px;
+			padding-left: 26px;
+			opacity: .7;
 		}
 	}
 }
@@ -161,8 +184,9 @@
 	flex-wrap: wrap;
 	li {
 		display: block;
-		min-width: 300px;
-		width: 50%;
+		min-width: 250px;
+		width: 33%;
+		flex-grow: 1;
 		margin: 20px 0 20px 0;
 		span {
 			opacity: .7;
@@ -187,4 +211,30 @@
 }
 .icon-world {
 	background-image: url('../img/world.svg');
+}
+
+@media only screen and (max-width: 680px) {
+	#firstrunwizard {
+		.firstrunwizard-header div.logo {
+			background-size: 120px;
+		}
+		h1 {
+			font-size: 20px;
+		}
+		.page > div {
+			max-width: 100% !important;
+			width: 100%;
+		}
+		#wizard-values li {
+			min-width: 100%;
+			overflow: hidden;
+			span, h2 {
+				font-size: 12px;
+				float:left;
+			}
+		}
+		.page .content {
+			padding: 0;
+		}
+	}
 }

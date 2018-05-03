@@ -30,7 +30,7 @@
 <div class="page" data-title="Extend your cloud" data-subtitle="">
 	<div class="image"><img src="<?php p(image_path('firstrunwizard', 'appstore.svg')); ?>" /></div>
 	<div class="description">
-		<p><?php p($l->t('You can extend the functionality of your %s with extra features from the Nextcloud app store. Among the more than 100 apps you can find features that enhance sharing, including:', $theme->getName())); ?></p>
+		<p><?php p($l->t('Find more than 100 apps in the Nextcloud app store to customize your cloud:')); ?></p>
 		<ul>
 			<li><?php p($l->t('Groupware apps like Calendar, Contacts, Mail')); ?></li>
 			<li><?php p($l->t('Communication with Nextcloud Talk')); ?></li>
