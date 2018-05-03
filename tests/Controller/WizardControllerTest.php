@@ -24,18 +24,11 @@
 namespace OCA\FirstRunWizard\Tests\Controller;
 
 
-use OCA\FirstRunWizard\AppInfo\Application;
 use OCA\FirstRunWizard\Controller\WizardController;
-use OCA\FirstRunWizard\Notification\BackgroundJob;
-use OCA\FirstRunWizard\Notification\Notifier;
-use OCP\AppFramework\App;
-use OCP\AppFramework\Controller;
 use OCP\AppFramework\Http;
 use OCP\AppFramework\Http\DataResponse;
-use OCP\BackgroundJob\IJob;
 use OCP\IConfig;
 use OCP\IRequest;
-use OCP\Notification\INotifier;
 use Test\TestCase;
 
 /**
@@ -111,7 +104,7 @@ class WizardControllerTest extends TestCase {
 			->willReturnMap([
 				['customclient_desktop', 'https://nextcloud.com/install/#install-clients', $desktopUrl],
 				['customclient_android', 'https://play.google.com/store/apps/details?id=com.nextcloud.client', $androidUrl],
-				['customclient_ios', 'https://itunes.apple.com/us/app/nextcloud/id1125420102?mt=8', $iosUrl],
+				['customclient_ios', 'https://geo.itunes.apple.com/us/app/nextcloud/id1125420102?mt=8', $iosUrl],
 			]);
 
 		$response = $controller->show();

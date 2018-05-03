@@ -19,6 +19,82 @@ pipeline:
     when:
       matrix:
         TESTS: signed-off-check
+  check-app-compatbility:
+    image: nextcloudci/php7.0:php7.0-17
+    environment:
+      - APP_NAME=firstrunwizard
+      - CORE_BRANCH=master
+      - DB=sqlite
+    commands:
+      # Pre-setup steps
+      - wget https://raw.githubusercontent.com/nextcloud/travis_ci/master/before_install.sh
+      - bash ./before_install.sh $APP_NAME $CORE_BRANCH $DB
+      - cd ../server
+      # Code checker
+      # FIXME: remote true once default_enable is not throwing an error for appinfo.xml
+      - ./occ app:check-code $APP_NAME -c strong-comparison || true
+      - ./occ app:check-code $APP_NAME -c deprecation || true
+      - cd apps/$APP_NAME/
+    when:
+      matrix:
+        TESTS: check-app-compatbility
+  
+  php7.0:
+    image: nextcloudci/php7.0:php7.0-17
+    environment:
+      - APP_NAME=firstrunwizard
+      - CORE_BRANCH=master
+      - DB=sqlite
+    commands:
+      # Pre-setup steps
+      - wget https://raw.githubusercontent.com/nextcloud/travis_ci/master/before_install.sh
+      - bash ./before_install.sh $APP_NAME $CORE_BRANCH $DB
+      - cd ../server/
+      - php occ app:enable $APP_NAME
+      - cd apps/$APP_NAME
+      # Run phpunit tests
+      - phpunit -c tests/phpunit.xml --coverage-clover build/php-unit.coverage.xml
+    when:
+      matrix:
+        TESTS: php7.0
+  php7.1:
+    image: nextcloudci/php7.1:php7.1-15
+    environment:
+      - APP_NAME=firstrunwizard
+      - CORE_BRANCH=master
+      - DB=sqlite
+    commands:
+      # Pre-setup steps
+      - wget https://raw.githubusercontent.com/nextcloud/travis_ci/master/before_install.sh
+      - bash ./before_install.sh $APP_NAME $CORE_BRANCH $DB
+      - cd ../server/
+      - php occ app:enable $APP_NAME
+      - cd apps/$APP_NAME
+      - phpunit -c tests/phpunit.xml --coverage-clover build/php-unit.coverage.xml
+    when:
+      matrix:
+        TESTS: php7.1
+  php7.2:
+    image: nextcloudci/php7.2:php7.2-9
+    environment:
+      - APP_NAME=firstrunwizard
+      - CORE_BRANCH=master
+      - DB=sqlite
+    commands:
+      # Pre-setup steps
+      - wget https://raw.githubusercontent.com/nextcloud/travis_ci/master/before_install.sh
+      - bash ./before_install.sh $APP_NAME $CORE_BRANCH $DB
+      - cd ../server/
+      - php occ app:enable firstrunwizard
+      - cd apps/$APP_NAME
+      - phpunit -c tests/phpunit.xml --coverage-clover build/php-unit.coverage.xml
+    when:
+      matrix:
+        TESTS: php7.2
 matrix:
   include:
     - TESTS: signed-off-check
+    - TESTS: check-app-compatbility
+    - TESTS: php7.0
+    - TESTS: php7.1
+    - TESTS: php7.2
