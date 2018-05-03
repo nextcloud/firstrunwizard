@@ -114,6 +114,7 @@
 			this.$wizard.on('click', '#finish', this.closeWizard.bind(this));
 			this.$wizard.on('click', '#closeWizard', this.closeWizard.bind(this));
 			$('body').off('keydown', this.handleKeydown).on('keydown', this.handleKeydown.bind(this));
+			this.updateTitle();
 		},
 		closeWizard: function() {
 			$('body').off('keydown', this.handleKeydown);
