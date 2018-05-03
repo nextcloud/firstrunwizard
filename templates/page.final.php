@@ -12,14 +12,14 @@
 			<h2 class="icon-info"><?php p($l->t('Get more information')); ?></h2>
 			<p><?php p($l->t('The Nextcloud documentation for home users:')); ?></p>
 			<ul>
-				<li><a href="#"><?php p($l->t('User manual')); ?></a></li>
-				<li><a href="#"><?php p($l->t('Admin manual')); ?></a></li>
-				<li><a href="#"><?php p($l->t('Developer manual')); ?></a></li>
+				<li><a href="<?php p(link_to_docs('user-')) ?>"><?php p($l->t('User manual')); ?></a></li>
+				<li><a href="<?php p(link_to_docs('admin-')) ?>"><?php p($l->t('Admin manual')); ?></a></li>
+				<li><a href="<?php p(link_to_docs('developer-')) ?>"><?php p($l->t('Developer manual')); ?></a></li>
 			</ul>
 			<p><?php p($l->t('You can also ask for help in our community support channels:')); ?></p>
 			<ul>
 				<li><a href="https://help.nextcloud.com"><?php p($l->t('the Nextcloud forums')); ?></a></li>
-				<li><a href=""><?php p($l->t('the Nextcloud IRC chat channel on freenode.net')); ?></a></li>
+				<li><a href="https://nextcloud.com/contribute/"><?php p($l->t('the Nextcloud IRC chat channel on freenode.net')); ?></a></li>
 			</ul>
 		</div>
 	</div>
