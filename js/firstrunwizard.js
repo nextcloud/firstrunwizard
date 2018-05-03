@@ -144,9 +144,6 @@
 
 $(document).ready(function() {
 
-	// FIXME: remove this (just for debugging)
-	OCA.FirstRunWizard.Wizard.showFirstRunWizard();
-
 	$('#showWizard').on('click', function () {
 		OCA.FirstRunWizard.Wizard.showFirstRunWizard();
 	});
