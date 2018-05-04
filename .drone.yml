@@ -98,3 +98,5 @@ matrix:
     - TESTS: php7.0
     - TESTS: php7.1
     - TESTS: php7.2
+
+branches: [ master, stable* ]
