@@ -1,27 +1,25 @@
 <?xml version="1.0"?>
-<info>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
 	<id>firstrunwizard</id>
 	<name>First run wizard</name>
+	<summary>A welcome and introduction wizard for Nextcloud</summary>
 	<description>This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard button can be opened again via the link on the personal page.
 The First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the First run wizard documentation, as well as the theming documentation.
 </description>
-
-	<licence>AGPL</licence>
+	<version>2.3.0</version>
+	<licence>agpl</licence>
 	<author>Frank Karlitschek</author>
 	<author>Jan-Christoph Borchardt</author>
-
-	<dependencies>
-		<nextcloud min-version="14" max-version="14" />
-	</dependencies>
-
+	<namespace>FirstRunWizard</namespace>
 	<types>
 		<logging/>
 	</types>
-
-	<namespace>FirstRunWizard</namespace>
-	<version>2.3.0</version>
+	<category>tools</category>
 	<default_enable/>
-
+	<dependencies>
+		<nextcloud min-version="14" max-version="14" />
+	</dependencies>
 	<settings>
 		<personal>OCA\FirstRunWizard\Settings\Personal</personal>
 	</settings>
