@@ -144,8 +144,15 @@
 })();
 
 $(document).ready(function() {
-
 	$('#showWizard').on('click', function () {
 		OCA.FirstRunWizard.Wizard.showFirstRunWizard();
+	});
+
+	$('#expanddiv a[href="#about"]').on('click', function () {
+		OCA.FirstRunWizard.Wizard.showFirstRunWizard();
+		$(this).find('div').remove();
+		$(this).find('img').show();
+		OC.hideMenus(function(){return false;});
+		return false;
 	});
 });

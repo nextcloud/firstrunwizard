@@ -51,6 +51,11 @@ class Application extends App {
 	}
 
 	protected function registerScripts() {
+		/* Always load scripts and styles since we need those for the about menu */
+		\OC_Util::addStyle('firstrunwizard', 'firstrunwizard');
+		\OC_Util::addScript('firstrunwizard', 'jquery.colorbox');
+		\OC_Util::addScript('firstrunwizard', 'firstrunwizard');
+
 		/** @var EventDispatcherInterface $dispatcher */
 		$dispatcher = $this->getContainer()->query(EventDispatcherInterface::class);
 
@@ -67,9 +72,9 @@ class Application extends App {
 			/** @var IConfig $config */
 			$config = $this->getContainer()->query(IConfig::class);
 
+
 			if ($config->getUserValue($user->getUID(), 'firstrunwizard', 'show', '1') !== '0') {
-				style('firstrunwizard', ['colorbox', 'firstrunwizard']);
-				script('firstrunwizard', ['jquery.colorbox', 'firstrunwizard', 'activate']);
+				\OC_Util::addScript('firstrunwizard', 'activate');
 
 				$jobList = $this->getContainer()->getServer()->getJobList();
 				$jobList->add('OCA\FirstRunWizard\Notification\BackgroundJob', ['uid' => $userSession->getUser()->getUID()]);
@@ -87,5 +92,19 @@ class Application extends App {
 				'name' => $l->t('First run wizard'),
 			];
 		});
+	}
+
+	public function registerNavigation() {
+		$urlGenerator = $this->getContainer()->getServer()->getURLGenerator();
+		$l = $this->getContainer()->getServer()->getL10N('firstrunwizard');
+
+		$this->getContainer()->getServer()->getNavigationManager()->add([
+			'type' => 'settings',
+			'id' => 'about',
+			'order' => 5,
+			'href' => '#about',
+			'name' => $l->t('About'),
+			'icon' => $urlGenerator->imagePath('core', 'actions/info.svg'),
+		]);
 	}
 }
