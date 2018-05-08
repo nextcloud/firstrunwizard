@@ -93,18 +93,4 @@ class Application extends App {
 			];
 		});
 	}
-
-	public function registerNavigation() {
-		$urlGenerator = $this->getContainer()->getServer()->getURLGenerator();
-		$l = $this->getContainer()->getServer()->getL10N('firstrunwizard');
-
-		$this->getContainer()->getServer()->getNavigationManager()->add([
-			'type' => 'settings',
-			'id' => 'about',
-			'order' => 5,
-			'href' => '#about',
-			'name' => $l->t('About'),
-			'icon' => $urlGenerator->imagePath('core', 'actions/info.svg'),
-		]);
-	}
 }
