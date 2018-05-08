@@ -148,7 +148,7 @@ $(document).ready(function() {
 		OCA.FirstRunWizard.Wizard.showFirstRunWizard();
 	});
 
-	$('#expanddiv a[href="#about"]').on('click', function () {
+	$('#expanddiv li[data-id="firstrunwizard-about"] a').on('click', function () {
 		OCA.FirstRunWizard.Wizard.showFirstRunWizard();
 		$(this).find('div').remove();
 		$(this).find('img').show();

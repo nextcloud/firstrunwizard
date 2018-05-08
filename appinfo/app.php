@@ -23,4 +23,3 @@
 
 $app = new \OCA\FirstRunWizard\AppInfo\Application();
 $app->register();
-$app->registerNavigation();
