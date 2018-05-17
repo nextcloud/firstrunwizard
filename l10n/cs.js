@@ -22,4 +22,4 @@ OC.L10N.register(
     "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "Pokud chcete podpořit projekt {contributeopen}připojte se k jeho vývoji{linkclose} nebo {contributeopen}šiřte osvětu{linkclose}!",
     "Show First Run Wizard again" : "Znovu zobrazit průvodce prvním spuštěním"
 },
-"nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;");
+"nplurals=4; plural=(n < 10 && n % 1 == 0) ? 1 : (n < 9999 && n >= 10 && n % 1 == 0) ? 3 : (n % 1 != 0) : 4;");
