@@ -19,5 +19,5 @@
     "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "თუ მოგეწონათ Nextcloud-ი, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\">გაუწიეთ მას რეკომენდაცია მეგობრებთან</a> და <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">შეიტანეთ წვლილი მის განვითარებაში</a>!",
     "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "თუ გსურთ დაეხმაროთ პროექტს {contributeopen}შეუერთდით დეველოპმენტს{linkclose} ან {contributeopen}გაავრცელეთ სიტყვა{linkclose}!",
     "Show First Run Wizard again" : "პირველი გაშვების ოსტატის ახლიდან ჩვენება"
-},"pluralForm" :"nplurals=1; plural=0;"
+},"pluralForm" :"nplurals=2; plural=(n==1);"
 }
