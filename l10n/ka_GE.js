@@ -22,4 +22,4 @@ OC.L10N.register(
     "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "თუ გსურთ დაეხმაროთ პროექტს {contributeopen}შეუერთდით დეველოპმენტს{linkclose} ან {contributeopen}გაავრცელეთ სიტყვა{linkclose}!",
     "Show First Run Wizard again" : "პირველი გაშვების ოსტატის ახლიდან ჩვენება"
 },
-"nplurals=1; plural=0;");
+"nplurals=2; plural=(n==1);");
