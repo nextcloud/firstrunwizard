@@ -31,4 +31,4 @@ OC.L10N.register(
     "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "Jeigu norite palaikyti projektą {contributeopen}prisijunkite prie jo plėtojimo{linkclose} arba {contributeopen}skleiskite apie jį žinią{linkclose}!",
     "Show First Run Wizard again" : "Rodyti pirmojo paleidimo vediklį dar kartą"
 },
-"nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 1 : (n%10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 3 : n % 1 != 0 ? 4);");
+"nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);");
