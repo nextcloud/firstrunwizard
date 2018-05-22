@@ -71,9 +71,3 @@ script('firstrunwizard', ['jquery.colorbox', 'firstrunwizard']);
 		</a>
 	</div>
 </div>
-
-<div class="followupsection">
-	<h2><?php p($l->t('First run wizard'));?></h2>
-	<p><?php p($l->t('The first run wizard helps you to get started with %s.', [$theme->getName()])); ?></p>
-	<p><a class="button" href="#" id="showWizard"><?php p($l->t('Show first run wizard again'));?></a></p>
-</div>
