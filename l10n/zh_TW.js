@@ -18,8 +18,6 @@ OC.L10N.register(
     "Setup sync clients using an <a href=\"\">app password</a>. That way you can make sure you are able to revoke access in case you loose that device." : "使用<a href=\"\">應用程式密碼</a>來設置同步客戶端，如此一來當裝置遺失的時候，您就可以撤銷該裝置的存取權",
     "Connect other apps to %s" : "連結其他應用程式到 %s",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "除了以上這些同步客戶端，你也可以使用任何 WebDAV/CalDAV/CardDAV 相容的軟體來連結到 %s",
-    "The first run wizard helps you to get started with %s." : "首次使用精靈將會協助您開始使用 %s",
-    "Show first run wizard again" : "再次顯示首次使用精靈",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "在任何裝置存取、分享您的檔案、行事曆、聯絡人、郵件和更多其他——由您掌控！",
     "Connect your Calendar" : "連接您的日曆",
     "Connect your Contacts" : "連接您的聯絡人",

@@ -29,7 +29,6 @@ OC.L10N.register(
     "Host you data and files where you decide" : "Pidä tietosi ja tiedostosi missä haluat",
     "Open Standards and Interoperability" : "Avoimet standardit ja yhteentoimivuus",
     "100%% Open Source & community-focused" : "100%% avointa lähdekoodia ja yhteisökeskeisyyttä",
-    "Show first run wizard again" : "Näytä ensimmäisen käyttökerran avustaja uudelleen",
     "Previous" : "Edellinen",
     "Next" : "Seuraava",
     "Start using Nextcloud" : "Aloita Nextcloudin käyttäminen",

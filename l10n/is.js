@@ -18,8 +18,6 @@ OC.L10N.register(
     "Setup sync clients using an <a href=\"\">app password</a>. That way you can make sure you are able to revoke access in case you loose that device." : "Settu upp samstillingaforrit með <a href=\"\">lykilorði forrits</a>. Þannig geturðu gengið úr skugga um að þú getir afturkallað aðganginn ef svo kynni að fara að þú týndir viðkomandi tæki.",
     "Connect other apps to %s" : "Tengdu önnur forrit við %s",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Fyrir utan samstillingaforritin geturðu tengt hvert það forrit sem styður WebDAV/CalDAV/CardDAV samskiptamátana við %s.",
-    "The first run wizard helps you to get started with %s." : "Fyrsta-skiptis leiðarvísirinn hjálpar þér að komast í gang með %s.",
-    "Show first run wizard again" : "Birta fyrsta-skiptis-leiðarvísinn aftur",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Fáðu aðgang að og deildu skrám, dagatölum, tengiliðum, tölvupósti og ýmsu fleiru, á hvaða tæki sem er og á þínum eigin forsendum",
     "Connect your Calendar" : "Tengdu dagatalið þitt",
     "Connect your Contacts" : "Tengdu tengiliðalistana þína",
