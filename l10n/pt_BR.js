@@ -49,8 +49,6 @@ OC.L10N.register(
     "Setup sync clients using an <a href=\"\">app password</a>. That way you can make sure you are able to revoke access in case you loose that device." : "Configure um cliente de sincronização usando uma <a href=\"\">senha de aplicativo</a>. Dessa forma, você pode garantir a revogação do acesso caso perca esse dispositivo.",
     "Connect other apps to %s" : "Conecte outros aplicativos ao %s",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Além dos clientes de sincronização, você pode conectar qualquer outro software que suporte os protocolos WebDAV/CalDAV/CardDAV ao %s.",
-    "The first run wizard helps you to get started with %s." : "O assistente de primeira execução ajuda você a começar a trabalhar com %s.",
-    "Show first run wizard again" : "Mostrar o assistente de primeira execução novamente",
     "Previous" : "Anterior",
     "Next" : "Próximo",
     "Start using Nextcloud" : "Comece a usar o Nextcloud",

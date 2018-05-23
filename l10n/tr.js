@@ -49,8 +49,6 @@ OC.L10N.register(
     "Setup sync clients using an <a href=\"\">app password</a>. That way you can make sure you are able to revoke access in case you loose that device." : "Eşitleme uygulamalarında <a href=\"\">parola</a> kullanın. Böylece aygıtınızı kaybederseniz erişimi geri alabileceğinizden emin olursunuz.",
     "Connect other apps to %s" : "Diğer uygulamaları %s üzerine bağlayın",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Eşitleme uygulamaları yanında WebDAV/CalDAV/CardDAV iletişim kurallarını destekleyen uygulamalar da %s üzerine bağlanabilir.",
-    "The first run wizard helps you to get started with %s." : "İlk çalıştırma yardımcısı %s kullanmaya başlamanızda yardımcı olur.",
-    "Show first run wizard again" : "İlk Çalıştırma Yardımcısı yeniden görüntülensin",
     "Previous" : "Önceki",
     "Next" : "Sonraki",
     "Start using Nextcloud" : "Nextcloud kullanmaya başlayın",

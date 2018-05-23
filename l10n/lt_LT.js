@@ -20,8 +20,6 @@ OC.L10N.register(
     "Setup sync clients using an <a href=\"\">app password</a>. That way you can make sure you are able to revoke access in case you loose that device." : "Nustatykite sinchronizavimo klientus, naudodami <a href=\"\">programėlės slaptažodį</a>. Tokiu būdu, praradę įrenginį, galėsite užtikrinti, kad panaikinsite prieigą prie failų.",
     "Connect other apps to %s" : "Prijunkite kitas programas prie %s",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Be sinchronizavimo klientų, prie %s taip pat galite prijungti bet kokią programinę įrangą, kuri palaiko WebDAV/CalDAV/CardDAV protokolus.",
-    "The first run wizard helps you to get started with %s." : "Pirmojo paleidimo vediklis padės jums pradėti darbą su %s.",
-    "Show first run wizard again" : "Dar kartą rodyti pirmojo paleidimo vediklį",
     "Previous" : "Ankstesnis",
     "Next" : "Kitas",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Gaukite prieigą ir bendrinkite savo failus, kalendorius, kontaktus, paštą ir daug daugiau iš bet kurio įrenginio, savo sąlygomis",
