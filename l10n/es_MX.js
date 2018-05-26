@@ -7,6 +7,7 @@ OC.L10N.register(
     "Add your profile information! Set a full name for easier recognition across all features." : "Agregua tu información de perfil! Establece tu nombre completo para reconocerte más fácilmente entre todas las funcionalidades. ",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Agrega tu información de perfil! Establece una imagen de perfil para reconocerte más fácilmente entre todas las funcionalidades. ",
     "About" : "Acerca de",
+    "A welcome and introduction wizard for Nextcloud" : "Una bienvenida y asistente de introducción para Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Puedes encontrar más de 100 apliicaciones en la tienda de aplicaciones de Nextcloud y personalizar tu nube:",
     "Groupware apps like Calendar, Contacts, Mail" : "Aplicaciones de Groupware como Calendario, Contactos y Correo",
     "Communication with Nextcloud Talk" : "Comunicacion con Nextcloud Talk",
