@@ -27,7 +27,7 @@
 		<div class="description-block">
 			<h2 class="icon-user"><?php p($l->t('Start contributing')); ?></h2>
 			<p><?php p($l->t('Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?')); ?></p>
-			<a href="https://nextcloud.com/contribute/" class="button"><?php p($l->t('Become part of the Community.')); ?></a>
+			<a href="https://nextcloud.com/contribute/" class="button"><?php p($l->t('Become part of the Community')); ?></a>
 		</div>
 		<div class="description-block">
 			<h2 class="icon-world"><?php p($l->t('Enterprise support')); ?></h2>
