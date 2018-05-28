@@ -28,7 +28,7 @@
  */
 ?>
 
-<div class="page" data-title="A safe home for all your data" data-subtitle="">
+<div class="page" data-title="<?php p($l->t('A safe home for all your data')); ?>" data-subtitle="">
 	<div class="content content-values">
 		<p>
 			<?php p($l->t('Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know.')); ?>
@@ -37,7 +37,7 @@
 		<ul id="wizard-values">
 			<li>
 				<span class="icon-world"></span>
-				<h2><?php p($l->t('Host you data and files where you decide')); ?></h2>
+				<h2><?php p($l->t('Host your data and files where you decide')); ?></h2>
 			</li>
 			<li>
 				<span class="icon-share"></span>
