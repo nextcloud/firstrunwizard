@@ -27,7 +27,7 @@
  * @var \OCP\Defaults $theme
  */
 ?>
-<div class="page" data-title="Extend your cloud" data-subtitle="">
+<div class="page" data-title="<?php p($l->t('Extend your cloud')); ?>" data-subtitle="">
 	<div class="image"><img src="<?php p(image_path('firstrunwizard', 'appstore.svg')); ?>" /></div>
 	<div class="description">
 		<p><?php p($l->t('Find more than 100 apps in the Nextcloud app store to customize your cloud:')); ?></p>
