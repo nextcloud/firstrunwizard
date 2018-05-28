@@ -31,7 +31,7 @@
 		</div>
 		<div class="description-block">
 			<h2 class="icon-world"><?php p($l->t('Enterprise support')); ?></h2>
-			<p><?php p($l->t('If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, a Enterprise Subscription from Nextcloud is available with email and phone support.')); ?></p>
+			<p><?php p($l->t('If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support.')); ?></p>
 			<a href="https://nextcloud.com/enterprise/buy" class="button"><?php p($l->t('Get enterprise support')); ?></a>
 		</div>
 	</div>

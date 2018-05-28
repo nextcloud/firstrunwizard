@@ -46,7 +46,7 @@ script('firstrunwizard', ['jquery.colorbox', 'firstrunwizard']);
 				 alt="<?php p($l->t('iOS app'));?>" />
 		</a>
 	</div>
-	<p><?php print_unescaped($l->t('Setup sync clients using an <a href="">app password</a>. That way you can make sure you are able to revoke access in case you loose that device.')); ?></p>
+	<p><?php print_unescaped($l->t('Setup sync clients using an <a href="">app password</a>. That way you can make sure you are able to revoke access in case you lose that device.')); ?></p>
 </div>
 <div class="followupsection">
 	<h2><?php p($l->t('Connect other apps to %s', array($theme->getName()))); ?></h2>

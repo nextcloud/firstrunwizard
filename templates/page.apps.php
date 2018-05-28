@@ -35,8 +35,8 @@
 			<li><?php p($l->t('Groupware apps like Calendar, Contacts, Mail')); ?></li>
 			<li><?php p($l->t('Communication with Nextcloud Talk')); ?></li>
 			<li><?php p($l->t('Collaboration apps for document editing')); ?></li>
-			<li><?php p($l->t('Security and authentication features like two-factor authentication, SSO and randsomware protection')); ?></li>
-			<li><?php p($l->t('Many others like a music players, password managers, a kanban app, download manager or a markdown editor')); ?></li>
+			<li><?php p($l->t('Security and authentication features like two-factor authentication, SSO and ransomware protection')); ?></li>
+			<li><?php p($l->t('Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor')); ?></li>
 
 		</ul>
 		<p class="details-link"><a href="/index.php/settings/apps" target="_blank"><?php p($l->t('Browse the app store')); ?></a></p>
