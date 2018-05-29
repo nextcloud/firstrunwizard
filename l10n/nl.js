@@ -17,7 +17,6 @@ OC.L10N.register(
     "Connect your contacts" : "Verbind je contactpersonen",
     "Access files via WebDAV" : "Benader bestanden via WebDAV",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s geeft je toegang tot je bestanden, waar je ook maar bent. Onze makkelijk te gebruiken desktop en mobiele applicaties zijn voor ieder groot platform gratis beschikbaar.",
-    "Setup sync clients using an <a href=\"\">app password</a>. That way you can make sure you are able to revoke access in case you loose that device." : "Installeer Sync clients met een <a href=\"\">app wachtwoord</a>. Dan kan je toegang intrekken zodra je je apparaat verliest.",
     "Connect other apps to %s" : "Verbind andere apps met 1%s",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Gebruik & deel je bestanden, agenda's, contactpersonen, e-mail & meer, vanaf elk apparaat, op je eigen voorwaarden",
     "Connect your Calendar" : "Verbind je agenda",

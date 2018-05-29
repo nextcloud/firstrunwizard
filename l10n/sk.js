@@ -17,7 +17,6 @@ OC.L10N.register(
     "Access files via WebDAV" : "Pristupovať k súborom cez WebDAV",
     "User manual" : "Používateľský manuál",
     "Start contributing" : "Začnite prispievať",
-    "Become part of the Community." : "Staňte sa súčasťou komunity.",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Pristupujte a zdieľajte svoje súbory, kalendáre, kontakty, e-mail a pod. z akéhokoľvek zariadenia, podľa vašich podmienok",
     "Connect your Calendar" : "Pripojte svoj ​​kalendár",
     "Connect your Contacts" : "Pripojte svoje kontakty",
