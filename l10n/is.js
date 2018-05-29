@@ -18,7 +18,6 @@ OC.L10N.register(
     "Get help" : "Til að fá hjálp",
     "Get more information" : "Til að fá frekari upplýsingar",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s veitir þér aðgang að skránum þínum hvar sem þú ert. Tengiforritin okkar fyrir tölvur og snjalltæki eru fáanleg fyrir flest algengustu stýrikerfi án nokkurs kostnaðar.",
-    "Setup sync clients using an <a href=\"\">app password</a>. That way you can make sure you are able to revoke access in case you loose that device." : "Settu upp samstillingaforrit með <a href=\"\">lykilorði forrits</a>. Þannig geturðu gengið úr skugga um að þú getir afturkallað aðganginn ef svo kynni að fara að þú týndir viðkomandi tæki.",
     "Connect other apps to %s" : "Tengdu önnur forrit við %s",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Fyrir utan samstillingaforritin geturðu tengt hvert það forrit sem styður WebDAV/CalDAV/CardDAV samskiptamátana við %s.",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Fáðu aðgang að og deildu skrám, dagatölum, tengiliðum, tölvupósti og ýmsu fleiru, á hvaða tæki sem er og á þínum eigin forsendum",

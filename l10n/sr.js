@@ -15,7 +15,6 @@ OC.L10N.register(
     "Connect your contacts" : "Повежите контакте",
     "Access files via WebDAV" : "Приступите фајловима преко ВебДАВ-а",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s Вам даје приступ Вашим фајловима где год да сте. Наше једноставне апликације за рачунар и за мобилне телефоне су доступне за све велике системе комплетно бесплатно.",
-    "Setup sync clients using an <a href=\"\">app password</a>. That way you can make sure you are able to revoke access in case you loose that device." : "Подесите клијенте за синхронизацију фајлова користећи <a href=\"\">апликативну лозинку</a>. На тај начин, сваки клијент ће имати своју лозинку и моћи ћете сваком појединачно да укинете приступ ако изгубите тај уређај.",
     "Connect other apps to %s" : "Повежите друге апликације на %s",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Осим клијената за синхронизацију, можете се повезати и са другим апликацијама које подржавају WebDAV/CalDAV/CardDAV протоколе на %s.",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Приступајте и делите фајлове, календаре, контакте, пошту са било ког уређаја и под вашим условима",
