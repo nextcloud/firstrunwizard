@@ -13,7 +13,6 @@
     "Connect your contacts" : "連接您的聯絡人",
     "Access files via WebDAV" : "透過 WebDAV 存取檔案",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s 讓您不管身在何處都可以存取您的檔案，我們免費提供各大主要平臺上簡單易用的桌面和行動裝置客戶端",
-    "Setup sync clients using an <a href=\"\">app password</a>. That way you can make sure you are able to revoke access in case you loose that device." : "使用<a href=\"\">應用程式密碼</a>來設置同步客戶端，如此一來當裝置遺失的時候，您就可以撤銷該裝置的存取權",
     "Connect other apps to %s" : "連結其他應用程式到 %s",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "除了以上這些同步客戶端，你也可以使用任何 WebDAV/CalDAV/CardDAV 相容的軟體來連結到 %s",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "在任何裝置存取、分享您的檔案、行事曆、聯絡人、郵件和更多其他——由您掌控！",
