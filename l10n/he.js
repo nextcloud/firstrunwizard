@@ -40,6 +40,7 @@ OC.L10N.register(
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "כניסה ושיתוף של קבצים, לוחות השנה, פרטי קשר, דואר אלקטרוני ועוד מכל מכשיר, ובתנאים שלך",
     "Connect your Calendar" : "חיבור היומן שלך",
     "Connect your Contacts" : "חיבור אנשי הקשר שלך",
+    "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "יש מידע נוסף ב<a target=\"_blank\" href=\"%s\">תיעוד</a> וב<a target=\"_blank\" href=\"%s\">אתר</a> שלנו.",
     "Show First Run Wizard again" : "הצגת אשף ההפעלה הראשונית שוב"
 },
 "nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;");
