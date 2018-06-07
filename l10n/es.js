@@ -50,7 +50,6 @@ OC.L10N.register(
     "100%% Open Source & community-focused" : "100 %% código abierto y enfocado a la comunidad",
     "Learn more about %s" : "Descubre más sobre %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s te da acceso a tus archivos estés donde estés. Nuestros clientes de escritorio y móviles son fáciles de usar y están disponibles para todas las principales plataformas a coste cero.",
-    "Setup sync clients using an <a href=\"\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Configura los clientes de escritorio usando una <a href=\"\">contraseña de app</a>. De esta forma puedes asegurarte de que puedes revocar el acceso en caso de que pierdas ese dispositivo.",
     "Connect other apps to %s" : "Conectar otras apps con %s",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Además de los clientes de sincronización, puedes conectar con %s cualquier otro software que soporte los protocolos WebDAV/CalDAV/CardDAV.",
     "Previous" : "Anterior",
