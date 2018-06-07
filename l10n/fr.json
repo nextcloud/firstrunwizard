@@ -45,7 +45,6 @@
     "100%% Open Source & community-focused" : "100%% Open Source & axé sur la communauté ",
     "Learn more about %s" : "En savoir plus à propos de %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s vous donnes accès à vos fichiers où que vous soyez. Nos interfaces mobiles et de bureaux sont disponibles sur toutes les plate-formes principales sans coût.",
-    "Setup sync clients using an <a href=\"\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Vous pouvez configurer un <a href=\"\">mot de passe d’accès</a> aux applications de synchronisation clientes. Ainsi, dans le cas où vous perdriez un périphérique, vous serez en mesure de révoquer son accès.",
     "Connect other apps to %s" : "Connectez d'autres applications à %s",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Outre les clients de synchronisation, vous pouvez connecter tout autre logiciel qui prend en charge les protocoles WebDAV / CalDAV / CardDAV à %s.",
     "Previous" : "Précédent",
