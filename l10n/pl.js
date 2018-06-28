@@ -6,6 +6,7 @@ OC.L10N.register(
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Dodaj swoje informacje profilowe! Ustaw zdjęcie profilowe i pełne imię i nazwisko, aby być łatwiej rozpoznawalnym/-ą we wszystkich funkcjonalnościach.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Dodaj swoje informacje profilowe! Ustaw pełne imię i nazwisko, aby być łatwiej rozpoznawalnym/-ą we wszystkich funkcjonalnościach.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Dodaj swoje informacje profilowe! Ustaw zdjęcie profilowe, aby być łatwiej rozpoznawalnym/-ą we wszystkich funkcjonalnościach.",
+    "About" : "O aplikacji",
     "Get the apps to sync your files" : "Pobierz aplikacje aby zsynchronizować swoje pliki",
     "Desktop client" : "Klient na komputer",
     "Android app" : "Aplikacja Android",
