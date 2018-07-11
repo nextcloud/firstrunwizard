@@ -7,7 +7,7 @@
 #firstrunwizard .firstrunwizard-header {
 	padding: 20px 12px;
 	background-color: #0082c9;
-	background-image: url($image-login-background);
+	background-image: $image-login-background;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -15,7 +15,7 @@
 	text-align: center;
 }
 #firstrunwizard .firstrunwizard-header .logo {
-	background-image: url($image-logo);
+	background-image: $image-logo;
 	background-repeat: no-repeat;
 	background-size: 175px;
 	background-position: center;
