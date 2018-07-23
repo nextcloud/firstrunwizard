@@ -40,7 +40,7 @@
 				<h2><?php p($l->t('Host your data and files where you decide')); ?></h2>
 			</li>
 			<li>
-				<span class="icon-share"></span>
+				<span class="icon-shared"></span>
 				<h2><?php p($l->t('Open Standards and Interoperability')); ?></h2>
 			</li>
 			<li>
