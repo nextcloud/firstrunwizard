@@ -197,7 +197,9 @@
 			opacity: .7;
 			display: block;
 			height: 50px;
+			width: 50px;
 			background-size: 40px;
+			margin: auto;
 		}
 		h2 {
 			margin: 10px 0 10px 0;
@@ -230,12 +232,17 @@
 			max-width: 100% !important;
 			width: 100%;
 		}
-		#wizard-values li {
+		.page #wizard-values li {
 			min-width: 100%;
 			overflow: hidden;
+			display: flex;
+			span {
+				min-width: 50px;
+				padding-right: 20px;
+			}
 			span, h2 {
 				font-size: 12px;
-				float:left;
+				text-align: left;
 			}
 		}
 		.page .content {
