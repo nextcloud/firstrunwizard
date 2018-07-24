@@ -7,7 +7,7 @@
 #firstrunwizard .firstrunwizard-header {
 	padding: 20px 12px;
 	background-color: #0082c9;
-	background-image: url($image-login-background);
+	background-image: $image-login-background;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -15,7 +15,7 @@
 	text-align: center;
 }
 #firstrunwizard .firstrunwizard-header .logo {
-	background-image: url($image-logo);
+	background-image: $image-logo;
 	background-repeat: no-repeat;
 	background-size: 175px;
 	background-position: center;
@@ -73,6 +73,7 @@
 	}
 	.content {
 		padding: 20px;
+		width: 100%;
 	}
 	p {
 		margin-bottom: 20px;
@@ -137,6 +138,9 @@
 	.prev, .next {
 		flex-grow: 1;
 		flex-basis: 200px;
+		button {
+			padding: 12px;
+		}
 	}
 	.next {
 		text-align: right;
@@ -145,7 +149,7 @@
 		list-style-type: circle;
 		list-style-position: inside;
 		padding: 0;
-		margin: 10px 0 0;
+		margin: 12px 0 0;
 		color: $color-primary;
 		font-size: 120%;
 		li {
@@ -194,7 +198,9 @@
 			opacity: .7;
 			display: block;
 			height: 50px;
+			width: 50px;
 			background-size: 40px;
+			margin: auto;
 		}
 		h2 {
 			margin: 10px 0 10px 0;
@@ -227,12 +233,17 @@
 			max-width: 100% !important;
 			width: 100%;
 		}
-		#wizard-values li {
+		.page #wizard-values li {
 			min-width: 100%;
 			overflow: hidden;
+			display: flex;
+			span {
+				min-width: 50px;
+				padding-right: 20px;
+			}
 			span, h2 {
 				font-size: 12px;
-				float:left;
+				text-align: left;
 			}
 		}
 		.page .content {

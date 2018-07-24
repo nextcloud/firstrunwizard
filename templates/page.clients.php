@@ -52,20 +52,17 @@
 			<h2><?php p($l->t('Connect your desktop apps to %s', array($theme->getName()))); ?></h2>
 			<a target="_blank" class="button"
 			   href="<?php p(link_to_docs('user-sync-calendars')) ?>">
-				<img class="appsmall appsmall-calendar svg" alt=""
-					 src="<?php p(image_path('core', 'places/calendar-dark.svg')); ?>"/>
+				<span class="icon icon-calendar-dark"></span>
 				<?php p($l->t('Connect your calendar')); ?>
 			</a>
 			<a target="_blank" class="button"
 			   href="<?php p(link_to_docs('user-sync-contacts')) ?>">
-				<img class="appsmall appsmall-contacts svg" alt=""
-					 src="<?php p(image_path('core', 'places/contacts-dark.svg')); ?>"/>
+				<span class="icon icon-contacts-dark"></span>
 				<?php p($l->t('Connect your contacts')); ?>
 			</a>
 			<a target="_blank" class="button"
 			   href="<?php p(link_to_docs('user-webdav')); ?>">
-				<img class="appsmall svg" alt=""
-					 src="<?php p(image_path('files', 'folder.svg')); ?>"/>
+				<span class="icon icon-files-dark"></span>
 				<?php p($l->t('Access files via WebDAV')); ?>
 			</a>
 		</div>
