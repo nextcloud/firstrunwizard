@@ -26,6 +26,7 @@
 
 	<div class="firstrunwizard-content">
 		<?php
+		print_unescaped($this->inc('page.intro'));
 		print_unescaped($this->inc('page.values'));
 		print_unescaped($this->inc('page.clients'));
 

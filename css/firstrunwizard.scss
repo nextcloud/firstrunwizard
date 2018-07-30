@@ -2,6 +2,7 @@
 
 #cboxLoadedContent {
 	border-radius: 3px;
+	overflow: hidden !important;
 }
 
 #firstrunwizard .firstrunwizard-header {
@@ -22,10 +23,6 @@
 	width: 252px;
 	height: 120px;
 	margin: 0 auto;
-}
-
-#firstrunwizard .firstrunwizard-content {
-	margin: 12px;
 }
 
 #firstrunwizard h1 {
@@ -56,7 +53,7 @@
 }
 
 #firstrunwizard .page {
-	margin-bottom: 60px;
+	margin-bottom: 46px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -112,6 +109,22 @@
 	}
 }
 #firstrunwizard {
+
+	.page {
+		margin: 12px;
+		margin-bottom: 60px;
+	}
+	.page.intro {
+		margin: 0;
+		margin-bottom: -50px;
+		.content {
+			padding: 0;
+			background-image: url('../img/intro.png');
+			background-position: center;
+			background-size: cover;
+			height: 50vh;
+		}
+	}
 	.content-clients {
 		width: 100%;
 		text-align: center;
@@ -133,7 +146,8 @@
 .wizard-navigation {
 	display: flex;
 	position: absolute;
-	bottom: 10px;
+	bottom: 0;
+	padding: 12px;
 	width: calc(100% - 24px);
 	.prev, .next {
 		flex-grow: 1;
@@ -250,4 +264,16 @@
 			padding: 0;
 		}
 	}
+}
+
+@media only screen and (max-width: 768px) {
+
+	.position-indicator {
+		display: none;
+	}
+
+	#firstrunwizard .page #wizard-values li {
+		margin: 0;
+	}
+
 }
