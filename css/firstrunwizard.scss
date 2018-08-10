@@ -7,16 +7,16 @@
 
 #firstrunwizard .firstrunwizard-header {
 	padding: 20px 12px;
-	background-color: #0082c9;
-	background-image: $image-login-background;
+	background-color: var(--color-primary);
+	background-image: var(--image-login-background);
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	color: #fff;
+	color: var(--color-primary-text);
 	text-align: center;
 }
 #firstrunwizard .firstrunwizard-header .logo {
-	background-image: $image-logo;
+	background-image: var(--image-logo);
 	background-repeat: no-repeat;
 	background-size: 175px;
 	background-position: center;
@@ -164,7 +164,7 @@
 		list-style-position: inside;
 		padding: 0;
 		margin: 12px 0 0;
-		color: $color-primary;
+		color: var(--color-primary);
 		font-size: 120%;
 		li {
 			float:left;
@@ -176,11 +176,11 @@
 }
 #firstrunwizard p a {
 	font-weight: bold;
-	color: #0082c9;
+	color: var(--color-primary);
 }
 #firstrunwizard p a:hover,
 #firstrunwizard p a:focus {
-	color: #444;
+	color: var(color-text-light);
 }
 #firstrunwizard .footnote {
 	margin-top: 40px;
