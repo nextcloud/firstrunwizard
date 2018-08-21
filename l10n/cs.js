@@ -14,6 +14,7 @@ OC.L10N.register(
     "Communication with Nextcloud Talk" : "Komunikace prostřednictvím Nextcloud Talk",
     "Collaboration apps for document editing" : "Aplikace pro spolupráci na úpravě dokumentů",
     "Browse the app store" : "Procházet katalog aplikací",
+    "Nextcloud gives you access to your files wherever you are." : "Nextcloud vám dává přístup k vašim souborů kdekoli jste.",
     "Get the apps to sync your files" : "Získat aplikace pro synchronizaci souborů",
     "Desktop client" : "Aplikace pro počítač",
     "Android app" : "Aplikace pro Android",
