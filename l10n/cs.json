@@ -38,6 +38,7 @@
     "100%% Open Source & community-focused" : "100%% Open Source a komunitně zaměřené",
     "Learn more about %s" : "Zjistit více o %s",
     "Connect other apps to %s" : "Propojit ostatní aplikace s %s",
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Kromě synchronizačních klientů je možné k %s připojit libovolný software který podporuje protokoly WebDAV/CalDAV/CardDAV.",
     "Previous" : "Předchozí",
     "Next" : "Další",
     "Start using Nextcloud" : "Začít používat Nextcloud",
