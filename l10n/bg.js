@@ -12,8 +12,10 @@ OC.L10N.register(
     "iOS app" : "iOS приложение",
     "Connect your desktop apps to %s" : "Свържете програмите от работния плот с %s",
     "Access files via WebDAV" : "Достъп до файловете Ви чрез WebDAV",
+    "Get more information" : "Допълнителна информация",
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Желаете да направите подобрение по Nextcloud? Отрили сте проблем? Желаете да преведете, промотирате или пишете документация за Nextcloud?",
     "Host your data and files where you decide" : "Съхранявайте вашите данни където желаете",
+    "Learn more about %s" : "Научете повече за %s",
     "Connect your Calendar" : "Свържете календара си",
     "Connect your Contacts" : "Свържете контактите си",
     "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Допълнителна информация ще намерите в <a target=\"_blank\" href=\"%s\">документацията</a> и на нашия <a target=\"_blank\" href=\"%s\">уеб сайт</a>."
