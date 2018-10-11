@@ -11,7 +11,7 @@ OC.L10N.register(
     "Extend your cloud" : "Utöka ditt moln",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Hitta fler än 100 appar i Nextcloud app store för att anpassa ditt moln:",
     "Groupware apps like Calendar, Contacts, Mail" : "Grupprogram som kalender, kontakter och e-post",
-    "Communication with Nextcloud Talk" : "Kommunicera med Nextcloud Prata",
+    "Communication with Nextcloud Talk" : "Kommunicera med Nextcloud Talk",
     "Collaboration apps for document editing" : "Samarbetsappar för dokumentredigering",
     "Security and authentication features like two-factor authentication, SSO and ransomware protection" : "Säkerhets- och autentiseringsfunktioner som tvåfaktors autentisering, SSO och ransomware-skydd",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Många andra som en musikspelare, en lösenordshanterare, en kanbanapp, en nedladdningshanterare eller en markdownredigerare",
