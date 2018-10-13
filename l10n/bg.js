@@ -6,7 +6,7 @@ OC.L10N.register(
     "Add your profile information! Set a full name for easier recognition across all features." : "Попълнете профила си! Например име - за да ви разпознават по-лесно.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Попълнете профила си! Например снимка - за да ви разпознават по-лесно.",
     "About" : "Относно",
-    "Get the apps to sync your files" : "Изтеглете приложение, за да синхронизирате файловете",
+    "Get the apps to sync your files" : "Изтеглете приложение, за синхронизиране на файлове",
     "Desktop client" : "Клиент за настолен компютър",
     "Android app" : "Андроид приложение",
     "iOS app" : "iOS приложение",
