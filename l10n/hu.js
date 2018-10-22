@@ -31,7 +31,7 @@ OC.L10N.register(
     "Get more information" : "További információk",
     "The Nextcloud documentation for home users:" : "A Nextcloud leírása otthoni felhasználók számára",
     "User manual" : "Felhasználói kézikönyv",
-    "Admin manual" : "Adminisztrátori kézikönyv",
+    "Admin manual" : "Rendszergazdai kézikönyv",
     "Developer manual" : "Fejlesztői kézikönyv",
     "You can also ask for help in our community support channels:" : "Segítséget is kérhetsz a közösségi támogatói oldalainkon:",
     "the Nextcloud forums" : "A Nextcloud fórumok",
