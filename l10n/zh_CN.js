@@ -39,7 +39,7 @@ OC.L10N.register(
     "Connect your Calendar" : "连接你的日历",
     "Connect your Contacts" : "连接你的通讯录",
     "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "更详细的信息请查看 <a target=\"_blank\" href=\"%s\">文档</a>或者查看我们的 <a target=\"_blank\" href=\"%s\">网站</a>.",
-    "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "如果你喜欢 Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud 是一个伟大的开源同步分享云。你可以从  https://nextcloud.com 免费得到\"> 推荐给你的朋友</a> 或者 <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">回馈Nextcloud</a>!",
+    "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "如果你喜欢 Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud 是一个伟大的开源同步共享云。你可以从  https://nextcloud.com 免费得到\"> 推荐给你的朋友</a> 或者 <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">回馈Nextcloud</a>!",
     "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "如果您想支持这个项目 {contributeopen}加入开发团队{linkclose} 或 {contributeopen}帮助我们宣传{linkclose}!",
     "Show First Run Wizard again" : "再次显示运行向导"
 },
