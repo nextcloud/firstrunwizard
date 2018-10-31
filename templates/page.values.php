@@ -37,15 +37,15 @@
 		<ul id="wizard-values">
 			<li>
 				<span class="icon-world"></span>
-				<h2><?php p($l->t('Host your data and files where you decide')); ?></h2>
+				<h3><?php p($l->t('Host your data and files where you decide')); ?></h3>
 			</li>
 			<li>
 				<span class="icon-shared"></span>
-				<h2><?php p($l->t('Open Standards and Interoperability')); ?></h2>
+				<h3><?php p($l->t('Open Standards and Interoperability')); ?></h3>
 			</li>
 			<li>
 				<span class="icon-user"></span>
-				<h2><?php p($l->t('100%% Open Source & community-focused')); ?></h2>
+				<h3><?php p($l->t('100%% Open Source & community-focused')); ?></h3>
 			</li>
 		</ul>
 

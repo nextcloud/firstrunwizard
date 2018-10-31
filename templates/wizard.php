@@ -19,7 +19,7 @@
 			</p>
 		</div>
 
-		<h1><?php p($theme->getSlogan()); ?></h1>
+		<h2><?php p($theme->getSlogan()); ?></h2>
 		<p></p>
 
 	</div>
