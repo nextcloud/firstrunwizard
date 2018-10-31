@@ -33,7 +33,7 @@
 		<p><?php p($l->t('Nextcloud gives you access to your files wherever you are.')); ?><br />
 			<?php p($l->t('Our easy to use desktop and mobile clients are available for all major platforms at zero cost!')); ?></p>
 		<div class="description-block">
-			<h2><?php p($l->t('Get the apps to sync your files')); ?></h2>
+			<h3><?php p($l->t('Get the apps to sync your files')); ?></h3>
 			<a target="_blank" href="<?php p($_['desktop']); ?>">
 				<img src="<?php p(image_path('core', 'desktopapp.svg')); ?>"
 					 alt="<?php p($l->t('Desktop client')); ?>"/>
@@ -49,7 +49,7 @@
 			</a>
 		</div>
 		<div class="description-block">
-			<h2><?php p($l->t('Connect your desktop apps to %s', array($theme->getName()))); ?></h2>
+			<h3><?php p($l->t('Connect your desktop apps to %s', array($theme->getName()))); ?></h3>
 			<a target="_blank" class="button"
 			   href="<?php p(link_to_docs('user-sync-calendars')) ?>">
 				<span class="icon icon-calendar-dark"></span>
