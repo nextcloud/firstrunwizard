@@ -95,7 +95,10 @@
 		}
 	}
 	a:not(.button) {
-		text-decoration: underline;
+		&:hover,
+		&:focus {
+			text-decoration: underline;
+		}
 	}
 	.button {
 		display: inline-block;
