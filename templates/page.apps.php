@@ -39,6 +39,6 @@
 			<li><?php p($l->t('Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor')); ?></li>
 
 		</ul>
-		<p class="details-link"><a href="/index.php/settings/apps" target="_blank"><?php p($l->t('Browse the app store')); ?></a></p>
+		<p class="details-link"><a href="<?php p(\OC::$server->getURLGenerator()->linkToRoute('settings.AppSettings.viewApps')); ?>" target="_blank"><?php p($l->t('Browse the app store')); ?></a></p>
 	</div>
 </div>
