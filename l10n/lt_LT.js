@@ -7,6 +7,7 @@ OC.L10N.register(
     "Add your profile information! Set a full name for easier recognition across all features." : "Pridėkite savo profilio informaciją! Nustatykite visą vardą, kad lengviau būtumėte atpažinti tarp visų ypatybių.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Pridėkite savo profilio informaciją! Nustatykite profilio paveikslą, kad lengviau būtumėte atpažinti tarp visų ypatybių.",
     "About" : "Apie",
+    "A welcome and introduction wizard for Nextcloud" : "Pasisveikinimo ir pristatymo vediklis, skirtas Nextcloud",
     "Extend your cloud" : "Išplėskite savo debesiją",
     "Stay in sync" : "Išlaikykite viską sinchronizuotai",
     "Nextcloud gives you access to your files wherever you are." : "Nextcloud suteikia jums prieigą prie failų, nesvarbu, kur bebūtumėte.",
