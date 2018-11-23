@@ -47,8 +47,6 @@
     "100%% Open Source & community-focused" : "100%% Отворен код и фокус към общността",
     "Learn more about %s" : "Научете повече за %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s ви дава достъп до вашите файлове независимо къде се намирате. Нашите лесни за използване клиентски приложения са достъпни на всички основни платформи абсолютно безплатно.",
-    "Connect your Calendar" : "Свържете календара си",
-    "Connect your Contacts" : "Свържете контактите си",
     "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Допълнителна информация ще намерите в <a target=\"_blank\" href=\"%s\">документацията</a> и на нашия <a target=\"_blank\" href=\"%s\">уеб сайт</a>."
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
