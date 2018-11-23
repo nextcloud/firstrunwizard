@@ -18,9 +18,7 @@ OC.L10N.register(
     "Admin manual" : "Skrbniški priročnik",
     "Developer manual" : "Priročnik za razvijalce",
     "Start using Nextcloud" : "Začnite uporabljati Nextcloud",
-    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Dostop in souporaba datotek, koledarja, stikov, elektronske pošte in drugih virov na napravi, pod vašimi pogoji!",
-    "Connect your Calendar" : "Poveži svoj koledar",
-    "Connect your Contacts" : "Poveži svoje stike",
-    "Show First Run Wizard again" : "Ponovno prikaži čarovnika prvega zagona"
+    "Show First Run Wizard again" : "Ponovno prikaži čarovnika prvega zagona",
+    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Dostop in souporaba datotek, koledarja, stikov, elektronske pošte in drugih virov na napravi, pod vašimi pogoji!"
 },
 "nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);");

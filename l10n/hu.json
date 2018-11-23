@@ -52,12 +52,10 @@
     "Previous" : "Előző",
     "Next" : "Következő",
     "Start using Nextcloud" : "A Nextcloud használatának kezdete",
-    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Férj hozzá és oszd meg a fájljaidat, naptáradat, névjegyzéked, leveled és még sok mást bármely eszközről, a saját szabályaid alapján.",
-    "Connect your Calendar" : "Kapcsolódás a naptárhoz",
-    "Connect your Contacts" : "Kapcsolódás a címjegyzékekhez",
-    "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "További információk a <a target=\"_blank\" href=\"%s\">dokumentációban</a> és a <a target=\"_blank\" href=\"%s\">weboldalunkon</a>.",
-    "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "Ha tetszik a Nextcloud,\t<a href=\"mailto:?subject=Nextcloud &body=A Nextcloud egy nagyszerű, nyílt forrású szoftver amivel szinkronizálhatod és megoszthatod a fájljaidat. \tIngyenesen letöltheted innen: https://nextcloud.com\"> ajánld az ismerőseidnek</a> és várjuk a <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">közreműködésed</a>!",
     "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "Ha szeretnéd támogatni a projektet {contributeopen}csatlakozz a fejlesztéshez{linkclose} vagy {contributeopen}terjeszd a világban{linkclose}!",
-    "Show First Run Wizard again" : "Az első indításkori varázsló újbóli megjelenítése"
+    "Show First Run Wizard again" : "Az első indításkori varázsló újbóli megjelenítése",
+    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Férj hozzá és oszd meg a fájljaidat, naptáradat, névjegyzéked, leveled és még sok mást bármely eszközről, a saját szabályaid alapján.",
+    "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "További információk a <a target=\"_blank\" href=\"%s\">dokumentációban</a> és a <a target=\"_blank\" href=\"%s\">weboldalunkon</a>.",
+    "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "Ha tetszik a Nextcloud,\t<a href=\"mailto:?subject=Nextcloud &body=A Nextcloud egy nagyszerű, nyílt forrású szoftver amivel szinkronizálhatod és megoszthatod a fájljaidat. \tIngyenesen letöltheted innen: https://nextcloud.com\"> ajánld az ismerőseidnek</a> és várjuk a <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">közreműködésed</a>!"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
