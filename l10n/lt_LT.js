@@ -42,12 +42,10 @@ OC.L10N.register(
     "Previous" : "Ankstesnis",
     "Next" : "Kitas",
     "Start using Nextcloud" : "Pradėti naudotis Nextcloud",
-    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Gaukite prieigą ir bendrinkite savo failus, kalendorius, kontaktus, paštą ir daug daugiau iš bet kurio įrenginio, savo sąlygomis",
-    "Connect your Calendar" : "Prijunkite savo kalendorių",
-    "Connect your Contacts" : "Prijunkite savo kontaktus",
-    "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Daugiau informacijos yra prieinama <a target=\"_blank\" href=\"%s\">dokumentacijoje</a> ir mūsų <a target=\"_blank\" href=\"%s\">svetainėje</a>.",
-    "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "Jeigu jums patinka Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud yra puiki atviroji programinė įranga, kuri yra skirta failų sinchronizavimui ir bendrinimui. Tu gali ją lengvai atsisiųsti iš https://nextcloud.com\"> rekomenduokite ją savo draugams</a> ir <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">talkinkite jai</a>!",
     "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "Jeigu norite palaikyti projektą {contributeopen}prisijunkite prie jo plėtojimo{linkclose} arba {contributeopen}skleiskite apie jį žinią{linkclose}!",
-    "Show First Run Wizard again" : "Rodyti pirmojo paleidimo vediklį dar kartą"
+    "Show First Run Wizard again" : "Rodyti pirmojo paleidimo vediklį dar kartą",
+    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Gaukite prieigą ir bendrinkite savo failus, kalendorius, kontaktus, paštą ir daug daugiau iš bet kurio įrenginio, savo sąlygomis",
+    "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Daugiau informacijos yra prieinama <a target=\"_blank\" href=\"%s\">dokumentacijoje</a> ir mūsų <a target=\"_blank\" href=\"%s\">svetainėje</a>.",
+    "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "Jeigu jums patinka Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud yra puiki atviroji programinė įranga, kuri yra skirta failų sinchronizavimui ir bendrinimui. Tu gali ją lengvai atsisiųsti iš https://nextcloud.com\"> rekomenduokite ją savo draugams</a> ir <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">talkinkite jai</a>!"
 },
 "nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);");

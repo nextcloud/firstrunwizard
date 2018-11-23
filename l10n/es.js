@@ -56,12 +56,10 @@ OC.L10N.register(
     "Previous" : "Anterior",
     "Next" : "Siguiente",
     "Start using Nextcloud" : "Empieza a usar Nextcloud",
-    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Accede y comparte tus archivos, calendarios, contactos, correo y más desde cualquier dispositivo, a tu manera",
-    "Connect your Calendar" : "Conecta tu calendario",
-    "Connect your Contacts" : "Conecta tus contactos",
-    "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Hay más información en la <a target=\"_blank\" href=\"%s\">documentación</a> y en nuestro <a target=\"_blank\" href=\"%s\">sitio web</a>.",
-    "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "Si te gusta Nextcloud, ¡<a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recomiéndalo a tus amigos</a> y <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribuye</a>!",
     "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "Si quieres apoyar el proyecto, ¡{contributeopen}únete al desarrollo{linkclose} o {contributeopen}difunde la palabra{linkclose}!",
-    "Show First Run Wizard again" : "Mostrar de nuevo el asistente de bienvenida"
+    "Show First Run Wizard again" : "Mostrar de nuevo el asistente de bienvenida",
+    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Accede y comparte tus archivos, calendarios, contactos, correo y más desde cualquier dispositivo, a tu manera",
+    "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Hay más información en la <a target=\"_blank\" href=\"%s\">documentación</a> y en nuestro <a target=\"_blank\" href=\"%s\">sitio web</a>.",
+    "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "Si te gusta Nextcloud, ¡<a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recomiéndalo a tus amigos</a> y <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribuye</a>!"
 },
 "nplurals=2; plural=(n != 1);");

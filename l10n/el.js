@@ -25,12 +25,10 @@ OC.L10N.register(
     "Previous" : "Προηγούμενο",
     "Next" : "Επόμενο",
     "Start using Nextcloud" : "Έναρξη χρήσης Nextcloud",
-    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Δείτε και μοιράστε τα αρχεία σας, ημερολόγια, επαφές, email και άλλα, από οποιαδήποτε συσκευή, με τον τρόπο που εσείς θέλετε",
-    "Connect your Calendar" : "Συνδέστε το Ημερολόγιό σας",
-    "Connect your Contacts" : "Συνδέστε τις Επαφές σας",
-    "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Θα βρείτε περισσότερες πληροφορίες στην <a target=\"_blank\" href=\"%s\">τεκμηρίωση</a> και στην <a target=\"_blank\" href=\"%s\">ιστοσελίδα</a> μας.",
-    "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "Αν σας αρέσει το Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> προτείνετε το σε φίλους</a>και <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">συνησφέρετε</a>!",
     "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "Εάν θέλεις να στηρίξεις το έργο {contributeopen}μπες στην ομάδα ανάπτυξης{linkclose} η {contributeopen}διέδωσε το{linkclose}!",
-    "Show First Run Wizard again" : "Εμφάνισε τον Οδηγό Πρώτης Εκτέλεσης πάλι"
+    "Show First Run Wizard again" : "Εμφάνισε τον Οδηγό Πρώτης Εκτέλεσης πάλι",
+    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Δείτε και μοιράστε τα αρχεία σας, ημερολόγια, επαφές, email και άλλα, από οποιαδήποτε συσκευή, με τον τρόπο που εσείς θέλετε",
+    "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Θα βρείτε περισσότερες πληροφορίες στην <a target=\"_blank\" href=\"%s\">τεκμηρίωση</a> και στην <a target=\"_blank\" href=\"%s\">ιστοσελίδα</a> μας.",
+    "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "Αν σας αρέσει το Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> προτείνετε το σε φίλους</a>και <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">συνησφέρετε</a>!"
 },
 "nplurals=2; plural=(n != 1);");
