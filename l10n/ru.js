@@ -56,12 +56,10 @@ OC.L10N.register(
     "Previous" : "Назад",
     "Next" : "Вперёд",
     "Start using Nextcloud" : "Начать использовать Nextcloud",
-    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Доступ и обмен вашими файлами, календарями, контактами, почтой и многим другим со всех  устройств только на ваших условиях",
-    "Connect your Calendar" : "Подключить свой календарь",
-    "Connect your Contacts" : "Подключить свои контакты",
-    "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Дополнительная информация в <a target=\"_blank\" href=\"%s\">документации</a> и на нашем <a target=\"_blank\" href=\"%s\">веб-сайте</a>.",
-    "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "Если Вам нравится Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud это замечательное свободное программное обеспечение для синхронизации и обмена вашими файлами. Вы можете получить его бесплатно на https://nextcloud.com\">рекомендуйте его друзьям</a> и <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">возвращайтесь обратно</a>!",
     "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "Если хотите поддержать проект — {contributeopen}присоединяйтесь к разработке{linkclose} или {contributeopen}расскажите о нём другим{linkclose}!",
-    "Show First Run Wizard again" : "Повторно запустить мастер первого запуска"
+    "Show First Run Wizard again" : "Повторно запустить мастер первого запуска",
+    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Доступ и обмен вашими файлами, календарями, контактами, почтой и многим другим со всех  устройств только на ваших условиях",
+    "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Дополнительная информация в <a target=\"_blank\" href=\"%s\">документации</a> и на нашем <a target=\"_blank\" href=\"%s\">веб-сайте</a>.",
+    "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "Если Вам нравится Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud это замечательное свободное программное обеспечение для синхронизации и обмена вашими файлами. Вы можете получить его бесплатно на https://nextcloud.com\">рекомендуйте его друзьям</a> и <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">возвращайтесь обратно</a>!"
 },
 "nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);");

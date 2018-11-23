@@ -53,12 +53,10 @@ OC.L10N.register(
     "Previous" : "Poprzedni",
     "Next" : "Następny",
     "Start using Nextcloud" : "Zacznij używać Nextcloud",
-    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Dostęp i udostępnianie plików, kalendarzy, kontaktów, poczty i innych z dowolnego urządzenia, na swoich warunkach",
-    "Connect your Calendar" : "Podłącz swój kalendarz",
-    "Connect your Contacts" : "Podłącz swoje Kontakty",
-    "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Nie ma więcej informacji w<a target=\"_blank\" href=\"%s\">dokumentacji</a> i na naszej <a target=\"_blank\" href=\"%s\">stronie</a>.",
-    "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "Jeśli lubisz Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> \npolecaj go wszystkim znajomym </a> i <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">powróć do współpracy</a>!",
     "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "Jeśli chcesz wesprzeć projekt {contributeopen}dołącz do twórców{linkclose} lub {contributeopen}głoś dobre słowo{linkclose}!",
-    "Show First Run Wizard again" : "Pokaż ponownie Kreator pierwszego uruchomienia"
+    "Show First Run Wizard again" : "Pokaż ponownie Kreator pierwszego uruchomienia",
+    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Dostęp i udostępnianie plików, kalendarzy, kontaktów, poczty i innych z dowolnego urządzenia, na swoich warunkach",
+    "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Nie ma więcej informacji w<a target=\"_blank\" href=\"%s\">dokumentacji</a> i na naszej <a target=\"_blank\" href=\"%s\">stronie</a>.",
+    "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "Jeśli lubisz Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> \npolecaj go wszystkim znajomym </a> i <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">powróć do współpracy</a>!"
 },
 "nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);");

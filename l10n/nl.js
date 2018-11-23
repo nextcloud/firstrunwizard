@@ -56,12 +56,10 @@ OC.L10N.register(
     "Previous" : "Vorige",
     "Next" : "Volgende",
     "Start using Nextcloud" : "Starten met Nextcloud",
-    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Gebruik & deel je bestanden, agenda's, contactpersonen, e-mail & meer, vanaf elk apparaat, op je eigen voorwaarden",
-    "Connect your Calendar" : "Verbind je agenda",
-    "Connect your Contacts" : "Verbind je contactpersonen",
-    "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Er staat meer informatie in de <a target=\"_blank\" href=\"%s\">documentatie</a> en op onze <a target=\"_blank\" href=\"%s\">website</a>.",
-    "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "Als je Nextcloud leuk vindt, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is een fantastisch open software product om je bestanden te synchroniseren en te delen. Je kunt het gratis verkrijgen op https://nextcloud.com\">, beveel het aan bij je vrienden</a> en <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">lever een bijdrage</a>!",
     "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "Als je het project wilt ondersteunen {contributeopen}help met de ontwikkeling{linkclose} of {contributeopen}zegt het voort{linkclose}!",
-    "Show First Run Wizard again" : "Toon de eerste start wizard opnieuw"
+    "Show First Run Wizard again" : "Toon de eerste start wizard opnieuw",
+    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Gebruik & deel je bestanden, agenda's, contactpersonen, e-mail & meer, vanaf elk apparaat, op je eigen voorwaarden",
+    "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Er staat meer informatie in de <a target=\"_blank\" href=\"%s\">documentatie</a> en op onze <a target=\"_blank\" href=\"%s\">website</a>.",
+    "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "Als je Nextcloud leuk vindt, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is een fantastisch open software product om je bestanden te synchroniseren en te delen. Je kunt het gratis verkrijgen op https://nextcloud.com\">, beveel het aan bij je vrienden</a> en <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">lever een bijdrage</a>!"
 },
 "nplurals=2; plural=(n != 1);");
