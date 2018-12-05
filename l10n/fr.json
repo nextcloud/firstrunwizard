@@ -1,6 +1,6 @@
 { "translations": {
     "First run wizard" : "Assistant de démarrage",
-    "Add your profile information! For example your email is needed to reset your password." : "Ajouter vos informations de profil ! Par exemple, votre adresse e-mail est nécessaire pour réinitialiser votre mot de passe.",
+    "Add your profile information! For example your email is needed to reset your password." : "Renseignez votre profil ! Par exemple, votre adresse e-mail est nécessaire pour réinitialiser votre mot de passe.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Ajoutez vos informations de profil ! Renseignez une photo de profil et un nom complet pour une reconnaissance plus facile à travers toutes les fonctionnalités.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Ajoutez vos informations de profil ! Renseignez un nom complet pour une reconnaissance plus facile à travers toutes les fonctionnalités.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Ajoutez vos informations de profil ! Renseignez une photo de profil pour une reconnaissance plus facile à travers toutes les fonctionnalités.",
@@ -41,7 +41,7 @@
     "Enterprise support" : "Support aux entreprises",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Si vous exécutez Nextcloud dans un environnement de production avec un grand nombre d'utilisateurs et de grandes quantités de données et que vous avez besoin de la confiance des experts de la technologie Nextcloud, un abonnement Entreprise de Nextcloud est disponible avec support téléphonique et mail.",
     "Get enterprise support" : "Obtenir le soutien Entreprise",
-    "A safe home for all your data" : "Un endroit sûr pour toutes vos données",
+    "A safe home for all your data" : "Un lieu sûr pour toutes vos données",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud met vos données à portée de main, sous votre contrôle. Stockez vos documents, votre calendrier, vos contacts et vos photos sur un serveur de votre entreprise, chez vous, chez l'un de nos fournisseurs ou dans un centre de données que vous connaissez.",
     "Host your data and files where you decide" : "Hébergez vos données et fichiers où vous voulez",
     "Open Standards and Interoperability" : "Normes ouvertes et interopérabilité",
