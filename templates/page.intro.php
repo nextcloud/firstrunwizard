@@ -28,7 +28,7 @@
  */
 ?>
 
-<div class="page intro" data-title="<?php p($l->t('A safe home for all your data')); ?>" data-subtitle="">
+<div class="page intro" data-title="<?php p($theme->getSlogan()); ?>" data-subtitle="">
 	<div class="content">
 
 	</div>
