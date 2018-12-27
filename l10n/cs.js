@@ -2,7 +2,7 @@ OC.L10N.register(
     "firstrunwizard",
     {
     "First run wizard" : "Průvodce prvním spuštěním",
-    "Add your profile information! For example your email is needed to reset your password." : "Přidejte si své profilové informace. Například váš e-mail je nutný pro obnovu hesla.",
+    "Add your profile information! For example your email is needed to reset your password." : "Přidejte si své profilové informace. Například váš email je nutný pro obnovu hesla.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Přidejte si své profilové informace. Nastavte si obrázek a jméno pro jednoduší rozpoznání ve všech oblastech aplikace.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Přidejte si své profilové informace. Nastavte si úplné jméno pro jednoduší rozpoznání ve všech oblastech aplikace.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Přidejte si své profilové informace. Nastavte si obrázek pro jednoduší rozpoznání ve všech oblastech aplikace.",
@@ -41,7 +41,7 @@ OC.L10N.register(
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Chcete, aby se v Nextcloud něco konkrétního zlepšilo? Narazili jste na problém? Chcete pomoci s překládáním, propagací nebo dokumentací Nextcloud?",
     "Become part of the Community" : "Staňte se součástí komunity",
     "Enterprise support" : "Podpora pro velké zákazníky",
-    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Pokud Nextcloud provozujete v produkčním prostředí s velkým množstvím uživatelů a velkým objemem dat a potřebujete jistotu podpory od expertů stojících za technologií Nextcloud, je k dispozici předplatné pro podniky, obsahující podporu po telefonu a e-mailu.",
+    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Pokud Nextcloud provozujete v produkčním prostředí s velkým množstvím uživatelů a velkým objemem dat a potřebujete jistotu podpory od expertů stojících za technologií Nextcloud, je k dispozici předplatné pro podniky, obsahující podporu po telefonu a emailu.",
     "Get enterprise support" : "Získat komerční podporu",
     "A safe home for all your data" : "Bezpečné místo pro všechna vaše data",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud dává vaše data do vašich rukou, pod vaší kontrolu. Ukládejte své dokumenty, kalendář, kontakty a fotky na server ve své společnosti, domácnosti, jednoho z našich poskytovatelů nebo v datacentru, které znáte.",
@@ -58,7 +58,7 @@ OC.L10N.register(
     "Start using Nextcloud" : "Začít používat Nextcloud",
     "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "Pokud chcete podpořit projekt {contributeopen}připojte se k jeho vývoji{linkclose} nebo {contributeopen}šiřte osvětu{linkclose}!",
     "Show First Run Wizard again" : "Znovu zobrazit průvodce prvním spuštěním",
-    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Přistupujte a sdílejte své soubory, kalendáře, kontakty e-maily a další z jakéhokoliv přístroje, dle vlastních podmínek",
+    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Přistupujte a sdílejte své soubory, kalendáře, kontakty emaily a další z jakéhokoliv přístroje, dle vlastních podmínek",
     "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Více informací naleznete v <a target=\"_blank\" href=\"%s\">dokumentaci</a> a na našem <a target=\"_blank\" href=\"%s\">webu</a>.",
     "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "Poked se vám Nextcloud líbí, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> doporučte jej svým přátelům</a> a <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">přispějte k jeho vývoji</a>!"
 },
