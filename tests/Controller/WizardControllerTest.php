@@ -27,6 +27,7 @@ namespace OCA\FirstRunWizard\Tests\Controller;
 use OCA\FirstRunWizard\Controller\WizardController;
 use OCP\AppFramework\Http;
 use OCP\AppFramework\Http\DataResponse;
+use OCP\Defaults;
 use OCP\IConfig;
 use OCP\IRequest;
 use Test\TestCase;
@@ -55,7 +56,8 @@ class WizardControllerTest extends TestCase {
 			'firstrunwizard',
 			$this->createMock(IRequest::class),
 			$this->config,
-			$user
+			$user,
+			\OC::$server->query(Defaults::class)
 		);
 	}
 
@@ -85,8 +87,8 @@ class WizardControllerTest extends TestCase {
 
 	public function dataShow() {
 		return [
-			['desktop1', 'android1', 'ios1'],
-			['desktop2', 'android2', 'ios2'],
+			['desktop1', 'android1', 'ios1', true],
+			['desktop2', 'android2', 'ios2', false],
 		];
 	}
 
@@ -95,16 +97,18 @@ class WizardControllerTest extends TestCase {
 	 * @param string $desktopUrl
 	 * @param string $androidUrl
 	 * @param string $iosUrl
+	 * @param bool $appStoreEnabled
 	 */
-	public function testShow($desktopUrl, $androidUrl, $iosUrl) {
+	public function testShow($desktopUrl, $androidUrl, $iosUrl, $appStoreEnabled) {
 		$controller = $this->getController();
 
-		$this->config->expects($this->exactly(3))
+		$this->config->expects($this->exactly(4))
 			->method('getSystemValue')
 			->willReturnMap([
 				['customclient_desktop', 'https://nextcloud.com/install/#install-clients', $desktopUrl],
 				['customclient_android', 'https://play.google.com/store/apps/details?id=com.nextcloud.client', $androidUrl],
 				['customclient_ios', 'https://geo.itunes.apple.com/us/app/nextcloud/id1125420102?mt=8', $iosUrl],
+				['appstoreenabled', true, $appStoreEnabled]
 			]);
 
 		$response = $controller->show();
@@ -115,6 +119,7 @@ class WizardControllerTest extends TestCase {
 			'desktop' => $desktopUrl,
 			'android' => $androidUrl,
 			'ios' => $iosUrl,
+			'appStore' => $appStoreEnabled,
 		], $response->getParams());
 	}
 }
