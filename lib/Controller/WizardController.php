@@ -29,7 +29,7 @@ use OCP\Defaults;
 use OCP\IConfig;
 use OCP\IRequest;
 
-class WizardController extends Controller  {
+class WizardController extends Controller {
 
 	/** @var IConfig */
 	protected $config;
@@ -37,17 +37,22 @@ class WizardController extends Controller  {
 	/** @var string */
 	protected $userId;
 
+	/** @var Defaults */
+	protected $theming;
+
 	/**
 	 * @param string $appName
 	 * @param IRequest $request
 	 * @param IConfig $config
 	 * @param string $userId
+	 * @param Defaults $theming
 	 */
-	public function __construct($appName, IRequest $request, IConfig $config, $userId) {
+	public function __construct($appName, IRequest $request, IConfig $config, $userId, Defaults $theming) {
 		parent::__construct($appName, $request);
 
 		$this->config = $config;
 		$this->userId = $userId;
+		$this->theming = $theming;
 	}
 
 	/**
@@ -64,12 +69,11 @@ class WizardController extends Controller  {
 	 * @return TemplateResponse
 	 */
 	public function show() {
-		/** @var Defaults $theming */
-		$theming = \OC::$server->query(Defaults::class);
 		return new TemplateResponse('firstrunwizard', 'wizard', [
-			'desktop'      => $this->config->getSystemValue('customclient_desktop', $theming->getSyncClientUrl()),
-			'android'      => $this->config->getSystemValue('customclient_android', $theming->getAndroidClientUrl()),
-			'ios'          => $this->config->getSystemValue('customclient_ios', $theming->getiOSClientUrl()),
+			'desktop' => $this->config->getSystemValue('customclient_desktop', $this->theming->getSyncClientUrl()),
+			'android' => $this->config->getSystemValue('customclient_android', $this->theming->getAndroidClientUrl()),
+			'ios' => $this->config->getSystemValue('customclient_ios', $this->theming->getiOSClientUrl()),
+			'appStore' => $this->config->getSystemValue('appstoreenabled', true),
 		], '');
 	}
 }

@@ -31,7 +31,7 @@
 		print_unescaped($this->inc('page.clients'));
 
 		$uid = \OC::$server->getUserSession()->getUser()->getUID();
-		if (OC_User::isAdminUser($uid)) {
+		if ($_['appStore'] && OC_User::isAdminUser($uid)) {
 			print_unescaped($this->inc('page.apps'));
 		}
 		print_unescaped($this->inc('page.final'));
