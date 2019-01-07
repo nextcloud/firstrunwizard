@@ -19,7 +19,7 @@
 			</p>
 		</div>
 
-		<h2><?php p($theme->getSlogan()); ?></h2>
+		<h2><?php print_unescaped(htmlspecialchars($theme->getSlogan(), ENT_QUOTES, 'UTF-8', false)); ?></h2>
 		<p></p>
 
 	</div>
