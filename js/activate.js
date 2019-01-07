@@ -1,3 +1,5 @@
 $(document).ready(function() {
-	OCA.FirstRunWizard.Wizard.showFirstRunWizard();
+	OCP.Loader.loadScript('firstrunwizard', 'jquery.colorbox.js').then(function() {
+		OCA.FirstRunWizard.Wizard.showFirstRunWizard();
+	});
 });

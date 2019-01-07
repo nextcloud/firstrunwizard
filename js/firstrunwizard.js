@@ -123,6 +123,12 @@
 
 		showFirstRunWizard: function(){
 			var self = this;
+			if (typeof $.colorbox === 'undefined') {
+				setTimeout(function () {
+					self.showFirstRunWizard();
+				}, 200)
+				return;
+			}
 			$.colorbox({
 				opacity: 0.7,
 				transition: 'elastic',
@@ -148,11 +154,19 @@ $(document).ready(function() {
 		OCA.FirstRunWizard.Wizard.showFirstRunWizard();
 	});
 
-	$('#expanddiv li[data-id="firstrunwizard-about"] a').on('click', function () {
-		OCA.FirstRunWizard.Wizard.showFirstRunWizard();
-		$(this).find('div').remove();
-		$(this).find('img').show();
-		OC.hideMenus(function(){return false;});
+	$('#expanddiv li[data-id="firstrunwizard-about"] a').on('click', function (e) {
+		var target = $(e.target);
+		target.prepend($('<div/>').addClass('icon-loading-small'));
+		target.find('img').hide();
+		OCP.Loader.loadScript('firstrunwizard', 'jquery.colorbox.js').then(function() {
+			target.find('icon-loading-small').remove();
+			OCA.FirstRunWizard.Wizard.showFirstRunWizard();
+			target.find('div').remove();
+			target.find('img').show();
+			OC.hideMenus(function () {
+				return false;
+			});
+		});
 		return false;
 	});
 });
