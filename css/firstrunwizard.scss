@@ -1,5 +1,29 @@
 @import 'colorbox.scss';
 
+#firstrunwizard-outer-navigation .icon-view-previous {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10000;
+	width: 20%;
+	height: 100%;
+	display: block;
+	background-size: 44px;
+	background-position: center left;
+}
+
+#firstrunwizard-outer-navigation .icon-view-next {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 10000;
+	width: 20%;
+	height: 100%;
+	display: block;
+	background-size: 44px;
+	background-position: center right;
+}
+
 #cboxLoadedContent {
 	border-radius: var(--border-radius-large);
 	overflow: hidden !important;
@@ -120,7 +144,6 @@
 	}
 	.page.intro {
 		margin: 0;
-		margin-bottom: -50px;
 		.content {
 			padding: 0;
 			background-image: url('../img/intro.png');

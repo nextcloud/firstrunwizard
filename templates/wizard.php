@@ -5,8 +5,11 @@
  * @var \OCP\Defaults $theme
  */
 ?>
+<div id="firstrunwizard-outer-navigation">
+	<a id="prev" class="icon-view-previous icon-white"><span class="hidden-visually"><?php p($l->t('Previous')); ?></span></a>
+	<a id="next" class="icon-view-next icon-white"><span class="hidden-visually"><?php p($l->t('Next')); ?></span></a>
+</div>
 <div id="firstrunwizard">
-
 	<div class="firstrunwizard-header">
 
 		<a id="closeWizard" class="close">
@@ -39,11 +42,9 @@
 
 		<div class="wizard-navigation">
 			<div class="prev">
-				<button id="prev"><?php p($l->t('Previous')); ?></button>
 			</div>
 			<div><ul class="position-indicator"></ul></div>
 			<div class="next">
-				<button class="primary" id="next"><?php p($l->t('Next')); ?></button>
 				<button class="primary" id="finish"><?php p($l->t('Start using Nextcloud')); ?></button>
 			</div>
 		</div>
