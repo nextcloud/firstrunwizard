@@ -5,7 +5,7 @@ clone:
 
 pipeline:
   signed-off-check:
-    image: nextcloudci/php7.0:php7.0-2
+    image: nextcloudci/php7.1:php7.1-16
     environment:
       - APP_NAME=firstrunwizard
       - CORE_BRANCH=master
@@ -20,7 +20,7 @@ pipeline:
       matrix:
         TESTS: signed-off-check
   check-app-compatbility:
-    image: nextcloudci/php7.0:php7.0-17
+    image: nextcloudci/php7.1:php7.1-16
     environment:
       - APP_NAME=firstrunwizard
       - CORE_BRANCH=master
@@ -39,24 +39,6 @@ pipeline:
       matrix:
         TESTS: check-app-compatbility
   
-  php7.0:
-    image: nextcloudci/php7.0:php7.0-17
-    environment:
-      - APP_NAME=firstrunwizard
-      - CORE_BRANCH=master
-      - DB=sqlite
-    commands:
-      # Pre-setup steps
-      - wget https://raw.githubusercontent.com/nextcloud/travis_ci/master/before_install.sh
-      - bash ./before_install.sh $APP_NAME $CORE_BRANCH $DB
-      - cd ../server/
-      - php occ app:enable $APP_NAME
-      - cd apps/$APP_NAME
-      # Run phpunit tests
-      - phpunit -c tests/phpunit.xml --coverage-clover build/php-unit.coverage.xml
-    when:
-      matrix:
-        TESTS: php7.0
   php7.1:
     image: nextcloudci/php7.1:php7.1-15
     environment:
@@ -91,12 +73,29 @@ pipeline:
     when:
       matrix:
         TESTS: php7.2
+  php7.3:
+    image: nextcloudci/php7.3:php7.3-2
+    environment:
+      - APP_NAME=firstrunwizard
+      - CORE_BRANCH=master
+      - DB=sqlite
+    commands:
+      # Pre-setup steps
+      - wget https://raw.githubusercontent.com/nextcloud/travis_ci/master/before_install.sh
+      - bash ./before_install.sh $APP_NAME $CORE_BRANCH $DB
+      - cd ../server/
+      - php occ app:enable firstrunwizard
+      - cd apps/$APP_NAME
+      - phpunit -c tests/phpunit.xml --coverage-clover build/php-unit.coverage.xml
+    when:
+      matrix:
+        TESTS: php7.3
 matrix:
   include:
     - TESTS: signed-off-check
     - TESTS: check-app-compatbility
-    - TESTS: php7.0
     - TESTS: php7.1
     - TESTS: php7.2
+    - TESTS: php7.3
 
 branches: [ master, stable* ]

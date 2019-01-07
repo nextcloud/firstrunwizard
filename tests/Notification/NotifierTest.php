@@ -23,6 +23,7 @@
 
 namespace OCA\FirstRunWizard\Tests\Notification;
 
+use InvalidArgumentException;
 use OCA\FirstRunWizard\Notification\Notifier;
 use OCP\IImage;
 use OCP\IL10N;
@@ -182,8 +183,6 @@ class NotifierTest extends TestCase {
 				->method('setParsedSubject');
 			$notification->expects($this->never())
 				->method('setLink');
-
-			$this->setExpectedException(\InvalidArgumentException::class);
 		} else {
 			$this->manager->expects($this->never())
 				->method('markProcessed');
@@ -208,7 +207,16 @@ class NotifierTest extends TestCase {
 				->willReturnSelf();
 		}
 
-		$return = $this->notifier->prepare($notification, $language);
-		$this->assertEquals($notification, $return);
+		try {
+			$return = $this->notifier->prepare($notification, $language);
+			$this->assertEquals($notification, $return);
+		} catch (\Exception $exception) {
+			if ($subjectContains === false) {
+				$this->assertInstanceOf(InvalidArgumentException::class, $exception);
+			} else {
+				throw $exception;
+			}
+		}
+
 	}
 }

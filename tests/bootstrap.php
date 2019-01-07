@@ -33,8 +33,4 @@ require_once __DIR__.'/../../../lib/base.php';
 // Fix for "Autoload path not allowed: .../firstrunwizard/*.php"
 \OC_App::loadApp('firstrunwizard');
 
-if(!class_exists('PHPUnit_Framework_TestCase')) {
-	require_once('PHPUnit/Autoload.php');
-}
-
 OC_Hook::clear();
