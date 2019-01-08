@@ -7,9 +7,15 @@ function ready(fn) {
 }
 
 ready(function() {
-	setTimeout(function() {
+	document.querySelector('#expanddiv li[data-id="firstrunwizard-about"] a').addEventListener('click', function (event) {
+		event.stopPropagation();
+		event.preventDefault();
 		OCP.Loader.loadScript('firstrunwizard', 'firstrunwizard.js').then(function() {
 			OCA.FirstRunWizard.open();
+			OC.hideMenus(function () {
+				return false;
+			});
 		});
-	}, 100);
+		return true;
+	});
 })
