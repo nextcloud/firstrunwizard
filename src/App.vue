@@ -130,10 +130,9 @@
 			margin-bottom: -60px;
 			.content {
 				padding: 0;
-				background-image: url('../img/intro.png');
-				background-position: center;
-				background-size: cover;
-				height: 50vh;
+				img {
+					width: 100%;
+				}
 			}
 		}
 		.content-clients {
