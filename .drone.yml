@@ -90,6 +90,22 @@ pipeline:
     when:
       matrix:
         TESTS: php7.3
+  eslint:
+    image: nextcloudci/jsunit:jsunit-5
+    commands:
+      - npm install
+      - npm run lint
+    when:
+      matrix:
+        TESTS: eslint
+  vue-build:
+    image: nextcloudci/jsunit:jsunit-5
+    commands:
+      - npm install
+      - npm run build
+    when:
+      matrix:
+        TESTS: vue-build
 matrix:
   include:
     - TESTS: signed-off-check
@@ -97,5 +113,7 @@ matrix:
     - TESTS: php7.1
     - TESTS: php7.2
     - TESTS: php7.3
+    - TESTS: eslint
+    - TESTS: vue-build
 
 branches: [ master, stable* ]
