@@ -1,7 +1,7 @@
 <template>
 	<transition name="modal" v-if="showModal">
 		<div id="firstrunwizard" class="modal-mask">
-			<div id="firstrunwizard-outer-navigation">
+			<div id="firstrunwizard-navigation">
 				<a v-if="hasPrevious" id="prev" @click="previous">
 					<div class="icon-view-previous icon-white"><span class="hidden-visually">{{ t('firstrunwizard', 'Previous') }}</span></div>
 				</a>
@@ -15,17 +15,15 @@
 			<div class="modal-wrapper" v-on:click.self="close">
 				<div class="modal-container">
 					<div class="modal-header">
-						<slot name="header">
-							<div class="firstrunwizard-header">
-								<div class="logo">
-									<p class="hidden-visually">
-										{{ oc_defaults.name }}
-									</p>
-								</div>
-								<h2 v-html="oc_defaults.slogan"></h2>
-								<p></p>
+						<div class="firstrunwizard-header">
+							<div class="logo">
+								<p class="hidden-visually">
+									{{ oc_defaults.name }}
+								</p>
 							</div>
-						</slot>
+							<h2 v-html="oc_defaults.slogan"></h2>
+							<p></p>
+						</div>
 					</div>
 					<div class="modal-body">
 						<slot name="body" v-if="slides.length > 0">
@@ -35,11 +33,9 @@
 						</slot>
 					</div>
 					<div class="modal-footer">
-						<slot name="footer">
-							<button class="primary modal-default-button" @click="close" v-if="isLast">
-								{{ t('firstrunwizard', 'Start using Nextcloud') }}
-							</button>
-						</slot>
+						<button class="primary modal-default-button" @click="close" v-if="isLast">
+							{{ t('firstrunwizard', 'Start using Nextcloud') }}
+						</button>
 					</div>
 				</div>
 			</div>
@@ -48,106 +44,104 @@
 </template>
 <style lang="scss">
 
-	#firstrunwizard h3 {
-		margin: 30px 0 10px;
-		line-height: 120%;
-		padding: 0;
-	}
-
-	.clientslinks .appsmall {
-		height: 32px;
-		width: 32px;
-		position: relative;
-		opacity: .5;
-		vertical-align: middle;
-	}
-	.clientslinks .button {
-		display: inline-block;
-		padding: 8px;
-		font-weight: normal;
-		font-size: 14px;
-	}
-
-	#firstrunwizard .page {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		h3 {
-			margin: 0 0 10px 0;
-		}
-		.image {
-			padding: 20px;
-			max-width: calc(50% - 40px);
-			flex-grow: 1;
-			img {
-				width: 100%;
-			}
-		}
-		.content {
-			padding: 20px;
-			width: 100%;
-		}
-		p {
-			margin-bottom: 20px;
-		}
-		.description-block {
-			margin-bottom: 40px;
-		}
-		.description {
-			margin: 20px;
-			width: auto;
-			flex-grow: 1;
-			max-width: calc(50% - 40px);
-		}
-		ul {
-			margin: 10px;
-			li {
-				margin-left: 20px;
-				margin-bottom: 10px;
-				list-style-type: circle;
-				list-style-position: outside;
-			}
-		}
-		a:not(.button) {
-			&:hover,
-			&:focus {
-				text-decoration: underline;
-			}
-		}
-		.button {
-			display: inline-block;
-
-			img {
-				width: 16px;
-				height: 16px;
-				opacity: .5;
-				margin-top: -3px;
-				vertical-align: middle;
-			}
-		}
-	}
+	/* Page styling needs to be unscoped, since we load it separately from the server */
 	#firstrunwizard {
-		.page:not(.intro) {
-			overflow: auto;
-			max-height: 60vh;
-		}
-		.page.intro {
-			margin: 0;
-			margin-bottom: -60px;
-			max-height: 60vh;
-			.content {
+
+		.page {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+
+			&:not(.intro) {
+				overflow: auto;
+				max-height: 60vh;
+			}
+			&.intro {
+				margin: 0 0 -60px;
+				max-height: 60vh;
+				.content {
+					padding: 0;
+					img {
+						width: 100%;
+					}
+				}
+			}
+
+			h3 {
+				margin: 10px 0 10px;
+				line-height: 120%;
 				padding: 0;
+			}
+			.image {
+				padding: 20px;
+				max-width: calc(50% - 40px);
+				flex-grow: 1;
 				img {
 					width: 100%;
 				}
 			}
+			.content {
+				padding: 20px;
+				width: 100%;
+			}
+			p {
+				margin-bottom: 20px;
+			}
+			.description-block {
+				margin-bottom: 40px;
+			}
+			.description {
+				margin: 20px;
+				width: auto;
+				flex-grow: 1;
+				max-width: calc(50% - 40px);
+			}
+			ul {
+				margin: 10px;
+				li {
+					margin-left: 20px;
+					margin-bottom: 10px;
+					list-style: circle outside;
+				}
+			}
+			a:not(.button) {
+				&:hover,
+				&:focus {
+					text-decoration: underline;
+				}
+			}
+			.button {
+				display: inline-block;
+
+				img {
+					width: 16px;
+					height: 16px;
+					opacity: .5;
+					margin-top: -3px;
+					vertical-align: middle;
+				}
+			}
 		}
+
 		.content-clients {
 			width: 100%;
 			text-align: center;
 			a {
 				text-decoration: none;
 				display: inline-block;
+			}
+			.clientslinks .appsmall {
+				height: 32px;
+				width: 32px;
+				position: relative;
+				opacity: .5;
+				vertical-align: middle;
+			}
+			.clientslinks .button {
+				display: inline-block;
+				padding: 8px;
+				font-weight: normal;
+				font-size: 14px;
 			}
 		}
 		.content-final {
@@ -158,56 +152,18 @@
 				opacity: .7;
 			}
 		}
-	}
-
-	.wizard-navigation {
-		display: flex;
-		position: absolute;
-		bottom: 0;
-		padding: 12px;
-		width: calc(100% - 24px);
-		.prev, .next {
-			flex-grow: 1;
-			flex-basis: 200px;
-			button {
-				padding: 12px;
-			}
-		}
-		.next {
-			text-align: right;
-		}
-		.position-indicator {
-			list-style-type: circle;
-			list-style-position: inside;
-			padding: 0;
-			margin: 12px 0 0;
+		p a {
+			font-weight: bold;
 			color: var(--color-primary);
-			font-size: 120%;
-			li {
-				float:left;
-				&.active {
-					list-style-type: disc;
-				}
+			&:hover,
+			&:focus {
+				color: var(color-text-light);
 			}
 		}
-	}
-	#firstrunwizard p a {
-		font-weight: bold;
-		color: var(--color-primary);
-	}
-	#firstrunwizard p a:hover,
-	#firstrunwizard p a:focus {
-		color: var(color-text-light);
-	}
-	#firstrunwizard .footnote {
-		margin-top: 40px;
-	}
 
-	#firstrunwizard .close {
-		position: absolute;
-		top: 0;
-		right: 0;
-		padding: 10px;
+		.footnote {
+			margin-top: 40px;
+		}
 	}
 
 	.clientslinks {
@@ -215,7 +171,7 @@
 		margin-bottom: 20px;
 	}
 
-	#firstrunwizard .page #wizard-values {
+	#wizard-values {
 		list-style-type: none;
 		display: flex;
 		flex-wrap: wrap;
@@ -315,19 +271,30 @@
 	.modal-header {
 		max-height: 30vh;
 		overflow: hidden;
-	}
 
-	.modal-header .logo {
-		max-height: 10vh;
-	}
-
-	.modal-header h2 {
-		font-size: 4vh;
-		margin-top: 3vh;
-		line-height: 5vh;
-		color: var(--color-primary-text);
-		font-weight: 300;
-		padding: 0 0 10px;
+		.firstrunwizard-header {
+			padding: 20px 12px;
+			background: var(--color-primary) var(--image-login-background) no-repeat 50% 50%;
+			background-size: cover;
+			color: var(--color-primary-text);
+			text-align: center;
+			.logo {
+				background: var(--image-logo) no-repeat center;
+				background-size: contain;
+				width: 175px;
+				height: 120px;
+				margin: 0 auto;
+				max-height: 10vh;
+			}
+			h2 {
+				font-size: 4vh;
+				margin-top: 3vh;
+				line-height: 5vh;
+				color: var(--color-primary-text);
+				font-weight: 300;
+				padding: 0 0 10px;
+			}
+		}
 	}
 
 	.modal-body {
@@ -360,8 +327,6 @@
 	.fade-enter {
 		transform: translateX(50%);
 		opacity: 0;
-
-
 	}
 	.fade-leave-to {
 		transform: translateX(-50%);
@@ -382,88 +347,51 @@
 		transform: scale(1.1);
 	}
 
-	.firstrunwizard-header * {
-		transition: transform, opacity 2s ease;
-		opacity: 1;
-	}
-	.modal-enter .firstrunwizard-header *,
-	.modal-leave-active .firstrunwizard-header * {
-		opacity: 0;
-	}
+	#firstrunwizard-navigation {
+		#prev, #next {
+			position: absolute;
+			top: 0;
+			z-index: 10000;
+			width: 15%;
+			height: 100%;
+			display: block;
+		}
+		#prev {
+			left: 0;
+		}
+		#next {
+			right: 0;
+		}
 
-	#firstrunwizard-outer-navigation #prev {
-		position: absolute;
-		top: 0;
-		left: 0;
-		z-index: 10000;
-		width: 15%;
-		height: 100%;
-		display: block;
-		background-size: 44px;
-		background-position: center right;
-	}
+		.icon-view-next,
+		.icon-view-previous {
+			background-size: 24px;
+			background-position: center;
+			width: 44px;
+			height: 44px;
+			border-radius: 50%;
+			top: 50%;
+			position: absolute;
+			margin: auto;
+			left: calc(100% - 22px - 44px);
+		}
+		.icon-view-next {
+			background-color: var(--color-primary);
+			box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+			left: 22px;
+		}
 
-	#firstrunwizard-outer-navigation #next {
-		position: absolute;
-		top: 0;
-		right: 0;
-		z-index: 10000;
-		width: 15%;
-		height: 100%;
-		display: block;
-		background-size: 44px;
-		background-position: center right;
-	}
-	.icon-view-next,
-	.icon-view-previous {
-		background-size: 24px;
-		background-position: center;
-		width: 44px;
-		height: 44px;
-		border-radius: 50%;
-		top: 50%;
-		position: absolute;
-		margin: auto;
-		left: calc(100% - 22px - 44px);
-	}
-
-	.icon-view-next {
-		background-color: var(--color-primary);
-		box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
-		left: 22px;
-	}
-
-	#firstrunwizard-outer-navigation .icon-close {
-		position: absolute;
-		top: 0;
-		right: 0;
-		z-index: 10000;
-		width: 44px;
-		height: 44px;
-		display: block;
-		background-size: 24px;
-		background-position: center;
-	}
-
-	#firstrunwizard .firstrunwizard-header {
-		padding: 20px 12px;
-		background-color: var(--color-primary);
-		background-image: var(--image-login-background);
-		background-position: 50% 50%;
-		background-repeat: no-repeat;
-		background-size: cover;
-		color: var(--color-primary-text);
-		text-align: center;
-	}
-
-	#firstrunwizard .firstrunwizard-header .logo {
-		background-image: var(--image-logo);
-		background-repeat: no-repeat;
-		background-size: contain;
-		background-position: center;
-		width: 175px;
-		height: 120px;
-		margin: 0 auto;
+		.icon-close {
+			position: absolute;
+			top: 0;
+			right: 0;
+			z-index: 10000;
+			width: 44px;
+			height: 44px;
+			display: block;
+			background-size: 24px;
+			background-position: center;
+		}
 	}
 
 </style>
@@ -524,7 +452,7 @@ export default {
 		},
 		handleKeydown(e) {
 			switch (e.keyCode) {
-				case 37: // arrow left
+				case 37:
 					this.previous()
 					break
 				case 13:
