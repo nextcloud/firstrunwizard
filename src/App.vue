@@ -2,9 +2,15 @@
 	<transition name="modal" v-if="showModal">
 		<div id="firstrunwizard" class="modal-mask">
 			<div id="firstrunwizard-outer-navigation">
-				<a v-if="hasPrevious" id="prev" class="icon-view-previous icon-white" @click="previous"><span class="hidden-visually">{{ t('firstrunwizard', 'Previous') }}</span></a>
-				<a v-if="hasNext" id="next" class="icon-view-next icon-white" @click="next"><span class="hidden-visually">{{ t('firstrunwizard', 'Next') }}</span></a>
-				<a id="close" class="icon-close icon-white" @click="close"><span class="hidden-visually">{{ t('firstrunwizard', 'Close') }}</span></a>
+				<a v-if="hasPrevious" id="prev" @click="previous">
+					<div class="icon-view-previous icon-white"><span class="hidden-visually">{{ t('firstrunwizard', 'Previous') }}</span></div>
+				</a>
+				<a v-if="hasNext" id="next" @click="next">
+					<div class="icon-view-next icon-white"><span class="hidden-visually">{{ t('firstrunwizard', 'Next') }}</span></div>
+				</a>
+				<a id="close" class="icon-close icon-white" @click="close">
+					<span class="hidden-visually">{{ t('firstrunwizard', 'Close') }}</span>
+				</a>
 			</div>
 			<div class="modal-wrapper" v-on:click.self="close">
 				<div class="modal-container">
@@ -128,6 +134,7 @@
 		.page.intro {
 			margin: 0;
 			margin-bottom: -60px;
+			max-height: 60vh;
 			.content {
 				padding: 0;
 				img {
@@ -292,7 +299,7 @@
 	}
 
 	.modal-container {
-		width: 80%;
+		width: 70%;
 		max-width: 900px;
 		max-height: 80%;
 		margin: 0 auto;
@@ -384,28 +391,46 @@
 		opacity: 0;
 	}
 
-	#firstrunwizard-outer-navigation .icon-view-previous {
+	#firstrunwizard-outer-navigation #prev {
 		position: absolute;
 		top: 0;
 		left: 0;
 		z-index: 10000;
-		width: 20%;
-		height: 100%;
-		display: block;
-		background-size: 44px;
-		background-position: center left;
-	}
-
-	#firstrunwizard-outer-navigation .icon-view-next {
-		position: absolute;
-		top: 0;
-		right: 0;
-		z-index: 10000;
-		width: 20%;
+		width: 15%;
 		height: 100%;
 		display: block;
 		background-size: 44px;
 		background-position: center right;
+	}
+
+	#firstrunwizard-outer-navigation #next {
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: 10000;
+		width: 15%;
+		height: 100%;
+		display: block;
+		background-size: 44px;
+		background-position: center right;
+	}
+	.icon-view-next,
+	.icon-view-previous {
+		background-size: 24px;
+		background-position: center;
+		width: 44px;
+		height: 44px;
+		border-radius: 50%;
+		top: 50%;
+		position: absolute;
+		margin: auto;
+		left: calc(100% - 22px - 44px);
+	}
+
+	.icon-view-next {
+		background-color: var(--color-primary);
+		box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+		left: 22px;
 	}
 
 	#firstrunwizard-outer-navigation .icon-close {
