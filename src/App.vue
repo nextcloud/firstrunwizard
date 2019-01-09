@@ -1,5 +1,5 @@
 <template>
-	<transition name="modal" v-if="showModal">
+	<transition v-if="showModal" name="modal">
 		<div id="firstrunwizard" class="modal-mask">
 			<div id="firstrunwizard-navigation">
 				<a v-if="hasPrevious" id="prev" @click="previous">
@@ -12,7 +12,7 @@
 					<span class="hidden-visually">{{ t('firstrunwizard', 'Close') }}</span>
 				</a>
 			</div>
-			<div class="modal-wrapper" v-on:click.self="close">
+			<div class="modal-wrapper" @click.self="close">
 				<div class="modal-container">
 					<div class="modal-header">
 						<div class="firstrunwizard-header">
@@ -21,19 +21,19 @@
 									{{ oc_defaults.name }}
 								</p>
 							</div>
-							<h2 v-html="oc_defaults.slogan"></h2>
-							<p></p>
+							<h2 v-html="oc_defaults.slogan" />
+							<p />
 						</div>
 					</div>
 					<div class="modal-body">
-						<slot name="body" v-if="slides.length > 0">
+						<slot v-if="slides.length > 0" name="body">
 							<transition name="fade" mode="out-in">
-								<div v-if="slides[currentSlide].type === 'inline'" v-html="slides[currentSlide].content" :key="currentSlide"></div>
+								<div v-if="slides[currentSlide].type === 'inline'" :key="currentSlide" v-html="slides[currentSlide].content" />
 							</transition>
 						</slot>
 					</div>
 					<div class="modal-footer">
-						<button class="primary modal-default-button" @click="close" v-if="isLast">
+						<button v-if="isLast" class="primary modal-default-button" @click="close">
 							{{ t('firstrunwizard', 'Start using Nextcloud') }}
 						</button>
 					</div>
@@ -315,11 +315,7 @@
 		display: inline-block;
 	}
 
-	/*
-	 * The following styles are auto-applied to elements with
-	 * transition="modal" when their visibility is toggled
-	 * by Vue.js.
-	 */
+	/* Transitions */
 
 	.fade-enter-active, .fade-leave-active {
 		transition: transform .1s, opacity .25s;
@@ -396,36 +392,36 @@
 
 </style>
 <script>
-import axios from 'nextcloud-axios';
+import axios from 'nextcloud-axios'
 
 export default {
 	name: 'FirstRunWizard',
-	beforeMount() {
-		axios.get(OC.generateUrl('/apps/firstrunwizard/wizard')).then((response) => {
-			this.slides = response.data
-			this.showModal = true
-		})
-	},
 	data() {
 		return {
 			showModal: false,
 			slides: [],
-			currentSlide: 0,
-		};
+			currentSlide: 0
+		}
 	},
 	computed: {
 		hasNext() {
-			return this.currentSlide < this.slides.length-1
+			return this.currentSlide < this.slides.length - 1
 		},
 		hasPrevious() {
 			return this.currentSlide > 0
 		},
 		isLast() {
-			return this.currentSlide === this.slides.length-1
+			return this.currentSlide === this.slides.length - 1
 		},
 		isFirst() {
 			return this.currentSlide === 0
 		}
+	},
+	beforeMount() {
+		axios.get(OC.generateUrl('/apps/firstrunwizard/wizard')).then((response) => {
+			this.slides = response.data
+			this.showModal = true
+		})
 	},
 	methods: {
 		open() {
@@ -452,18 +448,18 @@ export default {
 		},
 		handleKeydown(e) {
 			switch (e.keyCode) {
-				case 37:
-					this.previous()
-					break
-				case 13:
-				case 39:
-					this.next()
-					break
-				case 27:
-					this.close()
-					break
+			case 37:
+				this.previous()
+				break
+			case 13:
+			case 39:
+				this.next()
+				break
+			case 27:
+				this.close()
+				break
 			}
 		}
 	}
-};
+}
 </script>
