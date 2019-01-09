@@ -51,7 +51,6 @@ class Application extends App {
 	}
 
 	protected function registerScripts() {
-		\OC_Util::addStyle('firstrunwizard', 'firstrunwizard');
 		\OC_Util::addScript('firstrunwizard', 'about');
 
 		/** @var EventDispatcherInterface $dispatcher */
