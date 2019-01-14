@@ -34,16 +34,16 @@
 			<?php p($l->t('Our easy to use desktop and mobile clients are available for all major platforms at zero cost!')); ?></p>
 		<div class="description-block">
 			<h3><?php p($l->t('Get the apps to sync your files')); ?></h3>
-			<a target="_blank" href="<?php p($_['desktop']); ?>">
+			<a target="_blank" href="<?php p($_['desktop']); ?>" rel="noreferrer noopener">
 				<img src="<?php p(image_path('core', 'desktopapp.svg')); ?>"
 					 alt="<?php p($l->t('Desktop client')); ?>"/>
 			</a>
-			<a target="_blank" href="<?php p($_['android']); ?>">
+			<a target="_blank" href="<?php p($_['android']); ?>" rel="noreferrer noopener">
 				<img src="<?php p(image_path('core', 'googleplay.svg')); ?>"
 					 alt="<?php p($l->t('Android app')); ?>"
 					 style="height:60px"/>
 			</a>
-			<a target="_blank" href="<?php p($_['ios']); ?>">
+			<a target="_blank" href="<?php p($_['ios']); ?>" rel="noreferrer noopener">
 				<img src="<?php p(image_path('core', 'appstore.svg')); ?>"
 					 alt="<?php p($l->t('iOS app')); ?>" style="height:60px"/>
 			</a>
@@ -51,17 +51,17 @@
 		<div class="description-block">
 			<h3><?php p($l->t('Connect your desktop apps to %s', array($theme->getName()))); ?></h3>
 			<a target="_blank" class="button"
-			   href="<?php p(link_to_docs('user-sync-calendars')) ?>">
+			   href="<?php p(link_to_docs('user-sync-calendars')) ?>" rel="noreferrer noopener">
 				<span class="icon icon-calendar-dark"></span>
 				<?php p($l->t('Connect your calendar')); ?>
 			</a>
 			<a target="_blank" class="button"
-			   href="<?php p(link_to_docs('user-sync-contacts')) ?>">
+			   href="<?php p(link_to_docs('user-sync-contacts')) ?>" rel="noreferrer noopener">
 				<span class="icon icon-contacts-dark"></span>
 				<?php p($l->t('Connect your contacts')); ?>
 			</a>
 			<a target="_blank" class="button"
-			   href="<?php p(link_to_docs('user-webdav')); ?>">
+			   href="<?php p(link_to_docs('user-webdav')); ?>" rel="noreferrer noopener">
 				<span class="icon icon-files-dark"></span>
 				<?php p($l->t('Access files via WebDAV')); ?>
 			</a>

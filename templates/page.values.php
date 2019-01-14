@@ -49,6 +49,6 @@
 			</li>
 		</ul>
 
-		<p class="details-link"><a href="<?php p($theme->getBaseUrl()); ?>"><?php p($l->t('Learn more about %s', $theme->getName())); ?></a></p>
+		<p class="details-link"><a href="<?php p($theme->getBaseUrl()); ?>" target="_blank" rel="noreferrer noopener"><?php p($l->t('Learn more about %s', $theme->getName())); ?></a></p>
 	</div>
 </div>
