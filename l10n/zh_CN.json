@@ -19,7 +19,7 @@
     "User manual" : "用户手册",
     "Admin manual" : "管理员手册",
     "Developer manual" : "开发者手册",
-    "You can also ask for help in our community support channels:" : "你也可以在我们的社区支持频道获取帮助:",
+    "You can also ask for help in our community support channels:" : "你也可以在我们的社区支持频道获取帮助：",
     "the Nextcloud forums" : "Nextcloud论坛",
     "the Nextcloud IRC chat channel on freenode.net" : "freenode.net上的Nextcloud IRC聊天频道",
     "Start contributing" : "开始贡献",
@@ -33,10 +33,10 @@
     "Previous" : "上一个",
     "Next" : "下一个",
     "Start using Nextcloud" : "开始使用Nextcloud",
-    "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "如果您想支持这个项目 {contributeopen}加入开发团队{linkclose} 或 {contributeopen}帮助我们宣传{linkclose}!",
+    "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "如果您想支持这个项目 {contributeopen}加入开发团队{linkclose} 或 {contributeopen}帮助我们宣传{linkclose}！",
     "Show First Run Wizard again" : "再次显示运行向导",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "在任何设备上访问和共享您的文件，日历，联系人，邮件等等，一切尽在掌控中",
-    "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "更详细的信息请查看 <a target=\"_blank\" href=\"%s\">文档</a>或者查看我们的 <a target=\"_blank\" href=\"%s\">网站</a>.",
-    "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "如果你喜欢 Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud 是一个伟大的开源同步共享云。你可以从  https://nextcloud.com 免费得到\"> 推荐给你的朋友</a> 或者 <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">回馈Nextcloud</a>!"
+    "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "更详细的信息请查看 <a target=\"_blank\" href=\"%s\">文档</a>或者查看我们的 <a target=\"_blank\" href=\"%s\">网站</a>。",
+    "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "如果你喜欢 Nextcloud，<a href=\"mailto:?subject=Nextcloud &body=Nextcloud 是一个伟大的开源同步共享云。你可以从  https://nextcloud.com 免费得到\"> 推荐给你的朋友</a> 或者 <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">回馈Nextcloud</a>！"
 },"pluralForm" :"nplurals=1; plural=0;"
 }
