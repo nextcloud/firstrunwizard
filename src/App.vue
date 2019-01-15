@@ -51,6 +51,8 @@
 			display: flex;
 			flex-direction: row;
 			flex-wrap: wrap;
+			max-width: 900px;
+			width: 70vw;
 
 			&:not(.intro) {
 				overflow: auto;
