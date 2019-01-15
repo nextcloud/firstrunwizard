@@ -24,6 +24,7 @@ namespace OCA\FirstRunWizard\Controller;
 
 use OCP\AppFramework\Controller;
 use OCP\AppFramework\Http\DataResponse;
+use OCP\AppFramework\Http\JSONResponse;
 use OCP\AppFramework\Http\TemplateResponse;
 use OCP\Defaults;
 use OCP\IConfig;
@@ -66,7 +67,7 @@ class WizardController extends Controller {
 
 	/**
 	 * @NoAdminRequired
-	 * @return array
+	 * @return JsonResponse
 	 */
 	public function show() {
 		$data = [
@@ -83,7 +84,7 @@ class WizardController extends Controller {
 			$this->staticSlide('page.clients', $data),
 			$this->staticSlide('page.final', $data)
 		];
-		return $slides;
+		return new JSONResponse($slides);
 	}
 
 	public function staticSlide($name, $params) {
