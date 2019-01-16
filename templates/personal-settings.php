@@ -58,18 +58,15 @@ script('firstrunwizard', ['jquery.colorbox', 'firstrunwizard']);
 
 	<div class="clientslinks">
 		<a target="_blank" class="button" href="<?php p(link_to_docs('user-sync-calendars')) ?>" rel="noreferrer noopener">
-			<img class="appsmall appsmall-calendar svg" alt=""
-				 src="<?php p(image_path('core', 'places/calendar.svg')); ?>" />
+			<span class="icon-calendar-dark"></span>
 			<?php p($l->t('Connect your calendar'));?>
 		</a>
 		<a target="_blank" class="button" href="<?php p(link_to_docs('user-sync-contacts')) ?>" rel="noreferrer noopener">
-			<img class="appsmall appsmall-contacts svg" alt=""
-				 src="<?php p(image_path('core', 'places/contacts.svg')); ?>" />
+			<span class="icon-contacts-dark"></span>
 			<?php p($l->t('Connect your contacts'));?>
 		</a>
 		<a target="_blank" class="button" href="<?php p(link_to_docs('user-webdav')); ?>" rel="noreferrer noopener">
-			<img class="appsmall svg" alt=""
-				 src="<?php p(image_path('files', 'folder.svg')); ?>" />
+			<span class="icon-files-dark"></span>
 			<?php p($l->t('Access files via WebDAV'));?>
 		</a>
 	</div>

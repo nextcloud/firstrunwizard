@@ -1,6 +1,7 @@
 @import 'colorbox.scss';
 
 #cboxLoadedContent {
+	background-color: var(--color-main-background) !important;
 	border-radius: var(--border-radius-large);
 	overflow: hidden !important;
 }
@@ -39,13 +40,6 @@
 	padding: 0;
 }
 
-.clientslinks .appsmall {
-	height: 32px;
-	width: 32px;
-	position: relative;
-	opacity: .5;
-	vertical-align: middle;
-}
 .clientslinks .button {
 	display: inline-block;
 	padding: 8px;
@@ -232,11 +226,8 @@
 	text-align: center;
 }
 
-.icon-source {
-	background-image: url('../img/source.svg');
-}
 .icon-world {
-	background-image: url('../img/world.svg');
+	background-image: var(--icon-link-000);
 }
 
 @media only screen and (max-width: 680px) {
