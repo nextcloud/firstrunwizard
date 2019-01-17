@@ -42,8 +42,7 @@
 		</div>
 	</transition>
 </template>
-<style lang="scss" scoped>
-
+<style lang="scss">
 	/* Page styling needs to be unscoped, since we load it separately from the server */
 	#firstrunwizard {
 
@@ -203,10 +202,6 @@
 		text-align: center;
 	}
 
-	.icon-world {
-		background-image: url('../img/world.svg');
-	}
-
 	@media only screen and (max-width: 680px) {
 		#firstrunwizard {
 			.firstrunwizard-header div.logo {
@@ -262,7 +257,7 @@
 		max-height: 80%;
 		margin: 0 auto;
 		padding: 0;
-		background-color: #fff;
+		background-color: var(--color-main-background);
 		border-radius: var(--border-radius-large);
 		overflow: hidden;
 		box-shadow: 0 2px 8px rgba(0, 0, 0, .33);

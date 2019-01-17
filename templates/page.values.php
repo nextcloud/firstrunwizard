@@ -36,7 +36,7 @@
 
 		<ul id="wizard-values">
 			<li>
-				<span class="icon-world"></span>
+				<span class="icon-link"></span>
 				<h3><?php p($l->t('Host your data and files where you decide')); ?></h3>
 			</li>
 			<li>
