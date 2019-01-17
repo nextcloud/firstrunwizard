@@ -42,7 +42,7 @@
 		</div>
 	</transition>
 </template>
-<style lang="scss">
+<style lang="scss" scoped>
 
 	/* Page styling needs to be unscoped, since we load it separately from the server */
 	#firstrunwizard {

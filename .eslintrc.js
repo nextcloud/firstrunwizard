@@ -11,8 +11,7 @@ module.exports = {
 		n: true,
 		OC: true,
 		OCA: true,
-		Vue: true,
-		VueRouter: true
+		Vue: true
 	},
 	parserOptions: {
 		parser: 'babel-eslint',
