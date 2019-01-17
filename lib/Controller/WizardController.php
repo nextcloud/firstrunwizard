@@ -24,6 +24,7 @@ namespace OCA\FirstRunWizard\Controller;
 
 use OCP\AppFramework\Controller;
 use OCP\AppFramework\Http\DataResponse;
+use OCP\AppFramework\Http\JSONResponse;
 use OCP\AppFramework\Http\TemplateResponse;
 use OCP\Defaults;
 use OCP\IConfig;
@@ -66,14 +67,36 @@ class WizardController extends Controller {
 
 	/**
 	 * @NoAdminRequired
-	 * @return TemplateResponse
+	 * @return JsonResponse
 	 */
 	public function show() {
-		return new TemplateResponse('firstrunwizard', 'wizard', [
-			'desktop' => $this->config->getSystemValue('customclient_desktop', $this->theming->getSyncClientUrl()),
-			'android' => $this->config->getSystemValue('customclient_android', $this->theming->getAndroidClientUrl()),
-			'ios' => $this->config->getSystemValue('customclient_ios', $this->theming->getiOSClientUrl()),
+		$data = [
+			'desktop'      => $this->config->getSystemValue('customclient_desktop', $this->theming->getSyncClientUrl()),
+			'android'      => $this->config->getSystemValue('customclient_android', $this->theming->getAndroidClientUrl()),
+			'ios'          => $this->config->getSystemValue('customclient_ios', $this->theming->getiOSClientUrl()),
 			'appStore' => $this->config->getSystemValue('appstoreenabled', true),
-		], '');
+		];
+
+		$slides = [
+			$this->staticSlide('page.intro', $data),
+			$this->staticSlide('page.values', $data),
+			$this->staticSlide('page.apps', $data),
+			$this->staticSlide('page.clients', $data),
+			$this->staticSlide('page.final', $data)
+		];
+		return new JSONResponse($slides);
+	}
+
+	public function staticSlide($name, $params) {
+		$template = new \OCP\Template($this->appName, $name, false);
+
+		foreach($params as $key => $value){
+			$template->assign($key, $value);
+		}
+
+		return [
+			'type' => 'inline',
+			'content' => $template->fetchPage($params)
+		];
 	}
 }

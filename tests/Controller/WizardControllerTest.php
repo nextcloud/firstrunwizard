@@ -27,6 +27,7 @@ namespace OCA\FirstRunWizard\Tests\Controller;
 use OCA\FirstRunWizard\Controller\WizardController;
 use OCP\AppFramework\Http;
 use OCP\AppFramework\Http\DataResponse;
+use OCP\AppFramework\Http\JSONResponse;
 use OCP\Defaults;
 use OCP\IConfig;
 use OCP\IRequest;
@@ -85,41 +86,23 @@ class WizardControllerTest extends TestCase {
 		$this->assertSame(Http::STATUS_OK, $response->getStatus());
 	}
 
-	public function dataShow() {
-		return [
-			['desktop1', 'android1', 'ios1', true],
-			['desktop2', 'android2', 'ios2', false],
-		];
-	}
 
-	/**
-	 * @dataProvider dataShow
-	 * @param string $desktopUrl
-	 * @param string $androidUrl
-	 * @param string $iosUrl
-	 * @param bool $appStoreEnabled
-	 */
-	public function testShow($desktopUrl, $androidUrl, $iosUrl, $appStoreEnabled) {
+	public function testShow() {
 		$controller = $this->getController();
 
 		$this->config->expects($this->exactly(4))
 			->method('getSystemValue')
 			->willReturnMap([
-				['customclient_desktop', 'https://nextcloud.com/install/#install-clients', $desktopUrl],
-				['customclient_android', 'https://play.google.com/store/apps/details?id=com.nextcloud.client', $androidUrl],
-				['customclient_ios', 'https://geo.itunes.apple.com/us/app/nextcloud/id1125420102?mt=8', $iosUrl],
-				['appstoreenabled', true, $appStoreEnabled]
+				['customclient_desktop', 'https://nextcloud.com/install/#install-clients', 'https://nextcloud.com/install/#install-clients'],
+				['customclient_android', 'https://play.google.com/store/apps/details?id=com.nextcloud.client', 'https://nextcloud.com/install/#install-clients'],
+				['customclient_ios', 'https://geo.itunes.apple.com/us/app/nextcloud/id1125420102?mt=8', 'https://nextcloud.com/install/#install-clients'],
+				['appstoreenabled', true, true]
 			]);
 
 		$response = $controller->show();
 
-		$this->assertInstanceOf(Http\TemplateResponse::class, $response);
+		$this->assertInstanceOf(JSONResponse::class, $response);
 		$this->assertSame(Http::STATUS_OK, $response->getStatus());
-		$this->assertSame([
-			'desktop' => $desktopUrl,
-			'android' => $androidUrl,
-			'ios' => $iosUrl,
-			'appStore' => $appStoreEnabled,
-		], $response->getParams());
+		$this->assertEquals(5, count($response->getData()));
 	}
 }
