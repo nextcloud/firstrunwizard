@@ -4,6 +4,7 @@ OC.L10N.register(
     "First run wizard" : "Čarovnik prvega zagona",
     "Add your profile information! For example your email is needed to reset your password." : "Dodajte svoje podatke o profilu! Na primer vaš e-poštni naslov je potreben za ponastavitev gesla.",
     "About" : "O programu",
+    "Start using Nextcloud" : "Začnite uporabljati Nextcloud",
     "Get the apps to sync your files" : "Pridobi programe za usklajevanje datotek",
     "Desktop client" : "Odjemalec za namizne računalnike",
     "Android app" : "Odjemalec za Android",
@@ -17,7 +18,6 @@ OC.L10N.register(
     "User manual" : "Uporabniški priročnik",
     "Admin manual" : "Skrbniški priročnik",
     "Developer manual" : "Priročnik za razvijalce",
-    "Start using Nextcloud" : "Začnite uporabljati Nextcloud",
     "Show First Run Wizard again" : "Ponovno prikaži čarovnika prvega zagona",
     "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Dostop in souporaba datotek, koledarja, stikov, elektronske pošte in drugih virov na napravi, pod vašimi pogoji!"
 },
