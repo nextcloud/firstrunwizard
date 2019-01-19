@@ -10,6 +10,7 @@ OC.L10N.register(
     "A welcome and introduction wizard for Nextcloud" : "Pasisveikinimo ir pristatymo vediklis, skirtas Nextcloud",
     "Previous" : "Ankstesnis",
     "Next" : "Kitas",
+    "Close" : "Užverti",
     "Start using Nextcloud" : "Pradėti naudotis Nextcloud",
     "Extend your cloud" : "Išplėskite savo debesiją",
     "Stay in sync" : "Išlaikykite viską sinchronizuotai",
