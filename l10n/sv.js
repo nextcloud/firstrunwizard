@@ -10,6 +10,7 @@ OC.L10N.register(
     "A welcome and introduction wizard for Nextcloud" : "En välkomst och introduktionsguide för Nextcloud",
     "Previous" : "Föregående",
     "Next" : "Nästa",
+    "Close" : "Stäng",
     "Start using Nextcloud" : "Börja använda Nextcloud",
     "Extend your cloud" : "Utöka ditt moln",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Hitta fler än 100 appar i Nextcloud app store för att anpassa ditt moln:",
