@@ -102,7 +102,7 @@ pipeline:
     image: node:lts-alpine
     commands:
       - apk add git bash
-      - find js/ -type f ! -name 'activate.js' ! -name 'about.js'` -delete
+      - find js/ -type f ! -name 'activate.js' ! -name 'about.js' -delete
       - npm install
       - npm run build
       - git status
