@@ -99,9 +99,8 @@ pipeline:
       matrix:
         TESTS: eslint
   vue-build:
-    image: node:lts-alpine
+    image: nextcloudci/node:node-4
     commands:
-      - apk add git bash
       - find js/ -type f ! -name 'activate.js' ! -name 'about.js' -delete
       - npm ci
       - npm run build
