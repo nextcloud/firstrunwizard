@@ -99,13 +99,17 @@ pipeline:
       matrix:
         TESTS: eslint
   vue-build:
-    image: nextcloudci/jsunit:jsunit-5
+    image: nextcloudci/node:node-4
     commands:
-      - npm install
+      - find js/ -type f ! -name 'activate.js' ! -name 'about.js' -delete
+      - npm ci
       - npm run build
+      - git status
+      - bash -c "[[ ! \"`git status --porcelain js/`\" ]] || ( echo 'Uncommited changes in vue build' && exit 1 )"
     when:
       matrix:
         TESTS: vue-build
+
 matrix:
   include:
     - TESTS: signed-off-check
