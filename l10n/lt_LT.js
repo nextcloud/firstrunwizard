@@ -1,6 +1,10 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "Previous" : "Ankstesnis",
+    "Next" : "Kitas",
+    "Close" : "Užverti",
+    "Start using Nextcloud" : "Pradėti naudotis Nextcloud",
     "First run wizard" : "Pirmojo paleidimo vediklis",
     "Add your profile information! For example your email is needed to reset your password." : "Pridėkite savo profilio informaciją! Pavyzdžiui, jūsų el. paštas yra reikalingas, norint atstatyti savo slaptažodį.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Pridėkite savo profilio informaciją! Nustatykite profilio paveikslą ir visą vardą, kad lengviau būtumėte atpažinti tarp visų ypatybių.",
@@ -8,10 +12,6 @@ OC.L10N.register(
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Pridėkite savo profilio informaciją! Nustatykite profilio paveikslą, kad lengviau būtumėte atpažinti tarp visų ypatybių.",
     "About" : "Apie",
     "A welcome and introduction wizard for Nextcloud" : "Pasisveikinimo ir pristatymo vediklis, skirtas Nextcloud",
-    "Previous" : "Ankstesnis",
-    "Next" : "Kitas",
-    "Close" : "Užverti",
-    "Start using Nextcloud" : "Pradėti naudotis Nextcloud",
     "Extend your cloud" : "Išplėskite savo debesiją",
     "Stay in sync" : "Išlaikykite viską sinchronizuotai",
     "Nextcloud gives you access to your files wherever you are." : "Nextcloud suteikia jums prieigą prie failų, nesvarbu, kur bebūtumėte.",

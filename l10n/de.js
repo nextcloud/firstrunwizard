@@ -1,6 +1,10 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "Previous" : "Zurück",
+    "Next" : "Weiter",
+    "Close" : "Schliessen",
+    "Start using Nextcloud" : "Starte mit Nextcloud",
     "First run wizard" : "Einrichtungsassistent",
     "Add your profile information! For example your email is needed to reset your password." : "Füge deine Profil-Informationen hinzu! Z.B. wird deine E-Mail-Adresse zum Zurücksetzen deines Passwortes benötigt.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Füge Deine Profilinformationen hinzu! Setze ein Profilbild und gib Deinen vollständigen Namen ein, damit Du einfacher erkannt werden kannst.",
@@ -9,10 +13,6 @@ OC.L10N.register(
     "About" : "Über",
     "A welcome and introduction wizard for Nextcloud" : "Ein Assistent zur Begrüßung und Einführung zu Nextcloud",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Diese Anwendung aktiviert ein Popup-Fenster, wenn sich ein Benutzer zum ersten Mal an der Nextcloud anmeldet. Dieses Fenster begrüßt neue Benutzer und beinhaltet Links zum Standard-Desktop-Client, zur Android-App und zur iOS-App. Das Fenster zeigt auch einen Link für den WebDAV-Zugriff auf die Nextcloud. Der Assistent für die Erstanmeldung kann jederzeit erneut über den Link \"Über\" im Einstellungsmenü geöffnet werden.\nDer Assistent für die Erstanmeldung kann angepasst werden, um bestimmte Ziele zu erreichen oder Links und Nachrichten zu ändern. Erstelleein eigenes Thema nach der Anleitung in der Theming-Dokumentation. Änderungen am Aussehen und Verhalten dieses Assistenten sind einfach. Weitere Informationen findest Du in der Dokumentation zum Erstausführungsassistenten sowie in der Theming-Dokumentation.",
-    "Previous" : "Zurück",
-    "Next" : "Weiter",
-    "Close" : "Schliessen",
-    "Start using Nextcloud" : "Starte mit Nextcloud",
     "Extend your cloud" : "Erweitere Deine Cloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Finde mehr als 100 Apps im Nextcloud App Store um deine Cloud anzupassen:",
     "Groupware apps like Calendar, Contacts, Mail" : "Gruppen-Apps wie Kalender, Kontakte, Mail",

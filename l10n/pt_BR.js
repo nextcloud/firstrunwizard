@@ -1,6 +1,10 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "Previous" : "Anterior",
+    "Next" : "Próximo",
+    "Close" : "Fechar",
+    "Start using Nextcloud" : "Comece a usar o Nextcloud",
     "First run wizard" : "Assistente da primeira execução",
     "Add your profile information! For example your email is needed to reset your password." : "Adicione informações ao seu perfil! Por exemplo seu e-mail é necessário para redefinir sua senha.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Adicione informações ao seu perfil! Defina uma imagem de perfil e um nome completo para facilitar o reconhecimento em todas as características.",
@@ -9,10 +13,6 @@ OC.L10N.register(
     "About" : "Sobre",
     "A welcome and introduction wizard for Nextcloud" : "Um assistente de boas-vindas e introdução ao Nextcloud",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Este aplicativo ativa uma janela pop-up quando um usuário faz login pela primeira vez no Nextcloud. Essa janela dá boas-vindas aos novos usuários e contém links para os clientes padrões para desktop Android e iOS. A janela também mostra um link para acessar o Nextcloud via WebDAV. A qualquer momento, este assistente pode ser aberto novamente pelo link \"Sobre\" no menu de configurações.\nO assistente de primeira execução pode ser personalizado para atender a metas de design específicas ou para alterar links e mensagens. Crie um tema apropriado seguindo a documentação de Theming. Mais informações estão disponíveis na documentação deste assistente, bem como na documentação sobre temas.",
-    "Previous" : "Anterior",
-    "Next" : "Próximo",
-    "Close" : "Fechar",
-    "Start using Nextcloud" : "Comece a usar o Nextcloud",
     "Extend your cloud" : "Amplie sua nuvem",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Encontre mais de 100 aplicativos na loja de aplicativos Nextcloud para personalizar sua nuvem:",
     "Groupware apps like Calendar, Contacts, Mail" : "Aplicativos de groupware como Calendário, Contatos, Correio",
