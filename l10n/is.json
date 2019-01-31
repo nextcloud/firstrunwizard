@@ -1,4 +1,7 @@
 { "translations": {
+    "Previous" : "Fyrra",
+    "Next" : "Næsta",
+    "Start using Nextcloud" : "Byrjaðu að nota Nextcloud",
     "First run wizard" : "Fyrsta-skiptis-leiðarvísir",
     "Add your profile information! For example your email is needed to reset your password." : "Bættu við notandaupplýsingarnar þínar! Til dæmis þarftu að setja inn tölvupóstfangið þitt til að geta endurstillt lykilorð.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Bættu við notandaupplýsingarnar þínar! Settu auðkennismynd og fullt nafn svo auðveldara verði að nota marga eiginleika.",
@@ -6,9 +9,6 @@
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Bættu við notandaupplýsingarnar þínar! Settu inn auðkennismynd svo auðveldara verði að nota marga eiginleika.",
     "About" : "Um hugbúnaðinn",
     "A welcome and introduction wizard for Nextcloud" : "Kynning og leiðarvísir fyrir Nextcloud",
-    "Previous" : "Fyrra",
-    "Next" : "Næsta",
-    "Start using Nextcloud" : "Byrjaðu að nota Nextcloud",
     "Extend your cloud" : "Útvíkkaðu tölvuskýið þitt",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Skoðaðu meira en 100 forrit í forritasafni Nextcloud til að sérsníða tölvuskýið þitt:",
     "Groupware apps like Calendar, Contacts, Mail" : "Hópvinnuforrit á borð við Dagbók, Tengiliðir, Póstur",
