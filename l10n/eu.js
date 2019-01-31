@@ -1,13 +1,13 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "Previous" : "Aurrekoa",
+    "Next" : "Hurrengoa",
     "First run wizard" : "Lehenaldilo laguntza",
     "Add your profile information! For example your email is needed to reset your password." : "Gehitu zure informazio-profila! Adibidez, zure posta elektronikoa behar da pasahitza berrezartzeko.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Gehitu zure informazio-profila! Ezarri profileko argazkia eta izena, ezaugarri guztietan aitorpena errazago egiteko.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Gehitu zure informazio-profila! Ezarri izena, ezaugarri guztietan aitorpena errazago egiteko.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Gehitu zure informazio-profila! Ezarri profileko argazkia, ezaugarri guztietan aitorpena errazago egiteko.",
-    "Previous" : "Aurrekoa",
-    "Next" : "Hurrengoa",
     "Get the apps to sync your files" : "Lortu aplikazioak zure fitxategiak sinkronizatzeko",
     "Desktop client" : "Mahaigaineko bezeroa",
     "Android app" : "Android aplikazioa",
