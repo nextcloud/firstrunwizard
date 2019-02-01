@@ -1,10 +1,15 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "function" : "função",
+    "_" : "_",
     "Previous" : "Anterior",
     "Next" : "Próximo",
     "Close" : "Fechar",
+    "_icon-close icon-white_::_close_" : ["icon-close icon-white","fechar"],
+    "_fade_::_out-in_" : ["esmaecer","out-in"],
     "Start using Nextcloud" : "Comece a usar o Nextcloud",
+    "_modal-mask_::_firstrunwizard_" : ["modal-mask","firstrunwizard"],
     "First run wizard" : "Assistente da primeira execução",
     "Add your profile information! For example your email is needed to reset your password." : "Adicione informações ao seu perfil! Por exemplo seu e-mail é necessário para redefinir sua senha.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Adicione informações ao seu perfil! Defina uma imagem de perfil e um nome completo para facilitar o reconhecimento em todas as características.",
