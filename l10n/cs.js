@@ -1,6 +1,8 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "function" : "funkce",
+    "_" : "_",
     "Previous" : "Předchozí",
     "Next" : "Další",
     "Close" : "Zavřít",
