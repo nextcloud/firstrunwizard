@@ -1,6 +1,7 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "_" : "_",
     "Previous" : "Назад",
     "Next" : "Напред >",
     "Close" : "Затвори",

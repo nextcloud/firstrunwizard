@@ -1,8 +1,13 @@
 { "translations": {
+    "function" : ".",
+    "_" : ".",
     "Previous" : "Zurück",
     "Next" : "Weiter",
     "Close" : "Schließen",
+    "_icon-close icon-white_::_close_" : [".","."],
+    "_fade_::_out-in_" : [".","."],
     "Start using Nextcloud" : "Starten Sie mit Nextcloud",
+    "_modal-mask_::_firstrunwizard_" : [".","."],
     "First run wizard" : "Einrichtungsassistent",
     "Add your profile information! For example your email is needed to reset your password." : "Fügen Sie Ihre Profil-Informationen hinzu! Ihre E-Mail-Adresse z.B. wird zum Rücksetzen Ihres Passwortes benötigt.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Fügen Sie Ihre Profil-Informationen hinzu! Hinterlegen Sie ein Profilbild und Ihren vollständigen Namen für eine einfachere Wiedererkennung über alle Funktionen hinweg.",
