@@ -1,7 +1,4 @@
 { "translations": {
-    "Previous" : "Előző",
-    "Next" : "Következő",
-    "Start using Nextcloud" : "A Nextcloud használatának kezdete",
     "First run wizard" : "Első indíráskori varázsló",
     "Add your profile information! For example your email is needed to reset your password." : "Add meg a profil adataidat! Az e-mail címedre pédául jelszó visszaállításkor lehet szükség.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Add meg a profil információidat! Állíts be egy profilképet és teljes nevet az egyszerűbb azonosíthatóságért minden szolgáltatásban.",
@@ -9,6 +6,9 @@
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Add meg a profil információidat! Állítsd be egy profilképet az egyszerűbb azonosíthatóságért minden szolgáltatásban.",
     "About" : "Névjegy",
     "A welcome and introduction wizard for Nextcloud" : "Kezeld adataid és fájljaid ott, ahol te döntesz róluk",
+    "Previous" : "Előző",
+    "Next" : "Következő",
+    "Start using Nextcloud" : "A Nextcloud használatának kezdete",
     "Extend your cloud" : "A felhőd kiterjesztése",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "A Nextcloud alkalmazásból több mint 100 alkalmazásával testre szabhatod a felhődet: ",
     "Groupware apps like Calendar, Contacts, Mail" : "Csoportmunka alkalmazások mint Naptár, Névjegyek, Levelező",

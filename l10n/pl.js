@@ -1,9 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Previous" : "Poprzedni",
-    "Next" : "Następny",
-    "Start using Nextcloud" : "Zacznij używać Nextcloud",
     "First run wizard" : "Kreator pierwszego uruchomienia",
     "Add your profile information! For example your email is needed to reset your password." : "Dodaj swoje informacje do profilu! Na przykład konieczny jest Twój adres e-mail, aby zresetować hasło.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Dodaj swoje informacje profilowe! Ustaw zdjęcie profilowe i pełne imię i nazwisko, aby być łatwiej rozpoznawalnym/-ą we wszystkich funkcjonalnościach.",
@@ -11,6 +8,9 @@ OC.L10N.register(
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Dodaj swoje informacje profilowe! Ustaw zdjęcie profilowe, aby być łatwiej rozpoznawalnym/-ą we wszystkich funkcjonalnościach.",
     "About" : "O aplikacji",
     "A welcome and introduction wizard for Nextcloud" : "Kreator powitalny i wprowadzający dla Nextcloud",
+    "Previous" : "Poprzedni",
+    "Next" : "Następny",
+    "Start using Nextcloud" : "Zacznij używać Nextcloud",
     "Extend your cloud" : "Rozszerz swoją chmurę",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Znajdź ponad 100 aplikacji w Nextcloud App Store aby dostosować swoją chmurę:",
     "Groupware apps like Calendar, Contacts, Mail" : "Narzędzia pracy grupowej jak Kalendarz, Kontakty, Poczta",
