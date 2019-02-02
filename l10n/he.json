@@ -1,7 +1,4 @@
 { "translations": {
-    "Previous" : "הקודם",
-    "Next" : "הבא",
-    "Start using Nextcloud" : "להתחיל להשתמש ב־Nextcloud",
     "First run wizard" : "אשף ההפעלה הראשונית",
     "Add your profile information! For example your email is needed to reset your password." : "נא להוסיף את פרטי הפרופיל שלך! למשל, כתובת הדוא״ל שלך נחוצה לטובת איפוס הססמה שלך.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "נא להוסיף את פרטי הפרופיל שלך! ניתן להגדיר תמונת פרופיל ושם מלא לצורך זיהוי פשוט יותר בין כל התכונות השונות.",
@@ -9,6 +6,9 @@
     "Add your profile information! Set a profile picture for easier recognition across all features." : "נא להוסיף את פרטי הפרופיל שלך! ניתן להגדיר תמונת פרופיל לצורך זיהוי פשוט יותר בין כל התכונות השונות.",
     "About" : "על אודות",
     "A welcome and introduction wizard for Nextcloud" : "אשף קבלת פנים והיכרות ל־Nextcloud",
+    "Previous" : "הקודם",
+    "Next" : "הבא",
+    "Start using Nextcloud" : "להתחיל להשתמש ב־Nextcloud",
     "Extend your cloud" : "הרחבת הענן שלך",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "ניתן למצוא למעלה מ־100 יישומונים בחנות היישומונים של Nextcloud כדי להתאים את הענן לצרכיך:",
     "Groupware apps like Calendar, Contacts, Mail" : "יישומונים לעבודה קבוצתית כמו לוח שנה, אנשי קשר, דוא״ל",

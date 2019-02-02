@@ -1,7 +1,4 @@
 { "translations": {
-    "Previous" : "Predchádzajúce",
-    "Next" : "Ďalšie",
-    "Start using Nextcloud" : "Začnite používať Nextcloud",
     "First run wizard" : "Sprievodca prvým spustením",
     "Add your profile information! For example your email is needed to reset your password." : "Pridajte svoje informácie o profile! Váš e-mail je napríklad potrebný na obnovenie hesla.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Pridajte svoje informácie o profile! Nastavte si profilový obrázok a celé meno pre jednoduchšie rozpoznanie naprieč všetkými funkciami.",
@@ -9,6 +6,9 @@
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Pridajte svoje informácie o profile! Nastavte si profilový obrázok pre jednoduchšie rozpoznanie naprieč všetkými funkciami.",
     "About" : "O aplikácii",
     "A welcome and introduction wizard for Nextcloud" : "Uvítací a úvodný sprievodca pre Nextcloud",
+    "Previous" : "Predchádzajúce",
+    "Next" : "Ďalšie",
+    "Start using Nextcloud" : "Začnite používať Nextcloud",
     "Extend your cloud" : "Rozšírte svoj cloud",
     "Communication with Nextcloud Talk" : "Komunikácia cez Nextcloud Talk",
     "Browse the app store" : "Prehliadajte obchod aplikácií",
