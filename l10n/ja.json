@@ -1,7 +1,4 @@
 { "translations": {
-    "Previous" : "前へ",
-    "Next" : "次へ",
-    "Start using Nextcloud" : "Nextcloud の利用を開始する",
     "First run wizard" : "初期ウィザード",
     "Add your profile information! For example your email is needed to reset your password." : "プロフィール情報を追加しましょう! パスワードをリセットするにはメールアドレスが必要です。",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "プロフィール情報を追加してください! プロフィール画像とフルネームを設定すると、すべての機能をより簡単に認識できます。",
@@ -9,6 +6,9 @@
     "Add your profile information! Set a profile picture for easier recognition across all features." : "プロフィール情報を追加してください! プロフィール画像を設定すると、すべての機能をより簡単に認識できます。",
     "About" : "バージョン情報",
     "A welcome and introduction wizard for Nextcloud" : "Nextcloud のウェルカム＆紹介ウィザード",
+    "Previous" : "前へ",
+    "Next" : "次へ",
+    "Start using Nextcloud" : "Nextcloud の利用を開始する",
     "Extend your cloud" : "あなたのクラウドを拡張する",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Nextcloud アプリストアで100以上のアプリを見つけて、クラウドをカスタマイズしてください：",
     "Groupware apps like Calendar, Contacts, Mail" : "カレンダー、連絡先、メールなどのグループウェアアプリ",
