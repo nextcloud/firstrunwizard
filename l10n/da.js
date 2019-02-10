@@ -7,6 +7,7 @@ OC.L10N.register(
     "Add your profile information! Set a full name for easier recognition across all features." : "Tilføj dine profil informationer! Tilføj et fuldt navn for nemmere genkendelse på tværs af alle funktioner.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Tilføj dine profil informationer! Tilføj et profil billede for nemmere genkendelse på tværs af alle funktioner.",
     "About" : "Om",
+    "A welcome and introduction wizard for Nextcloud" : "En velkomst- og introduktionsguide til Nextcloud",
     "Previous" : "Forrige",
     "Next" : "Næste",
     "Close" : "Luk",
