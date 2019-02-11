@@ -25,12 +25,11 @@ namespace OCA\FirstRunWizard\AppInfo;
 
 use OCA\FirstRunWizard\Notification\Notifier;
 use OCP\AppFramework\App;
+use OCP\AppFramework\Http\TemplateResponse;
 use OCP\IConfig;
 use OCP\IL10N;
-use OCP\IRequest;
 use OCP\IUser;
 use OCP\IUserSession;
-use OCP\Util;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 
 class Application extends App {
@@ -51,10 +50,12 @@ class Application extends App {
 	}
 
 	protected function registerScripts() {
-		\OC_Util::addScript('firstrunwizard', 'about');
-
 		/** @var EventDispatcherInterface $dispatcher */
-		$dispatcher = $this->getContainer()->query(EventDispatcherInterface::class);
+		$dispatcher = $this->getContainer()->getServer()->getEventDispatcher();
+
+		$dispatcher->addListener(TemplateResponse::EVENT_LOAD_ADDITIONAL_SCRIPTS_LOGGEDIN, function() {
+			\OC_Util::addScript('firstrunwizard', 'about');
+		});
 
 		// Display the first run wizard only on the files app,
 		$dispatcher->addListener('OCA\Files::loadAdditionalScripts', function() {
