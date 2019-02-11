@@ -3,13 +3,23 @@
 		<div id="firstrunwizard" class="modal-mask">
 			<div id="firstrunwizard-navigation">
 				<a v-if="hasPrevious" id="prev" @click="previous">
-					<div class="icon-view-previous icon-white"><span class="hidden-visually">{{ t('firstrunwizard', 'Previous') }}</span></div>
+					<div class="icon-view-previous icon-white">
+						<span class="hidden-visually">
+							{{ t('firstrunwizard', 'Previous') }}
+						</span>
+					</div>
 				</a>
 				<a v-if="hasNext" id="next" @click="next">
-					<div class="icon-view-next icon-white"><span class="hidden-visually">{{ t('firstrunwizard', 'Next') }}</span></div>
+					<div class="icon-view-next icon-white">
+						<span class="hidden-visually">
+							{{ t('firstrunwizard', 'Next') }}
+						</span>
+					</div>
 				</a>
 				<a id="close" class="icon-close icon-white" @click="close">
-					<span class="hidden-visually">{{ t('firstrunwizard', 'Close') }}</span>
+					<span class="hidden-visually">
+						{{ t('firstrunwizard', 'Close') }}
+					</span>
 				</a>
 			</div>
 			<div class="modal-wrapper" @click.self="close">
@@ -21,6 +31,7 @@
 									{{ oc_defaults.name }}
 								</p>
 							</div>
+							<!-- eslint-disable-next-line vue/no-v-html -->
 							<h2 v-html="oc_defaults.slogan" />
 							<p />
 						</div>
@@ -63,6 +74,11 @@
 				max-height: 60vh;
 				.content {
 					padding: 0;
+					background-image: url('../img/intro.png');
+					background-position: center;
+					background-size: cover;
+					height: 50vh;
+
 					img {
 						width: 100%;
 					}
@@ -234,7 +250,7 @@
 	}
 </style>
 
-<style lang="scss">
+<style lang="scss" scoped>
 	.modal-mask {
 		position: fixed;
 		z-index: 9998;
@@ -263,7 +279,7 @@
 		overflow: hidden;
 		box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
 		transition: all .3s ease;
-		display: table;
+		display: table !important;
 	}
 
 	.modal-header {
@@ -433,8 +449,12 @@ export default {
 	},
 	methods: {
 		open() {
-			this.showModal = true
-			window.addEventListener('keydown', this.handleKeydown)
+			var img = new Image()
+			img.src = require('../img/intro.png')
+			img.onload = () => {
+				this.showModal = true
+				window.addEventListener('keydown', this.handleKeydown)
+			}
 		},
 		close() {
 			this.showModal = false
