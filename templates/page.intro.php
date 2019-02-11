@@ -30,6 +30,6 @@
 
 <div class="page intro" data-title="<?php p($theme->getSlogan()); ?>" data-subtitle="">
 	<div class="content">
-		<img src="<?php p(\OC::$server->getURLGenerator()->imagePath('firstrunwizard', 'intro.png')); ?>" />
+
 	</div>
 </div>
