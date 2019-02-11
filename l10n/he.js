@@ -10,6 +10,7 @@ OC.L10N.register(
     "A welcome and introduction wizard for Nextcloud" : "אשף קבלת פנים והיכרות ל־Nextcloud",
     "Previous" : "הקודם",
     "Next" : "הבא",
+    "Close" : "סגירה",
     "Start using Nextcloud" : "להתחיל להשתמש ב־Nextcloud",
     "Extend your cloud" : "הרחבת הענן שלך",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "ניתן למצוא למעלה מ־100 יישומונים בחנות היישומונים של Nextcloud כדי להתאים את הענן לצרכיך:",
