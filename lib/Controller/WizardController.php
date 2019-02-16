@@ -74,7 +74,9 @@ class WizardController extends Controller {
 			'desktop'      => $this->config->getSystemValue('customclient_desktop', $this->theming->getSyncClientUrl()),
 			'android'      => $this->config->getSystemValue('customclient_android', $this->theming->getAndroidClientUrl()),
 			'ios'          => $this->config->getSystemValue('customclient_ios', $this->theming->getiOSClientUrl()),
-			'appStore' => $this->config->getSystemValue('appstoreenabled', true),
+			'appStore'     => $this->config->getSystemValue('appstoreenabled', true),
+			'useSSL'       => $this->request->getHttpProtocol() === 'https',
+			'macOSProfile' => \OCP\Util::linkToRemote('dav') . 'provisioning/apple-provisioning.mobileconfig',
 		];
 
 		$slides = [
