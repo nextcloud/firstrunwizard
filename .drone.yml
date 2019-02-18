@@ -91,7 +91,7 @@ pipeline:
       matrix:
         TESTS: php7.3
   eslint:
-    image: nextcloudci/jsunit:jsunit-5
+    image: nextcloudci/node:node-4
     commands:
       - npm install
       - npm run lint
