@@ -48,6 +48,8 @@ script('firstrunwizard', ['jquery.colorbox', 'firstrunwizard']);
 	</div>
 	<?php
 		$appPasswordUrl = \OC::$server->getURLGenerator()->linkToRoute('settings.PersonalSettings.index', ['section' => 'security']);
+		$macOSProfile = \OCP\Util::linkToRemote('dav') . 'provisioning/apple-provisioning.mobileconfig';
+		$usesTLS = \OC::$server->getRequest()->getHttpProtocol() === 'https';
 	?>
 	<p><?php print_unescaped($l->t('Setup sync clients using an <a href="%s">app password</a>. That way you can make sure you are able to revoke access in case you lose that device.', [$appPasswordUrl])); ?></p>
 </div>
@@ -72,5 +74,12 @@ script('firstrunwizard', ['jquery.colorbox', 'firstrunwizard']);
 				 src="<?php p(image_path('files', 'folder.svg')); ?>" />
 			<?php p($l->t('Access files via WebDAV'));?>
 		</a>
+		<?php if($usesTLS): ?>
+		<a target="_blank" class="button" href="<?php p($macOSProfile); ?>" rel="noreferrer noopener">
+			<img class="appsmall appsmall-contacts svg" alt=""
+				 src="<?php p(image_path('core', 'places/default-app-icon.svg')); ?>" />
+			<?php p($l->t('Download macOS/iOS configuration profile'));?>
+		</a>
+		<?php endif; ?>
 	</div>
 </div>
