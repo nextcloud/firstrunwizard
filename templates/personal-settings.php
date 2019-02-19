@@ -23,8 +23,7 @@
 
 /** @var \OCP\Defaults $theme */
 /** @var array $_ */
-style('firstrunwizard', ['colorbox', 'firstrunwizard']);
-script('firstrunwizard', ['jquery.colorbox', 'firstrunwizard']);
+style('firstrunwizard', ['firstrunwizard']);
 ?>
 
 <div id="clientsbox" class="section clientsbox">
