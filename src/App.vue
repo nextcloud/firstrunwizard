@@ -27,7 +27,8 @@
 					</div>
 					<div class="modal-body">
 						<slot v-if="slides.length > 0" name="body">
-							<transition name="fade" mode="out-in">
+							<transition :name="fadeDirection" mode="out-in">
+								<!-- eslint-disable-next-line vue/no-v-html -->
 								<div v-if="slides[currentSlide].type === 'inline'" :key="currentSlide" v-html="slides[currentSlide].content" />
 							</transition>
 						</slot>
@@ -314,15 +315,24 @@
 
 	/* Transitions */
 
-	.fade-enter-active, .fade-leave-active {
+	.next-enter-active, .next-leave-active,
+	.previous-enter-active, .previous-leave-active {
 		transition: transform .1s, opacity .25s;
 	}
-	.fade-enter {
+	.next-enter {
 		transform: translateX(50%);
 		opacity: 0;
 	}
-	.fade-leave-to {
+	.next-leave-to {
 		transform: translateX(-50%);
+		opacity: 0;
+	}
+	.previous-enter {
+		transform: translateX(-50%);
+		opacity: 0;
+	}
+	.previous-leave-to {
+		transform: translateX(50%);
 		opacity: 0;
 	}
 
@@ -397,7 +407,8 @@ export default {
 		return {
 			showModal: false,
 			slides: [],
-			currentSlide: 0
+			currentSlide: 0,
+			fadeDirection: 'next'
 		}
 	},
 	computed: {
@@ -431,6 +442,7 @@ export default {
 			window.removeEventListener('keydown', this.handleKeydown)
 		},
 		next() {
+			this.fadeDirection = 'next'
 			if (this.isLast) {
 				this.close()
 				return
@@ -438,6 +450,7 @@ export default {
 			this.currentSlide += 1
 		},
 		previous() {
+			this.fadeDirection = 'previous'
 			if (this.isFirst) {
 				return
 			}
