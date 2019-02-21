@@ -32,6 +32,7 @@ OC.L10N.register(
     "Connect your calendar" : "Conecte o seu calendario",
     "Connect your contacts" : "Conecte os seus contactos",
     "Access files via WebDAV" : "Acceda aos ficheiros empregando WebDAV",
+    "Download macOS/iOS configuration profile" : "Descarga o perfil de configuración de macOS/iOS",
     "Get help" : "Obteña axuda",
     "Get more information" : "Obteña máis información",
     "The Nextcloud documentation for home users:" : "A documentación do Nextcloud para usuarios domésticos:",
