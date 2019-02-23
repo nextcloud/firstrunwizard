@@ -32,6 +32,7 @@ OC.L10N.register(
     "Connect your calendar" : "Verbind je agenda",
     "Connect your contacts" : "Verbind je contactpersonen",
     "Access files via WebDAV" : "Benader bestanden via WebDAV",
+    "Download macOS/iOS configuration profile" : "Download het macOS/iOS configuratieprofiel",
     "Get help" : "Hulp krijgen",
     "Get more information" : "Meer informatie",
     "The Nextcloud documentation for home users:" : "De Nextcloud documentatie voor thuisgebruik:",
