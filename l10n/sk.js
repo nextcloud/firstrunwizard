@@ -41,11 +41,6 @@ OC.L10N.register(
     "Open Standards and Interoperability" : "Otvorené štandardy a interoperabilita",
     "100%% Open Source & community-focused" : "100%% Open Source so zameraním na komunitu",
     "Learn more about %s" : "Dozvedieť sa viac o %s",
-    "Connect other apps to %s" : "Pripojte iné aplikácie do %s",
-    "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "Ak chcete podporiť projekt {contributeopen}zapojte sa do vývoja{linkclose}, alebo {contributeopen}dajte o nás vedieť{linkclose}!",
-    "Show First Run Wizard again" : "Znovu zobraziť sprievodcu prvým spustením",
-    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Pristupujte a zdieľajte svoje súbory, kalendáre, kontakty, e-mail a pod. z akéhokoľvek zariadenia, podľa vašich podmienok",
-    "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Viac informácií nájdete v <a target=\"_blank\" href=\"%s\">dokumentácii</a> a na našej <a target=\"_blank\" href=\"%s\">webstránke</a>.",
-    "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "Ak sa vám páči Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\">odporučte ho svojim priateľom</a> a <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">prispejte späť</a>."
+    "Connect other apps to %s" : "Pripojte iné aplikácie do %s"
 },
 "nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);");

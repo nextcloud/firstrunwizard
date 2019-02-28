@@ -28,11 +28,6 @@ OC.L10N.register(
     "the Nextcloud IRC chat channel on freenode.net" : "Nextcloud IRC kanalen på freenode.net",
     "A safe home for all your data" : "Et sikkert hjem til alle dine data",
     "Learn more about %s" : "Lær mere om %s",
-    "Connect other apps to %s" : "Forbind andre apps til %s",
-    "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "Hvis du gerne ville støtte dette projekt så {contributeopen}hjælp med at udvikle{linkclose} eller {contributeopen}anbefal det{linkclose}!",
-    "Show First Run Wizard again" : "Vis guiden for første kørsel igen",
-    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "Få adgang og giv andre adgang til dine filer, kalendere, kontakter, emails med mere, fra enhver enhed og på dine betingelser",
-    "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Der er mere information i <a target=\"_blank\" href=\"%s\">dokumentationen</a> og på vores <a target=\"_blank\" href=\"%s\">hjemmeside</a>.",
-    "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "Hvis du kan lide Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud er en fed opensource software til at synkronisere og dele dine filer. Du kan få den gratis fra https://nextcloud.com\"> anbefal dine venner</a> og <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">bidrag til projektet</a>!"
+    "Connect other apps to %s" : "Forbind andre apps til %s"
 },
 "nplurals=2; plural=(n != 1);");

@@ -25,11 +25,6 @@
     "Get more information" : "取得更多資訊",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s 讓您不管身在何處都可以存取您的檔案，我們免費提供各大主要平臺上簡單易用的桌面和行動裝置客戶端",
     "Connect other apps to %s" : "連結其他應用程式到 %s",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "除了以上這些同步客戶端，你也可以使用任何 WebDAV/CalDAV/CardDAV 相容的軟體來連結到 %s",
-    "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "如果您想支持這個專案，請{contributeopen}參與開發{linkclose}，或{contributeopen}廣而告之{linkclose}！",
-    "Show First Run Wizard again" : "再次顯示首次使用精靈",
-    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "在任何裝置存取、分享您的檔案、行事曆、聯絡人、郵件和更多其他——由您掌控！",
-    "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "我們的<a target=\"_blank\" href=\"%s\">說明文件</a>和<a target=\"_blank\" href=\"%s\">網站</a>上面有更多資訊",
-    "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "如果您喜歡 Nextcloud，<a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\">將它推薦給朋友</a>，或是<a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">貢獻一己之力</a>！"
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "除了以上這些同步客戶端，你也可以使用任何 WebDAV/CalDAV/CardDAV 相容的軟體來連結到 %s"
 },"pluralForm" :"nplurals=1; plural=0;"
 }
