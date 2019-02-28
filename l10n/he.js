@@ -49,11 +49,6 @@ OC.L10N.register(
     "Open Standards and Interoperability" : "תקנים פתוחים ותאימות לשלל מערכות",
     "100%% Open Source & community-focused" : "100%% קוד פתוח ומוכוון קהילה",
     "Learn more about %s" : "מידע נוסף על %s",
-    "Connect other apps to %s" : "חיבור של יישומונים אחרים אל %s",
-    "If you want to support the project {contributeopen}join development{linkclose} or {contributeopen}spread the word{linkclose}!" : "לתמיכה במיזם ניתן {contributeopen}להצטרף לפיתוח{linkclose} או {contributeopen}להפיץ לכולם{linkclose}!",
-    "Show First Run Wizard again" : "הצגת אשף ההפעלה הראשונית שוב",
-    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "כניסה ושיתוף של קבצים, לוחות השנה, פרטי קשר, דואר אלקטרוני ועוד מכל מכשיר, ובתנאים שלך",
-    "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "יש מידע נוסף ב<a target=\"_blank\" href=\"%s\">תיעוד</a> וב<a target=\"_blank\" href=\"%s\">אתר</a> שלנו.",
-    "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "אם Nextcloud נושא חן בעיניך. <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\">כדאי להמליץ עליו לחבריך</a> וגם <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">לתרום בחזרה</a>!"
+    "Connect other apps to %s" : "חיבור של יישומונים אחרים אל %s"
 },
 "nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;");
