@@ -5,14 +5,15 @@
     "Add your profile information! Set a full name for easier recognition across all features." : "Legg til din profilinformasjon.Velg fullt navn for enklere gjenkjenning på tvers av alle funksjoner.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Legg til din profilinformasjon. Velg et profilbilde for enklere gjenkjenning på tvers av alle funksjoner.",
     "About" : "Om",
-    "Get the apps to sync your files" : "Hent programmer som synkroniserer filene dine",
+    "Groupware apps like Calendar, Contacts, Mail" : "Gruppevare-apper som Kalender, Kontakter, Mail",
+    "Get the apps to sync your files" : "Hent applikasjoner som synkroniserer filene dine",
     "Desktop client" : "Skrivebordsklient",
-    "Android app" : "Android-program",
-    "iOS app" : "iOS-program",
-    "Connect your desktop apps to %s" : "Koble dine skrivebordsprogrammer til %s",
+    "Android app" : "Android-app",
+    "iOS app" : "iOS-app",
+    "Connect your desktop apps to %s" : "Koble dine applikasjoner til %s",
     "Connect your calendar" : "Koble til din kalender",
     "Connect your contacts" : "Koble til dine kontakter",
     "Access files via WebDAV" : "Få tilgang til filer via WebDAV",
-    "Connect other apps to %s" : "Koble andre programmer til %s"
+    "Connect other apps to %s" : "Koble andre apper til %s"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
