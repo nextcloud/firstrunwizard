@@ -23,7 +23,7 @@
 
 /** @var \OCP\Defaults $theme */
 /** @var array $_ */
-style('firstrunwizard', ['firstrunwizard']);
+style('firstrunwizard', ['personalsettings']);
 ?>
 
 <div id="clientsbox" class="section clientsbox">
