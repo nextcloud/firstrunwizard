@@ -27,6 +27,7 @@ namespace OCA\FirstRunWizard\Settings;
 use OCP\AppFramework\Http\TemplateResponse;
 use OCP\IConfig;
 use OCP\Settings\ISettings;
+use OCP\IURLGenerator;
 
 class Personal implements ISettings {
 
@@ -35,8 +36,9 @@ class Personal implements ISettings {
 	/** @var \OC_Defaults */
 	private $defaults;
 
-	public function __construct(IConfig $config, \OC_Defaults $defaults) {
+	public function __construct(IConfig $config, IURLGenerator $urlGenerator, \OC_Defaults $defaults) {
 		$this->config = $config;
+		$this->urlGenerator = $urlGenerator;
 		$this->defaults = $defaults;
 	}
 
@@ -45,7 +47,8 @@ class Personal implements ISettings {
 	 * @since 9.1
 	 */
 	public function getForm() {
-		$parameters = [ 'clients' => $this->getClientLinks() ];
+		$url = $this->urlGenerator->getAbsoluteURL('');
+		$parameters = [ 'clients' => $this->getClientLinks() ,'url' => $url];
 		return new TemplateResponse('firstrunwizard', 'personal-settings', $parameters);
 	}
 
