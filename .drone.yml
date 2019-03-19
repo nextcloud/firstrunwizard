@@ -125,7 +125,7 @@ steps:
 - name: vue-build
   image: nextcloudci/node:node-4
   commands:
-    - find js/ -type f ! -name 'activate.js' ! -name 'about.js' -delete
+    - find js/ -type f ! -name 'activate.js' ! -name 'personalsettings.js' ! -name 'about.js' -delete
     - npm ci
     - npm run build
     - git status
