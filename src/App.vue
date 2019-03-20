@@ -1,58 +1,41 @@
 <template>
-	<transition v-if="showModal" name="modal">
-		<div id="firstrunwizard" class="modal-mask">
-			<div id="firstrunwizard-navigation">
-				<a v-if="hasPrevious" id="prev" @click="previous">
-					<div class="icon-view-previous icon-white">
-						<span class="hidden-visually">
-							{{ t('firstrunwizard', 'Previous') }}
-						</span>
-					</div>
-				</a>
-				<a v-if="hasNext" id="next" @click="next">
-					<div class="icon-view-next icon-white">
-						<span class="hidden-visually">
-							{{ t('firstrunwizard', 'Next') }}
-						</span>
-					</div>
-				</a>
-				<a id="close" class="icon-close icon-white" @click="close">
-					<span class="hidden-visually">
-						{{ t('firstrunwizard', 'Close') }}
-					</span>
-				</a>
-			</div>
-			<div class="modal-wrapper" @click.self="close">
-				<div class="modal-container">
-					<div class="modal-header">
-						<div class="firstrunwizard-header">
-							<div class="logo">
-								<p class="hidden-visually">
-									{{ oc_defaults.name }}
-								</p>
-							</div>
-							<!-- eslint-disable-next-line vue/no-v-html -->
-							<h2 v-html="oc_defaults.slogan" />
-							<p />
-						</div>
-					</div>
-					<div class="modal-body">
-						<slot v-if="slides.length > 0" name="body">
-							<transition :name="fadeDirection" mode="out-in">
-								<!-- eslint-disable-next-line vue/no-v-html -->
-								<div v-if="slides[currentSlide].type === 'inline'" :key="currentSlide" v-html="slides[currentSlide].content" />
-							</transition>
-						</slot>
-					</div>
-					<div class="modal-footer">
-						<button v-if="isLast" class="primary modal-default-button" @click="close">
-							{{ t('firstrunwizard', 'Start using Nextcloud') }}
-						</button>
-					</div>
+	<modal
+		v-if="showModal"
+		id="firstrunwizard"
+		:has-previous="hasPrevious"
+		:has-next="hasNext"
+		:size="isMobile ? 'full' : 'normal'"
+		name="modal"
+		@previous="previous"
+		@next="next"
+		@close="close"
+	>
+		<div class="modal-header">
+			<div class="firstrunwizard-header">
+				<div class="logo">
+					<p class="hidden-visually">
+						{{ oc_defaults.name }}
+					</p>
 				</div>
+				<!-- eslint-disable-next-line vue/no-v-html -->
+				<h2 v-html="oc_defaults.slogan" />
+				<p />
 			</div>
 		</div>
-	</transition>
+		<div class="modal-body">
+			<slot v-if="slides.length > 0" name="body">
+				<transition :name="fadeDirection" mode="out-in">
+					<!-- eslint-disable-next-line vue/no-v-html -->
+					<div v-if="slides[currentSlide].type === 'inline'" :key="currentSlide" v-html="slides[currentSlide].content" />
+				</transition>
+			</slot>
+		</div>
+		<div class="modal-footer">
+			<button v-if="isLast" class="primary modal-default-button" @click="close">
+				{{ t('firstrunwizard', 'Start using Nextcloud') }}
+			</button>
+		</div>
+	</modal>
 </template>
 <style lang="scss">
 	/* Page styling needs to be unscoped, since we load it separately from the server */
@@ -62,8 +45,6 @@
 			display: flex;
 			flex-direction: row;
 			flex-wrap: wrap;
-			max-width: 900px;
-			width: 70vw;
 
 			&:not(.intro) {
 				overflow: auto;
@@ -72,6 +53,7 @@
 			&.intro {
 				margin: 0 0 -60px;
 				max-height: 60vh;
+				width: 70vw;
 				.content {
 					padding: 0;
 					background-image: url('../img/intro.png');
@@ -182,6 +164,13 @@
 		.footnote {
 			margin-top: 40px;
 		}
+
+		// primary on next button
+		.modal-wrapper .icon-next {
+			background-color: var(--color-primary);
+			box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+			left: 22px;
+		}
 	}
 
 	.clientslinks {
@@ -251,37 +240,7 @@
 </style>
 
 <style lang="scss" scoped>
-	.modal-mask {
-		position: fixed;
-		z-index: 9998;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background-color: rgba(0, 0, 0, .7);
-		display: table;
-		transition: opacity .3s ease;
-	}
-
-	.modal-wrapper {
-		display: table-cell;
-		vertical-align: middle;
-	}
-
-	.modal-container {
-		width: 70%;
-		max-width: 900px;
-		max-height: 80%;
-		margin: 0 auto;
-		padding: 0;
-		background-color: var(--color-main-background);
-		border-radius: var(--border-radius-large);
-		overflow: hidden;
-		box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
-		transition: all .3s ease;
-		display: table !important;
-	}
-
+	// modal layout
 	.modal-header {
 		max-height: 30vh;
 		overflow: hidden;
@@ -330,7 +289,6 @@
 	}
 
 	/* Transitions */
-
 	.next-enter-active, .next-leave-active,
 	.previous-enter-active, .previous-leave-active {
 		transition: transform .1s, opacity .25s;
@@ -347,84 +305,28 @@
 		transform: translateX(-50%);
 		opacity: 0;
 	}
+
 	.previous-leave-to {
 		transform: translateX(50%);
 		opacity: 0;
 	}
-
-	.modal-enter {
-		opacity: 0;
-	}
-
-	.modal-leave-active {
-		opacity: 0;
-	}
-
-	.modal-enter .modal-container,
-	.modal-leave-active .modal-container {
-		-webkit-transform: scale(1.1);
-		transform: scale(1.1);
-	}
-
-	#firstrunwizard-navigation {
-		#prev, #next {
-			position: absolute;
-			top: 0;
-			z-index: 10000;
-			width: 15%;
-			height: 100%;
-			display: block;
-		}
-		#prev {
-			left: 0;
-		}
-		#next {
-			right: 0;
-		}
-
-		.icon-view-next,
-		.icon-view-previous {
-			background-size: 24px;
-			background-position: center;
-			width: 44px;
-			height: 44px;
-			border-radius: 50%;
-			top: 50%;
-			position: absolute;
-			margin: auto;
-			left: calc(100% - 22px - 44px);
-		}
-		.icon-view-next {
-			background-color: var(--color-primary);
-			box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
-			left: 22px;
-		}
-
-		.icon-close {
-			position: absolute;
-			top: 0;
-			right: 0;
-			z-index: 10000;
-			width: 44px;
-			height: 44px;
-			display: block;
-			background-size: 24px;
-			background-position: center;
-		}
-	}
-
 </style>
 <script>
+import Modal from 'nextcloud-vue/dist/Components/Modal'
 import axios from 'nextcloud-axios'
 
 export default {
 	name: 'FirstRunWizard',
+	components: {
+		Modal
+	},
 	data() {
 		return {
 			showModal: false,
 			slides: [],
 			currentSlide: 0,
-			fadeDirection: 'next'
+			fadeDirection: 'next',
+			isMobile: window.outerWidth < 768
 		}
 	},
 	computed: {
@@ -446,6 +348,11 @@ export default {
 			this.slides = response.data
 			this.showModal = true
 		})
+
+		window.addEventListener('resize', this.onResize)
+	},
+	beforeDestroy() {
+		window.removeEventListener('resize', this.onResize)
 	},
 	methods: {
 		open() {
@@ -453,13 +360,11 @@ export default {
 			img.src = require('../img/intro.png')
 			img.onload = () => {
 				this.showModal = true
-				window.addEventListener('keydown', this.handleKeydown)
 			}
 		},
 		close() {
 			this.showModal = false
 			axios.delete(OC.generateUrl('/apps/firstrunwizard/wizard'))
-			window.removeEventListener('keydown', this.handleKeydown)
 		},
 		next() {
 			this.fadeDirection = 'next'
@@ -476,19 +381,9 @@ export default {
 			}
 			this.currentSlide -= 1
 		},
-		handleKeydown(e) {
-			switch (e.keyCode) {
-			case 37:
-				this.previous()
-				break
-			case 13:
-			case 39:
-				this.next()
-				break
-			case 27:
-				this.close()
-				break
-			}
+		onResize(event) {
+			// Update mobile mode
+			this.isMobile = window.outerWidth < 768
 		}
 	}
 }
