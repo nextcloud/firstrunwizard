@@ -18,6 +18,7 @@ document.querySelector('body').appendChild(el)
 
 const app = new Vue({
 	el: '#firstrunwizard',
+	name: 'FirstRunWizardRoot',
 	render: h => h(App)
 })
 
