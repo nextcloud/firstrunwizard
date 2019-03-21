@@ -9,9 +9,6 @@ OC.L10N.register(
     "About" : "O aplikaci",
     "A welcome and introduction wizard for Nextcloud" : "Uvítání a prohlídka Nextcloud",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Tato aplikace zobrazuje vyskakovací okna, když se uživatel poprvé přihlásí do Nextcloud. Toto okno přivítá nové uživatele do Nextcloud a obsahuje odkazy na standardního desktopového klienta a aplikace pro Android a iOS. Okno také zobrazuje odkaz na přístup k Nextcloud prostřednictvím WebDAV. Následně je kdykoli možné toto okno znovu vyvolat prostřednictvím odkazu „O aplikaci“ v nabídce nastavení.\nPrůvodce prvním spuštěním je možné přizpůsobit pro splnění konkrétních designových cílů, nebo změnit odkazy a zprávy. Vytvořte příslušný motiv vzhledu podle pokynů v dokumentaci k motivům vzhledu a jednoduše změňte vzhled a chování tohoto průvodce. Více informací je k dispozici v dokumentaci k Průvodci prvním spuštěním a v dokumentaci k tématům vzhledu.",
-    "Previous" : "Předchozí",
-    "Next" : "Další",
-    "Close" : "Zavřít",
     "Start using Nextcloud" : "Zahájit používání Nextcloud",
     "Extend your cloud" : "Rozšiřte svůj cloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Prohlédněte si více než 100 aplikací v katalogu Nextcloud, kterými si můžete svůj cloud přizpůsobit:",
@@ -57,6 +54,8 @@ OC.L10N.register(
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s vám umožňuje přistupovat k vašim souborům ať jste kdekoli. Naši snadno použitelní klienti pro desktop a mobilní platformy jsou k dispozici pro všechny hlavní platformy a zdarma.",
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Nastavení synchronizačních klientů pomocí <a href=\"%s\">hesla pro aplikaci</a>. Takto máte jistotu, že můžete odvolat přístup v případě ztráty tohoto zařízení.",
     "Connect other apps to %s" : "Propojit ostatní aplikace s %s",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Kromě synchronizačních klientů je možné k %s připojit libovolný software který podporuje protokoly WebDAV/CalDAV/CardDAV."
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Kromě synchronizačních klientů je možné k %s připojit libovolný software který podporuje protokoly WebDAV/CalDAV/CardDAV.",
+    "Previous" : "Předchozí",
+    "Next" : "Další"
 },
 "nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;");

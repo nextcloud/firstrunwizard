@@ -8,9 +8,6 @@ OC.L10N.register(
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Bættu við notandaupplýsingarnar þínar! Settu inn auðkennismynd svo auðveldara verði að nota marga eiginleika.",
     "About" : "Um hugbúnaðinn",
     "A welcome and introduction wizard for Nextcloud" : "Kynning og leiðarvísir fyrir Nextcloud",
-    "Previous" : "Fyrra",
-    "Next" : "Næsta",
-    "Close" : "Loka",
     "Start using Nextcloud" : "Byrjaðu að nota Nextcloud",
     "Extend your cloud" : "Útvíkkaðu tölvuskýið þitt",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Skoðaðu meira en 100 forrit í forritasafni Nextcloud til að sérsníða tölvuskýið þitt:",
@@ -56,6 +53,8 @@ OC.L10N.register(
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s veitir þér aðgang að skránum þínum hvar sem þú ert. Tengiforritin okkar fyrir tölvur og snjalltæki eru fáanleg fyrir flest algengustu stýrikerfi án nokkurs kostnaðar.",
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Settu upp samstillingarbiðlara með <a href=\"%s\">lykilorði forrits</a>. Þannig geturðu verið viss um að geta afturkallað aðgangsheimildir fari svo að þú tapir því tæki.",
     "Connect other apps to %s" : "Tengdu önnur forrit við %s",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Fyrir utan samstillingaforritin geturðu tengt hvert það forrit sem styður WebDAV/CalDAV/CardDAV samskiptamátana við %s."
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Fyrir utan samstillingaforritin geturðu tengt hvert það forrit sem styður WebDAV/CalDAV/CardDAV samskiptamátana við %s.",
+    "Previous" : "Fyrra",
+    "Next" : "Næsta"
 },
 "nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);");

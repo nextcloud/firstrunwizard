@@ -6,8 +6,6 @@ OC.L10N.register(
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Gehitu zure informazio-profila! Ezarri profileko argazkia eta izena, ezaugarri guztietan aitorpena errazago egiteko.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Gehitu zure informazio-profila! Ezarri izena, ezaugarri guztietan aitorpena errazago egiteko.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Gehitu zure informazio-profila! Ezarri profileko argazkia, ezaugarri guztietan aitorpena errazago egiteko.",
-    "Previous" : "Aurrekoa",
-    "Next" : "Hurrengoa",
     "Get the apps to sync your files" : "Lortu aplikazioak zure fitxategiak sinkronizatzeko",
     "Desktop client" : "Mahaigaineko bezeroa",
     "Android app" : "Android aplikazioa",
@@ -16,6 +14,8 @@ OC.L10N.register(
     "Access files via WebDAV" : "Eskuratu fitxategiak WebDAV bidez",
     "User manual" : "Erabiltzailearen manuala",
     "Admin manual" : "Administratzailearen manuala",
-    "Developer manual" : "Garatzailearen manuala"
+    "Developer manual" : "Garatzailearen manuala",
+    "Previous" : "Aurrekoa",
+    "Next" : "Hurrengoa"
 },
 "nplurals=2; plural=(n != 1);");
