@@ -8,8 +8,6 @@ OC.L10N.register(
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Agrega tu información de perfil! Establece una imagen de perfil para reconocerte más fácilmente entre todas las funcionalidades. ",
     "About" : "Acerca de",
     "A welcome and introduction wizard for Nextcloud" : "Una bienvenida y asistente de introducción para Nextcloud",
-    "Previous" : "Previo",
-    "Next" : "Siguiente",
     "Start using Nextcloud" : "Empieza a usar Nextcloud",
     "Extend your cloud" : "Extiende tu nube",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Puedes encontrar más de 100 apliicaciones en la tienda de aplicaciones de Nextcloud y personalizar tu nube:",
@@ -53,6 +51,8 @@ OC.L10N.register(
     "Learn more about %s" : "Más información de %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s te da acceso a tus archivos donde te encuentres. Nuestros clientes intuitivos para escritorio y móviles estan disponibles para la mayoria de las plataformas sin costo alguno. ",
     "Connect other apps to %s" : "Conectar otras aplicaciones a %s",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Además tu los clientes de sincronización puedes conectar cualquier otro software que soporte los protocolos WebDAV/CalDAV/CardDAV a %s."
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Además tu los clientes de sincronización puedes conectar cualquier otro software que soporte los protocolos WebDAV/CalDAV/CardDAV a %s.",
+    "Previous" : "Previo",
+    "Next" : "Siguiente"
 },
 "nplurals=2; plural=(n != 1);");

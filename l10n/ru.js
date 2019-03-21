@@ -9,9 +9,6 @@ OC.L10N.register(
     "About" : "О программе",
     "A welcome and introduction wizard for Nextcloud" : "Добро пожаловать в мастер введения Nextcloud",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Приложение включает всплывающее окно при первом входе пользователя в Nextcloud. Окно приветствует новых пользователей и содержит ссылки на стандартный клиент, Андроид и iOS приложения. Окно так же содержит ссылку для доступа к Nextcloud через WebDAV. В любое время помощник первого запуска может быть запущен через ссылку \"О программе\" в меню настроек.\nМожно изменить дизайн Помощника, изменить ссылки и сообщения. Создать тему можно при помощи документации. Изменить внешний вид Помощника совсем просто. Дополнительная информация доступна в документации Помощника первого запуска, так же как и документация по созданию тем.",
-    "Previous" : "Назад",
-    "Next" : "Вперёд",
-    "Close" : "Закрыть",
     "Start using Nextcloud" : "Начать использовать Nextcloud",
     "Extend your cloud" : "Расширение возможностей облачного хранилища",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "В магазине приложений Nextcloud содержится более 100 приложений:",
@@ -56,6 +53,8 @@ OC.L10N.register(
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s предоставляет доступ к файлам откуда угодно: разработаны и бесплатно доступны приложения для синхронизации файлов для всех основных платформ мобильных устройств и ПК.",
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "При настройке приложения для синхронизации вместо своего пароля для входа в систему рекомендуется использовать <a href=\"%s\">пароль приложения</a>, что позволяет отзывать доступ в случае утраты устройства.",
     "Connect other apps to %s" : "Подключение других приложений к %s",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "К  %s возможно настроить подключение из любых программ, поддерживающих протоколы WebDAV, CalDAV и CardDAV."
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "К  %s возможно настроить подключение из любых программ, поддерживающих протоколы WebDAV, CalDAV и CardDAV.",
+    "Previous" : "Назад",
+    "Next" : "Вперёд"
 },
 "nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);");

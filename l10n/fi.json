@@ -6,9 +6,6 @@
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Lisää profiilitietosi! Lisää profiilikuva, jotta sinut on helpompi tunnistaa.",
     "About" : "Tietoja",
     "A welcome and introduction wizard for Nextcloud" : "Nextcloudin ensimmäisen käyttökerran avustaja",
-    "Previous" : "Edellinen",
-    "Next" : "Seuraava",
-    "Close" : "Sulje",
     "Start using Nextcloud" : "Aloita Nextcloudin käyttäminen",
     "Extend your cloud" : "Laajenna pilveäsi",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Löydä yli 100 eri sovellusta Nextcloud-sovelluskaupasta pilvesi muokkaamiseksi:",
@@ -29,6 +26,7 @@
     "Connect your calendar" : "Yhdistä kalenteriisi",
     "Connect your contacts" : "Yhdistä yhteystietoihisi",
     "Access files via WebDAV" : "Käytä tiedostoja WebDAVin välityksellä",
+    "Download macOS/iOS configuration profile" : "Lataa macOS-/iOS-asetusprofiili",
     "Get help" : "Saa apua",
     "Get more information" : "Hanki lisätietoja",
     "The Nextcloud documentation for home users:" : "Nextcloud-ohjeet kotikäyttäjille:",
@@ -53,6 +51,8 @@
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s mahdollistaa pääsyn tiedostoihisi missä hyvänsä oletkin. Hellpokäyttöiset työpöytä- ja mobiilisovellukset ovat saatavilla kaikille suurimmille alustoille veloituksetta.",
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Määritä synkronointi käyttäen <a href=\"%s\">sovelluskohtaisia salasanoja</a>. Näin voit kumota käyttöoikeuden, jos satut esimerkiksi kadottamaan tietyn laitteesi.",
     "Connect other apps to %s" : "Yhdistä muita sovelluksia %siin",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Synkronointisovellusten lisäksi voit yhdistää minkä tahansa WebDAV-, CalDAV- ja CardDAV-yhteyskäytäntöjä tukevan ohjelmiston %siin."
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Synkronointisovellusten lisäksi voit yhdistää minkä tahansa WebDAV-, CalDAV- ja CardDAV-yhteyskäytäntöjä tukevan ohjelmiston %siin.",
+    "Previous" : "Edellinen",
+    "Next" : "Seuraava"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
