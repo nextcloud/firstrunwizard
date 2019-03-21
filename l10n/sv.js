@@ -8,9 +8,6 @@ OC.L10N.register(
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Fyll i dina personliga inställningar! Välj en profilbild för att enklare kännas igen bland övriga användare i molnet.",
     "About" : "Om",
     "A welcome and introduction wizard for Nextcloud" : "En välkomst och introduktionsguide för Nextcloud",
-    "Previous" : "Föregående",
-    "Next" : "Nästa",
-    "Close" : "Stäng",
     "Start using Nextcloud" : "Börja använda Nextcloud",
     "Extend your cloud" : "Utöka ditt moln",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Hitta fler än 100 appar i Nextcloud app store för att anpassa ditt moln:",
@@ -56,6 +53,8 @@ OC.L10N.register(
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s ger dig tillgång till dina filer var du än befinner dig. Våra lättanvända skrivbords- och mobilklienter är tillgängliga för alla större plattformar utan kostnad.",
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Konfigurera synk-klienter att använda ett <a href=\"%s\">app-lösenord</a>. På det sättet kan du återkalla åtkomst om du förlorar enheten.",
     "Connect other apps to %s" : "Anslut andra appar till %s",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Förutom synkroniseringsklienterna kan du ansluta någon annan programvara som stöder WebDAV/CalDAV/CardDAV-protokollen till %s."
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Förutom synkroniseringsklienterna kan du ansluta någon annan programvara som stöder WebDAV/CalDAV/CardDAV-protokollen till %s.",
+    "Previous" : "Föregående",
+    "Next" : "Nästa"
 },
 "nplurals=2; plural=(n != 1);");

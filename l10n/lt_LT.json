@@ -6,9 +6,6 @@
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Pridėkite savo profilio informaciją! Nustatykite profilio paveikslą, kad lengviau būtumėte atpažinti tarp visų ypatybių.",
     "About" : "Apie",
     "A welcome and introduction wizard for Nextcloud" : "Pasisveikinimo ir pristatymo vediklis, skirtas Nextcloud",
-    "Previous" : "Ankstesnis",
-    "Next" : "Kitas",
-    "Close" : "Užverti",
     "Start using Nextcloud" : "Pradėti naudotis Nextcloud",
     "Extend your cloud" : "Išplėskite savo debesiją",
     "Stay in sync" : "Išlaikykite viską sinchronizuotai",
@@ -40,6 +37,8 @@
     "Learn more about %s" : "Sužinokite daugiau apie %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s suteikia jums prieigą prie jūsų failų visur, kur bebūtumėte. Mūsų lengvi naudoti darbalaukio ir mobilieji klientai yra prieinami pagrindinėms platformoms visiškai nemokamai.",
     "Connect other apps to %s" : "Prijunkite kitas programas prie %s",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Be sinchronizavimo klientų, prie %s taip pat galite prijungti bet kokią programinę įrangą, kuri palaiko WebDAV/CalDAV/CardDAV protokolus."
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Be sinchronizavimo klientų, prie %s taip pat galite prijungti bet kokią programinę įrangą, kuri palaiko WebDAV/CalDAV/CardDAV protokolus.",
+    "Previous" : "Ankstesnis",
+    "Next" : "Kitas"
 },"pluralForm" :"nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);"
 }

@@ -7,8 +7,6 @@ OC.L10N.register(
     "Add your profile information! Set a full name for easier recognition across all features." : "Προσθέστε τα στοιχεία του προφίλ σας! Ορίστε ένα πλήρες όνομα για ευκολότερη αναγνώριση σε όλες τις λειτουργίες.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Προσθέστε τα στοιχεία του προφίλ σας! Ορίστε μια εικόνα προφίλ για ευκολότερη αναγνώριση σε όλες τις λειτουργίες.",
     "About" : "Περί",
-    "Previous" : "Προηγούμενο",
-    "Next" : "Επόμενο",
     "Start using Nextcloud" : "Έναρξη χρήσης Nextcloud",
     "Communication with Nextcloud Talk" : "Επικοινωνία με το Nextcloud Talk",
     "Get the apps to sync your files" : "Λήψη των εφαρμογών για συγχρονισμό των αρχείων σας",
@@ -24,6 +22,8 @@ OC.L10N.register(
     "User manual" : "Εγχειρίδιο χρήστη",
     "Admin manual" : "Εγχειρίδιο διαχειριστή",
     "Enterprise support" : "Υποστήριξη επιχειρήσεων",
-    "Connect other apps to %s" : "Σύνδεση άλλων εφαρμογών στο %s"
+    "Connect other apps to %s" : "Σύνδεση άλλων εφαρμογών στο %s",
+    "Previous" : "Προηγούμενο",
+    "Next" : "Επόμενο"
 },
 "nplurals=2; plural=(n != 1);");

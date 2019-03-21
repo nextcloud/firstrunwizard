@@ -8,9 +8,6 @@ OC.L10N.register(
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Tilføj dine profil informationer! Tilføj et profil billede for nemmere genkendelse på tværs af alle funktioner.",
     "About" : "Om",
     "A welcome and introduction wizard for Nextcloud" : "En velkomst- og introduktionsguide til Nextcloud",
-    "Previous" : "Forrige",
-    "Next" : "Næste",
-    "Close" : "Luk",
     "Start using Nextcloud" : "Begynd at bruge Nextcloud",
     "Get the apps to sync your files" : "Hent applikationerne for at synkronisere dine filer",
     "Desktop client" : "Skrivebordsklient",
@@ -28,6 +25,8 @@ OC.L10N.register(
     "the Nextcloud IRC chat channel on freenode.net" : "Nextcloud IRC kanalen på freenode.net",
     "A safe home for all your data" : "Et sikkert hjem til alle dine data",
     "Learn more about %s" : "Lær mere om %s",
-    "Connect other apps to %s" : "Forbind andre apps til %s"
+    "Connect other apps to %s" : "Forbind andre apps til %s",
+    "Previous" : "Forrige",
+    "Next" : "Næste"
 },
 "nplurals=2; plural=(n != 1);");

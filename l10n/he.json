@@ -6,9 +6,6 @@
     "Add your profile information! Set a profile picture for easier recognition across all features." : "נא להוסיף את פרטי הפרופיל שלך! ניתן להגדיר תמונת פרופיל לצורך זיהוי פשוט יותר בין כל התכונות השונות.",
     "About" : "על אודות",
     "A welcome and introduction wizard for Nextcloud" : "אשף קבלת פנים והיכרות ל־Nextcloud",
-    "Previous" : "הקודם",
-    "Next" : "הבא",
-    "Close" : "סגירה",
     "Start using Nextcloud" : "להתחיל להשתמש ב־Nextcloud",
     "Extend your cloud" : "הרחבת הענן שלך",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "ניתן למצוא למעלה מ־100 יישומונים בחנות היישומונים של Nextcloud כדי להתאים את הענן לצרכיך:",
@@ -47,6 +44,8 @@
     "Open Standards and Interoperability" : "תקנים פתוחים ותאימות לשלל מערכות",
     "100%% Open Source & community-focused" : "100%% קוד פתוח ומוכוון קהילה",
     "Learn more about %s" : "מידע נוסף על %s",
-    "Connect other apps to %s" : "חיבור של יישומונים אחרים אל %s"
+    "Connect other apps to %s" : "חיבור של יישומונים אחרים אל %s",
+    "Previous" : "הקודם",
+    "Next" : "הבא"
 },"pluralForm" :"nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;"
 }
