@@ -8,9 +8,6 @@ OC.L10N.register(
     "Add your profile information! Set a profile picture for easier recognition across all features." : "プロフィール情報を追加してください! プロフィール画像を設定すると、すべての機能をより簡単に認識できます。",
     "About" : "バージョン情報",
     "A welcome and introduction wizard for Nextcloud" : "Nextcloud のウェルカム＆紹介ウィザード",
-    "Previous" : "前へ",
-    "Next" : "次へ",
-    "Close" : "閉じる",
     "Start using Nextcloud" : "Nextcloud の利用を開始する",
     "Extend your cloud" : "あなたのクラウドを拡張する",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Nextcloud アプリストアで100以上のアプリを見つけて、クラウドをカスタマイズしてください：",
@@ -52,6 +49,8 @@ OC.L10N.register(
     "Learn more about %s" : "%sの詳細",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s はあなたがどこにいても、あなたのファイルへのアクセスを提供します。私たちの使いやすいデスクトップとモバイルクライアントは、ゼロコストですべての主要なプラットフォームで利用可能です。",
     "Connect other apps to %s" : "他のアプリを %s に接続する",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "同期クライアントのほかに、WebDAV/CalDAV/CardDAV プロトコルをサポートする他のソフトウェアを %s に接続することができます。"
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "同期クライアントのほかに、WebDAV/CalDAV/CardDAV プロトコルをサポートする他のソフトウェアを %s に接続することができます。",
+    "Previous" : "前へ",
+    "Next" : "次へ"
 },
 "nplurals=1; plural=0;");

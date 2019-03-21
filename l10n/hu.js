@@ -8,8 +8,6 @@ OC.L10N.register(
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Add meg a profil információidat! Állítsd be egy profilképet az egyszerűbb azonosíthatóságért minden szolgáltatásban.",
     "About" : "Névjegy",
     "A welcome and introduction wizard for Nextcloud" : "Kezeld adataid és fájljaid ott, ahol te döntesz róluk",
-    "Previous" : "Előző",
-    "Next" : "Következő",
     "Start using Nextcloud" : "A Nextcloud használatának kezdete",
     "Extend your cloud" : "A felhőd kiterjesztése",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "A Nextcloud alkalmazásból több mint 100 alkalmazásával testre szabhatod a felhődet: ",
@@ -54,6 +52,8 @@ OC.L10N.register(
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "A %s hozzáférést biztosít a fájljaidhoz amikor csak akarod. A könnyen kezelhető desktop és mobil kliensünk ingyenesen elérhető az összes főbb platformon.",
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "A szinkronizációs kliensek beállítása egy <a href=\"%s\">jelszó használatával</a>. Ezzel a módszerrel biztos lehetsz benne, hogy le tudod tiltani a hozzáférést ha elveszted azt az eszközt.",
     "Connect other apps to %s" : "Csatlakoztass más alkalmazást a %s-hoz",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "A szinkronizációs kliensek használatával hozzácsatlakozhatsz bármilyen egyéb alkalmazáshoz ami támogatja a WebDAV/CalDAV/CardDAV protokolokat a %s-hoz."
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "A szinkronizációs kliensek használatával hozzácsatlakozhatsz bármilyen egyéb alkalmazáshoz ami támogatja a WebDAV/CalDAV/CardDAV protokolokat a %s-hoz.",
+    "Previous" : "Előző",
+    "Next" : "Következő"
 },
 "nplurals=2; plural=(n != 1);");

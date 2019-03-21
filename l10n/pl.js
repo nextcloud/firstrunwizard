@@ -8,9 +8,6 @@ OC.L10N.register(
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Dodaj swoje informacje profilowe! Ustaw zdjęcie profilowe, aby być łatwiej rozpoznawalnym/-ą we wszystkich funkcjonalnościach.",
     "About" : "O aplikacji",
     "A welcome and introduction wizard for Nextcloud" : "Kreator powitalny i wprowadzający dla Nextcloud",
-    "Previous" : "Poprzedni",
-    "Next" : "Następny",
-    "Close" : "Zamknij ",
     "Start using Nextcloud" : "Zacznij używać Nextcloud",
     "Extend your cloud" : "Rozszerz swoją chmurę",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Znajdź ponad 100 aplikacji w Nextcloud App Store aby dostosować swoją chmurę:",
@@ -53,6 +50,8 @@ OC.L10N.register(
     "Learn more about %s" : "Dowiedz się więcej o %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s daje Ci dostęp do plików gdziekolwiek jesteś. Łatwy w użyciu klient na komputer i telefon dostępny jest na wszystkich popularnych platformach za darmo.",
     "Connect other apps to %s" : "Podłącz inne aplikacje do %s",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Poza dedykowanymi klientami, możesz podłączyć dowolne oprogramowanie wspierające protokoły WebDAV/CalDAV/CardDAV do %s."
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Poza dedykowanymi klientami, możesz podłączyć dowolne oprogramowanie wspierające protokoły WebDAV/CalDAV/CardDAV do %s.",
+    "Previous" : "Poprzedni",
+    "Next" : "Następny"
 },
 "nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);");

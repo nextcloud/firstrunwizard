@@ -8,9 +8,6 @@ OC.L10N.register(
     "Add your profile information! Set a profile picture for easier recognition across all features." : "添加您的个人资料信息！设置个人资料图片，以便在所有功能中轻松识别。",
     "About" : "关于",
     "A welcome and introduction wizard for Nextcloud" : "Nextcloud欢迎和介绍向导",
-    "Previous" : "上一个",
-    "Next" : "下一个",
-    "Close" : "关闭",
     "Start using Nextcloud" : "开始使用 Nextcloud",
     "Extend your cloud" : "扩展您的云",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "您可以在 Nextcloud 的应用中心中找到超过 100 个自定义应用：",
@@ -50,6 +47,8 @@ OC.L10N.register(
     "Learn more about %s" : "了解更多关于 %s 的详情",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "走到哪里，文件跟到哪里！ %s 免费客户端支持电脑手机的各大主流平台",
     "Connect other apps to %s" : "连接其它应用到 %s",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "除了客户端以外，您还可以使用任何支持 WebDAV/CalDAC/CarDAV 协议的软件来访问 %s"
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "除了客户端以外，您还可以使用任何支持 WebDAV/CalDAC/CarDAV 协议的软件来访问 %s",
+    "Previous" : "上一个",
+    "Next" : "下一个"
 },
 "nplurals=1; plural=0;");
