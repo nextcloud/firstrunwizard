@@ -54,7 +54,7 @@ OC.L10N.register(
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s erlaubt Ihnen den Zugriff auf Ihre Dateien, egal wo Sie sind. Unser Desktop-Client und die mobilen Apps sind kostenfrei für alle wichtigen Plattformen verfügbar.",
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Verwenden Sie ein <a href=\"%s\">App-Passwort</a> beim Einrichten der Sync-Clients. Dadurch können Sie den Zugriff sperren, falls Ihnen das Gerät verloren geht.",
     "Connect other apps to %s" : "Verbinden Sie andere Apps mit %s",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Du kannst zur Verbindung zu %s außer den Sync-Clients jede andere Software verwenden, welche die Protokolle WebDAV/CalDAV/CardDAV unterstützt.",
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Sie können zur Verbindung zu %s außer den Sync-Clients jede andere Software verwenden, welche die Protokolle WebDAV/CalDAV/CardDAV unterstützt.",
     "Previous" : "Zurück",
     "Next" : "Weiter"
 },
