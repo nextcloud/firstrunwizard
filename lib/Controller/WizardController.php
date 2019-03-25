@@ -25,9 +25,9 @@ namespace OCA\FirstRunWizard\Controller;
 use OCP\AppFramework\Controller;
 use OCP\AppFramework\Http\DataResponse;
 use OCP\AppFramework\Http\JSONResponse;
-use OCP\AppFramework\Http\TemplateResponse;
 use OCP\Defaults;
 use OCP\IConfig;
+use OCP\IGroupManager;
 use OCP\IRequest;
 
 class WizardController extends Controller {
@@ -41,6 +41,9 @@ class WizardController extends Controller {
 	/** @var Defaults */
 	protected $theming;
 
+	/** @var IGroupManager */
+	protected $groupManager;
+
 	/**
 	 * @param string $appName
 	 * @param IRequest $request
@@ -48,12 +51,13 @@ class WizardController extends Controller {
 	 * @param string $userId
 	 * @param Defaults $theming
 	 */
-	public function __construct($appName, IRequest $request, IConfig $config, $userId, Defaults $theming) {
+	public function __construct($appName, IRequest $request, IConfig $config, $userId, Defaults $theming, IGroupManager $groupManager) {
 		parent::__construct($appName, $request);
 
 		$this->config = $config;
 		$this->userId = $userId;
 		$this->theming = $theming;
+		$this->groupManager = $groupManager;
 	}
 
 	/**
@@ -81,11 +85,14 @@ class WizardController extends Controller {
 
 		$slides = [
 			$this->staticSlide('page.intro', $data),
-			$this->staticSlide('page.values', $data),
-			$this->staticSlide('page.apps', $data),
-			$this->staticSlide('page.clients', $data),
-			$this->staticSlide('page.final', $data)
+			$this->staticSlide('page.values', $data)
 		];
+		if ($this->groupManager->isAdmin($this->userId)) {
+			$slides[] = $this->staticSlide('page.apps', $data);
+		}
+		$slides[] = $this->staticSlide('page.clients', $data);
+		$slides[] = $this->staticSlide('page.final', $data);
+
 		return new JSONResponse($slides);
 	}
 
