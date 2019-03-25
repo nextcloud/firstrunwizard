@@ -30,6 +30,7 @@ use OCP\AppFramework\Http\DataResponse;
 use OCP\AppFramework\Http\JSONResponse;
 use OCP\Defaults;
 use OCP\IConfig;
+use OCP\IGroupManager;
 use OCP\IRequest;
 use Test\TestCase;
 
@@ -42,10 +43,13 @@ use Test\TestCase;
 class WizardControllerTest extends TestCase {
 	/** @var IConfig|\PHPUnit_Framework_MockObject_MockObject */
 	protected $config;
+	private $groupManager;
 
 	protected function setUp() {
 		parent::setUp();
 		$this->config = $this->createMock(IConfig::class);
+		$this->groupManager = $this->createMock(IGroupManager::class);
+
 	}
 
 	/**
@@ -58,7 +62,8 @@ class WizardControllerTest extends TestCase {
 			$this->createMock(IRequest::class),
 			$this->config,
 			$user,
-			\OC::$server->query(Defaults::class)
+			\OC::$server->query(Defaults::class),
+			$this->groupManager
 		);
 	}
 
@@ -87,9 +92,31 @@ class WizardControllerTest extends TestCase {
 	}
 
 
-	public function testShow() {
+	public function testShowUser() {
 		$controller = $this->getController();
 
+		$this->config->expects($this->exactly(4))
+			->method('getSystemValue')
+			->willReturnMap([
+				['customclient_desktop', 'https://nextcloud.com/install/#install-clients', 'https://nextcloud.com/install/#install-clients'],
+				['customclient_android', 'https://play.google.com/store/apps/details?id=com.nextcloud.client', 'https://nextcloud.com/install/#install-clients'],
+				['customclient_ios', 'https://geo.itunes.apple.com/us/app/nextcloud/id1125420102?mt=8', 'https://nextcloud.com/install/#install-clients'],
+				['appstoreenabled', true, true]
+			]);
+
+		$response = $controller->show();
+
+		$this->assertInstanceOf(JSONResponse::class, $response);
+		$this->assertSame(Http::STATUS_OK, $response->getStatus());
+		$this->assertEquals(4, count($response->getData()));
+	}
+
+	public function testShowAdmin() {
+		$controller = $this->getController();
+
+		$this->groupManager->expects($this->once())
+			->method('isAdmin')
+			->willReturn(true);
 		$this->config->expects($this->exactly(4))
 			->method('getSystemValue')
 			->willReturnMap([
