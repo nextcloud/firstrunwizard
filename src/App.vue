@@ -168,6 +168,7 @@
 		// primary on next button
 		.modal-wrapper .icon-next {
 			background-color: var(--color-primary);
+			color: var(--color-primary-text);
 			box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
 			left: 22px;
 		}
