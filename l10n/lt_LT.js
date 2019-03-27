@@ -3,8 +3,8 @@ OC.L10N.register(
     {
     "First run wizard" : "Pirmojo paleidimo vediklis",
     "Add your profile information! For example your email is needed to reset your password." : "Pridėkite savo profilio informaciją! Pavyzdžiui, jūsų el. paštas yra reikalingas, norint atstatyti savo slaptažodį.",
-    "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Pridėkite savo profilio informaciją! Nustatykite profilio paveikslą ir visą vardą, kad lengviau būtumėte atpažinti tarp visų ypatybių.",
-    "Add your profile information! Set a full name for easier recognition across all features." : "Pridėkite savo profilio informaciją! Nustatykite visą vardą, kad lengviau būtumėte atpažinti tarp visų ypatybių.",
+    "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Papildykite profilį informacija! Pasirinkite paveikslėlį, nurodykite vardą, pavardę, kad lengviau būtumėte atpažinti šioje platformoje.",
+    "Add your profile information! Set a full name for easier recognition across all features." : "Papildykite profilį informacija! Nurodykite vardą, pavardę, kad lengviau būtumėte atpažinti šioje platformoje.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Pridėkite savo profilio informaciją! Nustatykite profilio paveikslą, kad lengviau būtumėte atpažinti tarp visų ypatybių.",
     "About" : "Apie",
     "A welcome and introduction wizard for Nextcloud" : "Pasisveikinimo ir pristatymo vediklis, skirtas Nextcloud",
