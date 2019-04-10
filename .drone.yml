@@ -1,30 +1,4 @@
 kind: pipeline
-name: signed-off
-
-steps:
-- name: signed-off-check
-  image: nextcloudci/php7.1:php7.1-16
-  environment:
-    APP_NAME: firstrunwizard
-    CORE_BRANCH: master
-    DB: sqlite
-  commands:
-    - wget https://raw.githubusercontent.com/nextcloud/travis_ci/master/before_install.sh
-    - bash ./before_install.sh $APP_NAME $CORE_BRANCH $DB
-    - cd ../server
-    - php ./build/signed-off-checker.php
-  secrets: [ github_token ]
-
-trigger:
-  branch:
-    - master
-    - stable*
-  event:
-    - pull_request
-    - push
-
----
-kind: pipeline
 name: app-compatbility
 
 steps:
