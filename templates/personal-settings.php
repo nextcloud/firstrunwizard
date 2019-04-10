@@ -24,6 +24,7 @@
 /** @var \OCP\Defaults $theme */
 /** @var array $_ */
 style('firstrunwizard', ['personalsettings']);
+script('firstrunwizard', ['personalsettings']);
 ?>
 
 <div id="clientsbox" class="section clientsbox">
@@ -81,4 +82,14 @@ style('firstrunwizard', ['personalsettings']);
 		</a>
 		<?php endif; ?>
 	</div>
+</div>
+<div class="followupsection">
+	<h2><?php p($l->t('Server address')); ?></h2>
+
+	<p><?php p($l->t('Use this URL to connect your clients to this server:')); ?></p>
+	<div>
+			<input type="text" readonly="readonly" id="endpoint-url" value="<?php echo p($_['url']); ?>" />
+			<a class="clipboardButton icon icon-clippy" data-clipboard-target="#endpoint-url"></a>
+	</div>
+
 </div>
