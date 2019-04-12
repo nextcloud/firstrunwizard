@@ -1,4 +1,9 @@
 { "translations": {
+    "Copy to clipboard" : "Copiar para a área de trabalho",
+    "Copied!" : "Copiado!",
+    "Not supported!" : "Não suportado!",
+    "Press ⌘-C to copy." : "Pressione ⌘-C para copiar.",
+    "Press Ctrl-C to copy." : "Pressione Ctrl-C para copiar.",
     "First run wizard" : "Assistente da primeira execução",
     "Add your profile information! For example your email is needed to reset your password." : "Adicione informações ao seu perfil! Por exemplo seu e-mail é necessário para redefinir sua senha.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Adicione informações ao seu perfil! Defina uma imagem de perfil e um nome completo para facilitar o reconhecimento em todas as características.",
@@ -53,6 +58,8 @@
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Configurar clientes de sincronização usando uma <a href=\"%s\">senha de aplicativo</a>. Dessa forma, você pode garantir a revogação do acesso caso perca esse dispositivo.",
     "Connect other apps to %s" : "Conecte outros aplicativos ao %s",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Além dos clientes de sincronização, você pode conectar qualquer outro software que suporte os protocolos WebDAV/CalDAV/CardDAV ao %s.",
+    "Server address" : "Endereço do servidor",
+    "Use this URL to connect your clients to this server:" : "Use esta URL para conectar os clients a este servidor:",
     "Previous" : "Anterior",
     "Next" : "Próximo"
 },"pluralForm" :"nplurals=2; plural=(n > 1);"

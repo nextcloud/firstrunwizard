@@ -1,4 +1,9 @@
 { "translations": {
+    "Copy to clipboard" : "In die Zwischenablage kopieren",
+    "Copied!" : "Kopiert!",
+    "Not supported!" : "Nicht unterstützt!",
+    "Press ⌘-C to copy." : "Zum Kopieren ⌘-C drücken.",
+    "Press Ctrl-C to copy." : "Zum Kopieren Strg-C drücken.",
     "First run wizard" : "Einrichtungsassistent",
     "Add your profile information! For example your email is needed to reset your password." : "Füge Deine Profil-Informationen hinzu! Z.B. wird Deine E-Mail-Adresse zum Zurücksetzen Deines Passwortes benötigt.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Füge Deine Profilinformationen hinzu! Setze ein Profilbild und gib Deinen vollständigen Namen ein, damit Du einfacher erkannt werden kannst.",
@@ -53,6 +58,7 @@
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Verwende ein <a href=\"%s\">App-Passwort</a> beim Einrichten der Sync-Clients. Dadurch kannst Du den Zugriff sperren, falls Dir das Gerät verloren geht.",
     "Connect other apps to %s" : "Verbinde andere Apps mit %s",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Du kannst zur Verbindung zu %s außer den Sync-Clients jede andere Software verwenden, welche die Protokolle WebDAV/CalDAV/CardDAV unterstützt.",
+    "Server address" : "Serveradresse",
     "Previous" : "Zurück",
     "Next" : "Weiter"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"

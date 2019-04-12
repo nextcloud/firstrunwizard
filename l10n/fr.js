@@ -1,6 +1,11 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "Copy to clipboard" : "Copier dans le presse-papier",
+    "Copied!" : "Copié !",
+    "Not supported!" : "Non pris en charge !",
+    "Press ⌘-C to copy." : "Appuyez sur ⌘-C pour copier.",
+    "Press Ctrl-C to copy." : "Appuyez sur Ctrl-C pour copier.",
     "First run wizard" : "Assistant de démarrage",
     "Add your profile information! For example your email is needed to reset your password." : "Renseignez votre profil ! Par exemple, votre adresse e-mail est nécessaire pour réinitialiser votre mot de passe.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Ajoutez vos informations de profil ! Renseignez une photo de profil et un nom complet pour une reconnaissance plus facile à travers toutes les fonctionnalités.",
@@ -55,6 +60,8 @@ OC.L10N.register(
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Configurez les clients de synchronisation en utilisant un <a href=\"%s\">mot de passe d'application</a>. De cette façon, vous pourrez être sûr que vous serrez en mesure de révoquer l'accès au cas où vous perdriez cet appareil.",
     "Connect other apps to %s" : "Connectez d'autres applications à %s",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Outre les clients de synchronisation, vous pouvez connecter tout autre logiciel qui prend en charge les protocoles WebDAV / CalDAV / CardDAV à %s.",
+    "Server address" : "Adresse du serveur",
+    "Use this URL to connect your clients to this server:" : "Utilisez cette URL pour connecter vos clients à ce serveur :",
     "Previous" : "Précédent",
     "Next" : "Suivant"
 },
