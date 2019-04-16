@@ -1,4 +1,9 @@
 { "translations": {
+    "Copy to clipboard" : "Копирај у оставу",
+    "Copied!" : "Копирано!",
+    "Not supported!" : "Није подржано! ",
+    "Press ⌘-C to copy." : "Притисните ⌘-C за копирање.",
+    "Press Ctrl-C to copy." : "Притисни Ctrl-C за копирање.",
     "First run wizard" : "Чаробњак првог покретања",
     "Add your profile information! For example your email is needed to reset your password." : "Додајте податке у налог! На пример ваша е-адреса је неопходна за ресет лозинке.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Додајте податке у налог! Поставите слику и пуно име ради лакшег распознавања.",
@@ -53,6 +58,8 @@
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Подесите клијенте за синхронизацију фајлова користећи <a href=\"%s\">апликативну лозинку</a>. На тај начин, сваки клијент ће имати своју лозинку и моћи ћете сваком појединачно да укинете приступ ако изгубите тај уређај.",
     "Connect other apps to %s" : "Повежите друге апликације на %s",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Осим клијената за синхронизацију, можете се повезати и са другим апликацијама које подржавају WebDAV/CalDAV/CardDAV протоколе на %s.",
+    "Server address" : "Адреса сервера",
+    "Use this URL to connect your clients to this server:" : "Користите ову адресу да повежете Ваше клијенте на овај сервер:",
     "Previous" : "Претходно",
     "Next" : "Следеће"
 },"pluralForm" :"nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
