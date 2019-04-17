@@ -1,6 +1,11 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "Copy to clipboard" : "Zkopírovat do schránky",
+    "Copied!" : "Zkopírováno!",
+    "Not supported!" : "Nepodporováno!",
+    "Press ⌘-C to copy." : "Zkopírujtete stisknutím ⌘-C.",
+    "Press Ctrl-C to copy." : "Zkopírujte stisknutím Ctrl+C.",
     "First run wizard" : "Průvodce prvním spuštěním",
     "Add your profile information! For example your email is needed to reset your password." : "Přidejte si své profilové informace. Například váš email je nutný pro obnovu hesla.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Přidejte si své profilové informace. Nastavte si obrázek a jméno pro jednoduší rozpoznání ve všech oblastech aplikace.",
@@ -55,6 +60,8 @@ OC.L10N.register(
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Nastavení synchronizačních klientů pomocí <a href=\"%s\">hesla pro aplikaci</a>. Takto máte jistotu, že můžete odvolat přístup v případě ztráty tohoto zařízení.",
     "Connect other apps to %s" : "Propojit ostatní aplikace s %s",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Kromě synchronizačních klientů je možné k %s připojit libovolný software který podporuje protokoly WebDAV/CalDAV/CardDAV.",
+    "Server address" : "Adresa serveru",
+    "Use this URL to connect your clients to this server:" : "Pro připojení klientů k serveru použijte tuto URL adresu:",
     "Previous" : "Předchozí",
     "Next" : "Další"
 },
