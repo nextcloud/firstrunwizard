@@ -1,6 +1,11 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "Copy to clipboard" : "Panoya kopyala",
+    "Copied!" : "Kopyalandı!",
+    "Not supported!" : "Desteklenmiyor!",
+    "Press ⌘-C to copy." : "Kopyalamak için ⌘-C tuşlarına basın.",
+    "Press Ctrl-C to copy." : "Kopyalamak için Ctrl-C tuşlarına basın.",
     "First run wizard" : "İlk çalıştırma sihirbazı",
     "Add your profile information! For example your email is needed to reset your password." : "Profil bilgilerinizi yazın! Örneğin parolanızı sıfırlayabilmeniz için e-posta adresiniz gereklidir.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Profil bilgilerinizi ekleyin! Bir profil görseli ekleyerek ve tam adınızı yazarak tüm özellikler tarafından kolayca tanının.",
@@ -55,6 +60,8 @@ OC.L10N.register(
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "<a href=\"%s\">Uygulama parolası</a> kullanan eşitleme istemcilerini kurun. Böylece aygıtınızı kaybederseniz erişimi geri alabileceğinizden emin olursunuz.",
     "Connect other apps to %s" : "Diğer uygulamaları %s üzerine bağlayın",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Eşitleme uygulamaları yanında WebDAV/CalDAV/CardDAV iletişim kurallarını destekleyen uygulamalar da %s üzerine bağlanabilir.",
+    "Server address" : "Sunucu adresi",
+    "Use this URL to connect your clients to this server:" : "İstemcilerinizi bu sunucuya bağlamak için bu adresi kullanın:",
     "Previous" : "Önceki",
     "Next" : "Sonraki"
 },
