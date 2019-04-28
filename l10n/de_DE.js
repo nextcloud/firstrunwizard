@@ -42,7 +42,7 @@ OC.L10N.register(
     "Admin manual" : "Administrationshandbuch",
     "Developer manual" : "Entwicklerhandbuch",
     "You can also ask for help in our community support channels:" : "Sie können nach Hilfe in unseren Community Support Channels fragen:",
-    "the Nextcloud forums" : "Die Nextcloud Foren",
+    "the Nextcloud forums" : "Das Nextcloud-Forum",
     "the Nextcloud IRC chat channel on freenode.net" : "Der Nextcloud IRC Chat Channel auf freenode.net",
     "Start contributing" : "Helfen Sie mit",
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Wollen Sie bestimmte Verbesserungen in Nextcloud? Haben Sie ein Problem gefunden? Möchten Sie uns bei der Übersetzung, dem Werben oder der Nextcloud Dokumentation helfen?",
