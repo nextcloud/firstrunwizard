@@ -1,6 +1,11 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "Copy to clipboard" : "Kopiëren naar het klembord",
+    "Copied!" : "Gekopieerd!",
+    "Not supported!" : "Niet ondersteund!",
+    "Press ⌘-C to copy." : "Druk op ⌘-C om te kopiëren.",
+    "Press Ctrl-C to copy." : "Druk op Ctrl-C om te kopiëren.",
     "First run wizard" : "Eerste start wizard",
     "Add your profile information! For example your email is needed to reset your password." : "Voeg je profielinformatie toe! Je email-adres is bijvoorbeeld nodig om je wachtwoord te herstellen.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Voeg profielinformatie toe! Stel een profielfoto in en voer je volledige naam in voor makkelijker herkenning over alle functies.",
@@ -55,6 +60,8 @@ OC.L10N.register(
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Installeer Sync clients met een <a href=\"%s\">app wachtwoord</a>. Dan kan je toegang intrekken zodra je je apparaat verliest.",
     "Connect other apps to %s" : "Verbind andere apps met%s",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Naast de sync clients kun je ook met %s verbinden met alle andere software die de WebDAV/CalDAV/CardDAV protocolen ondersteunt.",
+    "Server address" : "Serveradres",
+    "Use this URL to connect your clients to this server:" : "Gebruik deze URL om je clients met deze server te verbinden:",
     "Previous" : "Vorige",
     "Next" : "Volgende"
 },
