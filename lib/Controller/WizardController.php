@@ -79,7 +79,7 @@ class WizardController extends Controller {
 			'android'      => $this->config->getSystemValue('customclient_android', $this->theming->getAndroidClientUrl()),
 			'ios'          => $this->config->getSystemValue('customclient_ios', $this->theming->getiOSClientUrl()),
 			'appStore'     => $this->config->getSystemValue('appstoreenabled', true),
-			'useTLS'       => $this->request->getHttpProtocol() === 'https',
+			'useTLS'       => $this->request->getServerProtocol() === 'https',
 			'macOSProfile' => \OCP\Util::linkToRemote('dav') . 'provisioning/apple-provisioning.mobileconfig',
 		];
 
