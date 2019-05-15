@@ -1,4 +1,9 @@
 { "translations": {
+    "Copy to clipboard" : "Copiar al portapapeles",
+    "Copied!" : "¡Copiado!",
+    "Not supported!" : "¡No soportado!",
+    "Press ⌘-C to copy." : "Pulsa ⌘-C para copiar.",
+    "Press Ctrl-C to copy." : "Pulsa Ctrl-C para copiar.",
     "First run wizard" : "Asistente de bienvenida",
     "Add your profile information! For example your email is needed to reset your password." : "¡Añade información a tu perfil! Por ejemplo, se necesita tu correo electrónico para restablecer tu contraseña.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "¡Añade información a tu perfil! Pon una imagen a tu perfil y tu nombre completo para un reconocimiento más sencillo a través de todas las características.",
@@ -6,7 +11,7 @@
     "Add your profile information! Set a profile picture for easier recognition across all features." : "¡Añade información a tu perfil! Pon una imagen a tu perfil para un reconocimiento más sencillo a través de todas las características.",
     "About" : "Acerca de",
     "A welcome and introduction wizard for Nextcloud" : "Un asistente de bienvenida y presentación para Nextcloud",
-    "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Esta aplicación activa una ventana emergente cuando un usuario se conecta por primera vez a Nextcloud. Esta ventana recibe a los nuevos usuarios de Nextcloud y contiene enlaces al cliente de escritorio estándar y las apps de iOS y Android. La ventana también muestra un enlace para acceder a Nextcloud vía WebDAV. En cualquier momento se puede abrir de nuevo este asistente mediante el enlace \"Acerca de\" en el menú de configuración.\nEl asistente de primera conexión puede personalizarse para cumplir objetivos específicos de diseo o cambiar enlaces y mensajes. Crea un tema apropiado siguiendo la documentación de Temas, los cambios al aspecto de este asistentes son sencillos. Hay más informaciónd isponible en la documentación del asistente de primera ejecución, así como en la documentación de temas.",
+    "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Esta aplicación activa una ventana emergente cuando un usuario se conecta por primera vez a Nextcloud. Esta ventana recibe a los nuevos usuarios de Nextcloud y contiene enlaces al cliente de escritorio y las apps de iOS y Android. La ventana también muestra un enlace para acceder a Nextcloud vía WebDAV. En cualquier momento se puede abrir de nuevo este asistente mediante el enlace \"Acerca de\" en el menú de configuración.\nEl asistente de primera conexión puede personalizarse para cumplir objetivos específicos de diseño o cambiar enlaces y mensajes. Crea un tema apropiado siguiendo la documentación de Temas, los cambios al aspecto de este asistentes son sencillos. Hay más información disponible en la documentación del asistente de primera ejecución, así como en la documentación de temas.",
     "Start using Nextcloud" : "Empieza a usar Nextcloud",
     "Extend your cloud" : "Extiende tu nube",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Encuentra más de 100 apps en la tienda de apps de Nextcloud para personalizar tu nube:",
@@ -53,6 +58,8 @@
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Configura los clientes de escritorio usando una <a href=\"%s\">contraseña de aplicación</a>. De esta manera te aseguras de poder revocar el acceso en caso de perder el dispositivo.",
     "Connect other apps to %s" : "Conectar otras apps con %s",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Además de los clientes de sincronización, puedes conectar con %s cualquier otro software que soporte los protocolos WebDAV/CalDAV/CardDAV.",
+    "Server address" : "Nombre del servidor",
+    "Use this URL to connect your clients to this server:" : "Usa esta URL para que tus clientes se conecten a este servidor:",
     "Previous" : "Anterior",
     "Next" : "Siguiente"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"

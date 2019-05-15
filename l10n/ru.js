@@ -1,6 +1,11 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "Copy to clipboard" : "Копировать в буфер обмена",
+    "Copied!" : "Скопировано!",
+    "Not supported!" : "Не поддерживается!",
+    "Press ⌘-C to copy." : "Нажмите ⌘-C для копирования.",
+    "Press Ctrl-C to copy." : "Нажмите Ctrl-C для копирования.",
     "First run wizard" : "Помощник первого запуска",
     "Add your profile information! For example your email is needed to reset your password." : "Добавьте данные в свой профиль! Например, адрес электронной почты необходим для сброса пароля.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Добавьте данные в свой профиль: выберите изображение и укажите полное имя для более понятной работы.",
@@ -29,6 +34,7 @@ OC.L10N.register(
     "Connect your calendar" : "Подключение к календарям",
     "Connect your contacts" : "Подключение к спискам контактов",
     "Access files via WebDAV" : "Доступ к файлам по протоколу WebDAV",
+    "Download macOS/iOS configuration profile" : "Скачать профиль конфигурации macOS/iOS",
     "Get help" : "Помощь",
     "Get more information" : "Дополнительная информация",
     "The Nextcloud documentation for home users:" : "Для частных пользователей доступна следующая документация Nextcloud:",
@@ -54,6 +60,8 @@ OC.L10N.register(
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "При настройке приложения для синхронизации вместо своего пароля для входа в систему рекомендуется использовать <a href=\"%s\">пароль приложения</a>, что позволяет отзывать доступ в случае утраты устройства.",
     "Connect other apps to %s" : "Подключение других приложений к %s",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "К  %s возможно настроить подключение из любых программ, поддерживающих протоколы WebDAV, CalDAV и CardDAV.",
+    "Server address" : "Адрес сервера",
+    "Use this URL to connect your clients to this server:" : "Используйте этот URL для соединения ваших клиентов с этим сервером:",
     "Previous" : "Назад",
     "Next" : "Вперёд"
 },

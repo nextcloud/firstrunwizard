@@ -1,6 +1,11 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "Copy to clipboard" : "In die Zwischenablage kopieren",
+    "Copied!" : "Kopiert!",
+    "Not supported!" : "Nicht unterstützt!",
+    "Press ⌘-C to copy." : "Zum Kopieren ⌘-C drücken.",
+    "Press Ctrl-C to copy." : "Zum Kopieren Strg-C drücken.",
     "First run wizard" : "Einrichtungsassistent",
     "Add your profile information! For example your email is needed to reset your password." : "Füge Deine Profil-Informationen hinzu! Z.B. wird Deine E-Mail-Adresse zum Zurücksetzen Deines Passwortes benötigt.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Füge Deine Profilinformationen hinzu! Setze ein Profilbild und gib Deinen vollständigen Namen ein, damit Du einfacher erkannt werden kannst.",
@@ -36,8 +41,8 @@ OC.L10N.register(
     "User manual" : "Benutzerhandbuch",
     "Admin manual" : "Administratorhandbuch",
     "Developer manual" : "Entwicklerhandbuch",
-    "You can also ask for help in our community support channels:" : "Du kannst auch Hilfe in unserem Community Support Channel bekommen:",
-    "the Nextcloud forums" : "Die Nextcloud-Foren",
+    "You can also ask for help in our community support channels:" : "Du kannst auch Hilfe in unseren Community Support Channels bekommen:",
+    "the Nextcloud forums" : "Das Nextcloud-Forum",
     "the Nextcloud IRC chat channel on freenode.net" : "Der Nextcloud IRC Chat Channel auf freenode.net",
     "Start contributing" : "Mach mit",
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Willst Du eine bestimmte Verbesserung in Nextcloud? Hast Du ein Problem gefunden? Willst Du uns beim Übersetzen, Werben oder der Dokumentation helfen?",
@@ -55,6 +60,8 @@ OC.L10N.register(
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Verwende ein <a href=\"%s\">App-Passwort</a> beim Einrichten der Sync-Clients. Dadurch kannst Du den Zugriff sperren, falls Dir das Gerät verloren geht.",
     "Connect other apps to %s" : "Verbinde andere Apps mit %s",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Du kannst zur Verbindung zu %s außer den Sync-Clients jede andere Software verwenden, welche die Protokolle WebDAV/CalDAV/CardDAV unterstützt.",
+    "Server address" : "Serveradresse",
+    "Use this URL to connect your clients to this server:" : "Benutze diese URL, um deine Geräte mit dem Server zu verbinden:",
     "Previous" : "Zurück",
     "Next" : "Weiter"
 },
