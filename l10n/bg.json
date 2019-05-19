@@ -1,4 +1,8 @@
 { "translations": {
+    "Copied!" : "Копирано!",
+    "Not supported!" : "Не се поддържа!",
+    "Press ⌘-C to copy." : "За копиране натиснете ⌘-C.",
+    "Press Ctrl-C to copy." : "За копиране натиснете Ctrl-C.",
     "First run wizard" : "Първоначални настройки",
     "Add your profile information! For example your email is needed to reset your password." : "Попълнете профила си! Например имейл адрес - необходим е за възстановяване на парола.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Попълнете профила си! Например име и снимка - за да ви разпознават по-лесно.",
@@ -52,6 +56,7 @@
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Свържете приложение за синхронизация чрез<a href=\"%s\"> парола за приложения </a>. Така ще можете да отнемете достъпа, в случай, че загубите устройството.",
     "Connect other apps to %s" : "Свързване на други приложения с %s",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Освен чрез приложенията за синхронизация, можете да свържете всеки друг софтуер, който поддържа протоколите WebDAV/CalDAV/CardDAV %s",
+    "Server address" : "Адрес на сървъра",
     "Previous" : "Назад",
     "Next" : "Напред >"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
