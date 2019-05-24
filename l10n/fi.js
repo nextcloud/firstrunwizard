@@ -1,6 +1,11 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "Copy to clipboard" : "Kopioi leikepöydälle",
+    "Copied!" : "Kopioitu!",
+    "Not supported!" : "Ei tuettu!",
+    "Press ⌘-C to copy." : "Paina ⌘-C kopioidaksesi.",
+    "Press Ctrl-C to copy." : "Paina Ctrl-C kopioidaksesi.",
     "First run wizard" : "Ensimmäisen käyttökerran avustaja",
     "Add your profile information! For example your email is needed to reset your password." : "Lisää profiilitietosi! Esimerkiksi sähköpostiosoitettasi tarvitaan salasanan palauttamiseen.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Lisää profiilitietosi! Lisää profiilikuva ja koko nimi, jotta sinut on helpompi tunnistaa.",
@@ -54,6 +59,8 @@ OC.L10N.register(
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Määritä synkronointi käyttäen <a href=\"%s\">sovelluskohtaisia salasanoja</a>. Näin voit kumota käyttöoikeuden, jos satut esimerkiksi kadottamaan tietyn laitteesi.",
     "Connect other apps to %s" : "Yhdistä muita sovelluksia %siin",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Synkronointisovellusten lisäksi voit yhdistää minkä tahansa WebDAV-, CalDAV- ja CardDAV-yhteyskäytäntöjä tukevan ohjelmiston %siin.",
+    "Server address" : "Palvelimen osoite",
+    "Use this URL to connect your clients to this server:" : "Käytä tätä osoitetta yhdistääksesi muut sovelluksesi tähän palvelimeen:",
     "Previous" : "Edellinen",
     "Next" : "Seuraava"
 },
