@@ -1,6 +1,6 @@
 <template>
 	<modal
-		v-if="showModal"
+		v-if="showModal && slides.length > 0"
 		id="firstrunwizard"
 		:has-previous="hasPrevious"
 		:has-next="hasNext"
@@ -45,21 +45,18 @@
 			display: flex;
 			flex-direction: row;
 			flex-wrap: wrap;
+			margin: auto;
 
-			&:not(.intro) {
-				overflow: auto;
-				max-height: 60vh;
-			}
 			&.intro {
-				margin: 0 0 -60px;
-				max-height: 60vh;
-				width: 70vw;
+				height: 100%;
+				width: 100%;
 				.content {
 					padding: 0;
 					background-image: url('../img/intro.png');
 					background-position: center;
 					background-size: cover;
-					height: 50vh;
+					height: 100%;
+					display: flex;
 
 					img {
 						width: 100%;
@@ -87,8 +84,8 @@
 			p {
 				margin-bottom: 20px;
 			}
-			.description-block {
-				margin-bottom: 40px;
+			.description-block:first-child {
+				margin-bottom: 20px;
 			}
 			.description {
 				margin: 20px;
@@ -183,6 +180,7 @@
 		list-style-type: none;
 		display: flex;
 		flex-wrap: wrap;
+		margin: 0;
 		li {
 			display: block;
 			min-width: 250px;
@@ -241,10 +239,43 @@
 </style>
 
 <style lang="scss" scoped>
-	// modal layout
+	.modal-mask {
+		background-color: rgba(0, 0, 0, 0.7);
+
+		&::v-deep .modal-wrapper {
+			position: relative;
+		}
+
+		&::v-deep .modal-container {
+			display: flex;
+			flex-direction: column;
+			height: 95% !important;
+			width: 95% !important;
+			max-width: 900px;
+			max-height: 650px !important;
+			position: relative;
+		}
+
+		.modal-body {
+			flex-grow: 1;
+			display: flex;
+			overflow-x: hidden;
+			overflow-y: auto;
+
+			& > div {
+				display: flex;
+				flex-grow: 1;
+				align-items: center;
+				justify-content: center;
+			}
+		}
+	}
+
 	.modal-header {
-		max-height: 30vh;
+		height: 180px;
+		max-height: 40vh;
 		overflow: hidden;
+		flex-shrink: 0;
 
 		.firstrunwizard-header {
 			padding: 20px 12px;
@@ -256,14 +287,14 @@
 				background: var(--image-logo) no-repeat center;
 				background-size: contain;
 				width: 175px;
-				height: 120px;
+				height: 100px;
+				max-height: 20vh;
 				margin: 0 auto;
-				max-height: 10vh;
 			}
 			h2 {
-				font-size: 4vh;
-				margin-top: 3vh;
-				line-height: 5vh;
+				font-size: 20px;
+				margin-top: 7px;
+				line-height: 150%;
 				color: var(--color-primary-text);
 				font-weight: 300;
 				padding: 0 0 10px;
@@ -271,22 +302,20 @@
 		}
 	}
 
-	.modal-body {
-		margin: 0;
-		transition: all 1s;
-	}
-
 	.modal-default-button {
-		float: right;
+		align-self: flex-end;
 	}
 
 	.modal-footer {
 		overflow: hidden;
+		position: absolute;
+		display: flex;
+		bottom: 0;
+		right: 0;
 	}
 
 	.modal-footer button {
 		margin: 10px;
-		display: inline-block;
 	}
 
 	/* Transitions */
@@ -344,12 +373,14 @@ export default {
 			return this.currentSlide === 0
 		}
 	},
-	beforeMount() {
-		axios.get(OC.generateUrl('/apps/firstrunwizard/wizard')).then((response) => {
-			this.slides = response.data
-			this.showModal = true
-		})
-
+	created() {
+		const img = new Image()
+		img.src = require('../img/intro.png')
+		img.onload = () => {
+			axios.get(OC.generateUrl('/apps/firstrunwizard/wizard')).then((response) => {
+				this.slides = response.data
+			})
+		}
 		window.addEventListener('resize', this.onResize)
 	},
 	beforeDestroy() {
@@ -357,11 +388,7 @@ export default {
 	},
 	methods: {
 		open() {
-			var img = new Image()
-			img.src = require('../img/intro.png')
-			img.onload = () => {
-				this.showModal = true
-			}
+			this.showModal = true
 		},
 		close() {
 			this.showModal = false
