@@ -1,0 +1,23 @@
+{ "translations": {
+    "First run wizard" : "첫 실행 마법사",
+    "Add your profile information! For example your email is needed to reset your password." : "내 프로필 정보를 추가하십시오! 이메일 주소는 암호를 초기화하는 데 필요합니다.",
+    "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "내 프로필 정보를 추가하십시오! 프로필 사진과 이름을 입력하면 사용자를 빠르게 식별할 수 있습니다.",
+    "Add your profile information! Set a full name for easier recognition across all features." : "내 프로필 정보를 추가하십시오! 이름을 입력하면 사용자를 빠르게 식별할 수 있습니다.",
+    "Add your profile information! Set a profile picture for easier recognition across all features." : "내 프로필 정보를 추가하십시오! 프로필 사진을 지정하면 사용자를 빠르게 식별할 수 있습니다.",
+    "About" : "정보",
+    "Nextcloud gives you access to your files wherever you are." : "Nextcloud를 통해 당신의 파일을 어디에서든지 접근하세요.",
+    "Get the apps to sync your files" : "파일 동기화 앱 가져오기",
+    "Desktop client" : "데스크톱 클라이언트",
+    "Android app" : "Android 앱",
+    "iOS app" : "iOS 앱",
+    "Connect your desktop apps to %s" : "내 데스크톱 앱을 %s에 연결하기",
+    "Connect your calendar" : "내 달력 연결",
+    "Connect your contacts" : "내 연락처 연결",
+    "Access files via WebDAV" : "WebDAV로 파일에 접근하기",
+    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "<a href=\"%s\">앱 패스워드</a>를 사용하여 동기화 클라이언트를 설정하면, 만약 디바이스를 잃어버리는 경우 접근 권한을 취소할 수 있습니다.",
+    "Connect other apps to %s" : "다른 앱을 %s에 연결하세요.",
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "동기화 클라이언트 말고도 WebDAV/CalDAV/CardDAV를 지원하는 다른 소프트웨어에 %s를 연결할 수 있습니다.",
+    "Server address" : "서버 주소",
+    "Use this URL to connect your clients to this server:" : "클라이언트를 서버에 연결하기 위해 아래의 URL을 사용하세요."
+},"pluralForm" :"nplurals=1; plural=0;"
+}
