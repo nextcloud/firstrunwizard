@@ -23,6 +23,7 @@
 
 namespace OCA\FirstRunWizard\AppInfo;
 
+use OCA\FirstRunWizard\Notification\AppHint;
 use OCA\FirstRunWizard\Notification\Notifier;
 use OCP\AppFramework\App;
 use OCP\AppFramework\Http\TemplateResponse;
@@ -69,7 +70,7 @@ class Application extends App {
 
 			/** @var IConfig $config */
 			$config = $this->getContainer()->query(IConfig::class);
-
+			$appHint = $this->getContainer()->query(AppHint::class);
 
 			if ($config->getUserValue($user->getUID(), 'firstrunwizard', 'show', '1') !== '0') {
 				\OC_Util::addScript('firstrunwizard', 'activate');
@@ -77,6 +78,7 @@ class Application extends App {
 				$jobList = $this->getContainer()->getServer()->getJobList();
 				$jobList->add('OCA\FirstRunWizard\Notification\BackgroundJob', ['uid' => $userSession->getUser()->getUID()]);
 			}
+			$appHint->sendAppHintNotifications();
 		});
 	}
 
@@ -90,5 +92,8 @@ class Application extends App {
 				'name' => $l->t('First run wizard'),
 			];
 		});
+		/** @var AppHint $appHint */
+		$appHint = $this->getContainer()->query(AppHint::class);
+		$appHint->registerAppListener();
 	}
 }
