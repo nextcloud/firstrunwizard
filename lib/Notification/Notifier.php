@@ -132,23 +132,23 @@ class Notifier implements INotifier {
 		$appLink = '';
 		switch ($app) {
 			case 'calendar':
-				$notification->setParsedSubject($l->t('App recommendation - Nextcloud Calendar'));
-				$notification->setParsedMessage($l->t('Schedule work and meetings online'));
+				$notification->setParsedSubject($l->t('App recommendation: Nextcloud Calendar'));
+				$notification->setParsedMessage($l->t('Schedule work & meetings, synced with all your devices.'));
 				$appLink = '/organization/calendar';
 				break;
 			case 'contacts':
-				$notification->setParsedSubject($l->t('App recommendation - Install Nextcloud Contacts'));
-				$notification->setParsedMessage($l->t('Keep your relations organized'));
+				$notification->setParsedSubject($l->t('App recommendation: Nextcloud Contacts'));
+				$notification->setParsedMessage($l->t('Keep your colleagues and friends in one place without leaking their private info.'));
 				$appLink = '/organization/contacts';
 				break;
 			case 'mail':
-				$notification->setParsedSubject($l->t('App recommendation - Nextcloud Mail'));
-				$notification->setParsedMessage($l->t('Send and receive emails in a breeze'));
+				$notification->setParsedSubject($l->t('App recommendation: Nextcloud Mail'));
+				$notification->setParsedMessage($l->t('Simple email app nicely integrated with Files, Contacts and Calendar.'));
 				$appLink = '/social/mail';
 				break;
 			case 'spreed':
-				$notification->setParsedSubject($l->t('App recommendation - Nextcloud Talk'));
-				$notification->setParsedMessage($l->t('Screensharing, online meetings & web conferencing without data leaks'));
+				$notification->setParsedSubject($l->t('App recommendation: Nextcloud Talk'));
+				$notification->setParsedMessage($l->t('Screensharing, online meetings and web conferencing – on desktop and with mobile apps.'));
 				$appLink = '/social/spreed';
 				break;
 		}
