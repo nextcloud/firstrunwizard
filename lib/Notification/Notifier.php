@@ -81,7 +81,12 @@ class Notifier implements INotifier {
 				$notification->setParsedSubject($subject)
 					->setLink($this->url->linkToRouteAbsolute('settings.PersonalSettings.index'));
 				return $notification;
-
+			case 'apphint-calendar':
+			case 'apphint-contacts':
+			case 'apphint-mail':
+			case 'apphint-spreed':
+				$app = $notification->getObjectId();
+				return $this->setAppHintDetails($notification, $languageCode, $app);
 			default:
 				// Unknown subject => Unknown notification => throw
 				throw new \InvalidArgumentException();
@@ -116,4 +121,41 @@ class Notifier implements INotifier {
 			}
 		}
 	}
+
+	/**
+	 * @param INotification $notification
+	 * @param string $languageCode
+	 * @return INotification
+	 */
+	protected function setAppHintDetails(INotification $notification, $languageCode, $app) {
+		$l = $this->factory->get('firstrunwizard', $languageCode);
+		$appLink = '';
+		switch ($app) {
+			case 'calendar':
+				$notification->setParsedSubject($l->t('App recommendation: Nextcloud Calendar'));
+				$notification->setParsedMessage($l->t('Schedule work & meetings, synced with all your devices.'));
+				$appLink = '/organization/calendar';
+				break;
+			case 'contacts':
+				$notification->setParsedSubject($l->t('App recommendation: Nextcloud Contacts'));
+				$notification->setParsedMessage($l->t('Keep your colleagues and friends in one place without leaking their private info.'));
+				$appLink = '/organization/contacts';
+				break;
+			case 'mail':
+				$notification->setParsedSubject($l->t('App recommendation: Nextcloud Mail'));
+				$notification->setParsedMessage($l->t('Simple email app nicely integrated with Files, Contacts and Calendar.'));
+				$appLink = '/social/mail';
+				break;
+			case 'spreed':
+				$notification->setParsedSubject($l->t('App recommendation: Nextcloud Talk'));
+				$notification->setParsedMessage($l->t('Screensharing, online meetings and web conferencing – on desktop and with mobile apps.'));
+				$appLink = '/social/spreed';
+				break;
+		}
+		$notification
+			->setLink($this->url->linkToRouteAbsolute('settings.AppSettings.viewApps') . $appLink, 'GET')
+			->setIcon($this->url->getAbsoluteURL($this->url->imagePath('firstrunwizard', 'apps/'. $app . '.svg')));
+		return $notification;
+	}
+
 }
