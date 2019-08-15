@@ -83,15 +83,8 @@ class Application extends App {
 	}
 
 	protected function registerNotificationNotifier() {
-		$this->getContainer()->getServer()->getNotificationManager()->registerNotifier(function() {
-			return $this->getContainer()->query(Notifier::class);
-		}, function() {
-			$l = $this->getContainer()->query(IL10N::class);
-			return [
-				'id' => 'firstrunwizard',
-				'name' => $l->t('First run wizard'),
-			];
-		});
+		$this->getContainer()->getServer()->getNotificationManager()->registerNotifierService(Notifier::class);
+
 		/** @var AppHint $appHint */
 		$appHint = $this->getContainer()->query(AppHint::class);
 		$appHint->registerAppListener();
