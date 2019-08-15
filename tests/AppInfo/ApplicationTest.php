@@ -123,9 +123,7 @@ class ApplicationTest extends TestCase {
 		$manager = $this->createMock(IManager::class);
 		$manager->expects($this->once())
 			->method('registerNotifierService')
-			->willReturnCallback(function($service) {
-				$this->assertInstanceOf(Notifier::class, $service);
-			});
+			->with(Notifier::class);
 
 		$this->overwriteService('NotificationManager', $manager);
 		$this->invokePrivate($app, 'registerNotificationNotifier');
