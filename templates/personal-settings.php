@@ -86,7 +86,7 @@ script('firstrunwizard', ['personalsettings']);
 <div class="followupsection">
 	<h2><?php p($l->t('Server address')); ?></h2>
 
-	<p><?php p($l->t('Use this URL to connect your clients to this server:')); ?></p>
+	<p><?php p($l->t('Use this link to connect your apps and desktop client to this server:')); ?></p>
 	<div>
 			<input type="text" readonly="readonly" id="endpoint-url" value="<?php echo p($_['url']); ?>" />
 			<a class="clipboardButton icon icon-clippy" data-clipboard-target="#endpoint-url"></a>
