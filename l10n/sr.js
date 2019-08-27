@@ -69,8 +69,8 @@ OC.L10N.register(
     "Connect other apps to %s" : "Повежите друге апликације на %s",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Осим клијената за синхронизацију, можете се повезати и са другим апликацијама које подржавају WebDAV/CalDAV/CardDAV протоколе на %s.",
     "Server address" : "Адреса сервера",
-    "Use this URL to connect your clients to this server:" : "Користите ову адресу да повежете Ваше клијенте на овај сервер:",
     "Previous" : "Претходно",
-    "Next" : "Следеће"
+    "Next" : "Следеће",
+    "Use this URL to connect your clients to this server:" : "Користите ову адресу да повежете Ваше клијенте на овај сервер:"
 },
 "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);");

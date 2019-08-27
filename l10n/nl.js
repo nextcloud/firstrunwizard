@@ -69,8 +69,8 @@ OC.L10N.register(
     "Connect other apps to %s" : "Verbind andere apps met%s",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Naast de sync clients kun je ook met %s verbinden met alle andere software die de WebDAV/CalDAV/CardDAV protocolen ondersteunt.",
     "Server address" : "Serveradres",
-    "Use this URL to connect your clients to this server:" : "Gebruik deze URL om je clients met deze server te verbinden:",
     "Previous" : "Vorige",
-    "Next" : "Volgende"
+    "Next" : "Volgende",
+    "Use this URL to connect your clients to this server:" : "Gebruik deze URL om je clients met deze server te verbinden:"
 },
 "nplurals=2; plural=(n != 1);");
