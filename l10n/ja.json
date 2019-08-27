@@ -67,8 +67,8 @@
     "Connect other apps to %s" : "他のアプリを %s に接続する",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "同期クライアントのほかに、WebDAV/CalDAV/CardDAV プロトコルをサポートする他のソフトウェアを %s に接続できます。",
     "Server address" : "サーバーアドレス",
-    "Use this URL to connect your clients to this server:" : "このサーバーにクライアントを接続するにはこのURLを使用してください:",
     "Previous" : "前へ",
-    "Next" : "次へ"
+    "Next" : "次へ",
+    "Use this URL to connect your clients to this server:" : "このサーバーにクライアントを接続するにはこのURLを使用してください:"
 },"pluralForm" :"nplurals=1; plural=0;"
 }
