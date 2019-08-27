@@ -60,8 +60,8 @@ OC.L10N.register(
     "Connect other apps to %s" : "Tengdu önnur forrit við %s",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Fyrir utan samstillingaforritin geturðu tengt hvert það forrit sem styður WebDAV/CalDAV/CardDAV samskiptamátana við %s.",
     "Server address" : "Vistfang þjóns",
-    "Use this URL to connect your clients to this server:" : "Notaðu þessa slóð fyrir forritin þín til að tengjast þessum þjóni:",
     "Previous" : "Fyrra",
-    "Next" : "Næsta"
+    "Next" : "Næsta",
+    "Use this URL to connect your clients to this server:" : "Notaðu þessa slóð fyrir forritin þín til að tengjast þessum þjóni:"
 },
 "nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);");
