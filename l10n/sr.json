@@ -67,6 +67,7 @@
     "Connect other apps to %s" : "Повежите друге апликације на %s",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Осим клијената за синхронизацију, можете се повезати и са другим апликацијама које подржавају WebDAV/CalDAV/CardDAV протоколе на %s.",
     "Server address" : "Адреса сервера",
+    "Use this link to connect your apps and desktop client to this server:" : "Користите ову везу да повежете Ваше апликације на овај сервер:",
     "Previous" : "Претходно",
     "Next" : "Следеће",
     "Use this URL to connect your clients to this server:" : "Користите ову адресу да повежете Ваше клијенте на овај сервер:"
