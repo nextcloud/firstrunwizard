@@ -69,6 +69,7 @@ OC.L10N.register(
     "Connect other apps to %s" : "连接其它应用到 %s",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "除了客户端以外，您还可以使用任何支持 WebDAV/CalDAC/CarDAV 协议的软件来访问 %s",
     "Server address" : "服务器地址",
+    "Use this link to connect your apps and desktop client to this server:" : "使用此链接将您的应用和桌面客户端连接到此服务器：",
     "Previous" : "上一个",
     "Next" : "下一个",
     "Use this URL to connect your clients to this server:" : "使用此URL将您的客户端连接至此服务器："
