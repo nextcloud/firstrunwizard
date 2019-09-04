@@ -67,6 +67,7 @@
     "Connect other apps to %s" : "Conectar otras apps con %s",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Además de los clientes de sincronización, puedes conectar con %s cualquier otro software que soporte los protocolos WebDAV/CalDAV/CardDAV.",
     "Server address" : "Nombre del servidor",
+    "Use this link to connect your apps and desktop client to this server:" : "Use este enlace para conectar sus apps y el cliente de escritorio con este servidor:",
     "Previous" : "Anterior",
     "Next" : "Siguiente",
     "Use this URL to connect your clients to this server:" : "Usa esta URL para que tus clientes se conecten a este servidor:"
