@@ -39,7 +39,7 @@ OC.L10N.register(
     "Android app" : "Android-App",
     "iOS app" : "iOS-App",
     "Connect your desktop apps to %s" : "Verbinden Sie Ihre Desktop-Anwendungen mit %s",
-    "Connect your calendar" : "Verbinden Sie Ihre Kalender ",
+    "Connect your calendar" : "Verbinden Sie Ihren Kalender ",
     "Connect your contacts" : "Verbinden Sie Ihre Kontakte",
     "Access files via WebDAV" : "Greifen Sie auf Dateien über WebDAV zu",
     "Download macOS/iOS configuration profile" : "Konfigurationsprofil für macOS/iOS herunterladen",
