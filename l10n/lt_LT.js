@@ -1,6 +1,9 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "Copy to clipboard" : "Kopijuoti į iškarpinę",
+    "Copied!" : "Nukopijuota!",
+    "Not supported!" : "Nepalaikoma!",
     "First run wizard" : "Pirmojo paleidimo vediklis",
     "Add your profile information! For example your email is needed to reset your password." : "Pridėkite savo profilio informaciją! Pavyzdžiui, jūsų el. paštas yra reikalingas, norint atstatyti savo slaptažodį.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Papildykite profilį informacija! Pasirinkite paveikslėlį, nurodykite vardą, pavardę, kad lengviau būtumėte atpažinti šioje platformoje.",
@@ -40,6 +43,7 @@ OC.L10N.register(
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s suteikia jums prieigą prie jūsų failų visur, kur bebūtumėte. Mūsų lengvi naudoti darbalaukio ir mobilieji klientai yra prieinami pagrindinėms platformoms visiškai nemokamai.",
     "Connect other apps to %s" : "Prijunkite kitas programas prie %s",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Be sinchronizavimo klientų, prie %s taip pat galite prijungti bet kokią programinę įrangą, kuri palaiko WebDAV/CalDAV/CardDAV protokolus.",
+    "Server address" : "Serverio adresas",
     "Previous" : "Ankstesnis",
     "Next" : "Kitas"
 },
