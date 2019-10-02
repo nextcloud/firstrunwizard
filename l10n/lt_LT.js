@@ -45,6 +45,7 @@ OC.L10N.register(
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Be sinchronizavimo klientų, prie %s taip pat galite prijungti bet kokią programinę įrangą, kuri palaiko WebDAV/CalDAV/CardDAV protokolus.",
     "Server address" : "Serverio adresas",
     "Previous" : "Ankstesnis",
-    "Next" : "Kitas"
+    "Next" : "Kitas",
+    "Use this URL to connect your clients to this server:" : "Naudokite šį URL, norėdami prijungti savo klientus prie šio serverio:"
 },
 "nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);");
