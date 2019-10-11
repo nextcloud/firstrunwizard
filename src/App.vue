@@ -343,7 +343,8 @@
 </style>
 <script>
 import Modal from 'nextcloud-vue/dist/Components/Modal'
-import axios from 'nextcloud-axios'
+import axios from '@nextcloud/axios'
+import { generateUrl } from '@nextcloud/router'
 
 export default {
 	name: 'FirstRunWizard',
@@ -377,7 +378,7 @@ export default {
 		const img = new Image()
 		img.src = require('../img/intro.png')
 		img.onload = () => {
-			axios.get(OC.generateUrl('/apps/firstrunwizard/wizard')).then((response) => {
+			axios.get(generateUrl('/apps/firstrunwizard/wizard')).then((response) => {
 				this.slides = response.data
 			})
 		}
@@ -392,7 +393,7 @@ export default {
 		},
 		close() {
 			this.showModal = false
-			axios.delete(OC.generateUrl('/apps/firstrunwizard/wizard'))
+			axios.delete(generateUrl('/apps/firstrunwizard/wizard'))
 		},
 		next() {
 			this.fadeDirection = 'next'
