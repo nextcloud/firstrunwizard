@@ -69,6 +69,7 @@ OC.L10N.register(
     "Connect other apps to %s" : "Поврзете друга апликација на %s",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Покрај клиентите за синхронизација, можете да поврзете кој било друг софтвер што поддржува WebDAV/CalDAV/CardDAV протоколи на %s.",
     "Server address" : "Адреса на серверот",
+    "Use this link to connect your apps and desktop client to this server:" : "Користете го овој линк за да ги поврзете вашите апликации со серверот:",
     "Previous" : "Претходно",
     "Next" : "Следно",
     "Use this URL to connect your clients to this server:" : "Користете ја оваа адреса за да го поврзете вашиот клиент со серверот:"
