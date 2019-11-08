@@ -21,5 +21,7 @@
  *
  */
 
-$app = new \OCA\FirstRunWizard\AppInfo\Application();
+use OCA\FirstRunWizard\AppInfo\Application;
+
+$app = \OC::$server->query(Application::class);
 $app->register();
