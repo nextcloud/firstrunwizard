@@ -14,7 +14,7 @@ OC.L10N.register(
     "Desktop client" : "Odjemalec za namizne računalnike",
     "Android app" : "Odjemalec za Android",
     "iOS app" : "Odjemalec za iOS",
-    "Connect your desktop apps to %s" : "Povežite namizne programe z %s",
+    "Connect your desktop apps to %s" : "Povežite namizne programe z okoljem %s",
     "Connect your calendar" : "Poveži koledar",
     "Connect your contacts" : "Poveži stike",
     "Access files via WebDAV" : "Dostop do datotek prek WebDAV",
