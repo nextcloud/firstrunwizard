@@ -41,9 +41,11 @@ OC.L10N.register(
     "100%% Open Source & community-focused" : "100%% atvirojo kodo ir sutelkta į bendruomenę",
     "Learn more about %s" : "Sužinokite daugiau apie %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s suteikia jums prieigą prie jūsų failų visur, kur bebūtumėte. Mūsų lengvi naudoti darbalaukio ir mobilieji klientai yra prieinami pagrindinėms platformoms visiškai nemokamai.",
+    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Nusistatykite sinchronizavimo kliento programas naudodami  <a href=\"%s\">programėlės slaptažodį</a>. Tokiu būdu užtikrinsite, jog galėsite panaikinti prieigą tuo atveju, jei pamesite įrenginį.",
     "Connect other apps to %s" : "Prijunkite kitas programas prie %s",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Be sinchronizavimo klientų, prie %s taip pat galite prijungti bet kokią programinę įrangą, kuri palaiko WebDAV/CalDAV/CardDAV protokolus.",
     "Server address" : "Serverio adresas",
+    "Use this link to connect your apps and desktop client to this server:" : "Naudokite šią nuorodą norėdami prijungti savo programėles bei darbalaukio kliento programas prie šio serverio:",
     "Previous" : "Ankstesnis",
     "Next" : "Kitas",
     "Use this URL to connect your clients to this server:" : "Naudokite šį URL, norėdami prijungti savo klientus prie šio serverio:"
