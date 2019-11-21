@@ -48,7 +48,7 @@ OC.L10N.register(
     "The Nextcloud documentation for home users:" : "Dokumentace k Nextcloud pro domácí uživatele:",
     "User manual" : "Uživatelská příručka",
     "Admin manual" : "Příručka pro správce",
-    "Developer manual" : "Vývojářská příručka",
+    "Developer manual" : "Příručka pro vývojáře",
     "You can also ask for help in our community support channels:" : "O pomoc je také možné požádat v komunikačních kanálech komunitní podpory:",
     "the Nextcloud forums" : "Diskuzní fóra o Nextcloud",
     "the Nextcloud IRC chat channel on freenode.net" : "Nextcloud IRC chat kanál na freenode.net",
