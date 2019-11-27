@@ -2,8 +2,8 @@ OC.L10N.register(
     "firstrunwizard",
     {
     "Copy to clipboard" : "Zkopírovat do schránky",
-    "Copied!" : "Zkopírováno!",
-    "Not supported!" : "Nepodporováno!",
+    "Copied!" : "Zkopírováno",
+    "Not supported!" : "Nepodporováno",
     "Press ⌘-C to copy." : "Zkopírujtete stisknutím ⌘-C.",
     "Press Ctrl-C to copy." : "Zkopírujte stisknutím Ctrl+C.",
     "First run wizard" : "Průvodce prvním spuštěním",
