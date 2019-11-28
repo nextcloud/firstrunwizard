@@ -45,7 +45,7 @@ class WizardControllerTest extends TestCase {
 	protected $config;
 	private $groupManager;
 
-	protected function setUp() {
+	protected function setUp(): void {
 		parent::setUp();
 		$this->config = $this->createMock(IConfig::class);
 		$this->groupManager = $this->createMock(IGroupManager::class);
