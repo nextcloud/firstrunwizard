@@ -11,14 +11,13 @@ Vue.prototype.t = t
 // eslint-disable-next-line
 Vue.prototype.oc_defaults = oc_defaults
 
-let el = document.createElement('div')
+const el = document.createElement('div')
 el.id = 'firstrunwizard'
 document.querySelector('body').appendChild(el)
 
-const app = new Vue({
-	el: '#firstrunwizard',
-	name: 'FirstRunWizardRoot',
-	render: h => h(App)
-})
+const View = Vue.extend(App)
+const vm = new View().$mount(el)
 
-window.OCA.FirstRunWizard = app.$children[0]
+window.OCA.FirstRunWizard = {
+	open: vm.open,
+}

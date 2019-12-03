@@ -84,7 +84,6 @@ class WizardController extends Controller {
 		];
 
 		$slides = [
-			$this->staticSlide('page.intro', $data),
 			$this->staticSlide('page.values', $data)
 		];
 		if ($this->groupManager->isAdmin($this->userId)) {

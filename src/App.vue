@@ -1,5 +1,5 @@
 <template>
-	<modal
+	<Modal
 		v-if="showModal && slides.length > 0"
 		id="firstrunwizard"
 		:has-previous="hasPrevious"
@@ -8,9 +8,8 @@
 		name="modal"
 		@previous="previous"
 		@next="next"
-		@close="close"
-	>
-		<div class="modal-header">
+		@close="close">
+		<div v-if="currentSlide !== 0 || !withIntro || !hasVideo" class="modal-header">
 			<div class="firstrunwizard-header">
 				<div class="logo">
 					<p class="hidden-visually">
@@ -23,10 +22,11 @@
 			</div>
 		</div>
 		<div class="modal-body">
-			<slot v-if="slides.length > 0" name="body">
+			<slot v-if="slideList.length > 0" name="body">
 				<transition :name="fadeDirection" mode="out-in">
 					<!-- eslint-disable-next-line vue/no-v-html -->
-					<div v-if="slides[currentSlide].type === 'inline'" :key="currentSlide" v-html="slides[currentSlide].content" />
+					<div v-if="slideList[currentSlide].type === 'inline'" :key="currentSlide" v-html="slideList[currentSlide].content" />
+					<div :is="slideList[currentSlide]" v-else @finished="currentSlide++" />
 				</transition>
 			</slot>
 		</div>
@@ -35,7 +35,7 @@
 				{{ t('firstrunwizard', 'Start using Nextcloud') }}
 			</button>
 		</div>
-	</modal>
+	</Modal>
 </template>
 <style lang="scss">
 	/* Page styling needs to be unscoped, since we load it separately from the server */
@@ -342,45 +342,65 @@
 	}
 </style>
 <script>
-import Modal from 'nextcloud-vue/dist/Components/Modal'
+import Modal from '@nextcloud/vue/dist/Components/Modal'
 import axios from '@nextcloud/axios'
+import { loadState } from '@nextcloud/initial-state'
 import { generateUrl } from '@nextcloud/router'
+import IntroVideo from './components/IntroVideo'
+import IntroImage from './components/IntroImage'
+
+let hasVideo = false
+try {
+	hasVideo = loadState('firstrunwizard', 'hasVideo')
+} catch (e) {
+	// ignore missing initial state
+}
 
 export default {
-	name: 'FirstRunWizard',
+	name: 'App',
 	components: {
-		Modal
+		Modal,
 	},
 	data() {
 		return {
 			showModal: false,
+			withIntro: false,
+			hasVideo,
 			slides: [],
 			currentSlide: 0,
 			fadeDirection: 'next',
-			isMobile: window.outerWidth < 768
+			isMobile: window.outerWidth < 1024,
 		}
 	},
 	computed: {
+		slideList() {
+			if (this.withIntro) {
+				return this.slides
+			}
+			const slides = this.slides
+			return slides.splice(1)
+		},
 		hasNext() {
-			return this.currentSlide < this.slides.length - 1
+			return this.currentSlide < this.slideList.length - 1
 		},
 		hasPrevious() {
 			return this.currentSlide > 0
 		},
 		isLast() {
-			return this.currentSlide === this.slides.length - 1
+			return this.currentSlide === this.slideList.length - 1
 		},
 		isFirst() {
 			return this.currentSlide === 0
-		}
+		},
 	},
-	created() {
-		const img = new Image()
-		img.src = require('../img/intro.png')
-		img.onload = () => {
-			axios.get(generateUrl('/apps/firstrunwizard/wizard')).then((response) => {
-				this.slides = response.data
-			})
+	async created() {
+		if (hasVideo) {
+			this.slides = [ IntroVideo ]
+		} else {
+			this.slides = [ IntroImage ]
+			const img = new Image()
+			img.src = require('../img/intro.png')
+			img.onload = () => {}
 		}
 		window.addEventListener('resize', this.onResize)
 	},
@@ -388,8 +408,19 @@ export default {
 		window.removeEventListener('resize', this.onResize)
 	},
 	methods: {
-		open() {
+		async loadStaticSlides() {
+			try {
+				const response = await axios.get(generateUrl('/apps/firstrunwizard/wizard'))
+				this.slides.push(...response.data)
+			} catch (e) {
+				console.error('Failed to load slides')
+			}
+		},
+		async open(withIntro = false) {
+			await this.loadStaticSlides()
+			this.withIntro = withIntro
 			this.showModal = true
+			this.currentSlide = 0
 		},
 		close() {
 			this.showModal = false
@@ -413,7 +444,7 @@ export default {
 		onResize(event) {
 			// Update mobile mode
 			this.isMobile = window.outerWidth < 768
-		}
-	}
+		},
+	},
 }
 </script>
