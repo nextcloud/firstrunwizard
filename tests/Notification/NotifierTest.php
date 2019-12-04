@@ -50,7 +50,7 @@ class NotifierTest extends TestCase {
 	/** @var IL10N|\PHPUnit_Framework_MockObject_MockObject */
 	protected $l;
 
-	protected function setUp() {
+	protected function setUp(): void {
 		parent::setUp();
 
 		$this->manager = $this->createMock(IManager::class);

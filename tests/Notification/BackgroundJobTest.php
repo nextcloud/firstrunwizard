@@ -42,7 +42,7 @@ class BackgroundJobTest extends TestCase {
 	/** @var BackgroundJob */
 	protected $job;
 
-	protected function setUp() {
+	protected function setUp(): void {
 		parent::setUp();
 		$this->notificationManager = $this->createMock(IManager::class);
 		$this->job = new BackgroundJob(
