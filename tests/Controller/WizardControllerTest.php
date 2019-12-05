@@ -108,7 +108,7 @@ class WizardControllerTest extends TestCase {
 
 		$this->assertInstanceOf(JSONResponse::class, $response);
 		$this->assertSame(Http::STATUS_OK, $response->getStatus());
-		$this->assertEquals(4, count($response->getData()));
+		$this->assertEquals(3, count($response->getData()));
 	}
 
 	public function testShowAdmin() {
@@ -130,6 +130,6 @@ class WizardControllerTest extends TestCase {
 
 		$this->assertInstanceOf(JSONResponse::class, $response);
 		$this->assertSame(Http::STATUS_OK, $response->getStatus());
-		$this->assertEquals(5, count($response->getData()));
+		$this->assertEquals(4, count($response->getData()));
 	}
 }
