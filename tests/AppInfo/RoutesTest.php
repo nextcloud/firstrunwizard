@@ -33,10 +33,10 @@ use Test\TestCase;
 class RoutesTest extends TestCase  {
 	public function testRoutes() {
 		$routes = include(__DIR__ . '/../../appinfo/routes.php');
-		$this->assertInternalType('array', $routes);
+		$this->assertIsArray($routes);
 		$this->assertCount(1, $routes);
 		$this->assertArrayHasKey('routes', $routes);
-		$this->assertInternalType('array', $routes['routes']);
+		$this->assertIsArray($routes['routes']);
 		$this->assertSame([
 			['name' => 'Wizard#show', 'url' => '/wizard', 'verb' => 'GET'],
 			['name' => 'Wizard#disable', 'url' => '/wizard', 'verb' => 'DELETE'],
