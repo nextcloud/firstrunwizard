@@ -105,6 +105,11 @@ class Notifier implements INotifier {
 			case 'apphint-contacts':
 			case 'apphint-mail':
 			case 'apphint-spreed':
+			case 'apphint-tasks':
+			case 'apphint-deck':
+			case 'apphint-notes':
+			case 'apphint-social':
+			case 'apphint-groupfolders':
 				$app = $notification->getObjectId();
 				return $this->setAppHintDetails($notification, $languageCode, $app);
 			default:
@@ -166,10 +171,31 @@ class Notifier implements INotifier {
 				$notification->setParsedMessage($l->t('Simple email app nicely integrated with Files, Contacts and Calendar.'));
 				$appLink = '/social/mail';
 				break;
-			case 'spreed':
-				$notification->setParsedSubject($l->t('App recommendation: Nextcloud Talk'));
-				$notification->setParsedMessage($l->t('Screensharing, online meetings and web conferencing – on desktop and with mobile apps.'));
-				$appLink = '/social/spreed';
+
+			case 'tasks':
+				$notification->setParsedSubject($l->t('App recommendation: Tasks'));
+				$notification->setParsedMessage($l->t('Sync tasks from various devices with your Nextcloud and edit them online.'));
+				$appLink = '/organization/tasks';
+				break;
+			case 'deck':
+				$notification->setParsedSubject($l->t('App recommendation: Deck'));
+				$notification->setParsedMessage($l->t('Kanban style organization for personal planning and team projects.'));
+				$appLink = '/organization/deck';
+				break;
+			case 'notes':
+				$notification->setParsedSubject($l->t('App recommendation: Notes'));
+				$notification->setParsedMessage($l->t('Distraction-free notes and writing.'));
+				$appLink = '/organization/notes';
+				break;
+			case 'social':
+				$notification->setParsedSubject($l->t('App recommendation: Social'));
+				$notification->setParsedMessage($l->t('Nextcloud becomes part of the federated social networks.'));
+				$appLink = '/social/social';
+				break;
+			case 'groupfolders':
+				$notification->setParsedSubject($l->t('App recommendation: Group folders'));
+				$notification->setParsedMessage($l->t('Admin-configured folders shared by everyone in a group.'));
+				$appLink = '/files/groupfolders';
 				break;
 		}
 		$notification
