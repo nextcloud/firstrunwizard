@@ -50,6 +50,8 @@ class AppHint  {
 	/** @var string */
 	private $userId;
 
+	const APP_HINT_VERSION = '18';
+
 	public function __construct(INotificationManager $notificationManager, IGroupManager $groupManager, IAppManager $appManager, IConfig $config, IEventDispatcher $eventDispatcher, $userId) {
 		$this->notificationManager = $notificationManager;
 		$this->groupManager = $groupManager;
@@ -60,12 +62,13 @@ class AppHint  {
 	}
 
 	public function sendAppHintNotifications(): void {
-		if ($this->userId !== null && $this->groupManager->isAdmin($this->userId) && $this->config->getUserValue($this->userId, 'firstrunwizard', 'apphint') !== 'yes') {
-			$this->sendNotification('calendar', $this->userId);
-			$this->sendNotification('contacts', $this->userId);
-			$this->sendNotification('mail', $this->userId);
-			$this->sendNotification('spreed', $this->userId);
-			$this->config->setUserValue($this->userId, 'firstrunwizard', 'apphint', 'yes');
+		if ($this->userId !== null && $this->groupManager->isAdmin($this->userId) && $this->config->getUserValue($this->userId, 'firstrunwizard', 'apphint') !== self::APP_HINT_VERSION) {
+			$this->sendNotification('groupfolders', $this->userId);
+			$this->sendNotification('social', $this->userId);
+			$this->sendNotification('notes', $this->userId);
+			$this->sendNotification('deck', $this->userId);
+			$this->sendNotification('tasks', $this->userId);
+			$this->config->setUserValue($this->userId, 'firstrunwizard', 'apphint', self::APP_HINT_VERSION);
 		}
 	}
 
@@ -78,7 +81,7 @@ class AppHint  {
 	protected function sendNotification(string $app, string $user): void {
 		$notification = $this->generateNotification($app, $user);
 		if (
-			$this->config->getUserValue($this->userId, 'firstrunwizard', 'apphint') !== 'yes'
+			$this->config->getUserValue($this->userId, 'firstrunwizard', 'apphint') !== self::APP_HINT_VERSION
 			&& $this->notificationManager->getCount($notification) === 0
 			&& !$this->appManager->isEnabledForUser($app)
 		) {
