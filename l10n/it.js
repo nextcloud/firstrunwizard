@@ -17,8 +17,6 @@ OC.L10N.register(
     "Keep your colleagues and friends in one place without leaking their private info." : "Tieni i tuoi colleghi e i tuoi amici in un posto proteggendo le loro Informazioni personali.",
     "App recommendation: Nextcloud Mail" : "Applicazione consigliata: Posta di Nextcloud",
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Applicazione di posta elettronica semplice e ben integrata con File, Contatti e Calendario.",
-    "App recommendation: Nextcloud Talk" : "Applicazione consigliata: Talk di Nextcloud",
-    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Condivisione schermo, riunioni in linea e conferenze via web - sulle applicazioni desktop e mobile.",
     "About" : "Informazioni",
     "A welcome and introduction wizard for Nextcloud" : "Una procedura guidata di benvenuto e introduzione a Nextcloud",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Questa applicazione abilita una finestra a comparsa quando un utente accede per la prima volta Nextcloud. Questa finestra dà il benvenuto ai nuovi utenti di Nextcloud e contiene collegamenti al client desktop standard, all'applicazione Android e all'applicazione iOS. La finestra mostra anche un collegamento per accedere a Nextcloud tramite WebDAV. In qualsiasi momento, la procedura guidata di primo avvio può essere aperta tramite il collegamento \"Informazioni\" nel menu delle impostazioni.\nLa procedura guidata di primo avvio può essere personalizzata per rispondere a obiettivi specifici di design, o modificare collegamenti e messaggi. Creare un tema appropriato seguendo la documentazione di Temi, e cambiare l'aspetto della procedura guidata è semplice. Altre informazioni sono disponibili nella documentazione relativa alla procedura guidata di primo avvio così come nella documentazione relativa ai temi.",
@@ -72,6 +70,8 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "Usa questo collegamento per connettere le tue applicazioni e il client desktop a questo server:",
     "Previous" : "Precedente",
     "Next" : "Successivo",
-    "Use this URL to connect your clients to this server:" : "Usa questo URL per collegare i tuoi client a questo server:"
+    "Use this URL to connect your clients to this server:" : "Usa questo URL per collegare i tuoi client a questo server:",
+    "App recommendation: Nextcloud Talk" : "Applicazione consigliata: Talk di Nextcloud",
+    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Condivisione schermo, riunioni in linea e conferenze via web - sulle applicazioni desktop e mobile."
 },
 "nplurals=2; plural=(n != 1);");

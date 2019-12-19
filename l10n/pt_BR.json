@@ -15,8 +15,6 @@
     "Keep your colleagues and friends in one place without leaking their private info." : "Mantenha seus colegas e amigos em um só lugar sem vazar informações pessoais.",
     "App recommendation: Nextcloud Mail" : "Recomendação de aplicativo: E-mail Nextcloud",
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Simples aplicativo de e-mail bem integrado com Arquivos, Contatos e Calendário.",
-    "App recommendation: Nextcloud Talk" : "Recomendação de aplicativo: Nextcloud Talk",
-    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Compartilhamento de tela, reuniões online e webconferência - em computadores e dispositivos móveis.",
     "About" : "Sobre",
     "A welcome and introduction wizard for Nextcloud" : "Um assistente de boas-vindas e introdução ao Nextcloud",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Este aplicativo ativa uma janela pop-up quando um usuário faz login pela primeira vez no Nextcloud. Essa janela dá boas-vindas aos novos usuários e contém links para os clientes padrões para desktop Android e iOS. A janela também mostra um link para acessar o Nextcloud via WebDAV. A qualquer momento, este assistente pode ser aberto novamente pelo link \"Sobre\" no menu de configurações.\nO assistente de primeira execução pode ser personalizado para atender a metas de design específicas ou para alterar links e mensagens. Crie um tema apropriado seguindo a documentação de Theming. Mais informações estão disponíveis na documentação deste assistente, bem como na documentação sobre temas.",
@@ -70,6 +68,8 @@
     "Use this link to connect your apps and desktop client to this server:" : "Use este link para conectar seus aplicativos e clientes de desktop a este servidor:",
     "Previous" : "Anterior",
     "Next" : "Próximo",
-    "Use this URL to connect your clients to this server:" : "Use esta URL para conectar os clientes a este servidor:"
+    "Use this URL to connect your clients to this server:" : "Use esta URL para conectar os clientes a este servidor:",
+    "App recommendation: Nextcloud Talk" : "Recomendação de aplicativo: Nextcloud Talk",
+    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Compartilhamento de tela, reuniões online e webconferência - em computadores e dispositivos móveis."
 },"pluralForm" :"nplurals=2; plural=(n > 1);"
 }

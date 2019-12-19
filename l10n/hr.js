@@ -17,8 +17,6 @@ OC.L10N.register(
     "Keep your colleagues and friends in one place without leaking their private info." : "Čuvajte podatke o kolegama i prijateljima na jednom mjestu bez ugrožavanja njihovih osobnih informacija.",
     "App recommendation: Nextcloud Mail" : "Preporučena aplikacija: Nextcloud Mail",
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Jednostavna aplikacija za upravljanje e-poštom, integrirana s aplikacijama Files, Contacts i Calendar.",
-    "App recommendation: Nextcloud Talk" : "Preporučena aplikacija: Nextcloud Talk",
-    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Dijeljenje zaslona, sastanci na mreži i web konferencije – na osobnim računalima i mobilnim uređajima.",
     "About" : "Informacije",
     "A welcome and introduction wizard for Nextcloud" : "Čarobnjak za dobrodošlicu i uvođenje u Nextcloud",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Ova aplikacija omogućuje prikazivanje skočnog prozora kada se korisnik prvi put prijavi u Nextcloud. Navedeni prozor pozdravlja nove korisnike Nextclouda i sadrži poveznice na standardni klijent za osobno računalo, Android i iOS sustave. Prozor također prikazuje poveznicu za pristup Nextcloudu putem WebDAVa. U bilo kojem trenutku možete ponovo otvoriti čarobnjaka putem poveznice „O aplikaciji” u izborniku postavki.\nČarobnjak za prvo pokretanje može se prilagoditi tako da ispuni određene ciljeve dizajna ili možete promijeniti njegove poveznice i poruke. Stvorite odgovarajuću temu sukladno dokumentaciji Izrada tema jer su sve promjene izgleda i čarobnjaka iznimno jednostavne. Više informacija dostupno je u dokumentaciji čarobnjaka za prvo pokretanje kao i u dokumentaciji o izradi tema.",
@@ -72,6 +70,8 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "Iskoristite ovu poveznicu za povezivanje aplikacija i klijenata za osobna računala s ovim poslužiteljem:",
     "Previous" : "Prethodna",
     "Next" : "Sljedeća",
-    "Use this URL to connect your clients to this server:" : "Iskoristite ovaj URL za povezivanje klijenata s ovim poslužiteljem:"
+    "Use this URL to connect your clients to this server:" : "Iskoristite ovaj URL za povezivanje klijenata s ovim poslužiteljem:",
+    "App recommendation: Nextcloud Talk" : "Preporučena aplikacija: Nextcloud Talk",
+    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Dijeljenje zaslona, sastanci na mreži i web konferencije – na osobnim računalima i mobilnim uređajima."
 },
 "nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;");

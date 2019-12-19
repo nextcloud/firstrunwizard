@@ -17,8 +17,6 @@ OC.L10N.register(
     "Keep your colleagues and friends in one place without leaking their private info." : "Manteña aos seus compañeiros e amigos nun lugar sen filtrar a información privada.",
     "App recommendation: Nextcloud Mail" : "Recomendación da aplicación: Correo do Nextcloud",
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Aplicación de correo sinxela e ben integrada con Ficheiros, Contactos e Calendario.",
-    "App recommendation: Nextcloud Talk" : "Recomendación da aplicación: Nextcloud Talk",
-    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Compartir a pantalla, xuntanzas en liña e conferencias web — co equipo de escritorio e coas aplicacións móbiles.",
     "About" : "Sobre",
     "A welcome and introduction wizard for Nextcloud" : "Un asistente de benvida e presentación para Nextcloud",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Esta aplicación activa unha xanela emerxente cando un usuario se rexistra por primeira vez no Nextcloud. Esta xanela dá a benvida aos novos usuarios e contén ligazóns ao cliente de escritorio estándar e ás aplis de Android e iOS. A xanela amosa tamén unha ligazón para acceder a Nextcloud vía WebDAV. En calquera momento, o asistente de primeira execución pode abrirse de novo a través da ligazón «Sobre» no menú de axustes.\nO asistente de primeira execución pode personalizarse para cumprir obxectivos específicos de deseño ou para cambiar as ligazóns e mensaxes. É moi sinxelo crear un tema apropiado seguindo a documentación de temas e cambiar a aparencia e comportamento deste asistente. Hai máis información dispoñíbel na documentación do asistente de primeira execución, así como na documentación de temas.",
@@ -72,6 +70,8 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "Use esta ligazón para conectar as súas aplicacións e clientes de escritorio a este servidor:",
     "Previous" : "Anterior",
     "Next" : "Seguinte",
-    "Use this URL to connect your clients to this server:" : "Use este URL para conectar os seus clientes a este servidor:"
+    "Use this URL to connect your clients to this server:" : "Use este URL para conectar os seus clientes a este servidor:",
+    "App recommendation: Nextcloud Talk" : "Recomendación da aplicación: Nextcloud Talk",
+    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Compartir a pantalla, xuntanzas en liña e conferencias web — co equipo de escritorio e coas aplicacións móbiles."
 },
 "nplurals=2; plural=(n != 1);");
