@@ -17,8 +17,6 @@ OC.L10N.register(
     "Keep your colleagues and friends in one place without leaking their private info." : "Храните информацию о своих коллегах и друзьях в одном месте без утечки их личных данных.",
     "App recommendation: Nextcloud Mail" : "Рекомендованное приложение: Nextcloud Mail",
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Простое приложение электронной почты, прекрасно интегрированное с приложениями Files, Contacts и Calendar.",
-    "App recommendation: Nextcloud Talk" : "Рекомендованное приложение: Nextcloud Talk",
-    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Доступ к изображению на экране, онлайн общение и веб-конференции – на ПК и мобильных устройствах.",
     "About" : "О программе",
     "A welcome and introduction wizard for Nextcloud" : "Добро пожаловать в мастер введения Nextcloud",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Приложение включает всплывающее окно при первом входе пользователя в Nextcloud. Окно приветствует новых пользователей и содержит ссылки на стандартный клиент, Андроид и iOS приложения. Окно так же содержит ссылку для доступа к Nextcloud через WebDAV. В любое время помощник первого запуска может быть запущен через ссылку \"О программе\" в меню настроек.\nМожно изменить дизайн Помощника, изменить ссылки и сообщения. Создать тему можно при помощи документации. Изменить внешний вид Помощника совсем просто. Дополнительная информация доступна в документации Помощника первого запуска, так же как и документация по созданию тем.",
@@ -72,6 +70,8 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "Используйте эту ссылку для соединения ваших приложений и десктоп-клиентов с этим сервером:",
     "Previous" : "Назад",
     "Next" : "Вперёд",
-    "Use this URL to connect your clients to this server:" : "Используйте этот URL для соединения ваших клиентов с этим сервером:"
+    "Use this URL to connect your clients to this server:" : "Используйте этот URL для соединения ваших клиентов с этим сервером:",
+    "App recommendation: Nextcloud Talk" : "Рекомендованное приложение: Nextcloud Talk",
+    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Доступ к изображению на экране, онлайн общение и веб-конференции – на ПК и мобильных устройствах."
 },
 "nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);");

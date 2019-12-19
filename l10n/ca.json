@@ -15,8 +15,6 @@
     "Keep your colleagues and friends in one place without leaking their private info." : "Tingueu col·legues i amistats en un sol lloc sense revelar llur informació privada.",
     "App recommendation: Nextcloud Mail" : "Recomanació d'aplicació: Nextcloud Correu Electrònic",
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Senzilla aplicació de correu electrònic ben integrada amb Fitxers, Contactes i el Calendari.",
-    "App recommendation: Nextcloud Talk" : "Recomanació d'aplicació: Nextcloud Talk",
-    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Compartició de pantalla, reunions en línia i conferències via web - a l'escriptori i amb aplicacions de mòbil.",
     "About" : "Quant a",
     "A welcome and introduction wizard for Nextcloud" : "Un assistent de benvinguda i presentació de Nextcloud",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Aquesta aplicació activa una finestra emergent quan un usuari inicia la primera sessió a Nextcloud. Aquesta finestra dóna la benvinguda als usuaris nous a Nextcloud i conté enllaços al client d'escriptori estàndard, a l'aplicació per a Android i a l'aplicació iOS. La finestra també mostra un enllaç per accedir a Nextcloud mitjançant WebDAV. En qualsevol moment, es pot obrir de nou l’assistent de primera execució mitjançant l’enllaç \"Quant a\" al menú de configuració.\nL’assistent de primera execució es pot personalitzar per acomplir objectius específics de disseny o per canviar enllaços i missatges. Creeu un tema adequat seguint la documentació de Theming i els canvis en l’aparença d’aquest assistent són senzills. Podeu trobar més informació a la documentació de l’assistent de primera execució, així com a la documentació de temes.",
@@ -70,6 +68,8 @@
     "Use this link to connect your apps and desktop client to this server:" : "Utilitzeu aquest enllaç per connectar les vostres aplicacions i client d’escriptori a aquest servidor:",
     "Previous" : "Anterior",
     "Next" : "Següent",
-    "Use this URL to connect your clients to this server:" : "Feu servir aquesta URL per connectar els vostres clients a aquest servidor:"
+    "Use this URL to connect your clients to this server:" : "Feu servir aquesta URL per connectar els vostres clients a aquest servidor:",
+    "App recommendation: Nextcloud Talk" : "Recomanació d'aplicació: Nextcloud Talk",
+    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Compartició de pantalla, reunions en línia i conferències via web - a l'escriptori i amb aplicacions de mòbil."
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

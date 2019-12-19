@@ -17,8 +17,6 @@ OC.L10N.register(
     "Keep your colleagues and friends in one place without leaking their private info." : "Mantenga a sus colegas y amigos en un sólo sitio sin dejar escapar su información privada.",
     "App recommendation: Nextcloud Mail" : "App recomendada: Nextcloud Mail",
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Simple email app se integra bien con Files, Contacts y Calendar.",
-    "App recommendation: Nextcloud Talk" : "App recomendada: Nextcloud Talk",
-    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Compartir pantalla, reuniones online y conferencias web - en apps de escritorio y móvil.",
     "About" : "Acerca de",
     "A welcome and introduction wizard for Nextcloud" : "Un asistente de bienvenida y presentación para Nextcloud",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Esta aplicación activa una ventana emergente cuando un usuario se conecta por primera vez a Nextcloud. Esta ventana recibe a los nuevos usuarios de Nextcloud y contiene enlaces al cliente de escritorio y las apps de iOS y Android. La ventana también muestra un enlace para acceder a Nextcloud vía WebDAV. En cualquier momento se puede abrir de nuevo este asistente mediante el enlace \"Acerca de\" en el menú de configuración.\nEl asistente de primera conexión puede personalizarse para cumplir objetivos específicos de diseño o cambiar enlaces y mensajes. Crea un tema apropiado siguiendo la documentación de Temas, los cambios al aspecto de este asistentes son sencillos. Hay más información disponible en la documentación del asistente de primera ejecución, así como en la documentación de temas.",
@@ -72,6 +70,8 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "Use este enlace para conectar sus apps y el cliente de escritorio con este servidor:",
     "Previous" : "Anterior",
     "Next" : "Siguiente",
-    "Use this URL to connect your clients to this server:" : "Usa esta URL para que tus clientes se conecten a este servidor:"
+    "Use this URL to connect your clients to this server:" : "Usa esta URL para que tus clientes se conecten a este servidor:",
+    "App recommendation: Nextcloud Talk" : "App recomendada: Nextcloud Talk",
+    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Compartir pantalla, reuniones online y conferencias web - en apps de escritorio y móvil."
 },
 "nplurals=2; plural=(n != 1);");
