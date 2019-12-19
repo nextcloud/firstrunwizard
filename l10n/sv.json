@@ -15,8 +15,6 @@
     "Keep your colleagues and friends in one place without leaking their private info." : "Håll dina kollegor och vänner på ett ställe utan att läcka deras privata info.",
     "App recommendation: Nextcloud Mail" : "Rekommenderad app: Nextcloud Mail",
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Enkel e-post app integrerad med filer, kontakter och kalender.",
-    "App recommendation: Nextcloud Talk" : "Rekommenderad app: Nextcloud Talk",
-    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Skärmdelning, onlinemöten och webbkonferenser – på dator och med mobilappar.",
     "About" : "Om",
     "A welcome and introduction wizard for Nextcloud" : "En välkomst och introduktionsguide för Nextcloud",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Den här appen visar ett pop-upp-fönster första gången en ny användare loggar in i Nextcloud. Användaren välkomnas till Nextcloud. Länkar visas till en vanlig skrivbordsklient, Android- och iOS-apparna. En länk visas också för att använda Nextcloud via WebDAV. Första-användnings-appen kan öppnas igen via \"Om\" i inställningsmenyn.\nFörsta-användnings-appen kan anpassas för specifik design, eller  andra länkar och meddelanden. Att skapa ett tema och ändra utseende för appen är enkelt. Mer information hittar du i Första-användnings-appens dokumentation och i tema-dokumentationen.",
@@ -70,6 +68,8 @@
     "Use this link to connect your apps and desktop client to this server:" : "Använd den här länken för att ansluta dina appar och desktopklient till den här servern:",
     "Previous" : "Föregående",
     "Next" : "Nästa",
-    "Use this URL to connect your clients to this server:" : "Använd denna webbadress för att ansluta dina enheter till servern:"
+    "Use this URL to connect your clients to this server:" : "Använd denna webbadress för att ansluta dina enheter till servern:",
+    "App recommendation: Nextcloud Talk" : "Rekommenderad app: Nextcloud Talk",
+    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Skärmdelning, onlinemöten och webbkonferenser – på dator och med mobilappar."
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

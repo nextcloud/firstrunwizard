@@ -17,7 +17,6 @@ OC.L10N.register(
     "Keep your colleagues and friends in one place without leaking their private info." : "Κρατήστε συνεργάτες και φίλους σε ένα μέρος χωρίς να κινδυνεύουν τα προσωπικά δεδομένα τους.",
     "App recommendation: Nextcloud Mail" : "Προτεινόμενη εφαρμογή: Nextclound Ηλ.Ταχυδρομίο",
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Απλή εφαρμογή ηλ.ταχυδρομίου ενσωματώνοντας Αρχεία, Επαφές και Ημερολόγιο.",
-    "App recommendation: Nextcloud Talk" : "Προτεινόμενη εφαρμογή: Nextclound Ομιλία",
     "About" : "Περί",
     "Start using Nextcloud" : "Έναρξη χρήσης Nextcloud",
     "Communication with Nextcloud Talk" : "Επικοινωνία με το Nextcloud Talk",
@@ -36,6 +35,7 @@ OC.L10N.register(
     "Enterprise support" : "Υποστήριξη επιχειρήσεων",
     "Connect other apps to %s" : "Σύνδεση άλλων εφαρμογών στο %s",
     "Previous" : "Προηγούμενο",
-    "Next" : "Επόμενο"
+    "Next" : "Επόμενο",
+    "App recommendation: Nextcloud Talk" : "Προτεινόμενη εφαρμογή: Nextclound Ομιλία"
 },
 "nplurals=2; plural=(n != 1);");

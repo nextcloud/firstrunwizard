@@ -6,7 +6,6 @@ OC.L10N.register(
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Add meg a profil információidat! Állíts be egy profilképet és teljes nevet az egyszerűbb azonosíthatóságért minden szolgáltatásban.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Add meg a profil információidat! Állítsd be a teljes neved az egyszerűbb azonosíthatóságért minden szolgáltatásban.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Add meg a profil információidat! Állítsd be egy profilképet az egyszerűbb azonosíthatóságért minden szolgáltatásban.",
-    "App recommendation: Nextcloud Talk" : "Alkalmazásjavaslat: Nextcloud Beszélgetés",
     "About" : "Névjegy",
     "A welcome and introduction wizard for Nextcloud" : "Kezeld adataid és fájljaid ott, ahol te döntesz róluk",
     "Start using Nextcloud" : "A Nextcloud használatának kezdete",
@@ -55,6 +54,7 @@ OC.L10N.register(
     "Connect other apps to %s" : "Csatlakoztass más alkalmazást a %s-hoz",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "A szinkronizációs kliensek használatával hozzácsatlakozhatsz bármilyen egyéb alkalmazáshoz ami támogatja a WebDAV/CalDAV/CardDAV protokolokat a %s-hoz.",
     "Previous" : "Előző",
-    "Next" : "Következő"
+    "Next" : "Következő",
+    "App recommendation: Nextcloud Talk" : "Alkalmazásjavaslat: Nextcloud Beszélgetés"
 },
 "nplurals=2; plural=(n != 1);");
