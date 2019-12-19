@@ -14,7 +14,6 @@ OC.L10N.register(
     "App recommendation: Nextcloud Calendar" : "Sovellussuositus: Nextcloud-kalenteri",
     "App recommendation: Nextcloud Contacts" : "Sovellussuositus: Nextcloud-yhteystiedot",
     "App recommendation: Nextcloud Mail" : "Sovellussuositus: Nextcloud-sähköposti",
-    "App recommendation: Nextcloud Talk" : "Sovellussuositus: Nextcloud Talk",
     "About" : "Tietoja",
     "A welcome and introduction wizard for Nextcloud" : "Nextcloudin ensimmäisen käyttökerran avustaja",
     "Start using Nextcloud" : "Aloita Nextcloudin käyttäminen",
@@ -67,6 +66,7 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "Käytä tätä linkkiä yhdistääksesi sovellukset ja työpöytäsovelluksen tähän palvelimeen:",
     "Previous" : "Edellinen",
     "Next" : "Seuraava",
-    "Use this URL to connect your clients to this server:" : "Käytä tätä osoitetta yhdistääksesi muut sovelluksesi tähän palvelimeen:"
+    "Use this URL to connect your clients to this server:" : "Käytä tätä osoitetta yhdistääksesi muut sovelluksesi tähän palvelimeen:",
+    "App recommendation: Nextcloud Talk" : "Sovellussuositus: Nextcloud Talk"
 },
 "nplurals=2; plural=(n != 1);");

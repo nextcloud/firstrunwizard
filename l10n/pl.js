@@ -17,8 +17,6 @@ OC.L10N.register(
     "Keep your colleagues and friends in one place without leaking their private info." : "Przechowuj swoich kolegów i przyjaciół w jednym miejscu, nie udostępniając prywatnych informacji.",
     "App recommendation: Nextcloud Mail" : "Zalecana aplikacja: Nextcloud Mail",
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Prosta aplikacja e-mail przyjemnie zintegrowana z plikami, kontaktami i kalendarzem.",
-    "App recommendation: Nextcloud Talk" : "Zalecana aplikacja: Nextcloud Talk",
-    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Udostępnianie ekranu, spotkania i konferencje online - na komputerze i aplikacjach mobilnych.",
     "About" : "O aplikacji",
     "A welcome and introduction wizard for Nextcloud" : "Kreator powitalny i wprowadzający dla Nextcloud",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Aplikacja ta włącza wyskakujące okienko, gdy użytkownik zaloguje się po raz pierwszy do Nextcloud. Wita nowych użytkowników w Nextcloud i zawiera link do standardowej aplikacji desktopowej, aplikacji Android i aplikacji iOS. Okno pokazuje również link do dostępu do Nextcloud przez WebDAV. W dowolnym momencie kreator pierwszego uruchomienia można ponownie otworzyć za pomocą linku \"Informacje\" w menu ustawień.\nKreator pierwszego uruchomienia umożliwia dostosowanie aplikacji do określonych celów projektowych lub do zmiany linków i wiadomości. Utwórz odpowiedni motyw zgodnie z dokumentacją Theming, a zmiany w wyglądzie Wizard ułatwią w jej korzystaniu. Więcej informacji można znaleźć w dokumentacji kreatora pierwszego uruchomienia, a także w dokumentacji kompozycji.",
@@ -72,6 +70,8 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "Użyj tego linku, aby podłączyć swoje aplikacje i klienta desktopowego do tego serwera:",
     "Previous" : "Poprzedni",
     "Next" : "Następny",
-    "Use this URL to connect your clients to this server:" : "Użyj tego adresu URL, aby podłączyć klientów do tego serwera:"
+    "Use this URL to connect your clients to this server:" : "Użyj tego adresu URL, aby podłączyć klientów do tego serwera:",
+    "App recommendation: Nextcloud Talk" : "Zalecana aplikacja: Nextcloud Talk",
+    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Udostępnianie ekranu, spotkania i konferencje online - na komputerze i aplikacjach mobilnych."
 },
 "nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);");

@@ -17,8 +17,6 @@ OC.L10N.register(
     "Keep your colleagues and friends in one place without leaking their private info." : "個人情報を漏らさずに、同僚や友人をまとめて保管します。",
     "App recommendation: Nextcloud Mail" : "アプリのおすすめ：Nextcloudメール",
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "ファイル、連絡先、カレンダーとうまく合わさったシンプルなメールアプリ。",
-    "App recommendation: Nextcloud Talk" : "アプリのおすすめ：Nextcloudトーク",
-    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "スクリーン共有、オンライン会議、およびWeb会議 - デスクトップ上およびモバイルのアプリ",
     "About" : "バージョン情報",
     "A welcome and introduction wizard for Nextcloud" : "Nextcloud のウェルカム＆紹介ウィザード",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "このアプリによって、ユーザーが初めてNextcloudにログインしたときのポップアップウィンドウが有効になります。このウィンドウにはNextcloudへの新規ユーザー歓迎の挨拶、デスクトップクライアント・Androidアプリ・iOSアプリへのリンクが含まれます。また、WebDAVを介してNextcloudにアクセスするためのリンクも表示されます。初回実行ウィザードは設定メニューの \"About\"のリンクからいつでも開くことができます。\n初回実行ウィザードは、特定の設計目標を満たすため、またはリンクとメッセージを変更するためにカスタマイズできます。テーマのドキュメントに従って適切なテーマを作成すると、このウィザードの外観を簡単に変更できます。詳細については、初回実行ウィザードのドキュメントおよびテーマ設定のドキュメントを参照してください。",
@@ -71,6 +69,8 @@ OC.L10N.register(
     "Server address" : "サーバーアドレス",
     "Previous" : "前へ",
     "Next" : "次へ",
-    "Use this URL to connect your clients to this server:" : "このサーバーにクライアントを接続するにはこのURLを使用してください:"
+    "Use this URL to connect your clients to this server:" : "このサーバーにクライアントを接続するにはこのURLを使用してください:",
+    "App recommendation: Nextcloud Talk" : "アプリのおすすめ：Nextcloudトーク",
+    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "スクリーン共有、オンライン会議、およびWeb会議 - デスクトップ上およびモバイルのアプリ"
 },
 "nplurals=1; plural=0;");
