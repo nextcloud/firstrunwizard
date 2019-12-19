@@ -81,17 +81,17 @@ class Application extends App {
 			if ($config->getUserValue($user->getUID(), 'firstrunwizard', 'show', '1') !== '0') {
 				\OC_Util::addScript('firstrunwizard', 'activate');
 
-				/** @var IInitialStateService $initialState */
-				$initialState = $server->query(IInitialStateService::class);
-				$initialState->provideLazyInitialState('firstrunwizard', 'hasVideo', function () use ($server) {
-					$userHome = $server->getUserFolder();
-					return $userHome->nodeExists('/Nextcloud intro.mp4');
-				});
-
 				$jobList = $this->getContainer()->getServer()->getJobList();
 				$jobList->add('OCA\FirstRunWizard\Notification\BackgroundJob', ['uid' => $userSession->getUser()->getUID()]);
 			}
 			$appHint->sendAppHintNotifications();
+
+			/** @var IInitialStateService $initialState */
+			$initialState = $server->query(IInitialStateService::class);
+			$initialState->provideLazyInitialState('firstrunwizard', 'hasVideo', function () use ($server) {
+				// currently unused but let's keep this for now as it might be used later for theming
+				return true;
+			});
 		});
 	}
 

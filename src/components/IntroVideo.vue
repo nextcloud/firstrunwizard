@@ -33,13 +33,13 @@
 </template>
 
 <script>
-import { generateFilePath, generateRemoteUrl } from '@nextcloud/router'
+import { generateFilePath } from '@nextcloud/router'
 
 export default {
 	name: 'IntroVideo',
 	data() {
 		return {
-			videoMp4: generateRemoteUrl('webdav') + 'Nextcloud%20intro.mp4',
+			videoMp4: generateFilePath('firstrunwizard', 'img', 'Nextcloud.mp4'),
 			videoWebm: generateFilePath('firstrunwizard', 'img', 'Nextcloud.webm'),
 		}
 	},

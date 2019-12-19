@@ -364,7 +364,7 @@ export default {
 	data() {
 		return {
 			showModal: false,
-			withIntro: false,
+			withIntro: true,
 			hasVideo,
 			slides: [],
 			currentSlide: 0,
@@ -416,7 +416,7 @@ export default {
 				console.error('Failed to load slides')
 			}
 		},
-		async open(withIntro = false) {
+		async open(withIntro = true) {
 			await this.loadStaticSlides()
 			this.withIntro = withIntro
 			this.showModal = true
