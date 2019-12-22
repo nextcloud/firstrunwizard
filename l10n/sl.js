@@ -3,6 +3,7 @@ OC.L10N.register(
     {
     "Copy to clipboard" : "Kopiraj v odložišče",
     "Copied!" : "Kopirano!",
+    "Not supported!" : "Opravilo ni podprto!",
     "Press ⌘-C to copy." : "Pritisni ⌘-C za kopiranje.",
     "Press Ctrl-C to copy." : "Pritisnite Ctrl-C za kopiranje.",
     "First run wizard" : "Čarovnik prvega zagona",
@@ -23,6 +24,9 @@ OC.L10N.register(
     "User manual" : "Uporabniški priročnik",
     "Admin manual" : "Skrbniški priročnik",
     "Developer manual" : "Priročnik za razvijalce",
-    "Server address" : "Naslov strežnika"
+    "A safe home for all your data" : "varno okolje za vse vaše podatke",
+    "Server address" : "Naslov strežnika",
+    "Previous" : "Predhodna",
+    "Next" : "Naprej"
 },
 "nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);");

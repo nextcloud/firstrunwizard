@@ -1,6 +1,7 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "Copy to clipboard" : "Копирай",
     "Copied!" : "Копирано!",
     "Not supported!" : "Не се поддържа!",
     "Press ⌘-C to copy." : "За копиране натиснете ⌘-C.",
