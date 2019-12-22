@@ -1,4 +1,9 @@
 { "translations": {
+    "Copy to clipboard" : "Másolás vágólapra",
+    "Copied!" : "Másolva.",
+    "Not supported!" : "Nem támogatott.",
+    "Press ⌘-C to copy." : "A másoláshoz nyomj ⌘-C-t.",
+    "Press Ctrl-C to copy." : "A másoláshoz nyomj Ctrl-C-t.",
     "First run wizard" : "Első indíráskori varázsló",
     "Add your profile information! For example your email is needed to reset your password." : "Add meg a profil adataidat! Az e-mail címedre pédául jelszó visszaállításkor lehet szükség.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Add meg a profil információidat! Állíts be egy profilképet és teljes nevet az egyszerűbb azonosíthatóságért minden szolgáltatásban.",
@@ -51,6 +56,7 @@
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "A szinkronizációs kliensek beállítása egy <a href=\"%s\">jelszó használatával</a>. Ezzel a módszerrel biztos lehetsz benne, hogy le tudod tiltani a hozzáférést ha elveszted azt az eszközt.",
     "Connect other apps to %s" : "Csatlakoztass más alkalmazást a %s-hoz",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "A szinkronizációs kliensek használatával hozzácsatlakozhatsz bármilyen egyéb alkalmazáshoz ami támogatja a WebDAV/CalDAV/CardDAV protokolokat a %s-hoz.",
+    "Server address" : "Kiszolgálócím",
     "Previous" : "Előző",
     "Next" : "Következő",
     "App recommendation: Nextcloud Talk" : "Alkalmazásjavaslat: Nextcloud Beszélgetés"

@@ -4,6 +4,8 @@ OC.L10N.register(
     "Copy to clipboard" : "انسخه إلى الحافظة",
     "Copied!" : "تم نسخه!",
     "Not supported!" : "غير مدعوم!",
+    "Press ⌘-C to copy." : "إضغط ⌘-C للنسخ",
+    "Press Ctrl-C to copy." : "إضغط Ctrl-C للنسخ.",
     "First run wizard" : "دليل التشغيل لأول مرة",
     "About" : "عن",
     "Start using Nextcloud" : "اشرع في استخدام ناكست كلاود",
