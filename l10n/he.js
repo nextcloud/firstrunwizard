@@ -1,6 +1,11 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "Copy to clipboard" : "העתקה ללוח הגזירים",
+    "Copied!" : "הועתק!",
+    "Not supported!" : "אין תמיכה!",
+    "Press ⌘-C to copy." : "‎⌘-C להעתקה.",
+    "Press Ctrl-C to copy." : "Ctrl-C להעתקה.",
     "First run wizard" : "אשף ההפעלה הראשונית",
     "Add your profile information! For example your email is needed to reset your password." : "נא להוסיף את פרטי הפרופיל שלך! למשל, כתובת הדוא״ל שלך נחוצה לטובת איפוס הססמה שלך.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "נא להוסיף את פרטי הפרופיל שלך! ניתן להגדיר תמונת פרופיל ושם מלא לצורך זיהוי פשוט יותר בין כל התכונות השונות.",
@@ -47,6 +52,7 @@ OC.L10N.register(
     "100%% Open Source & community-focused" : "100%% קוד פתוח ומוכוון קהילה",
     "Learn more about %s" : "מידע נוסף על %s",
     "Connect other apps to %s" : "חיבור של יישומונים אחרים אל %s",
+    "Server address" : "כתובת שרת",
     "Previous" : "הקודם",
     "Next" : "הבא"
 },

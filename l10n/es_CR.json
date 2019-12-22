@@ -1,4 +1,9 @@
 { "translations": {
+    "Copy to clipboard" : "Copiar al portapapeles",
+    "Copied!" : "¡Copiado!",
+    "Not supported!" : "¡No soportado!",
+    "Press ⌘-C to copy." : "Presiona ⌘-C para copiar.",
+    "Press Ctrl-C to copy." : "Presiona Ctrl-C para copiar.",
     "First run wizard" : "Asistente de Ejecución Inicial",
     "Add your profile information! For example your email is needed to reset your password." : "¡Agregua tu información de perfil! Por ejemplo tu correo electrónico es necesario para restablecer tu contraseña.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "¡Agregua tu información de perfil! Establece una imagen de perfil y nombre completo para reconocerte más fácilmente entre todas las funcionalidades. ",
@@ -35,6 +40,7 @@
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "¿Desas tener alguna mejora específica en Nextcloud? ¿Encontraste aglún problema? ¿Quieres ayudarnos a traducir, promover o documentar Nextcloud?",
     "Enterprise support" : "Soporte empresarial",
     "Get enterprise support" : "Obten soporte empresarial",
+    "A safe home for all your data" : "Un lugar seguro para todos tus datos",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud deja tus datos a tu alcance, bajo tu control. Almacena tus documentos, calendario, contactos y fotografías en un servidor de tu compañia, en casa, con uno de nuestros proveedores o en un centro de datos que conozcas. ",
     "Open Standards and Interoperability" : "Estándares Abiertos e Interoperabilidad",
     "100%% Open Source & community-focused" : "100%% Código Abierto & orientado a la comunidad",
@@ -42,6 +48,7 @@
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s te da acceso a tus archivos donde te encuentres. Nuestros clientes intuitivos para escritorio y móviles estan disponibles para la mayoria de las plataformas sin costo alguno. ",
     "Connect other apps to %s" : "Conectar otras aplicaciones a %s",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Además tu los clientes de sincronización puedes conectar cualquier otro software que soporte los protocolos WebDAV/CalDAV/CardDAV a %s.",
+    "Server address" : "Dirección del servidor",
     "Previous" : "Previo",
     "Next" : "Siguiente"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
