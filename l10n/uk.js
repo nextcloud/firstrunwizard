@@ -1,6 +1,10 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "Copied!" : "Скопійовано!",
+    "Not supported!" : "Не підтримується!",
+    "Press ⌘-C to copy." : "Натисніть ⌘-C щоб скопіювати.",
+    "Press Ctrl-C to copy." : "Натисніть Ctrl-C щоб скопіювати.",
     "First run wizard" : "Майстер першого запуску",
     "Add your profile information! For example your email is needed to reset your password." : "Додайте інформацію в свій профіль! Наприклад, ваша електронна пошта необхідна для скидання пароля.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Додайте інформацію в свій профіль! Встановіть зображення профілю та повне ім'я для полегшення розпізнавання у всіх функціях.",
@@ -11,6 +15,10 @@ OC.L10N.register(
     "Android app" : "Android-додаток",
     "iOS app" : "iOS додаток",
     "Connect your desktop apps to %s" : "Під'єднати ваші додатки до %s",
-    "Access files via WebDAV" : "Доступ до файлів за допомогою WebDAV"
+    "Access files via WebDAV" : "Доступ до файлів за допомогою WebDAV",
+    "A safe home for all your data" : "Безпечний дім для Ваших даних",
+    "Server address" : "Адреса сервера",
+    "Previous" : "Попередній",
+    "Next" : "Наступний"
 },
 "nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);");

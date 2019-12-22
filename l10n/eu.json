@@ -9,6 +9,10 @@
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Gehitu zure informazio-profila! Ezarri profileko argazkia eta izena, ezaugarri guztietan aitorpena errazago egiteko.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Gehitu zure informazio-profila! Ezarri izena, ezaugarri guztietan aitorpena errazago egiteko.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Gehitu zure informazio-profila! Ezarri profileko argazkia, ezaugarri guztietan aitorpena errazago egiteko.",
+    "Schedule work & meetings, synced with all your devices." : "Antolatu lana eta bilerak, zure gailu guztiekin sinkronizatuta.",
+    "Keep your colleagues and friends in one place without leaking their private info." : "Eduki zure lankide eta lagun guztiak leku bakarrean, beren informazioa pribatu mantenduz.",
+    "Simple email app nicely integrated with Files, Contacts and Calendar." : "Fitxategiak, Kontaktuak eta Egutegiarekin integratutako posta elektronikoko aplikazio soila.",
+    "About" : "Honi buruz",
     "Stay in sync" : "Mantendu sinkronizatuta",
     "Get the apps to sync your files" : "Lortu aplikazioak zure fitxategiak sinkronizatzeko",
     "Desktop client" : "Mahaigaineko bezeroa",
@@ -19,7 +23,10 @@
     "User manual" : "Erabiltzailearen manuala",
     "Admin manual" : "Administratzailearen manuala",
     "Developer manual" : "Garatzailearen manuala",
+    "A safe home for all your data" : "Toki seguru bat zure datu guztientzat",
+    "Server address" : "Zerbitzariaren helbidea",
     "Previous" : "Aurrekoa",
-    "Next" : "Hurrengoa"
+    "Next" : "Hurrengoa",
+    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Pantaila partekatzea, lineako bilerak eta web konferentziak – mahaigainekoan eta mugikorreko aplikazioekin."
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

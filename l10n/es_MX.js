@@ -1,6 +1,11 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "Copy to clipboard" : "Copiar al portapapeles",
+    "Copied!" : "¡Copiado!",
+    "Not supported!" : "¡No soportado!",
+    "Press ⌘-C to copy." : "Presione ⌘-C para copiar.",
+    "Press Ctrl-C to copy." : "Presione Ctrl-C para copiar.",
     "First run wizard" : "Asistente de Ejecución Inicial",
     "Add your profile information! For example your email is needed to reset your password." : "¡Agregua tu información de perfil! Por ejemplo tu correo electrónico es necesario para restablecer tu contraseña.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "¡Agregua tu información de perfil! Establece una imagen de perfil y nombre completo para reconocerte más fácilmente entre todas las funcionalidades. ",
@@ -52,6 +57,7 @@ OC.L10N.register(
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s te da acceso a tus archivos donde te encuentres. Nuestros clientes intuitivos para escritorio y móviles estan disponibles para la mayoria de las plataformas sin costo alguno. ",
     "Connect other apps to %s" : "Conectar otras aplicaciones a %s",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Además tu los clientes de sincronización puedes conectar cualquier otro software que soporte los protocolos WebDAV/CalDAV/CardDAV a %s.",
+    "Server address" : "Dirección del servidor",
     "Previous" : "Previo",
     "Next" : "Siguiente"
 },

@@ -1,6 +1,11 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "Copy to clipboard" : "Kopiert til utklippstavlen",
+    "Copied!" : "Kopiert!",
+    "Not supported!" : "Ikke støttet!",
+    "Press ⌘-C to copy." : "Trykk ⌘-C for å kopiere.",
+    "Press Ctrl-C to copy." : "Trykk Ctrl-C for å kopiere.",
     "First run wizard" : "Førstegangsveiviser",
     "Add your profile information! For example your email is needed to reset your password." : "Legg til informasjon i profilen din! For eksempel så trenger vi e-postadressen for å kunne tilbakestille passordet ditt.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Legg til din profilinformasjon. Velg et profilbilde og fullt navn for enklere gjenkjenning på tvers av alle funksjoner.",
@@ -40,6 +45,7 @@ OC.L10N.register(
     "A safe home for all your data" : "Et trygt hjem for alle data",
     "Learn more about %s" : "Lær mer om %s",
     "Connect other apps to %s" : "Koble andre apper til %s",
+    "Server address" : "Serveradresse",
     "Previous" : "Forrige",
     "Next" : "Neste"
 },

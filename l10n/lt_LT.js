@@ -4,6 +4,8 @@ OC.L10N.register(
     "Copy to clipboard" : "Kopijuoti į iškarpinę",
     "Copied!" : "Nukopijuota!",
     "Not supported!" : "Nepalaikoma!",
+    "Press ⌘-C to copy." : "Norėdami nukopijuoti, paspauskite ⌘-C.",
+    "Press Ctrl-C to copy." : "Paspauskite Vald-C, norėdami nukopijuoti.",
     "First run wizard" : "Pirmojo paleidimo vediklis",
     "Add your profile information! For example your email is needed to reset your password." : "Pridėkite savo profilio informaciją! Pavyzdžiui, jūsų el. paštas yra reikalingas, norint atstatyti savo slaptažodį.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Papildykite profilį informacija! Pasirinkite paveikslėlį, nurodykite vardą, pavardę, kad lengviau būtumėte atpažinti šioje platformoje.",
