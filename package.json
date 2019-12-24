@@ -40,7 +40,7 @@
 		"eslint-plugin-standard": "^4.0.1",
 		"eslint-plugin-vue": "^5.2.3",
 		"eslint-config-nextcloud": "^0.1.0",
-		"file-loader": "^3.0.1",
+		"file-loader": "^5.0.2",
 		"node-sass": "^4.13.0",
 		"sass-loader": "^7.1.0",
 		"url-loader": "^1.1.2",
