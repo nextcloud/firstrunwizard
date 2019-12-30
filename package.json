@@ -17,7 +17,7 @@
 		"@nextcloud/initial-state": "^0.2.0",
 		"@nextcloud/router": "^1.0.0",
 		"@nextcloud/vue": "^1.2.2",
-		"vue": "^2.6.10"
+		"vue": "^2.6.11"
 	},
 	"browserslist": [
 		"last 2 versions",
@@ -46,7 +46,7 @@
 		"url-loader": "^1.1.2",
 		"vue-loader": "^15.7.0",
 		"vue-style-loader": "^4.1.2",
-		"vue-template-compiler": "^2.6.10",
+		"vue-template-compiler": "^2.6.11",
 		"webpack": "^4.41.5",
 		"webpack-cli": "^3.3.10",
 		"webpack-merge": "^4.2.2"
