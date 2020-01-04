@@ -22,6 +22,7 @@ OC.L10N.register(
     "Download macOS/iOS configuration profile" : "Transferir perfil de configuração de macOS/iOS",
     "A safe home for all your data" : "Um local seguro para todos os seus dados",
     "Server address" : "Endereço do servidor",
+    "Copy link" : "Copiar hiperligação",
     "Previous" : "Anterior",
     "Next" : "Próximo"
 },

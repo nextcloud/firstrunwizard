@@ -9,6 +9,7 @@ OC.L10N.register(
     "Connect your desktop apps to %s" : "Connectatz vòstras aplicacions de burèu a %s",
     "Access files via WebDAV" : "Accedissètz a vòstres fichièrs via WebDAV",
     "Server address" : "Adreça del servidor",
+    "Copy link" : "Copiar lo ligam",
     "Previous" : "Precedent",
     "Next" : "Seguent"
 },

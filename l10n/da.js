@@ -32,6 +32,7 @@ OC.L10N.register(
     "Learn more about %s" : "Lær mere om %s",
     "Connect other apps to %s" : "Forbind andre apps til %s",
     "Server address" : "Serveradresse",
+    "Copy link" : "Kopier link",
     "Previous" : "Forrige",
     "Next" : "Næste"
 },

@@ -57,12 +57,13 @@ OC.L10N.register(
     "100%% Open Source & community-focused" : "Malfermita kodo kaj bazita sur la komunumo je 100 %%",
     "Learn more about %s" : "Scii pli pri %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s donas al vi aliron al ĉiuj viaj dosieroj, kie ajn vi estas. Niaj faciluzaj klientoj labortabla kaj portebla ekzistas por ĉiuj ĉefaj platformoj senpage.",
-    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Agordi sinkronigajn klientojn uzante <a href=\"%s\">aplikaĵan pasvorton</a>. Tiel, vi povos senvalidigi aliron, okaze de perdo de tiu aparato.",
     "Connect other apps to %s" : "Konekti aliajn aplikaĵojn al %s",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Krom la sinkronigaj klientoj, vi povas konekti aliajn programojn, kiuj subtenas la protokolojn WebDAV, CalDAV kaj CardDAV, al %s.",
     "Server address" : "Servila adreso",
+    "Copy link" : "Kopii ligilon",
     "Previous" : "Antaŭa",
     "Next" : "Sekva",
+    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Agordi sinkronigajn klientojn uzante <a href=\"%s\">aplikaĵan pasvorton</a>. Tiel, vi povos senvalidigi aliron, okaze de perdo de tiu aparato.",
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Krom la sinkronigaj klientoj, vi povas konekti aliajn programojn, kiuj subtenas la protokolojn WebDAV, CalDAV kaj CardDAV, al %s.",
     "Use this URL to connect your clients to this server:" : "Uzu tiun adreson por konekti viajn klientojn al tiu servilo:"
 },
 "nplurals=2; plural=(n != 1);");
