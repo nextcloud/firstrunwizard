@@ -31,6 +31,7 @@ OC.L10N.register(
     "Developer manual" : "Garatzailearen manuala",
     "A safe home for all your data" : "Toki seguru bat zure datu guztientzat",
     "Server address" : "Zerbitzariaren helbidea",
+    "Copy link" : "Kopiatu esteka",
     "Previous" : "Aurrekoa",
     "Next" : "Hurrengoa",
     "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Pantaila partekatzea, lineako bilerak eta web konferentziak – mahaigainekoan eta mugikorreko aplikazioekin."

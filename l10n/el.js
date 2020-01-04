@@ -36,6 +36,7 @@ OC.L10N.register(
     "A safe home for all your data" : "Μια ασφαλής τοποθεσία για όλα σας τα δεδομένα",
     "Connect other apps to %s" : "Σύνδεση άλλων εφαρμογών στο %s",
     "Server address" : "Διεύθυνση διακομιστή",
+    "Copy link" : "Αντιγραφή συνδέσμου",
     "Previous" : "Προηγούμενο",
     "Next" : "Επόμενο",
     "App recommendation: Nextcloud Talk" : "Προτεινόμενη εφαρμογή: Nextclound Ομιλία",

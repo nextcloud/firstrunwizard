@@ -57,13 +57,14 @@
     "100%% Open Source & community-focused" : "100%% avointa lähdekoodia ja yhteisökeskeisyyttä",
     "Learn more about %s" : "Lisätietoja - %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s mahdollistaa pääsyn tiedostoihisi missä hyvänsä oletkin. Hellpokäyttöiset työpöytä- ja mobiilisovellukset ovat saatavilla kaikille suurimmille alustoille veloituksetta.",
-    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Määritä synkronointi käyttäen <a href=\"%s\">sovelluskohtaisia salasanoja</a>. Näin voit kumota käyttöoikeuden, jos satut esimerkiksi kadottamaan tietyn laitteesi.",
     "Connect other apps to %s" : "Yhdistä muita sovelluksia %siin",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Synkronointisovellusten lisäksi voit yhdistää minkä tahansa WebDAV-, CalDAV- ja CardDAV-yhteyskäytäntöjä tukevan ohjelmiston %siin.",
     "Server address" : "Palvelimen osoite",
     "Use this link to connect your apps and desktop client to this server:" : "Käytä tätä linkkiä yhdistääksesi sovellukset ja työpöytäsovelluksen tähän palvelimeen:",
+    "Copy link" : "Kopioi linkki",
     "Previous" : "Edellinen",
     "Next" : "Seuraava",
+    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Määritä synkronointi käyttäen <a href=\"%s\">sovelluskohtaisia salasanoja</a>. Näin voit kumota käyttöoikeuden, jos satut esimerkiksi kadottamaan tietyn laitteesi.",
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Synkronointisovellusten lisäksi voit yhdistää minkä tahansa WebDAV-, CalDAV- ja CardDAV-yhteyskäytäntöjä tukevan ohjelmiston %siin.",
     "Use this URL to connect your clients to this server:" : "Käytä tätä osoitetta yhdistääksesi muut sovelluksesi tähän palvelimeen:",
     "App recommendation: Nextcloud Talk" : "Sovellussuositus: Nextcloud Talk"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"

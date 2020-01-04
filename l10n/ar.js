@@ -27,6 +27,7 @@ OC.L10N.register(
     "Become part of the Community" : "اصبح عضوا في المجتمع",
     "A safe home for all your data" : "المكان الآمن لكافة بياناتكم",
     "Server address" : "عنوان الخادم",
+    "Copy link" : "انسخ الرابط",
     "Previous" : "السابق",
     "Next" : "التالي"
 },

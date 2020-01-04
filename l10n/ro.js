@@ -15,6 +15,7 @@ OC.L10N.register(
     "A safe home for all your data" : "O casă sigură pentru toate datele tale",
     "Learn more about %s" : "Află mai multe despre %s",
     "Server address" : "Adresă server",
+    "Copy link" : "Copiză link",
     "Previous" : "Anterior",
     "Next" : "Următorul"
 },

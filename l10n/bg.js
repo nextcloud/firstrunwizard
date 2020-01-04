@@ -56,11 +56,12 @@ OC.L10N.register(
     "100%% Open Source & community-focused" : "100%% Отворен код и фокус към общността",
     "Learn more about %s" : "Научете повече за %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s ви дава достъп до вашите файлове независимо къде се намирате. Нашите лесни за ползване клиентски приложения са достъпни на всички основни платформи, абсолютно безплатно.",
-    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Свържете приложение за синхронизация чрез<a href=\"%s\"> парола за приложения </a>. Така ще можете да отнемете достъпа, в случай, че загубите устройството.",
     "Connect other apps to %s" : "Свързване на други приложения с %s",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Освен чрез приложенията за синхронизация, можете да свържете всеки друг софтуер, който поддържа протоколите WebDAV/CalDAV/CardDAV %s",
     "Server address" : "Адрес на сървъра",
+    "Copy link" : "Копирай връзката",
     "Previous" : "Назад",
-    "Next" : "Напред >"
+    "Next" : "Напред >",
+    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Свържете приложение за синхронизация чрез<a href=\"%s\"> парола за приложения </a>. Така ще можете да отнемете достъпа, в случай, че загубите устройството.",
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Освен чрез приложенията за синхронизация, можете да свържете всеки друг софтуер, който поддържа протоколите WebDAV/CalDAV/CardDAV %s"
 },
 "nplurals=2; plural=(n != 1);");

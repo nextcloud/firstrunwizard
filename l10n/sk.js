@@ -57,6 +57,7 @@ OC.L10N.register(
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s vám umožňuje pristupovať k svojim súborom nech ste kdekoľvek. Naši ľahko použiteľní klienti pre počítače a mobilní klienti sú k dispozícii pre všetky hlavné platformy úplne zadarmo!",
     "Connect other apps to %s" : "Pripojte iné aplikácie do %s",
     "Server address" : "Adresa servera",
+    "Copy link" : "Kopíruj odkaz",
     "Previous" : "Predchádzajúce",
     "Next" : "Ďalšie",
     "Use this URL to connect your clients to this server:" : "Pre pripojenie klientov k serveru použite túto adresu URL:",

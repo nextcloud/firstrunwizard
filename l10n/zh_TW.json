@@ -31,9 +31,10 @@
     "A safe home for all your data" : "您資料的安全屋",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s 讓您不管身在何處都可以存取您的檔案，我們免費提供各大主要平臺上簡單易用的桌面和行動裝置客戶端",
     "Connect other apps to %s" : "連結其他應用程式到 %s",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "除了以上這些同步客戶端，你也可以使用任何 WebDAV/CalDAV/CardDAV 相容的軟體來連結到 %s",
     "Server address" : "伺服器位址",
+    "Copy link" : "複製連結",
     "Previous" : "上一步",
-    "Next" : "下一個"
+    "Next" : "下一個",
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "除了以上這些同步客戶端，你也可以使用任何 WebDAV/CalDAV/CardDAV 相容的軟體來連結到 %s"
 },"pluralForm" :"nplurals=1; plural=0;"
 }
