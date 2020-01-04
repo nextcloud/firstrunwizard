@@ -54,12 +54,13 @@
     "100%% Open Source & community-focused" : "100%% opinn hugbúnaður (open source) með áherslu á samfélagið",
     "Learn more about %s" : "Vita meira um %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s veitir þér aðgang að skránum þínum hvar sem þú ert. Tengiforritin okkar fyrir tölvur og snjalltæki eru fáanleg fyrir flest algengustu stýrikerfi án nokkurs kostnaðar.",
-    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Settu upp samstillingarbiðlara með <a href=\"%s\">lykilorði forrits</a>. Þannig geturðu verið viss um að geta afturkallað aðgangsheimildir fari svo að þú tapir því tæki.",
     "Connect other apps to %s" : "Tengdu önnur forrit við %s",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Fyrir utan samstillingaforritin geturðu tengt hvert það forrit sem styður WebDAV/CalDAV/CardDAV samskiptamátana við %s.",
     "Server address" : "Vistfang þjóns",
+    "Copy link" : "Afrita tengil",
     "Previous" : "Fyrra",
     "Next" : "Næsta",
+    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Settu upp samstillingarbiðlara með <a href=\"%s\">lykilorði forrits</a>. Þannig geturðu verið viss um að geta afturkallað aðgangsheimildir fari svo að þú tapir því tæki.",
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Fyrir utan samstillingaforritin geturðu tengt hvert það forrit sem styður WebDAV/CalDAV/CardDAV samskiptamátana við %s.",
     "Use this URL to connect your clients to this server:" : "Notaðu þessa slóð fyrir forritin þín til að tengjast þessum þjóni:"
 },"pluralForm" :"nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);"
 }

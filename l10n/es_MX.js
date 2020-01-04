@@ -56,9 +56,10 @@ OC.L10N.register(
     "Learn more about %s" : "Más información de %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s te da acceso a tus archivos donde te encuentres. Nuestros clientes intuitivos para escritorio y móviles estan disponibles para la mayoria de las plataformas sin costo alguno. ",
     "Connect other apps to %s" : "Conectar otras aplicaciones a %s",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Además tu los clientes de sincronización puedes conectar cualquier otro software que soporte los protocolos WebDAV/CalDAV/CardDAV a %s.",
     "Server address" : "Dirección del servidor",
+    "Copy link" : "Copiar liga",
     "Previous" : "Previo",
-    "Next" : "Siguiente"
+    "Next" : "Siguiente",
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Además tu los clientes de sincronización puedes conectar cualquier otro software que soporte los protocolos WebDAV/CalDAV/CardDAV a %s."
 },
 "nplurals=2; plural=(n != 1);");

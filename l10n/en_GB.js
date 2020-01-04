@@ -56,11 +56,12 @@ OC.L10N.register(
     "100%% Open Source & community-focused" : "100%% Open Source & community-focused",
     "Learn more about %s" : "Learn more about %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost.",
-    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device.",
     "Connect other apps to %s" : "Connect other apps to %s",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s.",
     "Server address" : "Server address",
+    "Copy link" : "Copy link",
     "Previous" : "Previous",
-    "Next" : "Next"
+    "Next" : "Next",
+    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device.",
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s."
 },
 "nplurals=2; plural=(n != 1);");

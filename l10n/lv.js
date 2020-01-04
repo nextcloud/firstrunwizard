@@ -16,6 +16,7 @@ OC.L10N.register(
     "Access files via WebDAV" : "Piekļūt datnēm caur WebDAV",
     "A safe home for all your data" : "Droša vieta visiem jūsu datiem",
     "Server address" : "Servera adrese",
+    "Copy link" : "Kopēt saiti",
     "Previous" : "Iepriekšējā",
     "Next" : "Nākamā"
 },

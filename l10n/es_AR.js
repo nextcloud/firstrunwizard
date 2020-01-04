@@ -20,6 +20,7 @@ OC.L10N.register(
     "Access files via WebDAV" : "Acceda a sus archivos vía WebDAV",
     "A safe home for all your data" : "Un hogar seguro para todos tus datos.",
     "Server address" : "Dirección del servidor",
+    "Copy link" : "Copiar enlace",
     "Previous" : "Anterior",
     "Next" : "Siguiente"
 },

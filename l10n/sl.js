@@ -26,6 +26,7 @@ OC.L10N.register(
     "Developer manual" : "Priročnik za razvijalce",
     "A safe home for all your data" : "varno okolje za vse vaše podatke",
     "Server address" : "Naslov strežnika",
+    "Copy link" : "Kopiraj povezavo",
     "Previous" : "Predhodna",
     "Next" : "Naprej"
 },

@@ -51,6 +51,7 @@
     "Learn more about %s" : "מידע נוסף על %s",
     "Connect other apps to %s" : "חיבור של יישומונים אחרים אל %s",
     "Server address" : "כתובת שרת",
+    "Copy link" : "העתקת קישור",
     "Previous" : "הקודם",
     "Next" : "הבא"
 },"pluralForm" :"nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;"
