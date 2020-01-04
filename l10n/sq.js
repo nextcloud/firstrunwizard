@@ -22,6 +22,7 @@ OC.L10N.register(
     "Access files via WebDAV" : "Hyni në kartela përmes WebDAV-it",
     "A safe home for all your data" : "Një shtëpi e sigurt për të dhënat e tua",
     "Server address" : "Adresa e serverit",
+    "Copy link" : "Kopjo linkun",
     "Previous" : "I mëparshëm",
     "Next" : "Tjetër"
 },

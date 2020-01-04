@@ -14,6 +14,7 @@ OC.L10N.register(
     "Access files via WebDAV" : "دسترسی فایل ها از طریق WebDAV",
     "A safe home for all your data" : "یک خانه امن برای تمام اطلاعات شما",
     "Server address" : "آدرس سرور",
+    "Copy link" : "کپی کردن لینک",
     "Previous" : "قبلی",
     "Next" : "بعدی"
 },
