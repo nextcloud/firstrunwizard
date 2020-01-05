@@ -18,6 +18,7 @@ OC.L10N.register(
     "Connect your desktop apps to %s" : "Connecte tu application de scriptorio a %s",
     "Access files via WebDAV" : "Accede a files via WebDAV",
     "Server address" : "Adresse de servitor",
+    "Copy link" : "Copiar ligamine",
     "Previous" : "Previe",
     "Next" : "Sequente"
 },
