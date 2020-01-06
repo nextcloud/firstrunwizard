@@ -17,6 +17,7 @@ OC.L10N.register(
     "App recommendation: Tasks" : "Programėlės rekomendacija: Nextcloud užduotys",
     "App recommendation: Deck" : "Programėlės rekomendacija: Nextcloud darbai",
     "App recommendation: Notes" : "Programėlės rekomendacija: Nextcloud užrašai",
+    "Nextcloud becomes part of the federated social networks." : "Nextcloud tampa federacinių socialinių tinklų dalimi.",
     "About" : "Apie",
     "A welcome and introduction wizard for Nextcloud" : "Pasisveikinimo ir pristatymo vediklis, skirtas Nextcloud",
     "Start using Nextcloud" : "Pradėti naudotis Nextcloud",
