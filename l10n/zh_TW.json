@@ -9,6 +9,9 @@
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "加入您的個人資訊吧，例如加入大頭貼照和全名可以讓您在各種功能的界面當中快速被找到",
     "Add your profile information! Set a full name for easier recognition across all features." : "加入您的個人資訊吧，例如加入全名可以讓您在各種功能的界面當中快速被找到",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "加入您的個人資訊吧，例如加入大頭貼照可以讓您在各種功能的界面當中快速被找到",
+    "Schedule work & meetings, synced with all your devices." : "排定工作和會議時間，並與您的所有裝置同步",
+    "Keep your colleagues and friends in one place without leaking their private info." : "將您的同事和朋友的聯繫整合在一處，且不洩漏他們的個人資訊",
+    "Simple email app nicely integrated with Files, Contacts and Calendar." : "簡潔的電子郵件應用程式，與檔案瀏覽器、通訊錄、行事曆完美整合",
     "About" : "關於",
     "A welcome and introduction wizard for Nextcloud" : "Nextcloud 的歡迎及介紹精靈",
     "Extend your cloud" : "延伸您的雲",
@@ -35,6 +38,7 @@
     "Copy link" : "複製連結",
     "Previous" : "上一步",
     "Next" : "下一個",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "除了以上這些同步客戶端，你也可以使用任何 WebDAV/CalDAV/CardDAV 相容的軟體來連結到 %s"
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "除了以上這些同步客戶端，你也可以使用任何 WebDAV/CalDAV/CardDAV 相容的軟體來連結到 %s",
+    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "螢幕分享和線上會議—支援電腦和手機"
 },"pluralForm" :"nplurals=1; plural=0;"
 }
