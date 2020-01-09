@@ -85,6 +85,6 @@ OC.L10N.register(
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "除了 同步客户端，您还可以将支持 WebDAV / CalDAV / CardDAV 协议的任何其他软件连接到 %s。",
     "Use this URL to connect your clients to this server:" : "使用此URL将您的客户端连接至此服务器：",
     "App recommendation: Nextcloud Talk" : "应用推荐：Nextcloud 通话",
-    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "屏幕共享、在线会议和网络会议 - 使用桌面电脑及移动应用。"
+    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "屏幕共享、线上见面和网络会议 - 使用桌面电脑及移动应用。"
 },
 "nplurals=1; plural=0;");
