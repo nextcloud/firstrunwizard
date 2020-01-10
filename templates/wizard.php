@@ -44,7 +44,7 @@
 			<div><ul class="position-indicator"></ul></div>
 			<div class="next">
 				<button class="primary" id="next"><?php p($l->t('Next')); ?></button>
-				<button class="primary" id="finish"><?php p($l->t('Start using Nextcloud')); ?></button>
+				<button class="primary" id="finish"><?php p($l->t('Start using 'data-title="<?php p($theme->getSlogan())); ?></button>
 			</div>
 		</div>
 	</div>
