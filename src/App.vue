@@ -47,23 +47,6 @@
 			flex-wrap: wrap;
 			margin: auto;
 
-			&.intro {
-				height: 100%;
-				width: 100%;
-				.content {
-					padding: 0;
-					background-image: url('../img/intro.png');
-					background-position: center;
-					background-size: cover;
-					height: 100%;
-					display: flex;
-
-					img {
-						width: 100%;
-					}
-				}
-			}
-
 			h3 {
 				margin: 10px 0 10px;
 				line-height: 120%;
@@ -344,17 +327,8 @@
 <script>
 import Modal from '@nextcloud/vue/dist/Components/Modal'
 import axios from '@nextcloud/axios'
-import { loadState } from '@nextcloud/initial-state'
 import { generateUrl } from '@nextcloud/router'
 import IntroVideo from './components/IntroVideo'
-import IntroImage from './components/IntroImage'
-
-let hasVideo = false
-try {
-	hasVideo = loadState('firstrunwizard', 'hasVideo')
-} catch (e) {
-	// ignore missing initial state
-}
 
 export default {
 	name: 'App',
@@ -365,7 +339,7 @@ export default {
 		return {
 			showModal: false,
 			withIntro: true,
-			hasVideo,
+			hasVideo: true,
 			slides: [],
 			currentSlide: 0,
 			fadeDirection: 'next',
@@ -394,14 +368,7 @@ export default {
 		},
 	},
 	async created() {
-		if (hasVideo) {
-			this.slides = [ IntroVideo ]
-		} else {
-			this.slides = [ IntroImage ]
-			const img = new Image()
-			img.src = require('../img/intro.png')
-			img.onload = () => {}
-		}
+		this.slides = [ IntroVideo ]
 		window.addEventListener('resize', this.onResize)
 	},
 	beforeDestroy() {
