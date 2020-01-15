@@ -18,14 +18,21 @@
     "Connect your contacts" : "Poveži stike",
     "Access files via WebDAV" : "Dostop do datotek prek WebDAV",
     "Get help" : "Poišči pomoč",
+    "Get more information" : "Pridobite več podrobnosti",
     "The Nextcloud documentation for home users:" : "Dokumentacija NextCloud za uporabnike:",
     "User manual" : "Uporabniški priročnik",
     "Admin manual" : "Skrbniški priročnik",
     "Developer manual" : "Priročnik za razvijalce",
+    "You can also ask for help in our community support channels:" : "Pomoč lahko najdete tudi na podpornih kanalih skupnosti:",
+    "the Nextcloud forums" : "na forumih Nextcloud",
+    "the Nextcloud IRC chat channel on freenode.net" : "na klepetalnem kanalu Nextcloud IRC na freenode.net",
+    "Become part of the Community" : "Postanite del skupnosti.",
+    "Enterprise support" : "Podpora za podjetja",
     "A safe home for all your data" : "varno okolje za vse vaše podatke",
+    "100%% Open Source & community-focused" : "100%% odprtokodno in v domeni skupnosti",
     "Server address" : "Naslov strežnika",
     "Copy link" : "Kopiraj povezavo",
-    "Previous" : "Predhodna",
+    "Previous" : "Nazaj",
     "Next" : "Naprej"
 },"pluralForm" :"nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);"
 }
