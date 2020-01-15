@@ -1,6 +1,7 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "Copy to clipboard" : "کپی به کلیپ بورد",
     "Copied!" : "کپی انجام شد!",
     "Not supported!" : "پشتیبانی وجود ندارد!",
     "Press ⌘-C to copy." : "برای کپی کردن از دکمه های C+⌘ استفاده نمایید",
