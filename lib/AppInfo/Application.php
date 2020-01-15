@@ -85,13 +85,6 @@ class Application extends App {
 				$jobList->add('OCA\FirstRunWizard\Notification\BackgroundJob', ['uid' => $userSession->getUser()->getUID()]);
 			}
 			$appHint->sendAppHintNotifications();
-
-			/** @var IInitialStateService $initialState */
-			$initialState = $server->query(IInitialStateService::class);
-			$initialState->provideInitialState('firstrunwizard', 'hasVideo', function () use ($server) {
-				// currently unused but let's keep this for now as it might be used later for theming
-				return true;
-			});
 		});
 	}
 
