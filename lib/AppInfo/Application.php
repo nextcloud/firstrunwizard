@@ -88,7 +88,7 @@ class Application extends App {
 
 			/** @var IInitialStateService $initialState */
 			$initialState = $server->query(IInitialStateService::class);
-			$initialState->provideLazyInitialState('firstrunwizard', 'hasVideo', function () use ($server) {
+			$initialState->provideInitialState('firstrunwizard', 'hasVideo', function () use ($server) {
 				// currently unused but let's keep this for now as it might be used later for theming
 				return true;
 			});
