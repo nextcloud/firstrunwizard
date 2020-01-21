@@ -7,7 +7,7 @@
 	<description>This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link "About" on settings menu.
 The First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation.
 </description>
-	<version>2.7.0</version>
+	<version>2.8.0</version>
 	<licence>agpl</licence>
 	<author>Frank Karlitschek</author>
 	<author>Jan-Christoph Borchardt</author>
@@ -18,7 +18,7 @@ The First run wizard can be customized to meet specific design goals, or to chan
 	<category>tools</category>
 	<default_enable/>
 	<dependencies>
-		<nextcloud min-version="18" max-version="18" />
+		<nextcloud min-version="19" max-version="19" />
 	</dependencies>
 	<navigations>
 		<navigation>
