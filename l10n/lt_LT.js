@@ -52,7 +52,7 @@ OC.L10N.register(
     "The Nextcloud documentation for home users:" : "Nextcloud dokumentacija namų naudotojams:",
     "User manual" : "Naudotojo vadovas",
     "Admin manual" : "Administratoriaus vadovas",
-    "Developer manual" : "Kūrėjo vadovas",
+    "Developer manual" : "Plėtotojo vadovas",
     "You can also ask for help in our community support channels:" : "Taip pat galite prašyti pagalbos mūsų bendruomenės palaikymo kanaluose:",
     "the Nextcloud forums" : "Nextcloud forumuose",
     "the Nextcloud IRC chat channel on freenode.net" : "Nextcloud IRC pokalbių kanale, freenode.net serveryje",
