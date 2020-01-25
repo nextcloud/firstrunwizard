@@ -11,6 +11,7 @@ OC.L10N.register(
     "About" : "O programu",
     "Start using Nextcloud" : "Začnite uporabljati Nextcloud",
     "Extend your cloud" : "Razširite storitve v oblaku",
+    "Communication with Nextcloud Talk" : "Pogovor z uporabo Nextcloud Talk",
     "Get the apps to sync your files" : "Pridobi programe za usklajevanje datotek",
     "Desktop client" : "Odjemalec za namizne računalnike",
     "Android app" : "Odjemalec za Android",
