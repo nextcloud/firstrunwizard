@@ -36,7 +36,7 @@ OC.L10N.register(
     "Groupware apps like Calendar, Contacts, Mail" : "Aplicacións de software colaborativo como Calendario, Contactos, Correo",
     "Communication with Nextcloud Talk" : "Communicación con Nextcloud Talk",
     "Collaboration apps for document editing" : "Aplicacións de colaboración para a edición de documentos",
-    "Security and authentication features like two-factor authentication, SSO and ransomware protection" : "Funcións de seguridade e autenticación como a autenticación de dous factores, protección SSO e «ransomware»",
+    "Security and authentication features like two-factor authentication, SSO and ransomware protection" : "Funcións de seguridade e autenticación como a autenticación de dous factores, protección SSO e programas de secuestro (ransomware)",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Moitos outros como un reprodutor de música, un xestor de contrasinais, unha aplicación kanban, un xestor de descargas ou un editor de markdown",
     "Browse the app store" : "Examinar a tenda de aplicacións",
     "Stay in sync" : "Permaneza sincronizado",
