@@ -56,6 +56,7 @@
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s veitir þér aðgang að skránum þínum hvar sem þú ert. Tengiforritin okkar fyrir tölvur og snjalltæki eru fáanleg fyrir flest algengustu stýrikerfi án nokkurs kostnaðar.",
     "Connect other apps to %s" : "Tengdu önnur forrit við %s",
     "Server address" : "Vistfang þjóns",
+    "Use this link to connect your apps and desktop client to this server:" : "Notaðu þessa slóð fyrir forritin þín til að tengjast þessum þjóni:",
     "Copy link" : "Afrita tengil",
     "Previous" : "Fyrra",
     "Next" : "Næsta",
