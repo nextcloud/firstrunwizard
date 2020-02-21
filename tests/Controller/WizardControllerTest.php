@@ -108,28 +108,46 @@ class WizardControllerTest extends TestCase {
 
 		$this->assertInstanceOf(JSONResponse::class, $response);
 		$this->assertSame(Http::STATUS_OK, $response->getStatus());
-		$this->assertEquals(3, count($response->getData()));
+		$this->assertCount(3, $response->getData());
 	}
 
-	public function testShowAdmin() {
+	/**
+	 * @dataProvider dataShowAdmin
+	 * @param bool $appstoreEnabled
+	 * @param int $expectedSlidesCount
+	 */
+	public function testShowAdmin(bool $appstoreEnabled, int $expectedSlidesCount): void {
 		$controller = $this->getController();
 
-		$this->groupManager->expects($this->once())
-			->method('isAdmin')
-			->willReturn(true);
+		if ($appstoreEnabled) {
+			$this->groupManager->expects($this->once())
+				->method('isAdmin')
+				->willReturn(true);
+		} else {
+			$this->groupManager->expects($this->never())
+				->method('isAdmin');
+		}
+
 		$this->config->expects($this->exactly(4))
 			->method('getSystemValue')
 			->willReturnMap([
 				['customclient_desktop', 'https://nextcloud.com/install/#install-clients', 'https://nextcloud.com/install/#install-clients'],
 				['customclient_android', 'https://play.google.com/store/apps/details?id=com.nextcloud.client', 'https://nextcloud.com/install/#install-clients'],
 				['customclient_ios', 'https://geo.itunes.apple.com/us/app/nextcloud/id1125420102?mt=8', 'https://nextcloud.com/install/#install-clients'],
-				['appstoreenabled', true, true]
+				['appstoreenabled', true, $appstoreEnabled]
 			]);
 
 		$response = $controller->show();
 
 		$this->assertInstanceOf(JSONResponse::class, $response);
 		$this->assertSame(Http::STATUS_OK, $response->getStatus());
-		$this->assertEquals(4, count($response->getData()));
+		$this->assertCount($expectedSlidesCount, $response->getData());
+	}
+
+	public function dataShowAdmin(): array {
+		return [
+			'app store enabled' => [true, 4],
+			'app store disabled' => [false, 3]
+		];
 	}
 }
