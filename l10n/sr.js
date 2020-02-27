@@ -24,7 +24,7 @@ OC.L10N.register(
     "App recommendation: Notes" : "Препоруке апликација: Белешке",
     "Distraction-free notes and writing." : "Белешке и писање без ометања",
     "App recommendation: Social" : "Препоруке апликација: Друштвене мреже",
-    "Nextcloud becomes part of the federated social networks." : "Некстклауд је постао део федерисаних социјалних мрежа.",
+    "Nextcloud becomes part of the federated social networks." : "Некстклауд је постао део федерисаних друштвених мрежа.",
     "App recommendation: Group folders" : "Препоруке апликација: Групне фасцикле",
     "Admin-configured folders shared by everyone in a group." : "Фасцикле видљиве свима у групи, које подешава администратор.",
     "About" : "О програму",
