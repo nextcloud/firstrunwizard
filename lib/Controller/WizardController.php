@@ -74,11 +74,13 @@ class WizardController extends Controller {
 	 * @return JsonResponse
 	 */
 	public function show() {
+		$appStore = $this->config->getSystemValue('appstoreenabled', true);
+
 		$data = [
 			'desktop'      => $this->config->getSystemValue('customclient_desktop', $this->theming->getSyncClientUrl()),
 			'android'      => $this->config->getSystemValue('customclient_android', $this->theming->getAndroidClientUrl()),
 			'ios'          => $this->config->getSystemValue('customclient_ios', $this->theming->getiOSClientUrl()),
-			'appStore'     => $this->config->getSystemValue('appstoreenabled', true),
+			'appStore'     => $appStore,
 			'useTLS'       => $this->request->getServerProtocol() === 'https',
 			'macOSProfile' => \OCP\Util::linkToRemote('dav') . 'provisioning/apple-provisioning.mobileconfig',
 		];
@@ -86,7 +88,7 @@ class WizardController extends Controller {
 		$slides = [
 			$this->staticSlide('page.values', $data)
 		];
-		if ($this->groupManager->isAdmin($this->userId)) {
+		if ($appStore && $this->groupManager->isAdmin($this->userId)) {
 			$slides[] = $this->staticSlide('page.apps', $data);
 		}
 		$slides[] = $this->staticSlide('page.clients', $data);
