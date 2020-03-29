@@ -125,7 +125,7 @@ class ApplicationTest extends TestCase {
 			->method('registerNotifierService')
 			->with(Notifier::class);
 
-		$this->overwriteService('NotificationManager', $manager);
+		$this->overwriteService(IManager::class, $manager);
 		$this->invokePrivate($app, 'registerNotificationNotifier');
 	}
 }
