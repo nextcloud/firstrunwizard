@@ -49,7 +49,7 @@ OC.L10N.register(
     "Connect your desktop apps to %s" : "Anslut dina skrivbordsappar till %s",
     "Connect your calendar" : "Anslut din kalender",
     "Connect your contacts" : "Anslut dina kontakter",
-    "Access files via WebDAV" : "Åtkomst av filer via WebDAV",
+    "Access files via WebDAV" : "Åtkomst till filer via WebDAV",
     "Download macOS/iOS configuration profile" : "Hämta macOS/iOS-konfigurationsprofil",
     "Get help" : "Få hjälp",
     "Get more information" : "Skaffa mer information",
