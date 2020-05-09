@@ -81,10 +81,9 @@ OC.L10N.register(
     "Copy link" : "Copia collegamento",
     "Previous" : "Precedente",
     "Next" : "Successivo",
-    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Imposta i client di sincronizzazione utilizzando una <a href=\"%s\">password di applicazione</a>. In tal modo, puoi assicurarti di essere in grado di revocare l'accesso nel caso in cui tu perda il dispositivo.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Oltre ai client di sincronizzazione, puoi connettere a %s qualsiasi altro software che supporti i protocolli WebDAV/CalDAV/CardDAV.",
-    "Use this URL to connect your clients to this server:" : "Usa questo URL per collegare i tuoi client a questo server:",
     "App recommendation: Nextcloud Talk" : "Applicazione consigliata: Talk di Nextcloud",
-    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Condivisione schermo, riunioni in linea e conferenze via web - sulle applicazioni desktop e mobile."
+    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Condivisione schermo, riunioni in linea e conferenze via web - sulle applicazioni desktop e mobile.",
+    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Imposta i client di sincronizzazione utilizzando una <a href=\"%s\">password di applicazione</a>. In tal modo, puoi assicurarti di essere in grado di revocare l'accesso nel caso in cui tu perda il dispositivo.",
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Oltre ai client di sincronizzazione, puoi connettere a %s qualsiasi altro software che supporti i protocolli WebDAV/CalDAV/CardDAV."
 },
 "nplurals=2; plural=(n != 1);");

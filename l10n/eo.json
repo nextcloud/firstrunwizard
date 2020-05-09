@@ -61,7 +61,6 @@
     "Previous" : "Antaŭa",
     "Next" : "Sekva",
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Agordi sinkronigajn klientojn uzante <a href=\"%s\">aplikaĵan pasvorton</a>. Tiel, vi povos senvalidigi aliron, okaze de perdo de tiu aparato.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Krom la sinkronigaj klientoj, vi povas konekti aliajn programojn, kiuj subtenas la protokolojn WebDAV, CalDAV kaj CardDAV, al %s.",
-    "Use this URL to connect your clients to this server:" : "Uzu tiun adreson por konekti viajn klientojn al tiu servilo:"
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Krom la sinkronigaj klientoj, vi povas konekti aliajn programojn, kiuj subtenas la protokolojn WebDAV, CalDAV kaj CardDAV, al %s."
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

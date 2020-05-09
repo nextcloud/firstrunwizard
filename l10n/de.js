@@ -81,10 +81,9 @@ OC.L10N.register(
     "Copy link" : "Link kopieren",
     "Previous" : "Zurück",
     "Next" : "Weiter",
-    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Verwende ein <a href=\"%s\">App-Passwort</a> beim Einrichten der Sync-Clients. Dadurch kannst Du den Zugriff sperren, falls Dir das Gerät verloren geht.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Du kannst zur Verbindung zu %s außer den Sync-Clients jede andere Software verwenden, welche die Protokolle WebDAV/CalDAV/CardDAV unterstützt.",
-    "Use this URL to connect your clients to this server:" : "Benutze diese URL, um Deine Geräte mit dem Server zu verbinden:",
     "App recommendation: Nextcloud Talk" : "App-Empfehlung: Nextcloud-Talk",
-    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Bildschirm teilen, Online-Meetings und Web-Konferenzen - auf dem Desktop und mit mobilen Apps."
+    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Bildschirm teilen, Online-Meetings und Web-Konferenzen - auf dem Desktop und mit mobilen Apps.",
+    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Verwende ein <a href=\"%s\">App-Passwort</a> beim Einrichten der Sync-Clients. Dadurch kannst Du den Zugriff sperren, falls Dir das Gerät verloren geht.",
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Du kannst zur Verbindung zu %s außer den Sync-Clients jede andere Software verwenden, welche die Protokolle WebDAV/CalDAV/CardDAV unterstützt."
 },
 "nplurals=2; plural=(n != 1);");
