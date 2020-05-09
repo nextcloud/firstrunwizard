@@ -65,9 +65,8 @@ OC.L10N.register(
     "Copy link" : "Kopioi linkki",
     "Previous" : "Edellinen",
     "Next" : "Seuraava",
+    "App recommendation: Nextcloud Talk" : "Sovellussuositus: Nextcloud Talk",
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Määritä synkronointi käyttäen <a href=\"%s\">sovelluskohtaisia salasanoja</a>. Näin voit kumota käyttöoikeuden, jos satut esimerkiksi kadottamaan tietyn laitteesi.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Synkronointisovellusten lisäksi voit yhdistää minkä tahansa WebDAV-, CalDAV- ja CardDAV-yhteyskäytäntöjä tukevan ohjelmiston %siin.",
-    "Use this URL to connect your clients to this server:" : "Käytä tätä osoitetta yhdistääksesi muut sovelluksesi tähän palvelimeen:",
-    "App recommendation: Nextcloud Talk" : "Sovellussuositus: Nextcloud Talk"
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Synkronointisovellusten lisäksi voit yhdistää minkä tahansa WebDAV-, CalDAV- ja CardDAV-yhteyskäytäntöjä tukevan ohjelmiston %siin."
 },
 "nplurals=2; plural=(n != 1);");

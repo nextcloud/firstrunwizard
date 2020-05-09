@@ -81,10 +81,9 @@ OC.L10N.register(
     "Copy link" : "Copier le lien",
     "Previous" : "Précédent",
     "Next" : "Suivant",
-    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Configurez les clients de synchronisation en utilisant un <a href=\"%s\">mot de passe d'application</a>. De cette façon, vous pourrez être sûr que vous serrez en mesure de révoquer l'accès au cas où vous perdriez cet appareil.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Outre les clients de synchronisation, vous pouvez connecter tout autre logiciel qui prend en charge les protocoles WebDAV / CalDAV / CardDAV à %s.",
-    "Use this URL to connect your clients to this server:" : "Utilisez cette URL pour connecter vos clients à ce serveur :",
     "App recommendation: Nextcloud Talk" : "App recommandée : Nextcloud Talk",
-    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Partage d'écran, réunions en ligne et conférences web - sur le bureau et avec des applications mobiles."
+    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Partage d'écran, réunions en ligne et conférences web - sur le bureau et avec des applications mobiles.",
+    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Configurez les clients de synchronisation en utilisant un <a href=\"%s\">mot de passe d'application</a>. De cette façon, vous pourrez être sûr que vous serrez en mesure de révoquer l'accès au cas où vous perdriez cet appareil.",
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Outre les clients de synchronisation, vous pouvez connecter tout autre logiciel qui prend en charge les protocoles WebDAV / CalDAV / CardDAV à %s."
 },
 "nplurals=2; plural=(n > 1);");
