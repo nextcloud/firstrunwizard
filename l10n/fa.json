@@ -79,10 +79,9 @@
     "Copy link" : "کپی کردن لینک",
     "Previous" : "قبلی",
     "Next" : "بعدی",
-    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "همگامان را با استفاده از <a href=\"%s\">رمز ورود برنامه </a>تنظیم کنید. به این ترتیب می توانید مطمئن شوید که در صورت از دست دادن آن دستگاه می توانید دسترسی را لغو کنید.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "علاوه بر کلاینت های همگام سازی ، می توانید هر نرم افزار دیگری را پشتیبانی کنید که از پروتکل های WebDAV / CalDAV / CardDAV پشتیبانی می کند%s",
-    "Use this URL to connect your clients to this server:" : "از این URL برای اتصال مشتری های خود به این سرور استفاده کنید:",
     "App recommendation: Nextcloud Talk" : "توصیه برنامه: Nextcloud Talk",
-    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "اشتراک گذاری صفحه ، جلسات آنلاین و کنفرانس وب - در دسک تاپ و با برنامه های تلفن همراه."
+    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "اشتراک گذاری صفحه ، جلسات آنلاین و کنفرانس وب - در دسک تاپ و با برنامه های تلفن همراه.",
+    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "همگامان را با استفاده از <a href=\"%s\">رمز ورود برنامه </a>تنظیم کنید. به این ترتیب می توانید مطمئن شوید که در صورت از دست دادن آن دستگاه می توانید دسترسی را لغو کنید.",
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "علاوه بر کلاینت های همگام سازی ، می توانید هر نرم افزار دیگری را پشتیبانی کنید که از پروتکل های WebDAV / CalDAV / CardDAV پشتیبانی می کند%s"
 },"pluralForm" :"nplurals=2; plural=(n > 1);"
 }

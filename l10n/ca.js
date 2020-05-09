@@ -69,10 +69,9 @@ OC.L10N.register(
     "Copy link" : "Copia l'enllaç",
     "Previous" : "Anterior",
     "Next" : "Següent",
-    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Configureu els clients de sincronització mitjançant una <a href=\"%s\">contrasenya d'aplicació</a>. D'aquesta manera, podeu assegurar-vos de poder revocar l’accés en cas de perdre aquest dispositiu.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "A més dels clients de sincronització, podeu connectar qualsevol altre programari que admeti els protocols WebDAV/CalDAV/CardDAV a %s.",
-    "Use this URL to connect your clients to this server:" : "Feu servir aquesta URL per connectar els vostres clients a aquest servidor:",
     "App recommendation: Nextcloud Talk" : "Recomanació d'aplicació: Nextcloud Talk",
-    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Compartició de pantalla, reunions en línia i conferències via web - a l'escriptori i amb aplicacions de mòbil."
+    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Compartició de pantalla, reunions en línia i conferències via web - a l'escriptori i amb aplicacions de mòbil.",
+    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Configureu els clients de sincronització mitjançant una <a href=\"%s\">contrasenya d'aplicació</a>. D'aquesta manera, podeu assegurar-vos de poder revocar l’accés en cas de perdre aquest dispositiu.",
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "A més dels clients de sincronització, podeu connectar qualsevol altre programari que admeti els protocols WebDAV/CalDAV/CardDAV a %s."
 },
 "nplurals=2; plural=(n != 1);");

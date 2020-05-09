@@ -79,10 +79,9 @@
     "Copy link" : "Kopiatu esteka",
     "Previous" : "Aurrekoa",
     "Next" : "Hurrengoa",
-    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Konfiguratu sinkronizazio bezeroak <a href=\"%s\">aplikazio-pasahitz bat</a> erabiliz. Modu honetan, ziur egon zaitezke sarbidea ukatu dezakezula gailu hori galduz gero.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Sinkronizazio bezeroz gain WebDAV/CalDAV/CardDAV protokoloak erabiltzen dituen edozein software konektatu dezakezu %s(e)ra.",
-    "Use this URL to connect your clients to this server:" : "Erabili URL hau zure bezeroak zerbitzari honetara konektatzeko:",
     "App recommendation: Nextcloud Talk" : "Aholkatutako aplikazioa: Nextcloud Talk",
-    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Pantaila partekatzea, lineako bilerak eta web konferentziak – mahaigainekoan eta mugikorreko aplikazioekin."
+    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Pantaila partekatzea, lineako bilerak eta web konferentziak – mahaigainekoan eta mugikorreko aplikazioekin.",
+    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Konfiguratu sinkronizazio bezeroak <a href=\"%s\">aplikazio-pasahitz bat</a> erabiliz. Modu honetan, ziur egon zaitezke sarbidea ukatu dezakezula gailu hori galduz gero.",
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Sinkronizazio bezeroz gain WebDAV/CalDAV/CardDAV protokoloak erabiltzen dituen edozein software konektatu dezakezu %s(e)ra."
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
