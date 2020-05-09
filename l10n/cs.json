@@ -79,10 +79,9 @@
     "Copy link" : "Zkopírovat odkaz",
     "Previous" : "Předchozí",
     "Next" : "Další",
-    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Nastavení synchronizačních klientů pomocí <a href=\"%s\">hesla pro aplikaci</a>. Takto máte jistotu, že můžete odvolat přístup v případě ztráty tohoto zařízení.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Kromě synchronizačních klientů je možné k %s připojit libovolný software který podporuje protokoly WebDAV/CalDAV/CardDAV.",
-    "Use this URL to connect your clients to this server:" : "Pro připojení klientů k serveru použijte tuto URL adresu:",
     "App recommendation: Nextcloud Talk" : "Doporučení aplikace: Nextcloud Talk",
-    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Sdílení obrazovky, schůzky na dálku a webové konference – na desktopu a v mobilních aplikacích."
+    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Sdílení obrazovky, schůzky na dálku a webové konference – na desktopu a v mobilních aplikacích.",
+    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Nastavení synchronizačních klientů pomocí <a href=\"%s\">hesla pro aplikaci</a>. Takto máte jistotu, že můžete odvolat přístup v případě ztráty tohoto zařízení.",
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Kromě synchronizačních klientů je možné k %s připojit libovolný software který podporuje protokoly WebDAV/CalDAV/CardDAV."
 },"pluralForm" :"nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;"
 }

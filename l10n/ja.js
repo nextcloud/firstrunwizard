@@ -81,10 +81,9 @@ OC.L10N.register(
     "Copy link" : "リンクをコピー",
     "Previous" : "前へ",
     "Next" : "次へ",
-    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "<a href=\"%s\">アプリのパスワード</a>を使用して同期クライアントのセットアップを行ってください。あなたがデバイスを失くした場合に、このようにしてアクセスを取り消せることを確認できます。",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "同期クライアントのほかに、WebDAV/CalDAV/CardDAV プロトコルをサポートする他のソフトウェアを %s に接続できます。",
-    "Use this URL to connect your clients to this server:" : "このサーバーにクライアントを接続するにはこのURLを使用してください:",
     "App recommendation: Nextcloud Talk" : "アプリのおすすめ：Nextcloudトーク",
-    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "スクリーン共有、オンライン会議、およびWeb会議 - デスクトップ上およびモバイルのアプリ"
+    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "スクリーン共有、オンライン会議、およびWeb会議 - デスクトップ上およびモバイルのアプリ",
+    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "<a href=\"%s\">アプリのパスワード</a>を使用して同期クライアントのセットアップを行ってください。あなたがデバイスを失くした場合に、このようにしてアクセスを取り消せることを確認できます。",
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "同期クライアントのほかに、WebDAV/CalDAV/CardDAV プロトコルをサポートする他のソフトウェアを %s に接続できます。"
 },
 "nplurals=1; plural=0;");
