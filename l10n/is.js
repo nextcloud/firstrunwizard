@@ -11,6 +11,7 @@ OC.L10N.register(
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Bættu við notandaupplýsingarnar þínar! Settu auðkennismynd og fullt nafn svo auðveldara verði að nota marga eiginleika.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Bættu við notandaupplýsingarnar þínar! Settu inn fullt nafn svo auðveldara verði að nota marga eiginleika.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Bættu við notandaupplýsingarnar þínar! Settu inn auðkennismynd svo auðveldara verði að nota marga eiginleika.",
+    "Simple email app nicely integrated with Files, Contacts and Calendar." : "Einfalt og stílhreint tölvupóstforrit sem virkar með skráaforritinu, tengiliðum og dagatalinu.",
     "About" : "Um hugbúnaðinn",
     "A welcome and introduction wizard for Nextcloud" : "Kynning og leiðarvísir fyrir Nextcloud",
     "Start using Nextcloud" : "Byrjaðu að nota Nextcloud",
