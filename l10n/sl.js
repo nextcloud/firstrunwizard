@@ -56,6 +56,7 @@ OC.L10N.register(
     "You can also ask for help in our community support channels:" : "Pomoč lahko najdete tudi na podpornih kanalih skupnosti:",
     "the Nextcloud forums" : "na forumih Nextcloud",
     "the Nextcloud IRC chat channel on freenode.net" : "na klepetalnem kanalu Nextcloud IRC na freenode.net",
+    "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Ali bi želeli videti kakšno posebno posodobitev v oblaku Nextcloud? Ali ste morda naleteli na težave? Ali bi morda želeli pomagati pri prevajanju, promociji ali pripravi dokumentacije?",
     "Become part of the Community" : "Postanite del skupnosti.",
     "Enterprise support" : "Podpora za podjetja",
     "A safe home for all your data" : "varno okolje za vse vaše podatke",
