@@ -15,7 +15,7 @@
     "Keep your colleagues and friends in one place without leaking their private info." : "Mantenga a sus colegas y amigos en un sólo sitio asegurando su información privada.",
     "App recommendation: Nextcloud Mail" : "App recomendada: Nextcloud Mail",
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Aplicación simple de email que se integra bien con Files, Contacts y Calendar.",
-    "App recommendation: Tasks" : "App recomendada:Tareas",
+    "App recommendation: Tasks" : "App recomendada: Tasks",
     "Sync tasks from various devices with your Nextcloud and edit them online." : "Sincronizar tareas desde varios dispositivos con su Nextcloud y editarlas online.",
     "App recommendation: Deck" : "App recomendada: Deck",
     "Kanban style organization for personal planning and team projects." : "Organización estilo Kanban para planificación personal y proyectos de equipos.",
@@ -53,7 +53,7 @@
     "Get more information" : "Consigue más información",
     "The Nextcloud documentation for home users:" : "La documentación de Nextcloud para usuarios domésticos:",
     "User manual" : "Manual de usuario",
-    "Admin manual" : "Manual de administración",
+    "Admin manual" : "Manual de administrador",
     "Developer manual" : "Manual de desarrollador",
     "You can also ask for help in our community support channels:" : "También puedes pedir ayuda en nuestros canales de soporte comunitario:",
     "the Nextcloud forums" : "los foros de Nextcloud",
@@ -79,10 +79,9 @@
     "Copy link" : "Copiar enlace",
     "Previous" : "Anterior",
     "Next" : "Siguiente",
-    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Configura los clientes de escritorio usando una <a href=\"%s\">contraseña de aplicación</a>. De esta manera te aseguras de poder revocar el acceso en caso de perder el dispositivo.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Además de los clientes de sincronización, puedes conectar con %s cualquier otro software que soporte los protocolos WebDAV/CalDAV/CardDAV.",
-    "Use this URL to connect your clients to this server:" : "Usa esta URL para que tus clientes se conecten a este servidor:",
     "App recommendation: Nextcloud Talk" : "App recomendada: Nextcloud Talk",
-    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Compartir pantalla, reuniones online y conferencias web - en apps de escritorio y móvil."
+    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Compartir pantalla, reuniones online y conferencias web - en apps de escritorio y móvil.",
+    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Configura los clientes de escritorio usando una <a href=\"%s\">contraseña de aplicación</a>. De esta manera te aseguras de poder revocar el acceso en caso de perder el dispositivo.",
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Además de los clientes de sincronización, puedes conectar con %s cualquier otro software que soporte los protocolos WebDAV/CalDAV/CardDAV."
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

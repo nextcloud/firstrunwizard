@@ -11,6 +11,7 @@ OC.L10N.register(
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Bættu við notandaupplýsingarnar þínar! Settu auðkennismynd og fullt nafn svo auðveldara verði að nota marga eiginleika.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Bættu við notandaupplýsingarnar þínar! Settu inn fullt nafn svo auðveldara verði að nota marga eiginleika.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Bættu við notandaupplýsingarnar þínar! Settu inn auðkennismynd svo auðveldara verði að nota marga eiginleika.",
+    "Simple email app nicely integrated with Files, Contacts and Calendar." : "Einfalt og stílhreint tölvupóstforrit sem virkar með skráaforritinu, tengiliðum og dagatalinu.",
     "About" : "Um hugbúnaðinn",
     "A welcome and introduction wizard for Nextcloud" : "Kynning og leiðarvísir fyrir Nextcloud",
     "Start using Nextcloud" : "Byrjaðu að nota Nextcloud",
@@ -63,7 +64,6 @@ OC.L10N.register(
     "Previous" : "Fyrra",
     "Next" : "Næsta",
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Settu upp samstillingarbiðlara með <a href=\"%s\">lykilorði forrits</a>. Þannig geturðu verið viss um að geta afturkallað aðgangsheimildir fari svo að þú tapir því tæki.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Fyrir utan samstillingaforritin geturðu tengt hvert það forrit sem styður WebDAV/CalDAV/CardDAV samskiptamátana við %s.",
-    "Use this URL to connect your clients to this server:" : "Notaðu þessa slóð fyrir forritin þín til að tengjast þessum þjóni:"
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Fyrir utan samstillingaforritin geturðu tengt hvert það forrit sem styður WebDAV/CalDAV/CardDAV samskiptamátana við %s."
 },
 "nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);");

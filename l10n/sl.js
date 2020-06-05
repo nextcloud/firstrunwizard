@@ -56,6 +56,7 @@ OC.L10N.register(
     "You can also ask for help in our community support channels:" : "Pomoč lahko najdete tudi na podpornih kanalih skupnosti:",
     "the Nextcloud forums" : "na forumih Nextcloud",
     "the Nextcloud IRC chat channel on freenode.net" : "na klepetalnem kanalu Nextcloud IRC na freenode.net",
+    "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Ali bi želeli videti kakšno posebno posodobitev v oblaku Nextcloud? Ali ste morda naleteli na težave? Ali bi morda želeli pomagati pri prevajanju, promociji ali pripravi dokumentacije?",
     "Become part of the Community" : "Postanite del skupnosti.",
     "Enterprise support" : "Podpora za podjetja",
     "A safe home for all your data" : "varno okolje za vse vaše podatke",
@@ -70,9 +71,8 @@ OC.L10N.register(
     "Copy link" : "Kopiraj povezavo",
     "Previous" : "Nazaj",
     "Next" : "Naprej",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Ob odjemalcih za usklajevanje je mogoča povezava z %s tudi z drugo programsko opremo, ki podpira protokole WebDAV / CalDAV / CardDAV.",
-    "Use this URL to connect your clients to this server:" : "Uprabite naslov URL za povezavo odjemalcev s strežnikom.",
     "App recommendation: Nextcloud Talk" : "Priporočilo programa: Nextcloud Talk",
-    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Klepet, video klici, souporaba zaslonske slike, spletni sestanki in konference – znotraj brskalnika in z mobilnimi napravami."
+    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Klepet, video klici, souporaba zaslonske slike, spletni sestanki in konference – znotraj brskalnika in z mobilnimi napravami.",
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Ob odjemalcih za usklajevanje je mogoča povezava z %s tudi z drugo programsko opremo, ki podpira protokole WebDAV / CalDAV / CardDAV."
 },
 "nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);");

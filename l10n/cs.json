@@ -64,7 +64,7 @@
     "Enterprise support" : "Podpora pro velké zákazníky",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Pokud Nextcloud provozujete v produkčním prostředí s velkým množstvím uživatelů a velkým objemem dat a potřebujete jistotu podpory od odborníků stojících za technologií Nextcloud, je k dispozici předplatné pro podniky, obsahující podporu po telefonu a e-mailu.",
     "Get enterprise support" : "Získat komerční podporu",
-    "A safe home for all your data" : "Bezpečné místo pro všechna vaše data",
+    "A safe home for all your data" : "Bezpečný domov pro všechna vaše data",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "S Nextcloud budete mít svá data na dosah ruky, ovšem stále pod vaší kontrolou. Ukládejte své dokumenty, kalendář, kontakty a fotky na server ve své společnosti/organizaci, domácnosti, jednoho z našich poskytovatelů nebo v datacentru, které znáte.",
     "Host your data and files where you decide" : "Hostujte svá data a soubory kde rozhodnete",
     "Open Standards and Interoperability" : "Otevřené standardy a interoperabilita",
@@ -79,10 +79,9 @@
     "Copy link" : "Zkopírovat odkaz",
     "Previous" : "Předchozí",
     "Next" : "Další",
-    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Nastavení synchronizačních klientů pomocí <a href=\"%s\">hesla pro aplikaci</a>. Takto máte jistotu, že můžete odvolat přístup v případě ztráty tohoto zařízení.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Kromě synchronizačních klientů je možné k %s připojit libovolný software který podporuje protokoly WebDAV/CalDAV/CardDAV.",
-    "Use this URL to connect your clients to this server:" : "Pro připojení klientů k serveru použijte tuto URL adresu:",
     "App recommendation: Nextcloud Talk" : "Doporučení aplikace: Nextcloud Talk",
-    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Sdílení obrazovky, schůzky na dálku a webové konference – na desktopu a v mobilních aplikacích."
+    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Sdílení obrazovky, schůzky na dálku a webové konference – na desktopu a v mobilních aplikacích.",
+    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Nastavení synchronizačních klientů pomocí <a href=\"%s\">hesla pro aplikaci</a>. Takto máte jistotu, že můžete odvolat přístup v případě ztráty tohoto zařízení.",
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Kromě synchronizačních klientů je možné k %s připojit libovolný software který podporuje protokoly WebDAV/CalDAV/CardDAV."
 },"pluralForm" :"nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;"
 }
