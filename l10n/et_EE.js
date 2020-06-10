@@ -1,6 +1,7 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "Copy to clipboard" : "Kopeeri lõikepuhvrisse",
     "Copied!" : "Kopeeritud!",
     "Not supported!" : "Pole toetatud!",
     "Press ⌘-C to copy." : "Kopeerimiseks vajuta ⌘+C.",
