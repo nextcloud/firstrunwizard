@@ -6,6 +6,7 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "Apasă ⌘-C pentru copiere.",
     "Press Ctrl-C to copy." : "Apasă Ctrl-C pentru copiere.",
     "About" : "Despre",
+    "Nextcloud gives you access to your files wherever you are." : "Nextcloud vă oferă acces la fișierele dumneavoastră oriunde v-ați afla.",
     "Get the apps to sync your files" : "Obține aplicația pentru sincronizarea fișierelor",
     "Desktop client" : "Client desktop",
     "Android app" : "Aplicație Android",
