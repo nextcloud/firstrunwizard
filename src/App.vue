@@ -344,6 +344,7 @@ export default {
 			currentSlide: 0,
 			fadeDirection: 'next',
 			isMobile: window.outerWidth < 1024,
+			slidesLoaded: false,
 		}
 	},
 	computed: {
@@ -376,9 +377,14 @@ export default {
 	},
 	methods: {
 		async loadStaticSlides() {
+			if (this.slidesLoaded) {
+				return
+			}
+
 			try {
 				const response = await axios.get(generateUrl('/apps/firstrunwizard/wizard'))
 				this.slides.push(...response.data)
+				this.slidesLoaded = true
 			} catch (e) {
 				console.error('Failed to load slides')
 			}
