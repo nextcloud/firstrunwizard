@@ -5,6 +5,9 @@ OC.L10N.register(
     "Not supported!" : "Diembreget eo ! ",
     "Press ⌘-C to copy." : "Pouezañ war ⌘-C evit eilañ. ",
     "Press Ctrl-C to copy." : "Pouezañ war Ctrl-C evit eilañ. ",
+    "Schedule work & meetings, synced with all your devices." : "Implij amzer & emvodoù, kemprenet gant toud o ardivinkoù.",
+    "Keep your colleagues and friends in one place without leaking their private info." : "Kavit o mignoned ha genseurted en ul lec'h, hep reiñ o ditouroù prevez.",
+    "Simple email app nicely integrated with Files, Contacts and Calendar." : "Ur meziant email simpl enfammet gant Restroù, Darempredoù ha Deizataer.",
     "About" : "Diwar-benn",
     "Server address" : "Chom-lec'h ar servijour",
     "Copy link" : "Kopiañ al liamm"
