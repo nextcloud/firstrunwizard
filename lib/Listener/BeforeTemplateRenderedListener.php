@@ -26,13 +26,16 @@ declare(strict_types=1);
 
 namespace OCA\FirstRunWizard\Listener;
 
-use OCP\AppFramework\Http\Events\LoadAdditionalScriptsLoggedInEvent;
+use OCP\AppFramework\Http\Events\BeforeTemplateRenderedEvent;
 use OCP\EventDispatcher\Event;
 use OCP\EventDispatcher\IEventListener;
 
-class LoadAdditionalScriptsLoggedInListener implements IEventListener {
+class BeforeTemplateRenderedListener implements IEventListener {
+	public function __construct() {
+	}
+
 	public function handle(Event $event): void {
-		if (!($event instanceof LoadAdditionalScriptsLoggedInEvent)) {
+		if (!$event instanceof BeforeTemplateRenderedEvent || !$event->isLoggedIn()) {
 			return;
 		}
 

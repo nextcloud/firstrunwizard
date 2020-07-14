@@ -24,41 +24,32 @@
 namespace OCA\FirstRunWizard\AppInfo;
 
 use OCA\Files\Event\LoadAdditionalScriptsEvent;
-use OCA\FirstRunWizard\Listener\LoadAdditionalScriptsListener;
-use OCA\FirstRunWizard\Listener\LoadAdditionalScriptsLoggedInListener;
-use OCA\FirstRunWizard\Notification\AppHint;
+use OCA\FirstRunWizard\Listener\AppEnabledListener;
+use OCA\FirstRunWizard\Listener\BeforeFilesAppTemplateRenderedListener;
+use OCA\FirstRunWizard\Listener\BeforeTemplateRenderedListener;
 use OCA\FirstRunWizard\Notification\Notifier;
+use OCP\App\ManagerEvent;
 use OCP\AppFramework\App;
 use OCP\AppFramework\Bootstrap\IBootContext;
 use OCP\AppFramework\Bootstrap\IBootstrap;
 use OCP\AppFramework\Bootstrap\IRegistrationContext;
-use OCP\AppFramework\Http\Events\LoadAdditionalScriptsLoggedInEvent;
+use OCP\AppFramework\Http\Events\BeforeTemplateRenderedEvent;
 
 class Application extends App implements IBootstrap {
 
-	/** @var bool */
-	protected $isCLI;
-
 	public function __construct() {
 		parent::__construct('firstrunwizard');
-		$this->isCLI = \OC::$CLI;
 	}
 
 	public function register(IRegistrationContext $context): void {
-		// Display the first run wizard only on the files app
-		$context->registerEventListener(LoadAdditionalScriptsEvent::class, LoadAdditionalScriptsListener::class);
-		$context->registerEventListener(LoadAdditionalScriptsLoggedInEvent::class, LoadAdditionalScriptsLoggedInListener::class);
+		$context->registerEventListener(ManagerEvent::EVENT_APP_ENABLE, AppEnabledListener::class);
+		$context->registerEventListener(BeforeTemplateRenderedEvent::class, BeforeTemplateRenderedListener::class);
+		// Display the first run wizard only on the files app,
+		$context->registerEventListener(LoadAdditionalScriptsEvent::class, BeforeFilesAppTemplateRenderedListener::class);
 	}
 
 	public function boot(IBootContext $context): void {
-		if (!$this->isCLI) {
-			$serverContainer = $context->getServerContainer();
-			$serverContainer->getNotificationManager()->registerNotifierService(Notifier::class);
-
-			$appContainer = $context->getAppContainer();
-			/** @var AppHint $appHint */
-			$appHint = $appContainer->query(AppHint::class);
-			$appHint->registerAppListener();
-		}
+		$serverContainer = $context->getServerContainer();
+		$serverContainer->getNotificationManager()->registerNotifierService(Notifier::class);
 	}
 }

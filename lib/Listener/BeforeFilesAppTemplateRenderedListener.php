@@ -26,8 +26,8 @@ declare(strict_types=1);
 
 namespace OCA\FirstRunWizard\Listener;
 
-use OCA\Files\Event\LoadAdditionalScriptsEvent;
 use OCA\FirstRunWizard\Notification\AppHint;
+use OCP\AppFramework\Http\Events\BeforeTemplateRenderedEvent;
 use OCP\BackgroundJob\IJobList;
 use OCP\EventDispatcher\Event;
 use OCP\EventDispatcher\IEventListener;
@@ -35,7 +35,7 @@ use OCP\IConfig;
 use OCP\IUser;
 use OCP\IUserSession;
 
-class LoadAdditionalScriptsListener implements IEventListener {
+class BeforeFilesAppTemplateRenderedListener implements IEventListener {
 	/** @var IUserSession */
 	private $userSession;
 	/** @var IConfig */
@@ -58,10 +58,6 @@ class LoadAdditionalScriptsListener implements IEventListener {
 	}
 
 	public function handle(Event $event): void {
-		if (!($event instanceof LoadAdditionalScriptsEvent)) {
-			return;
-		}
-
 		$user = $this->userSession->getUser();
 		if (!$user instanceof IUser) {
 			return;
