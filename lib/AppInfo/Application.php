@@ -24,75 +24,32 @@
 namespace OCA\FirstRunWizard\AppInfo;
 
 use OCA\Files\Event\LoadAdditionalScriptsEvent;
-use OCA\FirstRunWizard\Notification\AppHint;
+use OCA\FirstRunWizard\Listener\AppEnabledListener;
+use OCA\FirstRunWizard\Listener\BeforeFilesAppTemplateRenderedListener;
+use OCA\FirstRunWizard\Listener\BeforeTemplateRenderedListener;
 use OCA\FirstRunWizard\Notification\Notifier;
+use OCP\App\ManagerEvent;
 use OCP\AppFramework\App;
-use OCP\AppFramework\Http\TemplateResponse;
-use OCP\EventDispatcher\IEventDispatcher;
-use OCP\IConfig;
-use OCP\IInitialStateService;
-use OCP\IL10N;
-use OCP\IServerContainer;
-use OCP\IUser;
-use OCP\IUserSession;
-use Symfony\Component\EventDispatcher\EventDispatcherInterface;
+use OCP\AppFramework\Bootstrap\IBootContext;
+use OCP\AppFramework\Bootstrap\IBootstrap;
+use OCP\AppFramework\Bootstrap\IRegistrationContext;
+use OCP\AppFramework\Http\Events\BeforeTemplateRenderedEvent;
 
-class Application extends App {
-
-	/** @var bool */
-	protected $isCLI;
+class Application extends App implements IBootstrap {
 
 	public function __construct() {
 		parent::__construct('firstrunwizard');
-		$this->isCLI = \OC::$CLI;
 	}
 
-	public function register() {
-		if (!$this->isCLI) {
-			$this->registerScripts();
-			$this->registerNotificationNotifier();
-		}
-	}
-
-	protected function registerScripts() {
-		/** @var IServerContainer $server */
-		$server = $this->getContainer()->getServer();
-		/** @var IEventDispatcher $dispatcher */
-		$dispatcher = $server->query(IEventDispatcher::class);
-
-		$dispatcher->addListener(TemplateResponse::EVENT_LOAD_ADDITIONAL_SCRIPTS_LOGGEDIN, function() {
-			\OC_Util::addScript('firstrunwizard', 'about');
-		});
-
+	public function register(IRegistrationContext $context): void {
+		$context->registerEventListener(ManagerEvent::EVENT_APP_ENABLE, AppEnabledListener::class);
+		$context->registerEventListener(BeforeTemplateRenderedEvent::class, BeforeTemplateRenderedListener::class);
 		// Display the first run wizard only on the files app,
-		$dispatcher->addListener(LoadAdditionalScriptsEvent::class, function() use ($server) {
-			/** @var IUserSession $userSession */
-			$userSession = $this->getContainer()->query(IUserSession::class);
-			$user = $userSession->getUser();
-
-			if (!$user instanceof IUser) {
-				return;
-			}
-
-			/** @var IConfig $config */
-			$config = $this->getContainer()->query(IConfig::class);
-			$appHint = $this->getContainer()->query(AppHint::class);
-
-			if ($config->getUserValue($user->getUID(), 'firstrunwizard', 'show', '1') !== '0') {
-				\OC_Util::addScript('firstrunwizard', 'activate');
-
-				$jobList = $this->getContainer()->getServer()->getJobList();
-				$jobList->add('OCA\FirstRunWizard\Notification\BackgroundJob', ['uid' => $userSession->getUser()->getUID()]);
-			}
-			$appHint->sendAppHintNotifications();
-		});
+		$context->registerEventListener(LoadAdditionalScriptsEvent::class, BeforeFilesAppTemplateRenderedListener::class);
 	}
 
-	protected function registerNotificationNotifier() {
-		$this->getContainer()->getServer()->getNotificationManager()->registerNotifierService(Notifier::class);
-
-		/** @var AppHint $appHint */
-		$appHint = $this->getContainer()->query(AppHint::class);
-		$appHint->registerAppListener();
+	public function boot(IBootContext $context): void {
+		$serverContainer = $context->getServerContainer();
+		$serverContainer->getNotificationManager()->registerNotifierService(Notifier::class);
 	}
 }

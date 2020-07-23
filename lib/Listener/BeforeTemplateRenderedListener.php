@@ -1,8 +1,11 @@
 <?php
+
+declare(strict_types=1);
+
 /**
- * @copyright Copyright (c) 2016, Joas Schilling <coding@schilljs.com>
+ * @copyright Copyright (c) 2020 Morris Jobke <hey@morrisjobke.de>
  *
- * @author Joas Schilling <coding@schilljs.com>
+ * @author Morris Jobke <hey@morrisjobke.de>
  *
  * @license GNU AGPL version 3 or any later version
  *
@@ -17,22 +20,25 @@
  * GNU Affero General Public License for more details.
  *
  * You should have received a copy of the GNU Affero General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  *
  */
 
-namespace OCA\FirstRunWizard\Tests\AppInfo;
+namespace OCA\FirstRunWizard\Listener;
 
-use Test\TestCase;
+use OCP\AppFramework\Http\Events\BeforeTemplateRenderedEvent;
+use OCP\EventDispatcher\Event;
+use OCP\EventDispatcher\IEventListener;
 
-/**
- * Class AppPhpTest
- *
- * @package OCA\FirstRunWizard\Tests\AppInfo
- */
-class AppPhpTest extends TestCase  {
-	public function testRoutes() {
-		$void = include(__DIR__ . '/../../appinfo/app.php');
-		$this->assertSame(1, $void); // See http://de2.php.net/manual/de/function.include.php#example-137
+class BeforeTemplateRenderedListener implements IEventListener {
+	public function __construct() {
+	}
+
+	public function handle(Event $event): void {
+		if (!$event instanceof BeforeTemplateRenderedEvent || !$event->isLoggedIn()) {
+			return;
+		}
+
+		\OC_Util::addScript('firstrunwizard', 'about');
 	}
 }

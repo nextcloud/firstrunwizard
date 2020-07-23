@@ -24,8 +24,6 @@
 namespace OCA\FirstRunWizard\Notification;
 
 use OCP\App\IAppManager;
-use OCP\App\ManagerEvent;
-use OCP\EventDispatcher\IEventDispatcher;
 use OCP\IConfig;
 use OCP\IGroupManager;
 use OCP\Notification\IManager as INotificationManager;
@@ -44,20 +42,16 @@ class AppHint  {
 	/** @var IConfig */
 	protected $config;
 
-	/** @var IEventDispatcher */
-	private $dispatcher;
-
 	/** @var string */
 	private $userId;
 
 	const APP_HINT_VERSION = '18';
 
-	public function __construct(INotificationManager $notificationManager, IGroupManager $groupManager, IAppManager $appManager, IConfig $config, IEventDispatcher $eventDispatcher, $userId) {
+	public function __construct(INotificationManager $notificationManager, IGroupManager $groupManager, IAppManager $appManager, IConfig $config, $userId) {
 		$this->notificationManager = $notificationManager;
 		$this->groupManager = $groupManager;
 		$this->appManager =$appManager;
 		$this->config = $config;
-		$this->dispatcher = $eventDispatcher;
 		$this->userId = $userId;
 	}
 
@@ -70,12 +64,6 @@ class AppHint  {
 			$this->sendNotification('tasks', $this->userId);
 			$this->config->setUserValue($this->userId, 'firstrunwizard', 'apphint', self::APP_HINT_VERSION);
 		}
-	}
-
-	public function registerAppListener(): void {
-		$this->dispatcher->addListener(ManagerEvent::EVENT_APP_ENABLE, function(ManagerEvent $event) {
-			$this->dismissNotification($event->getAppID());
-		});
 	}
 
 	protected function sendNotification(string $app, string $user): void {
@@ -93,7 +81,7 @@ class AppHint  {
 		}
 	}
 
-	protected function dismissNotification(string $app) {
+	public function dismissNotification(string $app) {
 		$notification = $this->notificationManager->createNotification();
 		$notification->setApp('firstrunwizard')
 			->setSubject('apphint-'. $app)
