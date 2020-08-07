@@ -72,7 +72,7 @@ OC.L10N.register(
     "Open Standards and Interoperability" : "Estándares abertos e interoperabilidade",
     "100%% Open Source & community-focused" : "100%% código aberto e enfocado á comunidade",
     "Learn more about %s" : "Aprenda máis sobre %s",
-    "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s dálle acceso aos seus ficheiros onde queira que estea. Os nosos clientes de escritorio e de móbile son doados de empregar e están dispoñíbeiss para todas as principais plataformas a custo cero.",
+    "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s dálle acceso aos seus ficheiros onde queira que estea. Os nosos clientes de escritorio e de móbil son doados de empregar e están dispoñíbeiss para todas as principais plataformas a custo cero.",
     "Set up sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Configure os clientes de sincronización usando un <a href=\"%s\">contrasinal da aplicación</a>. Deste xeito, pode asegurarse de que pode revogar o acceso no caso de extraviar ese dispositivo.",
     "Connect other apps to %s" : "Conectar outras aplicacións con %s",
     "Besides the mobile apps and desktop client you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : " Ademais das aplicacións móbiles e cliente de escritorio pode conectar calquera outro software que admita os protocolos WebDAV/CalDAV/CardDAV a %s.",
