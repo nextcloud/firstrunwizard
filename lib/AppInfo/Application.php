@@ -25,7 +25,6 @@ namespace OCA\FirstRunWizard\AppInfo;
 
 use OCA\Files\Event\LoadAdditionalScriptsEvent;
 use OCA\FirstRunWizard\Listener\AppEnabledListener;
-use OCA\FirstRunWizard\Listener\BeforeFilesAppTemplateRenderedListener;
 use OCA\FirstRunWizard\Listener\BeforeTemplateRenderedListener;
 use OCA\FirstRunWizard\Notification\Notifier;
 use OCP\App\ManagerEvent;
@@ -44,8 +43,6 @@ class Application extends App implements IBootstrap {
 	public function register(IRegistrationContext $context): void {
 		$context->registerEventListener(ManagerEvent::EVENT_APP_ENABLE, AppEnabledListener::class);
 		$context->registerEventListener(BeforeTemplateRenderedEvent::class, BeforeTemplateRenderedListener::class);
-		// Display the first run wizard only on the files app,
-		$context->registerEventListener(LoadAdditionalScriptsEvent::class, BeforeFilesAppTemplateRenderedListener::class);
 	}
 
 	public function boot(IBootContext $context): void {
