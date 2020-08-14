@@ -26,18 +26,61 @@ declare(strict_types=1);
 
 namespace OCA\FirstRunWizard\Listener;
 
+use OCA\FirstRunWizard\Notification\AppHint;
 use OCP\AppFramework\Http\Events\BeforeTemplateRenderedEvent;
+use OCP\BackgroundJob\IJobList;
 use OCP\EventDispatcher\Event;
 use OCP\EventDispatcher\IEventListener;
+use OCP\IConfig;
+use OCP\IUser;
+use OCP\IUserSession;
 
 class BeforeTemplateRenderedListener implements IEventListener {
-	public function __construct() {
+	/**
+	 * @var IUserSession
+	 */
+	private $userSession;
+	/**
+	 * @var IConfig
+	 */
+	private $config;
+	/**
+	 * @var AppHint
+	 */
+	private $appHint;
+	/**
+	 * @var IJobList
+	 */
+	private $jobList;
+
+	public function __construct(
+		IConfig $config,
+		IUserSession $userSession,
+		IJobList $jobList,
+		AppHint $appHint
+	) {
+		$this->userSession = $userSession;
+		$this->config = $config;
+		$this->appHint = $appHint;
+		$this->jobList = $jobList;
 	}
 
 	public function handle(Event $event): void {
 		if (!$event instanceof BeforeTemplateRenderedEvent || !$event->isLoggedIn()) {
 			return;
 		}
+
+		$user = $this->userSession->getUser();
+		if (!$user instanceof IUser) {
+			return;
+		}
+
+		if ($this->config->getUserValue($user->getUID(), 'firstrunwizard', 'show', '1') !== '0') {
+			\OC_Util::addScript('firstrunwizard', 'activate');
+
+			$this->jobList->add('OCA\FirstRunWizard\Notification\BackgroundJob', ['uid' => $this->userSession->getUser()->getUID()]);
+		}
+		$this->appHint->sendAppHintNotifications();
 
 		\OC_Util::addScript('firstrunwizard', 'about');
 	}
