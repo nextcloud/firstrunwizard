@@ -47,7 +47,7 @@ OC.L10N.register(
     "Connect your calendar" : "Поврзете го вашикот календар",
     "Connect your contacts" : "Поврзете ги вашите контакти",
     "Access files via WebDAV" : "Пристапи до датотеките преку WebDAV",
-    "Download macOS/iOS configuration profile" : "Превземете macOS/iOS конфигурациски профил",
+    "Download macOS/iOS configuration profile" : "Преземете macOS/iOS конфигурациски профил",
     "Get help" : "Побарајте помош",
     "Get more information" : "Побарајте повеќе информации",
     "The Nextcloud documentation for home users:" : "Nextcloud документација за крајни корисници:",
