@@ -36,6 +36,8 @@ use OCP\AppFramework\Http\Events\BeforeTemplateRenderedEvent;
 
 class Application extends App implements IBootstrap {
 
+	public const APP_ID = 'firstrunwizard';
+
 	public function __construct() {
 		parent::__construct('firstrunwizard');
 	}
