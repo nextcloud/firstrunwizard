@@ -22,6 +22,7 @@
 namespace OCA\FirstRunWizard\Controller;
 
 
+use OCA\FirstRunWizard\AppInfo\Application;
 use OCP\AppFramework\Controller;
 use OCP\AppFramework\Http\DataResponse;
 use OCP\AppFramework\Http\JSONResponse;
@@ -44,6 +45,9 @@ class WizardController extends Controller {
 	/** @var IGroupManager */
 	protected $groupManager;
 
+	/** @var array|false|string[] */
+	protected $slides = [];
+
 	/**
 	 * @param string $appName
 	 * @param IRequest $request
@@ -58,6 +62,8 @@ class WizardController extends Controller {
 		$this->userId = $userId;
 		$this->theming = $theming;
 		$this->groupManager = $groupManager;
+
+		$this->slides = explode(',', $this->config->getAppValue(Application::APP_ID, 'slides', 'video,values,apps,clients,final'));
 	}
 
 	/**
@@ -85,19 +91,28 @@ class WizardController extends Controller {
 			'macOSProfile' => \OCP\Util::linkToRemote('dav') . 'provisioning/apple-provisioning.mobileconfig',
 		];
 
-		$slides = [
-			$this->staticSlide('page.values', $data)
-		];
+		$slides = [];
+
+		$slides[] = $this->staticSlide('page.values', $data);
 		if ($appStore && $this->groupManager->isAdmin($this->userId)) {
 			$slides[] = $this->staticSlide('page.apps', $data);
 		}
 		$slides[] = $this->staticSlide('page.clients', $data);
 		$slides[] = $this->staticSlide('page.final', $data);
 
-		return new JSONResponse($slides);
+		return new JSONResponse([
+			'hasVideo' => in_array('video', $this->slides, true),
+			'slides' => array_values(array_filter($slides, function ($slide) {
+				return $slide !== null;
+			}))
+		]);
 	}
 
 	public function staticSlide($name, $params) {
+		if (!in_array(substr($name, 5), $this->slides, true)) {
+			return null;
+		}
+
 		$template = new \OCP\Template($this->appName, $name, false);
 
 		foreach($params as $key => $value){

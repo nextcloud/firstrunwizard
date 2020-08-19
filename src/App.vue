@@ -1,6 +1,6 @@
 <template>
 	<Modal
-		v-if="showModal && slides.length > 0"
+		v-if="showModal && slideList.length > 0"
 		id="firstrunwizard"
 		:has-previous="hasPrevious"
 		:has-next="hasNext"
@@ -9,7 +9,7 @@
 		@previous="previous"
 		@next="next"
 		@close="close">
-		<div v-if="currentSlide !== 0 || !withIntro || !hasVideo" class="modal-header">
+		<div v-if="currentSlide !== 0 || !withIntro" class="modal-header">
 			<div class="firstrunwizard-header">
 				<div class="logo">
 					<p class="hidden-visually">
@@ -342,7 +342,6 @@ export default {
 		return {
 			showModal: false,
 			withIntro: true,
-			hasVideo: true,
 			slides: [],
 			currentSlide: 0,
 			fadeDirection: 'next',
@@ -356,7 +355,7 @@ export default {
 				return this.slides
 			}
 			const slides = this.slides
-			return slides.splice(1)
+			return slides.slice(1)
 		},
 		hasNext() {
 			return this.currentSlide < this.slideList.length - 1
@@ -386,7 +385,8 @@ export default {
 
 			try {
 				const response = await axios.get(generateUrl('/apps/firstrunwizard/wizard'))
-				this.slides.push(...response.data)
+				this.slides.push(...response.data.slides)
+				this.withIntro = response.data.hasVideo
 				this.slidesLoaded = true
 			} catch (e) {
 				console.error('Failed to load slides')
@@ -394,7 +394,7 @@ export default {
 		},
 		async open(withIntro = true) {
 			await this.loadStaticSlides()
-			this.withIntro = withIntro
+			this.withIntro = this.withIntro & withIntro
 			this.showModal = true
 			this.currentSlide = 0
 		},

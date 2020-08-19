@@ -93,8 +93,10 @@ class WizardControllerTest extends TestCase {
 
 
 	public function testShowUser() {
+		$this->config->expects($this->at(0))
+			->method('getAppValue')
+			->willReturn('video,values,apps,clients,final');
 		$controller = $this->getController();
-
 		$this->config->expects($this->exactly(4))
 			->method('getSystemValue')
 			->willReturnMap([
@@ -108,7 +110,9 @@ class WizardControllerTest extends TestCase {
 
 		$this->assertInstanceOf(JSONResponse::class, $response);
 		$this->assertSame(Http::STATUS_OK, $response->getStatus());
-		$this->assertCount(3, $response->getData());
+		$response = $response->getData();
+		$this->assertCount(3, $response['slides']);
+		$this->assertEquals(true, $response['hasVideo']);
 	}
 
 	/**
@@ -117,8 +121,10 @@ class WizardControllerTest extends TestCase {
 	 * @param int $expectedSlidesCount
 	 */
 	public function testShowAdmin(bool $appstoreEnabled, int $expectedSlidesCount): void {
+		$this->config->expects($this->at(0))
+			->method('getAppValue')
+			->willReturn('video,values,apps,clients,final');
 		$controller = $this->getController();
-
 		if ($appstoreEnabled) {
 			$this->groupManager->expects($this->once())
 				->method('isAdmin')
@@ -141,7 +147,9 @@ class WizardControllerTest extends TestCase {
 
 		$this->assertInstanceOf(JSONResponse::class, $response);
 		$this->assertSame(Http::STATUS_OK, $response->getStatus());
-		$this->assertCount($expectedSlidesCount, $response->getData());
+		$response = $response->getData();
+		$this->assertCount($expectedSlidesCount, $response['slides']);
+		$this->assertEquals(true, $response['hasVideo']);
 	}
 
 	public function dataShowAdmin(): array {
