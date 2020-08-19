@@ -306,14 +306,17 @@
 	.previous-enter-active, .previous-leave-active {
 		transition: transform .1s, opacity .25s;
 	}
+
 	.next-enter {
 		transform: translateX(50%);
 		opacity: 0;
 	}
+
 	.next-leave-to {
 		transform: translateX(-50%);
 		opacity: 0;
 	}
+
 	.previous-enter {
 		transform: translateX(-50%);
 		opacity: 0;

@@ -18,8 +18,8 @@ watch-js:
 	npm run watch
 
 clean:
-	rm -f js/firstrunwizard.js
-	rm -f js/firstrunwizard.js.map
+	rm -f js/firstrunwizard-main.js
+	rm -f js/firstrunwizard-main.js.map
 
 clean-dev:
 	rm -rf node_modules

@@ -52,6 +52,7 @@ export default {
 		height: 100%;
 		object-fit: cover;
 	}
+
 	.video-wrapper {
 		background-color: var(--color-primary);
 	}
