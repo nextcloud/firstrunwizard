@@ -1,6 +1,8 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "video" : "Βίντεο",
+    "Start using Nextcloud" : "Έναρξη χρήσης Nextcloud",
     "Copy to clipboard" : "Αντιγραφή στο πρόχειρο",
     "Copied!" : "Αντιγράφηκε!",
     "Not supported!" : "Δεν υποστηρίζεται!",
@@ -30,7 +32,6 @@ OC.L10N.register(
     "About" : "Περί",
     "A welcome and introduction wizard for Nextcloud" : "Οδηγός καλωσορίσματος και εισαγωγής για το Nextcloud",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Η εφαρμογή ενεργοποιεί ένα αναδυόμενο παράθυρο όταν ένας χρήστης συνδεθεί πρώτη φορά στο Nextcloud. Αυτό το παράθυρο καλωσορίζει τους νέους χρήστες στο Nextcloud και περιέχει συνδέσμους με τον τυπικό υπολογιστή-πελάτη, την εφαρμογή Android και την εφαρμογή iOS. Το παράθυρο εμφανίζει επίσης έναν σύνδεσμο για την πρόσβαση στο Nextcloud μέσω του WebDAV. Μπορείτε να ανοίξετε ξανά τον οδηγό πρώτης εκτέλεσης ανά πάσα στιγμή μέσω του συνδέσμου \"Πληροφορίες\" στο μενού ρυθμίσεων.\nΟ πρώτος οδηγός εκτέλεσης μπορεί να προσαρμοστεί ώστε να ανταποκρίνεται σε συγκεκριμένους στόχους σχεδιασμού ή να αλλάζει συνδέσμους και μηνύματα. Δημιουργήστε ένα κατάλληλο θέμα ακολουθώντας την τεκμηρίωση Theming και οι αλλαγές στην εμφάνιση και την αίσθηση αυτού του οδηγού είναι απλές. Περισσότερες πληροφορίες διατίθενται στην τεκμηρίωση του οδηγού πρώτης εκτέλεσης, καθώς και στην τεκμηρίωση των θεμάτων.",
-    "Start using Nextcloud" : "Έναρξη χρήσης Nextcloud",
     "Extend your cloud" : "Επεκτείνετε το σύννεφο σας",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Βρείτε περισσότερες από 100 εφαρμογές στο κατάστημα εφαρμογών Nextcloud για να προσαρμόσετε το σύννεφο σας:",
     "Groupware apps like Calendar, Contacts, Mail" : "Ομαδικές εφαρμογές όπως Ημερολόγιο, Επαφές, Αλληλογραφία",
@@ -79,11 +80,11 @@ OC.L10N.register(
     "Server address" : "Διεύθυνση διακομιστή",
     "Use this link to connect your apps and desktop client to this server:" : "Χρησιμοποιήστε τον σύνδεσμο για να συνδέσετε την εφαρμογή υπολογιστή και κινητού σε αυτόν τον διακομιστή:",
     "Copy link" : "Αντιγραφή συνδέσμου",
-    "Previous" : "Προηγούμενο",
-    "Next" : "Επόμενο",
     "App recommendation: Nextcloud Talk" : "Προτεινόμενη εφαρμογή: Nextclound Ομιλία",
     "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Κοινή χρήση οθόνης, συναντήσεις και τηλεδιάσκεψη - για εφαρμογές κινητού και υπολογιστή.",
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Ρυθμίστε τον συγχρονισμό υπολογιστών χρησιμοποιώντας <a href=\"%s\">εφαρμογή κωδικών</a>. Με αυτόν τον τρόπο μπορείτε να βεβαιωθείτε ότι είστε σε θέση να ανακαλέσετε την πρόσβαση σε περίπτωση που χάσετε τη συσκευή.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Εκτός από εφαρμογές υπολογιστών και κινητών μπορείτε να συνδέσετε οποιοδήποτε άλλη εφαρμογή υποστηρίζει το πρωτόκολλο WebDAV/CalDAV/CardDAV %s."
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Εκτός από εφαρμογές υπολογιστών και κινητών μπορείτε να συνδέσετε οποιοδήποτε άλλη εφαρμογή υποστηρίζει το πρωτόκολλο WebDAV/CalDAV/CardDAV %s.",
+    "Previous" : "Προηγούμενο",
+    "Next" : "Επόμενο"
 },
 "nplurals=2; plural=(n != 1);");

@@ -1,6 +1,8 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "video" : "видео",
+    "Start using Nextcloud" : "Към Nextcloud",
     "Copy to clipboard" : "Копирай",
     "Copied!" : "Копирано!",
     "Not supported!" : "Не се поддържа!",
@@ -14,7 +16,6 @@ OC.L10N.register(
     "About" : "Относно",
     "A welcome and introduction wizard for Nextcloud" : "Добре дошли в Nextcloud",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Приложението активира нов прозорец, когато стартирате Nextcloud за първи път. Той приветства новите потребители в Nextcloud и съдържа връзки към клиентите за настолни компютри и приложенията за Androidи iOS. Там ще намерите също и връзки за достъп до Nextcloud чрез WebDAV. Прозорецът може да бъде отворен по всяко време от менюто с настройки > Относно. Съдържанието на прозореца може да бъде персонализирано - промяна на дизайна, връзки или текста. Как да промените вида на приложението, можете да прочетете в документацията. За повече информация се консултирайте с документацията за \"first run wizard\" и \"theming documentation\".",
-    "Start using Nextcloud" : "Към Nextcloud",
     "Extend your cloud" : "Разширете вашия облак",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Можете да откриете повече от 100 приложения в Nextcloud магазина и да преобразите своя облак:",
     "Groupware apps like Calendar, Contacts, Mail" : "Групови приложения, като Календар, Контакти, Поща",
@@ -59,9 +60,9 @@ OC.L10N.register(
     "Connect other apps to %s" : "Свързване на други приложения с %s",
     "Server address" : "Адрес на сървъра",
     "Copy link" : "Копирай връзката",
-    "Previous" : "Назад",
-    "Next" : "Напред >",
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Свържете приложение за синхронизация чрез<a href=\"%s\"> парола за приложения </a>. Така ще можете да отнемете достъпа, в случай, че загубите устройството.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Освен чрез приложенията за синхронизация, можете да свържете всеки друг софтуер, който поддържа протоколите WebDAV/CalDAV/CardDAV %s"
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Освен чрез приложенията за синхронизация, можете да свържете всеки друг софтуер, който поддържа протоколите WebDAV/CalDAV/CardDAV %s",
+    "Previous" : "Назад",
+    "Next" : "Напред >"
 },
 "nplurals=2; plural=(n != 1);");

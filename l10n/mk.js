@@ -1,6 +1,8 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "video" : "видео",
+    "Start using Nextcloud" : "Започни со користење на Nextcloud",
     "Copy to clipboard" : "Копирај во клипборд",
     "Copied!" : "Копирано!",
     "Not supported!" : "Не е поддржано!",
@@ -27,7 +29,6 @@ OC.L10N.register(
     "About" : "За",
     "A welcome and introduction wizard for Nextcloud" : "Добредојдовте и волшебник со инструкциски за Nextcloud",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Оваа апликација овозможува скокачки прозор кога корисник за првпат ќе се најави на Nextcloud. Овој прозорец ги поздравува новите корисници во Nextcloud, и содржи линкови до стандардните клиенти за компјутер, апликација за Android и апликација iOS. Прозорецот исто така покажува линк за пристап до Nextcloud преку WebDAV. Во секое време, волшебникот може да се отвори повторно преку линкот \"За\" во менито за поставки.\nВолшебникот може да се прилагоди за специфични цели на дизајн или за промена на врски и пораки. Создадете соодветна тема, и промените во изгледот на овој Волшебник се едноставни. Повеќе информации се достапни во документацијата за волшебникот, како и во документацијата за темите.",
-    "Start using Nextcloud" : "Започни со користење на Nextcloud",
     "Extend your cloud" : "Проширете го вашиот облак",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Пронајдете повеќе од 100 апликации во апликацијата Nextcloud продавница за да го прилагодите вашиот облак:",
     "Groupware apps like Calendar, Contacts, Mail" : "Групни апликации како Календар, Контакти, Е-пошта",
@@ -76,11 +77,11 @@ OC.L10N.register(
     "Server address" : "Адреса на серверот",
     "Use this link to connect your apps and desktop client to this server:" : "Користете го овој линк за да ги поврзете вашите апликации со серверот:",
     "Copy link" : "Копирај линк",
-    "Previous" : "Претходно",
-    "Next" : "Следно",
     "App recommendation: Nextcloud Talk" : "Препорака за апликација: Nextcloud Разговор",
     "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Споделување на екранот, онлајн состаноци и веб конференции - на вашиот компјутер и на вашиот мобилен телефон.",
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Подесете ги клиентите за синхронизација да користат <a href=\"%s\">лозинка за апликација</a>. Тоа ќе ви овозможи во секој момент да имате контрола и да го отстраните тој клинт во случај да го изгубите пристапот до уредот.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Покрај клиентите за синхронизација, можете да поврзете кој било друг софтвер што поддржува WebDAV/CalDAV/CardDAV протоколи на %s."
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Покрај клиентите за синхронизација, можете да поврзете кој било друг софтвер што поддржува WebDAV/CalDAV/CardDAV протоколи на %s.",
+    "Previous" : "Претходно",
+    "Next" : "Следно"
 },
 "nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1;");

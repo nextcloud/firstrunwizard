@@ -1,4 +1,6 @@
 { "translations": {
+    "video" : "myndskeiðum",
+    "Start using Nextcloud" : "Byrjaðu að nota Nextcloud",
     "Copy to clipboard" : "Afrita á klippispjald",
     "Copied!" : "Afritað!",
     "Not supported!" : "Ekki stutt!",
@@ -12,7 +14,6 @@
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Einfalt og stílhreint tölvupóstforrit sem virkar með skráaforritinu, tengiliðum og dagatalinu.",
     "About" : "Um hugbúnaðinn",
     "A welcome and introduction wizard for Nextcloud" : "Kynning og leiðarvísir fyrir Nextcloud",
-    "Start using Nextcloud" : "Byrjaðu að nota Nextcloud",
     "Extend your cloud" : "Útvíkkaðu tölvuskýið þitt",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Skoðaðu meira en 100 forrit í forritasafni Nextcloud til að sérsníða tölvuskýið þitt:",
     "Groupware apps like Calendar, Contacts, Mail" : "Hópvinnuforrit á borð við Dagbók, Tengiliðir, Póstur",
@@ -59,9 +60,9 @@
     "Server address" : "Vistfang þjóns",
     "Use this link to connect your apps and desktop client to this server:" : "Notaðu þessa slóð fyrir forritin þín til að tengjast þessum þjóni:",
     "Copy link" : "Afrita tengil",
-    "Previous" : "Fyrra",
-    "Next" : "Næsta",
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Settu upp samstillingarbiðlara með <a href=\"%s\">lykilorði forrits</a>. Þannig geturðu verið viss um að geta afturkallað aðgangsheimildir fari svo að þú tapir því tæki.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Fyrir utan samstillingaforritin geturðu tengt hvert það forrit sem styður WebDAV/CalDAV/CardDAV samskiptamátana við %s."
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Fyrir utan samstillingaforritin geturðu tengt hvert það forrit sem styður WebDAV/CalDAV/CardDAV samskiptamátana við %s.",
+    "Previous" : "Fyrra",
+    "Next" : "Næsta"
 },"pluralForm" :"nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);"
 }

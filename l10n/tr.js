@@ -1,6 +1,8 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "video" : "görüntü",
+    "Start using Nextcloud" : "Nextcloud kullanmaya başlayın",
     "Copy to clipboard" : "Panoya kopyala",
     "Copied!" : "Kopyalandı!",
     "Not supported!" : "Desteklenmiyor!",
@@ -30,7 +32,6 @@ OC.L10N.register(
     "About" : "Hakkında",
     "A welcome and introduction wizard for Nextcloud" : "Nextcloud için karşılama ve tanıtım yardımcısı",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Bu uygulama, bir kullanıcının Nextcloud oturumunu ilk kez açmasında açılan bir pencere görüntülenmesini sağlar. Bu pencerede kullanıcı karşılama iletisi görüntülenir ve standart masaüstü istemcisi ile Android ve iOS uygulamalarına bağlantılar bulunur. Ayrıca WebDAV üzerinden Nextcloud erişimi için de bir bağlantı görüntülenir. İlk kez çalıştırma yardımcısı, istenildiği zaman ayarlar menüsündeki \"Hakkında\" bağlantısı kullanılarak yeniden görüntülenebilir.\nİlk çalıştırma yardımcısı belirli amaçları gerçekleştirmek için özelleştirilebilir ve bağlantılar ile metinler değiştirilebilir. Tema oluşturma belgelerine bakılarak istenilen bir tema oluşturulabilir ve bu yardımcının görünüşünü kolayca değiştirilebilir. Ayrıntılı bilgi almak için ilk çalıştırma yardımcısı ve tema oluşturma belgelerine bakabilirsiniz.",
-    "Start using Nextcloud" : "Nextcloud kullanmaya başlayın",
     "Extend your cloud" : "Bulutunuzu zenginleştirin",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Bulut uygulamanızı zenginleştirmek için Nextcloud uygulama mağazasında kullanabileceğiniz 100 üzerinde uygulama bulabilirsiniz:",
     "Groupware apps like Calendar, Contacts, Mail" : "Takvim, Kişiler, E-posta gibi birlikte çalışma uygulamaları",
@@ -79,11 +80,11 @@ OC.L10N.register(
     "Server address" : "Sunucu adresi",
     "Use this link to connect your apps and desktop client to this server:" : "Uygulamalarınızı ve masaüstü istemcinizi bu sunucuya bağlamak için şu adresi kullanın:",
     "Copy link" : "Bağlantıyı kopyala",
-    "Previous" : "Önceki",
-    "Next" : "Sonraki",
     "App recommendation: Nextcloud Talk" : "Önerilen uygulama: Nextcloud Sohbet",
     "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Ekran paylaşımı, çevrimiçi toplantılar ve web görüşmeleri - masaüstü ve mobil için uygulamalar.",
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "<a href=\"%s\">Uygulama parolası</a> kullanan eşitleme istemcilerini kurun. Böylece aygıtınızı kaybederseniz erişimi geri alabileceğinizden emin olursunuz.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Eşitleme uygulamaları yanında WebDAV/CalDAV/CardDAV iletişim kurallarını destekleyen uygulamalar da %s üzerine bağlanabilir."
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Eşitleme uygulamaları yanında WebDAV/CalDAV/CardDAV iletişim kurallarını destekleyen uygulamalar da %s üzerine bağlanabilir.",
+    "Previous" : "Önceki",
+    "Next" : "Sonraki"
 },
 "nplurals=2; plural=(n > 1);");

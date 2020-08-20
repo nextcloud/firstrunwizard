@@ -1,6 +1,7 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "video" : "video",
     "Copy to clipboard" : "Copiar al portapapeles",
     "Copied!" : "¡Copiado!",
     "Not supported!" : "¡No soportado!",
