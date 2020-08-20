@@ -1,6 +1,8 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "video" : "video",
+    "Start using Nextcloud" : "Begynd at bruge Nextcloud",
     "Copy to clipboard" : "Kopier til udklipsholder",
     "Copied!" : "Kopieret!",
     "Not supported!" : "Ikke understøttet!",
@@ -16,7 +18,6 @@ OC.L10N.register(
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Simpel email-app som er integreret med Filer, Kontakter og Kalender.",
     "About" : "Om",
     "A welcome and introduction wizard for Nextcloud" : "En velkomst- og introduktionsguide til Nextcloud",
-    "Start using Nextcloud" : "Begynd at bruge Nextcloud",
     "Get the apps to sync your files" : "Hent applikationerne for at synkronisere dine filer",
     "Desktop client" : "Skrivebordsklient",
     "Android app" : "Android-app",
