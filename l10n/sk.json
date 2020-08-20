@@ -1,4 +1,6 @@
 { "translations": {
+    "video" : "video",
+    "Start using Nextcloud" : "Začnite používať Nextcloud",
     "Copy to clipboard" : "Skopírovať do schránky",
     "Copied!" : "Skopírované!",
     "Not supported!" : "Nepodporované!",
@@ -28,7 +30,6 @@
     "About" : "O aplikácii",
     "A welcome and introduction wizard for Nextcloud" : "Uvítací a úvodný sprievodca pre Nextcloud",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Táto aplikácia zobrazí vyskakovacie okno, keď se používateľ prvýkrát prihlási do Nextcloudu. Toto okno privíta nového používateľa a obsahuje odkazy na štandardného desktopového klienta a aplikáciu pre Android a iOS. Okno tiež zobrazuje odkaz na prístup k Nextcloudu pomocou WebDAV. Neskôr je kedykoľvek možné toto okno otvoriť pomocou odkazu „O aplikácii“ v ponuke nastavenia. Sprievodcu prvým spustením je možné prispôsobiť pre splnenie konkrétnych estetických cieľov alebo zmeniť odkazy a správy. Vytvorte príslušný motív vzhľadu podľa pokynov v dokumentácii k motívom vzhľadu a jednoducho zmeňte vzhľad a chovanie tohoto sprievodcu. Viac informácii je k dispozícii v dokumentácii k Sprievodcovi prvým spustením a v dokumentácii k témam vzhľadu.",
-    "Start using Nextcloud" : "Začnite používať Nextcloud",
     "Extend your cloud" : "Rozšírte svoj cloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Pozrite si viac než 100 aplikácií v katalógu Nextcloud, ktorými si môžete prispôsobiť svoj cloud:",
     "Groupware apps like Calendar, Contacts, Mail" : "Apky pre skupiny ako napr. Kalendár, Kontakty a Pošta",
@@ -77,11 +78,11 @@
     "Server address" : "Adresa servera",
     "Use this link to connect your apps and desktop client to this server:" : "Pre prepojenie vašich aplikácii a desktopového klienta na tento server použite tento odkaz: ",
     "Copy link" : "Kopíruj odkaz",
-    "Previous" : "Predchádzajúce",
-    "Next" : "Ďalšie",
     "App recommendation: Nextcloud Talk" : "Odporúčaná aplikácia: Nextcloud Talk",
     "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Zdieľanie obrazovky, online schôdzky a webové konferencie - v PC a mobilných aplikáciách.",
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Nastavte synchronizačných klientov s použitím <a href=\"%s\">aplikácie Heslá</a> Tak zaistíte, že budete schopní zrušiť prístup v prípade straty takého zaiadenia.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Okrem mobilných aplikácii a desktopového klienta sa môžete k %s pripojiť pomocou ľubovoľného softvéru, ktorý podporuje WebDAV/CalDAV/CardDAV protokol."
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Okrem mobilných aplikácii a desktopového klienta sa môžete k %s pripojiť pomocou ľubovoľného softvéru, ktorý podporuje WebDAV/CalDAV/CardDAV protokol.",
+    "Previous" : "Predchádzajúce",
+    "Next" : "Ďalšie"
 },"pluralForm" :"nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);"
 }

@@ -1,6 +1,7 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "video" : "비디오",
     "Copy to clipboard" : "클립보드로 복사",
     "Copied!" : "복사 성공!",
     "Not supported!" : "지원되지 않습니다!",
@@ -28,9 +29,9 @@ OC.L10N.register(
     "Server address" : "서버 주소",
     "Use this link to connect your apps and desktop client to this server:" : "다음 링크를 사용하여 데스크톱 클라이언트나 당신의 앱에 이 서버를 연결하세요.",
     "Copy link" : "링크 복사",
-    "Previous" : "이전",
-    "Next" : "Next",
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "<a href=\"%s\">앱 패스워드</a>를 사용하여 동기화 클라이언트를 설정하면, 만약 디바이스를 잃어버리는 경우 접근 권한을 취소할 수 있습니다.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "동기화 클라이언트 말고도 WebDAV/CalDAV/CardDAV를 지원하는 다른 소프트웨어에 %s를 연결할 수 있습니다."
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "동기화 클라이언트 말고도 WebDAV/CalDAV/CardDAV를 지원하는 다른 소프트웨어에 %s를 연결할 수 있습니다.",
+    "Previous" : "이전",
+    "Next" : "Next"
 },
 "nplurals=1; plural=0;");

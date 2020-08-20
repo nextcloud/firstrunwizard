@@ -1,6 +1,8 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "video" : "video",
+    "Start using Nextcloud" : "Starten met Nextcloud",
     "Copy to clipboard" : "Kopiëren naar het klembord",
     "Copied!" : "Gekopieerd!",
     "Not supported!" : "Niet ondersteund!",
@@ -30,7 +32,6 @@ OC.L10N.register(
     "About" : "Over",
     "A welcome and introduction wizard for Nextcloud" : "Een Hartelijk welkom en introductie wizard voor Nextcloud",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Deze applicatie activeert een pop-up venster wanneer een gebruiker voor de eerste keer inlogt in Nextcloud. Dit venster heet de nieuwe gebruiker welkom en bevat links naar de standaard desktop client, Android app en de iOS app. Het venster toont ook een link voor toegang tot Nextcloud via WebDAV. Deze eerste gebruik wizard kan altijd via de link \"Over\" in het intellingenmenu opnieuw worden gestart.\nDe Eerste gebruik wizard kan worden aangepast voor specific ontwerpuitgangspunten, of om de links en berichten te wijzigen. Creëer een passend thema conform de Theming documentatie en dan zijn wijzigingen aan het uiterlijk van de Wizard zijn simpel. Meer informatie is beschikbaar in de Eerste gebruik wizard documentatie, evenals de theming documentatie.",
-    "Start using Nextcloud" : "Starten met Nextcloud",
     "Extend your cloud" : "Breid je cloud uit",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Vind meer dan 100 apps in de Nextcloud app winkel om je Nextcloud aan te passen.",
     "Groupware apps like Calendar, Contacts, Mail" : "Groupware apps zoals Agenda, Contactpersonen, E-mail",
@@ -79,11 +80,11 @@ OC.L10N.register(
     "Server address" : "Serveradres",
     "Use this link to connect your apps and desktop client to this server:" : "Gebruik deze link om je apps en desktop client met deze server te verbinden:",
     "Copy link" : "Kopiëren link ",
-    "Previous" : "Vorige",
-    "Next" : "Volgende",
     "App recommendation: Nextcloud Talk" : "App aanbeveling: Nextcloud Talk",
     "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Schermdelen, online afspraken en webconferenties - op de desktop en met mobiele apps",
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Installeer Sync clients met een <a href=\"%s\">app wachtwoord</a>. Dan kan je toegang intrekken zodra je je apparaat verliest.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Naast de sync clients kun je ook met %s verbinden met alle andere software die de WebDAV/CalDAV/CardDAV protocolen ondersteunt."
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Naast de sync clients kun je ook met %s verbinden met alle andere software die de WebDAV/CalDAV/CardDAV protocolen ondersteunt.",
+    "Previous" : "Vorige",
+    "Next" : "Volgende"
 },
 "nplurals=2; plural=(n != 1);");

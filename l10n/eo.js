@@ -1,6 +1,8 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "video" : "videaĵo",
+    "Start using Nextcloud" : "Ekuzi Nextcloud-on",
     "Copy to clipboard" : "Kopii tondejen",
     "Copied!" : "Kopiita!",
     "Not supported!" : "Ne subtenite!",
@@ -14,7 +16,6 @@ OC.L10N.register(
     "About" : "Pri",
     "A welcome and introduction wizard for Nextcloud" : "Asistilo por bonvenigi vin al Nextcloud",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Tiu aplikaĵo malfermas fenestron, kiam uzanto ensalutas unuafoje en Nextcloud. Tiu fenestro bonvenigas novajn uzantojn al Nextcloud, kaj prezentas ligilojn al defaŭlta labortabla kliento, la Android-a aplikaĵo kaj la iOS-a aplikaĵo. Ankaŭ montriĝas ligilo por aliri al Nextcloud per WebDAV. Uzantoj povas remalfermi tiun asistilon per la menuo „Pri“ en la agorda menuo.\nOni povas adapti tiun asistilon por aspektigi ĝin laŭvole, aŭ por ŝanĝi ligilojn kaj mesaĝojn: kreu taŭgan etoson sekvante la dokumentaro pri etoso. Plia informo troviĝas en la dokumentaro pri la asistilo kaj la etoso.",
-    "Start using Nextcloud" : "Ekuzi Nextcloud-on",
     "Extend your cloud" : "Plivastigu vian nubon",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Trovu pli ol 100 aplikaĵojn en la Nextcloud-aplikaĵejo por tajlori vian nubon:",
     "Groupware apps like Calendar, Contacts, Mail" : "Kunlaboraj aplikaĵoj kial Kalendaro, Kontaktaro, Retpoŝtilo",
@@ -60,9 +61,9 @@ OC.L10N.register(
     "Connect other apps to %s" : "Konekti aliajn aplikaĵojn al %s",
     "Server address" : "Servila adreso",
     "Copy link" : "Kopii ligilon",
-    "Previous" : "Antaŭa",
-    "Next" : "Sekva",
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Agordi sinkronigajn klientojn uzante <a href=\"%s\">aplikaĵan pasvorton</a>. Tiel, vi povos senvalidigi aliron, okaze de perdo de tiu aparato.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Krom la sinkronigaj klientoj, vi povas konekti aliajn programojn, kiuj subtenas la protokolojn WebDAV, CalDAV kaj CardDAV, al %s."
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Krom la sinkronigaj klientoj, vi povas konekti aliajn programojn, kiuj subtenas la protokolojn WebDAV, CalDAV kaj CardDAV, al %s.",
+    "Previous" : "Antaŭa",
+    "Next" : "Sekva"
 },
 "nplurals=2; plural=(n != 1);");

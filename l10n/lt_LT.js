@@ -1,6 +1,8 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "video" : "video",
+    "Start using Nextcloud" : "Pradėti naudotis Nextcloud",
     "Copy to clipboard" : "Kopijuoti į iškarpinę",
     "Copied!" : "Nukopijuota!",
     "Not supported!" : "Nepalaikoma!",
@@ -26,7 +28,6 @@ OC.L10N.register(
     "Nextcloud becomes part of the federated social networks." : "Nextcloud tampa federacinių socialinių tinklų dalimi.",
     "About" : "Apie",
     "A welcome and introduction wizard for Nextcloud" : "Pasisveikinimo ir pristatymo vediklis, skirtas Nextcloud",
-    "Start using Nextcloud" : "Pradėti naudotis Nextcloud",
     "Extend your cloud" : "Išplėskite savo debesiją",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Nextcloud programėlių parduotuvėje raskite daugiau kaip 100 programėlių, skirtų tinkinti jūsų debesiją:",
     "Groupware apps like Calendar, Contacts, Mail" : "Grupinio darbo įrangos programėlės, tokios kaip Kalendorius, Adresatai, Paštas",
@@ -72,11 +73,11 @@ OC.L10N.register(
     "Server address" : "Serverio adresas",
     "Use this link to connect your apps and desktop client to this server:" : "Naudokite šią nuorodą norėdami prijungti savo programėles bei darbalaukio kliento programas prie šio serverio:",
     "Copy link" : "Kopijuoti nuorodą",
-    "Previous" : "Ankstesnis",
-    "Next" : "Kitas",
     "App recommendation: Nextcloud Talk" : "Programėlės rekomendacija: Nextcloud pokalbiai",
     "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Ekrano bendrinimas, internetiniai susitikimai bei konferencijos – naudojant kompiuterį ir mobiliąsias programėles.",
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Nusistatykite sinchronizavimo kliento programas naudodami  <a href=\"%s\">programėlės slaptažodį</a>. Tokiu būdu užtikrinsite, jog galėsite panaikinti prieigą tuo atveju, jei pamesite įrenginį.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Be sinchronizavimo klientų, prie %s taip pat galite prijungti bet kokią programinę įrangą, kuri palaiko WebDAV/CalDAV/CardDAV protokolus."
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Be sinchronizavimo klientų, prie %s taip pat galite prijungti bet kokią programinę įrangą, kuri palaiko WebDAV/CalDAV/CardDAV protokolus.",
+    "Previous" : "Ankstesnis",
+    "Next" : "Kitas"
 },
 "nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);");

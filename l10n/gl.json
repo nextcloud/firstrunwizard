@@ -1,4 +1,6 @@
 { "translations": {
+    "video" : "vídeo",
+    "Start using Nextcloud" : "Comece a empregar o Nextcloud",
     "Copy to clipboard" : "Copiar no portapapeis.",
     "Copied!" : "Copiado!",
     "Not supported!" : "Non admitido!",
@@ -28,7 +30,6 @@
     "About" : "Sobre",
     "A welcome and introduction wizard for Nextcloud" : "Un asistente de benvida e presentación para Nextcloud",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Esta aplicación activa unha xanela emerxente cando un usuario se rexistra por primeira vez no Nextcloud. Esta xanela dá a benvida aos novos usuarios e contén ligazóns ao cliente de escritorio estándar e ás aplis de Android e iOS. A xanela amosa tamén unha ligazón para acceder a Nextcloud vía WebDAV. En calquera momento, o asistente de primeira execución pode abrirse de novo a través da ligazón «Sobre» no menú de axustes.\nO asistente de primeira execución pode personalizarse para cumprir obxectivos específicos de deseño ou para cambiar as ligazóns e mensaxes. É moi sinxelo crear un tema apropiado seguindo a documentación de temas e cambiar a aparencia e comportamento deste asistente. Hai máis información dispoñíbel na documentación do asistente de primeira execución, así como na documentación de temas.",
-    "Start using Nextcloud" : "Comece a empregar o Nextcloud",
     "Extend your cloud" : "Estenda a súa nube",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Atopar máis de 100 aplicacións na tenda de aplicacións do Nextcloud para personalizar a súa nube:",
     "Groupware apps like Calendar, Contacts, Mail" : "Aplicacións de software colaborativo como Calendario, Contactos, Correo",
@@ -77,11 +78,11 @@
     "Server address" : "Enderezo do servidor",
     "Use this link to connect your apps and desktop client to this server:" : "Use esta ligazón para conectar as súas aplicacións e clientes de escritorio a este servidor:",
     "Copy link" : "Copiar a ligazón",
-    "Previous" : "Anterior",
-    "Next" : "Seguinte",
     "App recommendation: Nextcloud Talk" : "Recomendación da aplicación: Nextcloud Talk",
     "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Compartir a pantalla, xuntanzas en liña e conferencias web — co equipo de escritorio e coas aplicacións móbiles.",
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Configure os clientes de sincronización usando un <a href=\"%s\">contrasinal da aplicación</a>. Deste xeito, pode asegurarse de que pode revogar o acceso no caso de extraviar ese dispositivo.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Ademais dos clientes de sincronización pode conectar calquera outro software que admita os protocolos WebDAV/CalDAV/CardDAV a %s."
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Ademais dos clientes de sincronización pode conectar calquera outro software que admita os protocolos WebDAV/CalDAV/CardDAV a %s.",
+    "Previous" : "Anterior",
+    "Next" : "Seguinte"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

@@ -1,6 +1,7 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "Start using Nextcloud" : "Empieza a usar Nextcloud",
     "Copy to clipboard" : "Copiar al portapapeles",
     "Copied!" : "¡Copiado!",
     "Not supported!" : "¡No soportado!",
@@ -12,7 +13,6 @@ OC.L10N.register(
     "Add your profile information! Set a full name for easier recognition across all features." : "Agregua tu información de perfil! Establece tu nombre completo para reconocerte más fácilmente entre todas las funcionalidades. ",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Agrega tu información de perfil! Establece una imagen de perfil para reconocerte más fácilmente entre todas las funcionalidades. ",
     "About" : "Acerca de",
-    "Start using Nextcloud" : "Empieza a usar Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Puedes encontrar más de 100 apliicaciones en la tienda de aplicaciones de Nextcloud y personalizar tu nube:",
     "Groupware apps like Calendar, Contacts, Mail" : "Aplicaciones de Groupware como Calendario, Contactos y Correo",
     "Communication with Nextcloud Talk" : "Comunicacion con Nextcloud Talk",
@@ -51,8 +51,8 @@ OC.L10N.register(
     "Connect other apps to %s" : "Conectar otras aplicaciones a %s",
     "Server address" : "Dirección del servidor",
     "Copy link" : "Copiar liga",
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Además tu los clientes de sincronización puedes conectar cualquier otro software que soporte los protocolos WebDAV/CalDAV/CardDAV a %s.",
     "Previous" : "Previo",
-    "Next" : "Siguiente",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Además tu los clientes de sincronización puedes conectar cualquier otro software que soporte los protocolos WebDAV/CalDAV/CardDAV a %s."
+    "Next" : "Siguiente"
 },
 "nplurals=2; plural=(n != 1);");
