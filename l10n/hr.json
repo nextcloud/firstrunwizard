@@ -1,4 +1,6 @@
 { "translations": {
+    "video" : "videozapis",
+    "Start using Nextcloud" : "Počnite se koristiti Nextcloudom",
     "Copy to clipboard" : "Kopiraj u međuspremnik",
     "Copied!" : "Kopirano!",
     "Not supported!" : "Nije podržano!",
@@ -28,7 +30,6 @@
     "About" : "Informacije",
     "A welcome and introduction wizard for Nextcloud" : "Čarobnjak za dobrodošlicu i uvođenje u Nextcloud",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Ova aplikacija omogućuje prikazivanje skočnog prozora kada se korisnik prvi put prijavi u Nextcloud. Navedeni prozor pozdravlja nove korisnike Nextclouda i sadrži poveznice na standardni klijent za osobno računalo, Android i iOS sustave. Prozor također prikazuje poveznicu za pristup Nextcloudu putem WebDAVa. U bilo kojem trenutku možete ponovo otvoriti čarobnjaka putem poveznice „O aplikaciji” u izborniku postavki.\nČarobnjak za prvo pokretanje može se prilagoditi tako da ispuni određene ciljeve dizajna ili možete promijeniti njegove poveznice i poruke. Stvorite odgovarajuću temu sukladno dokumentaciji Izrada tema jer su sve promjene izgleda i čarobnjaka iznimno jednostavne. Više informacija dostupno je u dokumentaciji čarobnjaka za prvo pokretanje kao i u dokumentaciji o izradi tema.",
-    "Start using Nextcloud" : "Počnite se koristiti Nextcloudom",
     "Extend your cloud" : "Proširite svoj oblak",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Pronađite više od 100 aplikacija u Nextcloudovoj trgovini aplikacijama i prilagodite svoj oblak:",
     "Groupware apps like Calendar, Contacts, Mail" : "Aplikacije za upravljanje komunikacijom unutar grupa, kao što su kalendar, kontakti i pošta",
@@ -77,11 +78,11 @@
     "Server address" : "Adresa poslužitelja",
     "Use this link to connect your apps and desktop client to this server:" : "Iskoristite ovu poveznicu za povezivanje aplikacija i klijenata za osobna računala s ovim poslužiteljem:",
     "Copy link" : "Kopiraj poveznicu",
-    "Previous" : "Prethodna",
-    "Next" : "Sljedeća",
     "App recommendation: Nextcloud Talk" : "Preporučena aplikacija: Nextcloud Talk",
     "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Dijeljenje zaslona, sastanci na mreži i web konferencije – na osobnim računalima i mobilnim uređajima.",
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Postavite klijente za sinkronizaciju i osigurajte ih s pomoću <a href=\"%s\">zaporke aplikacije</a>. Na taj način možete opozvati pristup u slučaju gubitka uređaja.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Osim klijenata za sinkronizaciju, s %s možete povezati bilo koji drugi softver koji podržava WebDAV/CalDAV/CardDAV protokole."
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Osim klijenata za sinkronizaciju, s %s možete povezati bilo koji drugi softver koji podržava WebDAV/CalDAV/CardDAV protokole.",
+    "Previous" : "Prethodna",
+    "Next" : "Sljedeća"
 },"pluralForm" :"nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;"
 }

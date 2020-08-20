@@ -1,6 +1,8 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "video" : "vídeo",
+    "Start using Nextcloud" : "Comece a usar o Nextcloud",
     "Copy to clipboard" : "Copiar para a área de trabalho",
     "Copied!" : "Copiado!",
     "Not supported!" : "Não suportado!",
@@ -30,7 +32,6 @@ OC.L10N.register(
     "About" : "Sobre",
     "A welcome and introduction wizard for Nextcloud" : "Um assistente de boas-vindas e introdução ao Nextcloud",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Este aplicativo ativa uma janela pop-up quando um usuário faz login pela primeira vez no Nextcloud. Essa janela dá boas-vindas aos novos usuários e contém links para os clientes padrões para desktop Android e iOS. A janela também mostra um link para acessar o Nextcloud via WebDAV. A qualquer momento, este assistente pode ser aberto novamente pelo link \"Sobre\" no menu de configurações.\nO assistente de primeira execução pode ser personalizado para atender a metas de design específicas ou para alterar links e mensagens. Crie um tema apropriado seguindo a documentação de Theming. Mais informações estão disponíveis na documentação deste assistente, bem como na documentação sobre temas.",
-    "Start using Nextcloud" : "Comece a usar o Nextcloud",
     "Extend your cloud" : "Amplie sua nuvem",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Encontre mais de 100 aplicativos na loja de aplicativos Nextcloud para personalizar sua nuvem:",
     "Groupware apps like Calendar, Contacts, Mail" : "Aplicativos de groupware como Calendário, Contatos, Correio",
@@ -79,11 +80,11 @@ OC.L10N.register(
     "Server address" : "Endereço do servidor",
     "Use this link to connect your apps and desktop client to this server:" : "Use este link para conectar seus aplicativos e clientes de desktop a este servidor:",
     "Copy link" : "Copiar link",
-    "Previous" : "Anterior",
-    "Next" : "Próximo",
     "App recommendation: Nextcloud Talk" : "Recomendação de aplicativo: Nextcloud Talk",
     "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Compartilhamento de tela, reuniões online e webconferência - em computadores e dispositivos móveis.",
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Configure clientes de sincronização usando uma <a href=\"%s\">senha de aplicativo</a>. Dessa forma, você pode garantir a revogação do acesso caso perca esse dispositivo.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Além dos clientes de sincronização, você pode conectar qualquer outro software que suporte os protocolos WebDAV/CalDAV/CardDAV ao %s."
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Além dos clientes de sincronização, você pode conectar qualquer outro software que suporte os protocolos WebDAV/CalDAV/CardDAV ao %s.",
+    "Previous" : "Anterior",
+    "Next" : "Próximo"
 },
 "nplurals=2; plural=(n > 1);");

@@ -1,6 +1,8 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "video" : "vidéo",
+    "Start using Nextcloud" : "Commencer à utiliser Nextcloud",
     "Copy to clipboard" : "Copier dans le presse-papier",
     "Copied!" : "Copié !",
     "Not supported!" : "Non pris en charge !",
@@ -30,7 +32,6 @@ OC.L10N.register(
     "About" : "À propos",
     "A welcome and introduction wizard for Nextcloud" : "Un assistant de bienvenue et d'introduction pour Nextcloud",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Cette application active une fenêtre contextuelle lorsqu'un utilisateur se connecte pour la première fois à Nextcloud. Cette fenêtre accueille les nouveaux utilisateurs de Nextcloud et contient des liens vers le client de bureau standard, l'application Android et l'application iOS. La fenêtre affiche également un lien pour accéder à Nextcloud via WebDAV. A tout moment, l'assistant de première exécution peut être ouvert à nouveau via le lien \"A propos\" dans le menu des paramètres.\nL'assistant Première exécution peut être personnalisé pour répondre à des objectifs de conception spécifique ou pour modifier des liens et des messages. Créez un thème approprié en suivant la documentation de création de thème, et les modifications apportées à l'apparence de cet assistant seront simples. Des informations supplémentaires sont disponibles dans la documentation de l'assistant Première exécution, ainsi que dans la documentation thématique.",
-    "Start using Nextcloud" : "Commencer à utiliser Nextcloud",
     "Extend your cloud" : "Étendez votre cloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Trouvez plus de 100 applications dans l'App Store de Nextcloud pour personnaliser votre cloud : ",
     "Groupware apps like Calendar, Contacts, Mail" : "Applications groupware telles que Agenda, Contact, Mail",
@@ -79,11 +80,11 @@ OC.L10N.register(
     "Server address" : "Adresse du serveur",
     "Use this link to connect your apps and desktop client to this server:" : "Utilisez ce lien pour connecter vos applications et les clients au serveur :",
     "Copy link" : "Copier le lien",
-    "Previous" : "Précédent",
-    "Next" : "Suivant",
     "App recommendation: Nextcloud Talk" : "App recommandée : Nextcloud Talk",
     "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Partage d'écran, réunions en ligne et conférences web - sur le bureau et avec des applications mobiles.",
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Configurez les clients de synchronisation en utilisant un <a href=\"%s\">mot de passe d'application</a>. De cette façon, vous pourrez être sûr que vous serrez en mesure de révoquer l'accès au cas où vous perdriez cet appareil.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Outre les clients de synchronisation, vous pouvez connecter tout autre logiciel qui prend en charge les protocoles WebDAV / CalDAV / CardDAV à %s."
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Outre les clients de synchronisation, vous pouvez connecter tout autre logiciel qui prend en charge les protocoles WebDAV / CalDAV / CardDAV à %s.",
+    "Previous" : "Précédent",
+    "Next" : "Suivant"
 },
 "nplurals=2; plural=(n > 1);");

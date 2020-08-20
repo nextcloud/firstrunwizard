@@ -1,6 +1,8 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "video" : "video",
+    "Start using Nextcloud" : "Aloita Nextcloudin käyttäminen",
     "Copy to clipboard" : "Kopioi leikepöydälle",
     "Copied!" : "Kopioitu!",
     "Not supported!" : "Ei tuettu!",
@@ -16,7 +18,6 @@ OC.L10N.register(
     "App recommendation: Nextcloud Mail" : "Sovellussuositus: Nextcloud-sähköposti",
     "About" : "Tietoja",
     "A welcome and introduction wizard for Nextcloud" : "Nextcloudin ensimmäisen käyttökerran avustaja",
-    "Start using Nextcloud" : "Aloita Nextcloudin käyttäminen",
     "Extend your cloud" : "Laajenna pilveäsi",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Löydä yli 100 eri sovellusta Nextcloud-sovelluskaupasta pilvesi muokkaamiseksi:",
     "Groupware apps like Calendar, Contacts, Mail" : "Työryhmäohjelmistot kuten kalenteri, yhteystiedot ja sähköposti",
@@ -63,10 +64,10 @@ OC.L10N.register(
     "Server address" : "Palvelimen osoite",
     "Use this link to connect your apps and desktop client to this server:" : "Käytä tätä linkkiä yhdistääksesi sovellukset ja työpöytäsovelluksen tähän palvelimeen:",
     "Copy link" : "Kopioi linkki",
-    "Previous" : "Edellinen",
-    "Next" : "Seuraava",
     "App recommendation: Nextcloud Talk" : "Sovellussuositus: Nextcloud Talk",
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Määritä synkronointi käyttäen <a href=\"%s\">sovelluskohtaisia salasanoja</a>. Näin voit kumota käyttöoikeuden, jos satut esimerkiksi kadottamaan tietyn laitteesi.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Synkronointisovellusten lisäksi voit yhdistää minkä tahansa WebDAV-, CalDAV- ja CardDAV-yhteyskäytäntöjä tukevan ohjelmiston %siin."
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Synkronointisovellusten lisäksi voit yhdistää minkä tahansa WebDAV-, CalDAV- ja CardDAV-yhteyskäytäntöjä tukevan ohjelmiston %siin.",
+    "Previous" : "Edellinen",
+    "Next" : "Seuraava"
 },
 "nplurals=2; plural=(n != 1);");

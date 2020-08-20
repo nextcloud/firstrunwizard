@@ -1,6 +1,7 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "Start using Nextcloud" : "Започните са коришћењем Некстклауда",
     "Copy to clipboard" : "Копирај у оставу",
     "Copied!" : "Копирано!",
     "Not supported!" : "Није подржано! ",
@@ -30,7 +31,6 @@ OC.L10N.register(
     "About" : "О програму",
     "A welcome and introduction wizard for Nextcloud" : "Добродошлица и чаробњак за упознавање са Некстклаудом",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Ова апликација омогућава искачући прозор када се корисник први пут пријави на Некстклауд. Овај прозор жели добродошлицу кориснику на Некстклауд и садржи везе ка стандардном десктоп клијенту, Андроид апликацији, и iOS апликацији. Прозор показује и везу за приступ Некстклауду преко WebDAV-а. У сваком тренутку, чаробњак првог покретања се може отворити опет преко везе  „О програму“ на менију поставки.\nЧаробњак првог покретања се може прилагодити да задовољава специфичне циљеве дизајна или да би се промениле везе и поруке. Направите пригодну тему пратећи документацију за Теме и промене на изгледу овог Чаробњака су једноставне. Више информација је доступно у документацији Чаробњака првог покретања, као и у документацији за Теме.",
-    "Start using Nextcloud" : "Започните са коришћењем Некстклауда",
     "Extend your cloud" : "Проширите Ваш облак",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Пронађите више од 100 апликација у Некстклауд продавници да прилагодите Ваш клауд:",
     "Groupware apps like Calendar, Contacts, Mail" : "Апликације за тимове као Календар, Контакти, Е-пошта",
@@ -79,11 +79,11 @@ OC.L10N.register(
     "Server address" : "Адреса сервера",
     "Use this link to connect your apps and desktop client to this server:" : "Користите ову везу да повежете Ваше апликације на овај сервер:",
     "Copy link" : "Копирај везу",
-    "Previous" : "Претходно",
-    "Next" : "Следеће",
     "App recommendation: Nextcloud Talk" : "Препоруке апликација: Некстклауд Разговор",
     "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Дељење екрана, састанци на интернету & веб конференције – на десктоп рачунару и преко мобилних апликација.",
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Подесите клијенте за синхронизацију фајлова користећи <a href=\"%s\">апликативну лозинку</a>. На тај начин, сваки клијент ће имати своју лозинку и моћи ћете сваком појединачно да укинете приступ ако изгубите тај уређај.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Осим клијената за синхронизацију, можете се повезати и са другим апликацијама које подржавају WebDAV/CalDAV/CardDAV протоколе на %s."
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Осим клијената за синхронизацију, можете се повезати и са другим апликацијама које подржавају WebDAV/CalDAV/CardDAV протоколе на %s.",
+    "Previous" : "Претходно",
+    "Next" : "Следеће"
 },
 "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);");

@@ -1,6 +1,8 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "video" : "影片",
+    "Start using Nextcloud" : "開始使用 Nextcloud",
     "Copy to clipboard" : "複製到剪貼簿",
     "Copied!" : "已複製！",
     "Not supported!" : "不支援！",
@@ -26,7 +28,6 @@ OC.L10N.register(
     "About" : "關於",
     "A welcome and introduction wizard for Nextcloud" : "Nextcloud 的歡迎及介紹精靈",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "此應用在使用者第一次登入 Nextcloud 時會開啟一個彈出式視窗。此視窗歡迎新的使用者來 Nextcloud 並且包含指引到標準桌面客戶端，Android app，及 iOS app的連結。此視窗也顯示使用 WebDAV存取 Nextcloud的連結。在任何時候，首次執行精靈可以在設定選單的\"關於\"連結再次開啟。\n首次執行精靈可以被自訂以符合特定設計目標，或是改變連結和訊息。遵照佈景主題文件建立合適的主題，並且改變此精靈外觀及感覺是很簡單。更多資訊可以在首次執行精靈文件看到，佈景主題文件也是。",
-    "Start using Nextcloud" : "開始使用 Nextcloud",
     "Extend your cloud" : "延伸您的雲",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "在應用程式商店中尋找超過一百個應用程式來客製化您的 Nextcloud",
     "Groupware apps like Calendar, Contacts, Mail" : "協作應用程式，像是日曆、聯絡人、電子郵件",
@@ -73,11 +74,11 @@ OC.L10N.register(
     "Server address" : "伺服器位址",
     "Use this link to connect your apps and desktop client to this server:" : "使用此連結來連接您的apps及桌面客戶端到這伺服器：",
     "Copy link" : "複製連結",
-    "Previous" : "上一步",
-    "Next" : "下一個",
     "App recommendation: Nextcloud Talk" : "推薦功能：Nextcloud Talk",
     "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "螢幕分享和線上會議—支援電腦和手機",
     "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "使用一個 <a href=\"%s\">app password </a> 設定同步客戶端。您可以確保您可以撤銷存取的方式以防您失去那裝置。",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "除了以上這些同步客戶端，你也可以使用任何 WebDAV/CalDAV/CardDAV 相容的軟體來連結到 %s"
+    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "除了以上這些同步客戶端，你也可以使用任何 WebDAV/CalDAV/CardDAV 相容的軟體來連結到 %s",
+    "Previous" : "上一步",
+    "Next" : "下一個"
 },
 "nplurals=1; plural=0;");
