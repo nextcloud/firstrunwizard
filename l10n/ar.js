@@ -1,8 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "video" : "فيديو",
-    "Start using Nextcloud" : "اشرع في استخدام ناكست كلاود",
     "Copy to clipboard" : "انسخه إلى الحافظة",
     "Copied!" : "تم نسخه!",
     "Not supported!" : "غير مدعوم!",
@@ -11,6 +9,7 @@ OC.L10N.register(
     "First run wizard" : "دليل التشغيل لأول مرة",
     "Add your profile information! For example your email is needed to reset your password." : "قم بإضافة معلومات في ملفك التعريفي كعنوان البريد الإلكتروني على سبيل المثال لتتمكن من إعادة تعيين كلمتك السرية.",
     "About" : "عن",
+    "Start using Nextcloud" : "اشرع في استخدام ناكست كلاود",
     "Browse the app store" : "استكشف متجر التطبيقات",
     "Get the apps to sync your files" : "احصل على التطبيقات لمزامنة ملفاتك",
     "Desktop client" : "تطبيق سطح المكتب",
