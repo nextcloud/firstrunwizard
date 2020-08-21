@@ -1,7 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "video" : "비디오",
     "Copy to clipboard" : "클립보드로 복사",
     "Copied!" : "복사 성공!",
     "Not supported!" : "지원되지 않습니다!",

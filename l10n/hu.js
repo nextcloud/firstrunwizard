@@ -1,8 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "video" : "videó",
-    "Start using Nextcloud" : "A Nextcloud használatának kezdete",
     "Copy to clipboard" : "Másolás vágólapra",
     "Copied!" : "Másolva.",
     "Not supported!" : "Nem támogatott.",
@@ -18,6 +16,7 @@ OC.L10N.register(
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Egyszerű e-mail alkalmazás, amely szépen integrálódik a Fájlok, Névjegyek és Naptár alkalmazásba.",
     "About" : "Névjegy",
     "A welcome and introduction wizard for Nextcloud" : "Kezeld adataid és fájljaid ott, ahol te döntesz róluk",
+    "Start using Nextcloud" : "A Nextcloud használatának kezdete",
     "Extend your cloud" : "A felhőd kiterjesztése",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "A Nextcloud alkalmazásból több mint 100 alkalmazásával testre szabhatod a felhődet: ",
     "Groupware apps like Calendar, Contacts, Mail" : "Csoportmunka alkalmazások mint Naptár, Névjegyek, Levelező",
