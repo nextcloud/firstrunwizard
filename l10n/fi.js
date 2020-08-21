@@ -1,8 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "video" : "video",
-    "Start using Nextcloud" : "Aloita Nextcloudin käyttäminen",
     "Copy to clipboard" : "Kopioi leikepöydälle",
     "Copied!" : "Kopioitu!",
     "Not supported!" : "Ei tuettu!",
@@ -18,6 +16,7 @@ OC.L10N.register(
     "App recommendation: Nextcloud Mail" : "Sovellussuositus: Nextcloud-sähköposti",
     "About" : "Tietoja",
     "A welcome and introduction wizard for Nextcloud" : "Nextcloudin ensimmäisen käyttökerran avustaja",
+    "Start using Nextcloud" : "Aloita Nextcloudin käyttäminen",
     "Extend your cloud" : "Laajenna pilveäsi",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Löydä yli 100 eri sovellusta Nextcloud-sovelluskaupasta pilvesi muokkaamiseksi:",
     "Groupware apps like Calendar, Contacts, Mail" : "Työryhmäohjelmistot kuten kalenteri, yhteystiedot ja sähköposti",

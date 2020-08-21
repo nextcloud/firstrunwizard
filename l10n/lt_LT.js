@@ -1,8 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "video" : "video",
-    "Start using Nextcloud" : "Pradėti naudotis Nextcloud",
     "Copy to clipboard" : "Kopijuoti į iškarpinę",
     "Copied!" : "Nukopijuota!",
     "Not supported!" : "Nepalaikoma!",
@@ -28,6 +26,7 @@ OC.L10N.register(
     "Nextcloud becomes part of the federated social networks." : "Nextcloud tampa federacinių socialinių tinklų dalimi.",
     "About" : "Apie",
     "A welcome and introduction wizard for Nextcloud" : "Pasisveikinimo ir pristatymo vediklis, skirtas Nextcloud",
+    "Start using Nextcloud" : "Pradėti naudotis Nextcloud",
     "Extend your cloud" : "Išplėskite savo debesiją",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Nextcloud programėlių parduotuvėje raskite daugiau kaip 100 programėlių, skirtų tinkinti jūsų debesiją:",
     "Groupware apps like Calendar, Contacts, Mail" : "Grupinio darbo įrangos programėlės, tokios kaip Kalendorius, Adresatai, Paštas",
