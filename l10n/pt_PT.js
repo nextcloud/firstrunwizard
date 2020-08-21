@@ -1,7 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "video" : "vídeo",
     "Copied!" : "Copiado!",
     "Not supported!" : "Não suportado!",
     "Press ⌘-C to copy." : "Pressionar ⌘-C para copiar.",

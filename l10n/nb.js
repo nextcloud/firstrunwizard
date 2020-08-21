@@ -1,8 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "video" : "video",
-    "Start using Nextcloud" : "Begynn å bruke Nextcloud",
     "Copy to clipboard" : "Kopiert til utklippstavlen",
     "Copied!" : "Kopiert!",
     "Not supported!" : "Ikke støttet!",
@@ -14,6 +12,7 @@ OC.L10N.register(
     "Add your profile information! Set a full name for easier recognition across all features." : "Legg til din profilinformasjon.Velg fullt navn for enklere gjenkjenning på tvers av alle funksjoner.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Legg til din profilinformasjon. Velg et profilbilde for enklere gjenkjenning på tvers av alle funksjoner.",
     "About" : "Om",
+    "Start using Nextcloud" : "Begynn å bruke Nextcloud",
     "Extend your cloud" : "Utvid skyen din",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Finn mer enn 100 apper i Nextcloud app-butikken for å tilpasse skyen din:",
     "Groupware apps like Calendar, Contacts, Mail" : "Gruppevare-apper som Kalender, Kontakter, E-post",

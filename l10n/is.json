@@ -1,6 +1,4 @@
 { "translations": {
-    "video" : "myndskeiðum",
-    "Start using Nextcloud" : "Byrjaðu að nota Nextcloud",
     "Copy to clipboard" : "Afrita á klippispjald",
     "Copied!" : "Afritað!",
     "Not supported!" : "Ekki stutt!",
@@ -14,6 +12,7 @@
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Einfalt og stílhreint tölvupóstforrit sem virkar með skráaforritinu, tengiliðum og dagatalinu.",
     "About" : "Um hugbúnaðinn",
     "A welcome and introduction wizard for Nextcloud" : "Kynning og leiðarvísir fyrir Nextcloud",
+    "Start using Nextcloud" : "Byrjaðu að nota Nextcloud",
     "Extend your cloud" : "Útvíkkaðu tölvuskýið þitt",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Skoðaðu meira en 100 forrit í forritasafni Nextcloud til að sérsníða tölvuskýið þitt:",
     "Groupware apps like Calendar, Contacts, Mail" : "Hópvinnuforrit á borð við Dagbók, Tengiliðir, Póstur",
