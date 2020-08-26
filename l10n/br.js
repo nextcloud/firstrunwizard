@@ -9,6 +9,7 @@ OC.L10N.register(
     "Keep your colleagues and friends in one place without leaking their private info." : "Kavit o mignoned ha genseurted en ul lec'h, hep reiñ o ditouroù prevez.",
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Ur meziant email simpl enfammet gant Restroù, Darempredoù ha Deizataer.",
     "About" : "Diwar-benn",
+    "Desktop client" : "Kliant burev",
     "Android app" : "Meziant Android",
     "iOS app" : "Meziant iOS",
     "Server address" : "Chom-lec'h ar servijour",
