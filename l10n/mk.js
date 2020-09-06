@@ -23,6 +23,7 @@ OC.L10N.register(
     "App recommendation: Notes" : "Препорака за апликација: Забелешки",
     "Distraction-free notes and writing." : "Пушување на белешки без одвлекување на вниманието",
     "App recommendation: Social" : "Препорака за апликација: Social",
+    "Nextcloud becomes part of the federated social networks." : "Nextcloud е дел од федералните социјални мрежи.",
     "App recommendation: Group folders" : "Препорака за апликација: Групни папки",
     "About" : "За",
     "A welcome and introduction wizard for Nextcloud" : "Добредојдовте и волшебник со инструкциски за Nextcloud",
