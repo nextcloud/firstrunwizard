@@ -68,7 +68,7 @@ OC.L10N.register(
     "Get enterprise support" : "Erhalten Sie Enterprise Support",
     "A safe home for all your data" : "Ein sicheres Zuhause für Ihre Daten",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud bringt all Ihre Daten unter Ihre Kontrolle. Speichern Sie all Ihre Dokumente, Kalender, Kontakte und Bilder auf einem Server in Ihrer Firma, zu Hause, bei einem unserer Provider oder in einem Ihnen bekannten Datenzentrum.",
-    "Host your data and files where you decide" : "Hosten Sie Ihre Daten und Dateien wo Sie möchten.",
+    "Host your data and files where you decide" : "Hosten Sie Ihre Daten und Dateien wo Sie möchten",
     "Open Standards and Interoperability" : "Offene Standards und Interoperabilität",
     "100%% Open Source & community-focused" : "100%% Open Source & Community-fokussiert",
     "Learn more about %s" : "Erfahren Sie mehr über %s",
