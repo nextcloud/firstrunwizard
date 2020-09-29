@@ -36,7 +36,6 @@ OC.L10N.register(
     "Communication with Nextcloud Talk" : "Pogovor z uporabo Nextcloud Talk",
     "Collaboration apps for document editing" : "Sodelovalni programi za urejanje dokumentov",
     "Security and authentication features like two-factor authentication, SSO and ransomware protection" : "Varnostne funkcije, kot sta dvostopenjsko overjanje, enojno prijavljanje in zaščita pred vdori in krajo podatkov",
-    "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Drugi so navdušeni tudi nad predvajalnikom glasbe, upravljalnikom gesel, programom za organizacijo nalog ali pa enostavnim skupinskim urejevalnikom",
     "Browse the app store" : "Prebrskaj po trgovini programov",
     "Nextcloud gives you access to your files wherever you are." : "Okolje Nextcloud omogoča dostop do datotek kjerkoli že ste.",
     "Get the apps to sync your files" : "Pridobi programe za usklajevanje datotek",
@@ -72,6 +71,7 @@ OC.L10N.register(
     "Copy link" : "Kopiraj povezavo",
     "App recommendation: Nextcloud Talk" : "Priporočilo programa: Nextcloud Talk",
     "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Klepet, video klici, souporaba zaslonske slike, spletni sestanki in konference – znotraj brskalnika in z mobilnimi napravami.",
+    "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Drugi so navdušeni tudi nad predvajalnikom glasbe, upravljalnikom gesel, programom za organizacijo nalog ali pa enostavnim skupinskim urejevalnikom",
     "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Ob odjemalcih za usklajevanje je mogoča povezava z %s tudi z drugo programsko opremo, ki podpira protokole WebDAV / CalDAV / CardDAV.",
     "Previous" : "Nazaj",
     "Next" : "Naprej"
