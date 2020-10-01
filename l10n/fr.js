@@ -37,6 +37,7 @@ OC.L10N.register(
     "Communication with Nextcloud Talk" : "Communication avec Nextcloud Discussion ",
     "Collaboration apps for document editing" : "Applications d'édition de documents collaborative",
     "Security and authentication features like two-factor authentication, SSO and ransomware protection" : "Fonctionnalités de sécurité et d'authentification, telles que l'authentification à deux facteurs, l'authentification unique et la protection contre les rançongiciel",
+    "Many others like a music player, a password manager, a kanban app, a download manager or a Markdown editor" : "Beaucoup d'autres comme un lecteur de musique, un gestionnaire de mots de passe, une application kanban, un gestionnaire de téléchargement ou un éditeur Markdown",
     "Browse the app store" : "Parcourir l'App Store",
     "Stay in sync" : "Restez synchronisé",
     "Nextcloud gives you access to your files wherever you are." : "Nextcloud vous donne accès à vos fichiers où que vous soyez.",
