@@ -77,11 +77,7 @@
     "Server address" : "Serveradresse",
     "Use this link to connect your apps and desktop client to this server:" : "Verwende diesen Link, um Deine Apps und Deinen Desktop-Clienten mit diesem Server zu verbinden:",
     "Copy link" : "Link kopieren",
-    "App recommendation: Nextcloud Talk" : "App-Empfehlung: Nextcloud-Talk",
-    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Bildschirm teilen, Online-Meetings und Web-Konferenzen - auf dem Desktop und mit mobilen Apps.",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Viele weitere wie z. B. ein Musikplayer, Passwortmanager, eine Kanban-App, ein Downloadmanager oder ein Markdown-Editor",
-    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Verwende ein <a href=\"%s\">App-Passwort</a> beim Einrichten der Sync-Clients. Dadurch kannst Du den Zugriff sperren, falls Dir das Gerät verloren geht.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Du kannst zur Verbindung zu %s außer den Sync-Clients jede andere Software verwenden, welche die Protokolle WebDAV/CalDAV/CardDAV unterstützt.",
     "Previous" : "Zurück",
     "Next" : "Weiter"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"

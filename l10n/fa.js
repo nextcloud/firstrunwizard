@@ -78,11 +78,7 @@ OC.L10N.register(
     "Server address" : "آدرس سرور",
     "Use this link to connect your apps and desktop client to this server:" : "برای اتصال برنامه ها و مشتری دسک تاپ خود به این سرور از این لینک استفاده کنید:",
     "Copy link" : "کپی کردن لینک",
-    "App recommendation: Nextcloud Talk" : "توصیه برنامه: Nextcloud Talk",
-    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "اشتراک گذاری صفحه ، جلسات آنلاین و کنفرانس وب - در دسک تاپ و با برنامه های تلفن همراه.",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "بسیاری دیگر مانند یک پخش کننده موسیقی ، یک مدیر رمز عبور ، یک برنامه kanban ، یک مدیر بارگیری یا یک ویرایشگر نشانه گذاری هستند",
-    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "همگامان را با استفاده از <a href=\"%s\">رمز ورود برنامه </a>تنظیم کنید. به این ترتیب می توانید مطمئن شوید که در صورت از دست دادن آن دستگاه می توانید دسترسی را لغو کنید.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "علاوه بر کلاینت های همگام سازی ، می توانید هر نرم افزار دیگری را پشتیبانی کنید که از پروتکل های WebDAV / CalDAV / CardDAV پشتیبانی می کند%s",
     "Previous" : "قبلی",
     "Next" : "بعدی"
 },

@@ -70,11 +70,7 @@
     "Server address" : "伺服器位址",
     "Use this link to connect your apps and desktop client to this server:" : "使用此連結來連接您的apps及桌面客戶端到這伺服器：",
     "Copy link" : "複製連結",
-    "App recommendation: Nextcloud Talk" : "推薦功能：Nextcloud Talk",
-    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "螢幕分享和線上會議—支援電腦和手機",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "更多其他像是音樂播放器，密碼管理器，kanban app，下載管理器或是 markdown 編輯器",
-    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "使用一個 <a href=\"%s\">app password </a> 設定同步客戶端。您可以確保您可以撤銷存取的方式以防您失去那裝置。",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "除了以上這些同步客戶端，你也可以使用任何 WebDAV/CalDAV/CardDAV 相容的軟體來連結到 %s",
     "Previous" : "上一步",
     "Next" : "下一個"
 },"pluralForm" :"nplurals=1; plural=0;"

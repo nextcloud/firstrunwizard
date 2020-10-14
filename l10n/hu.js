@@ -60,10 +60,7 @@ OC.L10N.register(
     "Connect other apps to %s" : "Csatlakoztass más alkalmazást a %s-hoz",
     "Server address" : "Kiszolgálócím",
     "Copy link" : "Hivatkozás másolása",
-    "App recommendation: Nextcloud Talk" : "Alkalmazásjavaslat: Nextcloud Beszélgetés",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Továbbá elérhető még zenelejátszó, jelszó kezelő, kanban alkalmazás, letöltés kezelő vagy jegyzet szerkesztő",
-    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "A szinkronizációs kliensek beállítása egy <a href=\"%s\">jelszó használatával</a>. Ezzel a módszerrel biztos lehetsz benne, hogy le tudod tiltani a hozzáférést ha elveszted azt az eszközt.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "A szinkronizációs kliensek használatával hozzácsatlakozhatsz bármilyen egyéb alkalmazáshoz ami támogatja a WebDAV/CalDAV/CardDAV protokolokat a %s-hoz.",
     "Previous" : "Előző",
     "Next" : "Következő"
 },
