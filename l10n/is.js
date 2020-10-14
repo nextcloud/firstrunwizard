@@ -61,8 +61,6 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "Notaðu þessa slóð fyrir forritin þín til að tengjast þessum þjóni:",
     "Copy link" : "Afrita tengil",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Margt fleira eins og tónlistarspilari, lykilorðastjóri, kanban-forrit, niðurhalsstjóri eða ritill fyrir markdown-kóða",
-    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Settu upp samstillingarbiðlara með <a href=\"%s\">lykilorði forrits</a>. Þannig geturðu verið viss um að geta afturkallað aðgangsheimildir fari svo að þú tapir því tæki.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Fyrir utan samstillingaforritin geturðu tengt hvert það forrit sem styður WebDAV/CalDAV/CardDAV samskiptamátana við %s.",
     "Previous" : "Fyrra",
     "Next" : "Næsta"
 },

@@ -59,8 +59,6 @@ OC.L10N.register(
     "Server address" : "Адрес на сървъра",
     "Copy link" : "Копирай връзката",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Много други, като музикален плейър, мениджър на пароли, канбан приложение, мениджър за сваляния или текстов редактор",
-    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Свържете приложение за синхронизация чрез<a href=\"%s\"> парола за приложения </a>. Така ще можете да отнемете достъпа, в случай, че загубите устройството.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Освен чрез приложенията за синхронизация, можете да свържете всеки друг софтуер, който поддържа протоколите WebDAV/CalDAV/CardDAV %s",
     "Previous" : "Назад",
     "Next" : "Напред >"
 },

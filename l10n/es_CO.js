@@ -51,7 +51,6 @@ OC.L10N.register(
     "Connect other apps to %s" : "Conectar otras aplicaciones a %s",
     "Server address" : "Dirección del servidor",
     "Copy link" : "Copiar liga",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Además tu los clientes de sincronización puedes conectar cualquier otro software que soporte los protocolos WebDAV/CalDAV/CardDAV a %s.",
     "Previous" : "Previo",
     "Next" : "Siguiente"
 },
