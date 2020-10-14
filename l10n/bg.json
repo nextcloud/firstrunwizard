@@ -19,7 +19,6 @@
     "Communication with Nextcloud Talk" : "Комуникация с Nextcloud Talk",
     "Collaboration apps for document editing" : "Приложения за сътрудничество при редакция на документи",
     "Security and authentication features like two-factor authentication, SSO and ransomware protection" : "Функции за сигурност и удостоверяване, като двустепенно удостоверяване, SSO и ransomware защита",
-    "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Много други, като музикален плейър, мениджър на пароли, канбан приложение, мениджър за сваляния или текстов редактор",
     "Browse the app store" : "Прегледай магазина за приложения",
     "Stay in sync" : "Остани синхронизиран",
     "Nextcloud gives you access to your files wherever you are." : "Nextcloud ви дава достъп до вашите файлове, където и да сте.",
@@ -57,8 +56,7 @@
     "Connect other apps to %s" : "Свързване на други приложения с %s",
     "Server address" : "Адрес на сървъра",
     "Copy link" : "Копирай връзката",
-    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Свържете приложение за синхронизация чрез<a href=\"%s\"> парола за приложения </a>. Така ще можете да отнемете достъпа, в случай, че загубите устройството.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Освен чрез приложенията за синхронизация, можете да свържете всеки друг софтуер, който поддържа протоколите WebDAV/CalDAV/CardDAV %s",
+    "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Много други, като музикален плейър, мениджър на пароли, канбан приложение, мениджър за сваляния или текстов редактор",
     "Previous" : "Назад",
     "Next" : "Напред >"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"

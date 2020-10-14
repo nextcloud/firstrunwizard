@@ -35,7 +35,7 @@
     "Communication with Nextcloud Talk" : "Comunicazione con Nextcloud Talk",
     "Collaboration apps for document editing" : "Applicazioni collaborative per la modifica dei documenti",
     "Security and authentication features like two-factor authentication, SSO and ransomware protection" : "Funzionalità di sicurezza e autenticazione come l'autenticazione a due fattori, SSO e protezione da ransomware",
-    "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Molte altre come un lettore multimediale, un gestore delle password, un'applicazione kanban, un gestore degli scaricamenti o un editor markdown",
+    "Many others like a music player, a password manager, a kanban app, a download manager or a Markdown editor" : "Molte altre come un lettore multimediale, un gestore delle password, un'applicazione kanban, un gestore degli scaricamenti o un editor Markdown",
     "Browse the app store" : "Sfoglia il negozio delle applicazioni",
     "Stay in sync" : "Rimani sincronizzato",
     "Nextcloud gives you access to your files wherever you are." : "Nextcloud ti consente di accedere ai tuoi file ovunque tu sia.",
@@ -77,10 +77,7 @@
     "Server address" : "Indirizzo del server",
     "Use this link to connect your apps and desktop client to this server:" : "Usa questo collegamento per connettere le tue applicazioni e il client desktop a questo server:",
     "Copy link" : "Copia collegamento",
-    "App recommendation: Nextcloud Talk" : "Applicazione consigliata: Talk di Nextcloud",
-    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Condivisione schermo, riunioni in linea e conferenze via web - sulle applicazioni desktop e mobile.",
-    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Imposta i client di sincronizzazione utilizzando una <a href=\"%s\">password di applicazione</a>. In tal modo, puoi assicurarti di essere in grado di revocare l'accesso nel caso in cui tu perda il dispositivo.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Oltre ai client di sincronizzazione, puoi connettere a %s qualsiasi altro software che supporti i protocolli WebDAV/CalDAV/CardDAV.",
+    "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Molte altre come un lettore multimediale, un gestore delle password, un'applicazione kanban, un gestore degli scaricamenti o un editor markdown",
     "Previous" : "Precedente",
     "Next" : "Successivo"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
