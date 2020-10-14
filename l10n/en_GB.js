@@ -59,8 +59,6 @@ OC.L10N.register(
     "Server address" : "Server address",
     "Copy link" : "Copy link",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor",
-    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s.",
     "Previous" : "Previous",
     "Next" : "Next"
 },

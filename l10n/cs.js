@@ -79,11 +79,7 @@ OC.L10N.register(
     "Server address" : "Adresa serveru",
     "Use this link to connect your apps and desktop client to this server:" : "Pro propojení vámi používaných aplikací a desktopového klienta na tento server použijte tento odkaz: ",
     "Copy link" : "Zkopírovat odkaz",
-    "App recommendation: Nextcloud Talk" : "Doporučení aplikace: Nextcloud Talk",
-    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Sdílení obrazovky, schůzky na dálku a webové konference – na desktopu a v mobilních aplikacích.",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Mnoho dalších, jako třeba přehrávač hudby, správce hesel, nástěnka (kanban), správce stahování nebo editor s podporou markdown",
-    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Nastavení synchronizačních klientů pomocí <a href=\"%s\">hesla pro aplikaci</a>. Takto máte jistotu, že můžete odvolat přístup v případě ztráty tohoto zařízení.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Kromě synchronizačních klientů je možné k %s připojit libovolný software který podporuje protokoly WebDAV/CalDAV/CardDAV.",
     "Previous" : "Předchozí",
     "Next" : "Další"
 },

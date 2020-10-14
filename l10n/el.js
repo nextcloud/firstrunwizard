@@ -78,11 +78,7 @@ OC.L10N.register(
     "Server address" : "Διεύθυνση διακομιστή",
     "Use this link to connect your apps and desktop client to this server:" : "Χρησιμοποιήστε τον σύνδεσμο για να συνδέσετε την εφαρμογή υπολογιστή και κινητού σε αυτόν τον διακομιστή:",
     "Copy link" : "Αντιγραφή συνδέσμου",
-    "App recommendation: Nextcloud Talk" : "Προτεινόμενη εφαρμογή: Nextclound Ομιλία",
-    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Κοινή χρήση οθόνης, συναντήσεις και τηλεδιάσκεψη - για εφαρμογές κινητού και υπολογιστή.",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Πολλά ακόμη όπως με ένα πρόγραμμα αναπαραγωγής μουσικής, διαχειριστή κωδικών, εφαρμογή kanban, έναν διαχειριστή λήψης ή έναν επεξεργαστή σήμανσης",
-    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Ρυθμίστε τον συγχρονισμό υπολογιστών χρησιμοποιώντας <a href=\"%s\">εφαρμογή κωδικών</a>. Με αυτόν τον τρόπο μπορείτε να βεβαιωθείτε ότι είστε σε θέση να ανακαλέσετε την πρόσβαση σε περίπτωση που χάσετε τη συσκευή.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Εκτός από εφαρμογές υπολογιστών και κινητών μπορείτε να συνδέσετε οποιοδήποτε άλλη εφαρμογή υποστηρίζει το πρωτόκολλο WebDAV/CalDAV/CardDAV %s.",
     "Previous" : "Προηγούμενο",
     "Next" : "Επόμενο"
 },

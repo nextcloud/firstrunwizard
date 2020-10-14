@@ -59,7 +59,6 @@ OC.L10N.register(
     "Server address" : "Dirección del servidor",
     "Copy link" : "Copiar liga",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Muchos otros como un reporductor de música, un adminsitrador de contraseñas, una aplicación kanban, un administrador de descargas o un editor de markdown",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Además tu los clientes de sincronización puedes conectar cualquier otro software que soporte los protocolos WebDAV/CalDAV/CardDAV a %s.",
     "Previous" : "Previo",
     "Next" : "Siguiente"
 },

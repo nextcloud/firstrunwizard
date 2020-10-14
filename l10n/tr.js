@@ -79,11 +79,7 @@ OC.L10N.register(
     "Server address" : "Sunucu adresi",
     "Use this link to connect your apps and desktop client to this server:" : "Uygulamalarınızı ve masaüstü istemcinizi bu sunucuya bağlamak için şu adresi kullanın:",
     "Copy link" : "Bağlantıyı kopyala",
-    "App recommendation: Nextcloud Talk" : "Önerilen uygulama: Nextcloud Talk",
-    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Ekran paylaşımı, çevrimiçi toplantılar ve web görüşmeleri - masaüstü ve mobil için uygulamalar.",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Müzik oynatıcı, parola yönetimi, kanban uygulaması, indirme yöneticisi ya da Markdown düzenleyici gibi diğer pek çok uygulama",
-    "Setup sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "<a href=\"%s\">Uygulama parolası</a> kullanan eşitleme istemcilerini kurun. Böylece aygıtınızı kaybederseniz erişimi geri alabileceğinizden emin olursunuz.",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Eşitleme uygulamaları yanında WebDAV/CalDAV/CardDAV iletişim kurallarını destekleyen uygulamalar da %s üzerine bağlanabilir.",
     "Previous" : "Önceki",
     "Next" : "Sonraki"
 },

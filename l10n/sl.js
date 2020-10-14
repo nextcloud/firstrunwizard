@@ -71,10 +71,7 @@ OC.L10N.register(
     "Besides the mobile apps and desktop client you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Ob odjemalcih za usklajevanje je mogoča povezava okoljem %s tudi z drugo programsko opremo, ki podpira protokole WebDAV / CalDAV / CardDAV.",
     "Server address" : "Naslov strežnika",
     "Copy link" : "Kopiraj povezavo",
-    "App recommendation: Nextcloud Talk" : "Priporočilo programa: Nextcloud Talk",
-    "Screensharing, online meetings and web conferencing – on desktop and with mobile apps." : "Klepet, video klici, souporaba zaslonske slike, spletni sestanki in konference – znotraj brskalnika in z mobilnimi napravami.",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Drugi so navdušeni tudi nad predvajalnikom glasbe, upravljalnikom gesel, programom za organizacijo nalog ali pa enostavnim skupinskim urejevalnikom",
-    "Besides the sync clients you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Ob odjemalcih za usklajevanje je mogoča povezava z %s tudi z drugo programsko opremo, ki podpira protokole WebDAV / CalDAV / CardDAV.",
     "Previous" : "Nazaj",
     "Next" : "Naprej"
 },
