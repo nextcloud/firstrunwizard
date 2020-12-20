@@ -8,6 +8,7 @@ OC.L10N.register(
     "iOS app" : "Aplicacion iOS",
     "Connect your desktop apps to %s" : "Connectatz vòstras aplicacions de burèu a %s",
     "Access files via WebDAV" : "Accedissètz a vòstres fichièrs via WebDAV",
+    "A safe home for all your data" : "Un ostal segur per vòstras donadas",
     "Server address" : "Adreça del servidor",
     "Copy link" : "Copiar lo ligam",
     "Previous" : "Precedent",
