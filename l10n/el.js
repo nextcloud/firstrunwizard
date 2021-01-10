@@ -37,6 +37,7 @@ OC.L10N.register(
     "Communication with Nextcloud Talk" : "Επικοινωνία με το Nextcloud Talk",
     "Collaboration apps for document editing" : "Εφαρμογές συνεργασία για επεξεργασία εγγράφων",
     "Security and authentication features like two-factor authentication, SSO and ransomware protection" : "Χαρακτηριστικά ασφαλείας και ελέγχου ταυτότητας, όπως προστασία δύο - παραγόντων , προστασία SSO και ransomware",
+    "Many others like a music player, a password manager, a kanban app, a download manager or a Markdown editor" : "Πολλοί άλλοι, όπως ένα πρόγραμμα αναπαραγωγής μουσικής, ένας διαχειριστής κωδικού πρόσβασης, μια εφαρμογή kanban, ένας διαχειριστής λήψεων ή ένας επεξεργαστής Markdown.",
     "Browse the app store" : "Εξερεύνηση αγοράς αφαρμογών",
     "Stay in sync" : "Μείνετε συγχρονισμένοι",
     "Nextcloud gives you access to your files wherever you are." : "Το Nextcloud σας δίνει πρόσβαση στα αρχεία σας οπουδήποτε κι αν είστε",
