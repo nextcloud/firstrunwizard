@@ -61,6 +61,7 @@ OC.L10N.register(
     "Learn more about %s" : "מידע נוסף על %s",
     "Connect other apps to %s" : "חיבור של יישומונים אחרים אל %s",
     "Server address" : "כתובת שרת",
+    "Use this link to connect your apps and desktop client to this server:" : "יש להשתמש בקישור הזה כדי לחבר את היישומונים ואת לקוח שולחן העבודה שלך לשרת הזה:",
     "Copy link" : "העתקת קישור",
     "Previous" : "הקודם",
     "Next" : "הבא"
