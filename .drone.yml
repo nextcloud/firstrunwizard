@@ -6,7 +6,7 @@ steps:
   image: nextcloudci/php7.3:php7.3-5
   environment:
     APP_NAME: firstrunwizard
-    CORE_BRANCH: master
+    CORE_BRANCH: stable21
     DB: sqlite
   commands:
     # Pre-setup steps
@@ -36,7 +36,7 @@ steps:
   image: nextcloudci/php7.3:php7.3-5
   environment:
     APP_NAME: firstrunwizard
-    CORE_BRANCH: master
+    CORE_BRANCH: stable21
     DB: sqlite
   commands:
     # Pre-setup steps
@@ -64,7 +64,7 @@ steps:
   image: nextcloudci/php7.4:2
   environment:
     APP_NAME: firstrunwizard
-    CORE_BRANCH: master
+    CORE_BRANCH: stable21
     DB: sqlite
   commands:
     # Pre-setup steps
