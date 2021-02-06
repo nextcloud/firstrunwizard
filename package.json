@@ -27,7 +27,7 @@
 		"not ie <= 11"
 	],
 	"devDependencies": {
-		"@babel/core": "^7.12.10",
+		"@babel/core": "^7.12.13",
 		"@babel/preset-env": "^7.12.13",
 		"@nextcloud/webpack-vue-config": "^1.2.0",
 		"acorn": "^8.0.5",
