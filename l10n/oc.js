@@ -1,7 +1,7 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "About" : "A prepaus de",
+    "About" : "A prepaus",
     "Communication with Nextcloud Talk" : "Comunicacion amb Nextcloud Talk",
     "Get the apps to sync your files" : "Obtenètz las aplicacions que vos permeton de sincronizar vòstres fichièrs",
     "Desktop client" : "Client de burèu",
