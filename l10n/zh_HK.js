@@ -1,7 +1,7 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Copy to clipboard" : "複製到剪貼簿",
+    "Copy to clipboard" : "複製到剪貼板",
     "Copied!" : "已複製！",
     "Not supported!" : "不支援！",
     "Press ⌘-C to copy." : "請按⌘-C以複製。",
