@@ -13,7 +13,7 @@ OC.L10N.register(
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Přidejte si své profilové informace. Nastavte si obrázek pro jednoduší rozpoznání ve všech oblastech aplikace.",
     "App recommendation: Nextcloud Calendar" : "Doporučení aplikace: Nextcloud Kalendář",
     "Schedule work & meetings, synced with all your devices." : "Naplánujte si práci a schůzky, synchronizované napříč všemi vašimi zařízeními.",
-    "App recommendation: Nextcloud Contacts" : "Doporučení aplikace: Nextcloud kontakty",
+    "App recommendation: Nextcloud Contacts" : "Doporučení aplikace: Nextcloud Kontakty",
     "Keep your colleagues and friends in one place without leaking their private info." : "Udržujte si své kolegy a přátele na jednom místě bez úniku jejich osobních údajů.",
     "App recommendation: Nextcloud Mail" : "Doporučení aplikace: Nextcloud E-mail",
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Jednoduchá e-mailová aplikace, dobře propojená se Soubory, Kontakty a Kalendářem.",
