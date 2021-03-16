@@ -28,6 +28,7 @@
 			muted>
 			<source :src="videoWebm" type="video/webm">
 			<source :src="videoMp4" type="video/mp4">
+			{{ t('firstrunwizard', 'Welcome to Nextcloud!') }}
 		</video>
 	</div>
 </template>
