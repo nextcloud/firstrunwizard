@@ -60,7 +60,7 @@ OC.L10N.register(
     "Developer manual" : "開發人員使用手冊",
     "You can also ask for help in our community support channels:" : "您也可以在我們的社群支援頻道尋求協助",
     "the Nextcloud forums" : "Nextcloud論壇",
-    "the Nextcloud IRC chat channel on freenode.net" : "在freenode.net 上的 Nextcloud IRC 聊天頻道",
+    "the Nextcloud IRC chat channel on freenode.net" : "在freenode。net 上的 Nextcloud IRC 聊天頻道",
     "Start contributing" : "開始貢獻",
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "您想要取得 Nextcloud 特定的改進嗎？您有找到問題嗎？你想要幫忙翻譯，推動或是寫 Nextcloud 文件嗎？",
     "Become part of the Community" : "成為社群的一份子",
