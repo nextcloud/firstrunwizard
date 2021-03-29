@@ -22,12 +22,14 @@
 namespace OCA\FirstRunWizard\Notification;
 
 
+use OCP\IConfig;
 use OCP\IURLGenerator;
 use OCP\IUserManager;
 use OCP\L10N\IFactory;
 use OCP\Notification\IManager as INotificationManager;
 use OCP\Notification\INotification;
 use OCP\Notification\INotifier;
+use OCP\User\Backend\ISetPasswordBackend;
 
 class Notifier implements INotifier {
 
@@ -43,17 +45,19 @@ class Notifier implements INotifier {
 	/** @var IURLGenerator */
 	protected $url;
 
-	/**
-	 * @param IFactory $factory
-	 * @param IUserManager $userManager
-	 * @param INotificationManager $notificationManager
-	 * @param IURLGenerator $urlGenerator
-	 */
-	public function __construct(IFactory $factory, IUserManager $userManager, INotificationManager $notificationManager, IURLGenerator $urlGenerator) {
+	/** @var IConfig */
+	protected $config;
+
+	public function __construct(IFactory $factory,
+								IUserManager $userManager,
+								INotificationManager $notificationManager,
+								IURLGenerator $urlGenerator,
+								IConfig $config) {
 		$this->factory = $factory;
 		$this->userManager = $userManager;
 		$this->notificationManager = $notificationManager;
 		$this->url = $urlGenerator;
+		$this->config = $config;
 	}
 
 	/**
@@ -123,13 +127,16 @@ class Notifier implements INotifier {
 	 * @param string $languageCode
 	 * @return string
 	 */
-	protected function getSubject(INotification $notification, $languageCode) {
+	protected function getSubject(INotification $notification, string $languageCode): string {
 		$l = $this->factory->get('firstrunwizard', $languageCode);
 		$user = $this->userManager->get($notification->getUser());
 
 		$email = $user->getEMailAddress();
 		if ($email === null || $email === '') {
-			return $l->t('Add your profile information! For example your email is needed to reset your password.');
+			if ($this->config->getSystemValue('lost_password_link', '') || !$user->getBackend() instanceof ISetPasswordBackend) {
+				return $l->t('Add your profile information! For example your email is needed to receive notifications.');
+			}
+			return $l->t('Add your profile information! For example your email is needed to receive notifications and reset your password.');
 		}
 
 		if ($user->canChangeDisplayName() && $user->getDisplayName() === $user->getUID()) {
