@@ -25,6 +25,7 @@ namespace OCA\FirstRunWizard\Tests\Notification;
 
 use InvalidArgumentException;
 use OCA\FirstRunWizard\Notification\Notifier;
+use OCP\IConfig;
 use OCP\IImage;
 use OCP\IL10N;
 use OCP\IURLGenerator;
@@ -56,6 +57,7 @@ class NotifierTest extends TestCase {
 		$this->manager = $this->createMock(IManager::class);
 		$this->userManager = $this->createMock(IUserManager::class);
 		$this->urlGenerator = $this->createMock(IURLGenerator::class);
+		$this->config = $this->createMock(IConfig::class);
 		$this->l = $this->createMock(IL10N::class);
 		$this->l->expects($this->any())
 			->method('t')
@@ -71,7 +73,8 @@ class NotifierTest extends TestCase {
 			$this->factory,
 			$this->userManager,
 			$this->manager,
-			$this->urlGenerator
+			$this->urlGenerator,
+			$this->config
 		);
 	}
 
