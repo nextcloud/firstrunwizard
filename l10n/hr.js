@@ -7,7 +7,6 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "Pritisnite ⌘-C za kopiranje.",
     "Press Ctrl-C to copy." : "Pritisnite Ctrl-C za kopiranje.",
     "First run wizard" : "Prvo pokreni čarobnjaka",
-    "Add your profile information! For example your email is needed to reset your password." : "Dodajte svoje profilne informacije! Primjerice, vaša adresa e-pošte potrebna je za resetiranje zaporke.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Dodajte svoje profilne informacije! Postavite profilnu sliku i puno ime radi lakšeg prepoznavanja u svim značajkama.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Dodajte svoje profilne informacije! Postavite puno ime radi lakšeg prepoznavanja u svim značajkama.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Dodajte svoje profilne informacije! Postavite profilnu sliku radi lakšeg prepoznavanja u svim značajkama.",
@@ -79,6 +78,7 @@ OC.L10N.register(
     "Server address" : "Adresa poslužitelja",
     "Use this link to connect your apps and desktop client to this server:" : "Iskoristite ovu poveznicu za povezivanje aplikacija i klijenata za osobna računala s ovim poslužiteljem:",
     "Copy link" : "Kopiraj poveznicu",
+    "Add your profile information! For example your email is needed to reset your password." : "Dodajte svoje profilne informacije! Primjerice, vaša adresa e-pošte potrebna je za resetiranje zaporke.",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Mnoge druge aplikacije, primjerice za reprodukciju glazbe, upravljanje zaporkama, kanban projektima, preuzimanjima ili oznakama",
     "Previous" : "Prethodna",
     "Next" : "Sljedeća"

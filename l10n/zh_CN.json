@@ -5,7 +5,6 @@
     "Press ⌘-C to copy." : "按 ⌘-C 复制。",
     "Press Ctrl-C to copy." : "按 Ctrl-C 复制。",
     "First run wizard" : "首次运行显示向导",
-    "Add your profile information! For example your email is needed to reset your password." : "请添加您的个人信息！比如您的邮件被用来重置您的密码。",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "添加您的个人资料信息！设置个人资料图片和全名，以便在所有功能中轻松识别。",
     "Add your profile information! Set a full name for easier recognition across all features." : "添加您的个人资料信息！设置全名，以便在所有功能中轻松识别。",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "添加您的个人资料信息！设置个人资料图片，以便在所有功能中轻松识别。",
@@ -78,6 +77,7 @@
     "Server address" : "服务器地址",
     "Use this link to connect your apps and desktop client to this server:" : "使用此链接将您的应用和桌面客户端连接到此服务器：",
     "Copy link" : "复制链接",
+    "Add your profile information! For example your email is needed to reset your password." : "请添加您的个人信息！比如您的邮件被用来重置您的密码。",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "还有很多应用如音乐播放器，密码管理器，看板 app，下载管理器和 markdown 编辑器",
     "Previous" : "上一个",
     "Next" : "下一个"

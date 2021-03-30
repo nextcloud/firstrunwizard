@@ -5,7 +5,6 @@
     "Press ⌘-C to copy." : "Premu ⌘-C por kopii.",
     "Press Ctrl-C to copy." : "Premu Ctrl-C por kopii.",
     "First run wizard" : "Asistilo pri unua instalado",
-    "Add your profile information! For example your email is needed to reset your password." : "Aldonu vian profilinformon! Ekzemple, oni bezonas vian retpoŝtadreson por restarigi vian pasvorton.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Aldonu vian profilinformon! Elektu profilbildon kaj entajpu vian plenan nomon por pli facila rekono en ĉiuj funkcioj.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Aldonu vian profilinformon! Entajpu vian plenan nomon por pli facila rekono en ĉiuj funkcioj.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Aldonu vian profilinformon! Elektu profilbildon por pli facila rekono en ĉiuj funkcioj.",
@@ -57,6 +56,7 @@
     "Connect other apps to %s" : "Konekti aliajn aplikaĵojn al %s",
     "Server address" : "Servila adreso",
     "Copy link" : "Kopii ligilon",
+    "Add your profile information! For example your email is needed to reset your password." : "Aldonu vian profilinformon! Ekzemple, oni bezonas vian retpoŝtadreson por restarigi vian pasvorton.",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Multe da aliaj kiel muzikludilo, administrilo por pasvortoj, kanbana aplikaĵo, elŝuta administrilo aŭ „Markdown“-redaktilo",
     "Previous" : "Antaŭa",
     "Next" : "Sekva"

@@ -7,7 +7,6 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "إضغط ⌘-C للنسخ",
     "Press Ctrl-C to copy." : "إضغط Ctrl-C للنسخ.",
     "First run wizard" : "دليل التشغيل لأول مرة",
-    "Add your profile information! For example your email is needed to reset your password." : "قم بإضافة معلومات في ملفك التعريفي كعنوان البريد الإلكتروني على سبيل المثال لتتمكن من إعادة تعيين كلمتك السرية.",
     "About" : "عن",
     "Start using Nextcloud" : "اشرع في استخدام ناكست كلاود",
     "Communication with Nextcloud Talk" : "التواصل مع Nextcloud Talk",
@@ -36,6 +35,7 @@ OC.L10N.register(
     "Connect other apps to %s" : "قم بربط تطبيقات أخرى مع %s",
     "Server address" : "عنوان الخادم",
     "Copy link" : "انسخ الرابط",
+    "Add your profile information! For example your email is needed to reset your password." : "قم بإضافة معلومات في ملفك التعريفي كعنوان البريد الإلكتروني على سبيل المثال لتتمكن من إعادة تعيين كلمتك السرية.",
     "Previous" : "السابق",
     "Next" : "التالي"
 },

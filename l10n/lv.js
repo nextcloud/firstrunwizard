@@ -7,7 +7,6 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "Spied ⌘-C lai kopētu.",
     "Press Ctrl-C to copy." : "Spied Ctrl-C lai kopētu.",
     "First run wizard" : "Pirmās palaišanas vednis",
-    "Add your profile information! For example your email is needed to reset your password." : "Pievienot savu profila informāciju! Piemēram jūsu e-pasts ir nepieciešams, lai atjaunotu paroli.",
     "Schedule work & meetings, synced with all your devices." : "Ieplāno darbu un sapulces, kas sinhronizētas ar visām jūsu ierīcēm.",
     "Keep your colleagues and friends in one place without leaking their private info." : "Turiet savus kolēģus un draugus vienuviet, neizpludinot viņu privāto informāciju.",
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Vienkāršā e-pasta lietotne labi integrēta ar Failiem, Kontaktiem un Kalendāru.",
@@ -20,6 +19,7 @@ OC.L10N.register(
     "A safe home for all your data" : "Droša vieta visiem jūsu datiem",
     "Server address" : "Servera adrese",
     "Copy link" : "Kopēt saiti",
+    "Add your profile information! For example your email is needed to reset your password." : "Pievienot savu profila informāciju! Piemēram jūsu e-pasts ir nepieciešams, lai atjaunotu paroli.",
     "Previous" : "Iepriekšējā",
     "Next" : "Nākamā"
 },

@@ -7,7 +7,6 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "복사하려면 ⌘-C 키를 누르십시오.",
     "Press Ctrl-C to copy." : "복사하기 위해 Ctrl-C를 누르세요.",
     "First run wizard" : "첫 실행 마법사",
-    "Add your profile information! For example your email is needed to reset your password." : "내 프로필 정보를 추가하십시오! 이메일 주소는 암호를 초기화하는 데 필요합니다.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "내 프로필 정보를 추가하십시오! 프로필 사진과 이름을 입력하면 사용자를 빠르게 식별할 수 있습니다.",
     "Add your profile information! Set a full name for easier recognition across all features." : "내 프로필 정보를 추가하십시오! 이름을 입력하면 사용자를 빠르게 식별할 수 있습니다.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "내 프로필 정보를 추가하십시오! 프로필 사진을 지정하면 사용자를 빠르게 식별할 수 있습니다.",
@@ -33,6 +32,7 @@ OC.L10N.register(
     "Server address" : "서버 주소",
     "Use this link to connect your apps and desktop client to this server:" : "다음 링크를 사용하여 데스크톱 클라이언트나 당신의 앱에 이 서버를 연결하세요.",
     "Copy link" : "링크 복사",
+    "Add your profile information! For example your email is needed to reset your password." : "내 프로필 정보를 추가하십시오! 이메일 주소는 암호를 초기화하는 데 필요합니다.",
     "Previous" : "이전",
     "Next" : "Next"
 },

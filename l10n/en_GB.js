@@ -7,7 +7,6 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "Press ⌘-C to copy.",
     "Press Ctrl-C to copy." : "Press Ctrl-C to copy.",
     "First run wizard" : "First run wizard",
-    "Add your profile information! For example your email is needed to reset your password." : "Add your profile information! For example your email is needed to reset your password.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Add your profile information! Set a profile picture and full name for easier recognition across all features.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Add your profile information! Set a full name for easier recognition across all features.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Add your profile information! Set a profile picture for easier recognition across all features.",
@@ -58,6 +57,7 @@ OC.L10N.register(
     "Connect other apps to %s" : "Connect other apps to %s",
     "Server address" : "Server address",
     "Copy link" : "Copy link",
+    "Add your profile information! For example your email is needed to reset your password." : "Add your profile information! For example your email is needed to reset your password.",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor",
     "Previous" : "Previous",
     "Next" : "Next"

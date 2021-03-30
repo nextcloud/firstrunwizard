@@ -7,7 +7,6 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "Paina ⌘-C kopioidaksesi.",
     "Press Ctrl-C to copy." : "Paina Ctrl-C kopioidaksesi.",
     "First run wizard" : "Ensimmäisen käyttökerran avustaja",
-    "Add your profile information! For example your email is needed to reset your password." : "Lisää profiilitietosi! Esimerkiksi sähköpostiosoitettasi tarvitaan salasanan palauttamiseen.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Lisää profiilitietosi! Lisää profiilikuva ja koko nimi, jotta sinut on helpompi tunnistaa.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Lisää profiilitietosi! Lisää koko nimesi, jotta sinut on helpompi tunnistaa.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Lisää profiilitietosi! Lisää profiilikuva, jotta sinut on helpompi tunnistaa.",
@@ -78,6 +77,7 @@ OC.L10N.register(
     "Server address" : "Palvelimen osoite",
     "Use this link to connect your apps and desktop client to this server:" : "Käytä tätä linkkiä yhdistääksesi sovellukset ja työpöytäsovelluksen tähän palvelimeen:",
     "Copy link" : "Kopioi linkki",
+    "Add your profile information! For example your email is needed to reset your password." : "Lisää profiilitietosi! Esimerkiksi sähköpostiosoitettasi tarvitaan salasanan palauttamiseen.",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Paljon muuta kuten musiikkisoitin, salasanahallinta, kanban-sovellus, lataushallinta ja markdown-muokkain",
     "Previous" : "Edellinen",
     "Next" : "Seuraava"
