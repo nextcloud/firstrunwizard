@@ -7,7 +7,6 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "Presione ⌘-C para copiar.",
     "Press Ctrl-C to copy." : "Presione Ctrl-C para copiar.",
     "First run wizard" : "Ejecute primero el asistente",
-    "Add your profile information! For example your email is needed to reset your password." : "¡Agregue su información de perfil! Por ejemplo us correo electrónico es necesario para restablecer su contraseña.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "¡Agregue su información de perfil! Establezca una imagen de perfil y nombre completo para reconocerlo más fácilmente entre todas las funcionalidades. ",
     "Add your profile information! Set a full name for easier recognition across all features." : "Agregue su información de perfil! Establezca su nombre completo para reconocerlo más fácilmente entre todas las funcionalidades. ",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Agregue su información de perfil! Establezca una imagen de perfil para reconocerlo más fácilmente entre todas las funcionalidades. ",
@@ -21,6 +20,7 @@ OC.L10N.register(
     "A safe home for all your data" : "Un hogar seguro para todos tus datos.",
     "Server address" : "Dirección del servidor",
     "Copy link" : "Copiar enlace",
+    "Add your profile information! For example your email is needed to reset your password." : "¡Agregue su información de perfil! Por ejemplo us correo electrónico es necesario para restablecer su contraseña.",
     "Previous" : "Anterior",
     "Next" : "Siguiente"
 },

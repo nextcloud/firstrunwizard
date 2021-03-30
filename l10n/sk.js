@@ -7,7 +7,6 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "Skopírujte stlačením ⌘-C.",
     "Press Ctrl-C to copy." : "Skopírujte stlačením Ctrl-C",
     "First run wizard" : "Sprievodca prvým spustením",
-    "Add your profile information! For example your email is needed to reset your password." : "Pridajte svoje informácie o profile! Váš e-mail je napríklad potrebný na obnovenie hesla.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Pridajte svoje informácie o profile! Nastavte si profilový obrázok a celé meno pre jednoduchšie rozpoznanie naprieč všetkými funkciami.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Pridajte svoje informácie o profile! Nastavte si celé meno pre jednoduchšie rozpoznanie všetkými funkciami.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Pridajte svoje informácie o profile! Nastavte si profilový obrázok pre jednoduchšie rozpoznanie naprieč všetkými funkciami.",
@@ -79,6 +78,7 @@ OC.L10N.register(
     "Server address" : "Adresa servera",
     "Use this link to connect your apps and desktop client to this server:" : "Pre prepojenie vašich aplikácii a desktopového klienta na tento server použite tento odkaz: ",
     "Copy link" : "Kopíruj odkaz",
+    "Add your profile information! For example your email is needed to reset your password." : "Pridajte svoje informácie o profile! Váš e-mail je napríklad potrebný na obnovenie hesla.",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Veľa ďalšich, ako napr. prehrávač hudby, správca hesiel, nástenka (kanban), správca sťahovania alebo markdown editor",
     "Previous" : "Predchádzajúce",
     "Next" : "Ďalšie"

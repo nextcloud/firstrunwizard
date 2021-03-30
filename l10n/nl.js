@@ -7,7 +7,6 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "Druk op ⌘-C om te kopiëren.",
     "Press Ctrl-C to copy." : "Druk op Ctrl-C om te kopiëren.",
     "First run wizard" : "Eerste start wizard",
-    "Add your profile information! For example your email is needed to reset your password." : "Voeg je profielinformatie toe! Je email-adres is bijvoorbeeld nodig om je wachtwoord te herstellen.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Voeg profielinformatie toe! Stel een profielfoto in en voer je volledige naam in voor makkelijker herkenning over alle functies.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Voeg profielinformatie toe! Voer je volledige naam in voor makkelijker herkenning over alle functies.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Voeg profielinformatie toe! Stel een profielfoto in voor makkelijker herkenning over alle functies.",
@@ -80,6 +79,7 @@ OC.L10N.register(
     "Server address" : "Serveradres",
     "Use this link to connect your apps and desktop client to this server:" : "Gebruik deze link om je apps en desktop client met deze server te verbinden:",
     "Copy link" : "Kopiëren link ",
+    "Add your profile information! For example your email is needed to reset your password." : "Voeg je profielinformatie toe! Je email-adres is bijvoorbeeld nodig om je wachtwoord te herstellen.",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Heel veel anders, zoals een muziekspeler, een wachtwoordenbeheerder, een kanban app, een download manager of een markdown editor",
     "Previous" : "Vorige",
     "Next" : "Volgende"

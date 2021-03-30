@@ -5,7 +5,6 @@
     "Press ⌘-C to copy." : "A másoláshoz nyomj ⌘-C-t.",
     "Press Ctrl-C to copy." : "A másoláshoz nyomj Ctrl-C-t.",
     "First run wizard" : "Első indíráskori varázsló",
-    "Add your profile information! For example your email is needed to reset your password." : "Add meg a profil adataidat! Az e-mail címedre pédául jelszó visszaállításkor lehet szükség.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Add meg a profil információidat! Állíts be egy profilképet és teljes nevet az egyszerűbb azonosíthatóságért minden szolgáltatásban.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Add meg a profil információidat! Állítsd be a teljes neved az egyszerűbb azonosíthatóságért minden szolgáltatásban.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Add meg a profil információidat! Állítsd be egy profilképet az egyszerűbb azonosíthatóságért minden szolgáltatásban.",
@@ -58,6 +57,7 @@
     "Connect other apps to %s" : "Csatlakoztass más alkalmazást a %s-hoz",
     "Server address" : "Kiszolgálócím",
     "Copy link" : "Hivatkozás másolása",
+    "Add your profile information! For example your email is needed to reset your password." : "Add meg a profil adataidat! Az e-mail címedre pédául jelszó visszaállításkor lehet szükség.",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Továbbá elérhető még zenelejátszó, jelszó kezelő, kanban alkalmazás, letöltés kezelő vagy jegyzet szerkesztő",
     "Previous" : "Előző",
     "Next" : "Következő"

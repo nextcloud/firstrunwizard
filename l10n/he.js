@@ -7,7 +7,6 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "‎⌘-C להעתקה.",
     "Press Ctrl-C to copy." : "Ctrl-C להעתקה.",
     "First run wizard" : "אשף ההפעלה הראשונית",
-    "Add your profile information! For example your email is needed to reset your password." : "נא להוסיף את פרטי הפרופיל שלך! למשל, כתובת הדוא״ל שלך נחוצה לטובת איפוס הססמה שלך.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "נא להוסיף את פרטי הפרופיל שלך! ניתן להגדיר תמונת פרופיל ושם מלא לצורך זיהוי פשוט יותר בין כל התכונות השונות.",
     "Add your profile information! Set a full name for easier recognition across all features." : "נא להוסיף את פרטי הפרופיל שלך! ניתן להגדיר שם מלא כדי להקל על הזיהוי בין כל התכונות השונות.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "נא להוסיף את פרטי הפרופיל שלך! ניתן להגדיר תמונת פרופיל לצורך זיהוי פשוט יותר בין כל התכונות השונות.",
@@ -63,6 +62,7 @@ OC.L10N.register(
     "Server address" : "כתובת שרת",
     "Use this link to connect your apps and desktop client to this server:" : "יש להשתמש בקישור הזה כדי לחבר את היישומונים ואת לקוח שולחן העבודה שלך לשרת הזה:",
     "Copy link" : "העתקת קישור",
+    "Add your profile information! For example your email is needed to reset your password." : "נא להוסיף את פרטי הפרופיל שלך! למשל, כתובת הדוא״ל שלך נחוצה לטובת איפוס הססמה שלך.",
     "Previous" : "הקודם",
     "Next" : "הבא"
 },

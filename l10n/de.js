@@ -7,7 +7,6 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "Zum Kopieren ⌘-C drücken.",
     "Press Ctrl-C to copy." : "Zum Kopieren Strg-C drücken.",
     "First run wizard" : "Einrichtungsassistent",
-    "Add your profile information! For example your email is needed to reset your password." : "Füge Deine Profil-Informationen hinzu! Deine E-Mail-Adresse wird beispielsweise zum Zurücksetzen Deines Passwortes benötigt.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Füge Deine Profilinformationen hinzu! Setze ein Profilbild und gib Deinen vollständigen Namen ein, damit Du einfacher erkannt werden kannst.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Füge Deine Profilinformationen hinzu! Gib Deinen vollständigen Namen ein, damit Du einfacher erkannt werden kannst.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Füge Deine Profilinformationen hinzu! Setze ein Profilbild, damit Du einfacher erkannt werden kannst.",
@@ -80,6 +79,7 @@ OC.L10N.register(
     "Server address" : "Serveradresse",
     "Use this link to connect your apps and desktop client to this server:" : "Verwende diesen Link, um Deine Apps und Deinen Desktop-Clienten mit diesem Server zu verbinden:",
     "Copy link" : "Link kopieren",
+    "Add your profile information! For example your email is needed to reset your password." : "Füge Deine Profil-Informationen hinzu! Deine E-Mail-Adresse wird beispielsweise zum Zurücksetzen Deines Passwortes benötigt.",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Viele weitere wie z. B. ein Musikplayer, Passwortmanager, eine Kanban-App, ein Downloadmanager oder ein Markdown-Editor",
     "Previous" : "Zurück",
     "Next" : "Weiter"
