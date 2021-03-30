@@ -5,7 +5,6 @@
     "Press ⌘-C to copy." : "請按 ⌘-C 以複製。",
     "Press Ctrl-C to copy." : "請按 Ctrl-C 以複製。",
     "First run wizard" : "首次使用精靈",
-    "Add your profile information! For example your email is needed to reset your password." : "加入您的個人資訊吧！舉例來說，我們需要您的電子郵件地址才能在您需要時寄出密碼重設信件。",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "加入您的個人資訊吧！例如加入大頭照和全名可以讓您在各種功能的介面當中快速被找到。",
     "Add your profile information! Set a full name for easier recognition across all features." : "加入您的個人資訊吧！例如加入全名可以讓您在各種功能的介面當中快速被找到。",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "加入您的個人資訊吧！例如加入大頭照可以讓您在各種功能的介面當中快速被找到。",
@@ -78,6 +77,7 @@
     "Server address" : "伺服器位址",
     "Use this link to connect your apps and desktop client to this server:" : "使用此連結將您的應用程式與桌面客戶端連結到此伺服器：",
     "Copy link" : "複製連結",
+    "Add your profile information! For example your email is needed to reset your password." : "加入您的個人資訊吧！舉例來說，我們需要您的電子郵件地址才能在您需要時寄出密碼重設信件。",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "音樂播放程式、密碼管理程式、看板應用程式、下載管理程式或 markdown 編輯器",
     "Previous" : "上一步",
     "Next" : "下一步"

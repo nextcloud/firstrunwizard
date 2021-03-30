@@ -7,7 +7,6 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "Нажмите ⌘-C для копирования.",
     "Press Ctrl-C to copy." : "Нажмите Ctrl-C для копирования.",
     "First run wizard" : "Помощник первого запуска",
-    "Add your profile information! For example your email is needed to reset your password." : "Добавьте данные в свой профиль! Например, адрес электронной почты необходим для сброса пароля.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Добавьте данные в свой профиль: выберите изображение и укажите полное имя для более понятной работы.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Добавьте данные в свой профиль: укажите своё полное имя для более понятной работы.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Добавьте данные в свой профиль: выберите изображение для более понятной работы.",
@@ -79,6 +78,7 @@ OC.L10N.register(
     "Server address" : "Адрес сервера",
     "Use this link to connect your apps and desktop client to this server:" : "Используйте эту ссылку для соединения ваших приложений и десктоп-клиентов с этим сервером:",
     "Copy link" : "Скопировать ссылку",
+    "Add your profile information! For example your email is needed to reset your password." : "Добавьте данные в свой профиль! Например, адрес электронной почты необходим для сброса пароля.",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "А также множество других приложений: музыкальные проигрыватели, менеджеры паролей, приложения для управления задачами, менеджеры загрузок и приложения для редактирования текста с поддержкой разметки markdown",
     "Previous" : "Назад",
     "Next" : "Вперёд"

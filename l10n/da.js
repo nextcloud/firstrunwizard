@@ -7,7 +7,6 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "Tryk ⌘-C for at kopiere.",
     "Press Ctrl-C to copy." : "Tryk Ctrl-C for at kopiere.",
     "First run wizard" : "Første kørsel guide",
-    "Add your profile information! For example your email is needed to reset your password." : "Tilføj dine profil informationer! For eksempel din email som er nødvendig for at nulstille dit kodeord.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Tilføj dine profil informationer! Tilføj et profil billede og fuldt navn for nemmere genkendelse på tværs af alle funktioner.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Tilføj dine profil informationer! Tilføj et fuldt navn for nemmere genkendelse på tværs af alle funktioner.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Tilføj dine profil informationer! Tilføj et profil billede for nemmere genkendelse på tværs af alle funktioner.",
@@ -36,6 +35,7 @@ OC.L10N.register(
     "Connect other apps to %s" : "Forbind andre apps til %s",
     "Server address" : "Serveradresse",
     "Copy link" : "Kopier link",
+    "Add your profile information! For example your email is needed to reset your password." : "Tilføj dine profil informationer! For eksempel din email som er nødvendig for at nulstille dit kodeord.",
     "Previous" : "Forrige",
     "Next" : "Næste"
 },

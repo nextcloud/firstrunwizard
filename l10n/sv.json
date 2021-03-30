@@ -5,7 +5,6 @@
     "Press ⌘-C to copy." : "Tryck ⌘-C för att kopiera.",
     "Press Ctrl-C to copy." : "Tryck Ctrl-C för att kopiera.",
     "First run wizard" : "Uppstartsguiden",
-    "Add your profile information! For example your email is needed to reset your password." : "Lägg till din profilinformation! Till exempel behövs din e-post för att återställa ditt lösenord.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Lägg till din profilinformation! Ställ in en profilbild och fullständigt namn för enklare erkännande över alla funktioner.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Lägg till din profilinformation! Ange ett fullständigt namn för enklare erkännande över alla funktioner.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Lägg till din profilinformation! Ställ in en profilbild för enklare erkännande över alla funktioner.",
@@ -77,6 +76,7 @@
     "Server address" : "Serveradress",
     "Use this link to connect your apps and desktop client to this server:" : "Använd den här länken för att ansluta dina appar och desktopklient till den här servern:",
     "Copy link" : "Kopiera länk",
+    "Add your profile information! For example your email is needed to reset your password." : "Lägg till din profilinformation! Till exempel behövs din e-post för att återställa ditt lösenord.",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Många andra som en musikspelare, en lösenordshanterare, en kanban-app, en hämtningshanterare eller en markdown-redigerare",
     "Previous" : "Föregående",
     "Next" : "Nästa"

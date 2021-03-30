@@ -5,7 +5,6 @@
     "Press ⌘-C to copy." : "Kopyalamak için ⌘-C tuşlarına basın.",
     "Press Ctrl-C to copy." : "Kopyalamak için Ctrl-C tuşlarına basın.",
     "First run wizard" : "İlk çalıştırma sihirbazı",
-    "Add your profile information! For example your email is needed to reset your password." : "Profil bilgilerinizi yazın! Örneğin parolanızı sıfırlayabilmeniz için e-posta adresiniz gereklidir.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Profil bilgilerinizi ekleyin! Bir profil görseli ekleyerek ve tam adınızı yazarak tüm özellikler tarafından kolayca tanının.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Profil bilgilerinizi ekleyin! Tam adınızı yazarak tüm özellikler tarafından kolayca tanının.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Profil bilgilerinizi ekleyin! Bir profil görseli ekleyerek tüm özellikler tarafından kolayca tanının.",
@@ -78,6 +77,7 @@
     "Server address" : "Sunucu adresi",
     "Use this link to connect your apps and desktop client to this server:" : "Uygulamalarınızı ve masaüstü istemcinizi bu sunucuya bağlamak için şu adresi kullanın:",
     "Copy link" : "Bağlantıyı kopyala",
+    "Add your profile information! For example your email is needed to reset your password." : "Profil bilgilerinizi yazın! Örneğin parolanızı sıfırlayabilmeniz için e-posta adresiniz gereklidir.",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Müzik oynatıcı, parola yönetimi, kanban uygulaması, indirme yöneticisi ya da Markdown düzenleyici gibi diğer pek çok uygulama",
     "Previous" : "Önceki",
     "Next" : "Sonraki"
