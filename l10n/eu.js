@@ -7,7 +7,6 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "Sakatu ⌘-C kopiatzeko.",
     "Press Ctrl-C to copy." : "Sakatu Ctrl-C kopiatzeko.",
     "First run wizard" : "Lehen abioko laguntza",
-    "Add your profile information! For example your email is needed to reset your password." : "Gehitu zure profilaren informazioa! Adibidez, zure posta elektronikoa behar da pasahitza berrezartzeko.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Gehitu zure profilaren informazioa! Ezarri profileko argazkia eta izena, ezaugarri guztietan errazago ezagutzeko.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Gehitu zure profilaren informazioa! Ezarri izen osoa, ezaugarri guztietan errazago ezagutzeko.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Gehitu zure profilaren informazioa! Ezarri profileko argazkia, ezaugarri guztietan errazago ezagutzeko.",
@@ -79,6 +78,7 @@ OC.L10N.register(
     "Server address" : "Zerbitzariaren helbidea",
     "Use this link to connect your apps and desktop client to this server:" : "Erabili esteka hau zure aplikazio eta mahaigaineko bezeroak zerbitzari honetara konektatzeko:",
     "Copy link" : "Kopiatu esteka",
+    "Add your profile information! For example your email is needed to reset your password." : "Gehitu zure profilaren informazioa! Adibidez, zure posta elektronikoa behar da pasahitza berrezartzeko.",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Eta beste hainbat, horien artean: musika-erreproduzigailua, kanban aplikazioa, deskarga-kudeatzailea edo markdown editorea",
     "Previous" : "Aurrekoa",
     "Next" : "Hurrengoa"

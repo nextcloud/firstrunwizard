@@ -5,7 +5,6 @@
     "Press ⌘-C to copy." : "Ýttu á ⌘-C til að afrita.",
     "Press Ctrl-C to copy." : "Ýttu á Ctrl-C til að afrita.",
     "First run wizard" : "Fyrsta-skiptis-leiðarvísir",
-    "Add your profile information! For example your email is needed to reset your password." : "Bættu við notandaupplýsingarnar þínar! Til dæmis þarftu að setja inn tölvupóstfangið þitt til að geta endurstillt lykilorð.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Bættu við notandaupplýsingarnar þínar! Settu auðkennismynd og fullt nafn svo auðveldara verði að nota marga eiginleika.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Bættu við notandaupplýsingarnar þínar! Settu inn fullt nafn svo auðveldara verði að nota marga eiginleika.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Bættu við notandaupplýsingarnar þínar! Settu inn auðkennismynd svo auðveldara verði að nota marga eiginleika.",
@@ -74,6 +73,7 @@
     "Server address" : "Vistfang þjóns",
     "Use this link to connect your apps and desktop client to this server:" : "Notaðu þessa slóð fyrir forritin þín til að tengjast þessum þjóni:",
     "Copy link" : "Afrita tengil",
+    "Add your profile information! For example your email is needed to reset your password." : "Bættu við notandaupplýsingarnar þínar! Til dæmis þarftu að setja inn tölvupóstfangið þitt til að geta endurstillt lykilorð.",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Margt fleira eins og tónlistarspilari, lykilorðastjóri, kanban-forrit, niðurhalsstjóri eða ritill fyrir markdown-kóða",
     "Previous" : "Fyrra",
     "Next" : "Næsta"

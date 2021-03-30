@@ -7,7 +7,6 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "Για αντιγραφή πατήστε ⌘-C.",
     "Press Ctrl-C to copy." : "Για αντιγραφή πατήστε Ctrl-C.",
     "First run wizard" : " Οδηγός πρώτης εκτέλεσης",
-    "Add your profile information! For example your email is needed to reset your password." : "Προσθέστε τις πληροφορίες του προφίλ σας! Για παράδειγμα, το email σας είναι απαραίτητο για να επαναφέρετε τον κωδικό πρόσβασης.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Προσθέστε τις πληροφορίες του προφίλ σας! Ορίστε φωτογραφία και πλήρες όνομα στο προφιλ σας για ευκολότερη αναγνώριση σε όλες τις λειτουργίες.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Προσθέστε τα στοιχεία του προφίλ σας! Ορίστε ένα πλήρες όνομα για ευκολότερη αναγνώριση σε όλες τις λειτουργίες.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Προσθέστε τα στοιχεία του προφίλ σας! Ορίστε μια εικόνα προφίλ για ευκολότερη αναγνώριση σε όλες τις λειτουργίες.",
@@ -79,6 +78,7 @@ OC.L10N.register(
     "Server address" : "Διεύθυνση διακομιστή",
     "Use this link to connect your apps and desktop client to this server:" : "Χρησιμοποιήστε τον σύνδεσμο για να συνδέσετε την εφαρμογή υπολογιστή και κινητού σε αυτόν τον διακομιστή:",
     "Copy link" : "Αντιγραφή συνδέσμου",
+    "Add your profile information! For example your email is needed to reset your password." : "Προσθέστε τις πληροφορίες του προφίλ σας! Για παράδειγμα, το email σας είναι απαραίτητο για να επαναφέρετε τον κωδικό πρόσβασης.",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Πολλά ακόμη όπως με ένα πρόγραμμα αναπαραγωγής μουσικής, διαχειριστή κωδικών, εφαρμογή kanban, έναν διαχειριστή λήψης ή έναν επεξεργαστή σήμανσης",
     "Previous" : "Προηγούμενο",
     "Next" : "Επόμενο"

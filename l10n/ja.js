@@ -7,7 +7,6 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "⌘+Cを押してコピーします。",
     "Press Ctrl-C to copy." : "Ctrl+Cを押してコピーします。",
     "First run wizard" : "初期ウィザード",
-    "Add your profile information! For example your email is needed to reset your password." : "プロフィール情報を追加しましょう! パスワードをリセットするにはメールアドレスが必要です。",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "プロフィール情報を追加してください! プロフィール画像とフルネームを設定すると、すべての機能をより簡単に認識できます。",
     "Add your profile information! Set a full name for easier recognition across all features." : "プロフィール情報を追加してください! フルネームを設定すると、すべての機能をより簡単に認識できます。",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "プロフィール情報を追加してください! プロフィール画像を設定すると、すべての機能をより簡単に認識できます。",
@@ -78,6 +77,7 @@ OC.L10N.register(
     "Server address" : "サーバーアドレス",
     "Use this link to connect your apps and desktop client to this server:" : "あなたのアプリやデスクトップクライアントをこのサーバーに接続するにはこのリンクを使用してください:",
     "Copy link" : "リンクをコピー",
+    "Add your profile information! For example your email is needed to reset your password." : "プロフィール情報を追加しましょう! パスワードをリセットするにはメールアドレスが必要です。",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "音楽プレイヤー、パスワード管理、かんばんアプリ、ダウンロードマネージャー、markdownエディターなど、他にもたくさん",
     "Previous" : "前へ",
     "Next" : "次へ"

@@ -6,7 +6,6 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "Натисніть ⌘-C щоб скопіювати.",
     "Press Ctrl-C to copy." : "Натисніть Ctrl-C щоб скопіювати.",
     "First run wizard" : "Майстер першого запуску",
-    "Add your profile information! For example your email is needed to reset your password." : "Додайте інформацію в свій профіль! Наприклад, ваша електронна пошта необхідна для скидання пароля.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Додайте інформацію в свій профіль! Встановіть зображення профілю та повне ім'я для полегшення розпізнавання у всіх функціях.",
     "Schedule work & meetings, synced with all your devices." : "Планування роботи та зустрічей із синхронізацією зі всіма вашими пристроями",
     "Keep your colleagues and friends in one place without leaking their private info." : "Створіть спільний безпечний простір для співпраці та обміну даними з вашими колегами та друзями.",
@@ -22,6 +21,7 @@ OC.L10N.register(
     "A safe home for all your data" : "Безпечний дім для Ваших даних",
     "Server address" : "Адреса сервера",
     "Copy link" : "Скопіювати посилання",
+    "Add your profile information! For example your email is needed to reset your password." : "Додайте інформацію в свій профіль! Наприклад, ваша електронна пошта необхідна для скидання пароля.",
     "Previous" : "Попередній",
     "Next" : "Наступний"
 },

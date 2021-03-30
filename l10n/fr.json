@@ -5,7 +5,6 @@
     "Press ⌘-C to copy." : "Appuyez sur ⌘-C pour copier.",
     "Press Ctrl-C to copy." : "Appuyez sur Ctrl-C pour copier.",
     "First run wizard" : "Assistant de démarrage",
-    "Add your profile information! For example your email is needed to reset your password." : "Renseignez votre profil ! Par exemple, votre adresse e-mail est nécessaire pour réinitialiser votre mot de passe.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Ajoutez vos informations de profil ! Renseignez une photo de profil et un nom complet pour une reconnaissance plus facile à travers toutes les fonctionnalités.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Ajoutez vos informations de profil ! Renseignez un nom complet pour une reconnaissance plus facile à travers toutes les fonctionnalités.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Ajoutez vos informations de profil ! Renseignez une photo de profil pour une reconnaissance plus facile à travers toutes les fonctionnalités.",
@@ -77,6 +76,7 @@
     "Server address" : "Adresse du serveur",
     "Use this link to connect your apps and desktop client to this server:" : "Utilisez ce lien pour connecter vos applications et les clients au serveur :",
     "Copy link" : "Copier le lien",
+    "Add your profile information! For example your email is needed to reset your password." : "Renseignez votre profil ! Par exemple, votre adresse e-mail est nécessaire pour réinitialiser votre mot de passe.",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Beaucoup d'autres comme un lecteur de musique, un gestionnaire de mot de passe, une application Kanban, un gestionnaire de téléchargement ou un éditeur markdown",
     "Previous" : "Précédent",
     "Next" : "Suivant"
