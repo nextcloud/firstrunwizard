@@ -7,6 +7,8 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "按 ⌘-C 复制。",
     "Press Ctrl-C to copy." : "按 Ctrl-C 复制。",
     "First run wizard" : "首次运行显示向导",
+    "Add your profile information! For example your email is needed to receive notifications." : "添加你的个人资料信息！例如，需要你的电子邮件来接收通知。",
+    "Add your profile information! For example your email is needed to receive notifications and reset your password." : "添加你的个人资料信息！例如，需要你的电子邮件来接收通知并重置密码。",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "添加您的个人资料信息！设置个人资料图片和全名，以便在所有功能中轻松识别。",
     "Add your profile information! Set a full name for easier recognition across all features." : "添加您的个人资料信息！设置全名，以便在所有功能中轻松识别。",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "添加您的个人资料信息！设置个人资料图片，以便在所有功能中轻松识别。",
