@@ -7,6 +7,8 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "Zkopírujete stisknutím ⌘C.",
     "Press Ctrl-C to copy." : "Zkopírujete stisknutím Ctrl+C.",
     "First run wizard" : "Průvodce prvním spuštěním",
+    "Add your profile information! For example your email is needed to receive notifications." : "Přidejte si své profilové informace. Například váš e-mail je potřebný, aby jste dostávali upozorňování.",
+    "Add your profile information! For example your email is needed to receive notifications and reset your password." : "Přidejte si své profilové informace. Například váš e-mail je potřebný, aby jste dostávali upozorňování a pro obnovu hesla.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Přidejte si své profilové informace. Nastavte si obrázek a jméno pro jednoduší rozpoznání ve všech oblastech aplikace.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Přidejte si své profilové informace. Nastavte si úplné jméno pro jednoduší rozpoznání ve všech oblastech aplikace.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Přidejte si své profilové informace. Nastavte si obrázek pro jednoduší rozpoznání ve všech oblastech aplikace.",
