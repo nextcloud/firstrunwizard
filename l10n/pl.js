@@ -7,6 +7,8 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "Wciśnij ⌘-C aby skopiować.",
     "Press Ctrl-C to copy." : "Wciśnij Ctrl-C aby skopiować.",
     "First run wizard" : "Kreator pierwszego uruchomienia",
+    "Add your profile information! For example your email is needed to receive notifications." : "Dodaj informacje o swoim profilu! Na przykład Twój adres e-mail jest wymagany do otrzymywania powiadomień.",
+    "Add your profile information! For example your email is needed to receive notifications and reset your password." : "Dodaj informacje o swoim profilu! Na przykład Twój adres e-mail jest wymagany do otrzymywania powiadomień i zresetowania hasła.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Dodaj informacje o swoim profilu! Ustaw zdjęcie profilowe i pełną nazwę, aby ułatwić rozpoznawanie we wszystkich funkcjach.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Dodaj informacje o swoim profilu! Ustaw pełną nazwę, aby ułatwić rozpoznawanie we wszystkich funkcjach.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Dodaj informacje o swoim profilu! Ustaw zdjęcie profilowe, aby ułatwić rozpoznawanie we wszystkich funkcjach.",
@@ -79,7 +81,7 @@ OC.L10N.register(
     "Server address" : "Adres serwera",
     "Use this link to connect your apps and desktop client to this server:" : "Użyj tego linku, aby podłączyć swoje aplikacje i klienta desktopowego do tego serwera:",
     "Copy link" : "Kopiuj link",
-    "Add your profile information! For example your email is needed to reset your password." : "Dodaj swoje informacje do profilu! Na przykład konieczny jest Twój adres e-mail, aby zresetować hasło.",
+    "Add your profile information! For example your email is needed to reset your password." : "Dodaj informacje o swoim profilu! Na przykład Twój adres e-mail jest wymagany do zresetowania hasła.",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Wiele innych, jak odtwarzacz muzyki, menedżer haseł, aplikacja kanban, menedżer pobierania, czy edytor Markdown",
     "Previous" : "Poprzedni",
     "Next" : "Następny"
