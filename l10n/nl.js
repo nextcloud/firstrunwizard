@@ -7,6 +7,8 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "Druk op ⌘-C om te kopiëren.",
     "Press Ctrl-C to copy." : "Druk op Ctrl-C om te kopiëren.",
     "First run wizard" : "Eerste start wizard",
+    "Add your profile information! For example your email is needed to receive notifications." : "Voeg je profielinformatie toe! Je e-mailadres is bijvoorbeeld nodig om meldingen te ontvangen.",
+    "Add your profile information! For example your email is needed to receive notifications and reset your password." : "Voeg je profielinformatie toe! Je e-mailadres is bijvoorbeeld nodig om meldingen te ontvangen en je wachtwoord te herstellen.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Voeg profielinformatie toe! Stel een profielfoto in en voer je volledige naam in voor makkelijker herkenning over alle functies.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Voeg profielinformatie toe! Voer je volledige naam in voor makkelijker herkenning over alle functies.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Voeg profielinformatie toe! Stel een profielfoto in voor makkelijker herkenning over alle functies.",
