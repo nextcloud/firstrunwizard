@@ -43,6 +43,11 @@
 					 alt="<?php p($l->t('Android app')); ?>"
 					 style="height:60px"/>
 			</a>
+			<a target="_blank" href="<?php p($_['fdroid']); ?>" rel="noreferrer noopener">
+				<img src="<?php p(image_path('core', 'f-droid.svg')); ?>"
+					 alt="<?php p($l->t('Android app')); ?>"
+					 style="height:60px"/>
+			</a>
 			<a target="_blank" href="<?php p($_['ios']); ?>" rel="noreferrer noopener">
 				<img src="<?php p(image_path('core', 'appstore.svg')); ?>"
 					 alt="<?php p($l->t('iOS app')); ?>" style="height:60px"/>

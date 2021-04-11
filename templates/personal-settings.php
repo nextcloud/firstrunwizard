@@ -41,6 +41,10 @@ script('firstrunwizard', ['personalsettings']);
 			<img src="<?php print_unescaped(image_path('core', 'googleplay.png')); ?>"
 				 alt="<?php p($l->t('Android app'));?>" />
 		</a>
+		<a href="<?php p($_['clients']['fdroid']); ?>" rel="noreferrer noopener" target="_blank">
+			<img src="<?php print_unescaped(image_path('core', 'f-droid.svg')); ?>"
+				 alt="<?php p($l->t('Android app'));?>" />
+		</a>
 		<a href="<?php p($_['clients']['ios']); ?>" rel="noreferrer noopener" target="_blank">
 			<img src="<?php print_unescaped(image_path('core', 'appstore.svg')); ?>"
 				 alt="<?php p($l->t('iOS app'));?>" />

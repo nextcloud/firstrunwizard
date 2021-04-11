@@ -85,6 +85,7 @@ class WizardController extends Controller {
 		$data = [
 			'desktop'      => $this->config->getSystemValue('customclient_desktop', $this->theming->getSyncClientUrl()),
 			'android'      => $this->config->getSystemValue('customclient_android', $this->theming->getAndroidClientUrl()),
+			'fdroid'      => $this->config->getSystemValue('customclient_fdroid', $this->theming->getFDroidClientUrl()),
 			'ios'          => $this->config->getSystemValue('customclient_ios', $this->theming->getiOSClientUrl()),
 			'appStore'     => $appStore,
 			'useTLS'       => $this->request->getServerProtocol() === 'https',
