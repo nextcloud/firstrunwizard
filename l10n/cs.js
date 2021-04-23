@@ -3,7 +3,7 @@ OC.L10N.register(
     {
     "Copy to clipboard" : "Zkopírovat do schránky",
     "Copied!" : "Zkopírováno",
-    "Not supported!" : "Nepodporováno",
+    "Not supported!" : "Nepodporováno!",
     "Press ⌘-C to copy." : "Zkopírujete stisknutím ⌘C.",
     "Press Ctrl-C to copy." : "Zkopírujete stisknutím Ctrl+C.",
     "First run wizard" : "Průvodce prvním spuštěním",
