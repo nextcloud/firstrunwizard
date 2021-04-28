@@ -7,6 +7,8 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "Sakatu ⌘-C kopiatzeko.",
     "Press Ctrl-C to copy." : "Sakatu Ctrl-C kopiatzeko.",
     "First run wizard" : "Lehen abioko laguntza",
+    "Add your profile information! For example your email is needed to receive notifications." : "Gehitu zure profileko informazioa! Adibidez, zure posta elektronikoa beharrezkoa da jakinarazpenak jasotzeko.",
+    "Add your profile information! For example your email is needed to receive notifications and reset your password." : "Gehitu zure profileko informazioa! Adibidez, zure posta elektronikoa beharrezkoa da jakinarazpenak jasotzeko eta pasahitza berrezartzeko.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Gehitu zure profilaren informazioa! Ezarri profileko argazkia eta izena, ezaugarri guztietan errazago ezagutzeko.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Gehitu zure profilaren informazioa! Ezarri izen osoa, ezaugarri guztietan errazago ezagutzeko.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Gehitu zure profilaren informazioa! Ezarri profileko argazkia, ezaugarri guztietan errazago ezagutzeko.",
