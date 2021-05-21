@@ -56,7 +56,7 @@ OC.L10N.register(
     "Get help" : "Hulp krijgen",
     "Get more information" : "Meer informatie",
     "The Nextcloud documentation for home users:" : "De Nextcloud documentatie voor thuisgebruik:",
-    "User manual" : "Handleinding",
+    "User manual" : "Handleiding",
     "Admin manual" : "Beheerdersdocumentatie",
     "Developer manual" : "Ontwikkelaarsdocumentatie",
     "You can also ask for help in our community support channels:" : "Je kunt ook hulp vragen in onze community ondersteuningskanalen:",
