@@ -28,7 +28,7 @@
 			muted>
 			<source :src="videoWebm" type="video/webm">
 			<source :src="videoMp4" type="video/mp4">
-			{{ t('firstrunwizard', 'Welcome to Nextcloud!') }}
+			{{ videoFallbackText }}
 		</video>
 	</div>
 </template>
@@ -43,6 +43,11 @@ export default {
 			videoMp4: generateFilePath('firstrunwizard', 'img', 'Nextcloud.mp4'),
 			videoWebm: generateFilePath('firstrunwizard', 'img', 'Nextcloud.webm'),
 		}
+	},
+	computed: {
+		videoFallbackText() {
+			return t('firstrunwizard', 'Welcome to {cloudName}!', { cloudName: window.OC.theme.name })
+		},
 	},
 }
 </script>
