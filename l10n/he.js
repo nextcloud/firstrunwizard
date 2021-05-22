@@ -20,7 +20,6 @@ OC.L10N.register(
     "Sync tasks from various devices with your Nextcloud and edit them online." : "סנכרון משימות בין מכשירים שונים עם ה־Nextcloud שלך ולערוך אותן באופן מקוון.",
     "About" : "על אודות",
     "A welcome and introduction wizard for Nextcloud" : "אשף קבלת פנים והיכרות ל־Nextcloud",
-    "Start using Nextcloud" : "להתחיל להשתמש ב־Nextcloud",
     "Extend your cloud" : "הרחבת הענן שלך",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "ניתן למצוא למעלה מ־100 יישומונים בחנות היישומונים של Nextcloud כדי להתאים את הענן לצרכיך:",
     "Groupware apps like Calendar, Contacts, Mail" : "יישומונים לעבודה קבוצתית כמו לוח שנה, אנשי קשר, דוא״ל",
@@ -63,6 +62,7 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "יש להשתמש בקישור הזה כדי לחבר את היישומונים ואת לקוח שולחן העבודה שלך לשרת הזה:",
     "Copy link" : "העתקת קישור",
     "Add your profile information! For example your email is needed to reset your password." : "נא להוסיף את פרטי הפרופיל שלך! למשל, כתובת הדוא״ל שלך נחוצה לטובת איפוס הססמה שלך.",
+    "Start using Nextcloud" : "להתחיל להשתמש ב־Nextcloud",
     "Previous" : "הקודם",
     "Next" : "הבא"
 },

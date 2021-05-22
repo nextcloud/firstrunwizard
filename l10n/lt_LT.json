@@ -25,7 +25,6 @@
     "Nextcloud becomes part of the federated social networks." : "Nextcloud tampa federacinių socialinių tinklų dalimi.",
     "About" : "Apie",
     "A welcome and introduction wizard for Nextcloud" : "Pasisveikinimo ir pristatymo vediklis, skirtas Nextcloud",
-    "Start using Nextcloud" : "Pradėti naudotis Nextcloud",
     "Extend your cloud" : "Išplėskite savo debesiją",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Nextcloud programėlių parduotuvėje raskite daugiau kaip 100 programėlių, skirtų tinkinti jūsų debesiją:",
     "Groupware apps like Calendar, Contacts, Mail" : "Grupinio darbo įrangos programėlės, tokios kaip Kalendorius, Adresatai, Paštas",
@@ -71,6 +70,7 @@
     "Use this link to connect your apps and desktop client to this server:" : "Naudokite šią nuorodą norėdami prijungti savo programėles bei darbalaukio kliento programas prie šio serverio:",
     "Copy link" : "Kopijuoti nuorodą",
     "Add your profile information! For example your email is needed to reset your password." : "Pridėkite savo profilio informaciją! Pavyzdžiui, jūsų el. paštas yra reikalingas, norint atstatyti savo slaptažodį.",
+    "Start using Nextcloud" : "Pradėti naudotis Nextcloud",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Daugelis kitų, tokių kaip muzikos grotuvas, slaptažodžių tvarkytuvė, kanban programėlė, atsiuntimų tvarkytuvė ar markdown redaktorius",
     "Previous" : "Ankstesnis",
     "Next" : "Kitas"

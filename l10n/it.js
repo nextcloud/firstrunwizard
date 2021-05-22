@@ -31,8 +31,6 @@ OC.L10N.register(
     "About" : "Informazioni",
     "A welcome and introduction wizard for Nextcloud" : "Una procedura guidata di benvenuto e introduzione a Nextcloud",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Questa applicazione abilita una finestra a comparsa quando un utente accede per la prima volta Nextcloud. Questa finestra dà il benvenuto ai nuovi utenti di Nextcloud e contiene collegamenti al client desktop standard, all'applicazione Android e all'applicazione iOS. La finestra mostra anche un collegamento per accedere a Nextcloud tramite WebDAV. In qualsiasi momento, la procedura guidata di primo avvio può essere aperta tramite il collegamento \"Informazioni\" nel menu delle impostazioni.\nLa procedura guidata di primo avvio può essere personalizzata per rispondere a obiettivi specifici di design, o modificare collegamenti e messaggi. Creare un tema appropriato seguendo la documentazione di Temi, e cambiare l'aspetto della procedura guidata è semplice. Altre informazioni sono disponibili nella documentazione relativa alla procedura guidata di primo avvio così come nella documentazione relativa ai temi.",
-    "Start using Nextcloud" : "Inizia a utilizzare Nextcloud",
-    "Welcome to Nextcloud!" : "Benvenuto su Nextcloud!",
     "Extend your cloud" : "Estendi la tua nuvola",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Trovi più di 100 applicazioni nel negozio delle applicazioni per personalizzare il tuo cloud:",
     "Groupware apps like Calendar, Contacts, Mail" : "Applicazioni di groupware come Calendario, Contatti, Posta",
@@ -82,6 +80,7 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "Usa questo collegamento per connettere le tue applicazioni e il client desktop a questo server:",
     "Copy link" : "Copia collegamento",
     "Add your profile information! For example your email is needed to reset your password." : "Aggiungi le tue informazioni di profilo! Ad esempio, il tuo indirizzo di posta è necessario per ripristinare la password.",
+    "Start using Nextcloud" : "Inizia a utilizzare Nextcloud",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Molte altre come un lettore multimediale, un gestore delle password, un'applicazione kanban, un gestore degli scaricamenti o un editor markdown",
     "Previous" : "Precedente",
     "Next" : "Successivo"
