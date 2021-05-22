@@ -14,7 +14,6 @@ OC.L10N.register(
     "Keep your colleagues and friends in one place without leaking their private info." : "Ha dine kollegaer og venner på en plass uten å lekke deres private info.",
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Enkel e-post app smidig integrert med Filer, Kontakter og Kalender.",
     "About" : "Om",
-    "Start using Nextcloud" : "Begynn å bruke Nextcloud",
     "Extend your cloud" : "Utvid skyen din",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Finn mer enn 100 apper i Nextcloud app-butikken for å tilpasse skyen din:",
     "Groupware apps like Calendar, Contacts, Mail" : "Gruppevare-apper som Kalender, Kontakter, E-post",
@@ -50,6 +49,7 @@ OC.L10N.register(
     "Server address" : "Serveradresse",
     "Copy link" : "Kopier lenke",
     "Add your profile information! For example your email is needed to reset your password." : "Legg til informasjon i profilen din! For eksempel så trenger vi e-postadressen for å kunne tilbakestille passordet ditt.",
+    "Start using Nextcloud" : "Begynn å bruke Nextcloud",
     "Previous" : "Forrige",
     "Next" : "Neste"
 },

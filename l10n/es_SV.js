@@ -11,7 +11,6 @@ OC.L10N.register(
     "Add your profile information! Set a full name for easier recognition across all features." : "Agregua tu información de perfil! Establece tu nombre completo para reconocerte más fácilmente entre todas las funcionalidades. ",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Agrega tu información de perfil! Establece una imagen de perfil para reconocerte más fácilmente entre todas las funcionalidades. ",
     "About" : "Acerca de",
-    "Start using Nextcloud" : "Empieza a usar Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Puedes encontrar más de 100 apliicaciones en la tienda de aplicaciones de Nextcloud y personalizar tu nube:",
     "Groupware apps like Calendar, Contacts, Mail" : "Aplicaciones de Groupware como Calendario, Contactos y Correo",
     "Communication with Nextcloud Talk" : "Comunicacion con Nextcloud Talk",
@@ -51,6 +50,7 @@ OC.L10N.register(
     "Server address" : "Dirección del servidor",
     "Copy link" : "Copiar liga",
     "Add your profile information! For example your email is needed to reset your password." : "¡Agregua tu información de perfil! Por ejemplo tu correo electrónico es necesario para restablecer tu contraseña.",
+    "Start using Nextcloud" : "Empieza a usar Nextcloud",
     "Previous" : "Previo",
     "Next" : "Siguiente"
 },

@@ -13,7 +13,6 @@ OC.L10N.register(
     "About" : "Pri",
     "A welcome and introduction wizard for Nextcloud" : "Asistilo por bonvenigi vin al Nextcloud",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Tiu aplikaĵo malfermas fenestron, kiam uzanto ensalutas unuafoje en Nextcloud. Tiu fenestro bonvenigas novajn uzantojn al Nextcloud, kaj prezentas ligilojn al defaŭlta labortabla kliento, la Android-a aplikaĵo kaj la iOS-a aplikaĵo. Ankaŭ montriĝas ligilo por aliri al Nextcloud per WebDAV. Uzantoj povas remalfermi tiun asistilon per la menuo „Pri“ en la agorda menuo.\nOni povas adapti tiun asistilon por aspektigi ĝin laŭvole, aŭ por ŝanĝi ligilojn kaj mesaĝojn: kreu taŭgan etoson sekvante la dokumentaro pri etoso. Plia informo troviĝas en la dokumentaro pri la asistilo kaj la etoso.",
-    "Start using Nextcloud" : "Ekuzi Nextcloud-on",
     "Extend your cloud" : "Plivastigu vian nubon",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Trovu pli ol 100 aplikaĵojn en la Nextcloud-aplikaĵejo por tajlori vian nubon:",
     "Groupware apps like Calendar, Contacts, Mail" : "Kunlaboraj aplikaĵoj kial Kalendaro, Kontaktaro, Retpoŝtilo",
@@ -59,6 +58,7 @@ OC.L10N.register(
     "Server address" : "Servila adreso",
     "Copy link" : "Kopii ligilon",
     "Add your profile information! For example your email is needed to reset your password." : "Aldonu vian profilinformon! Ekzemple, oni bezonas vian retpoŝtadreson por restarigi vian pasvorton.",
+    "Start using Nextcloud" : "Ekuzi Nextcloud-on",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Multe da aliaj kiel muzikludilo, administrilo por pasvortoj, kanbana aplikaĵo, elŝuta administrilo aŭ „Markdown“-redaktilo",
     "Previous" : "Antaŭa",
     "Next" : "Sekva"

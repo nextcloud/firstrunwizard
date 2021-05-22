@@ -15,7 +15,6 @@ OC.L10N.register(
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Simpel email-app som er integreret med Filer, Kontakter og Kalender.",
     "About" : "Om",
     "A welcome and introduction wizard for Nextcloud" : "En velkomst- og introduktionsguide til Nextcloud",
-    "Start using Nextcloud" : "Begynd at bruge Nextcloud",
     "Get the apps to sync your files" : "Hent applikationerne for at synkronisere dine filer",
     "Desktop client" : "Skrivebordsklient",
     "Android app" : "Android-app",
@@ -36,6 +35,7 @@ OC.L10N.register(
     "Server address" : "Serveradresse",
     "Copy link" : "Kopier link",
     "Add your profile information! For example your email is needed to reset your password." : "Tilføj dine profil informationer! For eksempel din email som er nødvendig for at nulstille dit kodeord.",
+    "Start using Nextcloud" : "Begynd at bruge Nextcloud",
     "Previous" : "Forrige",
     "Next" : "Næste"
 },
