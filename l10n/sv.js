@@ -29,7 +29,6 @@ OC.L10N.register(
     "About" : "Om",
     "A welcome and introduction wizard for Nextcloud" : "En välkomst och introduktionsguide för Nextcloud",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Den här appen visar ett pop-upp-fönster första gången en ny användare loggar in i Nextcloud. Användaren välkomnas till Nextcloud. Länkar visas till en vanlig skrivbordsklient, Android- och iOS-apparna. En länk visas också för att använda Nextcloud via WebDAV. Första-användnings-appen kan öppnas igen via \"Om\" i inställningsmenyn.\nFörsta-användnings-appen kan anpassas för specifik design, eller  andra länkar och meddelanden. Att skapa ett tema och ändra utseende för appen är enkelt. Mer information hittar du i Första-användnings-appens dokumentation och i tema-dokumentationen.",
-    "Start using Nextcloud" : "Börja använda Nextcloud",
     "Extend your cloud" : "Utöka ditt moln",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Hitta fler än 100 appar i Nextcloud-appbutiken för att anpassa ditt moln:",
     "Groupware apps like Calendar, Contacts, Mail" : "Gruppvaruappar som Kalender, Kontakter, E-post",
@@ -79,6 +78,7 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "Använd den här länken för att ansluta dina appar och desktopklient till den här servern:",
     "Copy link" : "Kopiera länk",
     "Add your profile information! For example your email is needed to reset your password." : "Lägg till din profilinformation! Till exempel behövs din e-post för att återställa ditt lösenord.",
+    "Start using Nextcloud" : "Börja använda Nextcloud",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Många andra som en musikspelare, en lösenordshanterare, en kanban-app, en hämtningshanterare eller en markdown-redigerare",
     "Previous" : "Föregående",
     "Next" : "Nästa"

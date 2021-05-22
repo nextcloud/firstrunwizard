@@ -28,7 +28,6 @@ OC.L10N.register(
     "Admin-configured folders shared by everyone in a group." : "Ylläpitäjän määrittämät kansiot jaettuina kaikille ryhmän jäsenille.",
     "About" : "Tietoja",
     "A welcome and introduction wizard for Nextcloud" : "Nextcloudin ensimmäisen käyttökerran avustaja",
-    "Start using Nextcloud" : "Aloita Nextcloudin käyttäminen",
     "Extend your cloud" : "Laajenna pilveäsi",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Löydä yli 100 eri sovellusta Nextcloud-sovelluskaupasta pilvesi muokkaamiseksi:",
     "Groupware apps like Calendar, Contacts, Mail" : "Työryhmäohjelmistot kuten kalenteri, yhteystiedot ja sähköposti",
@@ -78,6 +77,7 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "Käytä tätä linkkiä yhdistääksesi sovellukset ja työpöytäsovelluksen tähän palvelimeen:",
     "Copy link" : "Kopioi linkki",
     "Add your profile information! For example your email is needed to reset your password." : "Lisää profiilitietosi! Esimerkiksi sähköpostiosoitettasi tarvitaan salasanan palauttamiseen.",
+    "Start using Nextcloud" : "Aloita Nextcloudin käyttäminen",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Paljon muuta kuten musiikkisoitin, salasanahallinta, kanban-sovellus, lataushallinta ja markdown-muokkain",
     "Previous" : "Edellinen",
     "Next" : "Seuraava"

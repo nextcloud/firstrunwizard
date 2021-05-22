@@ -31,8 +31,6 @@ OC.L10N.register(
     "About" : "关于",
     "A welcome and introduction wizard for Nextcloud" : "Nextcloud 的欢迎和介绍向导",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "此应用在用户初次登录Nextcloud时启用一个弹窗。此弹窗欢迎新用户来到Nextcloud，包含标准桌面客户端，Android应用和iOS应用的链接。这个窗口也会显示从WebDAV访问Nextcloud的链接。在任何时间，初次运行向导都能通过 设置 目录上的\"关于\"链接再次打开。\n初次运行向导可以定制以满足某些设计需求，或修改链接和消息。可以很容易地按主题设置文档来创建合适的主题，以及改变向导的外观。更多信息请参见初次运行向导文档以及主题设置文档。",
-    "Start using Nextcloud" : "开始使用 Nextcloud",
-    "Welcome to Nextcloud!" : "欢迎来到 Nextcloud！",
     "Extend your cloud" : "扩展您的云",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "您可以在 Nextcloud 的应用中心中找到超过 100 个自定义应用：",
     "Groupware apps like Calendar, Contacts, Mail" : "群组应用如日历，联系人，邮件",
@@ -82,6 +80,7 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "使用此链接将您的应用和桌面客户端连接到此服务器：",
     "Copy link" : "复制链接",
     "Add your profile information! For example your email is needed to reset your password." : "请添加您的个人信息！比如您的邮件被用来重置您的密码。",
+    "Start using Nextcloud" : "开始使用 Nextcloud",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "还有很多应用如音乐播放器，密码管理器，看板 app，下载管理器和 markdown 编辑器",
     "Previous" : "上一个",
     "Next" : "下一个"

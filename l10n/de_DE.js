@@ -31,8 +31,6 @@ OC.L10N.register(
     "About" : "Über",
     "A welcome and introduction wizard for Nextcloud" : "Ein Assistent zur Begrüßung und Einführung in Nextcloud",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Diese Anwendung aktiviert ein Popup-Fenster, wenn sich ein Benutzer zum ersten Mal an der Nextcloud anmeldet. Dieses Fenster begrüßt neue Benutzer und beinhaltet Links zum Standard-Desktop-Client, zur Android-App und zur iOS-App. Das Fenster zeigt auch einen Link für den WebDAV-Zugriff auf die Nextcloud. Der Assistent für die Erstanmeldung kann jederzeit erneut über den Link \"Über\" im Einstellungsmenü geöffnet werden.\nDer Assistent für die Erstanmeldung kann angepasst werden, um bestimmte Ziele  zu erreichen oder Links und Nachrichten zu ändern. Erstellen Sie ein eigenes Design nach der Anleitung in der Design-Dokumentation. Änderungen am Aussehen und Verhalten dieses Assistenten sind einfach. Weitere Informationen finden Sie in der Dokumentation zum Erstausführungsassistenten sowie in der Design-Dokumentation.",
-    "Start using Nextcloud" : "Starten Sie mit Nextcloud",
-    "Welcome to Nextcloud!" : "Wilkommen bei der Nextcloud!",
     "Extend your cloud" : "Erweitern Sie Ihre Cloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Finden Sie mehr als 100 Apps im Nextcloud App Store, um Ihre Cloud anzupassen:",
     "Groupware apps like Calendar, Contacts, Mail" : "Groupware-Apps wie Kalender, Kontakte, E-Mail",
@@ -82,6 +80,7 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "Verwenden Sie diesen Link, um Ihre Apps und Ihren Desktop-Clienten mit diesem Server zu verbinden:",
     "Copy link" : "Link kopieren",
     "Add your profile information! For example your email is needed to reset your password." : "Fügen Sie Ihre Profil-Informationen hinzu! Ihre E-Mail-Adresse z.B. wird zum Rücksetzen Ihres Passwortes benötigt.",
+    "Start using Nextcloud" : "Starten Sie mit Nextcloud",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Viele weitere wie z.B ein Musik-Player, ein Passwort-Manager, eine Kanban-App, ein Download-Manager oder ein Markdown-Editor",
     "Previous" : "Zurück",
     "Next" : "Weiter"

@@ -29,7 +29,6 @@ OC.L10N.register(
     "About" : "О програму",
     "A welcome and introduction wizard for Nextcloud" : "Добродошлица и чаробњак за упознавање са Некстклаудом",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Ова апликација омогућава искачући прозор када се корисник први пут пријави на Некстклауд. Овај прозор жели добродошлицу кориснику на Некстклауд и садржи везе ка стандардном десктоп клијенту, Андроид апликацији, и iOS апликацији. Прозор показује и везу за приступ Некстклауду преко WebDAV-а. У сваком тренутку, чаробњак првог покретања се може отворити опет преко везе  „О програму“ на менију поставки.\nЧаробњак првог покретања се може прилагодити да задовољава специфичне циљеве дизајна или да би се промениле везе и поруке. Направите пригодну тему пратећи документацију за Теме и промене на изгледу овог Чаробњака су једноставне. Више информација је доступно у документацији Чаробњака првог покретања, као и у документацији за Теме.",
-    "Start using Nextcloud" : "Започните са коришћењем Некстклауда",
     "Extend your cloud" : "Проширите Ваш облак",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Пронађите више од 100 апликација у Некстклауд продавници да прилагодите Ваш клауд:",
     "Groupware apps like Calendar, Contacts, Mail" : "Апликације за тимове као Календар, Контакти, Е-пошта",
@@ -79,6 +78,7 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "Користите ову везу да повежете Ваше апликације на овај сервер:",
     "Copy link" : "Копирај везу",
     "Add your profile information! For example your email is needed to reset your password." : "Додајте податке у налог! На пример ваша е-адреса је неопходна за ресет лозинке.",
+    "Start using Nextcloud" : "Започните са коришћењем Некстклауда",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Многе друге као што су музички плејер, менаџер лозинки, апликација за канбан, менаџер преузимања, markdown едитор",
     "Previous" : "Претходно",
     "Next" : "Следеће"
