@@ -23,8 +23,6 @@ OC.L10N.register(
     "App recommendation: Social" : "Recomendação de aplicação: Social",
     "App recommendation: Group folders" : "Recomendação de aplicação: Pastas de grupo",
     "About" : "Sobre",
-    "Start using Nextcloud" : "Começar a usar a Nextcloud",
-    "Welcome to Nextcloud!" : "Bem vindo à Nextcloud",
     "Get the apps to sync your files" : "Obtenha as aplicações para sincronizar os seus ficheiros",
     "Desktop client" : "Cliente de PC",
     "Android app" : "Aplicação Android",
@@ -46,6 +44,7 @@ OC.L10N.register(
     "Server address" : "Endereço do servidor",
     "Copy link" : "Copiar hiperligação",
     "Add your profile information! For example your email is needed to reset your password." : "Adicione a sua informação de perfil. Por exemplo, o seu e-mail é necessário para efectuar a reposição da sua chave.",
+    "Start using Nextcloud" : "Começar a usar a Nextcloud",
     "Previous" : "Anterior",
     "Next" : "Próximo"
 },

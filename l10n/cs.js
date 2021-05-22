@@ -31,8 +31,6 @@ OC.L10N.register(
     "About" : "O aplikaci",
     "A welcome and introduction wizard for Nextcloud" : "Uvítání a průvodce úvodem do Nextcloud",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Tato aplikace zobrazuje vyskakovací okna, když se uživatel poprvé přihlásí do Nextcloud. Toto okno přivítá nové uživatele do Nextcloud a obsahuje odkazy na standardního desktopového klienta a aplikace pro Android a iOS. Okno také zobrazuje odkaz na přístup k Nextcloud prostřednictvím WebDAV. Následně je kdykoli možné toto okno znovu vyvolat prostřednictvím odkazu „O aplikaci“ v nabídce nastavení.\nPrůvodce prvním spuštěním je možné přizpůsobit pro splnění konkrétních designových cílů, nebo změnit odkazy a zprávy. Vytvořte příslušný motiv vzhledu podle pokynů v dokumentaci k motivům vzhledu a jednoduše změňte vzhled a chování tohoto průvodce. Více informací je k dispozici v dokumentaci k Průvodci prvním spuštěním a v dokumentaci k tématům vzhledu.",
-    "Start using Nextcloud" : "Zahájit používání Nextcloud",
-    "Welcome to Nextcloud!" : "Vítejte v Nextcloud!",
     "Extend your cloud" : "Rozšiřte svůj cloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Prohlédněte si více než 100 aplikací v katalogu Nextcloud, kterými si můžete svůj cloud přizpůsobit:",
     "Groupware apps like Calendar, Contacts, Mail" : "Aplikace pro podporu spolupráce, jako kalendář, kontakty a pošta",
@@ -82,6 +80,7 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "Pro propojení vámi používaných aplikací a desktopového klienta na tento server použijte tento odkaz: ",
     "Copy link" : "Zkopírovat odkaz",
     "Add your profile information! For example your email is needed to reset your password." : "Přidejte si své profilové informace. Například váš e-mail je nutný pro obnovu hesla.",
+    "Start using Nextcloud" : "Zahájit používání Nextcloud",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Mnoho dalších, jako třeba přehrávač hudby, správce hesel, nástěnka (kanban), správce stahování nebo editor s podporou markdown",
     "Previous" : "Předchozí",
     "Next" : "Další"
