@@ -27,13 +27,11 @@
     "About" : "Tietoja",
     "A welcome and introduction wizard for Nextcloud" : "Nextcloudin ensimmäisen käyttökerran avustaja",
     "Extend your cloud" : "Laajenna pilveäsi",
-    "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Löydä yli 100 eri sovellusta Nextcloud-sovelluskaupasta pilvesi muokkaamiseksi:",
     "Groupware apps like Calendar, Contacts, Mail" : "Työryhmäohjelmistot kuten kalenteri, yhteystiedot ja sähköposti",
     "Communication with Nextcloud Talk" : "Yhteydenpito Nextcloud Talkilla",
     "Collaboration apps for document editing" : "Yhteistyösovellukset asiakirjojen muokkaukseen",
     "Security and authentication features like two-factor authentication, SSO and ransomware protection" : "Tietoturva- ja tunnistautumisominaisuuksia kuten kaksivaiheinen tunnistautuminen, kertakirjautuminen ja suoja kiristysohjelmia vastaan",
     "Many others like a music player, a password manager, a kanban app, a download manager or a Markdown editor" : "Paljon muuta kuten musiikkisoitin, salasanahallinta, kanban-sovellus, lataushallinta ja markdown-muokkain",
-    "Browse the app store" : "Selaa sovelluskauppaa",
     "Stay in sync" : "Pysy synkronoituna",
     "Nextcloud gives you access to your files wherever you are." : "Nextcloud mahdollistaa pääsyn tiedostoihisi sijainnistasi riippumatta.",
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "Helppokäyttöiset työpöytä- ja mobiilisovellukset ovat saatavilla kaikille suosituimmille alustoille ilman kustannuksia!",
@@ -76,7 +74,9 @@
     "Copy link" : "Kopioi linkki",
     "Add your profile information! For example your email is needed to reset your password." : "Lisää profiilitietosi! Esimerkiksi sähköpostiosoitettasi tarvitaan salasanan palauttamiseen.",
     "Start using Nextcloud" : "Aloita Nextcloudin käyttäminen",
+    "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Löydä yli 100 eri sovellusta Nextcloud-sovelluskaupasta pilvesi muokkaamiseksi:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Paljon muuta kuten musiikkisoitin, salasanahallinta, kanban-sovellus, lataushallinta ja markdown-muokkain",
+    "Browse the app store" : "Selaa sovelluskauppaa",
     "Previous" : "Edellinen",
     "Next" : "Seuraava"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
