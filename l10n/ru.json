@@ -30,13 +30,11 @@
     "A welcome and introduction wizard for Nextcloud" : "Добро пожаловать в мастер введения Nextcloud",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Приложение включает всплывающее окно при первом входе пользователя в Nextcloud. Окно приветствует новых пользователей и содержит ссылки на стандартный клиент, Андроид и iOS приложения. Окно так же содержит ссылку для доступа к Nextcloud через WebDAV. В любое время помощник первого запуска может быть запущен через ссылку \"О программе\" в меню настроек.\nМожно изменить дизайн Помощника, изменить ссылки и сообщения. Создать тему можно при помощи документации. Изменить внешний вид Помощника совсем просто. Дополнительная информация доступна в документации Помощника первого запуска, так же как и документация по созданию тем.",
     "Extend your cloud" : "Расширение возможностей облачного хранилища",
-    "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "В магазине приложений Nextcloud содержится более 100 приложений:",
     "Groupware apps like Calendar, Contacts, Mail" : "Приложения для рабочих групп: Календарь, Контакты, Почта",
     "Communication with Nextcloud Talk" : "Приложение для общения: Nextcloud Talk",
     "Collaboration apps for document editing" : "Приложения для совместной работы над документами",
     "Security and authentication features like two-factor authentication, SSO and ransomware protection" : "Приложения обеспечения безопасности и приложения, реализующие дополнительные способы аутентификации (в том числе двухфакторную аутентификацию), технологии единого входа (SSO), а также защиту от приложений-вымогателей.",
     "Many others like a music player, a password manager, a kanban app, a download manager or a Markdown editor" : "Многие другие, такие как музыкальный проигрыватель, менеджер паролей, приложение канбан, менеджер загрузок или редактор Markdown.",
-    "Browse the app store" : "Перейти в магазин приложений",
     "Stay in sync" : "Синхронизация",
     "Nextcloud gives you access to your files wherever you are." : "Nextcloud предоставляет доступ к своим файлам откуда угодно.",
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "Простые в использовании приложения для синхронизации файлов бесплатно доступны для всех основных платформ мобильных устройств и ПК.",
@@ -79,7 +77,9 @@
     "Copy link" : "Скопировать ссылку",
     "Add your profile information! For example your email is needed to reset your password." : "Добавьте данные в свой профиль! Например, адрес электронной почты необходим для сброса пароля.",
     "Start using Nextcloud" : "Начать использовать Nextcloud",
+    "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "В магазине приложений Nextcloud содержится более 100 приложений:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "А также множество других приложений: музыкальные проигрыватели, менеджеры паролей, приложения для управления задачами, менеджеры загрузок и приложения для редактирования текста с поддержкой разметки markdown",
+    "Browse the app store" : "Перейти в магазин приложений",
     "Previous" : "Назад",
     "Next" : "Вперёд"
 },"pluralForm" :"nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);"
