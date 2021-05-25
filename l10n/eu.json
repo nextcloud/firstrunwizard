@@ -30,13 +30,11 @@
     "A welcome and introduction wizard for Nextcloud" : "Ongi etorri eta Nextclouderako sarrera morroia",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Aplikazio honek leiho gainerakor bat gaitzen du erabiltzaileak lehen aldiz Nextclouden saioa hastean. Leiho honek ongietorria ematen die Nextcloudeko erabiltzaile berriei, eta estekak ditu mahaigaineko bezero, Androideko eta iOSeko aplikazio estandarretara. Nextcloud WebDAV bidez atzitzeko esteka ere erakusten du leihoak. Lehen abioko morroia edozein momentutan ireki daiteke berriz ezarpenen menuko \"Honi buruz\" esteka erabiliz.\nLehen abioko morroiaren diseinua, estekak eta mezuak pertsonalizatu daitezke. Horretarako, Gaiak dokumentazioa erabiliz gai bat sortu behar da. Morroi honen itxura eta izaera aldatzea erraza da. Informazio gehiago behar baduzu, lehen abioko morroiaren eta gaien dokumentazioan aurkituko duzu.",
     "Extend your cloud" : "Hedatu zure hodeia",
-    "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "100 aplikaziotik gora bila ditzakezu Nextclouden aplikazio biltegian zure hodeia pertsonalizatzeko:",
     "Groupware apps like Calendar, Contacts, Mail" : "Talde-lanerako aplikazioak, adibidez: Calendar, Contacts, Mail",
     "Communication with Nextcloud Talk" : "Komunikazioa Nextcloud Talk-ekin",
     "Collaboration apps for document editing" : "Elkarlanerako aplikazioak dokumentuak editatzeko",
     "Security and authentication features like two-factor authentication, SSO and ransomware protection" : "Segurtasun eta autentifikazio ezaugarriak, hala nola: bi faktoreko autentifikazioa, SSO eta erreskatea eskatzen duen malwarearen aurkako babesa",
     "Many others like a music player, a password manager, a kanban app, a download manager or a Markdown editor" : "Eta beste hainbat, horien artean: musika-erreproduzigailua, kanban aplikazioa, deskarga-kudeatzailea edo markdown editorea",
-    "Browse the app store" : "Arakatu aplikazio biltegia",
     "Stay in sync" : "Mantendu sinkronizatuta",
     "Nextcloud gives you access to your files wherever you are." : "Nextcloudek zure fitxategietara sarbidea ematen dizu edonondik.",
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "Gure mahaigaineko eta mugikorreko bezero erabilerrazak eskuragarri dituzu plataforma nagusi guztietan doan!",
@@ -79,7 +77,9 @@
     "Copy link" : "Kopiatu esteka",
     "Add your profile information! For example your email is needed to reset your password." : "Gehitu zure profilaren informazioa! Adibidez, zure posta elektronikoa behar da pasahitza berrezartzeko.",
     "Start using Nextcloud" : "Hasi Nextcloud erabiltzen",
+    "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "100 aplikaziotik gora bila ditzakezu Nextclouden aplikazio biltegian zure hodeia pertsonalizatzeko:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Eta beste hainbat, horien artean: musika-erreproduzigailua, kanban aplikazioa, deskarga-kudeatzailea edo markdown editorea",
+    "Browse the app store" : "Arakatu aplikazio biltegia",
     "Previous" : "Aurrekoa",
     "Next" : "Hurrengoa"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
