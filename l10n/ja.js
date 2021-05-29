@@ -26,7 +26,7 @@ OC.L10N.register(
     "Distraction-free notes and writing." : "集中モードのノートと執筆",
     "App recommendation: Social" : "アプリのおすすめ：ソーシャル",
     "Nextcloud becomes part of the federated social networks." : "Nextcloudはソーシャルネットワーク連携の一部になります！",
-    "App recommendation: Group folders" : "アプリのおすすめ：グループフォルダ",
+    "App recommendation: Group folders" : "アプリのおすすめ：グループフォルダー",
     "Admin-configured folders shared by everyone in a group." : "管理者が設定したフォルダーをグループの全員で共有",
     "About" : "バージョン情報",
     "A welcome and introduction wizard for Nextcloud" : "Nextcloud のウェルカム＆紹介ウィザード",
@@ -81,7 +81,7 @@ OC.L10N.register(
     "Start using Nextcloud" : "Nextcloud の利用を開始する",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Nextcloud アプリストアで100以上のアプリを見つけて、クラウドをカスタマイズしてください：",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "音楽プレイヤー、パスワード管理、かんばんアプリ、ダウンロードマネージャー、markdownエディターなど、他にもたくさん",
-    "Browse the app store" : "アプリストアをブラウザでみる",
+    "Browse the app store" : "アプリストアをブラウザーでみる",
     "Previous" : "前へ",
     "Next" : "次へ"
 },
