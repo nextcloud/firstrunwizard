@@ -37,6 +37,7 @@ OC.L10N.register(
     "Collaboration apps for document editing" : "Elkarlanerako aplikazioak dokumentuak editatzeko",
     "Security and authentication features like two-factor authentication, SSO and ransomware protection" : "Segurtasun eta autentifikazio ezaugarriak, hala nola: bi faktoreko autentifikazioa, SSO eta erreskatea eskatzen duen malwarearen aurkako babesa",
     "Many others like a music player, a password manager, a kanban app, a download manager or a Markdown editor" : "Eta beste hainbat, horien artean: musika-erreproduzigailua, kanban aplikazioa, deskarga-kudeatzailea edo markdown editorea",
+    "Browse the App Store" : "Arakatu aplikazio biltegia",
     "Stay in sync" : "Mantendu sinkronizatuta",
     "Nextcloud gives you access to your files wherever you are." : "Nextcloudek zure fitxategietara sarbidea ematen dizu edonondik.",
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "Gure mahaigaineko eta mugikorreko bezero erabilerrazak eskuragarri dituzu plataforma nagusi guztietan doan!",
