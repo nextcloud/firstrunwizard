@@ -75,7 +75,7 @@ OC.L10N.register(
     "Connect other apps to %s" : "他のアプリを %s に接続する",
     "Besides the mobile apps and desktop client you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "モバイルアプリやデスクトップクライアントのほかに、WebDAV/CalDAV/CardDAV プロトコルをサポートする他のソフトウェアを %s に接続できます。",
     "Server address" : "サーバーアドレス",
-    "Use this link to connect your apps and desktop client to this server:" : "あなたのアプリやデスクトップクライアントをこのサーバーに接続するにはこのリンクを使用してください:",
+    "Use this link to connect your apps and desktop client to this server:" : "アプリやデスクトップクライアントをこのサーバーに接続するには、このリンクを使用してください:",
     "Copy link" : "リンクをコピー",
     "Add your profile information! For example your email is needed to reset your password." : "プロフィール情報を追加しましょう! パスワードをリセットするにはメールアドレスが必要です。",
     "Start using Nextcloud" : "Nextcloud の利用を開始する",
