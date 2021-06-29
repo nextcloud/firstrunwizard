@@ -54,7 +54,7 @@ script('firstrunwizard', ['personalsettings']);
 	<p><?php print_unescaped($l->t('Set up sync clients using an <a href="%s">app password</a>. That way you can make sure you are able to revoke access in case you lose that device.', [$appPasswordUrl])); ?></p>
 </div>
 <div class="section">
-	<h2><?php p($l->t('Connect other apps to %s', array($theme->getName()))); ?></h2>
+	<h2><?php p($l->t('Connect other apps to %s', [$theme->getName()])); ?></h2>
 
 	<p class="settings-hint"><?php print_unescaped($l->t('Besides the mobile apps and desktop client you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s.', [$theme->getName()])); ?></p>
 
@@ -74,7 +74,7 @@ script('firstrunwizard', ['personalsettings']);
 				 src="<?php p(image_path('files', 'folder.svg')); ?>" />
 			<?php p($l->t('Access files via WebDAV'));?>
 		</a>
-		<?php if($usesTLS): ?>
+		<?php if ($usesTLS): ?>
 		<a target="_blank" class="button" href="<?php p($macOSProfile); ?>" rel="noreferrer noopener">
 			<img class="appsmall appsmall-contacts svg" alt=""
 				 src="<?php p(image_path('core', 'places/default-app-icon.svg')); ?>" />

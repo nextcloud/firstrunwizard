@@ -49,7 +49,7 @@
 			</a>
 		</div>
 		<div class="description-block">
-			<h3><?php p($l->t('Connect your desktop apps to %s', array($theme->getName()))); ?></h3>
+			<h3><?php p($l->t('Connect your desktop apps to %s', [$theme->getName()])); ?></h3>
 			<a target="_blank" class="button"
 			   href="<?php p(link_to_docs('user-sync-calendars')) ?>" rel="noreferrer noopener">
 				<span class="icon icon-calendar-dark"></span>
@@ -65,7 +65,7 @@
 				<span class="icon icon-files-dark"></span>
 				<?php p($l->t('Access files via WebDAV')); ?>
 			</a>
-			<?php if($_['useTLS']): ?>
+			<?php if ($_['useTLS']): ?>
 			<a target="_blank" class="button"
 			   href="<?php p($_['macOSProfile']); ?>" rel="noreferrer noopener">
 				<span class="icon icon-download"></span>

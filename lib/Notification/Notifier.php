@@ -21,7 +21,6 @@
 
 namespace OCA\FirstRunWizard\Notification;
 
-
 use OCP\IConfig;
 use OCP\IURLGenerator;
 use OCP\IUserManager;
@@ -142,13 +141,13 @@ class Notifier implements INotifier {
 		if ($user->canChangeDisplayName() && $user->getDisplayName() === $user->getUID()) {
 			if ($user->canChangeAvatar() && $user->getAvatarImage(32) === null) {
 				return $l->t('Add your profile information! Set a profile picture and full name for easier recognition across all features.');
-			} else  {
+			} else {
 				return $l->t('Add your profile information! Set a full name for easier recognition across all features.');
 			}
 		} else {
 			if ($user->canChangeAvatar() && $user->getAvatarImage(32) === null) {
 				return $l->t('Add your profile information! Set a profile picture for easier recognition across all features.');
-			} else  {
+			} else {
 				return '';
 			}
 		}
@@ -210,5 +209,4 @@ class Notifier implements INotifier {
 			->setIcon($this->url->getAbsoluteURL($this->url->imagePath('firstrunwizard', 'apps/'. $app . '.svg')));
 		return $notification;
 	}
-
 }

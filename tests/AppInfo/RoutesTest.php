@@ -30,7 +30,7 @@ use Test\TestCase;
  *
  * @package OCA\FirstRunWizard\Tests\AppInfo
  */
-class RoutesTest extends TestCase  {
+class RoutesTest extends TestCase {
 	public function testRoutes() {
 		$routes = include(__DIR__ . '/../../appinfo/routes.php');
 		$this->assertIsArray($routes);

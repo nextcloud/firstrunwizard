@@ -23,7 +23,6 @@
 
 namespace OCA\FirstRunWizard\Settings;
 
-
 use OCP\AppFramework\Http\TemplateResponse;
 use OCP\IConfig;
 use OCP\Settings\ISettings;

@@ -23,7 +23,6 @@
 
 namespace OCA\FirstRunWizard\Tests\AppInfo;
 
-
 use OCA\FirstRunWizard\AppInfo\Application;
 use OCA\FirstRunWizard\Controller\WizardController;
 use OCA\FirstRunWizard\Notification\BackgroundJob;
@@ -31,7 +30,6 @@ use OCA\FirstRunWizard\Notification\Notifier;
 use OCP\AppFramework\App;
 use OCP\AppFramework\Controller;
 use OCP\BackgroundJob\IJob;
-use OCP\Notification\IManager;
 use OCP\Notification\INotifier;
 use Test\TestCase;
 

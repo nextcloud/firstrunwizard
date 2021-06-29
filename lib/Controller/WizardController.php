@@ -21,7 +21,6 @@
 
 namespace OCA\FirstRunWizard\Controller;
 
-
 use OCA\FirstRunWizard\AppInfo\Application;
 use OCP\AppFramework\Controller;
 use OCP\AppFramework\Http\DataResponse;
@@ -83,11 +82,11 @@ class WizardController extends Controller {
 		$appStore = $this->config->getSystemValue('appstoreenabled', true);
 
 		$data = [
-			'desktop'      => $this->config->getSystemValue('customclient_desktop', $this->theming->getSyncClientUrl()),
-			'android'      => $this->config->getSystemValue('customclient_android', $this->theming->getAndroidClientUrl()),
-			'ios'          => $this->config->getSystemValue('customclient_ios', $this->theming->getiOSClientUrl()),
-			'appStore'     => $appStore,
-			'useTLS'       => $this->request->getServerProtocol() === 'https',
+			'desktop' => $this->config->getSystemValue('customclient_desktop', $this->theming->getSyncClientUrl()),
+			'android' => $this->config->getSystemValue('customclient_android', $this->theming->getAndroidClientUrl()),
+			'ios' => $this->config->getSystemValue('customclient_ios', $this->theming->getiOSClientUrl()),
+			'appStore' => $appStore,
+			'useTLS' => $this->request->getServerProtocol() === 'https',
 			'macOSProfile' => \OCP\Util::linkToRemote('dav') . 'provisioning/apple-provisioning.mobileconfig',
 		];
 
@@ -115,7 +114,7 @@ class WizardController extends Controller {
 
 		$template = new \OCP\Template($this->appName, $name, false);
 
-		foreach($params as $key => $value){
+		foreach ($params as $key => $value) {
 			$template->assign($key, $value);
 		}
 
