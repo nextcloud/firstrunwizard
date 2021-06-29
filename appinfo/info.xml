@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
-	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/nextcloud/server/master/resources/app-info-shipped.xsd">
 	<id>firstrunwizard</id>
 	<name>First run wizard</name>
 	<summary>A welcome and introduction wizard for Nextcloud</summary>
@@ -12,14 +12,18 @@ The First run wizard can be customized to meet specific design goals, or to chan
 	<author>Frank Karlitschek</author>
 	<author>Jan-Christoph Borchardt</author>
 	<namespace>FirstRunWizard</namespace>
+	<default_enable/>
 	<types>
 		<logging/>
 	</types>
 	<category>tools</category>
-	<default_enable/>
+	<bugs>https://github.com/nextcloud/firstrunwizard/issues</bugs>
 	<dependencies>
 		<nextcloud min-version="23" max-version="23" />
 	</dependencies>
+	<settings>
+		<personal>OCA\FirstRunWizard\Settings\Personal</personal>
+	</settings>
 	<navigations>
 		<navigation>
 			<id>firstrunwizard-about</id>
@@ -30,7 +34,4 @@ The First run wizard can be customized to meet specific design goals, or to chan
 			<type>settings</type>
 		</navigation>
 	</navigations>
-	<settings>
-		<personal>OCA\FirstRunWizard\Settings\Personal</personal>
-	</settings>
 </info>

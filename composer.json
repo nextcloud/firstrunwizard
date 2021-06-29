@@ -6,9 +6,12 @@
     "optimize-autoloader": true,
     "classmap-authoritative": true
   },
-  "require": {
-  },
   "scripts": {
-    "lint": "find . -name \\*.php -not -path './vendor/*' -print0 | xargs -0 -n1 php -l"
+    "lint": "find . -name \\*.php -not -path './vendor/*' -print0 | xargs -0 -n1 php -l",
+    "cs:check": "vendor/bin/php-cs-fixer fix --dry-run --diff",
+    "cs:fix": "vendor/bin/php-cs-fixer fix"
+  },
+  "require-dev": {
+    "nextcloud/coding-standard": "^0.5.0"
   }
 }
