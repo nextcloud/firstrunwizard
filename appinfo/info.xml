@@ -26,11 +26,11 @@ The First run wizard can be customized to meet specific design goals, or to chan
 	</settings>
 	<navigations>
 		<navigation>
-			<id>firstrunwizard-about</id>
+			<id>firstrunwizard_about</id>
 			<name>About</name>
 			<route></route>
-			<order>5</order>
 			<icon>info.svg</icon>
+			<order>5</order>
 			<type>settings</type>
 		</navigation>
 	</navigations>
