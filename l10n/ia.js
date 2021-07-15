@@ -17,9 +17,6 @@ OC.L10N.register(
     "Connect your desktop apps to %s" : "Connecte tu application de scriptorio a %s",
     "Access files via WebDAV" : "Accede a files via WebDAV",
     "Server address" : "Adresse de servitor",
-    "Copy link" : "Copiar ligamine",
-    "Add your profile information! For example your email is needed to reset your password." : "Adde tu information de profilo! Per exemplo, tu adresse de e-posta es necessari pro reinitialisar tu contrasigno.",
-    "Previous" : "Previe",
-    "Next" : "Sequente"
+    "Copy link" : "Copiar ligamine"
 },
 "nplurals=2; plural=(n != 1);");

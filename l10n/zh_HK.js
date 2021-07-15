@@ -61,7 +61,7 @@ OC.L10N.register(
     "Developer manual" : "開發人員使用手冊",
     "You can also ask for help in our community support channels:" : "您也可以在我們的社群支援頻道尋求協助",
     "the Nextcloud forums" : "Nextcloud論壇",
-    "the Nextcloud IRC chat channel on freenode.net" : "在freenode。net 上的 Nextcloud IRC 聊天頻道",
+    "the Nextcloud IRC chat channel on freenode.net" : "在freenode.net 上的 Nextcloud IRC 聊天頻道",
     "Start contributing" : "開始貢獻",
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "您想要取得 Nextcloud 特定的改進嗎？您有找到問題嗎？你想要幫忙翻譯，推動或是寫 Nextcloud 文件嗎？",
     "Become part of the Community" : "成為社群的一份子",
@@ -81,12 +81,9 @@ OC.L10N.register(
     "Server address" : "伺服器位址",
     "Use this link to connect your apps and desktop client to this server:" : "使用此連結來連接您的應用程式及桌面客戶端到這伺服器：",
     "Copy link" : "複製連結",
-    "Add your profile information! For example your email is needed to reset your password." : "加入您的個人資訊吧！舉例來說，我們需要您的 Email 才能在您需要時寄出密碼重設信件",
     "Start using Nextcloud" : "開始使用 Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "在應用程式商店中尋找超過一百個應用程式來客製化您的 Nextcloud",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "更多其他像是音樂播放器，密碼管理器，kanban app，下載管理器或是 markdown 編輯器",
-    "Browse the app store" : "瀏覽 app store",
-    "Previous" : "上一步",
-    "Next" : "下一個"
+    "Browse the app store" : "瀏覽 app store"
 },
 "nplurals=1; plural=0;");

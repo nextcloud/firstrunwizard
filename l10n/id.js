@@ -18,9 +18,6 @@ OC.L10N.register(
     "Access files via WebDAV" : "Akses berkas via WebDAV",
     "A safe home for all your data" : "Tempat yang aman untuk semua data anda",
     "Server address" : "Alamat peladen",
-    "Copy link" : "Salin tautan",
-    "Add your profile information! For example your email is needed to reset your password." : "Tambahkan info profil anda! Contohnya surel anda yang dibutuhkan untuk mereset kata sandi anda.",
-    "Previous" : "Sebelumnya",
-    "Next" : "Berikutnya"
+    "Copy link" : "Salin tautan"
 },
 "nplurals=1; plural=0;");

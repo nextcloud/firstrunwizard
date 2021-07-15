@@ -21,9 +21,6 @@ OC.L10N.register(
     "Access files via WebDAV" : "Hyni në kartela përmes WebDAV-it",
     "A safe home for all your data" : "Një shtëpi e sigurt për të dhënat e tua",
     "Server address" : "Adresa e serverit",
-    "Copy link" : "Kopjo linkun",
-    "Add your profile information! For example your email is needed to reset your password." : "Shtoni informacionin e profilit tuaj. Për shembull nevojitet emaili juaj për të rivendosur fjalëkalimin.",
-    "Previous" : "I mëparshëm",
-    "Next" : "Tjetër"
+    "Copy link" : "Kopjo linkun"
 },
 "nplurals=2; plural=(n != 1);");

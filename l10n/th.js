@@ -13,8 +13,6 @@ OC.L10N.register(
     "Connect your desktop apps to %s" : "เชื่อมต่อแอพพลิเคชันเดสก์ทอปของคุณไปยัง %s",
     "Access files via WebDAV" : "เข้าถึงไฟล์ผ่าน WebDAV",
     "Server address" : "ที่อยู่เซิร์ฟเวอร์",
-    "Copy link" : "คัดลอกลิงค์",
-    "Previous" : "ก่อนหน้า",
-    "Next" : "ถัดไป"
+    "Copy link" : "คัดลอกลิงค์"
 },
 "nplurals=1; plural=0;");

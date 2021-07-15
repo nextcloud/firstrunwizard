@@ -73,12 +73,9 @@
     "Server address" : "Adresa poslužitelja",
     "Use this link to connect your apps and desktop client to this server:" : "Iskoristite ovu poveznicu za povezivanje aplikacija i klijenata za osobna računala s ovim poslužiteljem:",
     "Copy link" : "Kopiraj poveznicu",
-    "Add your profile information! For example your email is needed to reset your password." : "Dodajte svoje profilne informacije! Primjerice, vaša adresa e-pošte potrebna je za resetiranje zaporke.",
     "Start using Nextcloud" : "Počnite se koristiti Nextcloudom",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Pronađite više od 100 aplikacija u Nextcloudovoj trgovini aplikacijama i prilagodite svoj oblak:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Mnoge druge aplikacije, primjerice za reprodukciju glazbe, upravljanje zaporkama, kanban projektima, preuzimanjima ili oznakama",
-    "Browse the app store" : "Pretraži trgovinu aplikacijama",
-    "Previous" : "Prethodna",
-    "Next" : "Sljedeća"
+    "Browse the app store" : "Pretraži trgovinu aplikacijama"
 },"pluralForm" :"nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;"
 }

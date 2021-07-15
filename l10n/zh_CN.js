@@ -81,12 +81,9 @@ OC.L10N.register(
     "Server address" : "服务器地址",
     "Use this link to connect your apps and desktop client to this server:" : "使用此链接将您的应用和桌面客户端连接到此服务器：",
     "Copy link" : "复制链接",
-    "Add your profile information! For example your email is needed to reset your password." : "请添加您的个人信息！比如您的邮件被用来重置您的密码。",
     "Start using Nextcloud" : "开始使用 Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "您可以在 Nextcloud 的应用中心中找到超过 100 个自定义应用：",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "还有很多应用如音乐播放器，密码管理器，看板 app，下载管理器和 markdown 编辑器",
-    "Browse the app store" : "浏览应用商店",
-    "Previous" : "上一个",
-    "Next" : "下一个"
+    "Browse the app store" : "浏览应用商店"
 },
 "nplurals=1; plural=0;");

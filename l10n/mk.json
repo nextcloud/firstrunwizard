@@ -75,12 +75,9 @@
     "Server address" : "Адреса на серверот",
     "Use this link to connect your apps and desktop client to this server:" : "Користете го овој линк за да ги поврзете вашите апликации со серверот:",
     "Copy link" : "Копирај линк",
-    "Add your profile information! For example your email is needed to reset your password." : "Додадете ги вашите информации на сметката! Како пример вашата е-пошта адресата е потребна за ресетирање на лозинката.",
     "Start using Nextcloud" : "Започни со користење на Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Пронајдете повеќе од 100 апликации во апликацијата Nextcloud продавница за да го прилагодите вашиот облак:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Многу други сакаат музички плеер, менаџер за лозинки, апликација за канбан, менаџер за преземање или уредник на ознаки",
-    "Browse the app store" : "Прелистајте во продавницата со апликации",
-    "Previous" : "Претходно",
-    "Next" : "Следно"
+    "Browse the app store" : "Прелистајте во продавницата со апликации"
 },"pluralForm" :"nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1;"
 }

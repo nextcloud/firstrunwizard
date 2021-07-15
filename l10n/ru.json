@@ -75,12 +75,9 @@
     "Server address" : "Адрес сервера",
     "Use this link to connect your apps and desktop client to this server:" : "Используйте эту ссылку для соединения ваших приложений и десктоп-клиентов с этим сервером:",
     "Copy link" : "Скопировать ссылку",
-    "Add your profile information! For example your email is needed to reset your password." : "Добавьте данные в свой профиль! Например, адрес электронной почты необходим для сброса пароля.",
     "Start using Nextcloud" : "Начать использовать Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "В магазине приложений Nextcloud содержится более 100 приложений:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "А также множество других приложений: музыкальные проигрыватели, менеджеры паролей, приложения для управления задачами, менеджеры загрузок и приложения для редактирования текста с поддержкой разметки markdown",
-    "Browse the app store" : "Перейти в магазин приложений",
-    "Previous" : "Назад",
-    "Next" : "Вперёд"
+    "Browse the app store" : "Перейти в магазин приложений"
 },"pluralForm" :"nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);"
 }

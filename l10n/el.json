@@ -73,12 +73,9 @@
     "Server address" : "Διεύθυνση διακομιστή",
     "Use this link to connect your apps and desktop client to this server:" : "Χρησιμοποιήστε τον σύνδεσμο για να συνδέσετε την εφαρμογή υπολογιστή και κινητού σε αυτόν τον διακομιστή:",
     "Copy link" : "Αντιγραφή συνδέσμου",
-    "Add your profile information! For example your email is needed to reset your password." : "Προσθέστε τις πληροφορίες του προφίλ σας! Για παράδειγμα, το email σας είναι απαραίτητο για να επαναφέρετε τον κωδικό πρόσβασης.",
     "Start using Nextcloud" : "Έναρξη χρήσης Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Βρείτε περισσότερες από 100 εφαρμογές στο κατάστημα εφαρμογών Nextcloud για να προσαρμόσετε το σύννεφο σας:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Πολλά ακόμη όπως με ένα πρόγραμμα αναπαραγωγής μουσικής, διαχειριστή κωδικών, εφαρμογή kanban, έναν διαχειριστή λήψης ή έναν επεξεργαστή σήμανσης",
-    "Browse the app store" : "Εξερεύνηση αγοράς αφαρμογών",
-    "Previous" : "Προηγούμενο",
-    "Next" : "Επόμενο"
+    "Browse the app store" : "Εξερεύνηση αγοράς αφαρμογών"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

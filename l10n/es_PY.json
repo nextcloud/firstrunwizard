@@ -19,9 +19,6 @@
     "Access files via WebDAV" : "Accede tus archivos vía WebDAV",
     "A safe home for all your data" : "Un lugar seguro para todos sus datos",
     "Server address" : "Dirección del servidor",
-    "Copy link" : "Copiar liga",
-    "Add your profile information! For example your email is needed to reset your password." : "¡Agregua tu información de perfil! Por ejemplo tu correo electrónico es necesario para restablecer tu contraseña.",
-    "Previous" : "Anterior",
-    "Next" : "Siguiente"
+    "Copy link" : "Copiar liga"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

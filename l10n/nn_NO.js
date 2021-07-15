@@ -9,8 +9,6 @@ OC.L10N.register(
     "Get the apps to sync your files" : "Få app-ar som kan synkronisera filene dine",
     "Access files via WebDAV" : "Bruk filene dine over WebDAV",
     "A safe home for all your data" : "Eit trygt heim for all din data",
-    "Server address" : "Server adresse",
-    "Previous" : "Førre",
-    "Next" : "Neste"
+    "Server address" : "Server adresse"
 },
 "nplurals=2; plural=(n != 1);");

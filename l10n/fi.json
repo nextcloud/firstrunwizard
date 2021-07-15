@@ -72,12 +72,9 @@
     "Server address" : "Palvelimen osoite",
     "Use this link to connect your apps and desktop client to this server:" : "Käytä tätä linkkiä yhdistääksesi sovellukset ja työpöytäsovelluksen tähän palvelimeen:",
     "Copy link" : "Kopioi linkki",
-    "Add your profile information! For example your email is needed to reset your password." : "Lisää profiilitietosi! Esimerkiksi sähköpostiosoitettasi tarvitaan salasanan palauttamiseen.",
     "Start using Nextcloud" : "Aloita Nextcloudin käyttäminen",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Löydä yli 100 eri sovellusta Nextcloud-sovelluskaupasta pilvesi muokkaamiseksi:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Paljon muuta kuten musiikkisoitin, salasanahallinta, kanban-sovellus, lataushallinta ja markdown-muokkain",
-    "Browse the app store" : "Selaa sovelluskauppaa",
-    "Previous" : "Edellinen",
-    "Next" : "Seuraava"
+    "Browse the app store" : "Selaa sovelluskauppaa"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
