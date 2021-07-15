@@ -72,12 +72,9 @@
     "Server address" : "آدرس سرور",
     "Use this link to connect your apps and desktop client to this server:" : "برای اتصال برنامه ها و مشتری دسک تاپ خود به این سرور از این لینک استفاده کنید:",
     "Copy link" : "کپی کردن لینک",
-    "Add your profile information! For example your email is needed to reset your password." : "اطلاعات پروفایل خود را اضافه کنید! به عنوان مثال ایمیل شما برای بازنشانی گذرواژه‌تان لازم است.",
     "Start using Nextcloud" : "استفاده از Nextcloud را شروع کنید",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "برای سفارشی کردن ابر خود ، بیش از 100 برنامه را در فروشگاه برنامه Nextcloud بیابید:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "بسیاری دیگر مانند یک پخش کننده موسیقی ، یک مدیر رمز عبور ، یک برنامه kanban ، یک مدیر بارگیری یا یک ویرایشگر نشانه گذاری هستند",
-    "Browse the app store" : "فروشگاه برنامه را مرور کنید",
-    "Previous" : "قبلی",
-    "Next" : "بعدی"
+    "Browse the app store" : "فروشگاه برنامه را مرور کنید"
 },"pluralForm" :"nplurals=2; plural=(n > 1);"
 }

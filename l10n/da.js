@@ -34,9 +34,6 @@ OC.L10N.register(
     "Connect other apps to %s" : "Forbind andre apps til %s",
     "Server address" : "Serveradresse",
     "Copy link" : "Kopier link",
-    "Add your profile information! For example your email is needed to reset your password." : "Tilføj dine profil informationer! For eksempel din email som er nødvendig for at nulstille dit kodeord.",
-    "Start using Nextcloud" : "Begynd at bruge Nextcloud",
-    "Previous" : "Forrige",
-    "Next" : "Næste"
+    "Start using Nextcloud" : "Begynd at bruge Nextcloud"
 },
 "nplurals=2; plural=(n != 1);");

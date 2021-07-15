@@ -19,9 +19,6 @@ OC.L10N.register(
     "Access files via WebDAV" : "Acceda a sus archivos vía WebDAV",
     "A safe home for all your data" : "Un hogar seguro para todos tus datos.",
     "Server address" : "Dirección del servidor",
-    "Copy link" : "Copiar enlace",
-    "Add your profile information! For example your email is needed to reset your password." : "¡Agregue su información de perfil! Por ejemplo us correo electrónico es necesario para restablecer su contraseña.",
-    "Previous" : "Anterior",
-    "Next" : "Siguiente"
+    "Copy link" : "Copiar enlace"
 },
 "nplurals=2; plural=(n != 1);");

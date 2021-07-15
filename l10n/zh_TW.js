@@ -81,12 +81,9 @@ OC.L10N.register(
     "Server address" : "伺服器位址",
     "Use this link to connect your apps and desktop client to this server:" : "使用此連結將您的應用程式與桌面客戶端連結到此伺服器：",
     "Copy link" : "複製連結",
-    "Add your profile information! For example your email is needed to reset your password." : "加入您的個人資訊吧！舉例來說，我們需要您的電子郵件地址才能在您需要時寄出密碼重設信件。",
     "Start using Nextcloud" : "開始使用 Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "在應用程式商店中尋找超過一百個應用程式來客製化您的 Nextcloud：",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "音樂播放程式、密碼管理程式、看板應用程式、下載管理程式或 markdown 編輯器",
-    "Browse the app store" : "瀏覽應用程式商店",
-    "Previous" : "上一步",
-    "Next" : "下一步"
+    "Browse the app store" : "瀏覽應用程式商店"
 },
 "nplurals=1; plural=0;");

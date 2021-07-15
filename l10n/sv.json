@@ -79,12 +79,9 @@
     "Server address" : "Serveradress",
     "Use this link to connect your apps and desktop client to this server:" : "Använd den här länken för att ansluta dina appar och desktopklient till den här servern:",
     "Copy link" : "Kopiera länk",
-    "Add your profile information! For example your email is needed to reset your password." : "Lägg till din profilinformation! Till exempel behövs din e-post för att återställa ditt lösenord.",
     "Start using Nextcloud" : "Börja använda Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Hitta fler än 100 appar i Nextcloud-appbutiken för att anpassa ditt moln:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Många andra som en musikspelare, en lösenordshanterare, en kanban-app, en hämtningshanterare eller en markdown-redigerare",
-    "Browse the app store" : "Bläddra i appbutiken",
-    "Previous" : "Föregående",
-    "Next" : "Nästa"
+    "Browse the app store" : "Bläddra i appbutiken"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

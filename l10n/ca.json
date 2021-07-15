@@ -73,12 +73,9 @@
     "Server address" : "Adreça del servidor",
     "Use this link to connect your apps and desktop client to this server:" : "Utilitzeu aquest enllaç per connectar les vostres aplicacions i client d’escriptori a aquest servidor:",
     "Copy link" : "Copia l'enllaç",
-    "Add your profile information! For example your email is needed to reset your password." : "Afegiu informació al vostre perfil. Per exemple, el vostre correu electrònic és necessari per restablir la vostra contrasenya.",
     "Start using Nextcloud" : "Comenceu a fer servir Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Descobriu més de 100 aplicacions a la botiga d’aplicacions Nextcloud per personalitzar el vostre núvol:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Molts altres com ara un reproductor de música, un gestor de contrasenyes, una aplicació kanban, un gestor de descàrregues o un editor de markdown",
-    "Browse the app store" : "Navegueu per la botiga d’aplicacions",
-    "Previous" : "Anterior",
-    "Next" : "Següent"
+    "Browse the app store" : "Navegueu per la botiga d’aplicacions"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

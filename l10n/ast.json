@@ -19,9 +19,6 @@
     "Access files via WebDAV" : "Accedi per WebDAV a los ficheros",
     "A safe home for all your data" : "Un llar seguru pa tolos tos datos",
     "Server address" : "Direición del sividor",
-    "Copy link" : "Copiar enllaz",
-    "Add your profile information! For example your email is needed to reset your password." : "¡Amiesta la to información de perfil! Por exemplu, precísase'l to corréu pa reafitar la to contraseña.",
-    "Previous" : "Anterior",
-    "Next" : "Siguiente"
+    "Copy link" : "Copiar enllaz"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

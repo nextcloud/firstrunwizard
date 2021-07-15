@@ -29,9 +29,6 @@
     "Server address" : "서버 주소",
     "Use this link to connect your apps and desktop client to this server:" : "다음 링크를 사용하여 데스크톱 클라이언트나 당신의 앱에 이 서버를 연결하세요.",
     "Copy link" : "링크 복사",
-    "Add your profile information! For example your email is needed to reset your password." : "내 프로필 정보를 추가하십시오! 이메일 주소는 암호를 초기화하는 데 필요합니다.",
-    "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Nextcloud 앱스토어에서 100개 이상의 앱을 골라 당신만의 클라우드를 만드세요:",
-    "Previous" : "이전",
-    "Next" : "Next"
+    "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Nextcloud 앱스토어에서 100개 이상의 앱을 골라 당신만의 클라우드를 만드세요:"
 },"pluralForm" :"nplurals=1; plural=0;"
 }

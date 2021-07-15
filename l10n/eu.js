@@ -81,12 +81,9 @@ OC.L10N.register(
     "Server address" : "Zerbitzariaren helbidea",
     "Use this link to connect your apps and desktop client to this server:" : "Erabili esteka hau zure aplikazio eta mahaigaineko bezeroak zerbitzari honetara konektatzeko:",
     "Copy link" : "Kopiatu esteka",
-    "Add your profile information! For example your email is needed to reset your password." : "Gehitu zure profilaren informazioa! Adibidez, zure posta elektronikoa behar da pasahitza berrezartzeko.",
     "Start using Nextcloud" : "Hasi Nextcloud erabiltzen",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "100 aplikaziotik gora bila ditzakezu Nextclouden aplikazio biltegian zure hodeia pertsonalizatzeko:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Eta beste hainbat, horien artean: musika-erreproduzigailua, kanban aplikazioa, deskarga-kudeatzailea edo markdown editorea",
-    "Browse the app store" : "Arakatu aplikazio biltegia",
-    "Previous" : "Aurrekoa",
-    "Next" : "Hurrengoa"
+    "Browse the app store" : "Arakatu aplikazio biltegia"
 },
 "nplurals=2; plural=(n != 1);");

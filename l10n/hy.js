@@ -3,8 +3,6 @@ OC.L10N.register(
     {
     "About" : "էջի վերաբերյալ",
     "Server address" : "սերվերի հասցեն",
-    "Copy link" : "Պատճենել հղումը",
-    "Previous" : "Նախորդ",
-    "Next" : "Հաջորդ"
+    "Copy link" : "Պատճենել հղումը"
 },
 "nplurals=2; plural=(n != 1);");
