@@ -20,9 +20,6 @@ OC.L10N.register(
     "Access files via WebDAV" : "Доступ до файлів за допомогою WebDAV",
     "A safe home for all your data" : "Безпечний дім для Ваших даних",
     "Server address" : "Адреса сервера",
-    "Copy link" : "Скопіювати посилання",
-    "Add your profile information! For example your email is needed to reset your password." : "Додайте інформацію в свій профіль! Наприклад, ваша електронна пошта необхідна для скидання пароля.",
-    "Previous" : "Попередній",
-    "Next" : "Наступний"
+    "Copy link" : "Скопіювати посилання"
 },
 "nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);");

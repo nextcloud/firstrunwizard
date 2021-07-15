@@ -81,12 +81,9 @@ OC.L10N.register(
     "Server address" : "Serveradres",
     "Use this link to connect your apps and desktop client to this server:" : "Gebruik deze link om je apps en desktop client met deze server te verbinden:",
     "Copy link" : "Kopiëren link ",
-    "Add your profile information! For example your email is needed to reset your password." : "Voeg je profielinformatie toe! Je email-adres is bijvoorbeeld nodig om je wachtwoord te herstellen.",
     "Start using Nextcloud" : "Starten met Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Vind meer dan 100 apps in de Nextcloud app winkel om je Nextcloud aan te passen.",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Heel veel anders, zoals een muziekspeler, een wachtwoordenbeheerder, een kanban app, een download manager of een markdown editor",
-    "Browse the app store" : "Blader door de app store",
-    "Previous" : "Vorige",
-    "Next" : "Volgende"
+    "Browse the app store" : "Blader door de app store"
 },
 "nplurals=2; plural=(n != 1);");

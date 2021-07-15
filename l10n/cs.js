@@ -81,12 +81,9 @@ OC.L10N.register(
     "Server address" : "Adresa serveru",
     "Use this link to connect your apps and desktop client to this server:" : "Pro propojení vámi používaných aplikací a desktopového klienta na tento server použijte tento odkaz: ",
     "Copy link" : "Zkopírovat odkaz",
-    "Add your profile information! For example your email is needed to reset your password." : "Přidejte si své profilové informace. Například váš e-mail je nutný pro obnovu hesla.",
     "Start using Nextcloud" : "Zahájit používání Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Prohlédněte si více než 100 aplikací v katalogu Nextcloud, kterými si můžete svůj cloud přizpůsobit:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Mnoho dalších, jako třeba přehrávač hudby, správce hesel, nástěnka (kanban), správce stahování nebo editor s podporou markdown",
-    "Browse the app store" : "Procházet katalog aplikací",
-    "Previous" : "Předchozí",
-    "Next" : "Další"
+    "Browse the app store" : "Procházet katalog aplikací"
 },
 "nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;");

@@ -8,8 +8,6 @@ OC.L10N.register(
     "About" : "පිළිබඳව",
     "Server address" : "සේවාදායක ලිපිනය",
     "Copy link" : "සබැඳිය පිටපත් කරන්න",
-    "Browse the app store" : "යෙදුම් ගබඩාව පිරික්සන්න",
-    "Previous" : "පෙර",
-    "Next" : "ඊළඟ"
+    "Browse the app store" : "යෙදුම් ගබඩාව පිරික්සන්න"
 },
 "nplurals=2; plural=(n != 1);");

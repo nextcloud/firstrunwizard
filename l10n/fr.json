@@ -73,12 +73,9 @@
     "Server address" : "Adresse du serveur",
     "Use this link to connect your apps and desktop client to this server:" : "Utilisez ce lien pour connecter vos applications et les clients au serveur :",
     "Copy link" : "Copier le lien",
-    "Add your profile information! For example your email is needed to reset your password." : "Renseignez votre profil ! Par exemple, votre adresse e-mail est nécessaire pour réinitialiser votre mot de passe.",
     "Start using Nextcloud" : "Commencer à utiliser Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Trouvez plus de 100 applications dans l'App Store de Nextcloud pour personnaliser votre cloud : ",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Beaucoup d'autres comme un lecteur de musique, un gestionnaire de mot de passe, une application Kanban, un gestionnaire de téléchargement ou un éditeur markdown",
-    "Browse the app store" : "Parcourir l'App Store",
-    "Previous" : "Précédent",
-    "Next" : "Suivant"
+    "Browse the app store" : "Parcourir l'App Store"
 },"pluralForm" :"nplurals=2; plural=(n > 1);"
 }

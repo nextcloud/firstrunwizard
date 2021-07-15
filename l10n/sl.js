@@ -77,12 +77,9 @@ OC.L10N.register(
     "Server address" : "Naslov strežnika",
     "Use this link to connect your apps and desktop client to this server:" : "Naslov za povezavo programa s strežnikom:",
     "Copy link" : "Kopiraj povezavo",
-    "Add your profile information! For example your email is needed to reset your password." : "Dodajte podatke profila! Na elektronski naslov na primer prejmete povezavo za ponastavitev gesla.",
     "Start using Nextcloud" : "Začnite uporabljati Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Prebrskajte med več kot 100 programi v trgovini Nextcloud in si prilagodite oblak:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Drugi so navdušeni tudi nad predvajalnikom glasbe, upravljalnikom gesel, programom za organizacijo nalog ali pa enostavnim skupinskim urejevalnikom",
-    "Browse the app store" : "Prebrskaj po trgovini programov",
-    "Previous" : "Nazaj",
-    "Next" : "Naprej"
+    "Browse the app store" : "Prebrskaj po trgovini programov"
 },
 "nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);");

@@ -81,12 +81,9 @@ OC.L10N.register(
     "Server address" : "Adres serwera",
     "Use this link to connect your apps and desktop client to this server:" : "Użyj tego linku, aby podłączyć swoje aplikacje i klienta desktopowego do tego serwera:",
     "Copy link" : "Kopiuj link",
-    "Add your profile information! For example your email is needed to reset your password." : "Dodaj informacje o swoim profilu! Na przykład Twój adres e-mail jest wymagany do zresetowania hasła.",
     "Start using Nextcloud" : "Zacznij używać Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Znajdź ponad 100 aplikacji w sklepie z aplikacjami Nextcloud, aby dostosować swoją chmurę:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Wiele innych, jak odtwarzacz muzyki, menedżer haseł, aplikacja kanban, menedżer pobierania, czy edytor Markdown",
-    "Browse the app store" : "Przeglądaj sklep z aplikacjami",
-    "Previous" : "Poprzedni",
-    "Next" : "Następny"
+    "Browse the app store" : "Przeglądaj sklep z aplikacjami"
 },
 "nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);");

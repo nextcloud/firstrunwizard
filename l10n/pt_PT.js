@@ -43,9 +43,6 @@ OC.L10N.register(
     "A safe home for all your data" : "Um local seguro para todos os seus dados",
     "Server address" : "Endereço do servidor",
     "Copy link" : "Copiar hiperligação",
-    "Add your profile information! For example your email is needed to reset your password." : "Adicione a sua informação de perfil. Por exemplo, o seu e-mail é necessário para efectuar a reposição da sua chave.",
-    "Start using Nextcloud" : "Começar a usar a Nextcloud",
-    "Previous" : "Anterior",
-    "Next" : "Próximo"
+    "Start using Nextcloud" : "Começar a usar a Nextcloud"
 },
 "nplurals=2; plural=(n != 1);");
