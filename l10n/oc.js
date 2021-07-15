@@ -11,8 +11,6 @@ OC.L10N.register(
     "Access files via WebDAV" : "Accedissètz a vòstres fichièrs via WebDAV",
     "A safe home for all your data" : "Un ostal segur per vòstras donadas",
     "Server address" : "Adreça del servidor",
-    "Copy link" : "Copiar lo ligam",
-    "Previous" : "Precedent",
-    "Next" : "Seguent"
+    "Copy link" : "Copiar lo ligam"
 },
 "nplurals=2; plural=(n > 1);");

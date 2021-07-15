@@ -47,11 +47,8 @@ OC.L10N.register(
     "Connect other apps to %s" : "Conectar otras aplicaciones a %s",
     "Server address" : "Dirección del servidor",
     "Copy link" : "Copiar liga",
-    "Add your profile information! For example your email is needed to reset your password." : "¡Agregua tu información de perfil! Por ejemplo tu correo electrónico es necesario para restablecer tu contraseña.",
     "Start using Nextcloud" : "Empieza a usar Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Puedes encontrar más de 100 apliicaciones en la tienda de aplicaciones de Nextcloud y personalizar tu nube:",
-    "Browse the app store" : "Navega la tienda de aplicaciones",
-    "Previous" : "Previo",
-    "Next" : "Siguiente"
+    "Browse the app store" : "Navega la tienda de aplicaciones"
 },
 "nplurals=2; plural=(n != 1);");

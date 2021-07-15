@@ -11,8 +11,6 @@ OC.L10N.register(
     "iOS app" : "iOS-toep",
     "A safe home for all your data" : "’n Veilige tuiste vir al u data",
     "Server address" : "Bedieneradres",
-    "Copy link" : "Kopieer skakel",
-    "Previous" : "Vorige",
-    "Next" : "Volgende"
+    "Copy link" : "Kopieer skakel"
 },
 "nplurals=2; plural=(n != 1);");

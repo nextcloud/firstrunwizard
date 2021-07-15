@@ -77,12 +77,9 @@ OC.L10N.register(
     "Server address" : "Kiszolgálócím",
     "Use this link to connect your apps and desktop client to this server:" : "Használja ezt a linket az alkalmazások és az asztali kliens csatlakoztatásához a kiszolgálóhoz:",
     "Copy link" : "Hivatkozás másolása",
-    "Add your profile information! For example your email is needed to reset your password." : "Add meg a profil adataidat! Az e-mail címedre pédául jelszó visszaállításkor lehet szükség.",
     "Start using Nextcloud" : "A Nextcloud használatának kezdete",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "A Nextcloud alkalmazásból több mint 100 alkalmazásával testre szabhatod a felhődet: ",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Továbbá elérhető még zenelejátszó, jelszó kezelő, kanban alkalmazás, letöltés kezelő vagy jegyzet szerkesztő",
-    "Browse the app store" : "Alkalmazás bolt böngészése",
-    "Previous" : "Előző",
-    "Next" : "Következő"
+    "Browse the app store" : "Alkalmazás bolt böngészése"
 },
 "nplurals=2; plural=(n != 1);");

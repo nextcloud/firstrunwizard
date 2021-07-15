@@ -73,12 +73,9 @@
     "Server address" : "Адрес на сървъра",
     "Use this link to connect your apps and desktop client to this server:" : "Използвайте тази връзка, за да свържете вашите приложения и настолен клиент към този сървър:",
     "Copy link" : "Копирай връзката",
-    "Add your profile information! For example your email is needed to reset your password." : "Попълнете профила си! Например имейл адрес - необходим е за възстановяване на парола.",
     "Start using Nextcloud" : "Към Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Можете да откриете повече от 100 приложения в Nextcloud магазина и да преобразите своя облак:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Много други, като музикален плейър, мениджър на пароли, канбан приложение, мениджър за сваляния или текстов редактор",
-    "Browse the app store" : "Прегледай магазина за приложения",
-    "Previous" : "Назад",
-    "Next" : "Напред >"
+    "Browse the app store" : "Прегледай магазина за приложения"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

@@ -79,12 +79,9 @@
     "Server address" : "Sunucu adresi",
     "Use this link to connect your apps and desktop client to this server:" : "Uygulamalarınızı ve masaüstü istemcinizi bu sunucuya bağlamak için şu adresi kullanın:",
     "Copy link" : "Bağlantıyı kopyala",
-    "Add your profile information! For example your email is needed to reset your password." : "Profil bilgilerinizi yazın! Örneğin parolanızı sıfırlayabilmeniz için e-posta adresiniz gereklidir.",
     "Start using Nextcloud" : "Nextcloud kullanmaya başlayın",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Bulut uygulamanızı zenginleştirmek için Nextcloud uygulama mağazasında kullanabileceğiniz 100 üzerinde uygulama bulabilirsiniz:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Müzik oynatıcı, parola yönetimi, kanban uygulaması, indirme yöneticisi ya da Markdown düzenleyici gibi diğer pek çok uygulama",
-    "Browse the app store" : "Uygulama mağazasına göz atın",
-    "Previous" : "Önceki",
-    "Next" : "Sonraki"
+    "Browse the app store" : "Uygulama mağazasına göz atın"
 },"pluralForm" :"nplurals=2; plural=(n > 1);"
 }

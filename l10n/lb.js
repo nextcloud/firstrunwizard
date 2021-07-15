@@ -11,8 +11,6 @@ OC.L10N.register(
     "Android app" : "Android-App",
     "iOS app" : "iOS-App",
     "Server address" : "Server-Adress",
-    "Copy link" : "Link kopéieren",
-    "Previous" : "Zeréck",
-    "Next" : "Weider"
+    "Copy link" : "Link kopéieren"
 },
 "nplurals=2; plural=(n != 1);");
