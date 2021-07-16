@@ -103,7 +103,8 @@ class Notifier implements INotifier {
 				}
 
 				$notification->setParsedSubject($subject)
-					->setLink($this->url->linkToRouteAbsolute('settings.PersonalSettings.index'));
+					->setLink($this->url->linkToRouteAbsolute('settings.PersonalSettings.index'))
+					->setIcon($this->url->getAbsoluteURL($this->url->imagePath('firstrunwizard', 'user.svg')));
 				return $notification;
 			case 'apphint-calendar':
 			case 'apphint-contacts':
