@@ -27,6 +27,8 @@ OC.L10N.register(
     "Nextcloud becomes part of the federated social networks." : "Nextcloud tampa federacinių socialinių tinklų dalimi.",
     "About" : "Apie",
     "A welcome and introduction wizard for Nextcloud" : "Pasisveikinimo ir pristatymo vediklis, skirtas Nextcloud",
+    "Start using {cloudName}" : "Pradėti naudotis {cloudName}",
+    "Welcome to {cloudName}!" : "Sveiki atvykę į {cloudName}!",
     "Extend your cloud" : "Išplėskite savo debesiją",
     "Groupware apps like Calendar, Contacts, Mail" : "Grupinio darbo įrangos programėlės, tokios kaip Kalendorius, Adresatai, Paštas",
     "Communication with Nextcloud Talk" : "Bendravimas naudojant Nextcloud Pokalbius",
