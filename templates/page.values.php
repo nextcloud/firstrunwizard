@@ -50,5 +50,8 @@
 		</ul>
 
 		<p class="details-link"><a href="<?php p($theme->getBaseUrl()); ?>" target="_blank" rel="noreferrer noopener"><?php p($l->t('Learn more about %s', $theme->getName())); ?></a></p>
+		<div style="text-align: center; color: var(--text-maxcontrast);">
+			<p><?php p($l->t('This Nextcloud is on version %s', [ \OC_Util::getVersionString() ])); ?></p>
+		</div>
 	</div>
 </div>
