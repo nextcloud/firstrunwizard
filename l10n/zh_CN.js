@@ -74,6 +74,7 @@ OC.L10N.register(
     "Open Standards and Interoperability" : "开放标准和互操作性",
     "100%% Open Source & community-focused" : "100 %% 开源，专注于为社区用户服务",
     "Learn more about %s" : "了解更多关于 %s 的详情",
+    "This Nextcloud is on version %s" : "这个 Nextcloud 实例版本为 %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "走到哪里，文件跟到哪里！ %s 免费客户端支持电脑手机的各大主流平台",
     "Set up sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "为同步客户端设置一个<a href=\"%s\">应用密码</a>，这样设备丢失的时候你就可确保撤销访问权限了。",
     "Connect other apps to %s" : "连接其它应用到 %s",
