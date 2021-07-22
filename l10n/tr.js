@@ -74,6 +74,7 @@ OC.L10N.register(
     "Open Standards and Interoperability" : "Açık kaynak standartları ve uyumlu çalışma",
     "100%% Open Source & community-focused" : "%%100 Açık kaynaklı ve topluluk odaklı",
     "Learn more about %s" : "%s hakkında ayrıntılı bilgi alın",
+    "This Nextcloud is on version %s" : "Bu Nextcloud sürümü %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s dosyalarınıza istediğiniz her yerden erişme olanağı sunar. Kullanımı kolay masaüstü ve mobil uygulamalarımız yaygın tüm platformlar için bulunabilir ve herhangi bir ücret ödemeden kullanılabilir.",
     "Set up sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Bir <a href=\"%s\">uygulama parolası</a> kullanan eşitleme istemcilerini kurun. Böylece aygıtınızı kaybederseniz erişimi geri alabileceğinizden emin olursunuz.",
     "Connect other apps to %s" : "Diğer uygulamaları %s üzerine bağlayın",
