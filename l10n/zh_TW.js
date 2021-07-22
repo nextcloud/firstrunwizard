@@ -74,6 +74,7 @@ OC.L10N.register(
     "Open Standards and Interoperability" : "開放標準及相互合作",
     "100%% Open Source & community-focused" : "100%% 專注於開源與社群",
     "Learn more about %s" : "了解更多關於%s",
+    "This Nextcloud is on version %s" : "此 Nextcloud 版本為 %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s 讓您不管身在何處都可以存取您的檔案，我們免費提供各大主要平臺上簡單易用的桌面和行動裝置客戶端。",
     "Set up sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "使用<a href=\"%s\">應用程式密碼</a>設定同步客戶端。這樣，您可以確保遺失裝置時撤銷該裝置的存取權。",
     "Connect other apps to %s" : "連結其他應用程式到 %s",

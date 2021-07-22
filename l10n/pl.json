@@ -72,6 +72,7 @@
     "Open Standards and Interoperability" : "Otwarte standardy i interoperacyjność",
     "100%% Open Source & community-focused" : "100%% Open Source i skupiony na społeczności",
     "Learn more about %s" : "Dowiedz się więcej o %s",
+    "This Nextcloud is on version %s" : "Usługa Nextcloud jest w wersji %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s daje Tobie dostęp do plików gdziekolwiek jesteś. Łatwy w użyciu klient na komputer i telefon dostępny jest na wszystkich popularnych platformach za darmo.",
     "Set up sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Skonfiguruj klientów synchronizacji za pomocą <a href=\"%s\">hasła do aplikacji</a>. W ten sposób  jesteś pewny, że możesz cofnąć dostęp w przypadku utraty tego urządzenia.",
     "Connect other apps to %s" : "Podłącz inne aplikacje do %s",
