@@ -74,6 +74,7 @@ OC.L10N.register(
     "Open Standards and Interoperability" : "Open Standaarden en Interoperabiliteit",
     "100%% Open Source & community-focused" : "100%% Open Source & community-focused",
     "Learn more about %s" : "Leer meer over %s",
+    "This Nextcloud is on version %s" : "Deze Nextcloud is versie %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s geeft je toegang tot je bestanden, waar je ook maar bent. Onze makkelijk te gebruiken desktop en mobiele applicaties zijn voor ieder groot platform gratis beschikbaar.",
     "Set up sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Installeer Sync clients met een <a href=\"%s\">app wachtwoord</a>. Dan kan je toegang intrekken zodra je je apparaat verliest.",
     "Connect other apps to %s" : "Verbind andere apps met%s",
