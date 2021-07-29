@@ -74,6 +74,7 @@ OC.L10N.register(
     "Open Standards and Interoperability" : "Estandar irekiak eta elkarreragingarritasuna",
     "100%% Open Source & community-focused" : "%%100 kode irekikoa eta komunitatera zuzendua",
     "Learn more about %s" : "Ikasi gehiago honi buruz: %s",
+    "This Nextcloud is on version %s" : "Nextcloud hau %s bertsioan dago",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s(e)k zure fitxategietara sarbidea ematen dizu edonondik. Gure mahaigaineko eta mugikorreko bezero erabilerrazak eskuragarri dituzu plataforma nagusi guztietan doan.",
     "Set up sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Konfiguratu sinkronizazio bezeroak <a href=\"%s\">aplikazio-pasahitz bat</a> erabiliz. Modu honetan, ziur egon zaitezke sarbidea ukatu dezakezula gailu hori galduz gero.",
     "Connect other apps to %s" : "Konektatu aplikazio gehiago %s(e)ra",
