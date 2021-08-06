@@ -72,6 +72,7 @@
     "Open Standards and Interoperability" : "Otvorené štandardy a interoperabilita",
     "100%% Open Source & community-focused" : "100%% Open Source so zameraním na komunitu",
     "Learn more about %s" : "Dozvedieť sa viac o %s",
+    "This Nextcloud is on version %s" : "Tento Nextcloud je vo verzii %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s vám umožňuje pristupovať k svojim súborom nech ste kdekoľvek. Naši ľahko použiteľní klienti pre počítače a mobilní klienti sú k dispozícii pre všetky hlavné platformy úplne zadarmo!",
     "Set up sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Nastavte synchronizačných klientov s použitím <a href=\"%s\">aplikácie Heslá</a>. Tak zaistíte, že budete schopní zrušiť prístup v prípade straty takého zaiadenia.",
     "Connect other apps to %s" : "Pripojte iné aplikácie do %s",
