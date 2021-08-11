@@ -1,6 +1,7 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "Copy to clipboard" : "คัดลอกไปยังคลิปบอร์ด",
     "Copied!" : "คัดลอกแล้ว",
     "Not supported!" : "ไม่สนับสนุน",
     "Press ⌘-C to copy." : "กด ⌘-C เพื่อคัดลอก",
