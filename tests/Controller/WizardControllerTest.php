@@ -97,11 +97,12 @@ class WizardControllerTest extends TestCase {
 			->method('getAppValue')
 			->willReturn('video,values,apps,clients,final');
 		$controller = $this->getController();
-		$this->config->expects($this->exactly(4))
+		$this->config->expects($this->exactly(5))
 			->method('getSystemValue')
 			->willReturnMap([
 				['customclient_desktop', 'https://nextcloud.com/install/#install-clients', 'https://nextcloud.com/install/#install-clients'],
 				['customclient_android', 'https://play.google.com/store/apps/details?id=com.nextcloud.client', 'https://nextcloud.com/install/#install-clients'],
+				['customclient_fdroid', 'https://f-droid.org/packages/com.nextcloud.client/', 'https://nextcloud.com/install/#install-clients'],
 				['customclient_ios', 'https://geo.itunes.apple.com/us/app/nextcloud/id1125420102?mt=8', 'https://nextcloud.com/install/#install-clients'],
 				['appstoreenabled', true, true]
 			]);
@@ -134,11 +135,12 @@ class WizardControllerTest extends TestCase {
 				->method('isAdmin');
 		}
 
-		$this->config->expects($this->exactly(4))
+		$this->config->expects($this->exactly(5))
 			->method('getSystemValue')
 			->willReturnMap([
 				['customclient_desktop', 'https://nextcloud.com/install/#install-clients', 'https://nextcloud.com/install/#install-clients'],
 				['customclient_android', 'https://play.google.com/store/apps/details?id=com.nextcloud.client', 'https://nextcloud.com/install/#install-clients'],
+				['customclient_fdroid', 'https://f-droid.org/packages/com.nextcloud.client/', 'https://nextcloud.com/install/#install-clients'],
 				['customclient_ios', 'https://geo.itunes.apple.com/us/app/nextcloud/id1125420102?mt=8', 'https://nextcloud.com/install/#install-clients'],
 				['appstoreenabled', true, $appstoreEnabled]
 			]);
