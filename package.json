@@ -23,8 +23,7 @@
 		"vue": "^2.6.14"
 	},
 	"browserslist": [
-		"last 2 versions",
-		"not ie <= 11"
+		"extends @nextcloud/browserslist-config"
 	],
 	"engines": {
 		"node": ">=14.0.0",
@@ -33,6 +32,7 @@
 	"devDependencies": {
 		"@babel/core": "^7.15.0",
 		"@babel/preset-env": "^7.15.0",
+		"@nextcloud/browserslist-config": "^2.1.0",
 		"@nextcloud/webpack-vue-config": "^1.2.0",
 		"acorn": "^8.4.1",
 		"babel-eslint": "^10.1.0",
