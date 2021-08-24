@@ -46,7 +46,6 @@ OC.L10N.register(
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "Is clientes de iscrivania e de mòbile sunt a disponimentu pro totu is prataformas prus mannas a gratis!",
     "Get the apps to sync your files" : "Iscàrriga is aplicatziones pro sincronizare is archìvios tuos",
     "Desktop client" : "Cliente de iscrivania",
-    "Android app" : "Aplicatzione Android",
     "iOS app" : "Aplicatzione iOS",
     "Connect your desktop apps to %s" : "Collega is aplicatziones tuas de iscrivania a %s",
     "Connect your calendar" : "Collega·ti a su calendàriu tuo",
@@ -85,6 +84,7 @@ OC.L10N.register(
     "Start using Nextcloud" : "Cumintza a impreare Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Agata prus de 100 aplicatziones in sa butega de is aplicatziones pro personalizare sa nue tua:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Àteras meda comente unu letore multimediale, unu gestore de craes, un'aplicatzione kanban, unu gestore de iscarrigamentos o un'editore markdown",
-    "Browse the app store" : "Esplora sa butega de is aplicatziones"
+    "Browse the app store" : "Esplora sa butega de is aplicatziones",
+    "Android app" : "Aplicatzione Android"
 },
 "nplurals=2; plural=(n != 1);");

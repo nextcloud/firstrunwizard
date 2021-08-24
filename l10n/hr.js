@@ -46,7 +46,6 @@ OC.L10N.register(
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "Naši klijenti za osobna računala i mobilne uređaje jednostavni su za upotrebu i dostupni su za sve glavne platforme bez ikakvih troškova!",
     "Get the apps to sync your files" : "Preuzmite aplikacije za sinkronizaciju datoteka",
     "Desktop client" : "Klijent za osobna računala",
-    "Android app" : "Aplikacija za Android",
     "iOS app" : "Aplikacija za iOS",
     "Connect your desktop apps to %s" : "Povežite aplikacije za osobna računala s %s",
     "Connect your calendar" : "Povežite svoj kalendar",
@@ -85,6 +84,7 @@ OC.L10N.register(
     "Start using Nextcloud" : "Počnite se koristiti Nextcloudom",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Pronađite više od 100 aplikacija u Nextcloudovoj trgovini aplikacijama i prilagodite svoj oblak:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Mnoge druge aplikacije, primjerice za reprodukciju glazbe, upravljanje zaporkama, kanban projektima, preuzimanjima ili oznakama",
-    "Browse the app store" : "Pretraži trgovinu aplikacijama"
+    "Browse the app store" : "Pretraži trgovinu aplikacijama",
+    "Android app" : "Aplikacija za Android"
 },
 "nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;");

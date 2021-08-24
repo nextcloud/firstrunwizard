@@ -39,7 +39,6 @@ OC.L10N.register(
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "Helppokäyttöiset työpöytä- ja mobiilisovellukset ovat saatavilla kaikille suosituimmille alustoille ilman kustannuksia!",
     "Get the apps to sync your files" : "Aseta sovellukset synkronoimaan tiedostosi",
     "Desktop client" : "Työpöytäsovellus",
-    "Android app" : "Android-sovellus",
     "iOS app" : "iOS-sovellus",
     "Connect your desktop apps to %s" : "Yhdistä työpöytäsovelluksesi %siin",
     "Connect your calendar" : "Yhdistä kalenteriisi",
@@ -77,6 +76,7 @@ OC.L10N.register(
     "Start using Nextcloud" : "Aloita Nextcloudin käyttäminen",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Löydä yli 100 eri sovellusta Nextcloud-sovelluskaupasta pilvesi muokkaamiseksi:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Paljon muuta kuten musiikkisoitin, salasanahallinta, kanban-sovellus, lataushallinta ja markdown-muokkain",
-    "Browse the app store" : "Selaa sovelluskauppaa"
+    "Browse the app store" : "Selaa sovelluskauppaa",
+    "Android app" : "Android-sovellus"
 },
 "nplurals=2; plural=(n != 1);");

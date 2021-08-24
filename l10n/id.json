@@ -10,12 +10,12 @@
     "About" : "Tentang.",
     "Get the apps to sync your files" : "Dapatkan aplikasi untuk sinkronisasi berkas Anda",
     "Desktop client" : "Klien desktop",
-    "Android app" : "Aplikasi Android",
     "iOS app" : "Aplikasi iOS",
     "Connect your desktop apps to %s" : "Hubungkan aplikasi desktop Anda ke %s",
     "Access files via WebDAV" : "Akses berkas via WebDAV",
     "A safe home for all your data" : "Tempat yang aman untuk semua data anda",
     "Server address" : "Alamat peladen",
-    "Copy link" : "Salin tautan"
+    "Copy link" : "Salin tautan",
+    "Android app" : "Aplikasi Android"
 },"pluralForm" :"nplurals=1; plural=0;"
 }

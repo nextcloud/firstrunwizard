@@ -39,7 +39,6 @@ OC.L10N.register(
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "Mūsų lengvi naudoti darbalaukio ir mobilieji klientai yra prieinami pagrindinėms platformoms visiškai nemokamai!",
     "Get the apps to sync your files" : "Norėdami sinchronizuoti savo failus, atsisiųskite programėles",
     "Desktop client" : "Darbalaukio klientas",
-    "Android app" : "Android programėlė",
     "iOS app" : "iOS programėlė",
     "Connect your desktop apps to %s" : "Prijunkite savo kompiuterio programas prie %s",
     "Connect your calendar" : "Prijunkite savo kalendorių",
@@ -74,6 +73,7 @@ OC.L10N.register(
     "Start using Nextcloud" : "Pradėti naudotis Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Nextcloud programėlių parduotuvėje raskite daugiau kaip 100 programėlių, skirtų tinkinti jūsų debesiją:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Daugelis kitų, tokių kaip muzikos grotuvas, slaptažodžių tvarkytuvė, kanban programėlė, atsiuntimų tvarkytuvė ar markdown redaktorius",
-    "Browse the app store" : "Naršyti programėlių parduotuvę"
+    "Browse the app store" : "Naršyti programėlių parduotuvę",
+    "Android app" : "Android programėlė"
 },
 "nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);");

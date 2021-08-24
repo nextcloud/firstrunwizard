@@ -44,7 +44,6 @@
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "Våra lättanvända skrivbords- och mobilklienter är tillgängliga för alla större plattformar utan kostnad!",
     "Get the apps to sync your files" : "Skaffa apparna för att synkronisera dina filer",
     "Desktop client" : "Skrivbordsklient",
-    "Android app" : "Android-app",
     "iOS app" : "iOS-app",
     "Connect your desktop apps to %s" : "Anslut dina skrivbordsappar till %s",
     "Connect your calendar" : "Anslut din kalender",
@@ -82,6 +81,7 @@
     "Start using Nextcloud" : "Börja använda Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Hitta fler än 100 appar i Nextcloud-appbutiken för att anpassa ditt moln:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Många andra som en musikspelare, en lösenordshanterare, en kanban-app, en hämtningshanterare eller en markdown-redigerare",
-    "Browse the app store" : "Bläddra i appbutiken"
+    "Browse the app store" : "Bläddra i appbutiken",
+    "Android app" : "Android-app"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

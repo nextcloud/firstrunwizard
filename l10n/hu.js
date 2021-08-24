@@ -42,7 +42,6 @@ OC.L10N.register(
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "A könnyen kezelhető desktop és mobil kliensünk elérhető az összes főbb platformon, ingyen!",
     "Get the apps to sync your files" : "Alkalmazások a fájljaid szinkronizálásához",
     "Desktop client" : "Asztali kliens",
-    "Android app" : "Android alkalmazás",
     "iOS app" : "IOS alkalmazás",
     "Connect your desktop apps to %s" : "Csatlakoztasd az asztali alkalmazást a %s-hoz",
     "Connect your calendar" : "Kapcsolódás a naptárhoz",
@@ -80,6 +79,7 @@ OC.L10N.register(
     "Start using Nextcloud" : "A Nextcloud használatának kezdete",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "A Nextcloud alkalmazásból több mint 100 alkalmazásával testre szabhatod a felhődet: ",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Továbbá elérhető még zenelejátszó, jelszó kezelő, kanban alkalmazás, letöltés kezelő vagy jegyzet szerkesztő",
-    "Browse the app store" : "Alkalmazás bolt böngészése"
+    "Browse the app store" : "Alkalmazás bolt böngészése",
+    "Android app" : "Android alkalmazás"
 },
 "nplurals=2; plural=(n != 1);");
