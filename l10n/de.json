@@ -44,7 +44,6 @@
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "Unsere einfach zu bedienenden Desktop und Mobile Clients sind für alle wichtigen Plattformen kostenlos verfügbar!",
     "Get the apps to sync your files" : "Lade die Apps zur Synchronisierung Deiner Daten herunter",
     "Desktop client" : "Desktop-Client",
-    "Android app" : "Android-App",
     "iOS app" : "iOS-App",
     "Connect your desktop apps to %s" : "Verbinde Deine Desktop-Anwendungen mit %s",
     "Connect your calendar" : "Verbinde Deinen Kalender ",
@@ -83,6 +82,7 @@
     "Start using Nextcloud" : "Starte mit Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Finde mehr als 100 Apps im Nextcloud App Store um Deine Cloud anzupassen:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Viele weitere wie z. B. ein Musikplayer, Passwortmanager, eine Kanban-App, ein Downloadmanager oder ein Markdown-Editor",
-    "Browse the app store" : "Durchsuche den App Store"
+    "Browse the app store" : "Durchsuche den App Store",
+    "Android app" : "Android-App"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

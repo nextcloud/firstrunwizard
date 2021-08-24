@@ -46,7 +46,6 @@ OC.L10N.register(
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "当社の使いやすいデスクトップおよびモバイルクライアントは、すべての主要なプラットフォームで無償でご利用いただけます。",
     "Get the apps to sync your files" : "ファイルを同期するアプリを取得しましょう",
     "Desktop client" : "デスクトップクライアント",
-    "Android app" : "Android アプリ",
     "iOS app" : "iOS アプリ",
     "Connect your desktop apps to %s" : "デスクトップアプリを %s に接続",
     "Connect your calendar" : "カレンダーに接続",
@@ -84,6 +83,7 @@ OC.L10N.register(
     "Start using Nextcloud" : "Nextcloud の利用を開始する",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Nextcloud アプリストアで100以上のアプリを見つけて、クラウドをカスタマイズしてください：",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "音楽プレイヤー、パスワード管理、かんばんアプリ、ダウンロードマネージャー、markdownエディターなど、他にもたくさん",
-    "Browse the app store" : "アプリストアをブラウザーでみる"
+    "Browse the app store" : "アプリストアをブラウザーでみる",
+    "Android app" : "Android アプリ"
 },
 "nplurals=1; plural=0;");

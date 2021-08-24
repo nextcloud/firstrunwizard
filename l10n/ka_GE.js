@@ -13,7 +13,6 @@ OC.L10N.register(
     "About" : "შესახებ",
     "Get the apps to sync your files" : "თქვენი ფაილების სინქრონიზაციისთვის მოიპოვეთ აპლიკაციები",
     "Desktop client" : "დესკტოპ-კლიენტი",
-    "Android app" : "Android აპლიკაცია",
     "iOS app" : "iOS აპლიკაცია",
     "Connect your desktop apps to %s" : "დაუკავშირეთ თქვენი დესკტოპ აპლიკაციები %s-ს",
     "Connect your calendar" : "დააკავშირეთ თქვენი კალენდარი",
@@ -21,6 +20,7 @@ OC.L10N.register(
     "Access files via WebDAV" : "დაუკავშირდით ფაილებს WebDAV–ით",
     "A safe home for all your data" : "უსაფრთხო სახლი მთელი თქვენი მონაცემებისათვის",
     "Server address" : "სერვერის მისამართი",
-    "Copy link" : "ბმულის კოპირება"
+    "Copy link" : "ბმულის კოპირება",
+    "Android app" : "Android აპლიკაცია"
 },
 "nplurals=2; plural=(n!=1);");

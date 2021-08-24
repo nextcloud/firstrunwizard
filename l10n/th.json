@@ -12,7 +12,6 @@
     "Extend your cloud" : "ขยายคลาวด์ของคุณ",
     "Get the apps to sync your files" : "ดาวน์โหลดแอปเพื่อซิงค์ไฟล์ของคุณ",
     "Desktop client" : "ไคลเอ็นต์เดสก์ทอป",
-    "Android app" : "แอป Android",
     "iOS app" : "แอป iOS",
     "Connect your desktop apps to %s" : "เชื่อมต่อแอปเดสก์ทอปของคุณไปยัง %s",
     "Access files via WebDAV" : "เข้าถึงไฟล์ผ่าน WebDAV",
@@ -25,6 +24,7 @@
     "Learn more about %s" : "ดูเพิ่มเติมเกี่ยวกับ %s",
     "Server address" : "ที่อยู่เซิร์ฟเวอร์",
     "Copy link" : "คัดลอกลิงก์",
-    "Start using Nextcloud" : "เริ่มใช้ Nextcloud"
+    "Start using Nextcloud" : "เริ่มใช้ Nextcloud",
+    "Android app" : "แอป Android"
 },"pluralForm" :"nplurals=1; plural=0;"
 }

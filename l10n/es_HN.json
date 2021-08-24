@@ -11,7 +11,6 @@
     "About" : "Acerca",
     "Get the apps to sync your files" : "Obten las aplicaciones para sincronizar tus archivos",
     "Desktop client" : "Cliente de escritorio",
-    "Android app" : "Aplicación Android",
     "iOS app" : "Aplicación iOS",
     "Connect your desktop apps to %s" : "Conecta tu aplicación de escritorio a %s",
     "Connect your calendar" : "Conecta tu calendario",
@@ -19,6 +18,7 @@
     "Access files via WebDAV" : "Accede tus archivos vía WebDAV",
     "A safe home for all your data" : "Un lugar seguro para todos sus datos",
     "Server address" : "Dirección del servidor",
-    "Copy link" : "Copiar liga"
+    "Copy link" : "Copiar liga",
+    "Android app" : "Aplicación Android"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

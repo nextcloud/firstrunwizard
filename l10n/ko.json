@@ -13,7 +13,6 @@
     "Nextcloud gives you access to your files wherever you are." : "Nextcloud를 통해 당신의 파일을 어디에서든지 접근하세요.",
     "Get the apps to sync your files" : "파일 동기화 앱 가져오기",
     "Desktop client" : "데스크톱 클라이언트",
-    "Android app" : "Android 앱",
     "iOS app" : "iOS 앱",
     "Connect your desktop apps to %s" : "내 데스크톱 앱을 %s에 연결하기",
     "Connect your calendar" : "내 달력 연결",
@@ -29,6 +28,7 @@
     "Server address" : "서버 주소",
     "Use this link to connect your apps and desktop client to this server:" : "다음 링크를 사용하여 데스크톱 클라이언트나 당신의 앱에 이 서버를 연결하세요.",
     "Copy link" : "링크 복사",
-    "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Nextcloud 앱스토어에서 100개 이상의 앱을 골라 당신만의 클라우드를 만드세요:"
+    "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Nextcloud 앱스토어에서 100개 이상의 앱을 골라 당신만의 클라우드를 만드세요:",
+    "Android app" : "Android 앱"
 },"pluralForm" :"nplurals=1; plural=0;"
 }

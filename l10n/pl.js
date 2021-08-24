@@ -46,7 +46,6 @@ OC.L10N.register(
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "Łatwe w użyciu aplikacje na komputer i telefon dostępne dla wszystkich popularnych platform za darmo!",
     "Get the apps to sync your files" : "Pobierz aplikacje do synchronizacji plików",
     "Desktop client" : "Klient na komputer",
-    "Android app" : "Aplikacja Android",
     "iOS app" : "Aplikacja iOS",
     "Connect your desktop apps to %s" : "Podłącz swoje aplikacje na komputerze do %s",
     "Connect your calendar" : "Podłącz swój kalendarz",
@@ -85,6 +84,7 @@ OC.L10N.register(
     "Start using Nextcloud" : "Zacznij używać Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Znajdź ponad 100 aplikacji w sklepie z aplikacjami Nextcloud, aby dostosować swoją chmurę:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Wiele innych, jak odtwarzacz muzyki, menedżer haseł, aplikacja kanban, menedżer pobierania, czy edytor Markdown",
-    "Browse the app store" : "Przeglądaj sklep z aplikacjami"
+    "Browse the app store" : "Przeglądaj sklep z aplikacjami",
+    "Android app" : "Aplikacja Android"
 },
 "nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);");

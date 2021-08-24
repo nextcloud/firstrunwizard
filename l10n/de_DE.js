@@ -46,7 +46,6 @@ OC.L10N.register(
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "Unsere einfach zu benutzenden Desktop- und Mobil-Clients sind kostenlos verfügbar für alle wichtigen Plattformen!",
     "Get the apps to sync your files" : "Laden Sie die Apps zur Synchronisierung Ihrer Daten herunter",
     "Desktop client" : "Desktop-Client",
-    "Android app" : "Android-App",
     "iOS app" : "iOS-App",
     "Connect your desktop apps to %s" : "Verbinden Sie Ihre Desktop-Anwendungen mit %s",
     "Connect your calendar" : "Verbinden Sie Ihren Kalender ",
@@ -85,6 +84,7 @@ OC.L10N.register(
     "Start using Nextcloud" : "Starten Sie mit Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Finden Sie mehr als 100 Apps im Nextcloud App Store, um Ihre Cloud anzupassen:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Viele weitere wie z.B ein Musik-Player, ein Passwort-Manager, eine Kanban-App, ein Download-Manager oder ein Markdown-Editor",
-    "Browse the app store" : "Im App Store stöbern"
+    "Browse the app store" : "Im App Store stöbern",
+    "Android app" : "Android-App"
 },
 "nplurals=2; plural=(n != 1);");
