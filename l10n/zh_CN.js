@@ -46,7 +46,6 @@ OC.L10N.register(
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "我们在所有主流平台上提供免费且易用的桌面和移动客户端！",
     "Get the apps to sync your files" : "安装应用进行文件同步",
     "Desktop client" : "桌面客户端",
-    "Android app" : "安卓应用",
     "iOS app" : "iOS 应用",
     "Connect your desktop apps to %s" : "使用桌面应用连接到 %s",
     "Connect your calendar" : "连接您的日历",
@@ -85,6 +84,7 @@ OC.L10N.register(
     "Start using Nextcloud" : "开始使用 Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "您可以在 Nextcloud 的应用中心中找到超过 100 个自定义应用：",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "还有很多应用如音乐播放器，密码管理器，看板 app，下载管理器和 markdown 编辑器",
-    "Browse the app store" : "浏览应用商店"
+    "Browse the app store" : "浏览应用商店",
+    "Android app" : "安卓应用"
 },
 "nplurals=1; plural=0;");

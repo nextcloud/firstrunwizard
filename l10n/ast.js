@@ -13,7 +13,6 @@ OC.L10N.register(
     "About" : "Tocante a",
     "Get the apps to sync your files" : "Consigui les aplicaciones pa sincronizar los tos ficheros",
     "Desktop client" : "Veceru d'escritoriu",
-    "Android app" : "Aplicación p'Android",
     "iOS app" : "Aplicación pa iOS",
     "Connect your desktop apps to %s" : "Coneuta les tos aplicaciones d'escritoriu a %s",
     "Connect your calendar" : "Coneuta'l to calendariu",
@@ -21,6 +20,7 @@ OC.L10N.register(
     "Access files via WebDAV" : "Accedi per WebDAV a los ficheros",
     "A safe home for all your data" : "Un llar seguru pa tolos tos datos",
     "Server address" : "Direición del sividor",
-    "Copy link" : "Copiar enllaz"
+    "Copy link" : "Copiar enllaz",
+    "Android app" : "Aplicación p'Android"
 },
 "nplurals=2; plural=(n != 1);");

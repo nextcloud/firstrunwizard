@@ -23,7 +23,6 @@ OC.L10N.register(
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "Våre brukervennlige skrivebords- og mobil-klienter er tilgjengelige for alle de store plattformene uten kostnad!",
     "Get the apps to sync your files" : "Hent apper som synkroniserer filene dine",
     "Desktop client" : "Skrivebordsklient",
-    "Android app" : "Android-app",
     "iOS app" : "iOS-app",
     "Connect your desktop apps to %s" : "Koble dine applikasjoner til %s",
     "Connect your calendar" : "Koble til din kalender",
@@ -48,6 +47,7 @@ OC.L10N.register(
     "Copy link" : "Kopier lenke",
     "Start using Nextcloud" : "Begynn å bruke Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Finn mer enn 100 apper i Nextcloud app-butikken for å tilpasse skyen din:",
-    "Browse the app store" : "Bla gjennom app-butikken"
+    "Browse the app store" : "Bla gjennom app-butikken",
+    "Android app" : "Android-app"
 },
 "nplurals=2; plural=(n != 1);");

@@ -37,7 +37,6 @@
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "آسان برای استفاده از دسکتاپ و مشتری های تلفن همراه ما برای همه سیستم عامل های اصلی با هزینه صفر در دسترس است!",
     "Get the apps to sync your files" : "برنامه ها را دریافت کنید تا فایل هایتان را همگام سازید",
     "Desktop client" : "نرم افزار دسکتاپ",
-    "Android app" : "اپ اندروید",
     "iOS app" : "اپ iOS",
     "Connect your desktop apps to %s" : "اتصال برنامه دسکتاب خود به %s",
     "Connect your calendar" : "تقویم خود را وصل کنید",
@@ -75,6 +74,7 @@
     "Start using Nextcloud" : "استفاده از Nextcloud را شروع کنید",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "برای سفارشی کردن ابر خود ، بیش از 100 برنامه را در فروشگاه برنامه Nextcloud بیابید:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "بسیاری دیگر مانند یک پخش کننده موسیقی ، یک مدیر رمز عبور ، یک برنامه kanban ، یک مدیر بارگیری یا یک ویرایشگر نشانه گذاری هستند",
-    "Browse the app store" : "فروشگاه برنامه را مرور کنید"
+    "Browse the app store" : "فروشگاه برنامه را مرور کنید",
+    "Android app" : "اپ اندروید"
 },"pluralForm" :"nplurals=2; plural=(n > 1);"
 }

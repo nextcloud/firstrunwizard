@@ -40,7 +40,6 @@ OC.L10N.register(
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "Нашите лесни за ползване приложения са достъпни на всички основни платформи, абсолютно безплатно!",
     "Get the apps to sync your files" : "Изтеглете приложение, за синхронизиране на файлове",
     "Desktop client" : "Клиент за настолен компютър",
-    "Android app" : "Андроид приложение",
     "iOS app" : "iOS приложение",
     "Connect your desktop apps to %s" : "Свържете програмите от работния плот с %s",
     "Connect your calendar" : "Свържете вашия календар",
@@ -78,6 +77,7 @@ OC.L10N.register(
     "Start using Nextcloud" : "Към Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Можете да откриете повече от 100 приложения в Nextcloud магазина и да преобразите своя облак:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Много други, като музикален плейър, мениджър на пароли, канбан приложение, мениджър за сваляния или текстов редактор",
-    "Browse the app store" : "Прегледай магазина за приложения"
+    "Browse the app store" : "Прегледай магазина за приложения",
+    "Android app" : "Андроид приложение"
 },
 "nplurals=2; plural=(n != 1);");

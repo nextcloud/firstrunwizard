@@ -37,7 +37,6 @@ OC.L10N.register(
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "Tengiforritin okkar fyrir tölvur og snjalltæki eru fáanleg fyrir flest algengustu stýrikerfi án nokkurs kostnaðar!",
     "Get the apps to sync your files" : "Náðu í forrit til að samstilla skrárnar þínar",
     "Desktop client" : "Skjáborðsforrit",
-    "Android app" : "Android-forrit",
     "iOS app" : "iOS-forrit",
     "Connect your desktop apps to %s" : "Tengdu skjáborðsforritin við %s",
     "Connect your calendar" : "Tengdu dagatalið þitt",
@@ -75,6 +74,7 @@ OC.L10N.register(
     "Start using Nextcloud" : "Byrjaðu að nota Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Skoðaðu meira en 100 forrit í forritasafni Nextcloud til að sérsníða tölvuskýið þitt:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Margt fleira eins og tónlistarspilari, lykilorðastjóri, kanban-forrit, niðurhalsstjóri eða ritill fyrir markdown-kóða",
-    "Browse the app store" : "Flakka um forritasafnið"
+    "Browse the app store" : "Flakka um forritasafnið",
+    "Android app" : "Android-forrit"
 },
 "nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);");

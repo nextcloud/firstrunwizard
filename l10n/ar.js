@@ -11,7 +11,6 @@ OC.L10N.register(
     "Communication with Nextcloud Talk" : "التواصل مع Nextcloud Talk",
     "Get the apps to sync your files" : "احصل على التطبيقات لمزامنة ملفاتك",
     "Desktop client" : "تطبيق سطح المكتب",
-    "Android app" : "تطبيق أندرويد",
     "iOS app" : "تطبيق iOS",
     "Connect your desktop apps to %s" : "اربط تطبيقات نظامك بـ %s",
     "Connect your calendar" : "قم بربط مُفكّرتك",
@@ -34,6 +33,7 @@ OC.L10N.register(
     "Server address" : "عنوان الخادم",
     "Copy link" : "انسخ الرابط",
     "Start using Nextcloud" : "اشرع في استخدام ناكست كلاود",
-    "Browse the app store" : "استكشف متجر التطبيقات"
+    "Browse the app store" : "استكشف متجر التطبيقات",
+    "Android app" : "تطبيق أندرويد"
 },
 "nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;");

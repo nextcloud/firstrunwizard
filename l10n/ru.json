@@ -40,7 +40,6 @@
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "Простые в использовании приложения для синхронизации файлов бесплатно доступны для всех основных платформ мобильных устройств и ПК.",
     "Get the apps to sync your files" : "Используйте приложения для синхронизации файлов:",
     "Desktop client" : "Клиент для ПК",
-    "Android app" : "Приложение для Android",
     "iOS app" : "Приложение для iOS ",
     "Connect your desktop apps to %s" : "Подключите приложения с компьютера к %s",
     "Connect your calendar" : "Подключение к календарям",
@@ -78,6 +77,7 @@
     "Start using Nextcloud" : "Начать использовать Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "В магазине приложений Nextcloud содержится более 100 приложений:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "А также множество других приложений: музыкальные проигрыватели, менеджеры паролей, приложения для управления задачами, менеджеры загрузок и приложения для редактирования текста с поддержкой разметки markdown",
-    "Browse the app store" : "Перейти в магазин приложений"
+    "Browse the app store" : "Перейти в магазин приложений",
+    "Android app" : "Приложение для Android"
 },"pluralForm" :"nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);"
 }

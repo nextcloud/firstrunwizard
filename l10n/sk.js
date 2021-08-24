@@ -46,7 +46,6 @@ OC.L10N.register(
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "Naši ľahko použiteľní klienti pre počítače a mobilní klienti sú k dispozícii pre všetky hlavné platformy úplne zadarmo!",
     "Get the apps to sync your files" : "Získať aplikácie na synchronizáciu vašich súborov",
     "Desktop client" : "Desktopový klient",
-    "Android app" : "Android aplikácia",
     "iOS app" : "iOS aplikácia",
     "Connect your desktop apps to %s" : "Pripojiť svoju desktopovú aplikáciu na %s",
     "Connect your calendar" : "Pripojte svoj ​​kalendár",
@@ -85,6 +84,7 @@ OC.L10N.register(
     "Start using Nextcloud" : "Začnite používať Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Pozrite si viac než 100 aplikácií v katalógu Nextcloud, ktorými si môžete prispôsobiť svoj cloud:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Veľa ďalšich, ako napr. prehrávač hudby, správca hesiel, nástenka (kanban), správca sťahovania alebo markdown editor",
-    "Browse the app store" : "Prehliadajte obchod aplikácií"
+    "Browse the app store" : "Prehliadajte obchod aplikácií",
+    "Android app" : "Android aplikácia"
 },
 "nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);");
