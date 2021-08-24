@@ -12,11 +12,11 @@ OC.L10N.register(
     "About" : "A proposito",
     "Get the apps to sync your files" : "Obtene le applicationes pro synchronisar tu files",
     "Desktop client" : "Cliente de Scriptorio",
-    "Android app" : "Application Android",
     "iOS app" : "Application iOS",
     "Connect your desktop apps to %s" : "Connecte tu application de scriptorio a %s",
     "Access files via WebDAV" : "Accede a files via WebDAV",
     "Server address" : "Adresse de servitor",
-    "Copy link" : "Copiar ligamine"
+    "Copy link" : "Copiar ligamine",
+    "Android app" : "Application Android"
 },
 "nplurals=2; plural=(n != 1);");

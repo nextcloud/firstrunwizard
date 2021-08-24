@@ -17,7 +17,6 @@ OC.L10N.register(
     "A welcome and introduction wizard for Nextcloud" : "En velkomst- og introduktionsguide til Nextcloud",
     "Get the apps to sync your files" : "Hent applikationerne for at synkronisere dine filer",
     "Desktop client" : "Skrivebordsklient",
-    "Android app" : "Android-app",
     "iOS app" : "iOS-app",
     "Connect your desktop apps to %s" : "Forbind dine applikationer til %s",
     "Connect your calendar" : "Tilslut din kalender",
@@ -34,6 +33,7 @@ OC.L10N.register(
     "Connect other apps to %s" : "Forbind andre apps til %s",
     "Server address" : "Serveradresse",
     "Copy link" : "Kopier link",
-    "Start using Nextcloud" : "Begynd at bruge Nextcloud"
+    "Start using Nextcloud" : "Begynd at bruge Nextcloud",
+    "Android app" : "Android-app"
 },
 "nplurals=2; plural=(n != 1);");

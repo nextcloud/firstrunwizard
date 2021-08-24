@@ -13,11 +13,11 @@ OC.L10N.register(
     "About" : "Par",
     "Get the apps to sync your files" : "Saņem lietotnes, lai sinhronizētu savas datnes",
     "Desktop client" : "Darbvirsmas klients",
-    "Android app" : "Android lietotne",
     "iOS app" : "iOS lietotne",
     "Access files via WebDAV" : "Piekļūt datnēm caur WebDAV",
     "A safe home for all your data" : "Droša vieta visiem jūsu datiem",
     "Server address" : "Servera adrese",
-    "Copy link" : "Kopēt saiti"
+    "Copy link" : "Kopēt saiti",
+    "Android app" : "Android lietotne"
 },
 "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);");

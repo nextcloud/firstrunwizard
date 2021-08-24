@@ -13,12 +13,12 @@ OC.L10N.register(
     "About" : "Acerca de",
     "Get the apps to sync your files" : "Obtenga las aplicaciones para sincronizar sus archivos",
     "Desktop client" : "Cliente de escritorio",
-    "Android app" : "Aplicación Android",
     "iOS app" : "Aplicación iOS",
     "Connect your desktop apps to %s" : "Conecte su aplicación de escritorio a %s",
     "Access files via WebDAV" : "Acceda a sus archivos vía WebDAV",
     "A safe home for all your data" : "Un hogar seguro para todos tus datos.",
     "Server address" : "Dirección del servidor",
-    "Copy link" : "Copiar enlace"
+    "Copy link" : "Copiar enlace",
+    "Android app" : "Aplicación Android"
 },
 "nplurals=2; plural=(n != 1);");

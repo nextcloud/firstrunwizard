@@ -44,7 +44,6 @@
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "Yaygın kullanılan tüm platformlar için geliştirilmiş kullanımı kolay ve ücretsiz masaüstü ve mobil istemci uygulamaları",
     "Get the apps to sync your files" : "Dosyalarınızı eşitlemek için uygulamaları indirin",
     "Desktop client" : "Masaüstü istemcisi",
-    "Android app" : "Android uygulaması",
     "iOS app" : "iOS uygulaması",
     "Connect your desktop apps to %s" : "Masaüstü uygulamalarınızı %s üzerine bağlayın",
     "Connect your calendar" : "Takviminizi bağlayın",
@@ -83,6 +82,7 @@
     "Start using Nextcloud" : "Nextcloud kullanmaya başlayın",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Bulut uygulamanızı zenginleştirmek için Nextcloud uygulama mağazasında kullanabileceğiniz 100 üzerinde uygulama bulabilirsiniz:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Müzik oynatıcı, parola yönetimi, kanban uygulaması, indirme yöneticisi ya da Markdown düzenleyici gibi diğer pek çok uygulama",
-    "Browse the app store" : "Uygulama mağazasına göz atın"
+    "Browse the app store" : "Uygulama mağazasına göz atın",
+    "Android app" : "Android uygulaması"
 },"pluralForm" :"nplurals=2; plural=(n > 1);"
 }

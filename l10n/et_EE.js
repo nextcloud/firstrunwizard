@@ -13,7 +13,6 @@ OC.L10N.register(
     "About" : "Info",
     "Get the apps to sync your files" : "Hangi rakendusi failide sünkroniseerimiseks",
     "Desktop client" : "Töölaua klient",
-    "Android app" : "Androidi rakendus",
     "iOS app" : "iOS-i rakendus",
     "Connect your desktop apps to %s" : "Ühenda oma töölaua rakendus %s",
     "Connect your calendar" : "Ühenda oma kalender",
@@ -21,6 +20,7 @@ OC.L10N.register(
     "Access files via WebDAV" : "Ligipääs WebDAV vahendusel",
     "A safe home for all your data" : "Turvaline koht sinu andmetele",
     "Server address" : "Serveri aadress",
-    "Copy link" : "Kopeeri link"
+    "Copy link" : "Kopeeri link",
+    "Android app" : "Androidi rakendus"
 },
 "nplurals=2; plural=(n != 1);");

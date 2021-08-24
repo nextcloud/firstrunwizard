@@ -14,12 +14,12 @@ OC.L10N.register(
     "A welcome and introduction wizard for Nextcloud" : "Ласкаво просимо в майстер знайомства з Nextcloud",
     "Get the apps to sync your files" : "Отримати додатки для синхронізації ваших файлів",
     "Desktop client" : "Клієнт для ПК",
-    "Android app" : "Android-застосунок",
     "iOS app" : "iOS застосунок",
     "Connect your desktop apps to %s" : "Під'єднати ваші застосуноки до %s",
     "Access files via WebDAV" : "Доступ до файлів за допомогою WebDAV",
     "A safe home for all your data" : "Безпечний дім для Ваших даних",
     "Server address" : "Адреса сервера",
-    "Copy link" : "Скопіювати посилання"
+    "Copy link" : "Скопіювати посилання",
+    "Android app" : "Android-застосунок"
 },
 "nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);");
