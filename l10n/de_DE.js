@@ -46,6 +46,8 @@ OC.L10N.register(
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "Unsere einfach zu benutzenden Desktop- und Mobil-Clients sind kostenlos verfügbar für alle wichtigen Plattformen!",
     "Get the apps to sync your files" : "Laden Sie die Apps zur Synchronisierung Ihrer Daten herunter",
     "Desktop client" : "Desktop-Client",
+    "Android app on Google Play Store" : "Android-App im Google Play Store",
+    "Android app on F-Droid" : "Android-App bei F-Droid",
     "iOS app" : "iOS-App",
     "Connect your desktop apps to %s" : "Verbinden Sie Ihre Desktop-Anwendungen mit %s",
     "Connect your calendar" : "Verbinden Sie Ihren Kalender ",
