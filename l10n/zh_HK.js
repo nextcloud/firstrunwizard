@@ -46,6 +46,8 @@ OC.L10N.register(
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "我們簡單易用的桌面和流動客戶端在各大平台上面免費提供！",
     "Get the apps to sync your files" : "下載應用程式來同步您的檔案",
     "Desktop client" : "桌面客戶端",
+    "Android app on Google Play Store" : "Google Play Sore 中的 Android 應用程式",
+    "Android app on F-Droid" : "F-Droid 中的 Android 應用程式",
     "iOS app" : "iOS 應用程式",
     "Connect your desktop apps to %s" : "連接您的桌面應用程式到 %s",
     "Connect your calendar" : "連接您的日曆",

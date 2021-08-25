@@ -46,6 +46,8 @@ OC.L10N.register(
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "Klienti pro něj se snadno používají a jsou k dispozici pro všechny hlavní platformy osobních počítačů a chytrých telefonů (tabletů, atp.) a to zdarma!",
     "Get the apps to sync your files" : "Získejte aplikace pro synchronizaci souborů",
     "Desktop client" : "Aplikace pro počítač",
+    "Android app on Google Play Store" : "Android aplikace v Google Play Store",
+    "Android app on F-Droid" : "Android aplikace na F-Droid",
     "iOS app" : "Aplikace pro iOS",
     "Connect your desktop apps to %s" : "Propojte své aplikace s %s",
     "Connect your calendar" : "Propojit kalendář",
