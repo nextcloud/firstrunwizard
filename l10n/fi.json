@@ -64,6 +64,7 @@
     "Open Standards and Interoperability" : "Avoimet standardit ja yhteentoimivuus",
     "100%% Open Source & community-focused" : "100%% avointa lähdekoodia ja yhteisökeskeisyyttä",
     "Learn more about %s" : "Lisätietoja - %s",
+    "This Nextcloud is on version %s" : "Tämä Nextcloud on versiossa %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s mahdollistaa pääsyn tiedostoihisi missä hyvänsä oletkin. Hellpokäyttöiset työpöytä- ja mobiilisovellukset ovat saatavilla kaikille suurimmille alustoille veloituksetta.",
     "Set up sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Määritä synkronointi käyttäen <a href=\"%s\">sovelluskohtaisia salasanoja</a>. Näin voit kumota käyttöoikeuden, jos satut esimerkiksi kadottamaan tietyn laitteesi",
     "Connect other apps to %s" : "Yhdistä muita sovelluksia %siin",
