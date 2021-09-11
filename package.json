@@ -30,7 +30,7 @@
 		"npm": ">=7.0.0"
 	},
 	"devDependencies": {
-		"@babel/core": "^7.15.4",
+		"@babel/core": "^7.15.5",
 		"@babel/preset-env": "^7.15.6",
 		"@nextcloud/browserslist-config": "^2.1.0",
 		"@nextcloud/webpack-vue-config": "^1.2.0",
