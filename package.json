@@ -34,7 +34,7 @@
 		"@babel/preset-env": "^7.15.4",
 		"@nextcloud/browserslist-config": "^2.1.0",
 		"@nextcloud/webpack-vue-config": "^1.2.0",
-		"acorn": "^8.4.1",
+		"acorn": "^8.5.0",
 		"babel-eslint": "^10.1.0",
 		"babel-loader": "^8.2.2",
 		"css-loader": "^5.2.7",
