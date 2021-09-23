@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			event.stopPropagation();
 			event.preventDefault();
 			OCP.Loader.loadScript('firstrunwizard', 'firstrunwizard-main.js').then(function () {
-				OCA.FirstRunWizard.open();
+				OCA.FirstRunWizard.open(false);
 				OC.hideMenus(function () {
 					return false;
 				});
