@@ -63,7 +63,7 @@ class WizardController extends Controller {
 		$this->theming = $theming;
 		$this->groupManager = $groupManager;
 
-		$this->slides = explode(',', $this->config->getAppValue(Application::APP_ID, 'slides', 'video,values,apps,clients,final'));
+		$this->slides = explode(',', $this->config->getAppValue(Application::APP_ID, 'slides', 'content,video,values,apps,clients,final'));
 	}
 
 	/**
@@ -92,13 +92,15 @@ class WizardController extends Controller {
 		];
 
 		$slides = [];
-
-		$slides[] = $this->staticSlide('page.values', $data);
+        /* wechange overwrites*/
+		$slides[] = $this->staticSlide('page.content', $data);
+		/*
 		if ($appStore && $this->groupManager->isAdmin($this->userId)) {
 			$slides[] = $this->staticSlide('page.apps', $data);
 		}
 		$slides[] = $this->staticSlide('page.clients', $data);
 		$slides[] = $this->staticSlide('page.final', $data);
+        */
 
 		return new JSONResponse([
 			'hasVideo' => in_array('video', $this->slides, true),
