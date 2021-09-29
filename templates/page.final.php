@@ -19,7 +19,7 @@
 			<p><?php p($l->t('You can also ask for help in our community support channels:')); ?></p>
 			<ul>
 				<li><a href="https://help.nextcloud.com" target="_blank" rel="noreferrer noopener"><?php p($l->t('the Nextcloud forums')); ?></a></li>
-				<li><a href="https://riot.im/app/#/room/#freenode_#nextcloud:matrix.org" target="_blank" rel="noreferrer noopener"><?php p($l->t('the Nextcloud IRC chat channel on freenode.net')); ?></a></li>
+				<li><a href="https://app.element.io/#/room/#freenode_#nextcloud:matrix.org" target="_blank" rel="noreferrer noopener"><?php p($l->t('the Nextcloud IRC chat channel on freenode.net')); ?></a></li>
 			</ul>
 		</div>
 	</div>
