@@ -5,6 +5,7 @@
 		:has-previous="hasPrevious"
 		:has-next="hasNext"
 		:size="isMobile ? 'full' : 'normal'"
+		:clear-view-delay="-1 /* disable fade-out because of accessibility reasons */"
 		name="modal"
 		@previous="previous"
 		@next="next"
