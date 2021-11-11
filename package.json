@@ -26,14 +26,14 @@
 		"extends @nextcloud/browserslist-config"
 	],
 	"engines": {
-		"node": ">=14.0.0",
-		"npm": ">=7.0.0"
+		"node": "^14.0.0",
+		"npm": "^7.0.0"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.15.8",
 		"@babel/preset-env": "^7.15.8",
 		"@nextcloud/browserslist-config": "^2.2.0",
-		"@nextcloud/webpack-vue-config": "^1.2.0",
+		"@nextcloud/webpack-vue-config": "^4.1.4",
 		"acorn": "^8.5.0",
 		"babel-eslint": "^10.1.0",
 		"babel-loader": "^8.2.2",
