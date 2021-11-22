@@ -35,7 +35,7 @@ OC.L10N.register(
     "Welcome to {cloudName}!" : "Добре дошли в {cloudName}!",
     "Extend your cloud" : "Разширете вашия облак",
     "Find more than 100 apps in the Nextcloud App Store to customize your cloud:" : "Намерете повече от 100 приложения в Nextcloud App Store/магазин за приложения/, за да персонализирате своя облак:",
-    "Groupware apps like Calendar, Contacts, Mail" : "Групови приложения, като Календар, Контакти, Поща",
+    "Groupware apps like Calendar, Contacts, Mail" : "Софтуерни групови приложения, като Календар, Контакти, Поща",
     "Communication with Nextcloud Talk" : "Комуникация с Nextcloud Talk",
     "Collaboration apps for document editing" : "Приложения за сътрудничество при редакция на документи",
     "Security and authentication features like two-factor authentication, SSO and ransomware protection" : "Функции за сигурност и удостоверяване, като двустепенно удостоверяване, SSO и ransomware защита",
