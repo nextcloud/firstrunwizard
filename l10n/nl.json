@@ -44,7 +44,8 @@
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "Onze gebruikersvriendelijke desktop en mobiele clients zijn gratis voor alle belangrijke platforms beschikbaar!",
     "Get the apps to sync your files" : "Download de apps om bestanden te synchen",
     "Desktop client" : "Desktop client",
-    "Android app" : "Android app",
+    "Android app on Google Play Store" : "Android app op Google Play Store",
+    "Android app on F-Droid" : "Android app op F-Droid",
     "iOS app" : "iOS app",
     "Connect your desktop apps to %s" : "Verbind je desktop apps met %s",
     "Connect your calendar" : "Verbind je agenda",
@@ -72,6 +73,7 @@
     "Open Standards and Interoperability" : "Open Standaarden en Interoperabiliteit",
     "100%% Open Source & community-focused" : "100%% Open Source & community-focused",
     "Learn more about %s" : "Leer meer over %s",
+    "This Nextcloud is on version %s" : "Deze Nextcloud is versie %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s geeft je toegang tot je bestanden, waar je ook maar bent. Onze makkelijk te gebruiken desktop en mobiele applicaties zijn voor ieder groot platform gratis beschikbaar.",
     "Set up sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Installeer Sync clients met een <a href=\"%s\">app wachtwoord</a>. Dan kan je toegang intrekken zodra je je apparaat verliest.",
     "Connect other apps to %s" : "Verbind andere apps met%s",
@@ -79,12 +81,10 @@
     "Server address" : "Serveradres",
     "Use this link to connect your apps and desktop client to this server:" : "Gebruik deze link om je apps en desktop client met deze server te verbinden:",
     "Copy link" : "Kopiëren link ",
-    "Add your profile information! For example your email is needed to reset your password." : "Voeg je profielinformatie toe! Je email-adres is bijvoorbeeld nodig om je wachtwoord te herstellen.",
     "Start using Nextcloud" : "Starten met Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Vind meer dan 100 apps in de Nextcloud app winkel om je Nextcloud aan te passen.",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Heel veel anders, zoals een muziekspeler, een wachtwoordenbeheerder, een kanban app, een download manager of een markdown editor",
     "Browse the app store" : "Blader door de app store",
-    "Previous" : "Vorige",
-    "Next" : "Volgende"
+    "Android app" : "Android app"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

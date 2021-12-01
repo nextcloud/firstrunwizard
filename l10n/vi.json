@@ -5,12 +5,10 @@
     "Press Ctrl-C to copy." : "Bấm Ctrl-C để sao chép.",
     "About" : "Thông tin",
     "Get the apps to sync your files" : "Nhận ứng dụng để đồng bộ file của bạn",
-    "Android app" : "Ứng dụng Android",
     "iOS app" : "Ứng dụng IOS",
     "Access files via WebDAV" : "Truy cập file qua WebDAV",
     "Server address" : "Địa chỉ máy chủ",
     "Copy link" : "Sao chép liên kết",
-    "Previous" : "Lùi lại",
-    "Next" : "Kế tiếp"
+    "Android app" : "Ứng dụng Android"
 },"pluralForm" :"nplurals=1; plural=0;"
 }

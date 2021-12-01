@@ -46,7 +46,8 @@ OC.L10N.register(
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "Yaygın kullanılan tüm platformlar için geliştirilmiş kullanımı kolay ve ücretsiz masaüstü ve mobil istemci uygulamaları",
     "Get the apps to sync your files" : "Dosyalarınızı eşitlemek için uygulamaları indirin",
     "Desktop client" : "Masaüstü istemcisi",
-    "Android app" : "Android uygulaması",
+    "Android app on Google Play Store" : "Google Play Store üzerindeki Android uygulaması",
+    "Android app on F-Droid" : "F-Droid üzerindeki Android uygulaması",
     "iOS app" : "iOS uygulaması",
     "Connect your desktop apps to %s" : "Masaüstü uygulamalarınızı %s üzerine bağlayın",
     "Connect your calendar" : "Takviminizi bağlayın",
@@ -74,6 +75,7 @@ OC.L10N.register(
     "Open Standards and Interoperability" : "Açık kaynak standartları ve uyumlu çalışma",
     "100%% Open Source & community-focused" : "%%100 Açık kaynaklı ve topluluk odaklı",
     "Learn more about %s" : "%s hakkında ayrıntılı bilgi alın",
+    "This Nextcloud is on version %s" : "Bu Nextcloud sürümü %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s dosyalarınıza istediğiniz her yerden erişme olanağı sunar. Kullanımı kolay masaüstü ve mobil uygulamalarımız yaygın tüm platformlar için bulunabilir ve herhangi bir ücret ödemeden kullanılabilir.",
     "Set up sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Bir <a href=\"%s\">uygulama parolası</a> kullanan eşitleme istemcilerini kurun. Böylece aygıtınızı kaybederseniz erişimi geri alabileceğinizden emin olursunuz.",
     "Connect other apps to %s" : "Diğer uygulamaları %s üzerine bağlayın",
@@ -81,12 +83,10 @@ OC.L10N.register(
     "Server address" : "Sunucu adresi",
     "Use this link to connect your apps and desktop client to this server:" : "Uygulamalarınızı ve masaüstü istemcinizi bu sunucuya bağlamak için şu adresi kullanın:",
     "Copy link" : "Bağlantıyı kopyala",
-    "Add your profile information! For example your email is needed to reset your password." : "Profil bilgilerinizi yazın! Örneğin parolanızı sıfırlayabilmeniz için e-posta adresiniz gereklidir.",
     "Start using Nextcloud" : "Nextcloud kullanmaya başlayın",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Bulut uygulamanızı zenginleştirmek için Nextcloud uygulama mağazasında kullanabileceğiniz 100 üzerinde uygulama bulabilirsiniz:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Müzik oynatıcı, parola yönetimi, kanban uygulaması, indirme yöneticisi ya da Markdown düzenleyici gibi diğer pek çok uygulama",
     "Browse the app store" : "Uygulama mağazasına göz atın",
-    "Previous" : "Önceki",
-    "Next" : "Sonraki"
+    "Android app" : "Android uygulaması"
 },
 "nplurals=2; plural=(n > 1);");

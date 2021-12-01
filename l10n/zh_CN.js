@@ -46,7 +46,8 @@ OC.L10N.register(
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "我们在所有主流平台上提供免费且易用的桌面和移动客户端！",
     "Get the apps to sync your files" : "安装应用进行文件同步",
     "Desktop client" : "桌面客户端",
-    "Android app" : "安卓应用",
+    "Android app on Google Play Store" : "Google Play 商店中的安卓应用",
+    "Android app on F-Droid" : "F-Droid 中的 Android 应用",
     "iOS app" : "iOS 应用",
     "Connect your desktop apps to %s" : "使用桌面应用连接到 %s",
     "Connect your calendar" : "连接您的日历",
@@ -74,6 +75,7 @@ OC.L10N.register(
     "Open Standards and Interoperability" : "开放标准和互操作性",
     "100%% Open Source & community-focused" : "100 %% 开源，专注于为社区用户服务",
     "Learn more about %s" : "了解更多关于 %s 的详情",
+    "This Nextcloud is on version %s" : "这个 Nextcloud 实例版本为 %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "走到哪里，文件跟到哪里！ %s 免费客户端支持电脑手机的各大主流平台",
     "Set up sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "为同步客户端设置一个<a href=\"%s\">应用密码</a>，这样设备丢失的时候你就可确保撤销访问权限了。",
     "Connect other apps to %s" : "连接其它应用到 %s",
@@ -81,12 +83,10 @@ OC.L10N.register(
     "Server address" : "服务器地址",
     "Use this link to connect your apps and desktop client to this server:" : "使用此链接将您的应用和桌面客户端连接到此服务器：",
     "Copy link" : "复制链接",
-    "Add your profile information! For example your email is needed to reset your password." : "请添加您的个人信息！比如您的邮件被用来重置您的密码。",
     "Start using Nextcloud" : "开始使用 Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "您可以在 Nextcloud 的应用中心中找到超过 100 个自定义应用：",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "还有很多应用如音乐播放器，密码管理器，看板 app，下载管理器和 markdown 编辑器",
     "Browse the app store" : "浏览应用商店",
-    "Previous" : "上一个",
-    "Next" : "下一个"
+    "Android app" : "安卓应用"
 },
 "nplurals=1; plural=0;");

@@ -7,12 +7,10 @@ OC.L10N.register(
     "Press Ctrl-C to copy." : "Druk Ctrl-C om te kopieer.",
     "About" : "Aangaande",
     "Desktop client" : "Werkskermkliënt",
-    "Android app" : "Android-toep",
     "iOS app" : "iOS-toep",
     "A safe home for all your data" : "’n Veilige tuiste vir al u data",
     "Server address" : "Bedieneradres",
     "Copy link" : "Kopieer skakel",
-    "Previous" : "Vorige",
-    "Next" : "Volgende"
+    "Android app" : "Android-toep"
 },
 "nplurals=2; plural=(n != 1);");

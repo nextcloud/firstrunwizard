@@ -30,7 +30,6 @@ OC.L10N.register(
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "הלקוחות הפשוטים לשימוש זמינים לכל הפלטפורמות לשולחן העבודה ולנייד ללא עלות!",
     "Get the apps to sync your files" : "ניתן להוריד את היישומים כדי לסנכרן את הקבצים שלך",
     "Desktop client" : "לקוח לשולחן עבודה",
-    "Android app" : "יישומון Android",
     "iOS app" : "יישומון iOS",
     "Connect your desktop apps to %s" : "חיבור אפליקציית המחשב האישי אל %s",
     "Connect your calendar" : "חיבור היומן שלך",
@@ -59,11 +58,9 @@ OC.L10N.register(
     "Server address" : "כתובת שרת",
     "Use this link to connect your apps and desktop client to this server:" : "יש להשתמש בקישור הזה כדי לחבר את היישומונים ואת לקוח שולחן העבודה שלך לשרת הזה:",
     "Copy link" : "העתקת קישור",
-    "Add your profile information! For example your email is needed to reset your password." : "נא להוסיף את פרטי הפרופיל שלך! למשל, כתובת הדוא״ל שלך נחוצה לטובת איפוס הססמה שלך.",
     "Start using Nextcloud" : "להתחיל להשתמש ב־Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "ניתן למצוא למעלה מ־100 יישומונים בחנות היישומונים של Nextcloud כדי להתאים את הענן לצרכיך:",
     "Browse the app store" : "עיון בחנות היישומונים",
-    "Previous" : "הקודם",
-    "Next" : "הבא"
+    "Android app" : "יישומון Android"
 },
 "nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;");

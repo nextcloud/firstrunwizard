@@ -23,7 +23,6 @@ OC.L10N.register(
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "Niaj faciluzaj klientoj labortabla kaj portebla ekzistas por ĉiuj ĉefaj platformoj senpage!",
     "Get the apps to sync your files" : "Ekhavu la aplikaĵojn por sinkronigi viajn dosierojn",
     "Desktop client" : "Labortabla kliento",
-    "Android app" : "Android-aplikaĵo",
     "iOS app" : "iOS-aplikaĵo",
     "Connect your desktop apps to %s" : "Konekti viajn labortablajn aplikaĵojn al %s",
     "Connect your calendar" : "Konekti vian kalendaron",
@@ -55,12 +54,10 @@ OC.L10N.register(
     "Connect other apps to %s" : "Konekti aliajn aplikaĵojn al %s",
     "Server address" : "Servila adreso",
     "Copy link" : "Kopii ligilon",
-    "Add your profile information! For example your email is needed to reset your password." : "Aldonu vian profilinformon! Ekzemple, oni bezonas vian retpoŝtadreson por restarigi vian pasvorton.",
     "Start using Nextcloud" : "Ekuzi Nextcloud-on",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Trovu pli ol 100 aplikaĵojn en la Nextcloud-aplikaĵejo por tajlori vian nubon:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Multe da aliaj kiel muzikludilo, administrilo por pasvortoj, kanbana aplikaĵo, elŝuta administrilo aŭ „Markdown“-redaktilo",
     "Browse the app store" : "Esplori la aplikaĵejon",
-    "Previous" : "Antaŭa",
-    "Next" : "Sekva"
+    "Android app" : "Android-aplikaĵo"
 },
 "nplurals=2; plural=(n != 1);");

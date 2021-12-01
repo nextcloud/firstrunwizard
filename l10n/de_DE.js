@@ -46,7 +46,8 @@ OC.L10N.register(
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "Unsere einfach zu benutzenden Desktop- und Mobil-Clients sind kostenlos verfügbar für alle wichtigen Plattformen!",
     "Get the apps to sync your files" : "Laden Sie die Apps zur Synchronisierung Ihrer Daten herunter",
     "Desktop client" : "Desktop-Client",
-    "Android app" : "Android-App",
+    "Android app on Google Play Store" : "Android-App im Google Play Store",
+    "Android app on F-Droid" : "Android-App bei F-Droid",
     "iOS app" : "iOS-App",
     "Connect your desktop apps to %s" : "Verbinden Sie Ihre Desktop-Anwendungen mit %s",
     "Connect your calendar" : "Verbinden Sie Ihren Kalender ",
@@ -74,6 +75,7 @@ OC.L10N.register(
     "Open Standards and Interoperability" : "Offene Standards und Interoperabilität",
     "100%% Open Source & community-focused" : "100%% Open Source & Community-fokussiert",
     "Learn more about %s" : "Erfahren Sie mehr über %s",
+    "This Nextcloud is on version %s" : "Diese Nextcloud läuft mit Version %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s erlaubt Ihnen den Zugriff auf Ihre Dateien, egal wo Sie sind. Unser Desktop-Client und die mobilen Apps sind kostenfrei für alle wichtigen Plattformen verfügbar.",
     "Set up sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Verwenden Sie ein <a href=\"%s\">App-Passwort</a> beim Einrichten der Sync-Clients. Dadurch können Sie den Zugriff sperren, falls Ihnen das Gerät verloren geht.",
     "Connect other apps to %s" : "Verbinden Sie andere Apps mit %s",
@@ -81,12 +83,10 @@ OC.L10N.register(
     "Server address" : "Serveradresse",
     "Use this link to connect your apps and desktop client to this server:" : "Verwenden Sie diesen Link, um Ihre Apps und Ihren Desktop-Clienten mit diesem Server zu verbinden:",
     "Copy link" : "Link kopieren",
-    "Add your profile information! For example your email is needed to reset your password." : "Fügen Sie Ihre Profil-Informationen hinzu! Ihre E-Mail-Adresse z.B. wird zum Rücksetzen Ihres Passwortes benötigt.",
     "Start using Nextcloud" : "Starten Sie mit Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Finden Sie mehr als 100 Apps im Nextcloud App Store, um Ihre Cloud anzupassen:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Viele weitere wie z.B ein Musik-Player, ein Passwort-Manager, eine Kanban-App, ein Download-Manager oder ein Markdown-Editor",
     "Browse the app store" : "Im App Store stöbern",
-    "Previous" : "Zurück",
-    "Next" : "Weiter"
+    "Android app" : "Android-App"
 },
 "nplurals=2; plural=(n != 1);");

@@ -25,7 +25,6 @@ OC.L10N.register(
     "About" : "Sobre",
     "Get the apps to sync your files" : "Obtenha as aplicações para sincronizar os seus ficheiros",
     "Desktop client" : "Cliente de PC",
-    "Android app" : "Aplicação Android",
     "iOS app" : "Aplicação iOS",
     "Connect your desktop apps to %s" : "Ligue as suas aplicações de PC para %s",
     "Connect your calendar" : "Ligar o seu calendário",
@@ -43,9 +42,7 @@ OC.L10N.register(
     "A safe home for all your data" : "Um local seguro para todos os seus dados",
     "Server address" : "Endereço do servidor",
     "Copy link" : "Copiar hiperligação",
-    "Add your profile information! For example your email is needed to reset your password." : "Adicione a sua informação de perfil. Por exemplo, o seu e-mail é necessário para efectuar a reposição da sua chave.",
     "Start using Nextcloud" : "Começar a usar a Nextcloud",
-    "Previous" : "Anterior",
-    "Next" : "Próximo"
+    "Android app" : "Aplicação Android"
 },
 "nplurals=2; plural=(n != 1);");

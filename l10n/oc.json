@@ -3,14 +3,12 @@
     "Communication with Nextcloud Talk" : "Comunicacion amb Nextcloud Talk",
     "Get the apps to sync your files" : "Obtenètz las aplicacions que vos permeton de sincronizar vòstres fichièrs",
     "Desktop client" : "Client de burèu",
-    "Android app" : "Aplicacion Android",
     "iOS app" : "Aplicacion iOS",
     "Connect your desktop apps to %s" : "Connectatz vòstras aplicacions de burèu a %s",
     "Access files via WebDAV" : "Accedissètz a vòstres fichièrs via WebDAV",
     "A safe home for all your data" : "Un ostal segur per vòstras donadas",
     "Server address" : "Adreça del servidor",
     "Copy link" : "Copiar lo ligam",
-    "Previous" : "Precedent",
-    "Next" : "Seguent"
+    "Android app" : "Aplicacion Android"
 },"pluralForm" :"nplurals=2; plural=(n > 1);"
 }

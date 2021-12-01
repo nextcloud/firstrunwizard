@@ -44,7 +44,8 @@
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "Klienti pro něj se snadno používají a jsou k dispozici pro všechny hlavní platformy osobních počítačů a chytrých telefonů (tabletů, atp.) a to zdarma!",
     "Get the apps to sync your files" : "Získejte aplikace pro synchronizaci souborů",
     "Desktop client" : "Aplikace pro počítač",
-    "Android app" : "Aplikace pro Android",
+    "Android app on Google Play Store" : "Android aplikace v Google Play Store",
+    "Android app on F-Droid" : "Android aplikace na F-Droid",
     "iOS app" : "Aplikace pro iOS",
     "Connect your desktop apps to %s" : "Propojte své aplikace s %s",
     "Connect your calendar" : "Propojit kalendář",
@@ -72,6 +73,7 @@
     "Open Standards and Interoperability" : "Otevřené standardy a interoperabilita",
     "100%% Open Source & community-focused" : "100%% Open Source a komunitně zaměřené",
     "Learn more about %s" : "Zjistit více o %s",
+    "This Nextcloud is on version %s" : "Tato instance Nextcloud je provozována na verzi %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s vám umožňuje přistupovat k vašim souborům ať jste kdekoli. Klienti pro něj se snadno používají a jsou k dispozici pro všechny hlavní platformy osobních počítačů a chytrých telefonů (tabletů, atp.) a to zdarma.",
     "Set up sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Nastavte synchronizační clienty s použitím <a href=\"%s\">hesla pro aplikaci</a>. Tímto způsobem zajistíte, že budete schopní zrušit přístup v případě ztráty takového zařízení.",
     "Connect other apps to %s" : "Propojit ostatní aplikace s %s",
@@ -79,12 +81,10 @@
     "Server address" : "Adresa serveru",
     "Use this link to connect your apps and desktop client to this server:" : "Pro propojení vámi používaných aplikací a desktopového klienta na tento server použijte tento odkaz: ",
     "Copy link" : "Zkopírovat odkaz",
-    "Add your profile information! For example your email is needed to reset your password." : "Přidejte si své profilové informace. Například váš e-mail je nutný pro obnovu hesla.",
     "Start using Nextcloud" : "Zahájit používání Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Prohlédněte si více než 100 aplikací v katalogu Nextcloud, kterými si můžete svůj cloud přizpůsobit:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Mnoho dalších, jako třeba přehrávač hudby, správce hesel, nástěnka (kanban), správce stahování nebo editor s podporou markdown",
     "Browse the app store" : "Procházet katalog aplikací",
-    "Previous" : "Předchozí",
-    "Next" : "Další"
+    "Android app" : "Aplikace pro Android"
 },"pluralForm" :"nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;"
 }

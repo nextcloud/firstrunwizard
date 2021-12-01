@@ -13,7 +13,6 @@ OC.L10N.register(
     "About" : "Tocante a",
     "Get the apps to sync your files" : "Consigui les aplicaciones pa sincronizar los tos ficheros",
     "Desktop client" : "Veceru d'escritoriu",
-    "Android app" : "Aplicación p'Android",
     "iOS app" : "Aplicación pa iOS",
     "Connect your desktop apps to %s" : "Coneuta les tos aplicaciones d'escritoriu a %s",
     "Connect your calendar" : "Coneuta'l to calendariu",
@@ -22,8 +21,6 @@ OC.L10N.register(
     "A safe home for all your data" : "Un llar seguru pa tolos tos datos",
     "Server address" : "Direición del sividor",
     "Copy link" : "Copiar enllaz",
-    "Add your profile information! For example your email is needed to reset your password." : "¡Amiesta la to información de perfil! Por exemplu, precísase'l to corréu pa reafitar la to contraseña.",
-    "Previous" : "Anterior",
-    "Next" : "Siguiente"
+    "Android app" : "Aplicación p'Android"
 },
 "nplurals=2; plural=(n != 1);");

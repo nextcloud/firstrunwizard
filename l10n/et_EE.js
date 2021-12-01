@@ -13,7 +13,6 @@ OC.L10N.register(
     "About" : "Info",
     "Get the apps to sync your files" : "Hangi rakendusi failide sünkroniseerimiseks",
     "Desktop client" : "Töölaua klient",
-    "Android app" : "Androidi rakendus",
     "iOS app" : "iOS-i rakendus",
     "Connect your desktop apps to %s" : "Ühenda oma töölaua rakendus %s",
     "Connect your calendar" : "Ühenda oma kalender",
@@ -22,8 +21,6 @@ OC.L10N.register(
     "A safe home for all your data" : "Turvaline koht sinu andmetele",
     "Server address" : "Serveri aadress",
     "Copy link" : "Kopeeri link",
-    "Add your profile information! For example your email is needed to reset your password." : "Lisa oma profiili infot! Näiteks e-posti aadress on vajalik parooli lähtestamiseks.",
-    "Previous" : "Eelmine",
-    "Next" : "Järgmine"
+    "Android app" : "Androidi rakendus"
 },
 "nplurals=2; plural=(n != 1);");

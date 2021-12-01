@@ -13,7 +13,6 @@ OC.L10N.register(
     "About" : "Acerca de",
     "Get the apps to sync your files" : "Obten las aplicaciones para sincronizar tus archivos",
     "Desktop client" : "Cliente de escritorio",
-    "Android app" : "Aplicación Android",
     "iOS app" : "Aplicación iOS",
     "Connect your desktop apps to %s" : "Conecta tu aplicación de escritorio a %s",
     "Connect your calendar" : "Conecta tu calendario",
@@ -22,8 +21,6 @@ OC.L10N.register(
     "A safe home for all your data" : "Un lugar seguro para todos sus datos",
     "Server address" : "Dirección del servidor",
     "Copy link" : "Copiar liga",
-    "Add your profile information! For example your email is needed to reset your password." : "¡Agregua tu información de perfil! Por ejemplo tu correo electrónico es necesario para restablecer tu contraseña.",
-    "Previous" : "Anterior",
-    "Next" : "Siguiente"
+    "Android app" : "Aplicación Android"
 },
 "nplurals=2; plural=(n != 1);");

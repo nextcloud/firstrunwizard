@@ -13,7 +13,6 @@ OC.L10N.register(
     "About" : "Rreth ",
     "Get the apps to sync your files" : "Merrni aplikacionet për njëkohësim të kartelave tuaja",
     "Desktop client" : "Klient për desktop",
-    "Android app" : "Aplikacion Android",
     "iOS app" : "Aplikacion iOS",
     "Connect your desktop apps to %s" : "Lidhni aplikacionet tuaja për desktop me %s",
     "Connect your calendar" : "Lidh kalendarin tuaj",
@@ -22,8 +21,6 @@ OC.L10N.register(
     "A safe home for all your data" : "Një shtëpi e sigurt për të dhënat e tua",
     "Server address" : "Adresa e serverit",
     "Copy link" : "Kopjo linkun",
-    "Add your profile information! For example your email is needed to reset your password." : "Shtoni informacionin e profilit tuaj. Për shembull nevojitet emaili juaj për të rivendosur fjalëkalimin.",
-    "Previous" : "I mëparshëm",
-    "Next" : "Tjetër"
+    "Android app" : "Aplikacion Android"
 },
 "nplurals=2; plural=(n != 1);");

@@ -8,11 +8,9 @@ OC.L10N.register(
     "About" : "Iwwer",
     "Get the apps to sync your files" : "D'Apps op Fichieren syncen",
     "Desktop client" : "Desktop-Programm",
-    "Android app" : "Android-App",
     "iOS app" : "iOS-App",
     "Server address" : "Server-Adress",
     "Copy link" : "Link kopéieren",
-    "Previous" : "Zeréck",
-    "Next" : "Weider"
+    "Android app" : "Android-App"
 },
 "nplurals=2; plural=(n != 1);");

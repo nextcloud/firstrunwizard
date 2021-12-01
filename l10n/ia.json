@@ -10,14 +10,11 @@
     "About" : "A proposito",
     "Get the apps to sync your files" : "Obtene le applicationes pro synchronisar tu files",
     "Desktop client" : "Cliente de Scriptorio",
-    "Android app" : "Application Android",
     "iOS app" : "Application iOS",
     "Connect your desktop apps to %s" : "Connecte tu application de scriptorio a %s",
     "Access files via WebDAV" : "Accede a files via WebDAV",
     "Server address" : "Adresse de servitor",
     "Copy link" : "Copiar ligamine",
-    "Add your profile information! For example your email is needed to reset your password." : "Adde tu information de profilo! Per exemplo, tu adresse de e-posta es necessari pro reinitialisar tu contrasigno.",
-    "Previous" : "Previe",
-    "Next" : "Sequente"
+    "Android app" : "Application Android"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

@@ -44,7 +44,8 @@
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "Gure mahaigaineko eta mugikorreko bezero erabilerrazak eskuragarri dituzu plataforma nagusi guztietan doan!",
     "Get the apps to sync your files" : "Lortu aplikazioak zure fitxategiak sinkronizatzeko",
     "Desktop client" : "Mahaigaineko bezeroa",
-    "Android app" : "Android aplikazioa",
+    "Android app on Google Play Store" : "Android aplikazioa Google Play dendan",
+    "Android app on F-Droid" : "Android aplikazioa F-Droid-en",
     "iOS app" : "iOS aplikazioa",
     "Connect your desktop apps to %s" : "Konektatu zure mahaigaineko aplikazioak %s(e)ra",
     "Connect your calendar" : "Konektatu zure egutegia",
@@ -72,6 +73,7 @@
     "Open Standards and Interoperability" : "Estandar irekiak eta elkarreragingarritasuna",
     "100%% Open Source & community-focused" : "%%100 kode irekikoa eta komunitatera zuzendua",
     "Learn more about %s" : "Ikasi gehiago honi buruz: %s",
+    "This Nextcloud is on version %s" : "Nextcloud hau %s bertsioan dago",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s(e)k zure fitxategietara sarbidea ematen dizu edonondik. Gure mahaigaineko eta mugikorreko bezero erabilerrazak eskuragarri dituzu plataforma nagusi guztietan doan.",
     "Set up sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Konfiguratu sinkronizazio bezeroak <a href=\"%s\">aplikazio-pasahitz bat</a> erabiliz. Modu honetan, ziur egon zaitezke sarbidea ukatu dezakezula gailu hori galduz gero.",
     "Connect other apps to %s" : "Konektatu aplikazio gehiago %s(e)ra",
@@ -79,12 +81,10 @@
     "Server address" : "Zerbitzariaren helbidea",
     "Use this link to connect your apps and desktop client to this server:" : "Erabili esteka hau zure aplikazio eta mahaigaineko bezeroak zerbitzari honetara konektatzeko:",
     "Copy link" : "Kopiatu esteka",
-    "Add your profile information! For example your email is needed to reset your password." : "Gehitu zure profilaren informazioa! Adibidez, zure posta elektronikoa behar da pasahitza berrezartzeko.",
     "Start using Nextcloud" : "Hasi Nextcloud erabiltzen",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "100 aplikaziotik gora bila ditzakezu Nextclouden aplikazio biltegian zure hodeia pertsonalizatzeko:",
     "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Eta beste hainbat, horien artean: musika-erreproduzigailua, kanban aplikazioa, deskarga-kudeatzailea edo markdown editorea",
     "Browse the app store" : "Arakatu aplikazio biltegia",
-    "Previous" : "Aurrekoa",
-    "Next" : "Hurrengoa"
+    "Android app" : "Android aplikazioa"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
