@@ -375,7 +375,7 @@ export default {
 		},
 	},
 	async created() {
-		this.slides = [ IntroVideo ]
+		this.slides = [IntroVideo]
 		window.addEventListener('resize', this.onResize)
 	},
 	beforeDestroy() {

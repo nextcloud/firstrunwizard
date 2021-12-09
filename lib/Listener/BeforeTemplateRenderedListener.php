@@ -26,6 +26,7 @@ declare(strict_types=1);
 
 namespace OCA\FirstRunWizard\Listener;
 
+use OCA\FirstRunWizard\AppInfo\Application;
 use OCA\FirstRunWizard\Notification\AppHint;
 use OCP\AppFramework\Http\Events\BeforeTemplateRenderedEvent;
 use OCP\BackgroundJob\IJobList;
@@ -34,6 +35,7 @@ use OCP\EventDispatcher\IEventListener;
 use OCP\IConfig;
 use OCP\IUser;
 use OCP\IUserSession;
+use OCP\Util;
 
 class BeforeTemplateRenderedListener implements IEventListener {
 	/**
@@ -75,13 +77,13 @@ class BeforeTemplateRenderedListener implements IEventListener {
 			return;
 		}
 
-		if ($this->config->getUserValue($user->getUID(), 'firstrunwizard', 'show', '1') !== '0') {
-			\OC_Util::addScript('firstrunwizard', 'activate');
+		if ($this->config->getUserValue($user->getUID(), Application::APP_ID, 'show', '1') !== '0') {
+			Util::addScript(Application::APP_ID, 'activate');
 
 			$this->jobList->add('OCA\FirstRunWizard\Notification\BackgroundJob', ['uid' => $this->userSession->getUser()->getUID()]);
 		}
 		$this->appHint->sendAppHintNotifications();
 
-		\OC_Util::addScript('firstrunwizard', 'about');
+		Util::addScript(Application::APP_ID, 'about');
 	}
 }
