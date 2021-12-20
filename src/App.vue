@@ -301,14 +301,7 @@
 		position: absolute;
 		display: flex;
 		bottom: 0;
-		left: 0;
-	}
-
-	@media only screen and (max-width: 680px) {
-		.modal-footer {
-			right: 0;
-			left: unset;
-		}
+		right: 0;
 	}
 
 	.modal-footer button {
