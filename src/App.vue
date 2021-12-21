@@ -203,19 +203,25 @@
 				max-width: 100% !important;
 				width: 100%;
 			}
-			.page #wizard-values li {
-				min-width: 100%;
-				overflow: hidden;
-				display: flex;
-				span {
-					width: 44px !important;
-					padding-right: 20px;
-					flex-grow: 0;
+			.page {
+				#wizard-values li {
+					min-width: 100%;
+					overflow: hidden;
+					display: flex;
+					span {
+						width: 44px !important;
+						padding-right: 20px;
+						flex-grow: 0;
+					}
+					h3 {
+						font-size: 12px;
+						text-align: left;
+						flex-grow: 1;
+					}
 				}
-				h3 {
-					font-size: 12px;
-					text-align: left;
-					flex-grow: 1;
+
+				&.content-final {
+					padding-bottom: 50px;
 				}
 			}
 		}
