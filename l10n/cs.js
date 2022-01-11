@@ -85,7 +85,6 @@ OC.L10N.register(
     "Copy link" : "Zkopírovat odkaz",
     "Start using Nextcloud" : "Zahájit používání Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Prohlédněte si více než 100 aplikací v katalogu Nextcloud, kterými si můžete svůj cloud přizpůsobit:",
-    "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Mnoho dalších, jako třeba přehrávač hudby, správce hesel, nástěnka (kanban), správce stahování nebo editor s podporou markdown",
     "Browse the app store" : "Procházet katalog aplikací",
     "Android app" : "Aplikace pro Android"
 },

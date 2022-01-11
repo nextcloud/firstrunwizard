@@ -85,7 +85,6 @@ OC.L10N.register(
     "Copy link" : "复制链接",
     "Start using Nextcloud" : "开始使用 Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "您可以在 Nextcloud 的应用中心中找到超过 100 个自定义应用：",
-    "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "还有很多应用如音乐播放器，密码管理器，看板 app，下载管理器和 markdown 编辑器",
     "Browse the app store" : "浏览应用商店",
     "Android app" : "安卓应用"
 },

@@ -72,7 +72,6 @@ OC.L10N.register(
     "Copy link" : "Kopijuoti nuorodą",
     "Start using Nextcloud" : "Pradėti naudotis Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Nextcloud programėlių parduotuvėje raskite daugiau kaip 100 programėlių, skirtų tinkinti jūsų debesiją:",
-    "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Daugelis kitų, tokių kaip muzikos grotuvas, slaptažodžių tvarkytuvė, kanban programėlė, atsiuntimų tvarkytuvė ar markdown redaktorius",
     "Browse the app store" : "Naršyti programėlių parduotuvę",
     "Android app" : "Android programėlė"
 },

@@ -85,7 +85,6 @@ OC.L10N.register(
     "Copy link" : "Hivatkozás másolása",
     "Start using Nextcloud" : "A Nextcloud használatának megkezdése",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "A Nextcloud alkalmazástár több mint 100 alkalmazásával testreszabhatja a felhőjét: ",
-    "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Továbbá elérhető még zenelejátszó, jelszókezelő, kanban alkalmazás, letöltéskezelő vagy markdown szerkesztő",
     "Browse the app store" : "Alkalmazástár böngészése",
     "Android app" : "Androidos alkalmazás"
 },
