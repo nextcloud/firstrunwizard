@@ -84,7 +84,6 @@ OC.L10N.register(
     "Copy link" : "Kopioi linkki",
     "Start using Nextcloud" : "Aloita Nextcloudin käyttäminen",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Löydä yli 100 eri sovellusta Nextcloud-sovelluskaupasta pilvesi muokkaamiseksi:",
-    "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Paljon muuta kuten musiikkisoitin, salasanahallinta, kanban-sovellus, lataushallinta ja markdown-muokkain",
     "Browse the app store" : "Selaa sovelluskauppaa",
     "Android app" : "Android-sovellus"
 },
