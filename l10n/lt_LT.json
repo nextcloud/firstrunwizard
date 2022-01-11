@@ -44,6 +44,9 @@
     "Access files via WebDAV" : "Pasiekite failus per WebDAV",
     "Download macOS/iOS configuration profile" : "Atsisiųsti macOS/iOS konfigūracijos profilį",
     "Get help" : "Gaukite pagalbos",
+    "Start contributing" : "Pradėkite talkinti",
+    "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Ar norite pamatyti Nextcloud tam tikrą patobulinimą? Ar radote problemą? Norite padėti versti, skleisti žinią ar dokumentuoti Nextcloud?",
+    "Become part of the Community" : "Tapkite bendruomenės dalimi",
     "Get more information" : "Gaukite daugiau informacijos",
     "The Nextcloud documentation for home users:" : "Nextcloud dokumentacija namų naudotojams:",
     "User manual" : "Naudotojo vadovas",
@@ -52,9 +55,6 @@
     "You can also ask for help in our community support channels:" : "Taip pat galite prašyti pagalbos mūsų bendruomenės palaikymo kanaluose:",
     "the Nextcloud forums" : "Nextcloud forumuose",
     "the Nextcloud IRC chat channel on freenode.net" : "Nextcloud IRC pokalbių kanale, freenode.net serveryje",
-    "Start contributing" : "Pradėkite talkinti",
-    "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Ar norite pamatyti Nextcloud tam tikrą patobulinimą? Ar radote problemą? Norite padėti versti, skleisti žinią ar dokumentuoti Nextcloud?",
-    "Become part of the Community" : "Tapkite bendruomenės dalimi",
     "A safe home for all your data" : "Saugūs namai visiems jūsų duomenims",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud laiko jūsų valdomus duomenis jums lengvai prieinamoje vietoje. Saugokite savo dokumentus, kalendorių, adresatus ir nuotraukas serveryje, savo kompanijoje, namuose, pas vieną iš mūsų tiekėjų ar jums žinomame duomenų centre.",
     "Host your data and files where you decide" : "Saugokite savo duomenis ir failus ten, kur nuspręsite",
@@ -70,7 +70,6 @@
     "Copy link" : "Kopijuoti nuorodą",
     "Start using Nextcloud" : "Pradėti naudotis Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Nextcloud programėlių parduotuvėje raskite daugiau kaip 100 programėlių, skirtų tinkinti jūsų debesiją:",
-    "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Daugelis kitų, tokių kaip muzikos grotuvas, slaptažodžių tvarkytuvė, kanban programėlė, atsiuntimų tvarkytuvė ar markdown redaktorius",
     "Browse the app store" : "Naršyti programėlių parduotuvę",
     "Android app" : "Android programėlė"
 },"pluralForm" :"nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);"
