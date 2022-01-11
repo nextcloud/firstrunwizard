@@ -85,7 +85,6 @@ OC.L10N.register(
     "Copy link" : "Copiar enlace",
     "Start using Nextcloud" : "Empieza a usar Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Encuentra más de 100 apps en la tienda de apps de Nextcloud para personalizar tu nube:",
-    "Many others like a music player, a password manager, a kanban app, a download manager or a markdown editor" : "Muchas otras como un reproductor de música, un gestor de contraseñas, una app de kanban, un gestor de descargas o un editor markdown",
     "Browse the app store" : "Explora la tienda de aplicaciones",
     "Android app" : "Aplicación de Android"
 },
