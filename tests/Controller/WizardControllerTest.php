@@ -23,7 +23,6 @@
 
 namespace OCA\FirstRunWizard\Tests\Controller;
 
-
 use OCA\FirstRunWizard\Controller\WizardController;
 use OCP\AppFramework\Http;
 use OCP\AppFramework\Http\DataResponse;
@@ -49,7 +48,6 @@ class WizardControllerTest extends TestCase {
 		parent::setUp();
 		$this->config = $this->createMock(IConfig::class);
 		$this->groupManager = $this->createMock(IGroupManager::class);
-
 	}
 
 	/**

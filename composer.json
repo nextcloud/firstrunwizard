@@ -1,14 +1,23 @@
 {
-  "name": "nextcloud/firstrunwizard",
-  "description": "The Nextcloud firstrunwizard",
-  "license": "AGPL",
-  "config": {
-    "optimize-autoloader": true,
-    "classmap-authoritative": true
-  },
-  "require": {
-  },
-  "scripts": {
-    "lint": "find . -name \\*.php -not -path './vendor/*' -print0 | xargs -0 -n1 php -l"
-  }
+	"name": "nextcloud/firstrunwizard",
+	"description": "The Nextcloud firstrunwizard",
+	"license": "AGPL",
+	"config": {
+		"optimize-autoloader": true,
+		"classmap-authoritative": true,
+		"platform": {
+			"php": "7.4"
+		}
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^9.5",
+		"nextcloud/coding-standard": "^1.0.0",
+		"christophwurst/nextcloud": "dev-master@dev",
+		"vimeo/psalm": "^4.3.2"
+	},
+	"scripts": {
+		"lint": "find . -name \\*.php -not -path './vendor/*' -not -path './build/*' -print0 | xargs -0 -n1 php -l",
+		"cs:check": "php-cs-fixer fix --dry-run --diff",
+		"cs:fix": "php-cs-fixer fix"
+	}
 }

@@ -23,7 +23,6 @@
 
 namespace OCA\FirstRunWizard\AppInfo;
 
-use OCA\Files\Event\LoadAdditionalScriptsEvent;
 use OCA\FirstRunWizard\Listener\AppEnabledListener;
 use OCA\FirstRunWizard\Listener\BeforeTemplateRenderedListener;
 use OCA\FirstRunWizard\Notification\Notifier;
@@ -35,7 +34,6 @@ use OCP\AppFramework\Bootstrap\IRegistrationContext;
 use OCP\AppFramework\Http\Events\BeforeTemplateRenderedEvent;
 
 class Application extends App implements IBootstrap {
-
 	public const APP_ID = 'firstrunwizard';
 
 	public function __construct() {

@@ -24,7 +24,7 @@ namespace OCA\FirstRunWizard\Notification;
 use OC\BackgroundJob\QueuedJob;
 use OCP\Notification\IManager as INotificationManager;
 
-class BackgroundJob extends QueuedJob  {
+class BackgroundJob extends QueuedJob {
 
 	/** @var INotificationManager */
 	protected $notificationManager;

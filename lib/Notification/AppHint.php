@@ -28,7 +28,7 @@ use OCP\IConfig;
 use OCP\IGroupManager;
 use OCP\Notification\IManager as INotificationManager;
 
-class AppHint  {
+class AppHint {
 
 	/** @var INotificationManager */
 	protected $notificationManager;
@@ -45,12 +45,12 @@ class AppHint  {
 	/** @var string */
 	private $userId;
 
-	const APP_HINT_VERSION = '18';
+	public const APP_HINT_VERSION = '18';
 
 	public function __construct(INotificationManager $notificationManager, IGroupManager $groupManager, IAppManager $appManager, IConfig $config, $userId) {
 		$this->notificationManager = $notificationManager;
 		$this->groupManager = $groupManager;
-		$this->appManager =$appManager;
+		$this->appManager = $appManager;
 		$this->config = $config;
 		$this->userId = $userId;
 	}
