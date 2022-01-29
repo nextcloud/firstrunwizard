@@ -78,7 +78,7 @@ script('firstrunwizard', ['personalsettings']);
 				 src="<?php p(image_path('files', 'folder.svg')); ?>" />
 			<?php p($l->t('Access files via WebDAV'));?>
 		</a>
-		<?php if($usesTLS): ?>
+		<?php if ($usesTLS): ?>
 		<a target="_blank" class="button" href="<?php p($macOSProfile); ?>" rel="noreferrer noopener">
 			<img class="appsmall appsmall-contacts svg" alt=""
 				 src="<?php p(image_path('core', 'places/default-app-icon.svg')); ?>" />

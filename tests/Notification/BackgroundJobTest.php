@@ -23,7 +23,6 @@
 
 namespace OCA\FirstRunWizard\Tests\Notification;
 
-
 use OCA\FirstRunWizard\Notification\BackgroundJob;
 use OCP\Notification\IManager;
 use OCP\Notification\INotification;
@@ -64,7 +63,6 @@ class BackgroundJobTest extends TestCase {
 	 * @param bool $notify
 	 */
 	public function testRun($user, $count, $notify) {
-
 		$notification = $this->createMock(INotification::class);
 		$notification->expects($this->once())
 			->method('setApp')

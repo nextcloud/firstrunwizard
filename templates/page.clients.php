@@ -70,7 +70,7 @@
 				<span class="icon icon-files-dark"></span>
 				<?php p($l->t('Access files via WebDAV')); ?>
 			</a>
-			<?php if($_['useTLS']): ?>
+			<?php if ($_['useTLS']): ?>
 			<a target="_blank" class="button"
 			   href="<?php p($_['macOSProfile']); ?>" rel="noreferrer noopener">
 				<span class="icon icon-download"></span>
