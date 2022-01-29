@@ -22,6 +22,10 @@ The First run wizard can be customized to meet specific design goals, or to chan
 
 	<category>tools</category>
 
+	<website>https://github.com/nextcloud/firstrunwizard</website>
+	<bugs>https://github.com/nextcloud/firstrunwizard/issues</bugs>
+	<repository>https://github.com/nextcloud/firstrunwizard.git</repository>
+
 	<dependencies>
 		<nextcloud min-version="24" max-version="24" />
 	</dependencies>
