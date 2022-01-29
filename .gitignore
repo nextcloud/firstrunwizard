@@ -2,3 +2,5 @@
 /tests/coverage*
 /tests/clover.xml
 node_modules/
+/vendor
+/.php-cs-fixer.cache
