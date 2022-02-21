@@ -41,11 +41,14 @@
 			</li>
 			<li>
 				<span class="icon-shared"></span>
-				<h3><?php p($l->t('Open Standards and Interoperability')); ?></h3>
+				<h3><?php p($l->t('Open standards and interoperability')); ?></h3>
 			</li>
 			<li>
 				<span class="icon-user"></span>
-				<h3><?php p($l->t('100%% Open Source & community-focused')); ?></h3>
+				<h3><?php 
+					// TRANSLATORS NOTE: The characters %% should be left unchanged.
+					p($l->t('100%% open source & community-focused'));
+				    ?></h3>
 			</li>
 		</ul>
 
