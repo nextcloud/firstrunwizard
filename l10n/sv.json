@@ -70,8 +70,6 @@
     "A safe home for all your data" : "Ett säkert hem för all din data",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud ger dig full kontroll över din data. Lagra dina dokument, kalender, kontakter och foton på en server i ditt företag, hemma, hos en av våra leverantörer eller i ett datacenter du känner.",
     "Host your data and files where you decide" : "Lagra din data och filer där du vill",
-    "Open Standards and Interoperability" : "Öppna standarder och interoperabilitet",
-    "100%% Open Source & community-focused" : "100%% öppen källkod & gemenskapsfokuserad",
     "Learn more about %s" : "Läs mer om %s",
     "This Nextcloud is on version %s" : "Denna Nextcloud är på version %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s ger dig åtkomst till dina filer var du än befinner dig. Våra lättanvända skrivbords- och mobilklienter är tillgängliga för alla större plattformar utan kostnad.",
@@ -84,6 +82,8 @@
     "Start using Nextcloud" : "Börja använda Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Hitta fler än 100 appar i Nextcloud-appbutiken för att anpassa ditt moln:",
     "Browse the app store" : "Bläddra i appbutiken",
-    "Android app" : "Android-app"
+    "Android app" : "Android-app",
+    "Open Standards and Interoperability" : "Öppna standarder och interoperabilitet",
+    "100%% Open Source & community-focused" : "100%% öppen källkod & gemenskapsfokuserad"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

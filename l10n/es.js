@@ -72,8 +72,6 @@ OC.L10N.register(
     "A safe home for all your data" : "Un lugar seguro para tus datos",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud pone tus datos al alcance de tus manos y bajo tu control. Almacena tus documentos, calendarios, contactos y fotos en un servidor en tu compañía, en casa, en uno de nuestros proveedores o un centro de datos que conozcas.",
     "Host your data and files where you decide" : "Aloja tus datos y archivos donde tú decides",
-    "Open Standards and Interoperability" : "Estándares abiertos e interoperabilidad",
-    "100%% Open Source & community-focused" : "100%% código abierto y enfocado a la comunidad",
     "Learn more about %s" : "Descubre más sobre %s",
     "This Nextcloud is on version %s" : "Esta nube Nextcloud está en la versión %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s te da acceso a tus archivos estés donde estés. Nuestros clientes de escritorio y móviles son fáciles de usar y están disponibles para todas las principales plataformas a coste cero.",
@@ -86,6 +84,8 @@ OC.L10N.register(
     "Start using Nextcloud" : "Empieza a usar Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Encuentra más de 100 apps en la tienda de apps de Nextcloud para personalizar tu nube:",
     "Browse the app store" : "Explora la tienda de aplicaciones",
-    "Android app" : "Aplicación de Android"
+    "Android app" : "Aplicación de Android",
+    "Open Standards and Interoperability" : "Estándares abiertos e interoperabilidad",
+    "100%% Open Source & community-focused" : "100%% código abierto y enfocado a la comunidad"
 },
 "nplurals=2; plural=(n != 1);");

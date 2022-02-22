@@ -27,13 +27,13 @@ OC.L10N.register(
     "the Nextcloud IRC chat channel on freenode.net" : "قناة IRC للدردشة الخاصة بـ Nextcloud على freenode.net",
     "A safe home for all your data" : "المكان الآمن لكافة بياناتكم",
     "Host your data and files where you decide" : "استضف بياناتك في المكان الذي تقرره أنت",
-    "100%% Open Source & community-focused" : "منصة مفتوحة المصدر 100%% موجهة للمجتمع",
     "Learn more about %s" : "تعلم المزيد عن %s",
     "Connect other apps to %s" : "قم بربط تطبيقات أخرى مع %s",
     "Server address" : "عنوان الخادم",
     "Copy link" : "انسخ الرابط",
     "Start using Nextcloud" : "اشرع في استخدام ناكست كلاود",
     "Browse the app store" : "استكشف متجر التطبيقات",
-    "Android app" : "تطبيق أندرويد"
+    "Android app" : "تطبيق أندرويد",
+    "100%% Open Source & community-focused" : "منصة مفتوحة المصدر 100%% موجهة للمجتمع"
 },
 "nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;");

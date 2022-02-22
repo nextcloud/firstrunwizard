@@ -70,8 +70,6 @@ OC.L10N.register(
     "A safe home for all your data" : "Un lloc segur per a totes les vostres dades",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud posa les vostres dades al vostre abast, sota el vostre control. Emmagatzemeu els vostres documents, calendari, contactes i fotos en un servidor de la vostra empresa, a casa, en un dels nostres proveïdors o en un centre de dades que conegueu.",
     "Host your data and files where you decide" : "Allotgeu les vostres dades i fitxers on decidiu",
-    "Open Standards and Interoperability" : "Estàndards Oberts i Interoperabilitat",
-    "100%% Open Source & community-focused" : "100%% Codi Font Obert i orientat a la comunitat",
     "Learn more about %s" : "Més informació sobre %s",
     "This Nextcloud is on version %s" : "Aquest Nextcloud està en versió %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s us dóna accés als vostres fitxers allà on sigueu. Els nostres clients d’escriptori i mòbils, fàcils d’utilitzar, estan disponibles per a totes les principals plataformes a cost zero.",
@@ -84,6 +82,8 @@ OC.L10N.register(
     "Start using Nextcloud" : "Comenceu a fer servir Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Descobriu més de 100 aplicacions a la botiga d’aplicacions Nextcloud per personalitzar el vostre núvol:",
     "Browse the app store" : "Navegueu per la botiga d’aplicacions",
-    "Android app" : "Aplicació per Android"
+    "Android app" : "Aplicació per Android",
+    "Open Standards and Interoperability" : "Estàndards Oberts i Interoperabilitat",
+    "100%% Open Source & community-focused" : "100%% Codi Font Obert i orientat a la comunitat"
 },
 "nplurals=2; plural=(n != 1);");
