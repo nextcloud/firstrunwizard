@@ -72,8 +72,6 @@ OC.L10N.register(
     "A safe home for all your data" : "Egy biztonságos hely az adataidnak",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "A Nextcloud segítségével kézben tarthatja és felügyelheti az adatait. Tárolja a dokumentumait, naptárait, névjegyeit és fényképeit egy vállalati kiszolgálón, otthon, valamelyik szolgáltatónknál vagy egy olyan adatközpontban, amelyet már ismer.",
     "Host your data and files where you decide" : "Ott tárolja az adatait és fájljait, ahol Ön szeretné",
-    "Open Standards and Interoperability" : "Nyílt szabványok és együttműködés",
-    "100%% Open Source & community-focused" : "100%%-ban nyílt forráskódú és közösségközpontú",
     "Learn more about %s" : "Tudjon meg többet a %sról",
     "This Nextcloud is on version %s" : "Ezen Nextcloud példány verziója: %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "A %s hozzáférést biztosít a fájljaihoz, akárhol is legyen. A könnyen kezelhető asztali és mobil kliensünk ingyenesen elérhető az összes főbb platformon.",
@@ -86,6 +84,8 @@ OC.L10N.register(
     "Start using Nextcloud" : "A Nextcloud használatának megkezdése",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "A Nextcloud alkalmazástár több mint 100 alkalmazásával testreszabhatja a felhőjét: ",
     "Browse the app store" : "Alkalmazástár böngészése",
-    "Android app" : "Androidos alkalmazás"
+    "Android app" : "Androidos alkalmazás",
+    "Open Standards and Interoperability" : "Nyílt szabványok és együttműködés",
+    "100%% Open Source & community-focused" : "100%%-ban nyílt forráskódú és közösségközpontú"
 },
 "nplurals=2; plural=(n != 1);");

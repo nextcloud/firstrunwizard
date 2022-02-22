@@ -64,8 +64,6 @@ OC.L10N.register(
     "A safe home for all your data" : "Сигурно место за све Ваше податке",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Некстклауд Вам ставља податке на дланове, под Вашом контролом. Складиштите документе, календар, контакте и слике на серверу у Вашој фирми, кући или на неком од наших провајдера или и дата центру за који знате.",
     "Host your data and files where you decide" : "Хостујте податке и фајлове где Ви одлучите",
-    "Open Standards and Interoperability" : "Отворени стандарди и интероперабилност",
-    "100%% Open Source & community-focused" : "100%% отвореног кода & фокусирано на заједницу",
     "Learn more about %s" : "Сазнајте још о %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s Вам даје приступ Вашим фајловима где год да сте. Наше једноставне апликације за рачунар и за мобилне телефоне су доступне за све велике системе комплетно бесплатно.",
     "Set up sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Подесите клијенте за синхронизацију фајлова користећи <a href=\"%s\">апликативну лозинку</a>. На тај начин, сваки клијент ће имати своју лозинку и моћи ћете сваком појединачно да укинете приступ ако изгубите тај уређај.",
@@ -77,6 +75,8 @@ OC.L10N.register(
     "Start using Nextcloud" : "Започните са коришћењем Некстклауда",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Пронађите више од 100 апликација у Некстклауд продавници да прилагодите Ваш клауд:",
     "Browse the app store" : "Прегледајте продавницу апликација",
-    "Android app" : "Андроид апликација"
+    "Android app" : "Андроид апликација",
+    "Open Standards and Interoperability" : "Отворени стандарди и интероперабилност",
+    "100%% Open Source & community-focused" : "100%% отвореног кода & фокусирано на заједницу"
 },
 "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);");

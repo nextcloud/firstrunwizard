@@ -49,8 +49,6 @@
     "the Nextcloud IRC chat channel on freenode.net" : "ערוץ ה־IRC של Nextcloud ב־freenode.net",
     "A safe home for all your data" : "בית בטוח לכל הנתונים שלך",
     "Host your data and files where you decide" : "אירוח הנתונים והקבצים שלך במיקום לבחירתך",
-    "Open Standards and Interoperability" : "תקנים פתוחים ותאימות לשלל מערכות",
-    "100%% Open Source & community-focused" : "100%% קוד פתוח ומוכוון קהילה",
     "Learn more about %s" : "מידע נוסף על %s",
     "Connect other apps to %s" : "חיבור של יישומונים אחרים אל %s",
     "Server address" : "כתובת שרת",
@@ -59,6 +57,8 @@
     "Start using Nextcloud" : "להתחיל להשתמש ב־Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "ניתן למצוא למעלה מ־100 יישומונים בחנות היישומונים של Nextcloud כדי להתאים את הענן לצרכיך:",
     "Browse the app store" : "עיון בחנות היישומונים",
-    "Android app" : "יישומון Android"
+    "Android app" : "יישומון Android",
+    "Open Standards and Interoperability" : "תקנים פתוחים ותאימות לשלל מערכות",
+    "100%% Open Source & community-focused" : "100%% קוד פתוח ומוכוון קהילה"
 },"pluralForm" :"nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;"
 }

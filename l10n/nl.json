@@ -70,8 +70,6 @@
     "A safe home for all your data" : "Een veilige plek voor al je gegevens",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud geeft je jouw gegevens onder je vingertoppen, onder je eigen controle. Bewaar je documenten, agenda, contactpersonen en foto's in een server in je eigen bedrijf, thuis of bij een van onze providers in een datacenter dat je kent.",
     "Host your data and files where you decide" : "Sla je gegevens op waar jij dat wilt",
-    "Open Standards and Interoperability" : "Open Standaarden en Interoperabiliteit",
-    "100%% Open Source & community-focused" : "100%% Open Source & community-focused",
     "Learn more about %s" : "Leer meer over %s",
     "This Nextcloud is on version %s" : "Deze Nextcloud is versie %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s geeft je toegang tot je bestanden, waar je ook maar bent. Onze makkelijk te gebruiken desktop en mobiele applicaties zijn voor ieder groot platform gratis beschikbaar.",
@@ -84,6 +82,8 @@
     "Start using Nextcloud" : "Starten met Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Vind meer dan 100 apps in de Nextcloud app winkel om je Nextcloud aan te passen.",
     "Browse the app store" : "Blader door de app store",
-    "Android app" : "Android app"
+    "Android app" : "Android app",
+    "Open Standards and Interoperability" : "Open Standaarden en Interoperabiliteit",
+    "100%% Open Source & community-focused" : "100%% Open Source & community-focused"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

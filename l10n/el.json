@@ -62,8 +62,6 @@
     "A safe home for all your data" : "Μια ασφαλής τοποθεσία για όλα σας τα δεδομένα",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Το Nextcloud θέτει τα δεδομένα, υπό τον έλεγχό σας. Αποθηκεύστε τα έγγραφα, το ημερολόγιο, τις επαφές και τις φωτογραφίες σας σε ένα διακομιστή στην εταιρεία σας, στο σπίτι, σε έναν πάροχο ή σε ένα κέντρο δεδομένων που γνωρίζετε.",
     "Host your data and files where you decide" : "Τοποθετήστε τα δεδομένα και τα αρχεία σας όπου αποφασίζετε",
-    "Open Standards and Interoperability" : "Ανοικτά πρότυπα και διαλειτουργικότητα",
-    "100%% Open Source & community-focused" : "100%% Ανοικτά Δεδομένα & εστιασμένα στην κοινότητα",
     "Learn more about %s" : "Μάθετε περισσότερα %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s σας δίνει πρόσβαση στα αρχεία σας όπου κι αν βρίσκεστε. Οι εύχρηστες εφαρμογές υπολογιστών και κινητών είναι διαθέσιμες για όλες τις μεγάλες πλατφόρμες με μηδενικό κόστος.",
     "Set up sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Ρυθμίστε τον συγχρονισμό υπολογιστών χρησιμοποιώντας <a href=\"%s\">εφαρμογή κωδικών</a>. Με αυτόν τον τρόπο μπορείτε να βεβαιωθείτε ότι είστε σε θέση να ανακαλέσετε την πρόσβαση σε περίπτωση που χάσετε τη συσκευή.",
@@ -75,6 +73,8 @@
     "Start using Nextcloud" : "Έναρξη χρήσης Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Βρείτε περισσότερες από 100 εφαρμογές στο κατάστημα εφαρμογών Nextcloud για να προσαρμόσετε το σύννεφο σας:",
     "Browse the app store" : "Εξερεύνηση αγοράς αφαρμογών",
-    "Android app" : "Εφαρμογή Android"
+    "Android app" : "Εφαρμογή Android",
+    "Open Standards and Interoperability" : "Ανοικτά πρότυπα και διαλειτουργικότητα",
+    "100%% Open Source & community-focused" : "100%% Ανοικτά Δεδομένα & εστιασμένα στην κοινότητα"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

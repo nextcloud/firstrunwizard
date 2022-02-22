@@ -58,8 +58,6 @@
     "A safe home for all your data" : "Saugūs namai visiems jūsų duomenims",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud laiko jūsų valdomus duomenis jums lengvai prieinamoje vietoje. Saugokite savo dokumentus, kalendorių, adresatus ir nuotraukas serveryje, savo kompanijoje, namuose, pas vieną iš mūsų tiekėjų ar jums žinomame duomenų centre.",
     "Host your data and files where you decide" : "Saugokite savo duomenis ir failus ten, kur nuspręsite",
-    "Open Standards and Interoperability" : "Atviri standartai ir funkcinis suderinamumas",
-    "100%% Open Source & community-focused" : "100%% atvirojo kodo ir sutelkta į bendruomenę",
     "Learn more about %s" : "Sužinokite daugiau apie %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s suteikia jums prieigą prie jūsų failų visur, kur bebūtumėte. Mūsų lengvi naudoti darbalaukio ir mobilieji klientai yra prieinami pagrindinėms platformoms visiškai nemokamai.",
     "Set up sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Nusistatykite sinchronizavimo kliento programas naudodami <a href=\"%s\">programėlės slaptažodį</a>. Tokiu būdu užtikrinsite, jog galėsite panaikinti prieigą tuo atveju, jei pamesite įrenginį.",
@@ -71,6 +69,8 @@
     "Start using Nextcloud" : "Pradėti naudotis Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Nextcloud programėlių parduotuvėje raskite daugiau kaip 100 programėlių, skirtų tinkinti jūsų debesiją:",
     "Browse the app store" : "Naršyti programėlių parduotuvę",
-    "Android app" : "Android programėlė"
+    "Android app" : "Android programėlė",
+    "Open Standards and Interoperability" : "Atviri standartai ir funkcinis suderinamumas",
+    "100%% Open Source & community-focused" : "100%% atvirojo kodo ir sutelkta į bendruomenę"
 },"pluralForm" :"nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);"
 }
