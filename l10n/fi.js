@@ -71,8 +71,6 @@ OC.L10N.register(
     "A safe home for all your data" : "Turvallinen koti kaikille tiedoillesi",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud asettaa tietosi sinun hallintaasi. Talleta asiakirjat, kalenteri, yhteystiedot ja kuvat organisaatiosi tarjoamalle palvelimelle, kotipalvelimellesi, Nextcloudin yhteistyökumppanien palvelimelle tai luottamaasi palvelinkeskukseen.",
     "Host your data and files where you decide" : "Säilytä tietosi ja tiedostosi missä itse haluat",
-    "Open Standards and Interoperability" : "Avoimet standardit ja yhteentoimivuus",
-    "100%% Open Source & community-focused" : "100%% avointa lähdekoodia ja yhteisökeskeisyyttä",
     "Learn more about %s" : "Lisätietoja - %s",
     "This Nextcloud is on version %s" : "Tämä Nextcloud on versiossa %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s mahdollistaa pääsyn tiedostoihisi missä hyvänsä oletkin. Hellpokäyttöiset työpöytä- ja mobiilisovellukset ovat saatavilla kaikille suurimmille alustoille veloituksetta.",
@@ -85,6 +83,8 @@ OC.L10N.register(
     "Start using Nextcloud" : "Aloita Nextcloudin käyttäminen",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Löydä yli 100 eri sovellusta Nextcloud-sovelluskaupasta pilvesi muokkaamiseksi:",
     "Browse the app store" : "Selaa sovelluskauppaa",
-    "Android app" : "Android-sovellus"
+    "Android app" : "Android-sovellus",
+    "Open Standards and Interoperability" : "Avoimet standardit ja yhteentoimivuus",
+    "100%% Open Source & community-focused" : "100%% avointa lähdekoodia ja yhteisökeskeisyyttä"
 },
 "nplurals=2; plural=(n != 1);");

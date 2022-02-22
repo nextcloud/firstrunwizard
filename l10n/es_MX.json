@@ -44,8 +44,6 @@
     "A safe home for all your data" : "Un lugar seguro para todos tus datos",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud deja tus datos a tu alcance, bajo tu control. Almacena tus documentos, calendario, contactos y fotografías en un servidor de tu compañia, en casa, con uno de nuestros proveedores o en un centro de datos que conozcas. ",
     "Host your data and files where you decide" : "Hospeda tus datos y archivos donde tú decidas",
-    "Open Standards and Interoperability" : "Estándares Abiertos e Interoperabilidad",
-    "100%% Open Source & community-focused" : "100%% Código Abierto & orientado a la comunidad",
     "Learn more about %s" : "Más información de %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s te da acceso a tus archivos donde te encuentres. Nuestros clientes intuitivos para escritorio y móviles estan disponibles para la mayoria de las plataformas sin costo alguno. ",
     "Connect other apps to %s" : "Conectar otras aplicaciones a %s",
@@ -54,6 +52,8 @@
     "Start using Nextcloud" : "Empieza a usar Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Puedes encontrar más de 100 apliicaciones en la tienda de aplicaciones de Nextcloud y personalizar tu nube:",
     "Browse the app store" : "Navega la tienda de aplicaciones",
-    "Android app" : "Aplicación Android"
+    "Android app" : "Aplicación Android",
+    "Open Standards and Interoperability" : "Estándares Abiertos e Interoperabilidad",
+    "100%% Open Source & community-focused" : "100%% Código Abierto & orientado a la comunidad"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

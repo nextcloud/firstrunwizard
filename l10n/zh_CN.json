@@ -70,8 +70,6 @@
     "A safe home for all your data" : "给您所有数据一个安全的家",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud 将您的数据置于您的掌控之中。在您公司、家中、我们的一个供应商或您了解的数据中心里的服务器上保存您的文档、日历、联系人以及照片。",
     "Host your data and files where you decide" : "把数据和文件保管在您想要的地方",
-    "Open Standards and Interoperability" : "开放标准和互操作性",
-    "100%% Open Source & community-focused" : "100 %% 开源，专注于为社区用户服务",
     "Learn more about %s" : "了解更多关于 %s 的详情",
     "This Nextcloud is on version %s" : "这个 Nextcloud 实例版本为 %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "走到哪里，文件跟到哪里！ %s 免费客户端支持电脑手机的各大主流平台",
@@ -84,6 +82,8 @@
     "Start using Nextcloud" : "开始使用 Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "您可以在 Nextcloud 的应用中心中找到超过 100 个自定义应用：",
     "Browse the app store" : "浏览应用商店",
-    "Android app" : "安卓应用"
+    "Android app" : "安卓应用",
+    "Open Standards and Interoperability" : "开放标准和互操作性",
+    "100%% Open Source & community-focused" : "100 %% 开源，专注于为社区用户服务"
 },"pluralForm" :"nplurals=1; plural=0;"
 }

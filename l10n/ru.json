@@ -70,8 +70,6 @@
     "A safe home for all your data" : "Надёжный дом для всех ваших данных",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud возвращает вам контроль над своими данными. Храните свои документы, календари, контакты и фотографии на сервере своей компании, дома, у одного из наших провайдеров или в известном вам дата-центре.",
     "Host your data and files where you decide" : "Самостоятельно выбирайте место для размещения своих файлов и данных",
-    "Open Standards and Interoperability" : "Открытые стандарты и совместимость",
-    "100%% Open Source & community-focused" : "На 100%% открытый исходный код и ориентированность на сообщество",
     "Learn more about %s" : "Узнать больше о %s",
     "This Nextcloud is on version %s" : "Nextcloud версии %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s предоставляет доступ к файлам откуда угодно: разработаны и бесплатно доступны приложения для синхронизации файлов для всех основных платформ мобильных устройств и ПК.",
@@ -84,6 +82,8 @@
     "Start using Nextcloud" : "Начать использовать Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "В магазине приложений Nextcloud содержится более 100 приложений:",
     "Browse the app store" : "Перейти в магазин приложений",
-    "Android app" : "Приложение для Android"
+    "Android app" : "Приложение для Android",
+    "Open Standards and Interoperability" : "Открытые стандарты и совместимость",
+    "100%% Open Source & community-focused" : "На 100%% открытый исходный код и ориентированность на сообщество"
 },"pluralForm" :"nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);"
 }

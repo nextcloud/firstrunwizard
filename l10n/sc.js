@@ -70,8 +70,6 @@ OC.L10N.register(
     "A safe home for all your data" : "Unu logu siguru pro totu is datos tuos",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud ponet is datos tuos in is manos tuas, suta de controllu. Archìvia is documentos, calendàriu, cuntatos e fotografias in unu serbidore in s'azienda tua, in domu, in unu de is frunidores tuos o in unu tzentru de datos chi connosches.",
     "Host your data and files where you decide" : "Retzi is datos e is archìvios tuos in ue detzides tue",
-    "Open Standards and Interoperability" : "Istandard abertos e interoperabilidade",
-    "100%% Open Source & community-focused" : "100%% de còdighe abertu e contzentradu in sa comunidade",
     "Learn more about %s" : "Iscoberi àteru in %s",
     "This Nextcloud is on version %s" : "Custu Nextcloud est sa versione %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%sti frunit s'intrada a is archìvios tuos dae totue. Is clientes nostros pro iscrivania e pro mòbile sunt fàtziles de impreare e sunt a disponimentu a gratis pro totu is prataformas prus mannas.",
@@ -84,6 +82,8 @@ OC.L10N.register(
     "Start using Nextcloud" : "Cumintza a impreare Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Agata prus de 100 aplicatziones in sa butega de is aplicatziones pro personalizare sa nue tua:",
     "Browse the app store" : "Esplora sa butega de is aplicatziones",
-    "Android app" : "Aplicatzione Android"
+    "Android app" : "Aplicatzione Android",
+    "Open Standards and Interoperability" : "Istandard abertos e interoperabilidade",
+    "100%% Open Source & community-focused" : "100%% de còdighe abertu e contzentradu in sa comunidade"
 },
 "nplurals=2; plural=(n != 1);");
