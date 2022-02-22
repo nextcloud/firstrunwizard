@@ -72,8 +72,6 @@ OC.L10N.register(
     "A safe home for all your data" : "varno okolje za vse vaše podatke",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Okolje Nextcloud omogoči zbiranje in shranjevanje podatkov pod vašim nadzorom. Dokumente, koledarje, stike in fotografije je mogoče shranjevani na strežniku podjetja, osebno, ali pri kateremkoli ponudniku, ki storitev omogoča. ",
     "Host your data and files where you decide" : "Shranjujte podatke in datoteke, kjer vi želite",
-    "Open Standards and Interoperability" : "Odprti standardi in medobratovalnost",
-    "100%% Open Source & community-focused" : "100%% odprtokodno in v domeni skupnosti",
     "Learn more about %s" : "Raziščite dodatne možnosti okolja %s",
     "This Nextcloud is on version %s" : "Okolje Nextcloud deluje na različici %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "Spletni oblak %s omogoča dostop do datotek, kjerkoli že ste. Za uporabo na namizju in na mobilnih napravah so za različne sisteme na voljo samostojni usklajevalni programi.",
@@ -86,6 +84,8 @@ OC.L10N.register(
     "Start using Nextcloud" : "Začnite uporabljati Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Prebrskajte med več kot 100 programi v trgovini Nextcloud in si prilagodite oblak:",
     "Browse the app store" : "Prebrskaj po trgovini programov",
-    "Android app" : "Odjemalec za Android"
+    "Android app" : "Odjemalec za Android",
+    "Open Standards and Interoperability" : "Odprti standardi in medobratovalnost",
+    "100%% Open Source & community-focused" : "100%% odprtokodno in v domeni skupnosti"
 },
 "nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);");

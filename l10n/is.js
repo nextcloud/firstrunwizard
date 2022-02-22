@@ -61,8 +61,6 @@ OC.L10N.register(
     "A safe home for all your data" : "Öruggur staður fyrir öll gögnin þín",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud setur gögnin þín í þínar hendur, undir þína stjórn. Geymdu skjölin þín, dagatal, tengiliði og myndir á vefþjón í fyrirtækinu þínu, heima hjá þér, hjá einhverjum þjónustuaðila sem við mælum með eða í gagnaveri sem þú treystir.",
     "Host your data and files where you decide" : "Hýstu gögn þín og skrár þar sem þú ákveður",
-    "Open Standards and Interoperability" : "Opnir staðlar og samstarfshæfni",
-    "100%% Open Source & community-focused" : "100%% opinn hugbúnaður (open source) með áherslu á samfélagið",
     "Learn more about %s" : "Vita meira um %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s veitir þér aðgang að skránum þínum hvar sem þú ert. Tengiforritin okkar fyrir tölvur og snjalltæki eru fáanleg fyrir flest algengustu stýrikerfi án nokkurs kostnaðar.",
     "Set up sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Settu upp samstillingarbiðlara með <a href=\"%s\">lykilorði forrits</a>. Þannig geturðu verið viss um að geta afturkallað aðgangsheimildir fari svo að þú tapir því tæki.",
@@ -74,6 +72,8 @@ OC.L10N.register(
     "Start using Nextcloud" : "Byrjaðu að nota Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Skoðaðu meira en 100 forrit í forritasafni Nextcloud til að sérsníða tölvuskýið þitt:",
     "Browse the app store" : "Flakka um forritasafnið",
-    "Android app" : "Android-forrit"
+    "Android app" : "Android-forrit",
+    "Open Standards and Interoperability" : "Opnir staðlar og samstarfshæfni",
+    "100%% Open Source & community-focused" : "100%% opinn hugbúnaður (open source) með áherslu á samfélagið"
 },
 "nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);");

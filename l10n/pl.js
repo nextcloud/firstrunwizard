@@ -72,8 +72,6 @@ OC.L10N.register(
     "A safe home for all your data" : "Bezpieczny dom dla Twoich danych",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud umieszcza Twoje dane na wyciągnięcie ręki, pod Twoją kontrolą. Przechowuj dokumenty, kalendarz, kontakty i zdjęcia na serwerze w swojej firmie, w domu, u jednego z naszych dostawców lub w centrum danych, które znasz.",
     "Host your data and files where you decide" : "Decyduj o miejscu przechowywania swoich danych i plików",
-    "Open Standards and Interoperability" : "Otwarte standardy i interoperacyjność",
-    "100%% Open Source & community-focused" : "100%% open source i skupiony na społeczności",
     "Learn more about %s" : "Dowiedz się więcej o %s",
     "This Nextcloud is on version %s" : "Usługa Nextcloud jest w wersji %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s daje Tobie dostęp do plików gdziekolwiek jesteś. Łatwy w użyciu klient na komputer i telefon dostępny jest na wszystkich popularnych platformach za darmo.",
@@ -86,6 +84,8 @@ OC.L10N.register(
     "Start using Nextcloud" : "Zacznij używać Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Znajdź ponad 100 aplikacji w sklepie z aplikacjami Nextcloud, aby dostosować swoją chmurę:",
     "Browse the app store" : "Przeglądaj sklep z aplikacjami",
-    "Android app" : "Aplikacja Android"
+    "Android app" : "Aplikacja Android",
+    "Open Standards and Interoperability" : "Otwarte standardy i interoperacyjność",
+    "100%% Open Source & community-focused" : "100%% open source i skupiony na społeczności"
 },
 "nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);");
