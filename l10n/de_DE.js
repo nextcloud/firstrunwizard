@@ -72,6 +72,8 @@ OC.L10N.register(
     "A safe home for all your data" : "Ein sicheres Zuhause für Ihre Daten",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud bringt all Ihre Daten unter Ihre Kontrolle. Speichern Sie all Ihre Dokumente, Kalender, Kontakte und Bilder auf einem Server in Ihrer Firma, zu Hause, bei einem unserer Provider oder in einem Ihnen bekannten Datenzentrum.",
     "Host your data and files where you decide" : "Speichern Sie Ihre Daten und Dateien wo Sie möchten",
+    "Open standards and interoperability" : "Offene Standards und Interoperabilität",
+    "100%% open source & community-focused" : "100%% Open Source & Community-fokussiert",
     "Learn more about %s" : "Erfahren Sie mehr über %s",
     "This Nextcloud is on version %s" : "Diese Nextcloud läuft mit Version %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s erlaubt Ihnen den Zugriff auf Ihre Dateien, egal wo Sie sind. Unser Desktop-Client und die mobilen Apps sind kostenfrei für alle wichtigen Plattformen verfügbar.",
