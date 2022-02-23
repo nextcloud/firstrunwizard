@@ -2,9 +2,9 @@
 	<Modal
 		v-if="showModal && slideList.length > 0"
 		id="firstrunwizard"
+		size="large"
 		:has-previous="hasPrevious"
 		:has-next="hasNext"
-		:size="isMobile ? 'full' : 'normal'"
 		:clear-view-delay="-1 /* disable fade-out because of accessibility reasons */"
 		name="modal"
 		@previous="previous"
@@ -147,11 +147,20 @@
 		}
 
 		// primary on next button
-		.modal-wrapper .icon-next {
-			background-color: var(--color-primary);
-			color: var(--color-primary-text);
-			box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
-			left: 22px;
+		.modal-wrapper {
+			.icon-next {
+				background-color: var(--color-primary);
+				color: var(--color-primary-text);
+				box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+				left: 22px;
+			}
+
+			.icon-previous {
+				background-color: var(--color-primary-light);
+				color: var(--color-primary-light-text);
+				box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+				left: 22px;
+			}
 		}
 	}
 
@@ -225,6 +234,11 @@
 				}
 			}
 		}
+		// fix button position on mobile (so that they don't overlap with text)
+		.modal-mask .modal-wrapper .next, .prev {
+			top: 220px;
+			align-items: start !important;
+		}
 	}
 </style>
 
@@ -239,10 +253,6 @@
 		&::v-deep .modal-container {
 			display: flex;
 			flex-direction: column;
-			height: 95% !important;
-			width: 95% !important;
-			max-width: 900px;
-			max-height: 650px !important;
 			position: relative;
 		}
 
@@ -262,9 +272,6 @@
 	}
 
 	.modal-header {
-		height: 180px;
-		max-height: 40vh;
-		overflow: hidden;
 		flex-shrink: 0;
 
 		.firstrunwizard-header {
@@ -352,7 +359,6 @@ export default {
 			slides: [],
 			currentSlide: 0,
 			fadeDirection: 'next',
-			isMobile: window.outerWidth < 1024,
 			slidesLoaded: false,
 		}
 	},
@@ -426,10 +432,6 @@ export default {
 				return
 			}
 			this.currentSlide -= 1
-		},
-		onResize(event) {
-			// Update mobile mode
-			this.isMobile = window.outerWidth < 768
 		},
 	},
 }
