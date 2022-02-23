@@ -72,6 +72,8 @@ OC.L10N.register(
     "A safe home for all your data" : "Verileriniz için güvenli bir yer",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud verilerinizi ayağınıza getirir ve kontrol altında tutmanızı sağlar. Belgelerinizi, takvim ve kişi kayıtlarınızı ve fotoğraflarınızı kuruluşunuzdaki, evinizdeki, hizmet sağlayıcılarımızdaki ya da herhangi bir veri merkezindeki bir sunucu üzerinde bulundurabilirsiniz.",
     "Host your data and files where you decide" : "Veri ve dosyalarınızı istediğiniz yerde barındırın",
+    "Open standards and interoperability" : "Açık standartlar ve birlikte çalışabilirlik",
+    "100%% open source & community-focused" : "%%100 açık kaynaklı ve topluluk odaklı",
     "Learn more about %s" : "%s hakkında ayrıntılı bilgi alın",
     "This Nextcloud is on version %s" : "Bu Nextcloud sürümü %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s dosyalarınıza istediğiniz her yerden erişme olanağı sunar. Kullanımı kolay masaüstü ve mobil uygulamalarımız yaygın tüm platformlar için bulunabilir ve herhangi bir ücret ödemeden kullanılabilir.",
