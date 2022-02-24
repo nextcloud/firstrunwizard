@@ -72,6 +72,8 @@ OC.L10N.register(
     "A safe home for all your data" : "您資料的安全屋",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud 在您觸手可及的地方放置您的資料，在您的控制下。存放您的文件，日曆，聯絡人及相片在您公司，家中，任一個我們的提供者或是任何您知道的資料中心的伺服器上。",
     "Host your data and files where you decide" : "在您決定的位置存放您的資料與檔案",
+    "Open standards and interoperability" : "開放標準與互操作性",
+    "100%% open source & community-focused" : "100%% 開放原始碼及以社群為中心",
     "Learn more about %s" : "了解更多關於%s",
     "This Nextcloud is on version %s" : "此 Nextcloud 版本為 %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s 讓您不管身在何處都可以存取您的檔案，我們免費提供各大主要平臺上簡單易用的桌面和流動裝置客戶端",
