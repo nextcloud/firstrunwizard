@@ -71,7 +71,7 @@ OC.L10N.register(
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud posa les vostres dades al vostre abast, sota el vostre control. Emmagatzemeu els vostres documents, calendari, contactes i fotos en un servidor de la vostra empresa, a casa, en un dels nostres proveïdors o en un centre de dades que conegueu.",
     "Host your data and files where you decide" : "Allotgeu les vostres dades i fitxers on decidiu",
     "Learn more about %s" : "Més informació sobre %s",
-    "This Nextcloud is on version %s" : "Aquest Nextcloud està en versió %s",
+    "This Nextcloud is on version %s" : "Aquest Nextcloud és a la versió %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s us dóna accés als vostres fitxers allà on sigueu. Els nostres clients d’escriptori i mòbils, fàcils d’utilitzar, estan disponibles per a totes les principals plataformes a cost zero.",
     "Set up sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Configurar clients de sincronització mitjançant una <a href=\"%s\">contrasenya d’aplicació</a>. D'aquesta manera es pot assegurar-se que vostè és capaç de revocar l'accés en cas de perdre aquell dispositiu.",
     "Connect other apps to %s" : "Connecteu altres aplicacions a %s",
