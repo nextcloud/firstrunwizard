@@ -90,4 +90,4 @@ OC.L10N.register(
     "Open Standards and Interoperability" : "Normes ouvertes et interopérabilité",
     "100%% Open Source & community-focused" : "100%% Open Source & axé sur la communauté "
 },
-"nplurals=2; plural=(n > 1);");
+"nplurals=3; plural=(n==0 || n==1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");
