@@ -153,6 +153,7 @@
 				color: var(--color-primary-text);
 				box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
 				left: 22px;
+				border-radius: 40px;
 			}
 
 			.icon-previous {
@@ -160,6 +161,7 @@
 				color: var(--color-primary-light-text);
 				box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
 				left: 22px;
+				border-radius: 40px;
 			}
 		}
 	}
