@@ -112,7 +112,7 @@ class Notifier implements INotifier {
 			case 'apphint-tasks':
 			case 'apphint-deck':
 			case 'apphint-notes':
-			case 'apphint-social':
+			//case 'apphint-social':
 			case 'apphint-groupfolders':
 				$app = $notification->getObjectId();
 				return $this->setAppHintDetails($notification, $languageCode, $app);
@@ -194,11 +194,11 @@ class Notifier implements INotifier {
 				$notification->setParsedMessage($l->t('Distraction-free notes and writing.'));
 				$appLink = '/organization/notes';
 				break;
-			case 'social':
-				$notification->setParsedSubject($l->t('App recommendation: Social'));
-				$notification->setParsedMessage($l->t('Nextcloud becomes part of the federated social networks.'));
-				$appLink = '/social/social';
-				break;
+			// case 'social':
+			// 	$notification->setParsedSubject($l->t('App recommendation: Social'));
+			// 	$notification->setParsedMessage($l->t('Nextcloud becomes part of the federated social networks.'));
+			// 	$appLink = '/social/social';
+			// 	break;
 			case 'groupfolders':
 				$notification->setParsedSubject($l->t('App recommendation: Group folders'));
 				$notification->setParsedMessage($l->t('Admin-configured folders shared by everyone in a group.'));
