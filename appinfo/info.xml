@@ -40,7 +40,7 @@ The First run wizard can be customized to meet specific design goals, or to chan
 			<name>About</name>
 			<route>files.view.index</route>
 			<icon>info.svg</icon>
-			<order>5</order>
+			<order>6</order>
 			<type>settings</type>
 		</navigation>
 	</navigations>
