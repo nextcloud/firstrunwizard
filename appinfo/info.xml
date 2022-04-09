@@ -25,7 +25,7 @@ The First run wizard can be customized to meet specific design goals, or to chan
 			<id>firstrunwizard-about</id>
 			<name>About</name>
 			<route></route>
-			<order>5</order>
+			<order>6</order>
 			<icon>info.svg</icon>
 			<type>settings</type>
 		</navigation>
