@@ -236,10 +236,17 @@
 				}
 			}
 		}
+
 		// fix button position on mobile (so that they don't overlap with text)
-		.modal-mask .modal-wrapper .next, .prev {
-			top: 220px;
-			align-items: start !important;
+		.modal-mask .modal-wrapper {
+			.next, .prev {
+				top: 220px;
+				align-items: start;
+			}
+
+			.icon-next, .icon-previous {
+				border-radius: 0px !important;
+			}
 		}
 	}
 </style>
