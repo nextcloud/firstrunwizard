@@ -20,7 +20,6 @@ OC.L10N.register(
     "App recommendation: Tasks" : "Recomendação de aplicação: Tarefas Nextcloud",
     "App recommendation: Deck" : "Recomendação de aplicação: Deck",
     "App recommendation: Notes" : "Recomendação de aplicação: Notas",
-    "App recommendation: Social" : "Recomendação de aplicação: Social",
     "App recommendation: Group folders" : "Recomendação de aplicação: Pastas de grupo",
     "About" : "Sobre",
     "Get the apps to sync your files" : "Obtenha as aplicações para sincronizar os seus ficheiros",
@@ -42,6 +41,7 @@ OC.L10N.register(
     "A safe home for all your data" : "Um local seguro para todos os seus dados",
     "Server address" : "Endereço do servidor",
     "Copy link" : "Copiar hiperligação",
+    "App recommendation: Social" : "Recomendação de aplicação: Social",
     "Start using Nextcloud" : "Começar a usar a Nextcloud",
     "Android app" : "Aplicação Android"
 },
