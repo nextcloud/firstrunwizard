@@ -237,13 +237,14 @@
 			}
 		}
 
-		// fix button position on mobile (so that they don't overlap with text)
+		// Fix button position on mobile (so that they don't overlap with text)
 		.modal-mask .modal-wrapper {
 			.next, .prev {
 				top: 220px;
 				align-items: start;
 			}
 
+			// Make buttons edgy on mobile which looks better
 			.icon-next, .icon-previous {
 				border-radius: 0px !important;
 			}
