@@ -1,6 +1,5 @@
 <template>
-	<Modal
-		v-if="showModal && slideList.length > 0"
+	<Modal v-if="showModal && slideList.length > 0"
 		id="firstrunwizard"
 		size="large"
 		:has-previous="hasPrevious"
@@ -38,6 +37,102 @@
 		</div>
 	</Modal>
 </template>
+<script>
+import Modal from '@nextcloud/vue/dist/Components/Modal'
+import axios from '@nextcloud/axios'
+import { generateUrl } from '@nextcloud/router'
+import IntroVideo from './components/IntroVideo'
+
+export default {
+	name: 'App',
+	components: {
+		Modal,
+	},
+	data() {
+		return {
+			showModal: false,
+			withIntro: true,
+			slides: [],
+			currentSlide: 0,
+			fadeDirection: 'next',
+			slidesLoaded: false,
+		}
+	},
+	computed: {
+		slideList() {
+			if (this.withIntro) {
+				return this.slides
+			}
+			const slides = this.slides
+			return slides.slice(1)
+		},
+		hasNext() {
+			return this.currentSlide < this.slideList.length - 1
+		},
+		hasPrevious() {
+			return this.currentSlide > 0
+		},
+		isLast() {
+			return this.currentSlide === this.slideList.length - 1
+		},
+		isFirst() {
+			return this.currentSlide === 0
+		},
+		startButtonText() {
+			return t('firstrunwizard', 'Start using {cloudName}', { cloudName: window.OC.theme.name })
+		},
+	},
+	async created() {
+		this.slides = [IntroVideo]
+		window.addEventListener('resize', this.onResize)
+	},
+	beforeDestroy() {
+		window.removeEventListener('resize', this.onResize)
+	},
+	methods: {
+		async loadStaticSlides() {
+			if (this.slidesLoaded) {
+				return
+			}
+
+			try {
+				const response = await axios.get(generateUrl('/apps/firstrunwizard/wizard'))
+				this.slides.push(...response.data.slides)
+				this.withIntro = response.data.hasVideo
+				this.slidesLoaded = true
+			} catch (e) {
+				console.error('Failed to load slides')
+			}
+		},
+		async open(withIntro = true) {
+			await this.loadStaticSlides()
+			this.withIntro = this.withIntro & withIntro
+			this.showModal = true
+			this.currentSlide = 0
+		},
+		close() {
+			this.showModal = false
+			axios.delete(generateUrl('/apps/firstrunwizard/wizard'))
+		},
+		next() {
+			this.fadeDirection = 'next'
+			if (this.isLast) {
+				this.close()
+				return
+			}
+			this.currentSlide += 1
+		},
+		previous() {
+			this.fadeDirection = 'previous'
+			if (this.isFirst) {
+				return
+			}
+			this.currentSlide -= 1
+		},
+	},
+}
+</script>
+
 <style lang="scss">
 	/* Page styling needs to be unscoped, since we load it separately from the server */
 	#firstrunwizard {
@@ -243,7 +338,6 @@
 		}
 	}
 </style>
-
 <style lang="scss" scoped>
 	.modal-mask {
 		background-color: rgba(0, 0, 0, 0.7);
@@ -343,98 +437,3 @@
 		opacity: 0;
 	}
 </style>
-<script>
-import Modal from '@nextcloud/vue/dist/Components/Modal'
-import axios from '@nextcloud/axios'
-import { generateUrl } from '@nextcloud/router'
-import IntroVideo from './components/IntroVideo'
-
-export default {
-	name: 'App',
-	components: {
-		Modal,
-	},
-	data() {
-		return {
-			showModal: false,
-			withIntro: true,
-			slides: [],
-			currentSlide: 0,
-			fadeDirection: 'next',
-			slidesLoaded: false,
-		}
-	},
-	computed: {
-		slideList() {
-			if (this.withIntro) {
-				return this.slides
-			}
-			const slides = this.slides
-			return slides.slice(1)
-		},
-		hasNext() {
-			return this.currentSlide < this.slideList.length - 1
-		},
-		hasPrevious() {
-			return this.currentSlide > 0
-		},
-		isLast() {
-			return this.currentSlide === this.slideList.length - 1
-		},
-		isFirst() {
-			return this.currentSlide === 0
-		},
-		startButtonText() {
-			return t('firstrunwizard', 'Start using {cloudName}', { cloudName: window.OC.theme.name })
-		},
-	},
-	async created() {
-		this.slides = [IntroVideo]
-		window.addEventListener('resize', this.onResize)
-	},
-	beforeDestroy() {
-		window.removeEventListener('resize', this.onResize)
-	},
-	methods: {
-		async loadStaticSlides() {
-			if (this.slidesLoaded) {
-				return
-			}
-
-			try {
-				const response = await axios.get(generateUrl('/apps/firstrunwizard/wizard'))
-				this.slides.push(...response.data.slides)
-				this.withIntro = response.data.hasVideo
-				this.slidesLoaded = true
-			} catch (e) {
-				console.error('Failed to load slides')
-			}
-		},
-		async open(withIntro = true) {
-			await this.loadStaticSlides()
-			this.withIntro = this.withIntro & withIntro
-			this.showModal = true
-			this.currentSlide = 0
-		},
-		close() {
-			this.showModal = false
-			axios.delete(generateUrl('/apps/firstrunwizard/wizard'))
-		},
-		next() {
-			this.fadeDirection = 'next'
-			if (this.isLast) {
-				this.close()
-				return
-			}
-			this.currentSlide += 1
-		},
-		previous() {
-			this.fadeDirection = 'previous'
-			if (this.isFirst) {
-				return
-			}
-			this.currentSlide -= 1
-		},
-	},
-}
-</script>
