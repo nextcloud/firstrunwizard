@@ -84,8 +84,8 @@ OC.L10N.register(
     "App recommendation: Social" : "Application recommandée: Social",
     "Nextcloud becomes part of the federated social networks." : "Nextcloud fait maintenant partie des réseaux sociaux fédérés !",
     "Start using Nextcloud" : "Commencer à utiliser Nextcloud",
-    "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Trouvez plus de 100 applications dans l'App Store de Nextcloud pour personnaliser votre cloud : ",
-    "Browse the app store" : "Parcourir l'App Store",
+    "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Trouvez plus de 100 applications dans le magasin d'applications de Nextcloud pour personnaliser votre cloud : ",
+    "Browse the app store" : "Parcourir le magasin d'applications",
     "Android app" : "Application Android",
     "Open Standards and Interoperability" : "Normes ouvertes et interopérabilité",
     "100%% Open Source & community-focused" : "100%% Open Source & axé sur la communauté "
