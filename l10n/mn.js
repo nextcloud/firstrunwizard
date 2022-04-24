@@ -7,6 +7,7 @@ OC.L10N.register(
     "Press Ctrl-C to copy." : "Хуулахын тулд Ctrl-C дарна уу.",
     "About" : "Тухай",
     "Desktop client" : "захиалагчийн дэлгэц",
-    "Server address" : "хүлээн авагчийн хаяг"
+    "Server address" : "хүлээн авагчийн хаяг",
+    "Copy link" : "Холбоос хуулах"
 },
 "nplurals=2; plural=(n != 1);");
