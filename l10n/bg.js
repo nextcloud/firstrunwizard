@@ -81,11 +81,6 @@ OC.L10N.register(
     "Server address" : "Адрес на сървъра",
     "Use this link to connect your apps and desktop client to this server:" : "Използвайте тази връзка, за да свържете вашите приложения и настолен клиент към този сървър:",
     "Copy link" : "Копирай връзката",
-    "App recommendation: Social" : "Препоръка за приложение: Социални",
-    "Nextcloud becomes part of the federated social networks." : "Nextcloud е вече част от федерираните социални мрежи.",
-    "Start using Nextcloud" : "Към Nextcloud",
-    "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Можете да откриете повече от 100 приложения в Nextcloud магазина и да преобразите своя облак:",
-    "Browse the app store" : "Прегледай магазина за приложения",
     "Android app" : "Андроид приложение",
     "Open Standards and Interoperability" : "Отворени стандарти и съвместимост",
     "100%% Open Source & community-focused" : "100%% Отворен код и фокус към общността"

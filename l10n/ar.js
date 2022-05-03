@@ -34,8 +34,6 @@ OC.L10N.register(
     "Connect other apps to %s" : "قم بربط تطبيقات أخرى مع %s",
     "Server address" : "عنوان الخادم",
     "Copy link" : "انسخ الرابط",
-    "Start using Nextcloud" : "اشرع في استخدام ناكست كلاود",
-    "Browse the app store" : "استكشف متجر التطبيقات",
     "Android app" : "تطبيق أندرويد",
     "100%% Open Source & community-focused" : "منصة مفتوحة المصدر 100%% موجهة للمجتمع"
 },

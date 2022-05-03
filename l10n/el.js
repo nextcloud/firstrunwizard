@@ -81,11 +81,6 @@ OC.L10N.register(
     "Server address" : "Διεύθυνση διακομιστή",
     "Use this link to connect your apps and desktop client to this server:" : "Χρησιμοποιήστε τον σύνδεσμο για να συνδέσετε την εφαρμογή υπολογιστή και κινητού σε αυτόν τον διακομιστή:",
     "Copy link" : "Αντιγραφή συνδέσμου",
-    "App recommendation: Social" : "Προτεινόμενη εφαρμογή: Κοινωνικά",
-    "Nextcloud becomes part of the federated social networks." : "Το Nextcloud γίνεται μέρος των κοινωνικών δικτύων!",
-    "Start using Nextcloud" : "Έναρξη χρήσης Nextcloud",
-    "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Βρείτε περισσότερες από 100 εφαρμογές στο κατάστημα εφαρμογών Nextcloud για να προσαρμόσετε το σύννεφο σας:",
-    "Browse the app store" : "Εξερεύνηση αγοράς αφαρμογών",
     "Android app" : "Εφαρμογή Android",
     "Open Standards and Interoperability" : "Ανοικτά πρότυπα και διαλειτουργικότητα",
     "100%% Open Source & community-focused" : "100%% Ανοικτά Δεδομένα & εστιασμένα στην κοινότητα"

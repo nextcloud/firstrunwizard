@@ -67,11 +67,6 @@ OC.L10N.register(
     "Server address" : "Vistfang þjóns",
     "Use this link to connect your apps and desktop client to this server:" : "Notaðu þessa slóð fyrir forritin þín til að tengjast þessum þjóni:",
     "Copy link" : "Afrita tengil",
-    "App recommendation: Social" : "Forrit sem mælt er með: Social samfélagsnetaforrit",
-    "Nextcloud becomes part of the federated social networks." : "Nextcloud verður hluti af samfélagsnetum í skýjasambandi.",
-    "Start using Nextcloud" : "Byrjaðu að nota Nextcloud",
-    "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Skoðaðu meira en 100 forrit í forritasafni Nextcloud til að sérsníða tölvuskýið þitt:",
-    "Browse the app store" : "Flakka um forritasafnið",
     "Android app" : "Android-forrit",
     "Open Standards and Interoperability" : "Opnir staðlar og samstarfshæfni",
     "100%% Open Source & community-focused" : "100%% opinn hugbúnaður (open source) með áherslu á samfélagið"
