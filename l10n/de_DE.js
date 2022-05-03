@@ -81,11 +81,6 @@ OC.L10N.register(
     "Server address" : "Serveradresse",
     "Use this link to connect your apps and desktop client to this server:" : "Verwenden Sie diesen Link, um Ihre Apps und Ihren Desktop-Clienten mit diesem Server zu verbinden:",
     "Copy link" : "Link kopieren",
-    "App recommendation: Social" : "App-Empfehlung: Social",
-    "Nextcloud becomes part of the federated social networks." : "Nextcloud wird Teil des Verbundes sozialer Netzwerke.",
-    "Start using Nextcloud" : "Starten Sie mit Nextcloud",
-    "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Finden Sie mehr als 100 Apps im Nextcloud App Store, um Ihre Cloud anzupassen:",
-    "Browse the app store" : "Im App Store stöbern",
     "Android app" : "Android-App",
     "Open Standards and Interoperability" : "Offene Standards und Interoperabilität",
     "100%% Open Source & community-focused" : "100%% Open Source & Community-fokussiert"

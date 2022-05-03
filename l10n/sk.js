@@ -81,11 +81,6 @@ OC.L10N.register(
     "Server address" : "Adresa servera",
     "Use this link to connect your apps and desktop client to this server:" : "Pre prepojenie vašich aplikácii a desktopového klienta na tento server použite tento odkaz: ",
     "Copy link" : "Kopíruj odkaz",
-    "App recommendation: Social" : "Odporúčaná aplikácia: Social",
-    "Nextcloud becomes part of the federated social networks." : "Nextcloud sa stáva súčasťou združených sociálnych sieti.",
-    "Start using Nextcloud" : "Začnite používať Nextcloud",
-    "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Pozrite si viac než 100 aplikácií v katalógu Nextcloud, ktorými si môžete prispôsobiť svoj cloud:",
-    "Browse the app store" : "Prehliadajte obchod aplikácií",
     "Android app" : "Android aplikácia",
     "Open Standards and Interoperability" : "Otvorené štandardy a interoperabilita",
     "100%% Open Source & community-focused" : "100%% Open Source so zameraním na komunitu"

@@ -77,11 +77,6 @@ OC.L10N.register(
     "Server address" : "Indiritzu de su serbidore",
     "Use this link to connect your apps and desktop client to this server:" : "Imprea custu ligòngiu pro collegare is aplicatziones tuas e su cliente de iscrivania a custu serbidore:",
     "Copy link" : "Còpia ligòngiu",
-    "App recommendation: Social" : "Racumandatzione aplicatzione: Social",
-    "Nextcloud becomes part of the federated social networks." : "Nextcloud divenit parte de is retes sotziales federadas.",
-    "Start using Nextcloud" : "Cumintza a impreare Nextcloud",
-    "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Agata prus de 100 aplicatziones in sa butega de is aplicatziones pro personalizare sa nue tua:",
-    "Browse the app store" : "Esplora sa butega de is aplicatziones",
     "Android app" : "Aplicatzione Android",
     "Open Standards and Interoperability" : "Istandard abertos e interoperabilidade",
     "100%% Open Source & community-focused" : "100%% de còdighe abertu e contzentradu in sa comunidade"

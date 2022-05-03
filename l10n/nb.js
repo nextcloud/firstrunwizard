@@ -45,9 +45,6 @@ OC.L10N.register(
     "Connect other apps to %s" : "Koble andre apper til %s",
     "Server address" : "Serveradresse",
     "Copy link" : "Kopier lenke",
-    "Start using Nextcloud" : "Begynn å bruke Nextcloud",
-    "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Finn mer enn 100 apper i Nextcloud app-butikken for å tilpasse skyen din:",
-    "Browse the app store" : "Bla gjennom app-butikken",
     "Android app" : "Android-app"
 },
 "nplurals=2; plural=(n != 1);");
