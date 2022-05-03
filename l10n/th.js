@@ -26,7 +26,6 @@ OC.L10N.register(
     "Learn more about %s" : "ดูเพิ่มเติมเกี่ยวกับ %s",
     "Server address" : "ที่อยู่เซิร์ฟเวอร์",
     "Copy link" : "คัดลอกลิงก์",
-    "Start using Nextcloud" : "เริ่มใช้ Nextcloud",
     "Android app" : "แอป Android"
 },
 "nplurals=1; plural=0;");

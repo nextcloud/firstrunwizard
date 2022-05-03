@@ -81,11 +81,6 @@ OC.L10N.register(
     "Server address" : "Zerbitzariaren helbidea",
     "Use this link to connect your apps and desktop client to this server:" : "Erabili esteka hau zure aplikazio eta mahaigaineko bezeroak zerbitzari honetara konektatzeko:",
     "Copy link" : "Kopiatu esteka",
-    "App recommendation: Social" : "Aholkatutako aplikazioa: Social",
-    "Nextcloud becomes part of the federated social networks." : "Nexcloud federatutako sare sozialekin bat egiten du.",
-    "Start using Nextcloud" : "Hasi Nextcloud erabiltzen",
-    "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "100 aplikaziotik gora bila ditzakezu Nextclouden aplikazio biltegian zure hodeia pertsonalizatzeko:",
-    "Browse the app store" : "Arakatu aplikazio biltegia",
     "Android app" : "Android aplikazioa",
     "Open Standards and Interoperability" : "Estandar irekiak eta elkarreragingarritasuna",
     "100%% Open Source & community-focused" : "%%100 kode irekikoa eta komunitatera zuzendua"

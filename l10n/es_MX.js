@@ -51,9 +51,6 @@ OC.L10N.register(
     "Connect other apps to %s" : "Conectar otras aplicaciones a %s",
     "Server address" : "Dirección del servidor",
     "Copy link" : "Copiar liga",
-    "Start using Nextcloud" : "Empieza a usar Nextcloud",
-    "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Puedes encontrar más de 100 apliicaciones en la tienda de aplicaciones de Nextcloud y personalizar tu nube:",
-    "Browse the app store" : "Navega la tienda de aplicaciones",
     "Android app" : "Aplicación Android",
     "Open Standards and Interoperability" : "Estándares Abiertos e Interoperabilidad",
     "100%% Open Source & community-focused" : "100%% Código Abierto & orientado a la comunidad"

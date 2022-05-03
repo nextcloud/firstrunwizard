@@ -67,10 +67,6 @@ OC.L10N.register(
     "Server address" : "Serverio adresas",
     "Use this link to connect your apps and desktop client to this server:" : "Naudokite šią nuorodą norėdami prijungti savo programėles bei darbalaukio kliento programas prie šio serverio:",
     "Copy link" : "Kopijuoti nuorodą",
-    "Nextcloud becomes part of the federated social networks." : "Nextcloud tampa federacinių socialinių tinklų dalimi.",
-    "Start using Nextcloud" : "Pradėti naudotis Nextcloud",
-    "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Nextcloud programėlių parduotuvėje raskite daugiau kaip 100 programėlių, skirtų tinkinti jūsų debesiją:",
-    "Browse the app store" : "Naršyti programėlių parduotuvę",
     "Android app" : "Android programėlė",
     "Open Standards and Interoperability" : "Atviri standartai ir funkcinis suderinamumas",
     "100%% Open Source & community-focused" : "100%% atvirojo kodo ir sutelkta į bendruomenę"
