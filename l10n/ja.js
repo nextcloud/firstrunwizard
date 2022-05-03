@@ -79,11 +79,6 @@ OC.L10N.register(
     "Server address" : "サーバーアドレス",
     "Use this link to connect your apps and desktop client to this server:" : "アプリやデスクトップクライアントをこのサーバーに接続するには、このリンクを使用してください:",
     "Copy link" : "リンクをコピー",
-    "App recommendation: Social" : "アプリのおすすめ：ソーシャル",
-    "Nextcloud becomes part of the federated social networks." : "Nextcloudはソーシャルネットワーク連携の一部になります！",
-    "Start using Nextcloud" : "Nextcloud の利用を開始する",
-    "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Nextcloud アプリストアで100以上のアプリを見つけて、クラウドをカスタマイズしてください：",
-    "Browse the app store" : "アプリストアをブラウザーでみる",
     "Android app" : "Android アプリ",
     "Open Standards and Interoperability" : "オープンな規格と相互運用性",
     "100%% Open Source & community-focused" : "100 %%オープンソースかつコミュニティ主体の開発"

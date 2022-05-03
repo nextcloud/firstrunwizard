@@ -79,11 +79,6 @@ OC.L10N.register(
     "Server address" : "服务器地址",
     "Use this link to connect your apps and desktop client to this server:" : "使用此链接将您的应用和桌面客户端连接到此服务器：",
     "Copy link" : "复制链接",
-    "App recommendation: Social" : "应用推荐：社交",
-    "Nextcloud becomes part of the federated social networks." : "Nextcloud 已经成为了联合云社交网络的一部分。",
-    "Start using Nextcloud" : "开始使用 Nextcloud",
-    "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "您可以在 Nextcloud 的应用中心中找到超过 100 个自定义应用：",
-    "Browse the app store" : "浏览应用商店",
     "Android app" : "安卓应用",
     "Open Standards and Interoperability" : "开放标准和互操作性",
     "100%% Open Source & community-focused" : "100 %% 开源，专注于为社区用户服务"

@@ -31,8 +31,6 @@
     "Server address" : "서버 주소",
     "Use this link to connect your apps and desktop client to this server:" : "다음 링크를 사용하여 데스크톱 클라이언트나 당신의 앱에 이 서버를 연결하세요.",
     "Copy link" : "링크 복사",
-    "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Nextcloud 앱스토어에서 100개 이상의 앱을 골라 당신만의 클라우드를 만드세요:",
-    "Browse the app store" : "앱 스토어에서 둘러보기",
     "Android app" : "Android 앱"
 },"pluralForm" :"nplurals=1; plural=0;"
 }
