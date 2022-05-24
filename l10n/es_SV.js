@@ -48,4 +48,4 @@ OC.L10N.register(
     "Open Standards and Interoperability" : "Estándares Abiertos e Interoperabilidad",
     "100%% Open Source & community-focused" : "100%% Código Abierto & orientado a la comunidad"
 },
-"nplurals=2; plural=(n != 1);");
+"nplurals=2; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");
