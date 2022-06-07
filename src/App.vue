@@ -9,7 +9,7 @@
 		@previous="previous"
 		@next="next"
 		@close="close">
-		<div v-if="currentSlide !== 0 || !withIntro" class="modal-header">
+		<div v-if="slideList[currentSlide].type !== 'custom' && currentSlide !== 0 || !withIntro" class="modal-header">
 			<div class="firstrunwizard-header">
 				<div class="logo">
 					<p class="hidden-visually">

@@ -22,10 +22,12 @@
 namespace OCA\FirstRunWizard\Controller;
 
 use OCA\FirstRunWizard\AppInfo\Application;
+use OCA\FirstRunWizard\Event\CustomWizardEvent;
 use OCP\AppFramework\Controller;
 use OCP\AppFramework\Http\DataResponse;
 use OCP\AppFramework\Http\JSONResponse;
 use OCP\Defaults;
+use OCP\EventDispatcher\IEventDispatcher;
 use OCP\IConfig;
 use OCP\IGroupManager;
 use OCP\IRequest;
@@ -99,6 +101,17 @@ class WizardController extends Controller {
 		}
 		$slides[] = $this->staticSlide('page.clients', $data);
 		$slides[] = $this->staticSlide('page.final', $data);
+
+		$event = new CustomWizardEvent();
+		\OCP\Server::get(IEventDispatcher::class)->dispatchTyped($event);
+		if (!empty($event->getSlides())) {
+			$slides = array_map(function ($slide) {
+				return [
+					'type' => 'custom',
+					'content' => $slide['content'],
+				];
+			}, $event->getSlides());
+		}
 
 		return new JSONResponse([
 			'hasVideo' => in_array('video', $this->slides, true),
