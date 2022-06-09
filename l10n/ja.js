@@ -70,6 +70,8 @@ OC.L10N.register(
     "A safe home for all your data" : "あなたのすべてのデータを安全に保管する場所",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud は、あなたのコントロールのもと、データをすぐに利用できるようアレンジします。 会社、自宅、私たちのプロバイダー、あるいはご存じのデータセンターのサーバーに文書、カレンダー、連絡先、写真などを保管してください。",
     "Host your data and files where you decide" : "あなたの好きな場所にデータやファイルを保管します",
+    "Open standards and interoperability" : "オープンな規格と相互運用性",
+    "100%% open source & community-focused" : "100 %%オープンソースかつコミュニティ主体の開発",
     "Learn more about %s" : "%sの詳細",
     "This Nextcloud is on version %s" : "このNextcloudのバージョンは%s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s はあなたがどこにいても、あなたのファイルへのアクセスを提供します。私たちの使いやすいデスクトップとモバイルクライアントは、ゼロコストですべての主要なプラットフォームで利用可能です。",
