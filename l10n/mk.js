@@ -70,6 +70,8 @@ OC.L10N.register(
     "A safe home for all your data" : "Безбеден дом за сите ваши податоци",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud ги остава вашите податоци во вашите раце, под ваша контрола. Складирајте ги вашите документи, календар, контакти и фотографии на серверот во вашата компанија, дома, кај некој од нашите провајдери или во центар за податоци што го знаете.",
     "Host your data and files where you decide" : "Складирајте ги вашите податоци и датотеки каде ќе одлучите",
+    "Open standards and interoperability" : "Отворени стандарди и интероперабилност",
+    "100%% open source & community-focused" : "100%% Отворен код & фокусиран на заедницата",
     "Learn more about %s" : "Научи повеќе за %s",
     "This Nextcloud is on version %s" : "Верзијата е %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s ви дава пристап до вашите датотеки каде и да сте. Нашите десктоп и мобилни клиенти се лесни за употреба и се достапни за сите платформи бесплатно.",
