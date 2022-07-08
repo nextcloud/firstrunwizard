@@ -70,6 +70,8 @@ OC.L10N.register(
     "A safe home for all your data" : "Надёжный дом для всех ваших данных",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud возвращает вам контроль над своими данными. Храните свои документы, календари, контакты и фотографии на сервере своей компании, дома, у одного из наших провайдеров или в известном вам дата-центре.",
     "Host your data and files where you decide" : "Самостоятельно выбирайте место для размещения своих файлов и данных",
+    "Open standards and interoperability" : "Открытые стандарты и функциональная совместимость",
+    "100%% open source & community-focused" : "100%% открытый исходный код и ориентированность на сообщество",
     "Learn more about %s" : "Узнать больше о %s",
     "This Nextcloud is on version %s" : "Nextcloud версии %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s предоставляет доступ к файлам откуда угодно: разработаны и бесплатно доступны приложения для синхронизации файлов для всех основных платформ мобильных устройств и ПК.",
