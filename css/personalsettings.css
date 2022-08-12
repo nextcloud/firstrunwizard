@@ -1,0 +1,32 @@
+/*
+ * SPDX-FileCopyrightText: 2022 Carl Schwan <carl@carlschwan.eu>
+ * SPDX-License-Identifer: AGPL-3.0-or-later
+ */
+
+.clientslinks {
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.clientslinks a.button {
+	display: inline-block;
+	padding: 0.7rem 1rem;
+}
+
+.clientslinks .button .appsmall {
+	vertical-align: sub;
+	margin-right: 0.2rem;
+}
+
+.clipboardButton {
+	display: inline-block;
+	padding-left: 36px;
+	background-position: 12px;
+}
+
+#endpoint-url {
+	width: 250px;
+}
