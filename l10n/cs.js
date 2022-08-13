@@ -37,7 +37,7 @@ OC.L10N.register(
     "Communication with Nextcloud Talk" : "Komunikace prostřednictvím Nextcloud Talk",
     "Collaboration apps for document editing" : "Aplikace pro spolupráci na úpravě dokumentů",
     "Security and authentication features like two-factor authentication, SSO and ransomware protection" : "Funkce pro zabezpečení a ověřování, jako je dvouúrovňové ověřování, sjednocené přihlašování a ochrana proti ransomware",
-    "Many others like a music player, a password manager, a kanban app, a download manager or a Markdown editor" : "Mnoho dalších, jako třeba přehrávač hudby, správce hesel, nástěnka (kanban), správce stahování nebo editor s podporou značkovacího jazyka markdown",
+    "Many others like a music player, a password manager, a kanban app, a download manager or a Markdown editor" : "Mnoho dalších, jako třeba přehrávač hudby, správce hesel, nástěnka s úkoly (kanban), správce stahování nebo editor s podporou značkovacího jazyka markdown",
     "Browse the App Store" : "Procházet katalog aplikací",
     "Stay in sync" : "Buďte synchronizovaní",
     "Nextcloud gives you access to your files wherever you are." : "Nextcloud vám umožňuje přistupovat k vašim souborům ať jste kdekoli.",
