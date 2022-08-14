@@ -40,7 +40,7 @@ OC.L10N.register(
     "Many others like a music player, a password manager, a kanban app, a download manager or a Markdown editor" : "Mnoho dalších, jako třeba přehrávač hudby, správce hesel, nástěnka s úkoly (kanban), správce stahování nebo editor s podporou značkovacího jazyka markdown",
     "Browse the App Store" : "Procházet katalog aplikací",
     "Stay in sync" : "Buďte synchronizovaní",
-    "Nextcloud gives you access to your files wherever you are." : "Nextcloud vám umožňuje přistupovat k vašim souborům ať jste kdekoli.",
+    "Nextcloud gives you access to your files wherever you are." : "S Nextcloud můžete přistupovat ke svým souborům odkudkoliv.",
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "Klienti pro něj se snadno používají a jsou k dispozici pro všechny hlavní platformy osobních počítačů a chytrých telefonů (tabletů, atp.) a to zdarma!",
     "Get the apps to sync your files" : "Získejte aplikace pro synchronizaci souborů",
     "Desktop client" : "Aplikace pro počítač",
