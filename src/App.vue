@@ -371,13 +371,19 @@ export default {
 		flex-shrink: 0;
 
 		.firstrunwizard-header {
+			background-size: var(--image-background-size, 275px, contain);
+			background-position: 50% 50%;
+			// Use custom background or plain primary colour if defined
+			// or fallback to default background with gradient
+			background-image: var(--image-background, var(--image-background-plain, url("../../../core/img/background.svg"), linear-gradient(
+		40deg, #0082c9 0%, #30b6ff 100%)));
+			background-color: var(--color-primary);
 			padding: 20px 12px;
-			background: var(--color-primary) var(--image-login-background) no-repeat 50% 50%;
-			background-size: cover;
 			color: var(--color-primary-text);
 			text-align: center;
 			.logo {
-				background: var(--image-logo) no-repeat center;
+				// Use custom logo if defined or fallback to default one
+				background: var(--image-logo, url("../../../core/img/logo/logo.svg")) no-repeat center;
 				background-size: contain;
 				width: 175px;
 				height: 100px;
