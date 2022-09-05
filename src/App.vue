@@ -349,7 +349,7 @@ export default {
 		&::v-deep .modal-container {
 			display: flex;
 			flex-direction: column;
-			position: relative;
+			position: absolute;
 		}
 
 		.modal-body {
