@@ -33,7 +33,7 @@ OC.L10N.register(
     "Welcome to {cloudName}!" : "Bienvenue à {cloudName} !",
     "Extend your cloud" : "Étendez votre cloud",
     "Find more than 100 apps in the Nextcloud App Store to customize your cloud:" : "Retrouver plus de 100 applications dans le magasin d'applications Nextcloud pour adapter votre cloud :",
-    "Groupware apps like Calendar, Contacts, Mail" : "Applications groupware telles que Agenda, Contact, Mail",
+    "Groupware apps like Calendar, Contacts, Mail" : "Applications Groupware telles que Agenda, Contact, Mail",
     "Communication with Nextcloud Talk" : "Communication avec Nextcloud Discussion ",
     "Collaboration apps for document editing" : "Applications d'édition de documents collaborative",
     "Security and authentication features like two-factor authentication, SSO and ransomware protection" : "Fonctionnalités de sécurité et d'authentification, telles que l'authentification à deux facteurs, l'authentification unique et la protection contre les rançongiciel",
