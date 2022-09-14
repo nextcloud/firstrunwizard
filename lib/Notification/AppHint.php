@@ -57,9 +57,9 @@ class AppHint {
 
 	public function sendAppHintNotifications(): void {
 		if ($this->userId !== null && $this->groupManager->isAdmin($this->userId) && $this->config->getUserValue($this->userId, 'firstrunwizard', 'apphint') !== self::APP_HINT_VERSION) {
+			$this->sendNotification('recognize', $this->userId);
 			$this->sendNotification('groupfolders', $this->userId);
-			//$this->sendNotification('social', $this->userId);
-			$this->sendNotification('notes', $this->userId);
+			$this->sendNotification('forms', $this->userId);
 			$this->sendNotification('deck', $this->userId);
 			$this->sendNotification('tasks', $this->userId);
 			$this->config->setUserValue($this->userId, 'firstrunwizard', 'apphint', self::APP_HINT_VERSION);
