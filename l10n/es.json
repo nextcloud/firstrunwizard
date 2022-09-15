@@ -55,8 +55,6 @@
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "¿Quieres conseguir cierta mejora en Nextcloud? ¿Has encontrado un problema? ¿Quieres ayudar a traducir, promocionar o documentar Nextcloud?",
     "Become part of the Community" : "Convíertete en parte de la comunidad",
     "Enterprise support" : "Soporte empresarial",
-    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Si ejecutas Nextcloud en un entorno crítico, con gran número de usuarios y grandes cantidades de datos, y necesitas la certeza del soporte de los expertos que hay tras la tecnología de Nextcloud, está disponible una suscripción empresarial a Nextcloud con soporte telefónico y correo electrónico.",
-    "Get enterprise support" : "Consigue soporte empresarial",
     "Get more information" : "Consigue más información",
     "The Nextcloud documentation for home users:" : "La documentación de Nextcloud para usuarios domésticos:",
     "User manual" : "Manual de usuario",
@@ -80,6 +78,8 @@
     "Use this link to connect your apps and desktop client to this server:" : "Use este enlace para conectar sus apps y el cliente de escritorio con este servidor:",
     "Copy link" : "Copiar enlace",
     "Android app" : "Aplicación de Android",
+    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Si ejecutas Nextcloud en un entorno crítico, con gran número de usuarios y grandes cantidades de datos, y necesitas la certeza del soporte de los expertos que hay tras la tecnología de Nextcloud, está disponible una suscripción empresarial a Nextcloud con soporte telefónico y correo electrónico.",
+    "Get enterprise support" : "Consigue soporte empresarial",
     "Open Standards and Interoperability" : "Estándares abiertos e interoperabilidad",
     "100%% Open Source & community-focused" : "100%% código abierto y enfocado a la comunidad"
 },"pluralForm" :"nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;"

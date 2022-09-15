@@ -57,8 +57,6 @@ OC.L10N.register(
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Wollen Sie bestimmte Verbesserungen in Nextcloud? Haben Sie ein Problem gefunden? Möchten Sie uns bei Übersetzung, Öffentlichkeitsarbeit oder Dokumentation der Nextcloud helfen?",
     "Become part of the Community" : "Werden Sie Teil der Community",
     "Enterprise support" : "Enterprise Support",
-    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Wenn Sie Nextcloud in einer missionskritischen Umgebung mit einer hohen Anzahl an Benutzern und großen Datenmengen betreiben und die Sicherheit und Unterstützung der Experten hinter der Nextcloud-Technologie benötigen, können Sie ein Enterprise-Abo besorgen. Dies beinhaltet Unterstützung via E-Mail und Telefon.",
-    "Get enterprise support" : "Erhalten Sie professionelle Unterstützung",
     "Get more information" : "Erhalten Sie weitere Informationen",
     "The Nextcloud documentation for home users:" : "Die Nextcloud Dokumentation für Heimanwender:",
     "User manual" : "Benutzerhandbuch",
@@ -82,6 +80,8 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "Verwenden Sie diesen Link, um Ihre Apps und Ihren Desktop-Clienten mit diesem Server zu verbinden:",
     "Copy link" : "Link kopieren",
     "Android app" : "Android-App",
+    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Wenn Sie Nextcloud in einer missionskritischen Umgebung mit einer hohen Anzahl an Benutzern und großen Datenmengen betreiben und die Sicherheit und Unterstützung der Experten hinter der Nextcloud-Technologie benötigen, können Sie ein Enterprise-Abo besorgen. Dies beinhaltet Unterstützung via E-Mail und Telefon.",
+    "Get enterprise support" : "Erhalten Sie professionelle Unterstützung",
     "Open Standards and Interoperability" : "Offene Standards und Interoperabilität",
     "100%% Open Source & community-focused" : "100%% Open Source & Community-fokussiert"
 },

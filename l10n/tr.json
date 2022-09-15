@@ -55,8 +55,6 @@
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Nextcloud üzerinde geliştirmek istediğiniz bir şeyler mi var? Bir sorun mu buldunuz? Çeviriye yardımcı olmak, Nextcloud uygulamasını tanıtmak ya da belgelemeye yardımcı olmak ister misiniz?",
     "Become part of the Community" : "Topluluğun bir parçası olun",
     "Enterprise support" : "Kurumsal destek",
-    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Nextcloud uygulamasını çok sayıda kullanıcı ve çok miktarda verinin bulunduğu görev kritik bir ortamda çalıştırıyorsanız ve Nextcloud geliştiricilerinin desteğine gerek duyuyorsanız Kurumsal Abonelik satın alarak e-posta ve telefon desteği sağlayabilirsiniz.",
-    "Get enterprise support" : "Kurumsal destek alın",
     "Get more information" : "Ayrıntılı bilgi alın",
     "The Nextcloud documentation for home users:" : "Ev kullanıcıları için Nextcloud belgeleri:",
     "User manual" : "Kullanıcı kılavuzu",
@@ -80,6 +78,8 @@
     "Use this link to connect your apps and desktop client to this server:" : "Uygulamalarınızı ve masaüstü istemcinizi bu sunucuya bağlamak için şu adresi kullanın:",
     "Copy link" : "Bağlantıyı kopyala",
     "Android app" : "Android uygulaması",
+    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Nextcloud uygulamasını çok sayıda kullanıcı ve çok miktarda verinin bulunduğu görev kritik bir ortamda çalıştırıyorsanız ve Nextcloud geliştiricilerinin desteğine gerek duyuyorsanız Kurumsal Abonelik satın alarak e-posta ve telefon desteği sağlayabilirsiniz.",
+    "Get enterprise support" : "Kurumsal destek alın",
     "Open Standards and Interoperability" : "Açık kaynak standartları ve uyumlu çalışma",
     "100%% Open Source & community-focused" : "%%100 Açık kaynaklı ve topluluk odaklı"
 },"pluralForm" :"nplurals=2; plural=(n > 1);"

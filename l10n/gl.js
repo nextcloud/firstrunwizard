@@ -51,8 +51,6 @@ OC.L10N.register(
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Quere obter unha certa mellora no Nextcloud? Atopou un problema? Quere axudar a traducir, promover ou documentar o Nextcloud?",
     "Become part of the Community" : "Convértase en parte da comunidade",
     "Enterprise support" : "Asistencia empresarial",
-    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Se executa o Nextcloud nun contorno de traballo crítico, con gran cantidade de usuarios e grandes cantidades de datos e necesita a certeza de asistencia dos expertos detrás da tecnoloxía Nextcloud, está dispoñíbel unha subscrición empresarial de Nextcloud con asistencia a través do correo electrónico e do teléfono.",
-    "Get enterprise support" : "Obter asistencia empresarial",
     "Get more information" : "Obteña máis información",
     "The Nextcloud documentation for home users:" : "A documentación do Nextcloud para usuarios domésticos:",
     "User manual" : "Manual do usuario",
@@ -73,6 +71,8 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "Use esta ligazón para conectar as súas aplicacións e clientes de escritorio a este servidor:",
     "Copy link" : "Copiar a ligazón",
     "Android app" : "Apli de Android",
+    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Se executa o Nextcloud nun contorno de traballo crítico, con gran cantidade de usuarios e grandes cantidades de datos e necesita a certeza de asistencia dos expertos detrás da tecnoloxía Nextcloud, está dispoñíbel unha subscrición empresarial de Nextcloud con asistencia a través do correo electrónico e do teléfono.",
+    "Get enterprise support" : "Obter asistencia empresarial",
     "Open Standards and Interoperability" : "Estándares abertos e interoperabilidade",
     "100%% Open Source & community-focused" : "100%% código aberto e enfocado á comunidade"
 },

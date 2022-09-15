@@ -53,8 +53,6 @@
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Boles unu megioramentu pretzidu in Nextcloud? As agatadu unu problema? Nos boles agiudare cun is tradutziones, promòvere o documentare Nextcloud?",
     "Become part of the Community" : "Diveni parte de sa comunidade",
     "Enterprise support" : "Agiudu pro is aziendas",
-    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Si esecutas Nextcloud in un'ambiente crìticu cun unu nùmeru mannu de utentes e una cantidade manna de datos e tenes bisòngiu de agiudu dae s'iscuadra esperta de sa tecnologia de Nextcloud, est a disponimentu una sutaiscritzione Enterprise dae Nextcloud cun suportu tràmite telèfonu e posta eletrònica.",
-    "Get enterprise support" : "Otene agiudu pro is aziendas",
     "Get more information" : "Otene àteras informatziones",
     "The Nextcloud documentation for home users:" : "Sa documentatzione de Nextcloud pro is utentes privados:",
     "User manual" : "Manuale utente",
@@ -76,6 +74,8 @@
     "Use this link to connect your apps and desktop client to this server:" : "Imprea custu ligòngiu pro collegare is aplicatziones tuas e su cliente de iscrivania a custu serbidore:",
     "Copy link" : "Còpia ligòngiu",
     "Android app" : "Aplicatzione Android",
+    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Si esecutas Nextcloud in un'ambiente crìticu cun unu nùmeru mannu de utentes e una cantidade manna de datos e tenes bisòngiu de agiudu dae s'iscuadra esperta de sa tecnologia de Nextcloud, est a disponimentu una sutaiscritzione Enterprise dae Nextcloud cun suportu tràmite telèfonu e posta eletrònica.",
+    "Get enterprise support" : "Otene agiudu pro is aziendas",
     "Open Standards and Interoperability" : "Istandard abertos e interoperabilidade",
     "100%% Open Source & community-focused" : "100%% de còdighe abertu e contzentradu in sa comunidade"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"

@@ -57,8 +57,6 @@ OC.L10N.register(
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "あなたは Nextcloud で一定の改善をしたいですか？ 問題が見つかりましたか？ Nextcloud の翻訳、宣伝、または文書化を手伝いたいですか？",
     "Become part of the Community" : "コミュニティの一員になる",
     "Enterprise support" : "法人向けサポート",
-    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Nextcloud を大勢のユーザーと大量のデータを扱うミッションクリティカルな環境で運用し、Nextcloud 技術の裏側にいる専門家による確実なサポートが必要であれば、Nextcloud からの法人向けサブスクリプションがメールと電話サポートで利用できます。",
-    "Get enterprise support" : "法人向けサポートを取得",
     "Get more information" : "詳細情報の取得",
     "The Nextcloud documentation for home users:" : "ホームユーザーのための Nextcloud のドキュメント：",
     "User manual" : "ユーザーマニュアル",
@@ -82,6 +80,8 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "アプリやデスクトップクライアントをこのサーバーに接続するには、このリンクを使用してください:",
     "Copy link" : "リンクをコピー",
     "Android app" : "Android アプリ",
+    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Nextcloud を大勢のユーザーと大量のデータを扱うミッションクリティカルな環境で運用し、Nextcloud 技術の裏側にいる専門家による確実なサポートが必要であれば、Nextcloud からの法人向けサブスクリプションがメールと電話サポートで利用できます。",
+    "Get enterprise support" : "法人向けサポートを取得",
     "Open Standards and Interoperability" : "オープンな規格と相互運用性",
     "100%% Open Source & community-focused" : "100 %%オープンソースかつコミュニティ主体の開発"
 },
