@@ -55,8 +55,6 @@
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Quer uma melhoria específica no Nextcloud? Encontrou um problema? Quer ajudar a traduzir, promover ou documentar o Nextcloud?",
     "Become part of the Community" : "Torne-se parte da comunidade",
     "Enterprise support" : "Suporte empresarial",
-    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Se você executar o Nextcloud em um ambiente de missão crítica com um grande número de usuários e grandes quantidades de dados e precisar da certeza de suporte de especialistas em tecnologia Nextcloud, uma Assinatura Empresarial do Nextcloud estará disponível com suporte por e-mail e telefone.",
-    "Get enterprise support" : "Obter suporte empresarial",
     "Get more information" : "Obter mais informações",
     "The Nextcloud documentation for home users:" : "A documentação do Nextcloud para usuários domésticos:",
     "User manual" : "Manual do usuário",
@@ -80,6 +78,8 @@
     "Use this link to connect your apps and desktop client to this server:" : "Use este link para conectar seus aplicativos e clientes de desktop a este servidor:",
     "Copy link" : "Copiar link",
     "Android app" : "Aplicações Android",
+    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Se você executar o Nextcloud em um ambiente de missão crítica com um grande número de usuários e grandes quantidades de dados e precisar da certeza de suporte de especialistas em tecnologia Nextcloud, uma Assinatura Empresarial do Nextcloud estará disponível com suporte por e-mail e telefone.",
+    "Get enterprise support" : "Obter suporte empresarial",
     "Open Standards and Interoperability" : "Padrões Abertos e Interoperabilidade",
     "100%% Open Source & community-focused" : "100%% Código Aberto e focado em comunidade"
 },"pluralForm" :"nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;"

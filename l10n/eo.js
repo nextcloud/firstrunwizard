@@ -34,8 +34,6 @@ OC.L10N.register(
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Ĉu vi volas certan plibonigon en Nextcloud? Ĉu vi trovis problemon? Ĉu vi volas helpi al la traduko, la reklamo aŭ la dokumentado pri Nextcloud?",
     "Become part of the Community" : "Aniĝi al la komunumo",
     "Enterprise support" : "Firmaa subteno",
-    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Se vi uzas Nextcloud-on en grava medio kun multe da uzantoj kaj multaj datumoj, kaj se vi bezonas subteno-certecon el kompetentuloj, kiuj devenas de Nextcloud, firmaa abono el Nextcloud disponeblas per retpoŝto kaj telefonalvokoj.",
-    "Get enterprise support" : "Ekhavi firmaan subtenon",
     "Get more information" : "Pli da informoj",
     "The Nextcloud documentation for home users:" : "La Nextcloud-dokumentaro por hejmaj uzantoj:",
     "User manual" : "Uzanto-manlibro",
@@ -53,6 +51,8 @@ OC.L10N.register(
     "Server address" : "Servila adreso",
     "Copy link" : "Kopii ligilon",
     "Android app" : "Android-aplikaĵo",
+    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Se vi uzas Nextcloud-on en grava medio kun multe da uzantoj kaj multaj datumoj, kaj se vi bezonas subteno-certecon el kompetentuloj, kiuj devenas de Nextcloud, firmaa abono el Nextcloud disponeblas per retpoŝto kaj telefonalvokoj.",
+    "Get enterprise support" : "Ekhavi firmaan subtenon",
     "Open Standards and Interoperability" : "Malfermaj normoj kaj kunfunkcieblo",
     "100%% Open Source & community-focused" : "Malfermita kodo kaj bazita sur la komunumo je 100 %%"
 },

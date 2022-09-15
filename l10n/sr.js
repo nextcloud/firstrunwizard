@@ -49,8 +49,6 @@ OC.L10N.register(
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Да ли желите одређена побољшања у Некстклауду? Да ли сте наишли на проблем? Да ли желите да помогнете са преводом, да промовишете или документујете Некстклауд?",
     "Become part of the Community" : "Постаните члан Заједнице",
     "Enterprise support" : "Подршка за предузећа",
-    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Ако имате Некстклауд у јако битном окружењу са великим бројем корисника и са великом количином података и потребу за подршком од стране експерата који стоје иза Некстклауд технологије, комерцијална претплата за Некстклауд је доступна са подршком е-поштом или телефоном.",
-    "Get enterprise support" : "Затражите комерцијалну подршку",
     "Get more information" : "Нађи још информација",
     "The Nextcloud documentation for home users:" : "Некстклауд документација за кућне кориснике:",
     "User manual" : "Упутство за кориснике",
@@ -71,6 +69,8 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "Користите ову везу да повежете Ваше апликације на овај сервер:",
     "Copy link" : "Копирај везу",
     "Android app" : "Андроид апликација",
+    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Ако имате Некстклауд у јако битном окружењу са великим бројем корисника и са великом количином података и потребу за подршком од стране експерата који стоје иза Некстклауд технологије, комерцијална претплата за Некстклауд је доступна са подршком е-поштом или телефоном.",
+    "Get enterprise support" : "Затражите комерцијалну подршку",
     "Open Standards and Interoperability" : "Отворени стандарди и интероперабилност",
     "100%% Open Source & community-focused" : "100%% отвореног кода & фокусирано на заједницу"
 },

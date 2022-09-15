@@ -46,8 +46,6 @@
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "آیا می خواهید پیشرفت خاصی در Nextcloud کسب کنید؟ آیا مشکلی پیدا کردید؟ آیا می خواهید به ترجمه ، تبلیغ یا مستند سازی Nextcloud کمک کنید؟",
     "Become part of the Community" : "بخشی از انجمن شوید",
     "Enterprise support" : "پشتیبانی شرکت",
-    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "اگر Nextcloud را در یک محیط بحرانی برای مأموریت با تعداد زیادی کاربر و مقادیر زیادی از داده ها اجرا کنید و به حمایت از متخصصان فن آوری Nextcloud نیاز دارید ، می توانید یک Enterprise Subscription از Nextcloud با ایمیل و پشتیبانی تلفنی در دسترس قرار دهید.",
-    "Get enterprise support" : "پشتیبانی شرکت را بدست آورید",
     "Get more information" : "اطلاعات بیشتر کسب کنید",
     "The Nextcloud documentation for home users:" : "مستندات Nextcloud برای کاربران خانگی:",
     "User manual" : "راهنمای کاربری",
@@ -68,6 +66,8 @@
     "Use this link to connect your apps and desktop client to this server:" : "برای اتصال برنامه ها و مشتری دسک تاپ خود به این سرور از این لینک استفاده کنید:",
     "Copy link" : "کپی کردن لینک",
     "Android app" : "اپ اندروید",
+    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "اگر Nextcloud را در یک محیط بحرانی برای مأموریت با تعداد زیادی کاربر و مقادیر زیادی از داده ها اجرا کنید و به حمایت از متخصصان فن آوری Nextcloud نیاز دارید ، می توانید یک Enterprise Subscription از Nextcloud با ایمیل و پشتیبانی تلفنی در دسترس قرار دهید.",
+    "Get enterprise support" : "پشتیبانی شرکت را بدست آورید",
     "Open Standards and Interoperability" : "استانداردهای باز و قابلیت همکاری",
     "100%% Open Source & community-focused" : "%%100٪ منبع باز و جامعه محور"
 },"pluralForm" :"nplurals=2; plural=(n > 1);"

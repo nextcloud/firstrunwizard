@@ -57,8 +57,6 @@ OC.L10N.register(
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Voulez-vous obtenir une certaine amélioration dans Nextcloud? Avez-vous trouvé un problème? Voulez-vous aider à traduire, promouvoir ou documenter Nextcloud?",
     "Become part of the Community" : "Devenir membre de la communauté",
     "Enterprise support" : "Support aux entreprises",
-    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Si vous exécutez Nextcloud dans un environnement de production avec un grand nombre d'utilisateurs et de grandes quantités de données et que vous avez besoin de la confiance des experts de la technologie Nextcloud, un abonnement Entreprise de Nextcloud est disponible avec support téléphonique et mail.",
-    "Get enterprise support" : "Obtenir le support Entreprise",
     "Get more information" : "Obtenir d'avantage d'informations",
     "The Nextcloud documentation for home users:" : "La documentation Nextcloud pour les utilisateurs à domicile:",
     "User manual" : "Guide d'utilisateur",
@@ -82,6 +80,8 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "Utilisez ce lien pour connecter vos applications et votre client de bureau à ce serveur :",
     "Copy link" : "Copier le lien",
     "Android app" : "Application Android",
+    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Si vous exécutez Nextcloud dans un environnement de production avec un grand nombre d'utilisateurs et de grandes quantités de données et que vous avez besoin de la confiance des experts de la technologie Nextcloud, un abonnement Entreprise de Nextcloud est disponible avec support téléphonique et mail.",
+    "Get enterprise support" : "Obtenir le support Entreprise",
     "Open Standards and Interoperability" : "Normes ouvertes et interopérabilité",
     "100%% Open Source & community-focused" : "100%% Open Source & axé sur la communauté "
 },

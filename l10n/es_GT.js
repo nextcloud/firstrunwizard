@@ -28,7 +28,6 @@ OC.L10N.register(
     "Start contributing" : "Empeiza a contribuir",
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "¿Desas tener alguna mejora específica en Nextcloud? ¿Encontraste aglún problema? ¿Quieres ayudarnos a traducir, promover o documentar Nextcloud?",
     "Enterprise support" : "Soporte empresarial",
-    "Get enterprise support" : "Obten soporte empresarial",
     "Get more information" : "Obten más información",
     "The Nextcloud documentation for home users:" : "La documentación de Nextcloud para usuarios particulares:",
     "User manual" : "Manual de usuario",
@@ -45,6 +44,7 @@ OC.L10N.register(
     "Server address" : "Dirección del servidor",
     "Copy link" : "Copiar liga",
     "Android app" : "Aplicación Android",
+    "Get enterprise support" : "Obten soporte empresarial",
     "Open Standards and Interoperability" : "Estándares Abiertos e Interoperabilidad",
     "100%% Open Source & community-focused" : "100%% Código Abierto & orientado a la comunidad"
 },
