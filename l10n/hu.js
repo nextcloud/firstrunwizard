@@ -57,8 +57,6 @@ OC.L10N.register(
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Szüksége lenne egy bizonyos fejlesztésre a Nextcloudban? Hibát talált? Szeretne segíteni a Nextcloud fordításában, népszerűsítésében vagy dokumentálásában?",
     "Become part of the Community" : "Légy tagja a Közösségnek",
     "Enterprise support" : "Vállalati támogatás",
-    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Ha a Nextcloudot létfontosságú rendszeren futtatja, nagy számú felhasználóval és nagy adatmennyiséggel, és szüksége van a Nextcloud szakértők támogatására, akkor igénybe veheti  a e-mail és telefonos támogatással rendelkező vállalati előfizetést a Nextcloudtól.",
-    "Get enterprise support" : "Vállalati támogatás beszerzése",
     "Get more information" : "További információk",
     "The Nextcloud documentation for home users:" : "A Nextcloud dokumentációja otthoni felhasználók számára:",
     "User manual" : "Felhasználói kézikönyv",
@@ -82,6 +80,8 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "Használja ezt a hivatkozást az alkalmazások és az asztali kliens csatlakoztatásához a kiszolgálóhoz:",
     "Copy link" : "Hivatkozás másolása",
     "Android app" : "Androidos alkalmazás",
+    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Ha a Nextcloudot létfontosságú rendszeren futtatja, nagy számú felhasználóval és nagy adatmennyiséggel, és szüksége van a Nextcloud szakértők támogatására, akkor igénybe veheti  a e-mail és telefonos támogatással rendelkező vállalati előfizetést a Nextcloudtól.",
+    "Get enterprise support" : "Vállalati támogatás beszerzése",
     "Open Standards and Interoperability" : "Nyílt szabványok és együttműködés",
     "100%% Open Source & community-focused" : "100%%-ban nyílt forráskódú és közösségközpontú"
 },

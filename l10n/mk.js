@@ -57,8 +57,6 @@ OC.L10N.register(
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Дали сакате да добиете одредено подобрување во Nextcloud? Дали најдовте проблем? Дали сакате да помогнете со преводот, промовирањето или документацијата на Nextcloud?",
     "Become part of the Community" : "Бидете дел од заедницата",
     "Enterprise support" : "Професионална поддршка",
-    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Ако го користите Nextcloud во критична околина со голем број на корисници и големи количини на податоци и ви треба поддшка од експерти кој ја разбираат технологијата Nextcloud, претплатата за Nextcloud професионална поддршка е достапна преку е-пошта и телефонска поддршка.",
-    "Get enterprise support" : "Добијте професионална поддршка.",
     "Get more information" : "Побарајте повеќе информации",
     "The Nextcloud documentation for home users:" : "Nextcloud документација за крајни корисници:",
     "User manual" : "Упатство за користење",
@@ -82,6 +80,8 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "Користете го овој линк за да ги поврзете вашите апликации со серверот:",
     "Copy link" : "Копирај линк",
     "Android app" : "Android апликација",
+    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Ако го користите Nextcloud во критична околина со голем број на корисници и големи количини на податоци и ви треба поддшка од експерти кој ја разбираат технологијата Nextcloud, претплатата за Nextcloud професионална поддршка е достапна преку е-пошта и телефонска поддршка.",
+    "Get enterprise support" : "Добијте професионална поддршка.",
     "Open Standards and Interoperability" : "Отворени стандарди и интероперабилност",
     "100%% Open Source & community-focused" : "100%% Отворен код & фокусиран на заедницата"
 },

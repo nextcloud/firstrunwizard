@@ -55,8 +55,6 @@ OC.L10N.register(
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Želite li poboljšati Nextcloud? Jeste li otkrili u čemu je problem? Želite li pomoći prevesti, promovirati ili dokumentirati Nextcloud?",
     "Become part of the Community" : "Postanite dio Zajednice",
     "Enterprise support" : "Poslovna podrška",
-    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Ako Nextcloud pokrećete u kritičnom okruženju s velikim brojem korisnika i velikim količinama podataka te trebate sigurnost podrške stručnjaka koji odlično poznaju Nextcloudove tehnologije, Enterprise pretplata na Nextcloud obuhvaća podršku putem e-pošte i telefona.",
-    "Get enterprise support" : "Zatražite poslovnu podršku",
     "Get more information" : "Dohvatite više informacija",
     "The Nextcloud documentation for home users:" : "Nextcloudova dokumentacija za kućne korisnike:",
     "User manual" : "Korisnički priručnik",
@@ -78,6 +76,8 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "Iskoristite ovu poveznicu za povezivanje aplikacija i klijenata za osobna računala s ovim poslužiteljem:",
     "Copy link" : "Kopiraj poveznicu",
     "Android app" : "Aplikacija za Android",
+    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Ako Nextcloud pokrećete u kritičnom okruženju s velikim brojem korisnika i velikim količinama podataka te trebate sigurnost podrške stručnjaka koji odlično poznaju Nextcloudove tehnologije, Enterprise pretplata na Nextcloud obuhvaća podršku putem e-pošte i telefona.",
+    "Get enterprise support" : "Zatražite poslovnu podršku",
     "Open Standards and Interoperability" : "Otvoreni standardi i interoperabilnost",
     "100%% Open Source & community-focused" : "100-postotni otvoreni kod i usmjerenost na zajednicu"
 },

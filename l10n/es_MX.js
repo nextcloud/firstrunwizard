@@ -33,8 +33,6 @@ OC.L10N.register(
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "¿Desas tener alguna mejora específica en Nextcloud? ¿Encontraste aglún problema? ¿Quieres ayudarnos a traducir, promover o documentar Nextcloud?",
     "Become part of the Community" : "Hazte parte de la Comunidad",
     "Enterprise support" : "Soporte empresarial",
-    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Si estas corriendo Nextcloud en un ambiente de misión crítica con un gran número de usuarios y altos volúmenes de datos y necesitas la certidumbre de soporte de los expertos detrás de la tecnología Nextcloud, la Suscripción Empresarial de Nextcloud está disponible con soporte vía correo electrónico y telefónico. ",
-    "Get enterprise support" : "Obten soporte empresarial",
     "Get more information" : "Obten más información",
     "The Nextcloud documentation for home users:" : "La documentación de Nextcloud para usuarios particulares:",
     "User manual" : "Manual de usuario",
@@ -52,6 +50,8 @@ OC.L10N.register(
     "Server address" : "Dirección del servidor",
     "Copy link" : "Copiar liga",
     "Android app" : "Aplicación Android",
+    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Si estas corriendo Nextcloud en un ambiente de misión crítica con un gran número de usuarios y altos volúmenes de datos y necesitas la certidumbre de soporte de los expertos detrás de la tecnología Nextcloud, la Suscripción Empresarial de Nextcloud está disponible con soporte vía correo electrónico y telefónico. ",
+    "Get enterprise support" : "Obten soporte empresarial",
     "Open Standards and Interoperability" : "Estándares Abiertos e Interoperabilidad",
     "100%% Open Source & community-focused" : "100%% Código Abierto & orientado a la comunidad"
 },

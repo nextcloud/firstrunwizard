@@ -33,8 +33,6 @@ OC.L10N.register(
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?",
     "Become part of the Community" : "Become part of the Community",
     "Enterprise support" : "Enterprise support",
-    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support.",
-    "Get enterprise support" : "Get enterprise support",
     "Get more information" : "Get more information",
     "The Nextcloud documentation for home users:" : "The Nextcloud documentation for home users:",
     "User manual" : "User manual",
@@ -52,6 +50,8 @@ OC.L10N.register(
     "Server address" : "Server address",
     "Copy link" : "Copy link",
     "Android app" : "Android app",
+    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support.",
+    "Get enterprise support" : "Get enterprise support",
     "Open Standards and Interoperability" : "Open Standards and Interoperability",
     "100%% Open Source & community-focused" : "100%% Open Source & community-focused"
 },
