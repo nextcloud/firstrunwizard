@@ -57,8 +57,6 @@ OC.L10N.register(
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "您想要取得 Nextcloud 特定的改進嗎？您有找到問題嗎？你想要幫忙翻譯，推動或是寫 Nextcloud 文件嗎？",
     "Become part of the Community" : "成為社群的一份子",
     "Enterprise support" : "企業級支援",
-    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "如果您在有大量使用者與大量資料的關鍵任務環境中執行 Nextcloud，且需要 Nextcloud 技術背後的專家支援的話，則可以透過電子郵件與電話支援取得 Nextcloud 的企業訂閱。",
-    "Get enterprise support" : "獲得企業級支援",
     "Get more information" : "取得更多資訊",
     "The Nextcloud documentation for home users:" : "居家使用者的 Nextcloud 文件：",
     "User manual" : "使用者手冊",
@@ -82,6 +80,8 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "使用此連結將您的應用程式與桌面客戶端連結到此伺服器：",
     "Copy link" : "複製連結",
     "Android app" : "Android 應用程式",
+    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "如果您在有大量使用者與大量資料的關鍵任務環境中執行 Nextcloud，且需要 Nextcloud 技術背後的專家支援的話，則可以透過電子郵件與電話支援取得 Nextcloud 的企業訂閱。",
+    "Get enterprise support" : "獲得企業級支援",
     "Open Standards and Interoperability" : "開放標準及相互合作",
     "100%% Open Source & community-focused" : "100%% 專注於開源與社群"
 },

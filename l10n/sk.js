@@ -57,8 +57,6 @@ OC.L10N.register(
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Chcete aby sa v Nextcloudu niečo zlepšilo? Našli ste problém? Chcete pomôcť s prekladom, propagáciou alebo dokumentáciou Nextcloudu?",
     "Become part of the Community" : "Staňte sa členom komunity",
     "Enterprise support" : "Enterprise podpora",
-    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Ak proužívate Nextcloud v produkčnom prostredí s veľkým počtom používateľov a veľkým objemom údajov a potrebujete istotu podpory odborníkov stojacich za technologiou Nextcloud, je k dispozícii predplatné pre firmy, čím získate podporu cez telefón a e-mail.",
-    "Get enterprise support" : "Získajte enterprise podporu",
     "Get more information" : "Získajte viac informácií",
     "The Nextcloud documentation for home users:" : "Nextcloud dokumentácia pre domácich používateľov:",
     "User manual" : "Používateľský manuál",
@@ -82,6 +80,8 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "Pre prepojenie vašich aplikácii a desktopového klienta na tento server použite tento odkaz: ",
     "Copy link" : "Kopíruj odkaz",
     "Android app" : "Android aplikácia",
+    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Ak proužívate Nextcloud v produkčnom prostredí s veľkým počtom používateľov a veľkým objemom údajov a potrebujete istotu podpory odborníkov stojacich za technologiou Nextcloud, je k dispozícii predplatné pre firmy, čím získate podporu cez telefón a e-mail.",
+    "Get enterprise support" : "Získajte enterprise podporu",
     "Open Standards and Interoperability" : "Otvorené štandardy a interoperabilita",
     "100%% Open Source & community-focused" : "100%% Open Source so zameraním na komunitu"
 },

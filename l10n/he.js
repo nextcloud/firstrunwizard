@@ -40,7 +40,6 @@ OC.L10N.register(
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "מעניין אותך לקבל שיפורים ל־Nextcloud שלך? מצאת תקלה כלשהי? מעניין אותך לסייע לתרגם, לקדם או לתעד את Nextcloud?",
     "Become part of the Community" : "להפוך לחלק מהקהילה",
     "Enterprise support" : "תמיכה מסחרית",
-    "Get enterprise support" : "קבלת תמיכה עסקית",
     "Get more information" : "קבלת מידע נוסף",
     "The Nextcloud documentation for home users:" : "תיעוד Nextcloud למשתמשים ביתיים:",
     "User manual" : "מדריך משתמש",
@@ -57,6 +56,7 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "יש להשתמש בקישור הזה כדי לחבר את היישומונים ואת לקוח שולחן העבודה שלך לשרת הזה:",
     "Copy link" : "העתקת קישור",
     "Android app" : "יישומון Android",
+    "Get enterprise support" : "קבלת תמיכה עסקית",
     "Open Standards and Interoperability" : "תקנים פתוחים ותאימות לשלל מערכות",
     "100%% Open Source & community-focused" : "100%% קוד פתוח ומוכוון קהילה"
 },

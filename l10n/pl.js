@@ -57,8 +57,6 @@ OC.L10N.register(
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Chcesz zobaczyć pewną funkcjonalność w Nextcloud? Znalazłeś problem? Chcesz pomóc w tłumaczeniu, promowaniu lub dokumentowaniu Nextcloud?",
     "Become part of the Community" : "Zostań częścią społeczności",
     "Enterprise support" : "Wsparcie dla firm",
-    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Jeśli uruchamiasz Nextcloud w środowisku z dużą ilością użytkowników i danych oraz potrzebujesz pewnego wsparcia ze strony ekspertów znających się na technologi Nextcloud, to skorzystaj z subskrypcji dla firm z Nextcloud, która jest dostępna za pomocą poczty e-mail i telefonu.",
-    "Get enterprise support" : "Skorzystaj ze wsparcia dla firm",
     "Get more information" : "Więcej informacji",
     "The Nextcloud documentation for home users:" : "Dokumentacja Nextcloud dla użytkowników domowych:",
     "User manual" : "Instrukcja obsługi",
@@ -82,6 +80,8 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "Użyj tego linku, aby podłączyć swoje aplikacje i klienta desktopowego do tego serwera:",
     "Copy link" : "Kopiuj link",
     "Android app" : "Aplikacja Android",
+    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Jeśli uruchamiasz Nextcloud w środowisku z dużą ilością użytkowników i danych oraz potrzebujesz pewnego wsparcia ze strony ekspertów znających się na technologi Nextcloud, to skorzystaj z subskrypcji dla firm z Nextcloud, która jest dostępna za pomocą poczty e-mail i telefonu.",
+    "Get enterprise support" : "Skorzystaj ze wsparcia dla firm",
     "Open Standards and Interoperability" : "Otwarte standardy i interoperacyjność",
     "100%% Open Source & community-focused" : "100%% open source i skupiony na społeczności"
 },

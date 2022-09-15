@@ -57,8 +57,6 @@ OC.L10N.register(
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Θέλετε να έχετε κάποια βελτίωση στο Nextcloud; Βρήκατε κάποιο πρόβλημα; Θέλετε να βοηθήσετε να μεταφράσετε, να προωθήσετε ή να τεκμηριώσετε το Nextcloud;",
     "Become part of the Community" : "Γίνετε μέρος της Κοινότητας",
     "Enterprise support" : "Υποστήριξη επιχειρήσεων",
-    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Εάν εκτελείτε το Nextcloud σε ένα κρίσιμο περιβάλλον με μεγάλο αριθμό χρηστών, αρκετά δεδομένα και χρειάζεστε τη σιγουριά υποστήριξης από τους έμπειρους τεχνολογίας του Nextcloud, υπάρχει μια συνδρομή Enterprise από το Nextcloud με υποστήριξη email και τηλεφώνου.",
-    "Get enterprise support" : "Αποκτήστε υποστήριξη επιχειρήσεων",
     "Get more information" : "Λήψη περισσότερων πληροφοριών",
     "The Nextcloud documentation for home users:" : "Τεκμηρίωση του Nextcloud για οικιακούς χρήστες:",
     "User manual" : "Εγχειρίδιο χρήστη",
@@ -82,6 +80,8 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "Χρησιμοποιήστε τον σύνδεσμο για να συνδέσετε την εφαρμογή υπολογιστή και κινητού σε αυτόν τον διακομιστή:",
     "Copy link" : "Αντιγραφή συνδέσμου",
     "Android app" : "Εφαρμογή Android",
+    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Εάν εκτελείτε το Nextcloud σε ένα κρίσιμο περιβάλλον με μεγάλο αριθμό χρηστών, αρκετά δεδομένα και χρειάζεστε τη σιγουριά υποστήριξης από τους έμπειρους τεχνολογίας του Nextcloud, υπάρχει μια συνδρομή Enterprise από το Nextcloud με υποστήριξη email και τηλεφώνου.",
+    "Get enterprise support" : "Αποκτήστε υποστήριξη επιχειρήσεων",
     "Open Standards and Interoperability" : "Ανοικτά πρότυπα και διαλειτουργικότητα",
     "100%% Open Source & community-focused" : "100%% Ανοικτά Δεδομένα & εστιασμένα στην κοινότητα"
 },
