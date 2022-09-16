@@ -57,6 +57,8 @@ OC.L10N.register(
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Wollen Sie bestimmte Verbesserungen in Nextcloud? Haben Sie ein Problem gefunden? Möchten Sie uns bei Übersetzung, Öffentlichkeitsarbeit oder Dokumentation der Nextcloud helfen?",
     "Become part of the Community" : "Werden Sie Teil der Community",
     "Enterprise support" : "Enterprise Support",
+    "If you run Nextcloud in a mission critical environment where security and compliance are important, you need the certainty of Nextcloud Enterprise." : "Wenn Sie Nextcloud in einer geschäftskritischen Umgebung betreiben, in der Sicherheit und Compliance wichtig sind, benötigen Sie die Sicherheit von Nextcloud Enterprise.",
+    "Learn more about Nextcloud Enterprise" : "Erfahren Sie mehr über Nextcloud Enterprise",
     "Get more information" : "Erhalten Sie weitere Informationen",
     "The Nextcloud documentation for home users:" : "Die Nextcloud Dokumentation für Heimanwender:",
     "User manual" : "Benutzerhandbuch",

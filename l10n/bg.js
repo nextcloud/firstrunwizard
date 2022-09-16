@@ -57,6 +57,8 @@ OC.L10N.register(
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Желаете да направите подобрение по Nextcloud? Открили сте проблем? Желаете да преведете, промотирате или пишете документация за Nextcloud?",
     "Become part of the Community" : "Станете част от Общността",
     "Enterprise support" : "Професионална поддръжка",
+    "If you run Nextcloud in a mission critical environment where security and compliance are important, you need the certainty of Nextcloud Enterprise." : "Ако стартирате Nextcloud в критична за мисията среда, където сигурността и съответствието са важни, имате нужда от сигурността на Nextcloud Enterprise.",
+    "Learn more about Nextcloud Enterprise" : "Научете повече за Nextcloud Enterprise",
     "Get more information" : "Допълнителна информация",
     "The Nextcloud documentation for home users:" : "Nextcloud документация за домашни потребители:",
     "User manual" : "Ръководство за потребители",
