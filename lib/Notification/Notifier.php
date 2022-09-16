@@ -107,12 +107,13 @@ class Notifier implements INotifier {
 				return $notification;
 			case 'apphint-calendar':
 			case 'apphint-contacts':
+			case 'apphint-forms':
 			case 'apphint-mail':
 			case 'apphint-spreed':
 			case 'apphint-tasks':
 			case 'apphint-deck':
 			case 'apphint-notes':
-			//case 'apphint-social':
+			case 'apphint-recognize':
 			case 'apphint-groupfolders':
 				$app = $notification->getObjectId();
 				return $this->setAppHintDetails($notification, $languageCode, $app);
@@ -189,16 +190,16 @@ class Notifier implements INotifier {
 				$notification->setParsedMessage($l->t('Kanban style organization for personal planning and team projects.'));
 				$appLink = '/organization/deck';
 				break;
-			case 'notes':
-				$notification->setParsedSubject($l->t('App recommendation: Notes'));
-				$notification->setParsedMessage($l->t('Distraction-free notes and writing.'));
-				$appLink = '/organization/notes';
+			case 'forms':
+				$notification->setParsedSubject($l->t('App recommendation: Forms'));
+				$notification->setParsedMessage($l->t('Simple surveys and questionnaires, self-hosted'));
+				$appLink = '/organization/forms';
 				break;
-			// case 'social':
-			// 	$notification->setParsedSubject($l->t('App recommendation: Social'));
-			// 	$notification->setParsedMessage($l->t('Nextcloud becomes part of the federated social networks.'));
-			// 	$appLink = '/social/social';
-			// 	break;
+			case 'recognize':
+				$notification->setParsedSubject($l->t('App recommendation: Recognize'));
+				$notification->setParsedMessage($l->t('Smart media tagging for Nextcloud'));
+				$appLink = '/organization/recognize';
+				break;
 			case 'groupfolders':
 				$notification->setParsedSubject($l->t('App recommendation: Group folders'));
 				$notification->setParsedMessage($l->t('Admin-configured folders shared by everyone in a group.'));
