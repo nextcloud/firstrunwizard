@@ -57,6 +57,8 @@ OC.L10N.register(
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "您想要取得 Nextcloud 特定的改進嗎？您有找到問題嗎？你想要幫忙翻譯，推動或是寫 Nextcloud 文件嗎？",
     "Become part of the Community" : "成為社群的一份子",
     "Enterprise support" : "企業支援",
+    "If you run Nextcloud in a mission critical environment where security and compliance are important, you need the certainty of Nextcloud Enterprise." : "如果您在安全性和合規性很重要的關鍵任務環境中運行 Nextcloud，則需要 Nextcloud Enterprise 的額外保護。",
+    "Learn more about Nextcloud Enterprise" : "了解更多關於 Nextcloud Enterprise",
     "Get more information" : "取得更多資訊",
     "The Nextcloud documentation for home users:" : "家居用戶的 Nextcloud 文件：",
     "User manual" : "用戶手冊",
