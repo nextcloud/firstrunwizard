@@ -7,7 +7,6 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "กด ⌘-C เพื่อคัดลอก",
     "Press Ctrl-C to copy." : "กด Ctrl-C เพื่อคัดลอก",
     "First run wizard" : "ตัวช่วยเริ่มต้นครั้งแรก",
-    "Distraction-free notes and writing." : "จดและเขียนโน้ตแบบไร้สิ่งรบกวน",
     "About" : "เกี่ยวกับ",
     "Start using {cloudName}" : "เริ่มใช้ {cloudName}",
     "Welcome to {cloudName}!" : "ยินดีต้อนรับสู่ {cloudName}!",
@@ -26,6 +25,7 @@ OC.L10N.register(
     "Learn more about %s" : "ดูเพิ่มเติมเกี่ยวกับ %s",
     "Server address" : "ที่อยู่เซิร์ฟเวอร์",
     "Copy link" : "คัดลอกลิงก์",
+    "Distraction-free notes and writing." : "จดและเขียนโน้ตแบบไร้สิ่งรบกวน",
     "Android app" : "แอป Android"
 },
 "nplurals=1; plural=0;");
