@@ -19,7 +19,7 @@ OC.L10N.register(
     "App recommendation: Nextcloud Mail" : "Recomendação de aplicação: Correio Nextcloud",
     "App recommendation: Tasks" : "Recomendação de aplicação: Tarefas Nextcloud",
     "App recommendation: Deck" : "Recomendação de aplicação: Deck",
-    "App recommendation: Notes" : "Recomendação de aplicação: Notas",
+    "Smart media tagging for Nextcloud" : "Etiquetamento inteligente de mídia para o Nextcloud",
     "App recommendation: Group folders" : "Recomendação de aplicação: Pastas de grupo",
     "About" : "Sobre",
     "Get the apps to sync your files" : "Obtenha as aplicações para sincronizar os seus ficheiros",
@@ -41,6 +41,7 @@ OC.L10N.register(
     "A safe home for all your data" : "Um local seguro para todos os seus dados",
     "Server address" : "Endereço do servidor",
     "Copy link" : "Copiar hiperligação",
+    "App recommendation: Notes" : "Recomendação de aplicação: Notas",
     "Android app" : "Aplicação Android"
 },
 "nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");
