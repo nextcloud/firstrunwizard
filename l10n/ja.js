@@ -62,7 +62,6 @@ OC.L10N.register(
     "Developer manual" : "開発者マニュアル",
     "You can also ask for help in our community support channels:" : "また、地域のサポートチャネルでヘルプを求めることもできます：",
     "the Nextcloud forums" : "Nextcloud フォーラム",
-    "the Nextcloud IRC chat channel on freenode.net" : "freenode.net の Nextcloud IRC チャットチャンネル",
     "A safe home for all your data" : "あなたのすべてのデータを安全に保管する場所",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud は、あなたのコントロールのもと、データをすぐに利用できるようアレンジします。 会社、自宅、私たちのプロバイダー、あるいはご存じのデータセンターのサーバーに文書、カレンダー、連絡先、写真などを保管してください。",
     "Host your data and files where you decide" : "あなたの好きな場所にデータやファイルを保管します",
@@ -82,6 +81,7 @@ OC.L10N.register(
     "Android app" : "Android アプリ",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Nextcloud を大勢のユーザーと大量のデータを扱うミッションクリティカルな環境で運用し、Nextcloud 技術の裏側にいる専門家による確実なサポートが必要であれば、Nextcloud からの法人向けサブスクリプションがメールと電話サポートで利用できます。",
     "Get enterprise support" : "法人向けサポートを取得",
+    "the Nextcloud IRC chat channel on freenode.net" : "freenode.net の Nextcloud IRC チャットチャンネル",
     "Open Standards and Interoperability" : "オープンな規格と相互運用性",
     "100%% Open Source & community-focused" : "100 %%オープンソースかつコミュニティ主体の開発"
 },

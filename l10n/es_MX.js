@@ -40,7 +40,6 @@ OC.L10N.register(
     "Developer manual" : "Manual del desarrollador",
     "You can also ask for help in our community support channels:" : "También puedes pedir ayuda en nuestros canales de soporte de la comunidad:",
     "the Nextcloud forums" : "en los foros de Nextcloud",
-    "the Nextcloud IRC chat channel on freenode.net" : "el canal del chat de IRC para Nextcloud en freenode.net",
     "A safe home for all your data" : "Un lugar seguro para todos tus datos",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud deja tus datos a tu alcance, bajo tu control. Almacena tus documentos, calendario, contactos y fotografías en un servidor de tu compañia, en casa, con uno de nuestros proveedores o en un centro de datos que conozcas. ",
     "Host your data and files where you decide" : "Hospeda tus datos y archivos donde tú decidas",
@@ -52,6 +51,7 @@ OC.L10N.register(
     "Android app" : "Aplicación Android",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Si estas corriendo Nextcloud en un ambiente de misión crítica con un gran número de usuarios y altos volúmenes de datos y necesitas la certidumbre de soporte de los expertos detrás de la tecnología Nextcloud, la Suscripción Empresarial de Nextcloud está disponible con soporte vía correo electrónico y telefónico. ",
     "Get enterprise support" : "Obten soporte empresarial",
+    "the Nextcloud IRC chat channel on freenode.net" : "el canal del chat de IRC para Nextcloud en freenode.net",
     "Open Standards and Interoperability" : "Estándares Abiertos e Interoperabilidad",
     "100%% Open Source & community-focused" : "100%% Código Abierto & orientado a la comunidad"
 },
