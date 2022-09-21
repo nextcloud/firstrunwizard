@@ -60,7 +60,6 @@ OC.L10N.register(
     "Developer manual" : "Priručnik za razvojne programere",
     "You can also ask for help in our community support channels:" : "Pomoć možete potražiti i u našim kanalima za podršku od zajednice:",
     "the Nextcloud forums" : "Nextcloudovi forumi",
-    "the Nextcloud IRC chat channel on freenode.net" : "IRC kanal za razmjenu poruka Nextcloud na freenode.net",
     "A safe home for all your data" : "Siguran dom za sve vaše podatke",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud stavlja vaše podatke na dohvat ruke, cijelo vrijeme pod vašom kontrolom. Pohranite svoje dokumente, kalendar, kontakte i fotografije na poslužitelj u tvrtki, kod kuće, kod jednog od naših pružatelja usluga ili u podatkovni centar koji vam odgovara.",
     "Host your data and files where you decide" : "Pohranite svoje podatke i datoteke točno tamo gdje želite",
@@ -78,6 +77,7 @@ OC.L10N.register(
     "Android app" : "Aplikacija za Android",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Ako Nextcloud pokrećete u kritičnom okruženju s velikim brojem korisnika i velikim količinama podataka te trebate sigurnost podrške stručnjaka koji odlično poznaju Nextcloudove tehnologije, Enterprise pretplata na Nextcloud obuhvaća podršku putem e-pošte i telefona.",
     "Get enterprise support" : "Zatražite poslovnu podršku",
+    "the Nextcloud IRC chat channel on freenode.net" : "IRC kanal za razmjenu poruka Nextcloud na freenode.net",
     "Open Standards and Interoperability" : "Otvoreni standardi i interoperabilnost",
     "100%% Open Source & community-focused" : "100-postotni otvoreni kod i usmjerenost na zajednicu"
 },

@@ -41,7 +41,6 @@ OC.L10N.register(
     "Developer manual" : "Programista manlibro",
     "You can also ask for help in our community support channels:" : "Vi povas ankaŭ trovi helpon en niaj komunumaj kanaloj:",
     "the Nextcloud forums" : "la Nextcloud-forumoj",
-    "the Nextcloud IRC chat channel on freenode.net" : "la IRC-babilkanalo de Nextcloud ĉe freenode.net",
     "A safe home for all your data" : "Sekura hejmo por ĉiuj viaj datumoj",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud metas viajn datumojn ĉe viaj manoj, sub via kontrolo. Konservu viajn dokumentojn, kalendarojn, kontaktojn kaj fotojn en servilo ĉe via firmao, hejme, en unu el niaj provizantoj, aŭ en datumejo, kiun vi konas.",
     "Host your data and files where you decide" : "Gastigu viajn datumojn kaj dosierojn, kie vi decidas",
@@ -53,6 +52,7 @@ OC.L10N.register(
     "Android app" : "Android-aplikaĵo",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Se vi uzas Nextcloud-on en grava medio kun multe da uzantoj kaj multaj datumoj, kaj se vi bezonas subteno-certecon el kompetentuloj, kiuj devenas de Nextcloud, firmaa abono el Nextcloud disponeblas per retpoŝto kaj telefonalvokoj.",
     "Get enterprise support" : "Ekhavi firmaan subtenon",
+    "the Nextcloud IRC chat channel on freenode.net" : "la IRC-babilkanalo de Nextcloud ĉe freenode.net",
     "Open Standards and Interoperability" : "Malfermaj normoj kaj kunfunkcieblo",
     "100%% Open Source & community-focused" : "Malfermita kodo kaj bazita sur la komunumo je 100 %%"
 },

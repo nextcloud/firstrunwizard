@@ -63,7 +63,6 @@ OC.L10N.register(
     "Developer manual" : "Priročnik za razvijalce",
     "You can also ask for help in our community support channels:" : "Pomoč lahko najdete tudi na podpornih kanalih skupnosti:",
     "the Nextcloud forums" : "na forumih Nextcloud",
-    "the Nextcloud IRC chat channel on freenode.net" : "na klepetalnem kanalu Nextcloud IRC na freenode.net",
     "A safe home for all your data" : "varno okolje za vse vaše podatke",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Okolje Nextcloud omogoči zbiranje in shranjevanje podatkov pod vašim nadzorom. Dokumente, koledarje, stike in fotografije je mogoče shranjevani na strežniku podjetja, osebno, ali pri kateremkoli ponudniku, ki storitev omogoča. ",
     "Host your data and files where you decide" : "Shranjujte podatke in datoteke, kjer vi želite",
@@ -81,6 +80,7 @@ OC.L10N.register(
     "Android app" : "Odjemalec za Android",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Če uporabljate oblak Nextcloud v produkcijskem okolju, gostite veliko uporabnikov in združujete večje količine podatkov, morda razmišljate tudi o zanesljivi podpori strokovnjakov, ki so tehnologijo zasnovali. Na voljo je poslovna naročnina, ki omogoča telefonsko podporo in ciljno pomoč po elektronski pošti.",
     "Get enterprise support" : "Pridobite podporo za podjetja",
+    "the Nextcloud IRC chat channel on freenode.net" : "na klepetalnem kanalu Nextcloud IRC na freenode.net",
     "Open Standards and Interoperability" : "Odprti standardi in medobratovalnost",
     "100%% Open Source & community-focused" : "100%% odprtokodno in v domeni skupnosti"
 },

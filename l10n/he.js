@@ -47,7 +47,6 @@ OC.L10N.register(
     "Developer manual" : "מדריך מפתח",
     "You can also ask for help in our community support channels:" : "ניתן לבקש עזרה בערוצי התמיכה הקהילתיים שלנו:",
     "the Nextcloud forums" : "הפורומים של Nextcloud",
-    "the Nextcloud IRC chat channel on freenode.net" : "ערוץ ה־IRC של Nextcloud ב־freenode.net",
     "A safe home for all your data" : "בית בטוח לכל הנתונים שלך",
     "Host your data and files where you decide" : "אירוח הנתונים והקבצים שלך במיקום לבחירתך",
     "Learn more about %s" : "מידע נוסף על %s",
@@ -57,6 +56,7 @@ OC.L10N.register(
     "Copy link" : "העתקת קישור",
     "Android app" : "יישומון Android",
     "Get enterprise support" : "קבלת תמיכה עסקית",
+    "the Nextcloud IRC chat channel on freenode.net" : "ערוץ ה־IRC של Nextcloud ב־freenode.net",
     "Open Standards and Interoperability" : "תקנים פתוחים ותאימות לשלל מערכות",
     "100%% Open Source & community-focused" : "100%% קוד פתוח ומוכוון קהילה"
 },

@@ -51,7 +51,6 @@
     "Developer manual" : "دفترچه راهنما توسعه دهنده",
     "You can also ask for help in our community support channels:" : "همچنین می توانید در کانالهای پشتیبانی جامعه ما از کمک بخواهید:",
     "the Nextcloud forums" : "انجمن های Nextcloud",
-    "the Nextcloud IRC chat channel on freenode.net" : "کانال چت IRC Nextcloud در freenode.net",
     "A safe home for all your data" : "یک خانه امن برای تمام اطلاعات شما",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud داده های شما را تحت کنترل شما قرار می دهد. اسناد ، تقویم ، مخاطبین و عکسهای خود را در یک سرور در شرکت ، خانه ، در یکی از ارائه دهندگان ما یا در مرکز داده ای که می شناسید ذخیره کنید.",
     "Host your data and files where you decide" : "داده ها و پرونده های خود را در جایی که تصمیم می گیرید میزبانی کنید",
@@ -68,6 +67,7 @@
     "Android app" : "اپ اندروید",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "اگر Nextcloud را در یک محیط بحرانی برای مأموریت با تعداد زیادی کاربر و مقادیر زیادی از داده ها اجرا کنید و به حمایت از متخصصان فن آوری Nextcloud نیاز دارید ، می توانید یک Enterprise Subscription از Nextcloud با ایمیل و پشتیبانی تلفنی در دسترس قرار دهید.",
     "Get enterprise support" : "پشتیبانی شرکت را بدست آورید",
+    "the Nextcloud IRC chat channel on freenode.net" : "کانال چت IRC Nextcloud در freenode.net",
     "Open Standards and Interoperability" : "استانداردهای باز و قابلیت همکاری",
     "100%% Open Source & community-focused" : "%%100٪ منبع باز و جامعه محور"
 },"pluralForm" :"nplurals=2; plural=(n > 1);"

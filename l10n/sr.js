@@ -54,7 +54,6 @@ OC.L10N.register(
     "Developer manual" : "Упутство за програмере",
     "You can also ask for help in our community support channels:" : "Такође можете да затражите помоћ у каналима које одржава заједница:",
     "the Nextcloud forums" : "Некстклауд форуми",
-    "the Nextcloud IRC chat channel on freenode.net" : "Некстклауд IRC чет канал на freenode.net серверу",
     "A safe home for all your data" : "Сигурно место за све Ваше податке",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Некстклауд Вам ставља податке на дланове, под Вашом контролом. Складиштите документе, календар, контакте и слике на серверу у Вашој фирми, кући или на неком од наших провајдера или и дата центру за који знате.",
     "Host your data and files where you decide" : "Хостујте податке и фајлове где Ви одлучите",
@@ -71,6 +70,7 @@ OC.L10N.register(
     "Android app" : "Андроид апликација",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Ако имате Некстклауд у јако битном окружењу са великим бројем корисника и са великом количином података и потребу за подршком од стране експерата који стоје иза Некстклауд технологије, комерцијална претплата за Некстклауд је доступна са подршком е-поштом или телефоном.",
     "Get enterprise support" : "Затражите комерцијалну подршку",
+    "the Nextcloud IRC chat channel on freenode.net" : "Некстклауд IRC чет канал на freenode.net серверу",
     "Open Standards and Interoperability" : "Отворени стандарди и интероперабилност",
     "100%% Open Source & community-focused" : "100%% отвореног кода & фокусирано на заједницу"
 },
