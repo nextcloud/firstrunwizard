@@ -62,7 +62,6 @@ OC.L10N.register(
     "Developer manual" : "Manuale dello sviluppatore",
     "You can also ask for help in our community support channels:" : "Puoi inoltre chiedere aiuto nei nostri canali di supporto della comunità:",
     "the Nextcloud forums" : "i forum di Nextcloud",
-    "the Nextcloud IRC chat channel on freenode.net" : "il canale IRC di Nextcloud su freenode.net",
     "A safe home for all your data" : "Un posto sicuro per tutti i tuoi dati",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud mette i tuoi dati nelle tue mani, sotto il tuo controllo. Archivia i tuoi documenti, calendari, contatti e foto su un server nella tua azienda, a casa, presso uno dei tuoi fornitori o in un data center che conosci.",
     "Host your data and files where you decide" : "Ospita i tuoi dati e i file dove decidi",
@@ -82,6 +81,7 @@ OC.L10N.register(
     "Android app" : "Applicazione Android",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Se esegui Nextcloud in un ambiente ad alta criticità con un gran numero di utenti e una gran quantità di dati, con la necessità della sicurezza fornita dal supporto da parte degli esperti che stanno dietro alla tecnologia di Nextcloud, è disponibile una sottoscrizione Enterprise di Nextcloud con supporto telefonico e email.",
     "Get enterprise support" : "Ottieni supporto per le aziende",
+    "the Nextcloud IRC chat channel on freenode.net" : "il canale IRC di Nextcloud su freenode.net",
     "Open Standards and Interoperability" : "Standard aperti e interoperabilità",
     "100%% Open Source & community-focused" : "100%% Open Source e focalizzato sulla comunità"
 },

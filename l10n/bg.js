@@ -65,7 +65,6 @@ OC.L10N.register(
     "Developer manual" : "Ръководство за разработчици",
     "You can also ask for help in our community support channels:" : "Може да поискате помощ в каналите за поддръжка на общността:",
     "the Nextcloud forums" : "Форума на Nextcloud",
-    "the Nextcloud IRC chat channel on freenode.net" : "IRC канала на Nextcloud във freenode.net",
     "A safe home for all your data" : "Безопасен дом за цялата ви информация",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud прави вашата информация достъпна от всякъде и под ваш контрол. Съхранявайте вашите документи, календари, контакти и снимки на сървър във вашата компания, дом, наш доставчик или дата център.",
     "Host your data and files where you decide" : "Съхранявайте вашите данни където желаете",
@@ -85,6 +84,7 @@ OC.L10N.register(
     "Android app" : "Андроид приложение",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Ако използвате Nextcloud в критично важна среда с много потребители, голям обем от данни и имате нужда от допълнителна поддръжка и функционалност от експертите зад Nextcloud, трябва ви професионална поддръжка от Nextcloud достъпна чрез e-mail и телефон.",
     "Get enterprise support" : "Получете професионална поддръжка",
+    "the Nextcloud IRC chat channel on freenode.net" : "IRC канала на Nextcloud във freenode.net",
     "Open Standards and Interoperability" : "Отворени стандарти и съвместимост",
     "100%% Open Source & community-focused" : "100%% Отворен код и фокус към общността"
 },

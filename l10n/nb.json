@@ -37,12 +37,12 @@
     "Developer manual" : "Utviklermanual",
     "You can also ask for help in our community support channels:" : "Du kan også be om hjelp i våre støttekanaler:",
     "the Nextcloud forums" : "Nextcloud-forumene",
-    "the Nextcloud IRC chat channel on freenode.net" : "Nextcloud sin IRC-kanal på freenode.net",
     "A safe home for all your data" : "Et trygt hjem for alle data",
     "Learn more about %s" : "Lær mer om %s",
     "Connect other apps to %s" : "Koble andre apper til %s",
     "Server address" : "Serveradresse",
     "Copy link" : "Kopier lenke",
-    "Android app" : "Android-app"
+    "Android app" : "Android-app",
+    "the Nextcloud IRC chat channel on freenode.net" : "Nextcloud sin IRC-kanal på freenode.net"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

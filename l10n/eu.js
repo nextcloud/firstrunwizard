@@ -63,7 +63,6 @@ OC.L10N.register(
     "Developer manual" : "Garatzailearen eskuliburua",
     "You can also ask for help in our community support channels:" : "Gure komunitatearen euskarri kanaletan ere eskatu dezakezu laguntza:",
     "the Nextcloud forums" : "Nextcloud foroak",
-    "the Nextcloud IRC chat channel on freenode.net" : "Nextcloud IRC txat kanala freenode.net-en",
     "A safe home for all your data" : "Toki seguru bat zure datu guztientzat",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloudek zure datuak eskura jartzen dizkizu, zure kontrolpean. Gorde zure dokumentu, egutegi, kontaktu eta argazkiak zure enpresako zerbitzari batean, etxean, gure hornitzaileetako batean edo ezagutzen duzun datu-zentro batean.",
     "Host your data and files where you decide" : "Ostatatu zure datuak eta fitxategiak zuk erabakitzen duzun lekuan",
@@ -83,6 +82,7 @@ OC.L10N.register(
     "Android app" : "Android aplikazioa",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Nextcloud berebiziko garrantzia duen ingurune batean exekutatzen duzu, erabiltzaile eta datu kopuru handi batekin eta Nextcloud teknologiaren atzean dauden adituen euskarria ziurtatu nahi baduzu, Nextclouden enpresentzako harpidetza eskuratu dezakezu, posta elektroniko eta telefono bidezko atentzioarekin.",
     "Get enterprise support" : "Eskuratu enpresentzako euskarria",
+    "the Nextcloud IRC chat channel on freenode.net" : "Nextcloud IRC txat kanala freenode.net-en",
     "Open Standards and Interoperability" : "Estandar irekiak eta elkarreragingarritasuna",
     "100%% Open Source & community-focused" : "%%100 kode irekikoa eta komunitatera zuzendua"
 },

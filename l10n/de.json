@@ -61,7 +61,6 @@
     "Developer manual" : "Entwicklerhandbuch",
     "You can also ask for help in our community support channels:" : "Du kannst auch Hilfe in unseren Community Support Channels bekommen:",
     "the Nextcloud forums" : "Das Nextcloud-Forum",
-    "the Nextcloud IRC chat channel on freenode.net" : "Der Nextcloud IRC Chat Channel auf freenode.net",
     "A safe home for all your data" : "Ein sicheres Zuhause für all deine Daten",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud bringt all deine Daten unter deine Kontrolle. Speichere all deine Dokumente, Kalender, Kontakte und Bilder auf einem Server in deiner Firma, zu Hause, bei einem unserer Provider oder in einem dir bekannten Datenzentrum.",
     "Host your data and files where you decide" : "Hoste deine Daten und Dateien, wo du es willst",
@@ -81,6 +80,7 @@
     "Android app" : "Android-App",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Wenn du Nextcloud in einer missionskritischen Umgebung mit einer hohen Anzahl Nutzern und großen Datenmengen betreibst und die Sicherheit und Unterstützung der Experten hinter der Nextcloud-Technologie benötigst, dann kannst du dir ein Enterprise-Abo von Nextcloud besorgen. Dies beinhaltet Unterstützung via E-Mail und Telefon.",
     "Get enterprise support" : "Enterprise Support erhalten",
+    "the Nextcloud IRC chat channel on freenode.net" : "Der Nextcloud IRC Chat Channel auf freenode.net",
     "Open Standards and Interoperability" : "Offene Standards und Interoperabilität",
     "100%% Open Source & community-focused" : "100%% Open Source & Community-fokussiert"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"

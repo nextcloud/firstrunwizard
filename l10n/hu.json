@@ -61,7 +61,6 @@
     "Developer manual" : "Fejlesztői kézikönyv",
     "You can also ask for help in our community support channels:" : "Segítséget is kérhet a közösségi támogatási csatornáinkon:",
     "the Nextcloud forums" : "a Nextcloud fórumon",
-    "the Nextcloud IRC chat channel on freenode.net" : "a Nextcloud IRC csevegőn a freenode.net oldalon",
     "A safe home for all your data" : "Egy biztonságos hely az adataidnak",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "A Nextcloud segítségével kézben tarthatja és felügyelheti az adatait. Tárolja a dokumentumait, naptárait, névjegyeit és fényképeit egy vállalati kiszolgálón, otthon, valamelyik szolgáltatónknál vagy egy olyan adatközpontban, amelyet már ismer.",
     "Host your data and files where you decide" : "Ott tárolja az adatait és fájljait, ahol Ön szeretné",
@@ -81,6 +80,7 @@
     "Android app" : "Androidos alkalmazás",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Ha a Nextcloudot létfontosságú rendszeren futtatja, nagy számú felhasználóval és nagy adatmennyiséggel, és szüksége van a Nextcloud szakértők támogatására, akkor igénybe veheti  a e-mail és telefonos támogatással rendelkező vállalati előfizetést a Nextcloudtól.",
     "Get enterprise support" : "Vállalati támogatás beszerzése",
+    "the Nextcloud IRC chat channel on freenode.net" : "a Nextcloud IRC csevegőn a freenode.net oldalon",
     "Open Standards and Interoperability" : "Nyílt szabványok és együttműködés",
     "100%% Open Source & community-focused" : "100%%-ban nyílt forráskódú és közösségközpontú"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"

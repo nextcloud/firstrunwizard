@@ -35,7 +35,6 @@ OC.L10N.register(
     "Developer manual" : "Manual del desarrollador",
     "You can also ask for help in our community support channels:" : "También puedes pedir ayuda en nuestros canales de soporte de la comunidad:",
     "the Nextcloud forums" : "en los foros de Nextcloud",
-    "the Nextcloud IRC chat channel on freenode.net" : "el canal del chat de IRC para Nextcloud en freenode.net",
     "A safe home for all your data" : "Un lugar seguro para todos tus datos",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud deja tus datos a tu alcance, bajo tu control. Almacena tus documentos, calendario, contactos y fotografías en un servidor de tu compañia, en casa, con uno de nuestros proveedores o en un centro de datos que conozcas. ",
     "Learn more about %s" : "Más información de %s",
@@ -45,6 +44,7 @@ OC.L10N.register(
     "Copy link" : "Copiar liga",
     "Android app" : "Aplicación Android",
     "Get enterprise support" : "Obten soporte empresarial",
+    "the Nextcloud IRC chat channel on freenode.net" : "el canal del chat de IRC para Nextcloud en freenode.net",
     "Open Standards and Interoperability" : "Estándares Abiertos e Interoperabilidad",
     "100%% Open Source & community-focused" : "100%% Código Abierto & orientado a la comunidad"
 },

@@ -52,7 +52,6 @@
     "Developer manual" : "Plėtotojo vadovas",
     "You can also ask for help in our community support channels:" : "Taip pat galite prašyti pagalbos mūsų bendruomenės palaikymo kanaluose:",
     "the Nextcloud forums" : "Nextcloud forumuose",
-    "the Nextcloud IRC chat channel on freenode.net" : "Nextcloud IRC pokalbių kanale, freenode.net serveryje",
     "A safe home for all your data" : "Saugūs namai visiems jūsų duomenims",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud laiko jūsų valdomus duomenis jums lengvai prieinamoje vietoje. Saugokite savo dokumentus, kalendorių, adresatus ir nuotraukas serveryje, savo kompanijoje, namuose, pas vieną iš mūsų tiekėjų ar jums žinomame duomenų centre.",
     "Host your data and files where you decide" : "Saugokite savo duomenis ir failus ten, kur nuspręsite",
@@ -69,6 +68,7 @@
     "App recommendation: Notes" : "Programėlės rekomendacija: Nextcloud užrašai",
     "Distraction-free notes and writing." : "Neblaškantys užrašai ir rašymas.",
     "Android app" : "Android programėlė",
+    "the Nextcloud IRC chat channel on freenode.net" : "Nextcloud IRC pokalbių kanale, freenode.net serveryje",
     "Open Standards and Interoperability" : "Atviri standartai ir funkcinis suderinamumas",
     "100%% Open Source & community-focused" : "100%% atvirojo kodo ir sutelkta į bendruomenę"
 },"pluralForm" :"nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);"

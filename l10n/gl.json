@@ -54,7 +54,6 @@
     "Developer manual" : "Manual do desenvolvedor",
     "You can also ask for help in our community support channels:" : "Tamén pode pedir axuda nas nosas canles de asistencia á comunidade:",
     "the Nextcloud forums" : "os foros do Nextcloud",
-    "the Nextcloud IRC chat channel on freenode.net" : "a canle de conversas IRC do Nextcloud en freenode.net",
     "A safe home for all your data" : "Un lugar seguro para todos os seus datos",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud pon os seus datos ao seu alcance e baixo o seu control. Almacene os seus documentos, calendario, contactos e fotos nun servidor da súa empresa, na súa casa, nun dos nosos provedores ou nun centro de datos que coñeza.",
     "Host your data and files where you decide" : "Aloxe os seus datos e ficheiros onde vostede decida",
@@ -71,6 +70,7 @@
     "Android app" : "Apli de Android",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Se executa o Nextcloud nun contorno de traballo crítico, con gran cantidade de usuarios e grandes cantidades de datos e necesita a certeza de asistencia dos expertos detrás da tecnoloxía Nextcloud, está dispoñíbel unha subscrición empresarial de Nextcloud con asistencia a través do correo electrónico e do teléfono.",
     "Get enterprise support" : "Obter asistencia empresarial",
+    "the Nextcloud IRC chat channel on freenode.net" : "a canle de conversas IRC do Nextcloud en freenode.net",
     "Open Standards and Interoperability" : "Estándares abertos e interoperabilidade",
     "100%% Open Source & community-focused" : "100%% código aberto e enfocado á comunidade"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
