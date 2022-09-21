@@ -61,7 +61,6 @@ OC.L10N.register(
     "Developer manual" : "Manual del desenvolupador",
     "You can also ask for help in our community support channels:" : "També podeu demanar ajuda als nostres canals de suport a la comunitat:",
     "the Nextcloud forums" : "els fòrums de Nextcloud",
-    "the Nextcloud IRC chat channel on freenode.net" : "el canal de Nextcloud de xat IRC a freenode.net",
     "A safe home for all your data" : "Un lloc segur per a totes les vostres dades",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud posa les vostres dades al vostre abast, sota el vostre control. Emmagatzemeu els vostres documents, calendari, contactes i fotos en un servidor de la vostra empresa, a casa, en un dels nostres proveïdors o en un centre de dades que conegueu.",
     "Host your data and files where you decide" : "Allotgeu les vostres dades i fitxers on decidiu",
@@ -79,6 +78,7 @@ OC.L10N.register(
     "Android app" : "Aplicació per Android",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Si feu servir Nextcloud en un entorn de missió crítica amb un gran nombre d’usuaris i grans quantitats de dades i necessiteu la seguretat del suport dels experts darrere de la tecnologia Nextcloud, una subscripció empresarial de Nextcloud està disponible amb suport de correu electrònic i de telèfon.",
     "Get enterprise support" : "Obteniu suport per a empreses",
+    "the Nextcloud IRC chat channel on freenode.net" : "el canal de Nextcloud de xat IRC a freenode.net",
     "Open Standards and Interoperability" : "Estàndards Oberts i Interoperabilitat",
     "100%% Open Source & community-focused" : "100%% Codi Font Obert i orientat a la comunitat"
 },

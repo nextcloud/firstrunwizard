@@ -62,7 +62,6 @@ OC.L10N.register(
     "Developer manual" : "Udviklermanual",
     "You can also ask for help in our community support channels:" : "Du kan også bede om hjælp i vores fællesskabsstøttekanaler:",
     "the Nextcloud forums" : "Nextcloud-foraene",
-    "the Nextcloud IRC chat channel on freenode.net" : "Nextcloud IRC kanalen på freenode.net",
     "A safe home for all your data" : "Et sikkert hjem til alle dine data",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud sætter dine data lige ved hånden, under din kontrol. Gem dine dokumenter, kalender, kontakter og billeder på en server i din virksomhed, derhjemme, hos en af vores udbydere eller i et datacenter, du kender.",
     "Host your data and files where you decide" : "Host dine data og filer, hvor du bestemmer",
@@ -82,6 +81,7 @@ OC.L10N.register(
     "Android app" : "Android-app",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Hvis du kører Nextcloud i et missionskritisk miljø med et stort antal brugere og store mængder data og har brug for sikkerheden for support fra eksperterne bag Nextcloud-teknologien, er et Enterprise-abonnement fra Nextcloud tilgængeligt med e-mail og telefonsupport.",
     "Get enterprise support" : "Få enterprise support",
+    "the Nextcloud IRC chat channel on freenode.net" : "Nextcloud IRC kanalen på freenode.net",
     "Open Standards and Interoperability" : "Åbne standarder og interoperabilitet",
     "100%% Open Source & community-focused" : "100%% Open Source og fællesskabsfokuseret"
 },

@@ -45,7 +45,6 @@
     "Developer manual" : "מדריך מפתח",
     "You can also ask for help in our community support channels:" : "ניתן לבקש עזרה בערוצי התמיכה הקהילתיים שלנו:",
     "the Nextcloud forums" : "הפורומים של Nextcloud",
-    "the Nextcloud IRC chat channel on freenode.net" : "ערוץ ה־IRC של Nextcloud ב־freenode.net",
     "A safe home for all your data" : "בית בטוח לכל הנתונים שלך",
     "Host your data and files where you decide" : "אירוח הנתונים והקבצים שלך במיקום לבחירתך",
     "Learn more about %s" : "מידע נוסף על %s",
@@ -55,6 +54,7 @@
     "Copy link" : "העתקת קישור",
     "Android app" : "יישומון Android",
     "Get enterprise support" : "קבלת תמיכה עסקית",
+    "the Nextcloud IRC chat channel on freenode.net" : "ערוץ ה־IRC של Nextcloud ב־freenode.net",
     "Open Standards and Interoperability" : "תקנים פתוחים ותאימות לשלל מערכות",
     "100%% Open Source & community-focused" : "100%% קוד פתוח ומוכוון קהילה"
 },"pluralForm" :"nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;"

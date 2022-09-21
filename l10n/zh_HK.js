@@ -68,7 +68,6 @@ OC.L10N.register(
     "Developer manual" : "開發人員使用手冊",
     "You can also ask for help in our community support channels:" : "您也可以在我們的社群支援頻道尋求協助",
     "the Nextcloud forums" : "Nextcloud論壇",
-    "the Nextcloud IRC chat channel on freenode.net" : "在freenode.net 上的 Nextcloud IRC 聊天頻道",
     "A safe home for all your data" : "您資料的安全屋",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud 在您觸手可及的地方放置您的資料，在您的控制下。存放您的文件，日曆，聯絡人及相片在您公司，家中，任一個我們的提供者或是任何您知道的資料中心的伺服器上。",
     "Host your data and files where you decide" : "在您決定的位置存放您的資料與檔案",
@@ -88,6 +87,7 @@ OC.L10N.register(
     "Android app" : "Android 應用程式",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "如果您在有大量用戶與大量資料的關鍵任務環境中執行 Nextcloud，且需要 Nextcloud 技術背後的專家支援的話，則可以透過電子郵件與電話支援取得 Nextcloud 的企業訂閱。",
     "Get enterprise support" : "獲得企業級支援",
+    "the Nextcloud IRC chat channel on freenode.net" : "在freenode.net 上的 Nextcloud IRC 聊天頻道",
     "Open Standards and Interoperability" : "開放標準及相互合作",
     "100%% Open Source & community-focused" : "100%% 專注於開源與社群"
 },

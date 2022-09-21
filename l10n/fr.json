@@ -60,7 +60,6 @@
     "Developer manual" : "Manuel du développeur",
     "You can also ask for help in our community support channels:" : "Vous pouvez également demander de l'aide via nos canaux de support communautaire:",
     "the Nextcloud forums" : "les forums de Nextcloud",
-    "the Nextcloud IRC chat channel on freenode.net" : "le canal de discussion Nextcloud IRC sur freenode.net",
     "A safe home for all your data" : "Un lieu sûr pour toutes vos données",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud met vos données à portée de main, sous votre contrôle. Stockez vos documents, votre calendrier, vos contacts et vos photos sur un serveur de votre entreprise, chez vous, chez l'un de nos fournisseurs ou dans un centre de données que vous connaissez.",
     "Host your data and files where you decide" : "Hébergez vos données et fichiers où vous voulez",
@@ -80,6 +79,7 @@
     "Android app" : "Application Android",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Si vous exécutez Nextcloud dans un environnement de production avec un grand nombre d'utilisateurs et de grandes quantités de données et que vous avez besoin de la confiance des experts de la technologie Nextcloud, un abonnement Entreprise de Nextcloud est disponible avec support téléphonique et mail.",
     "Get enterprise support" : "Obtenir le support Entreprise",
+    "the Nextcloud IRC chat channel on freenode.net" : "le canal de discussion Nextcloud IRC sur freenode.net",
     "Open Standards and Interoperability" : "Normes ouvertes et interopérabilité",
     "100%% Open Source & community-focused" : "100%% Open Source & axé sur la communauté "
 },"pluralForm" :"nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;"

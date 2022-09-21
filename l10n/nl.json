@@ -60,7 +60,6 @@
     "Developer manual" : "Ontwikkelaarsdocumentatie",
     "You can also ask for help in our community support channels:" : "Je kunt ook hulp vragen in onze community ondersteuningskanalen:",
     "the Nextcloud forums" : "de Nextcloud forums",
-    "the Nextcloud IRC chat channel on freenode.net" : "het Nextcloud IRC chat kanaal op freenode.net",
     "A safe home for all your data" : "Een veilige plek voor al je gegevens",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud geeft je jouw gegevens onder je vingertoppen, onder je eigen controle. Bewaar je documenten, agenda, contactpersonen en foto's in een server in je eigen bedrijf, thuis of bij een van onze providers in een datacenter dat je kent.",
     "Host your data and files where you decide" : "Sla je gegevens op waar jij dat wilt",
@@ -78,6 +77,7 @@
     "Android app" : "Android app",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Als je Nextcloud in een missie-kritische omgeving met veel gebruikers en veel gegevens draait en de zekerheid van ondersteuning van experts achter de Nextcloud technologie nodig hebt, dan is een Enterprise Abonnement van Nextcloud beschikbaar met e-mail en telefonische ondersteuning.",
     "Get enterprise support" : "Verkrijg zakelijke ondersteuning",
+    "the Nextcloud IRC chat channel on freenode.net" : "het Nextcloud IRC chat kanaal op freenode.net",
     "Open Standards and Interoperability" : "Open Standaarden en Interoperabiliteit",
     "100%% Open Source & community-focused" : "100%% Open Source & community-focused"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"

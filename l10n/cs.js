@@ -68,7 +68,6 @@ OC.L10N.register(
     "Developer manual" : "Příručka pro vývojáře",
     "You can also ask for help in our community support channels:" : "O pomoc je také možné požádat v komunikačních kanálech komunitní podpory:",
     "the Nextcloud forums" : "diskuzní fóra o Nextcloud",
-    "the Nextcloud IRC chat channel on freenode.net" : "Nextcloud IRC chat kanál na freenode.net",
     "A safe home for all your data" : "Bezpečný domov pro všechna vaše data",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "S Nextcloud budete mít kdekoli svá data na dosah ruky, ovšem stále pod vaší kontrolou. Ukládejte své dokumenty, kalendář, kontakty a fotky na server ve své společnosti/organizaci, domácnosti, u jednoho z našich poskytovatelů nebo v datacentru, které znáte.",
     "Host your data and files where you decide" : "Hostujte svá data a soubory kde rozhodnete",
@@ -88,6 +87,7 @@ OC.L10N.register(
     "Android app" : "Aplikace pro Android",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Pokud Nextcloud provozujete v produkčním prostředí s velkým množstvím uživatelů a velkým objemem dat a potřebujete jistotu podpory od odborníků stojících za technologií Nextcloud, je k dispozici předplatné pro podniky, obsahující podporu po telefonu a e-mailu.",
     "Get enterprise support" : "Získat komerční podporu",
+    "the Nextcloud IRC chat channel on freenode.net" : "Nextcloud IRC chat kanál na freenode.net",
     "Open Standards and Interoperability" : "Otevřené standardy a interoperabilita",
     "100%% Open Source & community-focused" : "100%% Open Source a komunitně zaměřené"
 },

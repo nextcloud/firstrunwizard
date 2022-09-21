@@ -59,7 +59,6 @@
     "Developer manual" : "Kehittäjän ohje",
     "You can also ask for help in our community support channels:" : "Voit kysyä apua myös yhteisön tukikanavilta:",
     "the Nextcloud forums" : "Nextcloud-keskustelualueet",
-    "the Nextcloud IRC chat channel on freenode.net" : "Nextcloudin IRC-kanava freenode.net-verkossa",
     "A safe home for all your data" : "Turvallinen koti kaikille tiedoillesi",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud asettaa tietosi sinun hallintaasi. Talleta asiakirjat, kalenteri, yhteystiedot ja kuvat organisaatiosi tarjoamalle palvelimelle, kotipalvelimellesi, Nextcloudin yhteistyökumppanien palvelimille tai luottamaasi palvelinkeskukseen.",
     "Host your data and files where you decide" : "Säilytä tietosi ja tiedostosi missä itse haluat",
@@ -79,6 +78,7 @@
     "Android app" : "Android-sovellus",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Jos käytät Nextcloudia kriittisessä tuotantoympäristössä, ja palvelussa on suuri määrä käyttäjiä sekä tietoa, saatat tarvita varmuuden tuen saamisesta. Nextcloud-teknologiasta vastaavat asiantuntijat tarjoavat yritystasotilauksen pohjalta tukea sähköpostitse ja puhelimitse.",
     "Get enterprise support" : "Hanki yritystason tukea",
+    "the Nextcloud IRC chat channel on freenode.net" : "Nextcloudin IRC-kanava freenode.net-verkossa",
     "Open Standards and Interoperability" : "Avoimet standardit ja yhteentoimivuus",
     "100%% Open Source & community-focused" : "100%% avointa lähdekoodia ja yhteisökeskeisyyttä"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
