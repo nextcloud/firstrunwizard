@@ -24,7 +24,7 @@ OC.L10N.register(
     "Kanban style organization for personal planning and team projects." : "Kanban-ähnliche Organisation für persönliche Planung und Teamprojekte.",
     "App recommendation: Forms" : "App-Empfehlung: Formulare",
     "Simple surveys and questionnaires, self-hosted" : "Einfache Umfragen und Fragebögen, selbst gehostet",
-    "App recommendation: Recognize" : "App-Empfehlung: Erkennen",
+    "App recommendation: Recognize" : "App-Empfehlung: Recognize",
     "Smart media tagging for Nextcloud" : "Intelligente Media-Verschlagwortung für Nextcloud",
     "App recommendation: Group folders" : "App-Empfehlung: Group folders",
     "Admin-configured folders shared by everyone in a group." : "Vom Administrator konfigurierte Ordner, die mit jedem Gruppenmitglied geteilt sind.",
