@@ -1,14 +1,20 @@
 {
-  "name": "nextcloud/firstrunwizard",
-  "description": "The Nextcloud firstrunwizard",
-  "license": "AGPL",
-  "config": {
-    "optimize-autoloader": true,
-    "classmap-authoritative": true
-  },
-  "require": {
-  },
-  "scripts": {
-    "lint": "find . -name \\*.php -not -path './vendor/*' -print0 | xargs -0 -n1 php -l"
-  }
+	"name": "nextcloud/firstrunwizard",
+	"description": "The Nextcloud firstrunwizard",
+	"license": "AGPL",
+	"config": {
+		"optimize-autoloader": true,
+		"classmap-authoritative": true
+	},
+	"scripts": {
+		"lint": "find . -name \\*.php -not -path './vendor/*' -print0 | xargs -0 -n1 php -l"
+	},
+	"require-dev": {
+		"nextcloud/ocp": "dev-stable23"
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"OCP\\": "vendor/nextcloud/ocp/OCP"
+		}
+	}
 }
