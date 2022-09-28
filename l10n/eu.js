@@ -23,6 +23,7 @@ OC.L10N.register(
     "App recommendation: Deck" : "Aholkatutako aplikazioa: Deck",
     "Kanban style organization for personal planning and team projects." : "Kanban estiloko antolaketa plangintza pertsonalerako eta taldeko proiektuentzat.",
     "App recommendation: Forms" : "Aholkatutako aplikazioa: Forms",
+    "Simple surveys and questionnaires, self-hosted" : "Inkesta sinpleak eta galdetegiak, norberak ostatatuta",
     "App recommendation: Recognize" : "Aholkatutako aplikazioa: Recognize",
     "Smart media tagging for Nextcloud" : "Multimedia etiketatze adimentsua Nextcloudentzako",
     "App recommendation: Group folders" : "Aholkatutako aplikazioa: Group folders",
