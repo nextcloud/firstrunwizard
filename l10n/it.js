@@ -22,6 +22,7 @@ OC.L10N.register(
     "Sync tasks from various devices with your Nextcloud and edit them online." : "Sincronizza le attività tra diversi dispositivi con il tuo Nextcloud e modificale in linea.",
     "App recommendation: Deck" : "Applicazione consigliata: Deck",
     "Kanban style organization for personal planning and team projects." : "Organizzazione in stile Kanban per la pianificazione personale e per i progetti di squadra.",
+    "Smart media tagging for Nextcloud" : "Tagging dei media intelligente per Nextcloud",
     "App recommendation: Group folders" : "Applicazione consigliata: Cartelle di gruppo",
     "Admin-configured folders shared by everyone in a group." : "Cartelle configurate dall'amministratore condivise da chiunque in un gruppo.",
     "About" : "Informazioni",
