@@ -19,6 +19,7 @@
 .clientslinks .button .appsmall {
 	vertical-align: sub;
 	margin-right: 0.2rem;
+	filter: var(--background-invert-if-dark);
 }
 
 .clipboardButton {
