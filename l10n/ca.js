@@ -1,7 +1,7 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Copy to clipboard" : "Copia-ho al porta-papers",
+    "Copy to clipboard" : "Copia-ho al porta-retalls",
     "Copied!" : "S'ha copiat!",
     "Not supported!" : "No suportat!",
     "Press ⌘-C to copy." : "Premeu ⌘-C per copiar.",
