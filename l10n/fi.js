@@ -58,6 +58,7 @@ OC.L10N.register(
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Haluatko tietyn parannuksen Nextcloudiin? Löysitkö ongelman? Haluatko kääntää, mainostaa tai dokumentoida Nextcloudia?",
     "Become part of the Community" : "Ryhdy osaksi yhteisöä",
     "Enterprise support" : "Yritystuki",
+    "Learn more about Nextcloud Enterprise" : "Lue lisää Nextcloudin Enterprise-versiosta",
     "Get more information" : "Hanki lisätietoja",
     "The Nextcloud documentation for home users:" : "Nextcloud-ohjeet kotikäyttäjille:",
     "User manual" : "Käyttäjän ohje",
