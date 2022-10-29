@@ -37,11 +37,13 @@ OC.L10N.register(
     "Developer manual" : "개발자 메뉴얼",
     "the Nextcloud forums" : "Nextcloud 포럼",
     "A safe home for all your data" : "내 모든 데이터를 위한 안전한 저장소",
+    "Learn more about %s" : "%s에 관해 더 자세히 알아보기",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "당신이 있는 곳 어디에서나 %s가 당신의 파일에 접근할 수 있도록 도와줍니다. 쓰기 쉬운 데스크탑과 모바일 클라이언트를 대부분의 주요 플랫폼에서 무료로 이용하세요.",
     "Connect other apps to %s" : "다른 앱을 %s에 연결하세요.",
     "Server address" : "서버 주소",
     "Use this link to connect your apps and desktop client to this server:" : "다음 링크를 사용하여 데스크톱 클라이언트나 당신의 앱에 이 서버를 연결하세요.",
     "Copy link" : "링크 복사",
-    "Android app" : "Android 앱"
+    "Android app" : "Android 앱",
+    "Get enterprise support" : "기업 지원 받기"
 },
 "nplurals=1; plural=0;");
