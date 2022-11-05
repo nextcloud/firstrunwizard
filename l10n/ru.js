@@ -79,7 +79,6 @@ OC.L10N.register(
     "Copy link" : "Скопировать ссылку",
     "App recommendation: Notes" : "Рекомендованное приложение: Заметки",
     "Distraction-free notes and writing." : "Простые заметки и записки.",
-    "Android app" : "Приложение для Android",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Используете Nextcloud в критически важной среде с большим количеством пользователей и значительным объёмом данных, и вам требуется поддержка от экспертов технологий Nextcloud? Для вас доступна корпоративная поддержка, оказываемая по телефону и электронной почте.",
     "Get enterprise support" : "Получить корпоративную поддержку",
     "the Nextcloud IRC chat channel on freenode.net" : "на канале IRC, расположенном на серверах freenode.net",

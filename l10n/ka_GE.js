@@ -20,7 +20,6 @@ OC.L10N.register(
     "Access files via WebDAV" : "დაუკავშირდით ფაილებს WebDAV–ით",
     "A safe home for all your data" : "უსაფრთხო სახლი მთელი თქვენი მონაცემებისათვის",
     "Server address" : "სერვერის მისამართი",
-    "Copy link" : "ბმულის კოპირება",
-    "Android app" : "Android აპლიკაცია"
+    "Copy link" : "ბმულის კოპირება"
 },
 "nplurals=2; plural=(n!=1);");
