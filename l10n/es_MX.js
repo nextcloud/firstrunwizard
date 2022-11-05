@@ -48,7 +48,6 @@ OC.L10N.register(
     "Connect other apps to %s" : "Conectar otras aplicaciones a %s",
     "Server address" : "Dirección del servidor",
     "Copy link" : "Copiar liga",
-    "Android app" : "Aplicación Android",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Si estas corriendo Nextcloud en un ambiente de misión crítica con un gran número de usuarios y altos volúmenes de datos y necesitas la certidumbre de soporte de los expertos detrás de la tecnología Nextcloud, la Suscripción Empresarial de Nextcloud está disponible con soporte vía correo electrónico y telefónico. ",
     "Get enterprise support" : "Obten soporte empresarial",
     "the Nextcloud IRC chat channel on freenode.net" : "el canal del chat de IRC para Nextcloud en freenode.net",

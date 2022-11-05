@@ -33,7 +33,6 @@ OC.L10N.register(
     "Connect other apps to %s" : "قم بربط تطبيقات أخرى مع %s",
     "Server address" : "عنوان الخادم",
     "Copy link" : "انسخ الرابط",
-    "Android app" : "تطبيق أندرويد",
     "the Nextcloud IRC chat channel on freenode.net" : "قناة IRC للدردشة الخاصة بـ Nextcloud على freenode.net",
     "100%% Open Source & community-focused" : "منصة مفتوحة المصدر 100%% موجهة للمجتمع"
 },

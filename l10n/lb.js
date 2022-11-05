@@ -10,7 +10,6 @@ OC.L10N.register(
     "Desktop client" : "Desktop-Programm",
     "iOS app" : "iOS-App",
     "Server address" : "Server-Adress",
-    "Copy link" : "Link kopéieren",
-    "Android app" : "Android-App"
+    "Copy link" : "Link kopéieren"
 },
 "nplurals=2; plural=(n != 1);");

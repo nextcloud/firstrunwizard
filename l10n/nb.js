@@ -44,7 +44,6 @@ OC.L10N.register(
     "Connect other apps to %s" : "Koble andre apper til %s",
     "Server address" : "Serveradresse",
     "Copy link" : "Kopier lenke",
-    "Android app" : "Android-app",
     "the Nextcloud IRC chat channel on freenode.net" : "Nextcloud sin IRC-kanal på freenode.net"
 },
 "nplurals=2; plural=(n != 1);");

@@ -17,7 +17,6 @@ OC.L10N.register(
     "Access files via WebDAV" : "Akses berkas via WebDAV",
     "A safe home for all your data" : "Tempat yang aman untuk semua data anda",
     "Server address" : "Alamat peladen",
-    "Copy link" : "Salin tautan",
-    "Android app" : "Aplikasi Android"
+    "Copy link" : "Salin tautan"
 },
 "nplurals=1; plural=0;");
