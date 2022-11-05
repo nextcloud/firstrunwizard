@@ -25,7 +25,6 @@ OC.L10N.register(
     "Learn more about %s" : "ดูเพิ่มเติมเกี่ยวกับ %s",
     "Server address" : "ที่อยู่เซิร์ฟเวอร์",
     "Copy link" : "คัดลอกลิงก์",
-    "Distraction-free notes and writing." : "จดและเขียนโน้ตแบบไร้สิ่งรบกวน",
-    "Android app" : "แอป Android"
+    "Distraction-free notes and writing." : "จดและเขียนโน้ตแบบไร้สิ่งรบกวน"
 },
 "nplurals=1; plural=0;");

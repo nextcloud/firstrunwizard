@@ -8,7 +8,6 @@ OC.L10N.register(
     "Connect your desktop apps to %s" : "Desktop proqramınızı %s-ə qoşun",
     "Access files via WebDAV" : "Fayllara WebDAV ilə yetki",
     "Server address" : "Server ünvanı",
-    "Copy link" : "linki nüsxələ",
-    "Android app" : "Android proqramı"
+    "Copy link" : "linki nüsxələ"
 },
 "nplurals=2; plural=(n != 1);");

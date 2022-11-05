@@ -74,7 +74,6 @@ OC.L10N.register(
     "Copy link" : "Kopiraj poveznicu",
     "App recommendation: Notes" : "Preporučena aplikacija: Notes",
     "Distraction-free notes and writing." : "Bilješke i pisanje bez ometanja.",
-    "Android app" : "Aplikacija za Android",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Ako Nextcloud pokrećete u kritičnom okruženju s velikim brojem korisnika i velikim količinama podataka te trebate sigurnost podrške stručnjaka koji odlično poznaju Nextcloudove tehnologije, Enterprise pretplata na Nextcloud obuhvaća podršku putem e-pošte i telefona.",
     "Get enterprise support" : "Zatražite poslovnu podršku",
     "the Nextcloud IRC chat channel on freenode.net" : "IRC kanal za razmjenu poruka Nextcloud na freenode.net",

@@ -1,7 +1,7 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Copy to clipboard" : "Copia-ho al porta-papers",
+    "Copy to clipboard" : "Copia-ho al porta-retalls",
     "Copied!" : "S'ha copiat!",
     "Not supported!" : "No suportat!",
     "Press ⌘-C to copy." : "Premeu ⌘-C per copiar.",
@@ -75,7 +75,6 @@ OC.L10N.register(
     "Copy link" : "Copia l'enllaç",
     "App recommendation: Notes" : "Recomanació d’aplicació: Notes",
     "Distraction-free notes and writing." : "Notes i escriptura sense distraccions.",
-    "Android app" : "Aplicació per Android",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Si feu servir Nextcloud en un entorn de missió crítica amb un gran nombre d’usuaris i grans quantitats de dades i necessiteu la seguretat del suport dels experts darrere de la tecnologia Nextcloud, una subscripció empresarial de Nextcloud està disponible amb suport de correu electrònic i de telèfon.",
     "Get enterprise support" : "Obteniu suport per a empreses",
     "the Nextcloud IRC chat channel on freenode.net" : "el canal de Nextcloud de xat IRC a freenode.net",
