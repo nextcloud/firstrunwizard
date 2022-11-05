@@ -76,7 +76,6 @@ OC.L10N.register(
     "Copy link" : "Kopiëren link ",
     "App recommendation: Notes" : "App aanbeveling: Contactpersonen",
     "Distraction-free notes and writing." : "Afleidingsvrije notities en schrijven.",
-    "Android app" : "Android app",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Als je Nextcloud in een missie-kritische omgeving met veel gebruikers en veel gegevens draait en de zekerheid van ondersteuning van experts achter de Nextcloud technologie nodig hebt, dan is een Enterprise Abonnement van Nextcloud beschikbaar met e-mail en telefonische ondersteuning.",
     "Get enterprise support" : "Verkrijg zakelijke ondersteuning",
     "the Nextcloud IRC chat channel on freenode.net" : "het Nextcloud IRC chat kanaal op freenode.net",

@@ -81,7 +81,6 @@ OC.L10N.register(
     "Copy link" : "Hivatkozás másolása",
     "App recommendation: Notes" : "Alkalmazás ajánlás: Megjegyzések",
     "Distraction-free notes and writing." : "Figyelemelterelés nélküli jegyzetek és írás.",
-    "Android app" : "Androidos alkalmazás",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Ha a Nextcloudot létfontosságú rendszeren futtatja, nagy számú felhasználóval és nagy adatmennyiséggel, és szüksége van a Nextcloud szakértők támogatására, akkor igénybe veheti  a e-mail és telefonos támogatással rendelkező vállalati előfizetést a Nextcloudtól.",
     "Get enterprise support" : "Vállalati támogatás beszerzése",
     "the Nextcloud IRC chat channel on freenode.net" : "a Nextcloud IRC csevegőn a freenode.net oldalon",

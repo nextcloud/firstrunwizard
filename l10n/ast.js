@@ -20,7 +20,6 @@ OC.L10N.register(
     "Access files via WebDAV" : "Accedi per WebDAV a los ficheros",
     "A safe home for all your data" : "Un llar seguru pa tolos tos datos",
     "Server address" : "Direición del sividor",
-    "Copy link" : "Copiar enllaz",
-    "Android app" : "Aplicación p'Android"
+    "Copy link" : "Copiar enllaz"
 },
 "nplurals=2; plural=(n != 1);");

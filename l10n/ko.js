@@ -43,7 +43,6 @@ OC.L10N.register(
     "Server address" : "서버 주소",
     "Use this link to connect your apps and desktop client to this server:" : "다음 링크를 사용하여 데스크톱 클라이언트나 당신의 앱에 이 서버를 연결하세요.",
     "Copy link" : "링크 복사",
-    "Android app" : "Android 앱",
     "Get enterprise support" : "기업 지원 받기"
 },
 "nplurals=1; plural=0;");

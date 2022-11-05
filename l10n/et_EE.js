@@ -20,7 +20,6 @@ OC.L10N.register(
     "Access files via WebDAV" : "Ligipääs WebDAV vahendusel",
     "A safe home for all your data" : "Turvaline koht sinu andmetele",
     "Server address" : "Serveri aadress",
-    "Copy link" : "Kopeeri link",
-    "Android app" : "Androidi rakendus"
+    "Copy link" : "Kopeeri link"
 },
 "nplurals=2; plural=(n != 1);");

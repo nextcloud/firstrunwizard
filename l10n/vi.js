@@ -10,7 +10,6 @@ OC.L10N.register(
     "iOS app" : "Ứng dụng IOS",
     "Access files via WebDAV" : "Truy cập file qua WebDAV",
     "Server address" : "Địa chỉ máy chủ",
-    "Copy link" : "Sao chép liên kết",
-    "Android app" : "Ứng dụng Android"
+    "Copy link" : "Sao chép liên kết"
 },
 "nplurals=1; plural=0;");

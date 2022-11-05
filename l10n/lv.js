@@ -17,7 +17,6 @@ OC.L10N.register(
     "Access files via WebDAV" : "Piekļūt datnēm caur WebDAV",
     "A safe home for all your data" : "Droša vieta visiem jūsu datiem",
     "Server address" : "Servera adrese",
-    "Copy link" : "Kopēt saiti",
-    "Android app" : "Android lietotne"
+    "Copy link" : "Kopēt saiti"
 },
 "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);");

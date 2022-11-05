@@ -18,7 +18,6 @@
     "Access files via WebDAV" : "Accede tus archivos vía WebDAV",
     "A safe home for all your data" : "Un lugar seguro para todos sus datos",
     "Server address" : "Dirección del servidor",
-    "Copy link" : "Copiar liga",
-    "Android app" : "Aplicación Android"
+    "Copy link" : "Copiar liga"
 },"pluralForm" :"nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;"
 }
