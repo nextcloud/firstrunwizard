@@ -1,11 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Copy to clipboard" : "Panoya kopyala",
-    "Copied!" : "Kopyalandı!",
-    "Not supported!" : "Desteklenmiyor!",
-    "Press ⌘-C to copy." : "Kopyalamak için ⌘-C tuşlarına basın.",
-    "Press Ctrl-C to copy." : "Kopyalamak için Ctrl-C tuşlarına basın.",
     "First run wizard" : "İlk çalıştırma yardımcısı",
     "Add your profile information! For example your email is needed to receive notifications." : "Profil bilgilerinizi yazın! Örneğin bildirimleri alabilmeniz için e-posta adresiniz gereklidir.",
     "Add your profile information! For example your email is needed to receive notifications and reset your password." : "Profil bilgilerinizi yazın! Örneğin bildirimleri alabilmeniz ya da parolanızı sıfırlayabilmeniz için e-posta adresiniz gereklidir.",
@@ -82,6 +77,11 @@ OC.L10N.register(
     "Server address" : "Sunucu adresi",
     "Use this link to connect your apps and desktop client to this server:" : "Uygulamalarınızı ve masaüstü istemcinizi bu sunucuya bağlamak için şu adresi kullanın:",
     "Copy link" : "Bağlantıyı kopyala",
+    "Copy to clipboard" : "Panoya kopyala",
+    "Copied!" : "Kopyalandı!",
+    "Not supported!" : "Desteklenmiyor!",
+    "Press ⌘-C to copy." : "Kopyalamak için ⌘-C tuşlarına basın.",
+    "Press Ctrl-C to copy." : "Kopyalamak için Ctrl-C tuşlarına basın.",
     "App recommendation: Notes" : "Önerilen uygulama: Notlar",
     "Distraction-free notes and writing." : "Dikkatinizi dağıtmadan notlar alabilirsiniz.",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Nextcloud uygulamasını çok sayıda kullanıcı ve çok miktarda verinin bulunduğu görev kritik bir ortamda çalıştırıyorsanız ve Nextcloud geliştiricilerinin desteğine gerek duyuyorsanız Kurumsal Abonelik satın alarak e-posta ve telefon desteği sağlayabilirsiniz.",

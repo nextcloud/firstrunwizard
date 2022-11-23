@@ -1,11 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Copy to clipboard" : "Kopioi leikepöydälle",
-    "Copied!" : "Kopioitu!",
-    "Not supported!" : "Ei tuettu!",
-    "Press ⌘-C to copy." : "Paina ⌘-C kopioidaksesi.",
-    "Press Ctrl-C to copy." : "Paina Ctrl-C kopioidaksesi.",
     "First run wizard" : "Ensimmäisen käyttökerran avustaja",
     "Add your profile information! For example your email is needed to receive notifications." : "Lisää profiilitietosi! Esimerkiksi sähköpostiosoitettasi tarvitaan ilmoitusten vastaanottamiseen.",
     "Add your profile information! For example your email is needed to receive notifications and reset your password." : "Lisää profiilitietosi! Esimerkiksi sähköpostiosoitettasi tarvitaan ilmoitusten vastaanottamiseen ja salasanan palauttamiseen.",
@@ -80,6 +75,11 @@ OC.L10N.register(
     "Server address" : "Palvelimen osoite",
     "Use this link to connect your apps and desktop client to this server:" : "Käytä tätä linkkiä yhdistääksesi sovellukset ja työpöytäsovelluksen tähän palvelimeen:",
     "Copy link" : "Kopioi linkki",
+    "Copy to clipboard" : "Kopioi leikepöydälle",
+    "Copied!" : "Kopioitu!",
+    "Not supported!" : "Ei tuettu!",
+    "Press ⌘-C to copy." : "Paina ⌘-C kopioidaksesi.",
+    "Press Ctrl-C to copy." : "Paina Ctrl-C kopioidaksesi.",
     "App recommendation: Notes" : "Sovellussuositus: Muistiinpanot",
     "Distraction-free notes and writing." : "Häiriötöntä muistiinpanojen ottamista ja kirjoittamista",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Jos käytät Nextcloudia kriittisessä tuotantoympäristössä, ja palvelussa on suuri määrä käyttäjiä sekä tietoa, saatat tarvita varmuuden tuen saamisesta. Nextcloud-teknologiasta vastaavat asiantuntijat tarjoavat yritystasotilauksen pohjalta tukea sähköpostitse ja puhelimitse.",

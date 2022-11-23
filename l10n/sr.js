@@ -1,11 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Copy to clipboard" : "Копирај у оставу",
-    "Copied!" : "Копирано!",
-    "Not supported!" : "Није подржано! ",
-    "Press ⌘-C to copy." : "Притисните ⌘-C за копирање.",
-    "Press Ctrl-C to copy." : "Притисни Ctrl-C за копирање.",
     "First run wizard" : "Чаробњак првог покретања",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Додајте податке у налог! Поставите слику и пуно име ради лакшег распознавања.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Додајте податке у налог! Поставите пуно име ради лакшег распознавања.",
@@ -65,6 +60,11 @@ OC.L10N.register(
     "Server address" : "Адреса сервера",
     "Use this link to connect your apps and desktop client to this server:" : "Користите ову везу да повежете Ваше апликације на овај сервер:",
     "Copy link" : "Копирај везу",
+    "Copy to clipboard" : "Копирај у оставу",
+    "Copied!" : "Копирано!",
+    "Not supported!" : "Није подржано! ",
+    "Press ⌘-C to copy." : "Притисните ⌘-C за копирање.",
+    "Press Ctrl-C to copy." : "Притисни Ctrl-C за копирање.",
     "App recommendation: Notes" : "Препоруке апликација: Белешке",
     "Distraction-free notes and writing." : "Белешке и писање без ометања",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Ако имате Некстклауд у јако битном окружењу са великим бројем корисника и са великом количином података и потребу за подршком од стране експерата који стоје иза Некстклауд технологије, комерцијална претплата за Некстклауд је доступна са подршком е-поштом или телефоном.",

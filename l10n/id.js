@@ -1,10 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Copied!" : "Tersalin!",
-    "Not supported!" : "Tidak didukung!",
-    "Press ⌘-C to copy." : "Tekan ⌘-C untuk menyalin.",
-    "Press Ctrl-C to copy." : "Tekan CTRL-C untuk menyalin.",
     "First run wizard" : "Penuntun konfigurasi awal",
     "Schedule work & meetings, synced with all your devices." : "Penjadwalan rapat & pekerjaan, tersinkronisasi dengan gawai Anda.",
     "Keep your colleagues and friends in one place without leaking their private info." : "Simpan info teman dan kolega Anda dalam satu tempat, tanpa membocorkan privat mereka.",
@@ -17,6 +13,10 @@ OC.L10N.register(
     "Access files via WebDAV" : "Akses berkas via WebDAV",
     "A safe home for all your data" : "Tempat yang aman untuk semua data anda",
     "Server address" : "Alamat peladen",
-    "Copy link" : "Salin tautan"
+    "Copy link" : "Salin tautan",
+    "Copied!" : "Tersalin!",
+    "Not supported!" : "Tidak didukung!",
+    "Press ⌘-C to copy." : "Tekan ⌘-C untuk menyalin.",
+    "Press Ctrl-C to copy." : "Tekan CTRL-C untuk menyalin."
 },
 "nplurals=1; plural=0;");

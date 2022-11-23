@@ -1,11 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Copy to clipboard" : "Kopiraj v odložišče",
-    "Copied!" : "Kopirano!",
-    "Not supported!" : "Opravilo ni podprto!",
-    "Press ⌘-C to copy." : "Pritisni ⌘-C za kopiranje.",
-    "Press Ctrl-C to copy." : "Pritisnite Ctrl-C za kopiranje.",
     "First run wizard" : "Čarovnik prvega zagona",
     "Add your profile information! For example your email is needed to receive notifications." : "Dodajte podatke profila! Elektronski naslov mora biti vpisan za prejemanje obvestil.",
     "Add your profile information! For example your email is needed to receive notifications and reset your password." : "Dodajte podatke profila! Elektronski naslov mora biti vpisan za prejemanje obvestil in ponastavitev gesla.",
@@ -75,6 +70,11 @@ OC.L10N.register(
     "Server address" : "Naslov strežnika",
     "Use this link to connect your apps and desktop client to this server:" : "Naslov za povezavo programa s strežnikom:",
     "Copy link" : "Kopiraj povezavo",
+    "Copy to clipboard" : "Kopiraj v odložišče",
+    "Copied!" : "Kopirano!",
+    "Not supported!" : "Opravilo ni podprto!",
+    "Press ⌘-C to copy." : "Pritisni ⌘-C za kopiranje.",
+    "Press Ctrl-C to copy." : "Pritisnite Ctrl-C za kopiranje.",
     "App recommendation: Notes" : "App recommendation: Notes",
     "Distraction-free notes and writing." : "Enostavno beleženje in zapisovanje",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Če uporabljate oblak Nextcloud v produkcijskem okolju, gostite veliko uporabnikov in združujete večje količine podatkov, morda razmišljate tudi o zanesljivi podpori strokovnjakov, ki so tehnologijo zasnovali. Na voljo je poslovna naročnina, ki omogoča telefonsko podporo in ciljno pomoč po elektronski pošti.",
