@@ -1,11 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Copy to clipboard" : "Vágólapra másolás",
-    "Copied!" : "Másolva.",
-    "Not supported!" : "Nem támogatott.",
-    "Press ⌘-C to copy." : "A másoláshoz nyomjon ⌘-C-t.",
-    "Press Ctrl-C to copy." : "A másoláshoz nyomjon Ctrl-C-t.",
     "First run wizard" : "Első indítási varázsló",
     "Add your profile information! For example your email is needed to receive notifications." : "Adja hozzá a profiladatait. Például az e-mail szükséges az értesítések fogadásához.",
     "Add your profile information! For example your email is needed to receive notifications and reset your password." : "Adja hozzá a profiladatait. Például az e-mail szükséges az értesítések fogadásához és a jelszó-visszaállításához.",
@@ -82,6 +77,11 @@ OC.L10N.register(
     "Server address" : "Kiszolgálócím",
     "Use this link to connect your apps and desktop client to this server:" : "Használja ezt a hivatkozást az alkalmazások és az asztali kliens csatlakoztatásához a kiszolgálóhoz:",
     "Copy link" : "Hivatkozás másolása",
+    "Copy to clipboard" : "Vágólapra másolás",
+    "Copied!" : "Másolva.",
+    "Not supported!" : "Nem támogatott.",
+    "Press ⌘-C to copy." : "A másoláshoz nyomjon ⌘-C-t.",
+    "Press Ctrl-C to copy." : "A másoláshoz nyomjon Ctrl-C-t.",
     "App recommendation: Notes" : "Alkalmazásjavaslat: Jegyzetek",
     "Distraction-free notes and writing." : "Figyelemelterelés nélküli jegyzetek és írás.",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Ha a Nextcloudot létfontosságú rendszeren futtatja, nagy számú felhasználóval és nagy adatmennyiséggel, és szüksége van a Nextcloud szakértők támogatására, akkor igénybe veheti  a e-mail és telefonos támogatással rendelkező vállalati előfizetést a Nextcloudtól.",

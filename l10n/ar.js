@@ -1,11 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Copy to clipboard" : "انسخه إلى الحافظة",
-    "Copied!" : "تم نسخه!",
-    "Not supported!" : "غير مدعوم!",
-    "Press ⌘-C to copy." : "إضغط ⌘-C للنسخ",
-    "Press Ctrl-C to copy." : "إضغط Ctrl-C للنسخ.",
     "First run wizard" : "دليل التشغيل لأول مرة",
     "Schedule work & meetings, synced with all your devices." : "قم بجدولة العمل والإجتماعات ، بالتزامن مع جميع أجهزتك.",
     "Keep your colleagues and friends in one place without leaking their private info." : "احتفظ بزملائك وأصدقائك في مكان واحد دون تسريب معلوماتهم الخاصة.",
@@ -33,6 +28,11 @@ OC.L10N.register(
     "Connect other apps to %s" : "قم بربط تطبيقات أخرى مع %s",
     "Server address" : "عنوان الخادم",
     "Copy link" : "انسخ الرابط",
+    "Copy to clipboard" : "انسخه إلى الحافظة",
+    "Copied!" : "تم نسخه!",
+    "Not supported!" : "غير مدعوم!",
+    "Press ⌘-C to copy." : "إضغط ⌘-C للنسخ",
+    "Press Ctrl-C to copy." : "إضغط Ctrl-C للنسخ.",
     "the Nextcloud IRC chat channel on freenode.net" : "قناة IRC للدردشة الخاصة بـ Nextcloud على freenode.net",
     "100%% Open Source & community-focused" : "منصة مفتوحة المصدر 100%% موجهة للمجتمع"
 },

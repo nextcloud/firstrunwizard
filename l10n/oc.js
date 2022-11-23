@@ -1,11 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Copy to clipboard" : "Copiar dins lo quichapapièrs",
-    "Copied!" : "Copiat !",
-    "Not supported!" : "Pas pres en carga !",
-    "Press ⌘-C to copy." : "Quichar ⌘-C per copiar.",
-    "Press Ctrl-C to copy." : "Quichar Ctrl-C per copiar.",
     "Schedule work & meetings, synced with all your devices." : "Planificatz prètzfaches e reünions, sincronizats amb totes vòstres periferics.",
     "Keep your colleagues and friends in one place without leaking their private info." : "Gardatz vòstres companhs e amics a un sòl lòc sens divulgar lor vida privada.",
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Aplicacion simpla e simpatica de corrièl integrada a Fichièrs, Contactes e Calendièr.",
@@ -19,6 +14,11 @@ OC.L10N.register(
     "Access files via WebDAV" : "Accedissètz a vòstres fichièrs via WebDAV",
     "A safe home for all your data" : "Un ostal segur per vòstras donadas",
     "Server address" : "Adreça del servidor",
-    "Copy link" : "Copiar lo ligam"
+    "Copy link" : "Copiar lo ligam",
+    "Copy to clipboard" : "Copiar dins lo quichapapièrs",
+    "Copied!" : "Copiat !",
+    "Not supported!" : "Pas pres en carga !",
+    "Press ⌘-C to copy." : "Quichar ⌘-C per copiar.",
+    "Press Ctrl-C to copy." : "Quichar Ctrl-C per copiar."
 },
 "nplurals=2; plural=(n > 1);");

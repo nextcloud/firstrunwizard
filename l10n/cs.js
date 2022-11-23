@@ -1,11 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Copy to clipboard" : "Zkopírovat do schránky",
-    "Copied!" : "Zkopírováno",
-    "Not supported!" : "Nepodporováno!",
-    "Press ⌘-C to copy." : "Zkopírujete stisknutím ⌘C.",
-    "Press Ctrl-C to copy." : "Zkopírujete stisknutím Ctrl+C.",
     "First run wizard" : "Průvodce prvním spuštěním",
     "Add your profile information! For example your email is needed to receive notifications." : "Přidejte si své profilové informace. Například váš e-mail je potřebný, abyste dostávali upozornění.",
     "Add your profile information! For example your email is needed to receive notifications and reset your password." : "Přidejte si své profilové informace. Například váš e-mail je potřebný, abyste dostávali upozornění a pro obnovu hesla.",
@@ -82,6 +77,11 @@ OC.L10N.register(
     "Server address" : "Adresa serveru",
     "Use this link to connect your apps and desktop client to this server:" : "Pro propojení vámi používaných aplikací a desktopového klienta na tento server použijte tento odkaz: ",
     "Copy link" : "Zkopírovat odkaz",
+    "Copy to clipboard" : "Zkopírovat do schránky",
+    "Copied!" : "Zkopírováno",
+    "Not supported!" : "Nepodporováno!",
+    "Press ⌘-C to copy." : "Zkopírujete stisknutím ⌘C.",
+    "Press Ctrl-C to copy." : "Zkopírujete stisknutím Ctrl+C.",
     "App recommendation: Notes" : "Doporučení aplikace: Poznámky",
     "Distraction-free notes and writing." : "Pozornost nerozptylující poznámky a zápisky.",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Pokud Nextcloud provozujete v produkčním prostředí s velkým množstvím uživatelů a velkým objemem dat a potřebujete jistotu podpory od odborníků stojících za technologií Nextcloud, je k dispozici předplatné pro podniky, obsahující podporu po telefonu a e-mailu.",

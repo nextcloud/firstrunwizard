@@ -1,11 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Copy to clipboard" : "Afrita á klippispjald",
-    "Copied!" : "Afritað!",
-    "Not supported!" : "Ekki stutt!",
-    "Press ⌘-C to copy." : "Ýttu á ⌘-C til að afrita.",
-    "Press Ctrl-C to copy." : "Ýttu á Ctrl-C til að afrita.",
     "First run wizard" : "Fyrsta-skiptis-leiðarvísir",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Bættu við notandaupplýsingarnar þínar! Settu auðkennismynd og fullt nafn svo auðveldara verði að nota marga eiginleika.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Bættu við notandaupplýsingarnar þínar! Settu inn fullt nafn svo auðveldara verði að nota marga eiginleika.",
@@ -63,6 +58,11 @@ OC.L10N.register(
     "Server address" : "Vistfang þjóns",
     "Use this link to connect your apps and desktop client to this server:" : "Notaðu þessa slóð fyrir forritin þín til að tengjast þessum þjóni:",
     "Copy link" : "Afrita tengil",
+    "Copy to clipboard" : "Afrita á klippispjald",
+    "Copied!" : "Afritað!",
+    "Not supported!" : "Ekki stutt!",
+    "Press ⌘-C to copy." : "Ýttu á ⌘-C til að afrita.",
+    "Press Ctrl-C to copy." : "Ýttu á Ctrl-C til að afrita.",
     "App recommendation: Notes" : "Forrit sem mælt er með: Notes minnispunktaforrit",
     "Distraction-free notes and writing." : "Augljós ritun og skoðun minnispunkta.",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Ef þú ert að keyra Nextcloud í krefjandi umhverfi (mission critical environment) með miklum fjölda notenda og miklu magni gagna - og þarft að vera viss um að geta fengið aðstoð frá sérfræðingum sem séu með púlsinn á tækninni á bak við Nextcloud, þá er í boði fyrirtækjaáskrift (Enterprise Subscription) frá Nextcloud sem felur í sér aðstoð í gegnum síma og tölvupóst.",
