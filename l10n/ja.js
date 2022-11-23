@@ -1,11 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Copy to clipboard" : "クリップボードにコピー",
-    "Copied!" : "コピーしました！",
-    "Not supported!" : "サポートされていません！",
-    "Press ⌘-C to copy." : "⌘+Cを押してコピーします。",
-    "Press Ctrl-C to copy." : "Ctrl+Cを押してコピーします。",
     "First run wizard" : "初期ウィザード",
     "Add your profile information! For example your email is needed to receive notifications." : "プロフィール情報を追加しましょう! 例えば、通知を受け取るためにはメールアドレスが必要です。",
     "Add your profile information! For example your email is needed to receive notifications and reset your password." : "プロフィール情報を追加しましょう!  例えば、通知を受け取ったり、パスワードをリセットするにはメールアドレスが必要です。",
@@ -82,6 +77,11 @@ OC.L10N.register(
     "Server address" : "サーバーアドレス",
     "Use this link to connect your apps and desktop client to this server:" : "アプリやデスクトップクライアントをこのサーバーに接続するには、このリンクを使用してください:",
     "Copy link" : "リンクをコピー",
+    "Copy to clipboard" : "クリップボードにコピー",
+    "Copied!" : "コピーしました！",
+    "Not supported!" : "サポートされていません！",
+    "Press ⌘-C to copy." : "⌘+Cを押してコピーします。",
+    "Press Ctrl-C to copy." : "Ctrl+Cを押してコピーします。",
     "App recommendation: Notes" : "アプリのおすすめ：ノート",
     "Distraction-free notes and writing." : "集中モードのノートと執筆",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Nextcloud を大勢のユーザーと大量のデータを扱うミッションクリティカルな環境で運用し、Nextcloud 技術の裏側にいる専門家による確実なサポートが必要であれば、Nextcloud からの法人向けサブスクリプションがメールと電話サポートで利用できます。",

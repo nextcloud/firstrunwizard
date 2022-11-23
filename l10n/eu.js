@@ -1,11 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Copy to clipboard" : "Kopiatu arbelera",
-    "Copied!" : "Kopiatua!",
-    "Not supported!" : "Euskarririk gabe!",
-    "Press ⌘-C to copy." : "Sakatu ⌘-C kopiatzeko.",
-    "Press Ctrl-C to copy." : "Sakatu Ctrl-C kopiatzeko.",
     "First run wizard" : "Lehen abioko laguntza",
     "Add your profile information! For example your email is needed to receive notifications." : "Gehitu zure profileko informazioa! Adibidez, zure posta elektronikoa beharrezkoa da jakinarazpenak jasotzeko.",
     "Add your profile information! For example your email is needed to receive notifications and reset your password." : "Gehitu zure profileko informazioa! Adibidez, zure posta elektronikoa beharrezkoa da jakinarazpenak jasotzeko eta pasahitza berrezartzeko.",
@@ -82,6 +77,11 @@ OC.L10N.register(
     "Server address" : "Zerbitzariaren helbidea",
     "Use this link to connect your apps and desktop client to this server:" : "Erabili esteka hau zure aplikazio eta mahaigaineko bezeroak zerbitzari honetara konektatzeko:",
     "Copy link" : "Kopiatu esteka",
+    "Copy to clipboard" : "Kopiatu arbelera",
+    "Copied!" : "Kopiatua!",
+    "Not supported!" : "Euskarririk gabe!",
+    "Press ⌘-C to copy." : "Sakatu ⌘-C kopiatzeko.",
+    "Press Ctrl-C to copy." : "Sakatu Ctrl-C kopiatzeko.",
     "App recommendation: Notes" : "Aholkatutako aplikazioa: Notes",
     "Distraction-free notes and writing." : "Hartu oharrak eta idatzi arreta galdu gabe.",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Nextcloud berebiziko garrantzia duen ingurune batean exekutatzen duzu, erabiltzaile eta datu kopuru handi batekin eta Nextcloud teknologiaren atzean dauden adituen euskarria ziurtatu nahi baduzu, Nextclouden enpresentzako harpidetza eskuratu dezakezu, posta elektroniko eta telefono bidezko atentzioarekin.",

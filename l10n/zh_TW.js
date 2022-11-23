@@ -1,11 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Copy to clipboard" : "複製到剪貼簿",
-    "Copied!" : "已複製！",
-    "Not supported!" : "不支援！",
-    "Press ⌘-C to copy." : "請按 ⌘-C 以複製。",
-    "Press Ctrl-C to copy." : "請按 Ctrl-C 以複製。",
     "First run wizard" : "首次使用精靈",
     "Add your profile information! For example your email is needed to receive notifications." : "加入您的個人資訊吧！舉例來說，我們需要您的電子郵件地址才能在您需要時收到通知。",
     "Add your profile information! For example your email is needed to receive notifications and reset your password." : "加入您的個人資訊吧！舉例來說，我們需要您的電子郵件地址才能在您需要時收到通知並重設您的密碼。",
@@ -82,6 +77,11 @@ OC.L10N.register(
     "Server address" : "伺服器位址",
     "Use this link to connect your apps and desktop client to this server:" : "使用此連結將您的應用程式與桌面用戶端連結到此伺服器:",
     "Copy link" : "複製連結",
+    "Copy to clipboard" : "複製到剪貼簿",
+    "Copied!" : "已複製！",
+    "Not supported!" : "不支援！",
+    "Press ⌘-C to copy." : "請按 ⌘-C 以複製。",
+    "Press Ctrl-C to copy." : "請按 Ctrl-C 以複製。",
     "App recommendation: Notes" : "推薦功能: Notes",
     "Distraction-free notes and writing." : "無干擾的筆記與寫作。",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "如果您在有大量使用者與大量資料的關鍵任務環境中執行 Nextcloud，且需要 Nextcloud 技術背後的專家支援的話，則可以透過電子郵件與電話支援取得 Nextcloud 的企業訂閱。",
