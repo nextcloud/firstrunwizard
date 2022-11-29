@@ -36,6 +36,7 @@ OC.L10N.register(
     "You can also ask for help in our community support channels:" : "저희 커뮤니티 지원 채널에서 도움을 요청하실 수 있습니다:",
     "the Nextcloud forums" : "Nextcloud 포럼",
     "A safe home for all your data" : "내 모든 데이터를 위한 안전한 저장소",
+    "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud로 당신의 데이터를 직접 관리하세요. 당신의 문서, 일정, 연락처, 사진을 회사와 가정, 데이터 센터, 혹은 저희가 제공하는 서버에 저장하세요.",
     "Learn more about %s" : "%s에 관해 더 자세히 알아보기",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "당신이 있는 곳 어디에서나 %s가 당신의 파일에 접근할 수 있도록 도와줍니다. 쓰기 쉬운 데스크탑과 모바일 클라이언트를 대부분의 주요 플랫폼에서 무료로 이용하세요.",
     "Connect other apps to %s" : "다른 앱을 %s에 연결하세요.",
@@ -47,6 +48,8 @@ OC.L10N.register(
     "Not supported!" : "지원되지 않습니다!",
     "Press ⌘-C to copy." : "복사하려면 ⌘-C 키를 누르십시오.",
     "Press Ctrl-C to copy." : "복사하기 위해 Ctrl-C를 누르세요.",
-    "Get enterprise support" : "기업 지원 받기"
+    "Get enterprise support" : "기업 지원 받기",
+    "the Nextcloud IRC chat channel on freenode.net" : "freenode.net의 Nextcloud IRC 채널",
+    "100%% Open Source & community-focused" : "100%% 오픈 소스, 커뮤니티와 함께 만들어가는"
 },
 "nplurals=1; plural=0;");
