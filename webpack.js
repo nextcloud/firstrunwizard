@@ -6,10 +6,11 @@ const cssLoaderIndex = webpackRules.RULE_SCSS.use.findIndex(rule => rule === 'cs
 webpackRules.RULE_SCSS.use[cssLoaderIndex] = {
 	loader: 'css-loader',
 	options: {
-		url: false
+		url: false,
 	},
 }
 
 webpackConfig.module.rules = Object.values(webpackRules)
+webpackConfig.output.clean = false
 
 module.exports = webpackConfig
