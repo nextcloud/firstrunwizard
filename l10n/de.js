@@ -1,6 +1,11 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "Copy to clipboard" : "In die Zwischenablage kopieren",
+    "Copied!" : "Kopiert!",
+    "Not supported!" : "Nicht unterstützt!",
+    "Press ⌘-C to copy." : "Zum Kopieren ⌘-C drücken.",
+    "Press Ctrl-C to copy." : "Zum Kopieren Strg-C drücken.",
     "First run wizard" : "Einrichtungsassistent",
     "Add your profile information! For example your email is needed to receive notifications." : "Füge deine Profilinformationen hinzu! Beispielsweise wird deine E-Mail-Adresse benötigt, um Benachrichtigungen zu empfangen.",
     "Add your profile information! For example your email is needed to receive notifications and reset your password." : "Füge deine Profilinformationen hinzu! Beispielsweise wird deine E-Mail-Adresse benötigt, um Benachrichtigungen zu empfangen und das Passwort zurückzusetzen.",
@@ -72,11 +77,6 @@ OC.L10N.register(
     "Server address" : "Serveradresse",
     "Use this link to connect your apps and desktop client to this server:" : "Verwende diesen Link, um deine Apps und deinen Desktop-Clienten mit diesem Server zu verbinden:",
     "Copy link" : "Link kopieren",
-    "Copy to clipboard" : "In die Zwischenablage kopieren",
-    "Copied!" : "Kopiert!",
-    "Not supported!" : "Nicht unterstützt!",
-    "Press ⌘-C to copy." : "Zum Kopieren ⌘-C drücken.",
-    "Press Ctrl-C to copy." : "Zum Kopieren Strg-C drücken.",
     "App recommendation: Notes" : "App-Empfehlung: Notes",
     "Distraction-free notes and writing." : "Ablenkungsfreie Notizen und Schreiben.",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Wenn du Nextcloud in einer missionskritischen Umgebung mit einer hohen Anzahl Nutzern und großen Datenmengen betreibst und die Sicherheit und Unterstützung der Experten hinter der Nextcloud-Technologie benötigst, dann kannst du ein Enterprise-Abo von der Nextcloud GmbH kaufen. Dies beinhaltet Unterstützung via E-Mail und Telefon.",

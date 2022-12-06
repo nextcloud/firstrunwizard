@@ -1,6 +1,11 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "Copy to clipboard" : "Copiar para área de transferência",
+    "Copied!" : "Copiado!",
+    "Not supported!" : "Não suportado!",
+    "Press ⌘-C to copy." : "Pressionar ⌘-C para copiar.",
+    "Press Ctrl-C to copy." : "Pressionar Ctrl-C para copiar.",
     "First run wizard" : "Wizard de arranque inicial",
     "Add your profile information! For example your email is needed to receive notifications." : "Adicione a sua informação de perfil! Por exemplo, o seu email é necessário para receber notificações.",
     "Add your profile information! For example your email is needed to receive notifications and reset your password." : "Adicione a sua informação de perfil! Por exemplo, o seu email é necessário para receber notificações e efectuar a reposição da sua palavra-passe.",
@@ -36,11 +41,6 @@ OC.L10N.register(
     "A safe home for all your data" : "Um local seguro para todos os seus dados",
     "Server address" : "Endereço do servidor",
     "Copy link" : "Copiar hiperligação",
-    "Copy to clipboard" : "Copiar para área de transferência",
-    "Copied!" : "Copiado!",
-    "Not supported!" : "Não suportado!",
-    "Press ⌘-C to copy." : "Pressionar ⌘-C para copiar.",
-    "Press Ctrl-C to copy." : "Pressionar Ctrl-C para copiar.",
     "App recommendation: Notes" : "Recomendação de aplicação: Notas"
 },
 "nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");

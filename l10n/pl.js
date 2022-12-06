@@ -1,6 +1,11 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "Copy to clipboard" : "Kopiuj do schowka",
+    "Copied!" : "Skopiowano!",
+    "Not supported!" : "Brak wsparcia!",
+    "Press ⌘-C to copy." : "Wciśnij ⌘-C aby skopiować.",
+    "Press Ctrl-C to copy." : "Wciśnij Ctrl-C aby skopiować.",
     "First run wizard" : "Kreator pierwszego uruchomienia",
     "Add your profile information! For example your email is needed to receive notifications." : "Dodaj informacje o swoim profilu! Na przykład Twój adres e-mail jest wymagany do otrzymywania powiadomień.",
     "Add your profile information! For example your email is needed to receive notifications and reset your password." : "Dodaj informacje o swoim profilu! Na przykład Twój adres e-mail jest wymagany do otrzymywania powiadomień i zresetowania hasła.",
@@ -77,11 +82,6 @@ OC.L10N.register(
     "Server address" : "Adres serwera",
     "Use this link to connect your apps and desktop client to this server:" : "Użyj tego linku, aby podłączyć swoje aplikacje i klienta desktopowego do tego serwera:",
     "Copy link" : "Kopiuj link",
-    "Copy to clipboard" : "Kopiuj do schowka",
-    "Copied!" : "Skopiowano!",
-    "Not supported!" : "Brak wsparcia!",
-    "Press ⌘-C to copy." : "Wciśnij ⌘-C aby skopiować.",
-    "Press Ctrl-C to copy." : "Wciśnij Ctrl-C aby skopiować.",
     "App recommendation: Notes" : "Zalecana aplikacja: Notes",
     "Distraction-free notes and writing." : "Ogólnodostępne notowanie i pisanie.",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Jeśli uruchamiasz Nextcloud w środowisku z dużą ilością użytkowników i danych oraz potrzebujesz pewnego wsparcia ze strony ekspertów znających się na technologi Nextcloud, to skorzystaj z subskrypcji dla firm z Nextcloud, która jest dostępna za pomocą poczty e-mail i telefonu.",
