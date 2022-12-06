@@ -1,6 +1,11 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "Copy to clipboard" : "Αντιγραφή στο πρόχειρο",
+    "Copied!" : "Αντιγράφηκε!",
+    "Not supported!" : "Δεν υποστηρίζεται!",
+    "Press ⌘-C to copy." : "Για αντιγραφή πατήστε ⌘-C.",
+    "Press Ctrl-C to copy." : "Για αντιγραφή πατήστε Ctrl-C.",
     "First run wizard" : " Οδηγός πρώτης εκτέλεσης",
     "Add your profile information! For example your email is needed to receive notifications." : "Προσθέστε τα στοιχεία του προφίλ σας! Για παράδειγμα, το email σας είναι απαραίτητο για τη λήψη ειδοποιήσεων.",
     "Add your profile information! For example your email is needed to receive notifications and reset your password." : "Προσθέστε τα στοιχεία του προφίλ σας! Για παράδειγμα, το email σας είναι απαραίτητο για να λαμβάνετε ειδοποιήσεις και να επαναφέρετε τον κωδικό πρόσβασης σας.",
@@ -71,11 +76,6 @@ OC.L10N.register(
     "Server address" : "Διεύθυνση διακομιστή",
     "Use this link to connect your apps and desktop client to this server:" : "Χρησιμοποιήστε τον σύνδεσμο για να συνδέσετε την εφαρμογή υπολογιστή και κινητού σε αυτόν τον διακομιστή:",
     "Copy link" : "Αντιγραφή συνδέσμου",
-    "Copy to clipboard" : "Αντιγραφή στο πρόχειρο",
-    "Copied!" : "Αντιγράφηκε!",
-    "Not supported!" : "Δεν υποστηρίζεται!",
-    "Press ⌘-C to copy." : "Για αντιγραφή πατήστε ⌘-C.",
-    "Press Ctrl-C to copy." : "Για αντιγραφή πατήστε Ctrl-C.",
     "App recommendation: Notes" : "Προτεινόμενη εφαρμογή: Σημειώσεις",
     "Distraction-free notes and writing." : "Χωρίς περιορισμούς σημειώσεις και γραφή.",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Εάν εκτελείτε το Nextcloud σε ένα κρίσιμο περιβάλλον με μεγάλο αριθμό χρηστών, αρκετά δεδομένα και χρειάζεστε τη σιγουριά υποστήριξης από τους έμπειρους τεχνολογίας του Nextcloud, υπάρχει μια συνδρομή Enterprise από το Nextcloud με υποστήριξη email και τηλεφώνου.",
