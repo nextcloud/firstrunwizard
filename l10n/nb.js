@@ -1,6 +1,11 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "Copy to clipboard" : "Kopiert til utklippstavlen",
+    "Copied!" : "Kopiert!",
+    "Not supported!" : "Ikke støttet!",
+    "Press ⌘-C to copy." : "Trykk ⌘-C for å kopiere.",
+    "Press Ctrl-C to copy." : "Trykk Ctrl-C for å kopiere.",
     "First run wizard" : "Førstegangsveiviser",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Legg til din profilinformasjon. Velg et profilbilde og fullt navn for enklere gjenkjenning på tvers av alle funksjoner.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Legg til din profilinformasjon.Velg fullt navn for enklere gjenkjenning på tvers av alle funksjoner.",
@@ -39,11 +44,6 @@ OC.L10N.register(
     "Connect other apps to %s" : "Koble andre apper til %s",
     "Server address" : "Serveradresse",
     "Copy link" : "Kopier lenke",
-    "Copy to clipboard" : "Kopiert til utklippstavlen",
-    "Copied!" : "Kopiert!",
-    "Not supported!" : "Ikke støttet!",
-    "Press ⌘-C to copy." : "Trykk ⌘-C for å kopiere.",
-    "Press Ctrl-C to copy." : "Trykk Ctrl-C for å kopiere.",
     "the Nextcloud IRC chat channel on freenode.net" : "Nextcloud sin IRC-kanal på freenode.net"
 },
 "nplurals=2; plural=(n != 1);");

@@ -1,6 +1,11 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "Copy to clipboard" : "Copiar al portapapeles",
+    "Copied!" : "¡Copiado!",
+    "Not supported!" : "¡No soportado!",
+    "Press ⌘-C to copy." : "Presione ⌘-C para copiar.",
+    "Press Ctrl-C to copy." : "Presione Ctrl-C para copiar.",
     "First run wizard" : "Asistente de Ejecución Inicial",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "¡Agregua tu información de perfil! Establece una imagen de perfil y nombre completo para reconocerte más fácilmente entre todas las funcionalidades. ",
     "Add your profile information! Set a full name for easier recognition across all features." : "Agregua tu información de perfil! Establece tu nombre completo para reconocerte más fácilmente entre todas las funcionalidades. ",
@@ -43,11 +48,6 @@ OC.L10N.register(
     "Connect other apps to %s" : "Conectar otras aplicaciones a %s",
     "Server address" : "Dirección del servidor",
     "Copy link" : "Copiar liga",
-    "Copy to clipboard" : "Copiar al portapapeles",
-    "Copied!" : "¡Copiado!",
-    "Not supported!" : "¡No soportado!",
-    "Press ⌘-C to copy." : "Presione ⌘-C para copiar.",
-    "Press Ctrl-C to copy." : "Presione Ctrl-C para copiar.",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Si estas corriendo Nextcloud en un ambiente de misión crítica con un gran número de usuarios y altos volúmenes de datos y necesitas la certidumbre de soporte de los expertos detrás de la tecnología Nextcloud, la Suscripción Empresarial de Nextcloud está disponible con soporte vía correo electrónico y telefónico. ",
     "Get enterprise support" : "Obten soporte empresarial",
     "the Nextcloud IRC chat channel on freenode.net" : "el canal del chat de IRC para Nextcloud en freenode.net",
