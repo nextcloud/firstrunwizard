@@ -371,7 +371,7 @@ export default {
 		flex-shrink: 0;
 
 		.firstrunwizard-header {
-			background-size: var(--image-background-size, 275px, contain);
+			background-size: cover;
 			background-position: 50% 50%;
 			// Use custom background or plain primary colour if defined
 			// or fallback to default background with gradient
