@@ -69,8 +69,6 @@ OC.L10N.register(
     "Copy link" : "Kopijuoti nuorodą",
     "App recommendation: Notes" : "Programėlės rekomendacija: Nextcloud užrašai",
     "Distraction-free notes and writing." : "Neblaškantys užrašai ir rašymas.",
-    "the Nextcloud IRC chat channel on freenode.net" : "Nextcloud IRC pokalbių kanale, freenode.net serveryje",
-    "Open Standards and Interoperability" : "Atviri standartai ir funkcinis suderinamumas",
-    "100%% Open Source & community-focused" : "100%% atvirojo kodo ir sutelkta į bendruomenę"
+    "the Nextcloud IRC chat channel on freenode.net" : "Nextcloud IRC pokalbių kanale, freenode.net serveryje"
 },
 "nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);");

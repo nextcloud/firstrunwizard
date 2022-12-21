@@ -51,8 +51,6 @@ OC.L10N.register(
     "Copy link" : "Kopii ligilon",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Se vi uzas Nextcloud-on en grava medio kun multe da uzantoj kaj multaj datumoj, kaj se vi bezonas subteno-certecon el kompetentuloj, kiuj devenas de Nextcloud, firmaa abono el Nextcloud disponeblas per retpoŝto kaj telefonalvokoj.",
     "Get enterprise support" : "Ekhavi firmaan subtenon",
-    "the Nextcloud IRC chat channel on freenode.net" : "la IRC-babilkanalo de Nextcloud ĉe freenode.net",
-    "Open Standards and Interoperability" : "Malfermaj normoj kaj kunfunkcieblo",
-    "100%% Open Source & community-focused" : "Malfermita kodo kaj bazita sur la komunumo je 100 %%"
+    "the Nextcloud IRC chat channel on freenode.net" : "la IRC-babilkanalo de Nextcloud ĉe freenode.net"
 },
 "nplurals=2; plural=(n != 1);");

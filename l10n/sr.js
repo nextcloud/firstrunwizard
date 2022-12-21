@@ -69,8 +69,6 @@ OC.L10N.register(
     "Distraction-free notes and writing." : "Белешке и писање без ометања",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Ако имате Некстклауд у јако битном окружењу са великим бројем корисника и са великом количином података и потребу за подршком од стране експерата који стоје иза Некстклауд технологије, комерцијална претплата за Некстклауд је доступна са подршком е-поштом или телефоном.",
     "Get enterprise support" : "Затражите комерцијалну подршку",
-    "the Nextcloud IRC chat channel on freenode.net" : "Некстклауд IRC чет канал на freenode.net серверу",
-    "Open Standards and Interoperability" : "Отворени стандарди и интероперабилност",
-    "100%% Open Source & community-focused" : "100%% отвореног кода & фокусирано на заједницу"
+    "the Nextcloud IRC chat channel on freenode.net" : "Некстклауд IRC чет канал на freenode.net серверу"
 },
 "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);");
