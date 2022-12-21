@@ -86,8 +86,6 @@ OC.L10N.register(
     "Distraction-free notes and writing." : "Distraction-free notes and writing.",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support.",
     "Get enterprise support" : "Get enterprise support",
-    "the Nextcloud IRC chat channel on freenode.net" : "the Nextcloud IRC chat channel on freenode.net",
-    "Open Standards and Interoperability" : "Open Standards and Interoperability",
-    "100%% Open Source & community-focused" : "100%% Open Source & community-focused"
+    "the Nextcloud IRC chat channel on freenode.net" : "the Nextcloud IRC chat channel on freenode.net"
 },
 "nplurals=2; plural=(n != 1);");

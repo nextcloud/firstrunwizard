@@ -82,8 +82,6 @@
     "Distraction-free notes and writing." : "Häiriötöntä muistiinpanojen ottamista ja kirjoittamista",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Jos käytät Nextcloudia kriittisessä tuotantoympäristössä, ja palvelussa on suuri määrä käyttäjiä sekä tietoa, saatat tarvita varmuuden tuen saamisesta. Nextcloud-teknologiasta vastaavat asiantuntijat tarjoavat yritystasotilauksen pohjalta tukea sähköpostitse ja puhelimitse.",
     "Get enterprise support" : "Hanki yritystason tukea",
-    "the Nextcloud IRC chat channel on freenode.net" : "Nextcloudin IRC-kanava freenode.net-verkossa",
-    "Open Standards and Interoperability" : "Avoimet standardit ja yhteentoimivuus",
-    "100%% Open Source & community-focused" : "100%% avointa lähdekoodia ja yhteisökeskeisyyttä"
+    "the Nextcloud IRC chat channel on freenode.net" : "Nextcloudin IRC-kanava freenode.net-verkossa"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
