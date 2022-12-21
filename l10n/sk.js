@@ -86,8 +86,6 @@ OC.L10N.register(
     "Distraction-free notes and writing." : "Nerozptyľujúce poznámky a zápisky.",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Ak proužívate Nextcloud v produkčnom prostredí s veľkým počtom používateľov a veľkým objemom údajov a potrebujete istotu podpory odborníkov stojacich za technologiou Nextcloud, je k dispozícii predplatné pre firmy, čím získate podporu cez telefón a e-mail.",
     "Get enterprise support" : "Získajte enterprise podporu",
-    "the Nextcloud IRC chat channel on freenode.net" : "Nextcloud IRC kanál na freenode.net",
-    "Open Standards and Interoperability" : "Otvorené štandardy a interoperabilita",
-    "100%% Open Source & community-focused" : "100%% Open Source so zameraním na komunitu"
+    "the Nextcloud IRC chat channel on freenode.net" : "Nextcloud IRC kanál na freenode.net"
 },
 "nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);");

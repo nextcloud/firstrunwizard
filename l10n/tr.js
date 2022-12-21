@@ -86,8 +86,6 @@ OC.L10N.register(
     "Distraction-free notes and writing." : "Dikkatinizi dağıtmadan notlar alabilirsiniz.",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Nextcloud uygulamasını çok sayıda kullanıcı ve çok miktarda verinin bulunduğu görev kritik bir ortamda çalıştırıyorsanız ve Nextcloud geliştiricilerinin desteğine gerek duyuyorsanız Kurumsal Abonelik satın alarak e-posta ve telefon desteği sağlayabilirsiniz.",
     "Get enterprise support" : "Kurumsal destek alın",
-    "the Nextcloud IRC chat channel on freenode.net" : "freenode.net üzerindeki Nextcloud IRC sohbet kanalı",
-    "Open Standards and Interoperability" : "Açık kaynak standartları ve uyumlu çalışma",
-    "100%% Open Source & community-focused" : "%%100 Açık kaynaklı ve topluluk odaklı"
+    "the Nextcloud IRC chat channel on freenode.net" : "freenode.net üzerindeki Nextcloud IRC sohbet kanalı"
 },
 "nplurals=2; plural=(n > 1);");

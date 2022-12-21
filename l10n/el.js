@@ -80,8 +80,6 @@ OC.L10N.register(
     "Distraction-free notes and writing." : "Χωρίς περιορισμούς σημειώσεις και γραφή.",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Εάν εκτελείτε το Nextcloud σε ένα κρίσιμο περιβάλλον με μεγάλο αριθμό χρηστών, αρκετά δεδομένα και χρειάζεστε τη σιγουριά υποστήριξης από τους έμπειρους τεχνολογίας του Nextcloud, υπάρχει μια συνδρομή Enterprise από το Nextcloud με υποστήριξη email και τηλεφώνου.",
     "Get enterprise support" : "Αποκτήστε υποστήριξη επιχειρήσεων",
-    "the Nextcloud IRC chat channel on freenode.net" : "το Nextcloud IRC chat στο freenode.net",
-    "Open Standards and Interoperability" : "Ανοικτά πρότυπα και διαλειτουργικότητα",
-    "100%% Open Source & community-focused" : "100%% Ανοικτά Δεδομένα & εστιασμένα στην κοινότητα"
+    "the Nextcloud IRC chat channel on freenode.net" : "το Nextcloud IRC chat στο freenode.net"
 },
 "nplurals=2; plural=(n != 1);");

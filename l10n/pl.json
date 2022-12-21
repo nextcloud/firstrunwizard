@@ -84,8 +84,6 @@
     "Distraction-free notes and writing." : "Ogólnodostępne notowanie i pisanie.",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Jeśli uruchamiasz Nextcloud w środowisku z dużą ilością użytkowników i danych oraz potrzebujesz pewnego wsparcia ze strony ekspertów znających się na technologi Nextcloud, to skorzystaj z subskrypcji dla firm z Nextcloud, która jest dostępna za pomocą poczty e-mail i telefonu.",
     "Get enterprise support" : "Skorzystaj ze wsparcia dla firm",
-    "the Nextcloud IRC chat channel on freenode.net" : "kanał IRC Nextcloud na freenode.net",
-    "Open Standards and Interoperability" : "Otwarte standardy i interoperacyjność",
-    "100%% Open Source & community-focused" : "100%% open source i skupiony na społeczności"
+    "the Nextcloud IRC chat channel on freenode.net" : "kanał IRC Nextcloud na freenode.net"
 },"pluralForm" :"nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);"
 }
