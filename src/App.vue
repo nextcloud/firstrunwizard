@@ -38,10 +38,10 @@
 	</Modal>
 </template>
 <script>
-import Modal from '@nextcloud/vue/dist/Components/Modal'
+import Modal from '@nextcloud/vue/dist/Components/Modal.js'
 import axios from '@nextcloud/axios'
 import { generateUrl } from '@nextcloud/router'
-import IntroVideo from './components/IntroVideo'
+import IntroVideo from './components/IntroVideo.vue'
 
 export default {
 	name: 'App',
