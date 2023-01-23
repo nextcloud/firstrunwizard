@@ -23,6 +23,7 @@
 
 namespace OCA\FirstRunWizard\Tests\Controller;
 
+use OCA\FirstRunWizard\AppInfo\Application;
 use OCA\FirstRunWizard\Controller\WizardController;
 use OCP\AppFramework\Http;
 use OCP\AppFramework\Http\DataResponse;
@@ -77,6 +78,11 @@ class WizardControllerTest extends TestCase {
 	 * @param string $user
 	 */
 	public function testDisable($user) {
+		$this->config->expects($this->once())
+			->method('getAppValue')
+			->with(Application::APP_ID, 'slides', 'video,values,apps,clients,final')
+			->willReturnArgument(2);
+
 		$controller = $this->getController($user);
 
 		$this->config->expects($this->once())
@@ -91,9 +97,10 @@ class WizardControllerTest extends TestCase {
 
 
 	public function testShowUser() {
-		$this->config->expects($this->at(0))
+		$this->config->expects($this->once())
 			->method('getAppValue')
-			->willReturn('video,values,apps,clients,final');
+			->with(Application::APP_ID, 'slides', 'video,values,apps,clients,final')
+			->willReturnArgument(2);
 		$controller = $this->getController();
 		$this->config->expects($this->exactly(5))
 			->method('getSystemValue')
@@ -120,9 +127,10 @@ class WizardControllerTest extends TestCase {
 	 * @param int $expectedSlidesCount
 	 */
 	public function testShowAdmin(bool $appstoreEnabled, int $expectedSlidesCount): void {
-		$this->config->expects($this->at(0))
+		$this->config->expects($this->once())
 			->method('getAppValue')
-			->willReturn('video,values,apps,clients,final');
+			->with(Application::APP_ID, 'slides', 'video,values,apps,clients,final')
+			->willReturnArgument(2);
 		$controller = $this->getController();
 		if ($appstoreEnabled) {
 			$this->groupManager->expects($this->once())
