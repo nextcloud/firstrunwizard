@@ -1,7 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Copy to clipboard" : "Kopeeri lõikepuhvrisse",
     "Copied!" : "Kopeeritud!",
     "Not supported!" : "Pole toetatud!",
     "Press ⌘-C to copy." : "Kopeerimiseks vajuta ⌘+C.",
@@ -20,6 +19,7 @@ OC.L10N.register(
     "Access files via WebDAV" : "Ligipääs WebDAV vahendusel",
     "A safe home for all your data" : "Turvaline koht sinu andmetele",
     "Server address" : "Serveri aadress",
-    "Copy link" : "Kopeeri link"
+    "Copy link" : "Kopeeri link",
+    "Copy to clipboard" : "Kopeeri lõikepuhvrisse"
 },
 "nplurals=2; plural=(n != 1);");

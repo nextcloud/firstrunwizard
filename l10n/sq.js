@@ -1,7 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Copy to clipboard" : "Kopjo në dërrasë ",
     "Copied!" : "I kopjuar!",
     "Not supported!" : "Nuk mbështetet!",
     "Press ⌘-C to copy." : "Shtyp ⌘-C për të kopjuar.",
@@ -20,6 +19,7 @@ OC.L10N.register(
     "Access files via WebDAV" : "Hyni në kartela përmes WebDAV-it",
     "A safe home for all your data" : "Një shtëpi e sigurt për të dhënat e tua",
     "Server address" : "Adresa e serverit",
-    "Copy link" : "Kopjo linkun"
+    "Copy link" : "Kopjo linkun",
+    "Copy to clipboard" : "Kopjo në dërrasë "
 },
 "nplurals=2; plural=(n != 1);");

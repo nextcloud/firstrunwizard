@@ -1,7 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Copy to clipboard" : "Copiar al portapapeles",
     "Copied!" : "¡Copiado!",
     "Not supported!" : "¡No soportado!",
     "Press ⌘-C to copy." : "Pulsa ⌘-C para copiar.",
@@ -82,6 +81,7 @@ OC.L10N.register(
     "Server address" : "Nombre del servidor",
     "Use this link to connect your apps and desktop client to this server:" : "Use este enlace para conectar sus apps y el cliente de escritorio con este servidor:",
     "Copy link" : "Copiar enlace",
+    "Copy to clipboard" : "Copiar al portapapeles",
     "App recommendation: Notes" : "App recomendada: Notas",
     "Distraction-free notes and writing." : "Escritura y notas sin distracciones.",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Si ejecutas Nextcloud en un entorno crítico, con gran número de usuarios y grandes cantidades de datos, y necesitas la certeza del soporte de los expertos que hay tras la tecnología de Nextcloud, está disponible una suscripción empresarial a Nextcloud con soporte telefónico y correo electrónico.",

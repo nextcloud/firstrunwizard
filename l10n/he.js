@@ -1,7 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Copy to clipboard" : "העתקה ללוח הגזירים",
     "Copied!" : "הועתק!",
     "Not supported!" : "אין תמיכה!",
     "Press ⌘-C to copy." : "‎⌘-C להעתקה.",
@@ -54,6 +53,7 @@ OC.L10N.register(
     "Server address" : "כתובת שרת",
     "Use this link to connect your apps and desktop client to this server:" : "יש להשתמש בקישור הזה כדי לחבר את היישומונים ואת לקוח שולחן העבודה שלך לשרת הזה:",
     "Copy link" : "העתקת קישור",
+    "Copy to clipboard" : "העתקה ללוח הגזירים",
     "Get enterprise support" : "קבלת תמיכה עסקית",
     "the Nextcloud IRC chat channel on freenode.net" : "ערוץ ה־IRC של Nextcloud ב־freenode.net"
 },

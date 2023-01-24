@@ -1,7 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Copy to clipboard" : "Copiar dins lo quichapapièrs",
     "Copied!" : "Copiat !",
     "Not supported!" : "Pas pres en carga !",
     "Press ⌘-C to copy." : "Quichar ⌘-C per copiar.",
@@ -19,6 +18,7 @@ OC.L10N.register(
     "Access files via WebDAV" : "Accedissètz a vòstres fichièrs via WebDAV",
     "A safe home for all your data" : "Un ostal segur per vòstras donadas",
     "Server address" : "Adreça del servidor",
-    "Copy link" : "Copiar lo ligam"
+    "Copy link" : "Copiar lo ligam",
+    "Copy to clipboard" : "Copiar dins lo quichapapièrs"
 },
 "nplurals=2; plural=(n > 1);");
