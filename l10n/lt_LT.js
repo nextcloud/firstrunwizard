@@ -1,7 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Copy to clipboard" : "Kopijuoti į iškarpinę",
     "Copied!" : "Nukopijuota!",
     "Not supported!" : "Nepalaikoma!",
     "Press ⌘-C to copy." : "Norėdami nukopijuoti, paspauskite ⌘-C.",
@@ -67,6 +66,7 @@ OC.L10N.register(
     "Server address" : "Serverio adresas",
     "Use this link to connect your apps and desktop client to this server:" : "Naudokite šią nuorodą norėdami prijungti savo programėles bei darbalaukio kliento programas prie šio serverio:",
     "Copy link" : "Kopijuoti nuorodą",
+    "Copy to clipboard" : "Kopijuoti į iškarpinę",
     "App recommendation: Notes" : "Programėlės rekomendacija: Nextcloud užrašai",
     "Distraction-free notes and writing." : "Neblaškantys užrašai ir rašymas.",
     "the Nextcloud IRC chat channel on freenode.net" : "Nextcloud IRC pokalbių kanale, freenode.net serveryje"

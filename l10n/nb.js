@@ -1,7 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Copy to clipboard" : "Kopiert til utklippstavlen",
     "Copied!" : "Kopiert!",
     "Not supported!" : "Ikke støttet!",
     "Press ⌘-C to copy." : "Trykk ⌘-C for å kopiere.",
@@ -44,6 +43,7 @@ OC.L10N.register(
     "Connect other apps to %s" : "Koble andre apper til %s",
     "Server address" : "Serveradresse",
     "Copy link" : "Kopier lenke",
+    "Copy to clipboard" : "Kopiert til utklippstavlen",
     "the Nextcloud IRC chat channel on freenode.net" : "Nextcloud sin IRC-kanal på freenode.net"
 },
 "nplurals=2; plural=(n != 1);");

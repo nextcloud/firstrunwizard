@@ -1,7 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Copy to clipboard" : "Kopii tondejen",
     "Copied!" : "Kopiita!",
     "Not supported!" : "Ne subtenite!",
     "Press ⌘-C to copy." : "Premu ⌘-C por kopii.",
@@ -49,6 +48,7 @@ OC.L10N.register(
     "Connect other apps to %s" : "Konekti aliajn aplikaĵojn al %s",
     "Server address" : "Servila adreso",
     "Copy link" : "Kopii ligilon",
+    "Copy to clipboard" : "Kopii tondejen",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Se vi uzas Nextcloud-on en grava medio kun multe da uzantoj kaj multaj datumoj, kaj se vi bezonas subteno-certecon el kompetentuloj, kiuj devenas de Nextcloud, firmaa abono el Nextcloud disponeblas per retpoŝto kaj telefonalvokoj.",
     "Get enterprise support" : "Ekhavi firmaan subtenon",
     "the Nextcloud IRC chat channel on freenode.net" : "la IRC-babilkanalo de Nextcloud ĉe freenode.net"

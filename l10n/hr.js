@@ -1,7 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Copy to clipboard" : "Kopiraj u međuspremnik",
     "Copied!" : "Kopirano!",
     "Not supported!" : "Nije podržano!",
     "Press ⌘-C to copy." : "Pritisnite ⌘-C za kopiranje.",
@@ -72,6 +71,7 @@ OC.L10N.register(
     "Server address" : "Adresa poslužitelja",
     "Use this link to connect your apps and desktop client to this server:" : "Iskoristite ovu poveznicu za povezivanje aplikacija i klijenata za osobna računala s ovim poslužiteljem:",
     "Copy link" : "Kopiraj poveznicu",
+    "Copy to clipboard" : "Kopiraj u međuspremnik",
     "App recommendation: Notes" : "Preporučena aplikacija: Notes",
     "Distraction-free notes and writing." : "Bilješke i pisanje bez ometanja.",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Ako Nextcloud pokrećete u kritičnom okruženju s velikim brojem korisnika i velikim količinama podataka te trebate sigurnost podrške stručnjaka koji odlično poznaju Nextcloudove tehnologije, Enterprise pretplata na Nextcloud obuhvaća podršku putem e-pošte i telefona.",

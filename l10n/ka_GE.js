@@ -1,7 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Copy to clipboard" : "კოპირება ბუფერში",
     "Copied!" : "კოპირებულია!",
     "Not supported!" : "არაა მხარდაჭერილი",
     "Press ⌘-C to copy." : "კოპირებისთვის დააჭირეთ ⌘-C-ს.",
@@ -20,6 +19,7 @@ OC.L10N.register(
     "Access files via WebDAV" : "დაუკავშირდით ფაილებს WebDAV–ით",
     "A safe home for all your data" : "უსაფრთხო სახლი მთელი თქვენი მონაცემებისათვის",
     "Server address" : "სერვერის მისამართი",
-    "Copy link" : "ბმულის კოპირება"
+    "Copy link" : "ბმულის კოპირება",
+    "Copy to clipboard" : "კოპირება ბუფერში"
 },
 "nplurals=2; plural=(n!=1);");
