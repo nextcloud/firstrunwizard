@@ -1,7 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Copy to clipboard" : "Скопіювати в буфер обміну ",
     "Copied!" : "Скопійовано!",
     "Not supported!" : "Не підтримується!",
     "Press ⌘-C to copy." : "Натисніть ⌘-C щоб скопіювати.",
@@ -82,6 +81,7 @@ OC.L10N.register(
     "Server address" : "Адреса сервера",
     "Use this link to connect your apps and desktop client to this server:" : "Посилання на під'єднання застосунків та клієнта ПК чи смартфону до цього сервера:",
     "Copy link" : "Скопіювати посилання",
+    "Copy to clipboard" : "Скопіювати в буфер обміну ",
     "App recommendation: Notes" : "Рекомендація програми: Примітки",
     "Distraction-free notes and writing." : "Нотатки та записи без відволікань.",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Якщо ви використовуєте Nextcloud у критично важливому середовищі з великою кількістю користувачів і великими обсягами даних і потребуєте впевненої підтримки від експертів, що стоять за технологією Nextcloud, доступна корпоративна підписка від Nextcloud із підтримкою електронною поштою та телефоном.",

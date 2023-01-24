@@ -1,5 +1,4 @@
 { "translations": {
-    "Copy to clipboard" : "In die Zwischenablage kopieren",
     "Copied!" : "Kopiert!",
     "Not supported!" : "Nicht unterstützt!",
     "Press ⌘-C to copy." : "Zum Kopieren ⌘-C drücken.",
@@ -80,6 +79,7 @@
     "Server address" : "Serveradresse",
     "Use this link to connect your apps and desktop client to this server:" : "Verwenden Sie diesen Link, um Ihre Apps und Ihren Desktop-Clienten mit diesem Server zu verbinden:",
     "Copy link" : "Link kopieren",
+    "Copy to clipboard" : "In die Zwischenablage kopieren",
     "App recommendation: Notes" : "App-Empfehlung: Notes",
     "Distraction-free notes and writing." : "Ablenkungsfreie Notizen und Schreiben",
     "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Wenn Sie Nextcloud in einer missionskritischen Umgebung mit einer hohen Anzahl an Benutzern und großen Datenmengen betreiben und die Sicherheit und Unterstützung der Experten hinter der Nextcloud-Technologie benötigen, können Sie ein Enterprise-Abo besorgen. Dies beinhaltet Unterstützung via E-Mail und Telefon.",

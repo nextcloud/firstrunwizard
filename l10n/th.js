@@ -1,7 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Copy to clipboard" : "คัดลอกไปยังคลิปบอร์ด",
     "Copied!" : "คัดลอกแล้ว",
     "Not supported!" : "ไม่สนับสนุน",
     "Press ⌘-C to copy." : "กด ⌘-C เพื่อคัดลอก",
@@ -25,6 +24,7 @@ OC.L10N.register(
     "Learn more about %s" : "ดูเพิ่มเติมเกี่ยวกับ %s",
     "Server address" : "ที่อยู่เซิร์ฟเวอร์",
     "Copy link" : "คัดลอกลิงก์",
+    "Copy to clipboard" : "คัดลอกไปยังคลิปบอร์ด",
     "Distraction-free notes and writing." : "จดและเขียนโน้ตแบบไร้สิ่งรบกวน"
 },
 "nplurals=1; plural=0;");
