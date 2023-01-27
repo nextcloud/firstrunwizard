@@ -1,11 +1,9 @@
 <template>
-	<Modal v-if="showModal && slideList.length > 0"
+	<NcModal v-if="showModal && slideList.length > 0"
 		id="firstrunwizard"
 		size="large"
 		:has-previous="hasPrevious"
 		:has-next="hasNext"
-		:clear-view-delay="-1 /* disable fade-out because of accessibility reasons */"
-		name="modal"
 		@previous="previous"
 		@next="next"
 		@close="close">
@@ -35,10 +33,10 @@
 				{{ startButtonText }}
 			</button>
 		</div>
-	</Modal>
+	</NcModal>
 </template>
 <script>
-import Modal from '@nextcloud/vue/dist/Components/Modal.js'
+import NcModal from '@nextcloud/vue/dist/Components/NcModal.js'
 import axios from '@nextcloud/axios'
 import { generateUrl } from '@nextcloud/router'
 import IntroVideo from './components/IntroVideo.vue'
@@ -46,7 +44,7 @@ import IntroVideo from './components/IntroVideo.vue'
 export default {
 	name: 'App',
 	components: {
-		Modal,
+		NcModal,
 	},
 	data() {
 		return {
