@@ -82,7 +82,10 @@ class BeforeTemplateRenderedListener implements IEventListener {
 
 			$this->jobList->add('OCA\FirstRunWizard\Notification\BackgroundJob', ['uid' => $this->userSession->getUser()->getUID()]);
 		}
-		$this->appHint->sendAppHintNotifications();
+
+		if ($this->config->getSystemValueBool('appstoreenabled', true)) {
+			$this->appHint->sendAppHintNotifications();
+		}
 
 		Util::addScript(Application::APP_ID, 'about');
 	}
