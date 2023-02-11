@@ -1,6 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
-	var aboutEntry = document.querySelector('#expanddiv li[data-id="firstrunwizard_about"] a');
-	if (aboutEntry) {
+	const aboutEntry = document.querySelector('#firstrunwizard_about button');
+
+	const addListener = () => {
+		const aboutEntry = document.querySelector('#firstrunwizard_about button');
+
 		aboutEntry.addEventListener('click', function (event) {
 			event.stopPropagation();
 			event.preventDefault();
@@ -12,5 +15,11 @@ document.addEventListener('DOMContentLoaded', function() {
 			});
 			return true;
 		});
+	}
+
+	if (aboutEntry) {
+		addListener()
+	} else {
+		window._nc_event_bus.subscribe('core:user-menu:mounted', addListener)
 	}
 });
