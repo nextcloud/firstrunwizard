@@ -12,7 +12,9 @@ OC.L10N.register(
     "Schedule work & meetings, synced with all your devices." : "Planlegg jobb og møter, synkronisert med alle dine enheter.",
     "Keep your colleagues and friends in one place without leaking their private info." : "Ha dine kollegaer og venner på en plass uten å lekke deres private info.",
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Enkel e-post app smidig integrert med Filer, Kontakter og Kalender.",
+    "Smart media tagging for Nextcloud" : "Smart mediamerking for Nextcloud",
     "About" : "Om",
+    "A welcome and introduction wizard for Nextcloud" : "A welcome and introduction wizard for Nextcloud",
     "Extend your cloud" : "Utvid skyen din",
     "Groupware apps like Calendar, Contacts, Mail" : "Gruppevare-apper som Kalender, Kontakter, E-post",
     "Communication with Nextcloud Talk" : "Kommunikasjon med Nextcloud Talk",
@@ -31,6 +33,7 @@ OC.L10N.register(
     "Start contributing" : "Begynn å bidra",
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Ønsker du å få en spesifikk forbedring i Nextcloud? Fant du et problem? Vil du hjelpe med å oversette, fremme eller dokumentere Nextcloud?",
     "Become part of the Community" : "Bli en del av miljøet",
+    "Enterprise support" : "Enterprise support",
     "Get more information" : "Få mer informasjon",
     "The Nextcloud documentation for home users:" : "Nextcloud-dokumentasjonen for hjemmebrukere:",
     "User manual" : "Brukermanual",
@@ -44,6 +47,7 @@ OC.L10N.register(
     "Server address" : "Serveradresse",
     "Copy link" : "Kopier lenke",
     "Copy to clipboard" : "Kopiert til utklippstavlen",
+    "Get enterprise support" : "Get enterprise support",
     "the Nextcloud IRC chat channel on freenode.net" : "Nextcloud sin IRC-kanal på freenode.net"
 },
 "nplurals=2; plural=(n != 1);");
