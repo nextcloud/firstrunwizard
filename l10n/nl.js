@@ -72,7 +72,7 @@ OC.L10N.register(
     "Besides the mobile apps and desktop client you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Naast de mobiele clients kun je ook met %s verbinden met alle andere software die de WebDAV/CalDAV/CardDAV protocollen ondersteunt.",
     "Server address" : "Serveradres",
     "Use this link to connect your apps and desktop client to this server:" : "Gebruik deze link om je apps en desktop client met deze server te verbinden:",
-    "Copy link" : "Kopiëren link ",
+    "Copy link" : "Link kopiëren",
     "Copy to clipboard" : "Kopiëren naar het klembord",
     "App recommendation: Notes" : "App aanbeveling: Contactpersonen",
     "Distraction-free notes and writing." : "Afleidingsvrije notities en schrijven.",
