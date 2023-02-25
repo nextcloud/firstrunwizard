@@ -38,7 +38,6 @@ The First run wizard can be customized to meet specific design goals, or to chan
 		<navigation>
 			<id>firstrunwizard_about</id>
 			<name>About</name>
-			<route>files.view.index</route>
 			<icon>info.svg</icon>
 			<order>99990</order>
 			<type>settings</type>
