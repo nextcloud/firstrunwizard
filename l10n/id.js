@@ -15,8 +15,9 @@ OC.L10N.register(
     "iOS app" : "Aplikasi iOS",
     "Connect your desktop apps to %s" : "Hubungkan aplikasi desktop Anda ke %s",
     "Access files via WebDAV" : "Akses berkas via WebDAV",
-    "A safe home for all your data" : "Tempat yang aman untuk semua data Anda",
+    "A safe home for all your data" : "Rumah yang aman untuk semua data Anda",
     "Server address" : "Alamat peladen",
-    "Copy link" : "Salin tautan"
+    "Copy link" : "Salin tautan",
+    "Copy to clipboard" : "Salin ke papan klip"
 },
 "nplurals=1; plural=0;");
