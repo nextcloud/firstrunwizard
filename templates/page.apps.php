@@ -28,6 +28,9 @@
  */
 ?>
 <div class="page" data-title="<?php p($l->t('Extend your cloud')); ?>" data-subtitle="">
+	<div class="content content-apps">
+		<h2><?php p($l->t('Extend with apps')); ?></h2>
+	</div>
 	<div class="image"><img src="<?php p(image_path('firstrunwizard', 'appstore.svg')); ?>" /></div>
 	<div class="description">
 		<p><?php p($l->t('Find more than 100 apps in the Nextcloud App Store to customize your cloud:')); ?></p>

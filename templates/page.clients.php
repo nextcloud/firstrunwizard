@@ -30,6 +30,7 @@
 
 <div class="page" data-title="<?php p($l->t('Stay in sync')); ?>" data-subtitle="">
 	<div class="content content-clients">
+		<h2><?php p($l->t('Connect with desktop and mobile')); ?></h2>
 		<p><?php p($l->t('Nextcloud gives you access to your files wherever you are.')); ?><br />
 			<?php p($l->t('Our easy to use desktop and mobile clients are available for all major platforms at zero cost!')); ?></p>
 		<div class="description-block">

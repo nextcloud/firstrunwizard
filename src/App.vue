@@ -157,6 +157,9 @@ export default {
 			.content {
 				padding: 20px;
 				width: 100%;
+				> h2 {
+					text-align: center;
+				}
 			}
 			p {
 				margin-bottom: 20px;
@@ -218,7 +221,7 @@ export default {
 				font-size: 14px;
 			}
 		}
-		.content-final {
+		.page-final {
 			h3 {
 				background-position: 0;
 				background-size: 16px 16px;
@@ -324,7 +327,7 @@ export default {
 					}
 				}
 
-				&.content-final {
+				&.page-final {
 					padding-bottom: 50px;
 				}
 			}
