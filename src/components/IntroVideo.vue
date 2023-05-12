@@ -60,6 +60,6 @@ export default {
 	}
 
 	.video-wrapper {
-		background-color: var(--color-primary);
+		background-color: var(--color-primary-element);
 	}
 </style>
