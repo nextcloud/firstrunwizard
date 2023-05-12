@@ -228,7 +228,7 @@ export default {
 		}
 		p a {
 			font-weight: bold;
-			color: var(--color-primary);
+			color: var(--color-primary-element);
 			&:hover,
 			&:focus {
 				color: var(color-text-light);
@@ -242,16 +242,16 @@ export default {
 		// primary on next button
 		.modal-wrapper {
 			.icon-next {
-				background-color: var(--color-primary);
-				color: var(--color-primary-text);
+				background-color: var(--color-primary-element);
+				color: var(--color-primary-element-text);
 				box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
 				left: 22px;
 				border-radius: 40px;
 			}
 
 			.icon-previous {
-				background-color: var(--color-primary-light);
-				color: var(--color-primary-light-text);
+				background-color: var(--color-primary-element-light);
+				color: var(--color-primary-element-light-text);
 				box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
 				left: 22px;
 				border-radius: 40px;
@@ -375,9 +375,9 @@ export default {
 			// or fallback to default background with gradient
 			background-image: var(--image-background, var(--image-background-plain, url("../../../core/img/background.svg"), linear-gradient(
 		40deg, #0082c9 0%, #30b6ff 100%)));
-			background-color: var(--color-primary);
+			background-color: var(--color-primary-element);
 			padding: 20px 12px;
-			color: var(--color-primary-text);
+			color: var(--color-primary-element-text);
 			text-align: center;
 			.logo {
 				// Use custom logo if defined or fallback to default one
@@ -392,7 +392,7 @@ export default {
 				font-size: 20px;
 				margin-top: 7px;
 				line-height: 150%;
-				color: var(--color-primary-text);
+				color: var(--color-primary-element-text);
 				font-weight: 300;
 				padding: 0 0 10px;
 			}
