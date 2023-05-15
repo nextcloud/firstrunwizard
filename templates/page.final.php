@@ -6,7 +6,7 @@
  */
 ?>
 
-<div class="page page-final" data-title="<?php p($l->t('Get help')); ?>" data-subtitle="">
+<div class="page page-final" data-title="<?php p($l->t('Get support or participate')); ?>" data-subtitle="">
 	<div class="content content-final">
 		<h2><?php p($l->t('Get support or participate')); ?></h2>
 	</div>
