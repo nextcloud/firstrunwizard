@@ -24,7 +24,6 @@ OC.L10N.register(
     "Learn more about %s" : "ดูเพิ่มเติมเกี่ยวกับ %s",
     "Server address" : "ที่อยู่เซิร์ฟเวอร์",
     "Copy link" : "คัดลอกลิงก์",
-    "Copy to clipboard" : "คัดลอกไปยังคลิปบอร์ด",
-    "Distraction-free notes and writing." : "จดและเขียนโน้ตแบบไร้สิ่งรบกวน"
+    "Copy to clipboard" : "คัดลอกไปยังคลิปบอร์ด"
 },
 "nplurals=1; plural=0;");

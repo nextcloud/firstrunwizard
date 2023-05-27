@@ -81,11 +81,6 @@ OC.L10N.register(
     "Server address" : "Adresa serveru",
     "Use this link to connect your apps and desktop client to this server:" : "Pro napojení vámi používaných aplikací a desktopového klienta na tento server použijte tento odkaz: ",
     "Copy link" : "Zkopírovat odkaz",
-    "Copy to clipboard" : "Zkopírovat do schránky",
-    "App recommendation: Notes" : "Doporučení aplikace: Poznámky",
-    "Distraction-free notes and writing." : "Pozornost nerozptylující poznámky a zápisky.",
-    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Pokud Nextcloud provozujete v produkčním prostředí s velkým množstvím uživatelů a objemy dat a tím potřebujete jistotu podpory od odborníků stojících za technologií Nextcloud, je k dispozici předplatné pro podniky, obsahující podporu po telefonu a e-mailu.",
-    "Get enterprise support" : "Získat komerční podporu",
-    "the Nextcloud IRC chat channel on freenode.net" : "Nextcloud IRC chat kanál na freenode.net"
+    "Copy to clipboard" : "Zkopírovat do schránky"
 },
 "nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;");

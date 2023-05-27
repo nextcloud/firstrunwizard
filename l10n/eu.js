@@ -81,11 +81,6 @@ OC.L10N.register(
     "Server address" : "Zerbitzariaren helbidea",
     "Use this link to connect your apps and desktop client to this server:" : "Erabili esteka hau zure aplikazioak eta mahaigaineko bezeroa zerbitzari honetara konektatzeko:",
     "Copy link" : "Kopiatu esteka",
-    "Copy to clipboard" : "Kopiatu arbelera",
-    "App recommendation: Notes" : "Aholkatutako aplikazioa: Oharrak",
-    "Distraction-free notes and writing." : "Hartu oharrak eta idatzi arreta galdu gabe.",
-    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Nextcloud berebiziko garrantzia duen ingurune batean exekutatzen duzu, erabiltzaile eta datu kopuru handi batekin eta Nextcloud teknologiaren atzean dauden adituen euskarria ziurtatu nahi baduzu, Nextclouden enpresentzako harpidetza eskura dezakezu, posta elektroniko eta telefono bidezko arretarekin.",
-    "Get enterprise support" : "Eskuratu enpresentzako euskarria",
-    "the Nextcloud IRC chat channel on freenode.net" : "Nextcloud IRC txat kanala freenode.net-en"
+    "Copy to clipboard" : "Kopiatu arbelera"
 },
 "nplurals=2; plural=(n != 1);");
