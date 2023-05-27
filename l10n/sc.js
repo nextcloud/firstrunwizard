@@ -71,11 +71,6 @@ OC.L10N.register(
     "Server address" : "Indiritzu de su serbidore",
     "Use this link to connect your apps and desktop client to this server:" : "Imprea custu ligòngiu pro collegare is aplicatziones tuas e su cliente de iscrivania a custu serbidore:",
     "Copy link" : "Còpia ligòngiu",
-    "Copy to clipboard" : "Còpia in is punta de billete",
-    "App recommendation: Notes" : "Racumandatzione aplicatzione: Note",
-    "Distraction-free notes and writing." : "Notas sena disvios e iscritura.",
-    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Si esecutas Nextcloud in un'ambiente crìticu cun unu nùmeru mannu de utentes e una cantidade manna de datos e tenes bisòngiu de agiudu dae s'iscuadra esperta de sa tecnologia de Nextcloud, est a disponimentu una sutaiscritzione Enterprise dae Nextcloud cun suportu tràmite telèfonu e posta eletrònica.",
-    "Get enterprise support" : "Otene agiudu pro is aziendas",
-    "the Nextcloud IRC chat channel on freenode.net" : "Su canale IRC de Nextcloud in freenode.net"
+    "Copy to clipboard" : "Còpia in is punta de billete"
 },
 "nplurals=2; plural=(n != 1);");

@@ -62,10 +62,6 @@ OC.L10N.register(
     "Connect other apps to %s" : "Koble andre apper til %s",
     "Server address" : "Serveradresse",
     "Copy link" : "Kopier lenke",
-    "Copy to clipboard" : "Kopiert til utklippstavlen",
-    "App recommendation: Notes" : "Appanbefaling: Notater",
-    "Distraction-free notes and writing." : "Distraksjonsfrie notater og skriving.",
-    "Get enterprise support" : "Get enterprise support",
-    "the Nextcloud IRC chat channel on freenode.net" : "Nextcloud sin IRC-kanal på freenode.net"
+    "Copy to clipboard" : "Kopiert til utklippstavlen"
 },
 "nplurals=2; plural=(n != 1);");

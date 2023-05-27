@@ -79,11 +79,6 @@
     "Server address" : "Адреса на серверот",
     "Use this link to connect your apps and desktop client to this server:" : "Користете го овој линк за да ги поврзете вашите апликации со серверот:",
     "Copy link" : "Копирај линк",
-    "Copy to clipboard" : "Копирај во клипборд",
-    "App recommendation: Notes" : "Препорака за апликација: Забелешки",
-    "Distraction-free notes and writing." : "Пушување на белешки без одвлекување на вниманието",
-    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Ако го користите Nextcloud во критична околина со голем број на корисници и големи количини на податоци и ви треба поддшка од експерти кој ја разбираат технологијата Nextcloud, претплатата за Nextcloud професионална поддршка е достапна преку е-пошта и телефонска поддршка.",
-    "Get enterprise support" : "Добијте професионална поддршка.",
-    "the Nextcloud IRC chat channel on freenode.net" : "Nextcloud IRC канал на freenode.net"
+    "Copy to clipboard" : "Копирај во клипборд"
 },"pluralForm" :"nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1;"
 }
