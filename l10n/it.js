@@ -21,6 +21,9 @@ OC.L10N.register(
     "Sync tasks from various devices with your Nextcloud and edit them online." : "Sincronizza le attività tra diversi dispositivi con il tuo Nextcloud e modificale in linea.",
     "App recommendation: Deck" : "Applicazione consigliata: Deck",
     "Kanban style organization for personal planning and team projects." : "Organizzazione in stile Kanban per la pianificazione personale e per i progetti di squadra.",
+    "App recommendation: Forms" : "Applicazione consigliata: Forms",
+    "Simple surveys and questionnaires, self-hosted" : "Sondaggi e questionari semplici, autonomi",
+    "App recommendation: Recognize" : "Applicazione consigliata: Recognize",
     "Smart media tagging for Nextcloud" : "Tagging dei media intelligente per Nextcloud",
     "App recommendation: Group folders" : "Applicazione consigliata: Cartelle di gruppo",
     "Admin-configured folders shared by everyone in a group." : "Cartelle configurate dall'amministratore condivise da chiunque in un gruppo.",
@@ -55,6 +58,8 @@ OC.L10N.register(
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Vuoi ottenere un determinato miglioramento in Nextcloud? Hai trovato un problema? Vuoi aiutarci con le traduzioni, promuovere o documentare Nextcloud?",
     "Become part of the Community" : "Diventa parte della comunità",
     "Enterprise support" : "Supporto per le aziende",
+    "If you run Nextcloud in a mission critical environment where security and compliance are important, you need the certainty of Nextcloud Enterprise." : "Se usi Nextcloud in un ambiente di importanza critica dove sicurezza e conformità sono fondamentali, hai sicuramente bisogno di Nextcloud Enterprise.",
+    "Learn more about Nextcloud Enterprise" : "Maggiori informazioni su Nextcloud Enterprise",
     "Get more information" : "Ottieni altre informazioni",
     "The Nextcloud documentation for home users:" : "La documentazione di Nextcloud per gli utenti privati:",
     "User manual" : "Manuale utente",
@@ -76,11 +81,6 @@ OC.L10N.register(
     "Server address" : "Indirizzo del server",
     "Use this link to connect your apps and desktop client to this server:" : "Usa questo collegamento per connettere le tue applicazioni e il client desktop a questo server:",
     "Copy link" : "Copia collegamento",
-    "Copy to clipboard" : "Copia negli appunti",
-    "App recommendation: Notes" : "Applicazione consigliata: Note",
-    "Distraction-free notes and writing." : "Note senza distrazioni e scrittura.",
-    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Se esegui Nextcloud in un ambiente ad alta criticità con un gran numero di utenti e una gran quantità di dati, con la necessità della sicurezza fornita dal supporto da parte degli esperti che stanno dietro alla tecnologia di Nextcloud, è disponibile una sottoscrizione Enterprise di Nextcloud con supporto telefonico e email.",
-    "Get enterprise support" : "Ottieni supporto per le aziende",
-    "the Nextcloud IRC chat channel on freenode.net" : "il canale IRC di Nextcloud su freenode.net"
+    "Copy to clipboard" : "Copia negli appunti"
 },
 "nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");

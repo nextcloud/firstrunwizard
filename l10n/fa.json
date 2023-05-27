@@ -61,11 +61,6 @@
     "Server address" : "آدرس سرور",
     "Use this link to connect your apps and desktop client to this server:" : "برای اتصال برنامه ها و مشتری دسک تاپ خود به این سرور از این لینک استفاده کنید:",
     "Copy link" : "کپی کردن لینک",
-    "Copy to clipboard" : "کپی به کلیپ بورد",
-    "App recommendation: Notes" : "توصیه برنامه: یادداشت ها",
-    "Distraction-free notes and writing." : "یادداشت ها و نوشتن بدون حواس پرتی.",
-    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "اگر Nextcloud را در یک محیط بحرانی برای مأموریت با تعداد زیادی کاربر و مقادیر زیادی از داده ها اجرا کنید و به حمایت از متخصصان فن آوری Nextcloud نیاز دارید ، می توانید یک Enterprise Subscription از Nextcloud با ایمیل و پشتیبانی تلفنی در دسترس قرار دهید.",
-    "Get enterprise support" : "پشتیبانی شرکت را بدست آورید",
-    "the Nextcloud IRC chat channel on freenode.net" : "کانال چت IRC Nextcloud در freenode.net"
+    "Copy to clipboard" : "کپی به کلیپ بورد"
 },"pluralForm" :"nplurals=2; plural=(n > 1);"
 }

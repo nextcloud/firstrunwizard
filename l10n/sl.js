@@ -74,11 +74,6 @@ OC.L10N.register(
     "Server address" : "Naslov strežnika",
     "Use this link to connect your apps and desktop client to this server:" : "Naslov za povezavo programa s strežnikom:",
     "Copy link" : "Kopiraj povezavo",
-    "Copy to clipboard" : "Kopiraj v odložišče",
-    "App recommendation: Notes" : "App recommendation: Notes",
-    "Distraction-free notes and writing." : "Enostavno beleženje in zapisovanje",
-    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Če uporabljate oblak Nextcloud v produkcijskem okolju, gostite veliko uporabnikov in združujete večje količine podatkov, morda razmišljate tudi o zanesljivi podpori strokovnjakov, ki so tehnologijo zasnovali. Na voljo je poslovna naročnina, ki omogoča telefonsko podporo in ciljno pomoč po elektronski pošti.",
-    "Get enterprise support" : "Pridobite podporo za podjetja",
-    "the Nextcloud IRC chat channel on freenode.net" : "na klepetalnem kanalu Nextcloud IRC na freenode.net"
+    "Copy to clipboard" : "Kopiraj v odložišče"
 },
 "nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);");

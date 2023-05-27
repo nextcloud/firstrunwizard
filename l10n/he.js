@@ -53,8 +53,6 @@ OC.L10N.register(
     "Server address" : "כתובת שרת",
     "Use this link to connect your apps and desktop client to this server:" : "יש להשתמש בקישור הזה כדי לחבר את היישומונים ואת לקוח שולחן העבודה שלך לשרת הזה:",
     "Copy link" : "העתקת קישור",
-    "Copy to clipboard" : "העתקה ללוח הגזירים",
-    "Get enterprise support" : "קבלת תמיכה עסקית",
-    "the Nextcloud IRC chat channel on freenode.net" : "ערוץ ה־IRC של Nextcloud ב־freenode.net"
+    "Copy to clipboard" : "העתקה ללוח הגזירים"
 },
 "nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;");
