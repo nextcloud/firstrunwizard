@@ -72,11 +72,6 @@
     "Server address" : "服务器地址",
     "Use this link to connect your apps and desktop client to this server:" : "使用此链接将您的应用和桌面客户端连接到此服务器：",
     "Copy link" : "复制链接",
-    "Copy to clipboard" : "复制到剪贴板",
-    "App recommendation: Notes" : "应用推荐：笔记",
-    "Distraction-free notes and writing." : "无干扰的笔记和写作。",
-    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "如果您在拥有海量用户和数据的关键任务环境中运行 Nextcloud，需要 Nextcloud 技术背后的专家提供确定的支持，您可以购买 Nextcloud 的企业级订阅，享受电子邮件和电话支持。",
-    "Get enterprise support" : "获取企业级技术支持",
-    "the Nextcloud IRC chat channel on freenode.net" : "freenode.net 上的 Nextcloud IRC 聊天频道"
+    "Copy to clipboard" : "复制到剪贴板"
 },"pluralForm" :"nplurals=1; plural=0;"
 }

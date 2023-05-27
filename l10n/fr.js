@@ -81,11 +81,6 @@ OC.L10N.register(
     "Server address" : "Adresse du serveur",
     "Use this link to connect your apps and desktop client to this server:" : "Utilisez ce lien pour connecter vos applications et votre client de bureau à ce serveur :",
     "Copy link" : "Copier le lien",
-    "Copy to clipboard" : "Copier dans le presse-papier",
-    "App recommendation: Notes" : "Application recommandée : Notes",
-    "Distraction-free notes and writing." : "Notes et écriture sans distraction.",
-    "If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, an Enterprise Subscription from Nextcloud is available with email and phone support." : "Si vous exécutez Nextcloud dans un environnement de production avec un grand nombre d'utilisateurs et de grandes quantités de données et que vous avez besoin de la confiance des experts de la technologie Nextcloud, un abonnement Entreprise de Nextcloud est disponible avec support téléphonique et mail.",
-    "Get enterprise support" : "Obtenir le support Entreprise",
-    "the Nextcloud IRC chat channel on freenode.net" : "le canal de discussion Nextcloud IRC sur freenode.net"
+    "Copy to clipboard" : "Copier dans le presse-papier"
 },
 "nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");
