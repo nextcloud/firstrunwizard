@@ -40,6 +40,8 @@ class NotifierTest extends TestCase {
 	/** @var Notifier */
 	protected $notifier;
 
+	/** @var IConfig|\PHPUnit_Framework_MockObject_MockObject */
+	protected $config;
 	/** @var IManager|\PHPUnit_Framework_MockObject_MockObject */
 	protected $manager;
 	/** @var IUserManager|\PHPUnit_Framework_MockObject_MockObject */
