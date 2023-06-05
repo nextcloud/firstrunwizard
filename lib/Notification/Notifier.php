@@ -48,10 +48,10 @@ class Notifier implements INotifier {
 	protected $config;
 
 	public function __construct(IFactory $factory,
-								IUserManager $userManager,
-								INotificationManager $notificationManager,
-								IURLGenerator $urlGenerator,
-								IConfig $config) {
+		IUserManager $userManager,
+		INotificationManager $notificationManager,
+		IURLGenerator $urlGenerator,
+		IConfig $config) {
 		$this->factory = $factory;
 		$this->userManager = $userManager;
 		$this->notificationManager = $notificationManager;

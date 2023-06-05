@@ -48,7 +48,7 @@
 				<h3><?php
 					// TRANSLATORS NOTE: The characters %% should be left unchanged.
 					p($l->t('100%% open source & community-focused'));
-					?></h3>
+?></h3>
 			</li>
 		</ul>
 
