@@ -50,7 +50,6 @@ OC.L10N.register(
     "Connect your contacts" : "连接您的联系人",
     "Access files via WebDAV" : "通过 WebDAV 访问文件",
     "Download macOS/iOS configuration profile" : "下载 macOS/iOS 配置模板",
-    "Get help" : "获取帮助",
     "Start contributing" : "开始贡献",
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "您想改进 Nextcloud？您发现了一个问题？您想帮助翻译，促进 Nextcloud 或为其编写文档？",
     "Become part of the Community" : "成为社区的一分子",
@@ -74,6 +73,7 @@ OC.L10N.register(
     "Server address" : "服务器地址",
     "Use this link to connect your apps and desktop client to this server:" : "使用此链接将您的应用和桌面客户端连接到此服务器：",
     "Copy link" : "复制链接",
-    "Copy to clipboard" : "复制到剪贴板"
+    "Copy to clipboard" : "复制到剪贴板",
+    "Get help" : "获取帮助"
 },
 "nplurals=1; plural=0;");

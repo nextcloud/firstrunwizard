@@ -18,7 +18,6 @@ OC.L10N.register(
     "Connect your calendar" : "قم بربط مُفكّرتك",
     "Connect your contacts" : "قم بريط قائمة مراسليك",
     "Access files via WebDAV" : "دخول الملفات باستخدام WebDAV",
-    "Get help" : "الحصول على مساعدة",
     "Start contributing" : "ابدأ في المساهمة",
     "Become part of the Community" : "اصبح عضوا في المجتمع",
     "Get more information" : "احصل على المزيد من المعلومات",
@@ -32,6 +31,7 @@ OC.L10N.register(
     "Connect other apps to %s" : "قم بربط تطبيقات أخرى مع %s",
     "Server address" : "عنوان الخادم",
     "Copy link" : "انسخ الرابط",
-    "Copy to clipboard" : "انسخه إلى الحافظة"
+    "Copy to clipboard" : "انسخه إلى الحافظة",
+    "Get help" : "الحصول على مساعدة"
 },
 "nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;");

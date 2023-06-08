@@ -43,7 +43,6 @@
     "Connect your calendar" : "Koble til din kalender",
     "Connect your contacts" : "Koble til dine kontakter",
     "Access files via WebDAV" : "Få tilgang til filer via WebDAV",
-    "Get help" : "Skaff hjelp",
     "Start contributing" : "Begynn å bidra",
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Ønsker du å få en spesifikk forbedring i Nextcloud? Fant du et problem? Vil du hjelpe med å oversette, fremme eller dokumentere Nextcloud?",
     "Become part of the Community" : "Bli en del av miljøet",
@@ -60,6 +59,7 @@
     "Connect other apps to %s" : "Koble andre apper til %s",
     "Server address" : "Serveradresse",
     "Copy link" : "Kopier lenke",
-    "Copy to clipboard" : "Kopiert til utklippstavlen"
+    "Copy to clipboard" : "Kopiert til utklippstavlen",
+    "Get help" : "Skaff hjelp"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

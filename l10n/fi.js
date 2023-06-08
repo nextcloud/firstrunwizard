@@ -52,11 +52,11 @@ OC.L10N.register(
     "Connect your contacts" : "Yhdistä yhteystietoihisi",
     "Access files via WebDAV" : "Käytä tiedostoja WebDAVin välityksellä",
     "Download macOS/iOS configuration profile" : "Lataa macOS-/iOS-asetusprofiili",
-    "Get help" : "Saa apua",
     "Start contributing" : "Anna oma panoksesi",
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Haluatko tietyn parannuksen Nextcloudiin? Löysitkö ongelman? Haluatko kääntää, mainostaa tai dokumentoida Nextcloudia?",
     "Become part of the Community" : "Ryhdy osaksi yhteisöä",
     "Enterprise support" : "Yritystuki",
+    "If you run Nextcloud in a mission critical environment where security and compliance are important, you need the certainty of Nextcloud Enterprise." : "Jos käytät Nextcloudia erittäin tärkeässä ympäristössä, missä turvallisuus ja määräystenmukaisuus merkitsevät, tarvitset Nextcloud Enterprisen tuomaa varmuutta.",
     "Learn more about Nextcloud Enterprise" : "Lue lisää Nextcloudin Enterprise-versiosta",
     "Get more information" : "Hanki lisätietoja",
     "The Nextcloud documentation for home users:" : "Nextcloud-ohjeet kotikäyttäjille:",
@@ -79,6 +79,7 @@ OC.L10N.register(
     "Server address" : "Palvelimen osoite",
     "Use this link to connect your apps and desktop client to this server:" : "Käytä tätä linkkiä yhdistääksesi sovellukset ja työpöytäsovelluksen tähän palvelimeen:",
     "Copy link" : "Kopioi linkki",
-    "Copy to clipboard" : "Kopioi leikepöydälle"
+    "Copy to clipboard" : "Kopioi leikepöydälle",
+    "Get help" : "Saa apua"
 },
 "nplurals=2; plural=(n != 1);");

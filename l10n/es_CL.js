@@ -23,7 +23,6 @@ OC.L10N.register(
     "Connect your calendar" : "Conecta tu calendario",
     "Connect your contacts" : "Conecta tus contactos",
     "Access files via WebDAV" : "Accede tus archivos vía WebDAV",
-    "Get help" : "Obten ayuda",
     "Start contributing" : "Empeiza a contribuir",
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "¿Desas tener alguna mejora específica en Nextcloud? ¿Encontraste aglún problema? ¿Quieres ayudarnos a traducir, promover o documentar Nextcloud?",
     "Enterprise support" : "Soporte empresarial",
@@ -41,6 +40,7 @@ OC.L10N.register(
     "Connect other apps to %s" : "Conectar otras aplicaciones a %s",
     "Server address" : "Dirección del servidor",
     "Copy link" : "Copiar liga",
-    "Copy to clipboard" : "Copiar al portapapeles"
+    "Copy to clipboard" : "Copiar al portapapeles",
+    "Get help" : "Obten ayuda"
 },
 "nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");
