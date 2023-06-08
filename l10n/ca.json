@@ -10,7 +10,7 @@
     "Add your profile information! Set a full name for easier recognition across all features." : "Afegiu informació al perfil! Definiu el nom complet per a facilitar el reconeixement a tot arreu.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Afegiu informació al perfil! Definiu una imatge de perfil per a facilitar el reconeixement a tot arreu.",
     "App recommendation: Nextcloud Calendar" : "Aplicació recomanada: Calendari del Nextcloud",
-    "Schedule work & meetings, synced with all your devices." : "Planifiqueu feines i reunions, amb sincronització entre tots els vostres dispositius.",
+    "Schedule work & meetings, synced with all your devices." : "Planifiqueu feina i reunions, amb sincronització entre tots els vostres dispositius.",
     "App recommendation: Nextcloud Contacts" : "Aplicació recomanada: Contactes del Nextcloud",
     "Keep your colleagues and friends in one place without leaking their private info." : "Deseu la informació de companys i amistats en un sol lloc sense revelar-ne la informació privada.",
     "App recommendation: Nextcloud Mail" : "Aplicació recomanada: Correu del Nextcloud",
@@ -51,7 +51,6 @@
     "Connect your contacts" : "Connecta els contactes",
     "Access files via WebDAV" : "Accedeix als fitxers mitjançant WebDAV",
     "Download macOS/iOS configuration profile" : "Baixa el perfil de configuració per al macOS/iOS",
-    "Get help" : "Obteniu ajuda",
     "Start contributing" : "Comenceu a contribuir-hi",
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Voleu afegir una millora específica al Nextcloud? Heu trobat un problema? Voleu ajudar a traduir, promocionar o documentar el Nextcloud?",
     "Become part of the Community" : "Uneix-me a la comunitat",
@@ -79,6 +78,7 @@
     "Server address" : "Adreça del servidor",
     "Use this link to connect your apps and desktop client to this server:" : "Utilitzeu aquest enllaç per a connectar les vostres aplicacions i client d'escriptori a aquest servidor:",
     "Copy link" : "Copia l'enllaç",
-    "Copy to clipboard" : "Copia-ho al porta-retalls"
+    "Copy to clipboard" : "Copia-ho al porta-retalls",
+    "Get help" : "Obteniu ajuda"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

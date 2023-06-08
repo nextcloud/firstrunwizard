@@ -29,7 +29,6 @@ OC.L10N.register(
     "Connect your contacts" : "Ligar os seus contactos",
     "Access files via WebDAV" : "Aceder aos ficheiros via WebDAV",
     "Download macOS/iOS configuration profile" : "Transferir perfil de configuração de macOS/iOS",
-    "Get help" : "Obter ajuda",
     "Start contributing" : "Começar a contribuir",
     "Become part of the Community" : "Faça parte da comunidade",
     "Get more information" : "Obter mais informação",
@@ -40,6 +39,7 @@ OC.L10N.register(
     "A safe home for all your data" : "Um local seguro para todos os seus dados",
     "Server address" : "Endereço do servidor",
     "Copy link" : "Copiar hiperligação",
-    "Copy to clipboard" : "Copiar para área de transferência"
+    "Copy to clipboard" : "Copiar para área de transferência",
+    "Get help" : "Obter ajuda"
 },
 "nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");

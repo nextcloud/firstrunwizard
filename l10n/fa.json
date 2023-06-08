@@ -38,7 +38,6 @@
     "Connect your contacts" : "مخاطبین خود را وصل کنید",
     "Access files via WebDAV" : "دسترسی فایل ها از طریق WebDAV",
     "Download macOS/iOS configuration profile" : "نمایه پیکربندی macOS / iOS را بارگیری کنید",
-    "Get help" : "کمک بگیر",
     "Start contributing" : "شروع به مشارکت کنید",
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "آیا می خواهید پیشرفت خاصی در Nextcloud کسب کنید؟ آیا مشکلی پیدا کردید؟ آیا می خواهید به ترجمه ، تبلیغ یا مستند سازی Nextcloud کمک کنید؟",
     "Become part of the Community" : "بخشی از انجمن شوید",
@@ -61,6 +60,7 @@
     "Server address" : "آدرس سرور",
     "Use this link to connect your apps and desktop client to this server:" : "برای اتصال برنامه ها و مشتری دسک تاپ خود به این سرور از این لینک استفاده کنید:",
     "Copy link" : "کپی کردن لینک",
-    "Copy to clipboard" : "کپی به کلیپ بورد"
+    "Copy to clipboard" : "کپی به کلیپ بورد",
+    "Get help" : "کمک بگیر"
 },"pluralForm" :"nplurals=2; plural=(n > 1);"
 }

@@ -51,7 +51,6 @@
     "Connect your contacts" : "Kapcsolódás a címjegyzékekhez",
     "Access files via WebDAV" : "Fájlok elérése WebDAV protokoll segítségével",
     "Download macOS/iOS configuration profile" : "MacOS/iOS konfigurációs profil letöltése",
-    "Get help" : "Segítség kérése",
     "Start contributing" : "Közreműködés kezdése",
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Szüksége lenne egy bizonyos fejlesztésre a Nextcloudban? Hibát talált? Szeretne segíteni a Nextcloud fordításában, népszerűsítésében vagy dokumentálásában?",
     "Become part of the Community" : "Légy tagja a Közösségnek",
@@ -79,6 +78,7 @@
     "Server address" : "Kiszolgálócím",
     "Use this link to connect your apps and desktop client to this server:" : "Használja ezt a hivatkozást az alkalmazások és az asztali kliens csatlakoztatásához a kiszolgálóhoz:",
     "Copy link" : "Hivatkozás másolása",
-    "Copy to clipboard" : "Vágólapra másolás"
+    "Copy to clipboard" : "Vágólapra másolás",
+    "Get help" : "Segítség kérése"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
