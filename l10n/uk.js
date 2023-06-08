@@ -53,7 +53,6 @@ OC.L10N.register(
     "Connect your contacts" : "Приєднайте вашу адресну книгу",
     "Access files via WebDAV" : "Доступ до файлів із WebDAV",
     "Download macOS/iOS configuration profile" : "Завантажте профіль конфігурації macOS/iOS",
-    "Get help" : "Отримати допомогу",
     "Start contributing" : "Допоможіть покращити",
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Ви хочете отримати певне покращення в Nextcloud? Ви знайшли проблему? Хочете допомогти перекладати, рекламувати чи документувати Nextcloud?",
     "Become part of the Community" : "Станьте частиною спільноти",
@@ -81,6 +80,7 @@ OC.L10N.register(
     "Server address" : "Адреса сервера",
     "Use this link to connect your apps and desktop client to this server:" : "Посилання на під'єднання застосунків та клієнта ПК чи смартфону до цього сервера:",
     "Copy link" : "Копіювати посилання",
-    "Copy to clipboard" : "Копіювати до буферу обміну"
+    "Copy to clipboard" : "Копіювати до буферу обміну",
+    "Get help" : "Отримати допомогу"
 },
 "nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);");

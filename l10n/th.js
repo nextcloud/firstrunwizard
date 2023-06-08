@@ -15,7 +15,6 @@ OC.L10N.register(
     "iOS app" : "แอป iOS",
     "Connect your desktop apps to %s" : "เชื่อมต่อแอปเดสก์ท็อปของคุณไปยัง %s",
     "Access files via WebDAV" : "เข้าถึงไฟล์ผ่าน WebDAV",
-    "Get help" : "รับความช่วยเหลือ",
     "Get more information" : "รับข้อมูลเพิ่มเติม",
     "The Nextcloud documentation for home users:" : "เอกสารประกอบ Nextcloud สำหรับผู้ใช้ที่บ้าน:",
     "User manual" : "คู่มือผู้ใช้",
@@ -24,6 +23,7 @@ OC.L10N.register(
     "Learn more about %s" : "ดูเพิ่มเติมเกี่ยวกับ %s",
     "Server address" : "ที่อยู่เซิร์ฟเวอร์",
     "Copy link" : "คัดลอกลิงก์",
-    "Copy to clipboard" : "คัดลอกไปยังคลิปบอร์ด"
+    "Copy to clipboard" : "คัดลอกไปยังคลิปบอร์ด",
+    "Get help" : "รับความช่วยเหลือ"
 },
 "nplurals=1; plural=0;");

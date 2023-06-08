@@ -34,7 +34,6 @@ OC.L10N.register(
     "Connect your calendar" : "חיבור היומן שלך",
     "Connect your contacts" : "חיבור אנשי הקשר שלך",
     "Access files via WebDAV" : "גישה לקבצים דרך WebDAV",
-    "Get help" : "קבלת עזרה",
     "Start contributing" : "להתחיל לתרום",
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "מעניין אותך לקבל שיפורים ל־Nextcloud שלך? מצאת תקלה כלשהי? מעניין אותך לסייע לתרגם, לקדם או לתעד את Nextcloud?",
     "Become part of the Community" : "להפוך לחלק מהקהילה",
@@ -53,6 +52,7 @@ OC.L10N.register(
     "Server address" : "כתובת שרת",
     "Use this link to connect your apps and desktop client to this server:" : "יש להשתמש בקישור הזה כדי לחבר את היישומונים ואת לקוח שולחן העבודה שלך לשרת הזה:",
     "Copy link" : "העתקת קישור",
-    "Copy to clipboard" : "העתקה ללוח הגזירים"
+    "Copy to clipboard" : "העתקה ללוח הגזירים",
+    "Get help" : "קבלת עזרה"
 },
 "nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;");

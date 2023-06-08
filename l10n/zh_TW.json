@@ -51,7 +51,6 @@
     "Connect your contacts" : "連結您的聯絡人",
     "Access files via WebDAV" : "透過 WebDAV 存取檔案",
     "Download macOS/iOS configuration profile" : "下載 macOS/iOS 描述檔",
-    "Get help" : "取得協助",
     "Start contributing" : "開始貢獻",
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "您想要取得 Nextcloud 特定的改進嗎？您有找到問題嗎？你想要幫忙翻譯，推動或是寫 Nextcloud 文件嗎？",
     "Become part of the Community" : "成為社群的一分子",
@@ -79,6 +78,7 @@
     "Server address" : "伺服器位址",
     "Use this link to connect your apps and desktop client to this server:" : "使用此連結將您的應用程式與桌面用戶端連結到此伺服器:",
     "Copy link" : "複製連結",
-    "Copy to clipboard" : "複製到剪貼簿"
+    "Copy to clipboard" : "複製到剪貼簿",
+    "Get help" : "取得協助"
 },"pluralForm" :"nplurals=1; plural=0;"
 }
