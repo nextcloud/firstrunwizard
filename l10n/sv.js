@@ -53,7 +53,6 @@ OC.L10N.register(
     "Connect your contacts" : "Anslut dina kontakter",
     "Access files via WebDAV" : "Åtkomst till filer via WebDAV",
     "Download macOS/iOS configuration profile" : "Hämta macOS/iOS-konfigurationsprofil",
-    "Get help" : "Få hjälp",
     "Start contributing" : "Börja bidra",
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Vill du få en viss förbättring i Nextcloud? Hittade du ett problem? Vill du hjälpa till att översätta, marknadsföra eller dokumentera Nextcloud?",
     "Become part of the Community" : "Bli en del av gemenskapen",
@@ -81,6 +80,7 @@ OC.L10N.register(
     "Server address" : "Serveradress",
     "Use this link to connect your apps and desktop client to this server:" : "Använd den här länken för att ansluta dina appar och desktopklient till den här servern:",
     "Copy link" : "Kopiera länk",
-    "Copy to clipboard" : "Kopierat till urklipp"
+    "Copy to clipboard" : "Kopierat till urklipp",
+    "Get help" : "Få hjälp"
 },
 "nplurals=2; plural=(n != 1);");

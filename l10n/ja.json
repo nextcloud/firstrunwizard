@@ -51,7 +51,6 @@
     "Connect your contacts" : "連絡先に接続",
     "Access files via WebDAV" : "WebDAV 経由でファイルにアクセス",
     "Download macOS/iOS configuration profile" : "macOS/iOS 設定プロファイルをダウンロード",
-    "Get help" : "ヘルプの入手",
     "Start contributing" : "貢献を開始",
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "あなたは Nextcloud で一定の改善をしたいですか？ 問題が見つかりましたか？ Nextcloud の翻訳、宣伝、または文書化を手伝いたいですか？",
     "Become part of the Community" : "コミュニティの一員になる",
@@ -79,6 +78,7 @@
     "Server address" : "サーバーアドレス",
     "Use this link to connect your apps and desktop client to this server:" : "アプリやデスクトップクライアントをこのサーバーに接続するには、このリンクを使用してください:",
     "Copy link" : "リンクをコピー",
-    "Copy to clipboard" : "クリップボードにコピー"
+    "Copy to clipboard" : "クリップボードにコピー",
+    "Get help" : "ヘルプの入手"
 },"pluralForm" :"nplurals=1; plural=0;"
 }

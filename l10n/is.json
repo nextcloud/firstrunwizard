@@ -37,7 +37,6 @@
     "Connect your contacts" : "Tengdu tengiliðalistana þína",
     "Access files via WebDAV" : "Nálgastu skrár í gegnum WebDAV",
     "Download macOS/iOS configuration profile" : "Sækja macOS/iOS uppsetningasnið",
-    "Get help" : "Til að fá hjálp",
     "Start contributing" : "Byrjaðu að gefa af þér",
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Viltu ná fram einhverjum ákveðnum endurbótum á Nextcloud? Fannstu vandamál? Viltu hjálpa til við að þýða, kynna eða skrifa um Nextcloud?",
     "Become part of the Community" : "Gakktu til liðs við samfélagið",
@@ -60,6 +59,7 @@
     "Server address" : "Vistfang þjóns",
     "Use this link to connect your apps and desktop client to this server:" : "Notaðu þessa slóð fyrir forritin þín til að tengjast þessum þjóni:",
     "Copy link" : "Afrita tengil",
-    "Copy to clipboard" : "Afrita á klippispjald"
+    "Copy to clipboard" : "Afrita á klippispjald",
+    "Get help" : "Til að fá hjálp"
 },"pluralForm" :"nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);"
 }

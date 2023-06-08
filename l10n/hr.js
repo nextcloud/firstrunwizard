@@ -47,7 +47,6 @@ OC.L10N.register(
     "Connect your contacts" : "Povežite svoje kontakte",
     "Access files via WebDAV" : "Pristupite datotekama putem WebDAVa",
     "Download macOS/iOS configuration profile" : "Preuzmite konfiguracijski profil za macOS/iOS",
-    "Get help" : "Iskoristite opsežnu pomoć",
     "Start contributing" : "Počnite doprinositi",
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Želite li poboljšati Nextcloud? Jeste li otkrili u čemu je problem? Želite li pomoći prevesti, promovirati ili dokumentirati Nextcloud?",
     "Become part of the Community" : "Postanite dio Zajednice",
@@ -71,6 +70,7 @@ OC.L10N.register(
     "Server address" : "Adresa poslužitelja",
     "Use this link to connect your apps and desktop client to this server:" : "Iskoristite ovu poveznicu za povezivanje aplikacija i klijenata za osobna računala s ovim poslužiteljem:",
     "Copy link" : "Kopiraj poveznicu",
-    "Copy to clipboard" : "Kopiraj u međuspremnik"
+    "Copy to clipboard" : "Kopiraj u međuspremnik",
+    "Get help" : "Iskoristite opsežnu pomoć"
 },
 "nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;");

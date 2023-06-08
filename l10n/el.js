@@ -49,7 +49,6 @@ OC.L10N.register(
     "Connect your contacts" : "Σύνδεσε τις επαφές σου",
     "Access files via WebDAV" : "Πρόσβαση στα αρχεία μέσω WebDAV",
     "Download macOS/iOS configuration profile" : "Κατεβάστε το προφίλ ρυθμίσεων για macOS / iOS",
-    "Get help" : "Λήψη βοήθειας",
     "Start contributing" : "Ξεκινήστε να συνεισφέρετε",
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Θέλετε να έχετε κάποια βελτίωση στο Nextcloud; Βρήκατε κάποιο πρόβλημα; Θέλετε να βοηθήσετε να μεταφράσετε, να προωθήσετε ή να τεκμηριώσετε το Nextcloud;",
     "Become part of the Community" : "Γίνετε μέρος της Κοινότητας",
@@ -75,6 +74,7 @@ OC.L10N.register(
     "Server address" : "Διεύθυνση διακομιστή",
     "Use this link to connect your apps and desktop client to this server:" : "Χρησιμοποιήστε τον σύνδεσμο για να συνδέσετε την εφαρμογή υπολογιστή και κινητού σε αυτόν τον διακομιστή:",
     "Copy link" : "Αντιγραφή συνδέσμου",
-    "Copy to clipboard" : "Αντιγραφή στο πρόχειρο"
+    "Copy to clipboard" : "Αντιγραφή στο πρόχειρο",
+    "Get help" : "Λήψη βοήθειας"
 },
 "nplurals=2; plural=(n != 1);");

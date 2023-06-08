@@ -51,7 +51,6 @@
     "Connect your contacts" : "Conectar seus contatos",
     "Access files via WebDAV" : "Acessar arquivos via WebDAV",
     "Download macOS/iOS configuration profile" : "Baixar perfil de configuração macOS/iOS",
-    "Get help" : "Obter ajuda",
     "Start contributing" : "Comece a contribuir",
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Quer uma melhoria específica no Nextcloud? Encontrou um problema? Quer ajudar a traduzir, promover ou documentar o Nextcloud?",
     "Become part of the Community" : "Torne-se parte da comunidade",
@@ -79,6 +78,7 @@
     "Server address" : "Endereço do servidor",
     "Use this link to connect your apps and desktop client to this server:" : "Use este link para conectar seus aplicativos e clientes de desktop a este servidor:",
     "Copy link" : "Copiar link",
-    "Copy to clipboard" : "Copiar para a área de trabalho"
+    "Copy to clipboard" : "Copiar para a área de trabalho",
+    "Get help" : "Obter ajuda"
 },"pluralForm" :"nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;"
 }

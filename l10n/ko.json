@@ -26,7 +26,6 @@
     "Connect your calendar" : "내 달력 연결",
     "Connect your contacts" : "내 연락처 연결",
     "Access files via WebDAV" : "WebDAV로 파일에 접근하기",
-    "Get help" : "도움 받기",
     "Start contributing" : "기여 시작하기",
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Nextcloud를 개선하고 싶나요? 문제를 발견하셨나요? Nextcloud와 관련된 문서를 작성하고, Nextcloud의 번역과 홍보를 돕고 싶나요?",
     "Enterprise support" : "엔터프라이즈 지원",
@@ -45,6 +44,7 @@
     "Server address" : "서버 주소",
     "Use this link to connect your apps and desktop client to this server:" : "다음 링크를 사용하여 데스크톱 클라이언트나 당신의 앱에 이 서버를 연결하세요.",
     "Copy link" : "링크 복사",
-    "Copy to clipboard" : "클립보드로 복사"
+    "Copy to clipboard" : "클립보드로 복사",
+    "Get help" : "도움 받기"
 },"pluralForm" :"nplurals=1; plural=0;"
 }
