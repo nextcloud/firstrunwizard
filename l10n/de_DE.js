@@ -53,7 +53,7 @@ OC.L10N.register(
     "Connect your contacts" : "Verbinden Sie Ihre Kontakte",
     "Access files via WebDAV" : "Greifen Sie auf Dateien über WebDAV zu",
     "Download macOS/iOS configuration profile" : "Konfigurationsprofil für macOS/iOS herunterladen",
-    "Get support or participate" : "Hol Unterstützung oder mach mit",
+    "Get support or participate" : "Unterstützung bekommen oder mitmachen",
     "Start contributing" : "Helfen Sie mit",
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Wollen Sie bestimmte Verbesserungen in Nextcloud? Haben Sie ein Problem gefunden? Möchten Sie uns bei Übersetzung, Öffentlichkeitsarbeit oder Dokumentation der Nextcloud helfen?",
     "Become part of the Community" : "Werden Sie Teil der Community",
