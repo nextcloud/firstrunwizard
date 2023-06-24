@@ -20,6 +20,7 @@ OC.L10N.register(
     "User manual" : "คู่มือผู้ใช้",
     "Admin manual" : "คู่มือผู้ดูแลระบบ",
     "Developer manual" : "คู่มือนักพัฒนา",
+    "A safe home for all your data" : "บ้านที่ปลอดภัยสำหรับข้อมูลของคุณ",
     "Learn more about %s" : "ดูเพิ่มเติมเกี่ยวกับ %s",
     "Server address" : "ที่อยู่เซิร์ฟเวอร์",
     "Copy link" : "คัดลอกลิงก์",
