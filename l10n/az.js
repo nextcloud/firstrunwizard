@@ -1,6 +1,10 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "Copied!" : "Kopyalandı!",
+    "Not supported!" : "Dəstəklənmir!",
+    "Press ⌘-C to copy." : "Kopyalamaq üçün ⌘-C basın.",
+    "Press Ctrl-C to copy." : "Kopyalamaq üçün Ctrl-C basın.",
     "About" : "Haqqında",
     "Get the apps to sync your files" : "Fayllarınızın sinxronizasiyası üçün proqramları götürün",
     "Desktop client" : "Desktop client",
