@@ -42,7 +42,7 @@ OC.L10N.register(
     "Browse the App Store" : "Parcourir le magasin d'applications",
     "Stay in sync" : "Restez synchronisé",
     "Nextcloud gives you access to your files wherever you are." : "Nextcloud vous donne accès à vos fichiers où que vous soyez.",
-    "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "Nos applications de bureau et mobiles faciles à utiliser sont disponibles pour toutes les plateformes majeures gratuitement!",
+    "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "Nos applications de bureau et mobiles faciles à utiliser sont disponibles pour toutes les plateformes majeures gratuitement !",
     "Get the apps to sync your files" : "Obtenez les applications vous permettant de synchroniser vos fichiers",
     "Desktop client" : "Client de bureau",
     "Android app on Google Play Store" : "Application Android sur le Google Play Store",
