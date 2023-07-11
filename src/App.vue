@@ -39,7 +39,7 @@
 import NcModal from '@nextcloud/vue/dist/Components/NcModal.js'
 import axios from '@nextcloud/axios'
 import { generateUrl } from '@nextcloud/router'
-import IntroVideo from './components/IntroVideo'
+import IntroVideo from './components/IntroVideo.vue'
 
 export default {
 	name: 'App',
