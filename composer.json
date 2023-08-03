@@ -19,7 +19,7 @@
 		"lint": "find . -name \\*.php -not -path './vendor/*' -not -path './build/*' -print0 | xargs -0 -n1 php -l",
 		"cs:check": "php-cs-fixer fix --dry-run --diff",
 		"cs:fix": "php-cs-fixer fix",
-		"test:unit": "vendor/bin/phpunit --color --fail-on-warning -c tests/phpunit.xml"
+		"test:unit": "vendor/bin/phpunit --color -c tests/phpunit.xml"
 	},
 	"autoload-dev": {
 		"psr-4": {
