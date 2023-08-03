@@ -50,6 +50,8 @@ class NotifierTest extends TestCase {
 	protected $urlGenerator;
 	/** @var IL10N|\PHPUnit_Framework_MockObject_MockObject */
 	protected $l;
+	/** @var IConfig|\PHPUnit_Framework_MockObject_MockObject */
+	protected $config;
 
 	protected function setUp(): void {
 		parent::setUp();
