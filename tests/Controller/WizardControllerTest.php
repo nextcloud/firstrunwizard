@@ -77,6 +77,10 @@ class WizardControllerTest extends TestCase {
 	 * @param string $user
 	 */
 	public function testDisable($user) {
+		$this->config->expects($this->at(0))
+			->method('getAppValue')
+			->willReturn('video,values,apps,clients,final');
+
 		$controller = $this->getController($user);
 
 		$this->config->expects($this->once())

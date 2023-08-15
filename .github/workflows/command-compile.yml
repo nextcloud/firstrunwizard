@@ -37,7 +37,7 @@ jobs:
       # Init path depending on which command is run
       - name: Init path
         id: git-path
-        run: |    
+        run: |
           if ${{ startsWith(steps.command.outputs.arg1, '/') }}; then
             echo "::set-output name=path::${{ github.workspace }}${{steps.command.outputs.arg1}}"
           else
@@ -47,7 +47,7 @@ jobs:
       - name: Init branch
         uses: xt0rted/pull-request-comment-branch@v1
         id: comment-branch
-    
+
   process:
     runs-on: ubuntu-latest
     needs: init
@@ -73,7 +73,7 @@ jobs:
           fallbackNpm: '^6'
 
       - name: Set up node ${{ steps.package-engines-versions.outputs.nodeVersion }}
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@64ed1c7eab4cce3362f8c340dee64e5eaeef8f7c # v3
         with:
           node-version: ${{ steps.package-engines-versions.outputs.nodeVersion }}
           cache: npm

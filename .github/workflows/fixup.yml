@@ -15,6 +15,6 @@ jobs:
 
     steps:
       - name: Run check
-        uses: xt0rted/block-autosquash-commits-action@v2
+        uses: skjnldsv/block-fixup-merge-action@42d26e1b536ce61e5cf467d65fb76caf4aa85acf # v1
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
