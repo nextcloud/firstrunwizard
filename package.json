@@ -20,7 +20,7 @@
     "@nextcloud/l10n": "^2.2.0",
     "@nextcloud/router": "^2.1.2",
     "@nextcloud/vue": "^7.12.4",
-    "vue": "^2.7.14"
+    "vue": "^3.3.4"
   },
   "browserslist": [
     "extends @nextcloud/browserslist-config"
