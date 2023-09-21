@@ -131,6 +131,9 @@ class Notifier implements INotifier {
 	protected function getSubject(INotification $notification, string $languageCode): string {
 		$l = $this->factory->get('firstrunwizard', $languageCode);
 		$user = $this->userManager->get($notification->getUser());
+		if ($user === null) {
+			return '';
+		}
 
 		$email = $user->getEMailAddress();
 		if ($email === null || $email === '') {
