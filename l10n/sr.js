@@ -51,7 +51,7 @@ OC.L10N.register(
     "Connect your desktop apps to %s" : "Повежите ваш рачунар на %s",
     "Connect your calendar" : "Повежите календар",
     "Connect your contacts" : "Повежите контакте",
-    "Access files via WebDAV" : "Приступите фајловима преко ВебДАВ-а",
+    "Access files via WebDAV" : "Приступите фајловима преко WebDAV",
     "Download macOS/iOS configuration profile" : "Преузмите macOS/iOS конфигурациони профил",
     "Get support or participate" : "Добијте подршку или учествујте",
     "Start contributing" : "Дајте допринос",
