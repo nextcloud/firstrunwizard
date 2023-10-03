@@ -20,7 +20,7 @@ OC.L10N.register(
     "App recommendation: Tasks" : "Odporúčaná aplikácia: Úlohy",
     "Sync tasks from various devices with your Nextcloud and edit them online." : "Synchronizujte úlohy v rôznych zariadeniach pomocou Nextcloud a upravujte ich online.",
     "App recommendation: Deck" : "Odporúčaná aplikácia: Deck",
-    "Kanban style organization for personal planning and team projects." : "Organizovanie osobného plánovania a tímových projektov v štýle kaban.",
+    "Kanban style organization for personal planning and team projects." : "Organizovanie osobného plánovania a tímových projektov v štýle Kanban.",
     "App recommendation: Forms" : "Odporúčaná aplikácia: Formuláre",
     "Simple surveys and questionnaires, self-hosted" : "Jednoduché prieskumy a dotazníky, uložené u vás",
     "App recommendation: Recognize" : "Odporúčaná aplikácia: Recognize",
