@@ -5,3 +5,4 @@ node_modules/
 /vendor
 /.php-cs-fixer.cache
 /tests/.phpunit.result.cache
+.DS_Store

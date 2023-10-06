@@ -3,6 +3,10 @@
  * SPDX-License-Identifer: AGPL-3.0-or-later
  */
 
+.settings-mobile-desktop {
+	display: contents;
+}
+
 .clientslinks {
 	display: flex;
 	gap: 1rem;
@@ -11,12 +15,7 @@
 	margin-bottom: 20px;
 }
 
-.clientslinks a.button {
-	display: inline-block;
-	padding: 0.7rem 1rem;
-}
-
-.clientslinks .button .appsmall {
+.settings-mobile-desktop .button .appsmall {
 	vertical-align: sub;
 	margin-right: 0.2rem;
 	filter: var(--background-invert-if-dark);
@@ -30,4 +29,29 @@
 
 #endpoint-url {
 	width: 250px;
+}
+
+.settings-mobile-desktop .button {
+	position: relative;
+	width: fit-content;
+	overflow: hidden;
+	border: 0;
+	font-weight: bold;
+	min-height: var(--clickable-area);
+	min-width: var(--clickable-area);
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	color: var(--color-primary-element-light-text);
+	background-color: var(--color-primary-element-light);
+	padding: 0.7rem 1rem;
+}
+
+.settings-mobile-desktop .button:hover:not(:disabled) {
+	color: var(--color-primary-element-light-text);
+	background-color: var(--color-primary-element-light-hover);
+}
+
+.settings-mobile-desktop .button img {
+	width: 20px;
 }

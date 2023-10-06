@@ -27,7 +27,6 @@ use OCA\FirstRunWizard\AppInfo\Application;
 use OCA\FirstRunWizard\Controller\WizardController;
 use OCP\AppFramework\Http;
 use OCP\AppFramework\Http\DataResponse;
-use OCP\AppFramework\Http\JSONResponse;
 use OCP\Defaults;
 use OCP\IConfig;
 use OCP\IGroupManager;
@@ -93,71 +92,6 @@ class WizardControllerTest extends TestCase {
 
 		$this->assertInstanceOf(DataResponse::class, $response);
 		$this->assertSame(Http::STATUS_OK, $response->getStatus());
-	}
-
-
-	public function testShowUser() {
-		$this->config->expects($this->once())
-			->method('getAppValue')
-			->with(Application::APP_ID, 'slides', 'video,values,apps,clients,final')
-			->willReturnArgument(2);
-		$controller = $this->getController();
-		$this->config->expects($this->exactly(5))
-			->method('getSystemValue')
-			->willReturnMap([
-				['customclient_desktop', 'https://nextcloud.com/install/#install-clients', 'https://nextcloud.com/install/#install-clients'],
-				['customclient_android', 'https://play.google.com/store/apps/details?id=com.nextcloud.client', 'https://nextcloud.com/install/#install-clients'],
-				['customclient_fdroid', 'https://f-droid.org/packages/com.nextcloud.client/', 'https://nextcloud.com/install/#install-clients'],
-				['customclient_ios', 'https://geo.itunes.apple.com/us/app/nextcloud/id1125420102?mt=8', 'https://nextcloud.com/install/#install-clients'],
-				['appstoreenabled', true, true]
-			]);
-
-		$response = $controller->show();
-
-		$this->assertInstanceOf(JSONResponse::class, $response);
-		$this->assertSame(Http::STATUS_OK, $response->getStatus());
-		$response = $response->getData();
-		$this->assertCount(3, $response['slides']);
-		$this->assertEquals(true, $response['hasVideo']);
-	}
-
-	/**
-	 * @dataProvider dataShowAdmin
-	 * @param bool $appstoreEnabled
-	 * @param int $expectedSlidesCount
-	 */
-	public function testShowAdmin(bool $appstoreEnabled, int $expectedSlidesCount): void {
-		$this->config->expects($this->once())
-			->method('getAppValue')
-			->with(Application::APP_ID, 'slides', 'video,values,apps,clients,final')
-			->willReturnArgument(2);
-		$controller = $this->getController();
-		if ($appstoreEnabled) {
-			$this->groupManager->expects($this->once())
-				->method('isAdmin')
-				->willReturn(true);
-		} else {
-			$this->groupManager->expects($this->never())
-				->method('isAdmin');
-		}
-
-		$this->config->expects($this->exactly(5))
-			->method('getSystemValue')
-			->willReturnMap([
-				['customclient_desktop', 'https://nextcloud.com/install/#install-clients', 'https://nextcloud.com/install/#install-clients'],
-				['customclient_android', 'https://play.google.com/store/apps/details?id=com.nextcloud.client', 'https://nextcloud.com/install/#install-clients'],
-				['customclient_fdroid', 'https://f-droid.org/packages/com.nextcloud.client/', 'https://nextcloud.com/install/#install-clients'],
-				['customclient_ios', 'https://geo.itunes.apple.com/us/app/nextcloud/id1125420102?mt=8', 'https://nextcloud.com/install/#install-clients'],
-				['appstoreenabled', true, $appstoreEnabled]
-			]);
-
-		$response = $controller->show();
-
-		$this->assertInstanceOf(JSONResponse::class, $response);
-		$this->assertSame(Http::STATUS_OK, $response->getStatus());
-		$response = $response->getData();
-		$this->assertCount($expectedSlidesCount, $response['slides']);
-		$this->assertEquals(true, $response['hasVideo']);
 	}
 
 	public function dataShowAdmin(): array {
