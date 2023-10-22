@@ -35,7 +35,7 @@ OC.L10N.register(
     "Extend your cloud" : "Rozšírte svoj cloud",
     "Find more than 100 apps in the Nextcloud App Store to customize your cloud:" : "Pozrite si viac než 100 aplikácií v katalógu Nextcloud, ktorými si môžete prispôsobiť svoj cloud:",
     "Groupware apps like Calendar, Contacts, Mail" : "Apky pre skupiny ako napr. Kalendár, Kontakty a Pošta",
-    "Communication with Nextcloud Talk" : "Komunikácia cez Nextcloud Talk",
+    "Communication with Nextcloud Talk" : "Komunikácia cez Nextcloud Rozhovor",
     "Collaboration apps for document editing" : "Apky pre spoluprácu na úpravách dokumentov",
     "Security and authentication features like two-factor authentication, SSO and ransomware protection" : "Funkcie pre zabezpečenie a overovanie, ako napr. dvojfázové overovanie, SSO a ochrana proti ransomware",
     "Many others like a music player, a password manager, a kanban app, a download manager or a Markdown editor" : "Veľa ďalších, ako napr. prehrávač hudby, správca hesiel, nástenka (kanban), správca sťahovania alebo markdown editor",
