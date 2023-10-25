@@ -67,7 +67,7 @@ OC.L10N.register(
     "Developer manual" : "Manual do desenvolvedor",
     "You can also ask for help in our community support channels:" : "Tamén pode pedir axuda nas nosas canles de asistencia á comunidade:",
     "the Nextcloud forums" : "os foros de Nextcloud",
-    "A safe home for all your data" : "Un lugar seguro para todos os seus datos",
+    "A safe home for all your data" : "Un acubillo seguro para todos os seus datos",
     "Our values" : "Os nosos valores",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud pon os seus datos ao seu alcance e baixo o seu control. Almacene os seus documentos, calendario, contactos e fotos nun servidor da súa empresa, na súa casa, nun dos nosos provedores ou nun centro de datos que coñeza.",
     "Host your data and files where you decide" : "Aloxe os seus datos e ficheiros onde Vde. decida",
