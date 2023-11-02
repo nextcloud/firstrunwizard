@@ -1,446 +1,226 @@
+<!--
+  - @copyright Copyright (c) 2023 Marco Ambrosini <marcoambrosini@proton.me>
+  -
+  - @author Simon Lindner <szaimen@e.mail.de>
+  - @author Marco Ambrosini <marcoambrosini@proton.me>
+  -
+  - @license GNU AGPL version 3 or any later version
+  -
+  - This program is free software: you can redistribute it and/or modify
+  - it under the terms of the GNU Affero General Public License as
+  - published by the Free Software Foundation, either version 3 of the
+  - License, or (at your option) any later version.
+  -
+  - This program is distributed in the hope that it will be useful,
+  - but WITHOUT ANY WARRANTY; without even the implied warranty of
+  - MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  - GNU Affero General Public License for more details.
+  -
+  - You should have received a copy of the GNU Affero General Public License
+  - along with this program. If not, see <http://www.gnu.org/licenses/>.
+  -
+  -->
+
 <template>
-	<NcModal v-if="showModal && slideList.length > 0"
+	<NcModal v-if="showModal"
 		id="firstrunwizard"
-		size="large"
-		:has-previous="hasPrevious"
+		class="first-run-wizard"
+		size="normal"
 		:has-next="hasNext"
-		@previous="previous"
-		@next="next"
-		@close="close">
-		<div v-if="currentSlide !== 0 || !withIntro" class="modal-header">
-			<div class="firstrunwizard-header">
-				<div class="logo">
-					<p class="hidden-visually">
-						{{ oc_defaults.name }}
-					</p>
-				</div>
-				<!-- eslint-disable-next-line vue/no-v-html -->
-				<h2 v-html="oc_defaults.slogan" />
-				<p />
-			</div>
-		</div>
-		<div class="modal-body">
-			<slot v-if="slideList.length > 0" name="body">
-				<transition :name="fadeDirection" mode="out-in">
-					<!-- eslint-disable-next-line vue/no-v-html -->
-					<div v-if="slideList[currentSlide].type === 'inline'" :key="currentSlide" v-html="slideList[currentSlide].content" />
-					<div :is="slideList[currentSlide]" v-else @finished="currentSlide++" />
-				</transition>
-			</slot>
-		</div>
-		<div class="modal-footer">
-			<button v-if="isLast" class="primary modal-default-button" @click="close">
-				{{ startButtonText }}
-			</button>
+		:has-previous="hasPrevious"
+		@close="close"
+		@next="goToNextPage"
+		@previous="goToPreviousPage">
+		<Page0 v-if="page === 0" @next="goToNextPage" />
+		<div v-else
+			class="first-run-wizard__wrapper">
+			<div class="first-run-wizard__background-circle--first-page" :style="backgroundCircleStyle" />
+			<NcButton v-if="page > 1"
+				type="tertiary"
+				class="first-run-wizard__back-button"
+				aria-label="t('firstrunwizard', 'Go to previous page')"
+				@click="goToPreviousPage">
+				<template #icon>
+					<ArrowLeft :size="20" />
+				</template>
+			</NcButton>
+			<NcButton :type="page === 1 ? 'primary' : 'tertiary'"
+				class="first-run-wizard__close-button"
+				aria-label="t('firstrunwizard', 'Close dialog')"
+				@click="close">
+				<template #icon>
+					<Close :size="20" />
+				</template>
+			</NcButton>
+			<div v-if="page === 1" class="first-run-wizard__logo" :style="logoStyle" />
+			<Page1 v-if="page === 1" @next="goToNextPage" />
+			<Page2 v-if="page === 2" @next="goToNextPage" />
+			<Page3 v-if="page === 3" @close="close" />
 		</div>
 	</NcModal>
 </template>
+
 <script>
-import NcModal from '@nextcloud/vue/dist/Components/NcModal.js'
+import { NcModal, NcButton } from '@nextcloud/vue'
+import { imagePath, generateUrl } from '@nextcloud/router'
 import axios from '@nextcloud/axios'
-import { generateUrl } from '@nextcloud/router'
-import IntroVideo from './components/IntroVideo.vue'
+
+import Page0 from './components/Page0.vue'
+import Page1 from './components/Page1.vue'
+import Page2 from './components/Page2.vue'
+import Page3 from './components/Page3.vue'
+
+import ArrowLeft from 'vue-material-design-icons/ArrowLeft.vue'
+import Close from 'vue-material-design-icons/Close.vue'
 
 export default {
 	name: 'App',
 	components: {
 		NcModal,
+		Page0,
+		Page1,
+		Page2,
+		NcButton,
+		ArrowLeft,
+		Page3,
+		Close,
 	},
+
 	data() {
 		return {
 			showModal: false,
-			withIntro: true,
-			slides: [],
-			currentSlide: 0,
-			fadeDirection: 'next',
-			slidesLoaded: false,
+			page: 0,
+			logoURL: imagePath('firstrunwizard', 'nextcloudLogo.svg'),
 		}
 	},
-	computed: {
-		slideList() {
-			if (this.withIntro) {
-				return this.slides
-			}
-			const slides = this.slides
-			return slides.slice(1)
-		},
-		hasNext() {
-			return this.currentSlide < this.slideList.length - 1
-		},
-		hasPrevious() {
-			return this.currentSlide > 0
-		},
-		isLast() {
-			return this.currentSlide === this.slideList.length - 1
-		},
-		isFirst() {
-			return this.currentSlide === 0
-		},
-		startButtonText() {
-			return t('firstrunwizard', 'Start using {cloudName}', { cloudName: window.OC.theme.name })
-		},
-	},
-	async created() {
-		this.slides = [IntroVideo]
-		window.addEventListener('resize', this.onResize)
-	},
-	beforeDestroy() {
-		window.removeEventListener('resize', this.onResize)
-	},
-	methods: {
-		async loadStaticSlides() {
-			if (this.slidesLoaded) {
-				return
-			}
 
-			try {
-				const response = await axios.get(generateUrl('/apps/firstrunwizard/wizard'))
-				this.slides.push(...response.data.slides)
-				this.withIntro = response.data.hasVideo
-				this.slidesLoaded = true
-			} catch (e) {
-				console.error('Failed to load slides')
+	computed: {
+		backgroundCircleStyle() {
+			return this.page === 1
+				? { top: '-5900px' }
+				: {
+					top: '0',
+					left: '0',
+					width: '100%',
+					height: '10px',
+					borderRadius: '0',
+				}
+		},
+
+		logoStyle() {
+			return { backgroundImage: 'url(' + this.logoURL + ')' }
+		},
+
+		hasPrevious() {
+			if (window.innerWidth <= 512) {
+				return false
+			} else {
+				return this.page > 1
 			}
 		},
-		async open(withIntro = true) {
-			await this.loadStaticSlides()
-			this.withIntro = this.withIntro & withIntro
-			this.showModal = true
-			this.currentSlide = 0
+
+		hasNext() {
+			if (window.innerWidth <= 512) {
+				return false
+			} else {
+				return this.page < 3
+			}
 		},
+	},
+
+	methods: {
+		open() {
+			this.page = 0
+			this.showModal = true
+		},
+
 		close() {
+			this.page = 0
 			this.showModal = false
 			axios.delete(generateUrl('/apps/firstrunwizard/wizard'))
 		},
-		next() {
-			this.fadeDirection = 'next'
-			if (this.isLast) {
-				this.close()
-				return
-			}
-			this.currentSlide += 1
+
+		goToNextPage() {
+			this.page++
 		},
-		previous() {
-			this.fadeDirection = 'previous'
-			if (this.isFirst) {
-				return
-			}
-			this.currentSlide -= 1
+
+		goToPreviousPage() {
+			this.page--
 		},
+
 	},
 }
 </script>
 
-<style lang="scss">
-	/* Page styling needs to be unscoped, since we load it separately from the server */
-	#firstrunwizard {
-
-		.page {
-			display: flex;
-			flex-direction: row;
-			flex-wrap: wrap;
-			margin: auto;
-
-			h3 {
-				margin: 10px 0 10px;
-				line-height: 120%;
-				padding: 0;
-			}
-			.image {
-				padding: 20px;
-				max-width: calc(50% - 40px);
-				flex-grow: 1;
-				img {
-					width: 100%;
-				}
-			}
-			.content {
-				padding: 20px;
-				width: 100%;
-				> h2 {
-					text-align: center;
-				}
-			}
-			p {
-				margin-bottom: 20px;
-			}
-			.description-block:first-child {
-				margin-bottom: 20px;
-			}
-			.description {
-				margin: 20px;
-				width: auto;
-				flex-grow: 1;
-				max-width: calc(50% - 40px);
-			}
-			ul {
-				margin: 10px;
-				li {
-					margin-left: 20px;
-					margin-bottom: 10px;
-					list-style: circle outside;
-				}
-			}
-			a:not(.button) {
-				&:hover,
-				&:focus {
-					text-decoration: underline;
-				}
-			}
-			.button {
-				display: inline-block;
-
-				img {
-					width: 16px;
-					height: 16px;
-					opacity: .5;
-					margin-top: -3px;
-					vertical-align: middle;
-				}
-			}
-		}
-
-		.content-clients {
-			width: 100%;
-			text-align: center;
-			a {
-				text-decoration: none;
-				display: inline-block;
-			}
-			.clientslinks .appsmall {
-				height: 32px;
-				width: 32px;
-				position: relative;
-				opacity: .5;
-				vertical-align: middle;
-			}
-			.clientslinks .button {
-				display: inline-block;
-				padding: 8px;
-				font-weight: normal;
-				font-size: 14px;
-			}
-		}
-		.page-final {
-			h3 {
-				background-position: 0;
-				background-size: 16px 16px;
-				padding-left: 26px;
-				opacity: .7;
-			}
-		}
-		p a {
-			font-weight: bold;
-			color: var(--color-primary-element);
-			&:hover,
-			&:focus {
-				color: var(color-text-light);
-			}
-		}
-
-		.footnote {
-			margin-top: 40px;
-		}
-
-		// primary on next button
-		.modal-wrapper {
-			.icon-next {
-				background-color: var(--color-primary-element);
-				color: var(--color-primary-element-text);
-				box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
-				left: 22px;
-				border-radius: 40px;
-			}
-
-			.icon-previous {
-				background-color: var(--color-primary-element-light);
-				color: var(--color-primary-element-light-text);
-				box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
-				left: 22px;
-				border-radius: 40px;
-			}
-		}
-	}
-
-	.clientslinks {
-		margin-top: 20px;
-		margin-bottom: 20px;
-	}
-
-	#wizard-values {
-		list-style-type: none;
-		display: flex;
-		flex-wrap: wrap;
-		margin: 0;
-		li {
-			display: block;
-			min-width: 250px;
-			width: 33%;
-			flex-grow: 1;
-			margin: 20px 0 20px 0;
-			span {
-				opacity: .7;
-				display: block;
-				height: 50px;
-				width: 50px;
-				background-size: 40px;
-				margin: auto;
-			}
-			h3 {
-				margin: 10px 0 10px 0;
-				font-size: 130%;
-				text-align: center;
-			}
-		}
-	}
-
-	.details-link {
-		text-align: center;
-	}
-
-	@media only screen and (max-width: 680px) {
-		#firstrunwizard {
-			.firstrunwizard-header div.logo {
-				background-size: 120px;
-			}
-			h2 {
-				font-size: 20px;
-			}
-			.page > div {
-				max-width: 100% !important;
-				width: 100%;
-			}
-			.page {
-				#wizard-values li {
-					min-width: 100%;
-					overflow: hidden;
-					display: flex;
-					span {
-						width: 44px !important;
-						padding-right: 20px;
-						flex-grow: 0;
-					}
-					h3 {
-						font-size: 12px;
-						text-align: left;
-						flex-grow: 1;
-					}
-				}
-
-				&.page-final {
-					padding-bottom: 50px;
-				}
-			}
-		}
-		// fix button position on mobile (so that they don't overlap with text)
-		.modal-mask .modal-wrapper .next, .prev {
-			top: 220px;
-			align-items: start !important;
-		}
-	}
-</style>
 <style lang="scss" scoped>
-	.modal-mask {
-		background-color: rgba(0, 0, 0, 0.7);
 
-		&::v-deep .modal-wrapper {
-			position: relative;
-		}
-
-		&::v-deep .modal-container {
-			display: flex;
-			flex-direction: column;
-			position: absolute;
-		}
-
-		.modal-body {
-			flex-grow: 1;
-			display: flex;
-			overflow-x: hidden;
-			overflow-y: auto;
-
-			& > div {
-				display: flex;
-				flex-grow: 1;
-				align-items: center;
-				justify-content: center;
-			}
-		}
-	}
-
-	.modal-header {
-		flex-shrink: 0;
-
-		.firstrunwizard-header {
-			background-size: cover;
-			background-position: 50% 50%;
-			// Use custom background or plain primary colour if defined
-			// or fallback to default background with gradient
-			background-image: var(--image-background, var(--image-background-plain, url("../../../core/img/background.svg"), linear-gradient(
-		40deg, #0082c9 0%, #30b6ff 100%)));
-			background-color: var(--color-primary-element);
-			padding: 20px 12px;
-			color: var(--color-primary-element-text);
-			text-align: center;
-			.logo {
-				// Use custom logo if defined or fallback to default one
-				background: var(--image-logo, url("../../../core/img/logo/logo.svg")) no-repeat center;
-				background-size: contain;
-				width: 175px;
-				height: 100px;
-				max-height: 20vh;
-				margin: 0 auto;
-			}
-			h2 {
-				font-size: 20px;
-				margin-top: 7px;
-				line-height: 150%;
-				color: var(--color-primary-element-text);
-				font-weight: 300;
-				padding: 0 0 10px;
-			}
-		}
-	}
-
-	.modal-default-button {
-		align-self: flex-end;
-	}
-
-	.modal-footer {
+.first-run-wizard {
+	&__wrapper {
+		position: relative;
 		overflow: hidden;
-		position: absolute;
+		padding: calc(var(--default-grid-baseline) * 5);
 		display: flex;
-		bottom: 0;
-		right: 0;
+		min-height: min(520px, 80vh);
 	}
 
-	.modal-footer button {
-		margin: 10px;
+	&__background-circle--first-page {
+		height: 6000px;
+		width: 6000px;
+		border-radius: 3000px;
+		background-color: var(--color-primary-element);
+		position: absolute;
+		left: calc( -3000px + 50%);
+
 	}
 
-	/* Transitions */
-	.next-enter-active, .next-leave-active,
-	.previous-enter-active, .previous-leave-active {
-		transition: transform .1s, opacity .25s;
+	&__back-button {
+		position: absolute;
+		top: var(--default-grid-baseline);
+		left: var(--default-grid-baseline);
 	}
 
-	.next-enter {
-		transform: translateX(50%);
-		opacity: 0;
+	&__close-button {
+		position: absolute;
+		top: var(--default-grid-baseline);
+		right: var(--default-grid-baseline);
 	}
 
-	.next-leave-to {
-		transform: translateX(-50%);
-		opacity: 0;
+	&__logo {
+		height: 70px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 100px;
+		margin: auto;
+		position: absolute;
+		left: 0;
+		width: 100%;
+		pointer-events: none;
+	}
+}
+
+:deep .modal-wrapper .modal-container {
+	overflow: hidden;
+}
+
+:deep .modal-wrapper .modal-container__content {
+	overflow: hidden;
+	height: 100%;
+	display: contents;
+}
+
+@media only screen and (max-width: 512px) {
+	:deep .modal-wrapper .modal-container {
+		height: 100vh;
+		top: 0;
 	}
 
-	.previous-enter {
-		transform: translateX(-50%);
-		opacity: 0;
+	:deep .modal-header {
+		pointer-events: none;
 	}
+}
 
-	.previous-leave-to {
-		transform: translateX(50%);
-		opacity: 0;
-	}
+:deep .modal-container__close {
+	display: none;
+}
+
 </style>
