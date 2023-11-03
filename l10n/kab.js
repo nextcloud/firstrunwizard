@@ -6,6 +6,8 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "Senned ɣef ⌘-C akken ad tneɣleḍ.",
     "Press Ctrl-C to copy." : "Senned ɣef Ctrl-C akken ad tneɣleḍ.",
     "About" : "Γef",
+    "Privacy" : "Vie privée",
+    "Community" : "Tamezdagnut",
     "Copy link" : "Nɣel aseɣwen",
     "Copy to clipboard" : "Copier dans le presse-papiers"
 },
