@@ -16,13 +16,13 @@ OC.L10N.register(
     "Get the apps to sync your files" : "Hangi rakendusi failide sünkroniseerimiseks",
     "Desktop client" : "Töölaua klient",
     "iOS app" : "iOS-i rakendus",
-    "Connect your desktop apps to %s" : "Ühenda oma töölaua rakendus %s",
     "Connect your calendar" : "Ühenda oma kalender",
     "Connect your contacts" : "Ühenda oma kontaktid",
     "Access files via WebDAV" : "Ligipääs WebDAV vahendusel",
-    "A safe home for all your data" : "Turvaline koht sinu andmetele",
     "Server address" : "Serveri aadress",
     "Copy link" : "Kopeeri link",
-    "Copy to clipboard" : "Kopeeri lõikepuhvrisse"
+    "Copy to clipboard" : "Kopeeri lõikepuhvrisse",
+    "Connect your desktop apps to %s" : "Ühenda oma töölaua rakendus %s",
+    "A safe home for all your data" : "Turvaline koht sinu andmetele"
 },
 "nplurals=2; plural=(n != 1);");
