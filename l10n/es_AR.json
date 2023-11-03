@@ -11,12 +11,12 @@
     "Get the apps to sync your files" : "Obtenga las aplicaciones para sincronizar sus archivos",
     "Desktop client" : "Cliente de escritorio",
     "iOS app" : "Aplicación iOS",
-    "Connect your desktop apps to %s" : "Conecte su aplicación de escritorio a %s",
     "Access files via WebDAV" : "Acceda a sus archivos vía WebDAV",
-    "Get more information" : "Obter más información",
-    "A safe home for all your data" : "Un hogar seguro para todos tus datos.",
     "Server address" : "Dirección del servidor",
     "Copy link" : "Copiar enlace",
-    "Copy to clipboard" : "Copiar al portapapeles"
+    "Copy to clipboard" : "Copiar al portapapeles",
+    "Connect your desktop apps to %s" : "Conecte su aplicación de escritorio a %s",
+    "Get more information" : "Obter más información",
+    "A safe home for all your data" : "Un hogar seguro para todos tus datos."
 },"pluralForm" :"nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;"
 }

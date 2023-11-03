@@ -10,15 +10,16 @@ OC.L10N.register(
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Aplicacion simpla e simpatica de corrièl integrada a Fichièrs, Contactes e Calendièr.",
     "Smart media tagging for Nextcloud" : "Etiquetatge intelligent dels mèdias per Nextcloud",
     "About" : "A prepaus",
-    "Communication with Nextcloud Talk" : "Comunicacion amb Nextcloud Talk",
+    "Privacy" : "Confidencialitat",
     "Get the apps to sync your files" : "Obtenètz las aplicacions que vos permeton de sincronizar vòstres fichièrs",
     "Desktop client" : "Client de burèu",
     "iOS app" : "Aplicacion iOS",
-    "Connect your desktop apps to %s" : "Connectatz vòstras aplicacions de burèu a %s",
     "Access files via WebDAV" : "Accedissètz a vòstres fichièrs via WebDAV",
-    "A safe home for all your data" : "Un ostal segur per vòstras donadas",
     "Server address" : "Adreça del servidor",
     "Copy link" : "Copiar lo ligam",
-    "Copy to clipboard" : "Copiar dins lo quichapapièrs"
+    "Copy to clipboard" : "Copiar dins lo quichapapièrs",
+    "Communication with Nextcloud Talk" : "Comunicacion amb Nextcloud Talk",
+    "Connect your desktop apps to %s" : "Connectatz vòstras aplicacions de burèu a %s",
+    "A safe home for all your data" : "Un ostal segur per vòstras donadas"
 },
 "nplurals=2; plural=(n > 1);");
