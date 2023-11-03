@@ -8,8 +8,8 @@ OC.L10N.register(
     "About" : "Aangaande",
     "Desktop client" : "Werkskermkliënt",
     "iOS app" : "iOS-toep",
-    "A safe home for all your data" : "’n Veilige tuiste vir al u data",
     "Server address" : "Bedieneradres",
-    "Copy link" : "Kopieer skakel"
+    "Copy link" : "Kopieer skakel",
+    "A safe home for all your data" : "’n Veilige tuiste vir al u data"
 },
 "nplurals=2; plural=(n != 1);");

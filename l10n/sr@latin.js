@@ -6,6 +6,7 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "Притисни ⌘-C за копирање.",
     "Press Ctrl-C to copy." : "Притисни Ctrl-C за копирање.",
     "About" : "O programu",
+    "Community" : "Zajednica",
     "Server address" : "Adresa servera",
     "Copy link" : "Kopiraj vezu"
 },
