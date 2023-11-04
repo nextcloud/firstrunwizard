@@ -10,6 +10,7 @@ OC.L10N.register(
     "Add your profile information! Set a full name for easier recognition across all features." : "Agregue su información de perfil! Establezca su nombre completo para reconocerlo más fácilmente entre todas las funcionalidades. ",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Agregue su información de perfil! Establezca una imagen de perfil para reconocerlo más fácilmente entre todas las funcionalidades. ",
     "About" : "Acerca de",
+    "Community" : "Comunidad",
     "Get the apps to sync your files" : "Obtenga las aplicaciones para sincronizar sus archivos",
     "Desktop client" : "Cliente de escritorio",
     "iOS app" : "Aplicación iOS",
