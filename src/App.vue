@@ -34,7 +34,10 @@
 		<Page0 v-if="page === 0" @next="goToNextPage" />
 		<div v-else
 			class="first-run-wizard__wrapper">
-			<div class="first-run-wizard__background-circle--first-page" :style="backgroundCircleStyle" />
+			<Transition :name="circleSlideDirection">
+				<div v-if="page === 1" class="first-run-wizard__background-circle" />
+			</Transition>
+			<div class="first-run-wizard__background-bar" />
 			<NcButton v-if="page > 1"
 				type="tertiary"
 				class="first-run-wizard__back-button"
@@ -53,7 +56,7 @@
 				</template>
 			</NcButton>
 			<div v-if="page === 1" class="first-run-wizard__logo" :style="logoStyle" />
-			<Transition :name="slideDirection"
+			<Transition :name="pageSlideDirection"
 				mode="out-in">
 				<Page1 v-if="page === 1" @next="goToNextPage" />
 				<Page2 v-else-if="page === 2" @next="goToNextPage" />
@@ -94,23 +97,12 @@ export default {
 			showModal: false,
 			page: 0,
 			logoURL: imagePath('firstrunwizard', 'nextcloudLogo.svg'),
-			slideDirection: undefined,
+			pageSlideDirection: undefined,
+			circleSlideDirection: undefined,
 		}
 	},
 
 	computed: {
-		backgroundCircleStyle() {
-			return this.page === 1
-				? { top: '-5900px' }
-				: {
-					top: '0',
-					left: '0',
-					width: '100%',
-					height: '10px',
-					borderRadius: '0',
-				}
-		},
-
 		logoStyle() {
 			return { backgroundImage: 'url(' + this.logoURL + ')' }
 		},
@@ -145,13 +137,24 @@ export default {
 		},
 
 		goToNextPage() {
-			this.slideDirection = 'slide-left'
-			this.page++
+			this.pageSlideDirection = 'slide-left'
+			if (this.page === 1) {
+				this.circleSlideDirection = 'slide-up'
+			}
+			this.$nextTick(() => {
+				this.page++
+			})
 		},
 
 		goToPreviousPage() {
-			this.slideDirection = 'slide-right'
-			this.page--
+			this.pageSlideDirection = 'slide-right'
+			if (this.page === 2) {
+				this.circleSlideDirection = 'slide-down'
+			}
+			this.$nextTick(() => {
+				this.page--
+			})
+
 		},
 	},
 }
@@ -168,14 +171,23 @@ export default {
 		min-height: min(520px, 80vh);
 	}
 
-	&__background-circle--first-page {
+	&__background-circle {
 		height: 6000px;
 		width: 6000px;
 		border-radius: 3000px;
 		background-color: var(--color-primary-element);
 		position: absolute;
+		top: -5900px;
 		left: calc( -3000px + 50%);
+	}
 
+	&__background-bar {
+		position:absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 10px;
+		background-color: var(--color-primary-element);
 	}
 
 	&__back-button {
@@ -231,8 +243,12 @@ export default {
 .slide-right-enter-active,
 .slide-right-leave-active,
 .slide-left-enter-active,
-.slide-left-leave-active{
-	transition: all .1s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+.slide-left-leave-active,
+.slide-up-enter-active,
+.slide-up-leave-active,
+.slide-down-enter-active,
+.slide-down-leave-active {
+	transition: all .2s cubic-bezier(1.0, 0.5, 0.8, 1.0);
 }
 
 .slide-left-enter {
@@ -253,6 +269,22 @@ export default {
 .slide-right-leave-to {
 	opacity: 0;
 	transform: translateX(30%);
+}
+
+.slide-up-enter {
+	top: calc(-5900px);
+}
+
+.slide-up-leave-to {
+	top: calc(-5900px - 80px);
+}
+
+.slide-down-enter {
+	top: calc(-5900px - 80px);
+}
+
+.slide-down-leave-to {
+	top: calc(-5900px);
 }
 
 </style>
