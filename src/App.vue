@@ -53,9 +53,12 @@
 				</template>
 			</NcButton>
 			<div v-if="page === 1" class="first-run-wizard__logo" :style="logoStyle" />
-			<Page1 v-if="page === 1" @next="goToNextPage" />
-			<Page2 v-if="page === 2" @next="goToNextPage" />
-			<Page3 v-if="page === 3" @close="close" />
+			<Transition :name="slideDirection"
+				mode="out-in">
+				<Page1 v-if="page === 1" @next="goToNextPage" />
+				<Page2 v-else-if="page === 2" @next="goToNextPage" />
+				<Page3 v-else-if="page === 3" @close="close" />
+			</Transition>
 		</div>
 	</NcModal>
 </template>
@@ -91,6 +94,7 @@ export default {
 			showModal: false,
 			page: 0,
 			logoURL: imagePath('firstrunwizard', 'nextcloudLogo.svg'),
+			slideDirection: undefined,
 		}
 	},
 
@@ -141,13 +145,14 @@ export default {
 		},
 
 		goToNextPage() {
+			this.slideDirection = 'slide-left'
 			this.page++
 		},
 
 		goToPreviousPage() {
+			this.slideDirection = 'slide-right'
 			this.page--
 		},
-
 	},
 }
 </script>
@@ -221,6 +226,33 @@ export default {
 
 :deep .modal-container__close {
 	display: none;
+}
+
+.slide-right-enter-active,
+.slide-right-leave-active,
+.slide-left-enter-active,
+.slide-left-leave-active{
+	transition: all .1s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+
+.slide-left-enter {
+	opacity: 0;
+	transform: translateX(30%);
+}
+
+.slide-left-leave-to {
+	opacity: 0;
+	transform: translateX(-30%);
+}
+
+.slide-right-enter {
+	opacity: 0;
+	transform: translateX(-30%);
+}
+
+.slide-right-leave-to {
+	opacity: 0;
+	transform: translateX(30%);
 }
 
 </style>
