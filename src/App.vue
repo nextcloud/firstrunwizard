@@ -248,7 +248,7 @@ export default {
 .slide-up-leave-active,
 .slide-down-enter-active,
 .slide-down-leave-active {
-	transition: all .2s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+	transition: all .2s;
 }
 
 .slide-left-enter {
