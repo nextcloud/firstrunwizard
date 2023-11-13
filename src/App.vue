@@ -259,7 +259,7 @@ export default {
 
 @media only screen and (max-width: 512px) {
 	:deep .modal-wrapper .modal-container {
-		height: 100vh;
+		height: 100dvh;
 		top: 0;
 	}
 
