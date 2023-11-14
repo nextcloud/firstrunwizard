@@ -90,7 +90,7 @@ OC.L10N.register(
     "Stay in sync" : "Buďte synchronizovaní",
     "Nextcloud gives you access to your files wherever you are." : "S Nextcloud můžete přistupovat ke svým souborům odkudkoliv.",
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "Klienti pro něj se snadno používají a jsou k dispozici pro všechny hlavní platformy osobních počítačů a chytrých telefonů (tabletů, atp.) a to zdarma!",
-    "Connect your desktop apps to %s" : "Propojte své aplikace s %s",
+    "Connect your desktop apps to %s" : "Propojte své aplikace na počítači s %s",
     "Get help" : "Získejte pomoc",
     "Start contributing" : "Zapojte se",
     "Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?" : "Chcete, aby se v Nextcloud něco konkrétního zlepšilo? Narazili jste na problém? Chcete pomoci s překládáním, propagací nebo dokumentací Nextcloud?",
