@@ -32,9 +32,20 @@
 
 <script>
 import { imagePath } from '@nextcloud/router'
+import { loadState } from '@nextcloud/initial-state'
+
+const android = loadState('firstrunwizard', 'android')
+const ios = loadState('firstrunwizard', 'ios')
 
 export default {
 	name: 'AppStoreBadge',
+
+	data() {
+		return {
+			android,
+			ios,
+		}
+	},
 
 	props: {
 		type: {
@@ -60,9 +71,9 @@ export default {
 
 		href() {
 			if (this.type === 'ios') {
-				return 'https://geo.itunes.apple.com/us/app/nextcloud/id1125420102?mt=8'
+				return this.ios
 			} else if (this.type === 'android') {
-				return 'https://play.google.com/store/apps/details?id=com.nextcloud.client'
+				return this.android
 			}
 			return undefined
 		},

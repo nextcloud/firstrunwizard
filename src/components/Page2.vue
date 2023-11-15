@@ -33,7 +33,7 @@
 			<div class="page__content">
 				<AppStoreBadge type="android" />
 				<AppStoreBadge type="ios" />
-				<Card href="https://nextcloud.com/install/#install-clients"
+				<Card :href="desktop"
 					:title="t('firstrunwizard', 'Desktop app ↗')"
 					:subtitle="t('firstrunwizard', 'Download For Windows, Mac OS and Linux.')" />
 				<Card :href="syncClientsUrl"
@@ -58,6 +58,9 @@ import AppStoreBadge from './AppStoreBadge.vue'
 import ArrowRight from 'vue-material-design-icons/ArrowRight.vue'
 import { NcButton } from '@nextcloud/vue'
 import { generateUrl } from '@nextcloud/router'
+import { loadState } from '@nextcloud/initial-state'
+
+const desktop = loadState('firstrunwizard', 'desktop')
 
 export default {
 	name: 'Page2',
@@ -73,6 +76,7 @@ export default {
 		return {
 			subtitleText: t('firstrunwizard', 'Sync your files across your devices with the desktop and mobile apps, and connect your calendar and contacts.'),
 			syncClientsUrl: generateUrl('settings/user/sync-clients'),
+			desktop,
 		}
 	},
 

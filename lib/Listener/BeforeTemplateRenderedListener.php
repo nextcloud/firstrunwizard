@@ -30,9 +30,11 @@ use OCA\FirstRunWizard\AppInfo\Application;
 use OCA\FirstRunWizard\Notification\AppHint;
 use OCP\AppFramework\Http\Events\BeforeTemplateRenderedEvent;
 use OCP\BackgroundJob\IJobList;
+use OCP\Defaults;
 use OCP\EventDispatcher\Event;
 use OCP\EventDispatcher\IEventListener;
 use OCP\IConfig;
+use OCP\AppFramework\Services\IInitialState;
 use OCP\IUser;
 use OCP\IUserSession;
 use OCP\Util;
@@ -55,16 +57,26 @@ class BeforeTemplateRenderedListener implements IEventListener {
 	 */
 	private $jobList;
 
+	/** @var IInitialState */
+	protected $initialState;
+
+	/** @var Defaults */
+	protected $theming;
+
 	public function __construct(
 		IConfig $config,
 		IUserSession $userSession,
 		IJobList $jobList,
-		AppHint $appHint
+		AppHint $appHint,
+		IInitialState $initialState,
+		Defaults $theming,
 	) {
 		$this->userSession = $userSession;
 		$this->config = $config;
 		$this->appHint = $appHint;
 		$this->jobList = $jobList;
+		$this->initialState = $initialState;
+		$this->theming = $theming;
 	}
 
 	public function handle(Event $event): void {
@@ -88,5 +100,20 @@ class BeforeTemplateRenderedListener implements IEventListener {
 		}
 
 		Util::addScript(Application::APP_ID, 'about');
+
+		$this->initialState->provideInitialState(
+			'desktop',
+			$this->config->getSystemValue('customclient_desktop', $this->theming->getSyncClientUrl())
+		);
+
+		$this->initialState->provideInitialState(
+			'android',
+			$this->config->getSystemValue('customclient_android', $this->theming->getAndroidClientUrl())
+		);
+
+		$this->initialState->provideInitialState(
+			'ios',
+			$this->config->getSystemValue('customclient_ios', $this->theming->getiOSClientUrl())
+		);
 	}
 }
