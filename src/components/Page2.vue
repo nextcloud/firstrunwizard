@@ -40,19 +40,31 @@
 					:title="t('firstrunwizard', 'Calendar and contacts ↗')"
 					:subtitle="t('firstrunwizard', 'Connect your calendar and contacts with your devices.')" />
 			</div>
-		</div>
+		</div><NcButton type="primary"
+			alignment="center-reverse"
+			:wide="true"
+			@click="$emit('next')">
+			<template #icon>
+				<ArrowRight :size="20" />
+			</template>
+			{{ t('firstrunwizard', 'More about Nextcloud') }}
+		</NcButton>
 	</div>
 </template>
 
 <script>
 import Card from './Card.vue'
 import AppStoreBadge from './AppStoreBadge.vue'
+import ArrowRight from 'vue-material-design-icons/ArrowRight.vue'
+import { NcButton } from '@nextcloud/vue'
 import { generateUrl } from '@nextcloud/router'
 
 export default {
 	name: 'Page2',
 
 	components: {
+		NcButton,
+		ArrowRight,
 		Card,
 		AppStoreBadge,
 	},

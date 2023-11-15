@@ -44,17 +44,24 @@
 			<p class="version-number">
 				{{ versionNumbrer }}
 			</p>
-		</div>
+		</div><NcButton type="primary"
+			alignment="center-reverse"
+			:wide="true"
+			@click="$emit('close')">
+			{{ t('firstrunwizard', 'Get started!') }}
+		</NcButton>
 	</div>
 </template>
 
 <script>
 import Card from './Card.vue'
+import { NcButton } from '@nextcloud/vue'
 
 export default {
 	name: 'Page3',
 
 	components: {
+		NcButton,
 		Card,
 	},
 
