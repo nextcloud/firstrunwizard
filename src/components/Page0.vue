@@ -27,6 +27,7 @@
 		<video ref="video"
 			playsinline
 			autoplay
+			muted
 			@ended="handleEnded">
 			<source :src="videoWebm" type="video/webm">
 			<source :src="videoMp4" type="video/mp4">
