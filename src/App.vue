@@ -58,10 +58,19 @@
 			<div v-if="page === 1" class="first-run-wizard__logo" :style="logoStyle" />
 			<Transition :name="pageSlideDirection"
 				mode="out-in">
-				<Page1 v-if="page === 1" @next="goToNextPage" />
-				<Page2 v-else-if="page === 2" @next="goToNextPage" />
-				<Page3 v-else-if="page === 3" @close="close" />
+				<Page1 v-if="page === 1" />
+				<Page2 v-else-if="page === 2" />
+				<Page3 v-else-if="page === 3" />
 			</Transition>
+			<NcButton type="primary"
+				alignment="center-reverse"
+				:wide="true"
+				@click="handleButtonCLick">
+				<template v-if="page !== 3" #icon>
+					<ArrowRight :size="20" />
+				</template>
+				{{ buttonText }}
+			</NcButton>
 		</div>
 	</NcModal>
 </template>
@@ -77,6 +86,7 @@ import Page2 from './components/Page2.vue'
 import Page3 from './components/Page3.vue'
 
 import ArrowLeft from 'vue-material-design-icons/ArrowLeft.vue'
+import ArrowRight from 'vue-material-design-icons/ArrowRight.vue'
 import Close from 'vue-material-design-icons/Close.vue'
 
 export default {
@@ -88,6 +98,7 @@ export default {
 		Page2,
 		NcButton,
 		ArrowLeft,
+		ArrowRight,
 		Page3,
 		Close,
 	},
@@ -121,6 +132,17 @@ export default {
 			} else {
 				return this.page < 3
 			}
+		},
+
+		buttonText() {
+			if (this.page === 1) {
+				return t('firstrunwizard', 'Nextcloud on all your devices')
+			} else if (this.page === 2) {
+				return t('firstrunwizard', 'More about Nextcloud')
+			} else if (this.page === 3) {
+				return t('firstrunwizard', 'Get started!')
+			}
+			return ''
 		},
 	},
 
@@ -156,6 +178,14 @@ export default {
 			})
 
 		},
+
+		handleButtonCLick() {
+			if (this.page < 3) {
+				this.goToNextPage()
+			} else {
+				this.close()
+			}
+		},
 	},
 }
 </script>
@@ -168,7 +198,8 @@ export default {
 		overflow: hidden;
 		padding: calc(var(--default-grid-baseline) * 5);
 		display: flex;
-		min-height: min(520px, 80vh);
+		flex-direction: column;
+		justify-content: space-between;
 	}
 
 	&__background-circle {
@@ -227,7 +258,7 @@ export default {
 
 @media only screen and (max-width: 512px) {
 	:deep .modal-wrapper .modal-container {
-		height: 100vh;
+		height: 100dvh;
 		top: 0;
 	}
 

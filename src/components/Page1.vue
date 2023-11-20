@@ -46,15 +46,6 @@
 				</Card>
 			</div>
 		</div>
-		<NcButton type="primary"
-			alignment="center-reverse"
-			:wide="true"
-			@click="$emit('next')">
-			<template #icon>
-				<ArrowRight :size="20" />
-			</template>
-			{{ t('firstrunwizard', 'Nextcloud on all your devices') }}
-		</NcButton>
 	</div>
 </template>
 
@@ -65,9 +56,6 @@ import Lock from 'vue-material-design-icons/Lock.vue'
 import BriefcaseCheck from 'vue-material-design-icons/BriefcaseCheck.vue'
 import SwapHorizontal from 'vue-material-design-icons/SwapHorizontal.vue'
 import AccountGroup from 'vue-material-design-icons/AccountGroup.vue'
-import ArrowRight from 'vue-material-design-icons/ArrowRight.vue'
-
-import { NcButton } from '@nextcloud/vue'
 
 export default {
 	name: 'Page1',
@@ -78,8 +66,6 @@ export default {
 		BriefcaseCheck,
 		SwapHorizontal,
 		AccountGroup,
-		NcButton,
-		ArrowRight,
 	},
 }
 </script>
