@@ -1,7 +1,7 @@
 {
   "name": "firstrunwizard",
   "description": "",
-  "version": "2.17.0",
+  "version": "2.18.0",
   "author": "Julius Härtl <jus@bitgrid.net>",
   "license": "agpl",
   "private": true,
