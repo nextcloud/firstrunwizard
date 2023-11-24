@@ -18,7 +18,6 @@ OC.L10N.register(
     "Access files via WebDAV" : "დაუკავშირდით ფაილებს WebDAV–ით",
     "Server address" : "სერვერის მისამართი",
     "Copy link" : "ბმულის კოპირება",
-    "Copy to clipboard" : "კოპირება ბუფერში",
     "Connect your desktop apps to %s" : "დაუკავშირეთ თქვენი დესკტოპ აპლიკაციები %s-ს",
     "A safe home for all your data" : "უსაფრთხო სახლი მთელი თქვენი მონაცემებისათვის"
 },

@@ -49,7 +49,6 @@ OC.L10N.register(
     "Server address" : "伺服器位址",
     "Use this link to connect your apps and desktop client to this server:" : "使用此連結來連接您的應用程式及桌面客戶端到這伺服器：",
     "Copy link" : "複製連結",
-    "Copy to clipboard" : "複製到剪貼板",
     "Start using {cloudName}" : "開始使用 {cloudName}",
     "Extend your cloud" : "延伸您的雲",
     "Find more than 100 apps in the Nextcloud App Store to customize your cloud:" : "在應用程式商店中尋找超過一百個應用程式來客製化您的 Nextcloud",

@@ -45,7 +45,6 @@ OC.L10N.register(
     "Server address" : "Địa chỉ máy chủ",
     "Use this link to connect your apps and desktop client to this server:" : "Sử dụng liên kết này để kết nối ứng dụng và máy khách để bàn của bạn với máy chủ này:",
     "Copy link" : "Sao chép liên kết",
-    "Copy to clipboard" : "Sao chép vào clipboard",
     "Start using {cloudName}" : "Bắt đầu sử dụng {cloudName}",
     "Extend your cloud" : "Mở rộng đám mây của bạn",
     "Collaboration apps for document editing" : "Ứng dụng cộng tác để chỉnh sửa tài liệu",

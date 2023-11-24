@@ -49,7 +49,6 @@ OC.L10N.register(
     "Server address" : "Zerbitzariaren helbidea",
     "Use this link to connect your apps and desktop client to this server:" : "Erabili esteka hau zure aplikazioak eta mahaigaineko bezeroa zerbitzari honetara konektatzeko:",
     "Copy link" : "Kopiatu esteka",
-    "Copy to clipboard" : "Kopiatu arbelera",
     "Start using {cloudName}" : "Hasi {cloudName} erabiltzen",
     "Extend your cloud" : "Hedatu zure hodeia",
     "Find more than 100 apps in the Nextcloud App Store to customize your cloud:" : "100 aplikazio baino gehiago aurki ditzakezu Nextcloud aplikazioen dendan, zure hodeia pertsonalizatzeko:",
