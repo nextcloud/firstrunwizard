@@ -77,7 +77,6 @@ OC.L10N.register(
     "Server address" : "サーバーアドレス",
     "Use this link to connect your apps and desktop client to this server:" : "アプリやデスクトップクライアントをこのサーバーに接続するには、このリンクを使用してください:",
     "Copy link" : "リンクをコピー",
-    "Copy to clipboard" : "クリップボードにコピー",
     "Start using {cloudName}" : "{cloudName} を使い始めましょう",
     "Extend your cloud" : "あなたのクラウドを拡張する",
     "Find more than 100 apps in the Nextcloud App Store to customize your cloud:" : "Nextcloud App Storeにある100を超えるアプリでクラウドをカスタマイズしましょう: ",

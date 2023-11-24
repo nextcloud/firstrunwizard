@@ -17,7 +17,6 @@ OC.L10N.register(
     "Access files via WebDAV" : "Accedissètz a vòstres fichièrs via WebDAV",
     "Server address" : "Adreça del servidor",
     "Copy link" : "Copiar lo ligam",
-    "Copy to clipboard" : "Copiar dins lo quichapapièrs",
     "Communication with Nextcloud Talk" : "Comunicacion amb Nextcloud Talk",
     "Connect your desktop apps to %s" : "Connectatz vòstras aplicacions de burèu a %s",
     "A safe home for all your data" : "Un ostal segur per vòstras donadas"

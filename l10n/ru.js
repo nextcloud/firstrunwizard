@@ -49,7 +49,6 @@ OC.L10N.register(
     "Server address" : "Адрес сервера",
     "Use this link to connect your apps and desktop client to this server:" : "Используйте эту ссылку для соединения ваших приложений и десктоп-клиентов с этим сервером:",
     "Copy link" : "Скопировать ссылку",
-    "Copy to clipboard" : "Копировать в буфер обмена",
     "Start using {cloudName}" : "Начать использовать {cloudName}",
     "Extend your cloud" : "Расширение возможностей облачного хранилища",
     "Find more than 100 apps in the Nextcloud App Store to customize your cloud:" : "В магазине приложений Nextcloud содержится более 100 приложений:",

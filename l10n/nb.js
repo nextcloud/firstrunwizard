@@ -38,7 +38,6 @@ OC.L10N.register(
     "Access files via WebDAV" : "Få tilgang til filer via WebDAV",
     "Server address" : "Serveradresse",
     "Copy link" : "Kopier lenke",
-    "Copy to clipboard" : "Kopiert til utklippstavlen",
     "Start using {cloudName}" : "Begynn å bruke {cloudName}",
     "Extend your cloud" : "Utvid skyen din",
     "Find more than 100 apps in the Nextcloud App Store to customize your cloud:" : "Finn mer enn 100 apper i Nextcloud-appbutikken for å tilpasse skyen din:",

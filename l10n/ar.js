@@ -77,7 +77,6 @@ OC.L10N.register(
     "Server address" : "عنوان الخادم",
     "Use this link to connect your apps and desktop client to this server:" : "إستخدم هذا الرابط للربط بين تطبيقاتك و سطح المكتب مع هذا الخادوم.",
     "Copy link" : "انسخ الرابط",
-    "Copy to clipboard" : "انسخه إلى الحافظة",
     "Start using {cloudName}" : "إبدإ استخدام {cloudName}",
     "Extend your cloud" : "وسّع سحابتك",
     "Find more than 100 apps in the Nextcloud App Store to customize your cloud:" : "إستكشف أكثر من 100 تطبيق في متجر تطبيقات نكست كلاود لتخصيص سحابتك:",

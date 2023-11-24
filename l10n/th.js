@@ -16,7 +16,6 @@ OC.L10N.register(
     "Access files via WebDAV" : "เข้าถึงไฟล์ผ่าน WebDAV",
     "Server address" : "ที่อยู่เซิร์ฟเวอร์",
     "Copy link" : "คัดลอกลิงก์",
-    "Copy to clipboard" : "คัดลอกไปยังคลิปบอร์ด",
     "Start using {cloudName}" : "เริ่มใช้ {cloudName}",
     "Extend your cloud" : "ขยายคลาวด์ของคุณ",
     "Connect your desktop apps to %s" : "เชื่อมต่อแอปเดสก์ท็อปของคุณไปยัง %s",

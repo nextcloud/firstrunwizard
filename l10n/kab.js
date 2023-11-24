@@ -8,7 +8,6 @@ OC.L10N.register(
     "About" : "Γef",
     "Privacy" : "Vie privée",
     "Community" : "Tamezdagnut",
-    "Copy link" : "Nɣel aseɣwen",
-    "Copy to clipboard" : "Copier dans le presse-papiers"
+    "Copy link" : "Nɣel aseɣwen"
 },
 "nplurals=2; plural=(n != 1);");

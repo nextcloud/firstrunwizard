@@ -43,7 +43,6 @@ OC.L10N.register(
     "Server address" : "Adresa poslužitelja",
     "Use this link to connect your apps and desktop client to this server:" : "Iskoristite ovu poveznicu za povezivanje aplikacija i klijenata za osobna računala s ovim poslužiteljem:",
     "Copy link" : "Kopiraj poveznicu",
-    "Copy to clipboard" : "Kopiraj u međuspremnik",
     "Start using {cloudName}" : "Počnite upotrebljavati {cloudName}",
     "Extend your cloud" : "Proširite svoj oblak",
     "Find more than 100 apps in the Nextcloud App Store to customize your cloud:" : "Pronađite više od 100 aplikacija u Nextcloudovoj trgovini aplikacijama i prilagodite svoj oblak:",

@@ -17,7 +17,6 @@ OC.L10N.register(
     "Access files via WebDAV" : "Akses berkas via WebDAV",
     "Server address" : "Alamat peladen",
     "Copy link" : "Salin tautan",
-    "Copy to clipboard" : "Salin ke papan klip",
     "Connect your desktop apps to %s" : "Hubungkan aplikasi desktop Anda ke %s",
     "A safe home for all your data" : "Rumah yang aman untuk semua data Anda"
 },

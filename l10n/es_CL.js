@@ -20,7 +20,6 @@ OC.L10N.register(
     "Access files via WebDAV" : "Accede tus archivos vía WebDAV",
     "Server address" : "Dirección del servidor",
     "Copy link" : "Copiar liga",
-    "Copy to clipboard" : "Copiar al portapapeles",
     "Groupware apps like Calendar, Contacts, Mail" : "Aplicaciones de Groupware como Calendario, Contactos y Correo",
     "Communication with Nextcloud Talk" : "Comunicacion con Nextcloud Talk",
     "Collaboration apps for document editing" : "Aplicaciones de colaboración para edicion de documentos",
