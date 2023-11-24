@@ -49,7 +49,6 @@ OC.L10N.register(
     "Server address" : "آدرس سرور",
     "Use this link to connect your apps and desktop client to this server:" : "برای اتصال برنامه ها و مشتری دسک تاپ خود به این سرور از این لینک استفاده کنید:",
     "Copy link" : "کپی کردن لینک",
-    "Copy to clipboard" : "کپی به کلیپ بورد",
     "Start using {cloudName}" : "Start using {cloudName}",
     "Extend your cloud" : "ابر خود را گسترش دهید",
     "Find more than 100 apps in the Nextcloud App Store to customize your cloud:" : "Find more than 100 apps in the Nextcloud App Store to customize your cloud:",

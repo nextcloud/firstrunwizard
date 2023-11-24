@@ -49,7 +49,6 @@ OC.L10N.register(
     "Server address" : "Serveradres",
     "Use this link to connect your apps and desktop client to this server:" : "Gebruik deze link om je apps en desktop client met deze server te verbinden:",
     "Copy link" : "Link kopiëren",
-    "Copy to clipboard" : "Kopiëren naar het klembord",
     "Start using {cloudName}" : "Begin met {cloudName}",
     "Extend your cloud" : "Breid je cloud uit",
     "Find more than 100 apps in the Nextcloud App Store to customize your cloud:" : "Vind meer dan 100 apps in de Nextcloud App Store om je Nextcloud aan te passen.",

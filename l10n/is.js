@@ -38,7 +38,6 @@ OC.L10N.register(
     "Server address" : "Vistfang þjóns",
     "Use this link to connect your apps and desktop client to this server:" : "Notaðu þessa slóð fyrir forritin þín til að tengjast þessum þjóni:",
     "Copy link" : "Afrita tengil",
-    "Copy to clipboard" : "Afrita á klippispjald",
     "Extend your cloud" : "Útvíkkaðu tölvuskýið þitt",
     "Groupware apps like Calendar, Contacts, Mail" : "Hópvinnuforrit á borð við Dagbók, Tengiliðir, Póstur",
     "Communication with Nextcloud Talk" : "Samskipti með Nextcloud Talk",

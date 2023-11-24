@@ -40,7 +40,6 @@ OC.L10N.register(
     "Server address" : "Serverio adresas",
     "Use this link to connect your apps and desktop client to this server:" : "Naudokite šią nuorodą norėdami prijungti savo programėles bei darbalaukio kliento programas prie šio serverio:",
     "Copy link" : "Kopijuoti nuorodą",
-    "Copy to clipboard" : "Kopijuoti į iškarpinę",
     "Start using {cloudName}" : "Pradėti naudotis {cloudName}",
     "Extend your cloud" : "Išplėskite savo debesiją",
     "Groupware apps like Calendar, Contacts, Mail" : "Grupinio darbo įrangos programėlės, tokios kaip Kalendorius, Adresatai, Paštas",

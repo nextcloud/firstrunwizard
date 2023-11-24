@@ -21,7 +21,6 @@ OC.L10N.register(
     "Access files via WebDAV" : "Ligipääs WebDAV vahendusel",
     "Server address" : "Serveri aadress",
     "Copy link" : "Kopeeri link",
-    "Copy to clipboard" : "Kopeeri lõikepuhvrisse",
     "Connect your desktop apps to %s" : "Ühenda oma töölaua rakendus %s",
     "A safe home for all your data" : "Turvaline koht sinu andmetele"
 },

@@ -77,7 +77,6 @@ OC.L10N.register(
     "Server address" : "Адреса сервера",
     "Use this link to connect your apps and desktop client to this server:" : "Посилання на під'єднання застосунків та клієнта ПК чи смартфону до цього сервера:",
     "Copy link" : "Копіювати посилання",
-    "Copy to clipboard" : "Копіювати до буферу обміну",
     "Start using {cloudName}" : "Почніть використовувати {cloudName}",
     "Extend your cloud" : "Розширте свою хмару",
     "Find more than 100 apps in the Nextcloud App Store to customize your cloud:" : "Крамниця Nextcloud містить понад 100 застосунків, які допоможуть організувати ваш хмарний простір:",
