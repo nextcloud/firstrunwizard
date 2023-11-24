@@ -77,7 +77,6 @@ OC.L10N.register(
     "Server address" : "Sunucu adresi",
     "Use this link to connect your apps and desktop client to this server:" : "Uygulamalarınızı ve masaüstü istemcinizi bu sunucuya bağlamak için şu adresi kullanın:",
     "Copy link" : "Bağlantıyı kopyala",
-    "Copy to clipboard" : "Panoya kopyala",
     "Start using {cloudName}" : "{cloudName} kullanmaya başlayın",
     "Extend your cloud" : "Bulutunuzu zenginleştirin",
     "Find more than 100 apps in the Nextcloud App Store to customize your cloud:" : "Bulut uygulamanızı zenginleştirmek için Nextcloud Uygulama Mağazasında kullanabileceğiniz 100 üzerinde uygulama bulabilirsiniz:",

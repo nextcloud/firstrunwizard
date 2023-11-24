@@ -31,7 +31,6 @@ OC.L10N.register(
     "Download macOS/iOS configuration profile" : "Transferir perfil de configuração de macOS/iOS",
     "Server address" : "Endereço do servidor",
     "Copy link" : "Copiar hiperligação",
-    "Copy to clipboard" : "Copiar para área de transferência",
     "Connect your desktop apps to %s" : "Ligue as suas aplicações de PC para %s",
     "Get help" : "Obter ajuda",
     "Start contributing" : "Começar a contribuir",

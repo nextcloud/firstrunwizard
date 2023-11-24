@@ -23,7 +23,6 @@ OC.L10N.register(
     "Download macOS/iOS configuration profile" : "Elŝuti agordoprofilon por macOS aŭ iOS",
     "Server address" : "Servila adreso",
     "Copy link" : "Kopii ligilon",
-    "Copy to clipboard" : "Kopii tondejen",
     "Extend your cloud" : "Plivastigu vian nubon",
     "Groupware apps like Calendar, Contacts, Mail" : "Kunlaboraj aplikaĵoj kial Kalendaro, Kontaktaro, Retpoŝtilo",
     "Communication with Nextcloud Talk" : "Komunikado per Nextcloud Talk",
