@@ -39,7 +39,7 @@ OC.L10N.register(
     "Download on Google play store" : "Звантажити з Google PlayStore",
     "Welcome to {cloudName}!" : "Вітаємо в {cloudName}!",
     "A collaboration platform that puts you in control" : "Платформа для співпраці під вашим контролем",
-    "Privacy" : "Приватність",
+    "Privacy" : "Конфіденційність",
     "Host your data and files where you decide." : "Розміщуйте ваші дані та файли у зручному для вас місці.",
     "Productivity" : "Продуктивність.",
     "Collaborate and communicate across any platform." : "Співпрацюйте та спілкуйтеся на різних платформах.",
