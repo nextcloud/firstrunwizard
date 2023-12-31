@@ -12,7 +12,7 @@ OC.L10N.register(
     "Add your profile information! Set a full name for easier recognition across all features." : "اطلاعات نمایهٔ خود را اضافه کنید! یک نام کامل برای تشخیص آسان‌تر در تمام ویژگی‌ها تنظیم کنید.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "اطلاعات نمایهٔ خود را اضافه کنید! برای تشخیص آسان‌تر در تمام ویژگی‌ها، یک تصویر نمایه تنظیم کنید.",
     "App recommendation: Nextcloud Calendar" : "توصیه برنامه: تقویم نکست‌کلود",
-    "Schedule work & meetings, synced with all your devices." : "برنامه کار و جلسات ، همگام سازی با تمام دستگاه‌های شما",
+    "Schedule work & meetings, synced with all your devices." : "زمان‌بندی کار و جلسات، همگام‌سازی‌شده با تمام دستگاه‌های شما",
     "App recommendation: Nextcloud Contacts" : "توصیه برنامه: مخاطبین Nextcloud",
     "Keep your colleagues and friends in one place without leaking their private info." : "همکاران و دوستان خود را در یک مکان نگه دارید بدون اینکه اطلاعات خصوصی آنها را بشناسید.",
     "App recommendation: Nextcloud Mail" : "توصیه برنامه: ایمیل Nextcloud",
