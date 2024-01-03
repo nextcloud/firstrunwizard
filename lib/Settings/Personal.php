@@ -25,8 +25,8 @@ namespace OCA\FirstRunWizard\Settings;
 
 use OCP\AppFramework\Http\TemplateResponse;
 use OCP\IConfig;
-use OCP\Settings\ISettings;
 use OCP\IURLGenerator;
+use OCP\Settings\ISettings;
 
 class Personal implements ISettings {
 

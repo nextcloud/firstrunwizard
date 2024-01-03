@@ -52,9 +52,9 @@ script('firstrunwizard', ['personalsettings']);
 		</div>
 		<?php
 		$appPasswordUrl = \OC::$server->getURLGenerator()->linkToRoute('settings.PersonalSettings.index', ['section' => 'security']);
-		$macOSProfile = \OCP\Util::linkToRemote('dav') . 'provisioning/apple-provisioning.mobileconfig';
-		$usesTLS = \OC::$server->getRequest()->getServerProtocol() === 'https';
-		?>
+$macOSProfile = \OCP\Util::linkToRemote('dav') . 'provisioning/apple-provisioning.mobileconfig';
+$usesTLS = \OC::$server->getRequest()->getServerProtocol() === 'https';
+?>
 		<p><?php print_unescaped($l->t('Set up sync clients using an <a href="%s">app password</a>. That way you can make sure you are able to revoke access in case you lose that device.', [$appPasswordUrl])); ?></p>
 	</div>
 	<div class="section">
