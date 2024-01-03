@@ -27,7 +27,7 @@ jobs:
       - name: Set up php8.2
         uses: shivammathur/setup-php@e6f75134d35752277f093989e72e140eaa222f35 # v2
         with:
-          php-version: 8.2
+          php-version: 8.1
           coverage: none
           ini-file: development
         env:
