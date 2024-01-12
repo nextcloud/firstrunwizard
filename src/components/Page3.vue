@@ -60,7 +60,7 @@ export default {
 
 	computed: {
 		versionNumbrer() {
-			return t('firstrunwizard ', 'This Nextcloud is on version ') + OC.config.versionstring
+			return t('firstrunwizard', 'This Nextcloud is on version ') + OC.config.versionstring
 		},
 	},
 }
