@@ -61,6 +61,7 @@ OC.L10N.register(
     "Find out more about your Nextcloud setup with the admin, user or developer documentation." : "Obteniu més informació quant a la vostra configuració de Nextcloud amb la documentació de l'administrador, l'usuari o el desenvolupador.",
     "For large organisations ↗" : "Per a grans organitzacions ↗",
     "Get Nextcloud Enterprise for mission critical environments where advanced security and compliance are important." : "Obteniu Nextcloud Enterprise per a entorns crítics on la seguretat i el compliment avançats són importants.",
+    "This Nextcloud is on version " : "Aquest servidor del Nextcloud té la versió ",
     "Get the apps to sync your files" : "Obteniu les aplicacions per a sincronitzar els vostres fitxers",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "El %s us dona accés als vostres fitxers des de qualsevol lloc. Els nostres clients d'escriptori i mòbils, fàcils d'utilitzar, estan disponibles per a les plataformes principals a cost zero.",
     "Desktop client" : "Client d'escriptori",
