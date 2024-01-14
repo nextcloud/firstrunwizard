@@ -61,6 +61,7 @@ OC.L10N.register(
     "Find out more about your Nextcloud setup with the admin, user or developer documentation." : "طالع المزيد عن كيفية إعداد نكست كلاود من خلال وثائق المشرفين و المستخدمين و المطورين. ",
     "For large organisations ↗" : "للمؤسسات الكبيرة ↗",
     "Get Nextcloud Enterprise for mission critical environments where advanced security and compliance are important." : "إحصُل على نسخة نكست المؤسسية Nextcloud Enterprise للبيئات ذات طبيعة العمل الحساسة حيث اشتراطات الأمن و الامتثال مهمة و عالية.",
+    "This Nextcloud is on version " : "نسخة نكست كلاود هذه هي من الإصدار",
     "Get the apps to sync your files" : "احصل على التطبيقات لمزامنة ملفاتك",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s يمنحك الوصول إلى ملفاتك أينما كنت. عملاؤنا لسطح المكتب و للهاتف النقّال يعملون على جميع المنصات الرئيسية بسهولة و يسر و بدون أي تكلفة إضافية.",
     "Desktop client" : "تطبيق سطح المكتب",

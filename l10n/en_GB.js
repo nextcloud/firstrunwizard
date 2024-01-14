@@ -61,6 +61,7 @@ OC.L10N.register(
     "Find out more about your Nextcloud setup with the admin, user or developer documentation." : "Find out more about your Nextcloud setup with the admin, user or developer documentation.",
     "For large organisations ↗" : "For large organisations ↗",
     "Get Nextcloud Enterprise for mission critical environments where advanced security and compliance are important." : "Get Nextcloud Enterprise for mission critical environments where advanced security and compliance are important.",
+    "This Nextcloud is on version " : "This Nextcloud is on version ",
     "Get the apps to sync your files" : "Get the apps to sync your files",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost.",
     "Desktop client" : "Desktop client",
