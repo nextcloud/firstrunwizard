@@ -61,6 +61,7 @@ OC.L10N.register(
     "Find out more about your Nextcloud setup with the admin, user or developer documentation." : "Více o Nextcloud naleznete v dokumentaci pro správce, uživatele či vývojáře.",
     "For large organisations ↗" : "Pro velké organizace ↗",
     "Get Nextcloud Enterprise for mission critical environments where advanced security and compliance are important." : "Získejte Nextcloud pro podniky pro kritická prostředí, kde je důležité pokročilé zabezpečení a splňování předpisů.",
+    "This Nextcloud is on version " : "Tato instance Nextcloud je provozována na verzi",
     "Get the apps to sync your files" : "Získejte aplikace pro synchronizaci souborů",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s vám umožňuje přistupovat k vašim souborům ať jste kdekoli. Klienti pro něj se snadno používají a jsou k dispozici pro všechny hlavní platformy osobních počítačů a chytrých telefonů (tabletů, atp.) a to zdarma.",
     "Desktop client" : "Aplikace pro počítač",
