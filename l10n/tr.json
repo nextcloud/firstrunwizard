@@ -59,6 +59,7 @@
     "Find out more about your Nextcloud setup with the admin, user or developer documentation." : "Yönetici, kullanıcı veya geliştirici belgelerini kullanarak Nextcloud kurulumunuz hakkında ayrıntılı bilgi alın.",
     "For large organisations ↗" : "Büyük kuruluşlar için ↗",
     "Get Nextcloud Enterprise for mission critical environments where advanced security and compliance are important." : "Gelişmiş güvenlik ve uyumluluğun önemli olduğu kritik görev ortamlarında Nextcloud Enterprise kullanın.",
+    "This Nextcloud is on version " : "Bu Nextcloud sürümü ",
     "Get the apps to sync your files" : "Dosyalarınızı eşitlemek için uygulamaları indirin",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s dosyalarınıza istediğiniz her yerden erişme olanağı sunar. Kullanımı kolay masaüstü ve mobil uygulamalarımız yaygın tüm platformlar için bulunabilir ve herhangi bir ücret ödemeden kullanılabilir.",
     "Desktop client" : "Masaüstü istemcisi",
