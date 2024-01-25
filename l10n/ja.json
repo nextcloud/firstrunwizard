@@ -59,6 +59,7 @@
     "Find out more about your Nextcloud setup with the admin, user or developer documentation." : "管理者、ユーザー、開発者向けのドキュメントで、Nextcloudのセットアップの詳細をご覧ください。",
     "For large organisations ↗" : "大規模な組織向け ↗",
     "Get Nextcloud Enterprise for mission critical environments where advanced security and compliance are important." : "高度なセキュリティとコンプライアンスが重要なミッションクリティカルな環境には、Nextcloud Enterpriseをご利用ください。",
+    "This Nextcloud is on version " : "この Nextcloud のバージョンは",
     "Get the apps to sync your files" : "ファイルを同期するアプリを取得しましょう",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s はあなたがどこにいても、あなたのファイルへのアクセスを提供します。私たちの使いやすいデスクトップとモバイルクライアントは、ゼロコストですべての主要なプラットフォームで利用可能です。",
     "Desktop client" : "デスクトップクライアント",
