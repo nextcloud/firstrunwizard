@@ -32,6 +32,8 @@ class Personal implements ISettings {
 
 	/** @var IConfig */
 	private $config;
+	/** @var IURLGenerator */
+	private $urlGenerator;
 	/** @var \OC_Defaults */
 	private $defaults;
 
