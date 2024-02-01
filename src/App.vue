@@ -28,6 +28,7 @@
 		size="normal"
 		:has-next="hasNext"
 		:has-previous="hasPrevious"
+		:set-return-focus="setReturnFocus"
 		@close="close"
 		@next="goToNextPage"
 		@previous="goToPreviousPage">
@@ -110,6 +111,7 @@ export default {
 			logoURL: imagePath('firstrunwizard', 'nextcloudLogo.svg'),
 			pageSlideDirection: undefined,
 			circleSlideDirection: undefined,
+			setReturnFocus: undefined,
 		}
 	},
 
@@ -147,7 +149,10 @@ export default {
 	},
 
 	methods: {
-		open() {
+		open({ setReturnFocus }) {
+			if (setReturnFocus) {
+				this.setReturnFocus = setReturnFocus
+			}
 			this.page = 0
 			this.showModal = true
 		},
@@ -155,6 +160,7 @@ export default {
 		close() {
 			this.page = 0
 			this.showModal = false
+			this.setReturnFocus = undefined
 			axios.delete(generateUrl('/apps/firstrunwizard/wizard'))
 		},
 
