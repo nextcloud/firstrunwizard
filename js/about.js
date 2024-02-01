@@ -8,7 +8,9 @@ document.addEventListener('DOMContentLoaded', function() {
 			event.stopPropagation();
 			event.preventDefault();
 			OCP.Loader.loadScript('firstrunwizard', 'firstrunwizard-main.js').then(function () {
-				OCA.FirstRunWizard.open();
+				OCA.FirstRunWizard.open({
+					setReturnFocus: document.querySelector('[aria-controls="header-menu-user-menu"]') ?? undefined,
+				});
 				OC.hideMenus(function () {
 					return false;
 				});
