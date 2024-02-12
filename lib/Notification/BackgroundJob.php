@@ -24,14 +24,16 @@ declare(strict_types=1);
 
 namespace OCA\FirstRunWizard\Notification;
 
+use OCP\AppFramework\Utility\ITimeFactory;
 use OCP\BackgroundJob\QueuedJob;
 use OCP\Notification\IManager as INotificationManager;
 
 class BackgroundJob extends QueuedJob {
 	public function __construct(
+		ITimeFactory $time,
 		protected INotificationManager $notificationManager,
 	) {
-		parent::__construct();
+		parent::__construct($time);
 	}
 
 	/**
