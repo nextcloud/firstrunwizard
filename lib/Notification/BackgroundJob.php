@@ -1,4 +1,7 @@
 <?php
+
+declare(strict_types=1);
+
 /**
  * @copyright Copyright (c) 2016 Joas Schilling <coding@schilljs.com>
  *
@@ -21,25 +24,18 @@
 
 namespace OCA\FirstRunWizard\Notification;
 
-use OC\BackgroundJob\QueuedJob;
+use OCP\BackgroundJob\QueuedJob;
 use OCP\Notification\IManager as INotificationManager;
 
 class BackgroundJob extends QueuedJob {
-
-	/** @var INotificationManager */
-	protected $notificationManager;
-
-	/**
-	 * BackgroundJob constructor.
-	 *
-	 * @param INotificationManager $notificationManager
-	 */
-	public function __construct(INotificationManager $notificationManager) {
-		$this->notificationManager = $notificationManager;
+	public function __construct(
+		protected INotificationManager $notificationManager,
+	) {
 	}
 
 	/**
 	 * @param array $argument
+	 * @return void
 	 */
 	protected function run($argument) {
 		$notification = $this->notificationManager->createNotification();
