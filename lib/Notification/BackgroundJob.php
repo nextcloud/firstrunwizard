@@ -31,6 +31,7 @@ class BackgroundJob extends QueuedJob {
 	public function __construct(
 		protected INotificationManager $notificationManager,
 	) {
+		parent::__construct();
 	}
 
 	/**
@@ -45,7 +46,7 @@ class BackgroundJob extends QueuedJob {
 			->setUser($argument['uid']);
 
 		if ($this->notificationManager->getCount($notification) === 0) {
-			$notification->setDateTime(new \DateTime());
+			$notification->setDateTime($this->time->getDateTime());
 			$this->notificationManager->notify($notification);
 		}
 	}
