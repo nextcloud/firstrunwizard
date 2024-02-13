@@ -24,6 +24,7 @@
 namespace OCA\FirstRunWizard\Tests\Notification;
 
 use OCA\FirstRunWizard\Notification\BackgroundJob;
+use OCP\AppFramework\Utility\ITimeFactory;
 use OCP\Notification\IManager;
 use OCP\Notification\INotification;
 use Test\TestCase;
@@ -35,17 +36,17 @@ use Test\TestCase;
  * @group DB
  */
 class BackgroundJobTest extends TestCase {
-	/** @var IManager|\PHPUnit_Framework_MockObject_MockObject */
-	protected $notificationManager;
-
-	/** @var BackgroundJob */
-	protected $job;
+	protected ITimeFactory $timeFactory;
+	protected IManager $notificationManager;
+	protected BackgroundJob $job;
 
 	protected function setUp(): void {
 		parent::setUp();
+		$this->timeFactory = $this->createMock(ITimeFactory::class);
 		$this->notificationManager = $this->createMock(IManager::class);
 		$this->job = new BackgroundJob(
-			$this->notificationManager
+			$this->timeFactory,
+			$this->notificationManager,
 		);
 	}
 

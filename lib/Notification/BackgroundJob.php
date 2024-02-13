@@ -1,4 +1,7 @@
 <?php
+
+declare(strict_types=1);
+
 /**
  * @copyright Copyright (c) 2016 Joas Schilling <coding@schilljs.com>
  *
@@ -21,25 +24,21 @@
 
 namespace OCA\FirstRunWizard\Notification;
 
-use OC\BackgroundJob\QueuedJob;
+use OCP\AppFramework\Utility\ITimeFactory;
+use OCP\BackgroundJob\QueuedJob;
 use OCP\Notification\IManager as INotificationManager;
 
 class BackgroundJob extends QueuedJob {
-
-	/** @var INotificationManager */
-	protected $notificationManager;
-
-	/**
-	 * BackgroundJob constructor.
-	 *
-	 * @param INotificationManager $notificationManager
-	 */
-	public function __construct(INotificationManager $notificationManager) {
-		$this->notificationManager = $notificationManager;
+	public function __construct(
+		ITimeFactory $time,
+		protected INotificationManager $notificationManager,
+	) {
+		parent::__construct($time);
 	}
 
 	/**
 	 * @param array $argument
+	 * @return void
 	 */
 	protected function run($argument) {
 		$notification = $this->notificationManager->createNotification();
@@ -49,7 +48,7 @@ class BackgroundJob extends QueuedJob {
 			->setUser($argument['uid']);
 
 		if ($this->notificationManager->getCount($notification) === 0) {
-			$notification->setDateTime(new \DateTime());
+			$notification->setDateTime($this->time->getDateTime());
 			$this->notificationManager->notify($notification);
 		}
 	}
