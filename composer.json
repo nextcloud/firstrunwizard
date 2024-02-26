@@ -12,13 +12,15 @@
 	"require-dev": {
 		"phpunit/phpunit": "^9.5",
 		"nextcloud/coding-standard": "^1.0.0",
-		"vimeo/psalm": "^5.18",
+		"psalm/phar": "^5.22",
 		"nextcloud/ocp": "dev-master"
 	},
 	"scripts": {
 		"lint": "find . -name \\*.php -not -path './vendor/*' -not -path './build/*' -print0 | xargs -0 -n1 php -l",
 		"cs:check": "php-cs-fixer fix --dry-run --diff",
 		"cs:fix": "php-cs-fixer fix",
+		"psalm": "psalm.phar --threads=1",
+		"psalm:update-baseline": "psalm.phar --threads=1 --update-baseline",
 		"test:unit": "vendor/bin/phpunit --color --fail-on-warning -c tests/phpunit.xml"
 	},
 	"autoload-dev": {

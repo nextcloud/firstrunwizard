@@ -39,6 +39,9 @@ use OCP\IUser;
 use OCP\IUserSession;
 use OCP\Util;
 
+/**
+ * @template-implements IEventListener<BeforeTemplateRenderedEvent>
+ */
 class BeforeTemplateRenderedListener implements IEventListener {
 	/**
 	 * @var IUserSession

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<psalm
+	errorLevel="4"
+	resolveFromConfigFile="true"
+	totallyTyped="true"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="https://getpsalm.org/schema/config"
+	xsi:schemaLocation="https://getpsalm.org/schema/config vendor/vimeo/psalm/config.xsd"
+	findUnusedBaselineEntry="true"
+	findUnusedCode="false"
+	errorBaseline="tests/psalm-baseline.xml"
+>
+	<projectFiles>
+		<directory name="lib" />
+		<ignoreFiles>
+			<directory name="vendor" />
+		</ignoreFiles>
+	</projectFiles>
+	<stubs>
+		<file name="tests/stubs/oc_template.php" />
+	</stubs>
+</psalm>

@@ -70,7 +70,7 @@ class WizardController extends Controller {
 	 * @return DataResponse
 	 */
 	public function disable() {
-		$this->config->setUserValue($this->userId, 'firstrunwizard', 'show', 0);
+		$this->config->setUserValue($this->userId, 'firstrunwizard', 'show', '0');
 		return new DataResponse();
 	}
 
@@ -113,7 +113,7 @@ class WizardController extends Controller {
 			return null;
 		}
 
-		$template = new \OCP\Template($this->appName, $name, false);
+		$template = new \OCP\Template($this->appName, $name, '');
 
 		foreach ($params as $key => $value) {
 			$template->assign($key, $value);
