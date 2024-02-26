@@ -27,10 +27,12 @@ use OCA\FirstRunWizard\AppInfo\Application;
 use OCA\FirstRunWizard\Controller\WizardController;
 use OCP\AppFramework\Http;
 use OCP\AppFramework\Http\DataResponse;
+use OCP\AppFramework\Services\IAppConfig;
 use OCP\Defaults;
 use OCP\IConfig;
 use OCP\IGroupManager;
 use OCP\IRequest;
+use PHPUnit\Framework\MockObject\MockObject;
 use Test\TestCase;
 
 /**
@@ -40,13 +42,14 @@ use Test\TestCase;
  * @group DB
  */
 class WizardControllerTest extends TestCase {
-	/** @var IConfig|\PHPUnit_Framework_MockObject_MockObject */
-	protected $config;
+	private IConfig|MockObject $config;
+	private IAppConfig|MockObject $appConfig;
 	private $groupManager;
 
 	protected function setUp(): void {
 		parent::setUp();
 		$this->config = $this->createMock(IConfig::class);
+		$this->appConfig = $this->createMock(IAppConfig::class);
 		$this->groupManager = $this->createMock(IGroupManager::class);
 	}
 
@@ -58,8 +61,9 @@ class WizardControllerTest extends TestCase {
 		return new WizardController(
 			'firstrunwizard',
 			$this->createMock(IRequest::class),
-			$this->config,
 			$user,
+			$this->config,
+			$this->appConfig,
 			\OC::$server->query(Defaults::class),
 			$this->groupManager
 		);

@@ -29,6 +29,7 @@ namespace OCA\FirstRunWizard\Listener;
 use OCA\FirstRunWizard\AppInfo\Application;
 use OCA\FirstRunWizard\Notification\AppHint;
 use OCP\AppFramework\Http\Events\BeforeTemplateRenderedEvent;
+use OCP\AppFramework\Services\IAppConfig;
 use OCP\AppFramework\Services\IInitialState;
 use OCP\BackgroundJob\IJobList;
 use OCP\Defaults;
@@ -40,43 +41,16 @@ use OCP\IUserSession;
 use OCP\Util;
 
 class BeforeTemplateRenderedListener implements IEventListener {
-	/**
-	 * @var IUserSession
-	 */
-	private $userSession;
-	/**
-	 * @var IConfig
-	 */
-	private $config;
-	/**
-	 * @var AppHint
-	 */
-	private $appHint;
-	/**
-	 * @var IJobList
-	 */
-	private $jobList;
-
-	/** @var IInitialState */
-	protected $initialState;
-
-	/** @var Defaults */
-	protected $theming;
 
 	public function __construct(
-		IConfig $config,
-		IUserSession $userSession,
-		IJobList $jobList,
-		AppHint $appHint,
-		IInitialState $initialState,
-		Defaults $theming,
+		private IConfig $config,
+		private IAppConfig $appConfig,
+		private IUserSession $userSession,
+		private IJobList $jobList,
+		private AppHint $appHint,
+		private IInitialState $initialState,
+		private Defaults $theming,
 	) {
-		$this->userSession = $userSession;
-		$this->config = $config;
-		$this->appHint = $appHint;
-		$this->jobList = $jobList;
-		$this->initialState = $initialState;
-		$this->theming = $theming;
 	}
 
 	public function handle(Event $event): void {
@@ -89,9 +63,13 @@ class BeforeTemplateRenderedListener implements IEventListener {
 			return;
 		}
 
+		// Skip if no slides are defined, but the app is still active (e.g. the admin just wants the "Mobile & desktop" settings section)
+		if (empty($this->appConfig->getAppValueArray('slides', ['video', 'values', 'apps' ,'clients', 'final']))) {
+			return;
+		}
+
 		if ($this->config->getUserValue($user->getUID(), Application::APP_ID, 'show', '1') !== '0') {
 			Util::addScript(Application::APP_ID, 'activate');
-
 			$this->jobList->add('OCA\FirstRunWizard\Notification\BackgroundJob', ['uid' => $this->userSession->getUser()->getUID()]);
 		}
 

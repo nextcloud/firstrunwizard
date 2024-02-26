@@ -21,10 +21,10 @@
 
 namespace OCA\FirstRunWizard\Controller;
 
-use OCA\FirstRunWizard\AppInfo\Application;
 use OCP\AppFramework\Controller;
 use OCP\AppFramework\Http\DataResponse;
 use OCP\AppFramework\Http\JSONResponse;
+use OCP\AppFramework\Services\IAppConfig;
 use OCP\Defaults;
 use OCP\IConfig;
 use OCP\IGroupManager;
@@ -32,37 +32,24 @@ use OCP\IRequest;
 
 class WizardController extends Controller {
 
-	/** @var IConfig */
-	protected $config;
-
-	/** @var string */
-	protected $userId;
-
-	/** @var Defaults */
-	protected $theming;
-
-	/** @var IGroupManager */
-	protected $groupManager;
-
-	/** @var array|false|string[] */
-	protected $slides = [];
-
 	/**
-	 * @param string $appName
-	 * @param IRequest $request
-	 * @param IConfig $config
-	 * @param string $userId
-	 * @param Defaults $theming
+	 * Array of enabled slides - allows an administrator to adjust what is shown
+	 * @var string[]
 	 */
-	public function __construct($appName, IRequest $request, IConfig $config, $userId, Defaults $theming, IGroupManager $groupManager) {
+	protected array $slides;
+
+	public function __construct(
+		string $appName,
+		IRequest $request,
+		protected string $userId,
+		protected IConfig $config,
+		protected IAppConfig $appConfig,
+		protected Defaults $theming,
+		protected IGroupManager $groupManager,
+	) {
 		parent::__construct($appName, $request);
 
-		$this->config = $config;
-		$this->userId = $userId;
-		$this->theming = $theming;
-		$this->groupManager = $groupManager;
-
-		$this->slides = explode(',', $this->config->getAppValue(Application::APP_ID, 'slides', 'video,values,apps,clients,final'));
+		$this->slides = $this->appConfig->getAppValueArray('slides', ['video', 'values', 'apps' ,'clients', 'final']);
 	}
 
 	/**
