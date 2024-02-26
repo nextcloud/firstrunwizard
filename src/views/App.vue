@@ -4,7 +4,7 @@
   - @author Simon Lindner <szaimen@e.mail.de>
   - @author Marco Ambrosini <marcoambrosini@proton.me>
   -
-  - @license GNU AGPL version 3 or any later version
+  - @license AGPL-3.0-or-later
   -
   - This program is free software: you can redistribute it and/or modify
   - it under the terms of the GNU Affero General Public License as
@@ -81,10 +81,10 @@ import { NcModal, NcButton } from '@nextcloud/vue'
 import { imagePath, generateUrl } from '@nextcloud/router'
 import axios from '@nextcloud/axios'
 
-import Page0 from './components/Page0.vue'
-import Page1 from './components/Page1.vue'
-import Page2 from './components/Page2.vue'
-import Page3 from './components/Page3.vue'
+import Page0 from '../components/Page0.vue'
+import Page1 from '../components/Page1.vue'
+import Page2 from '../components/Page2.vue'
+import Page3 from '../components/Page3.vue'
 
 import ArrowLeft from 'vue-material-design-icons/ArrowLeft.vue'
 import ArrowRight from 'vue-material-design-icons/ArrowRight.vue'
@@ -149,7 +149,7 @@ export default {
 	},
 
 	methods: {
-		open({ setReturnFocus }) {
+		open(setReturnFocus) {
 			if (setReturnFocus) {
 				this.setReturnFocus = setReturnFocus
 			}

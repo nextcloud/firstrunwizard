@@ -40,19 +40,19 @@ const ios = loadState('firstrunwizard', 'ios')
 export default {
 	name: 'AppStoreBadge',
 
-	data() {
-		return {
-			android,
-			ios,
-		}
-	},
-
 	props: {
 		type: {
 			type: String,
 			required: true,
 			validator: type => ['ios', 'android'].includes(type),
 		},
+	},
+
+	data() {
+		return {
+			android,
+			ios,
+		}
 	},
 
 	computed: {

@@ -67,7 +67,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "pageStyles";
+@import 'pageStyles';
 
 .page__content {
 	margin: calc(var(--default-grid-baseline) * 6) 0 calc(var(--default-grid-baseline) * 4) 0;
