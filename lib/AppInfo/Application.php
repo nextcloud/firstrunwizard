@@ -4,7 +4,7 @@
  *
  * @author Joas Schilling <coding@schilljs.com>
  *
- * @license GNU AGPL version 3 or any later version
+ * @license AGPL-3.0-or-later
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as
@@ -26,7 +26,7 @@ namespace OCA\FirstRunWizard\AppInfo;
 use OCA\FirstRunWizard\Listener\AppEnabledListener;
 use OCA\FirstRunWizard\Listener\BeforeTemplateRenderedListener;
 use OCA\FirstRunWizard\Notification\Notifier;
-use OCP\App\ManagerEvent;
+use OCP\App\Events\AppEnableEvent;
 use OCP\AppFramework\App;
 use OCP\AppFramework\Bootstrap\IBootContext;
 use OCP\AppFramework\Bootstrap\IBootstrap;
@@ -41,12 +41,13 @@ class Application extends App implements IBootstrap {
 	}
 
 	public function register(IRegistrationContext $context): void {
-		$context->registerEventListener(ManagerEvent::EVENT_APP_ENABLE, AppEnabledListener::class);
+		$context->registerNotifierService(Notifier::class);
+
+		$context->registerEventListener(AppEnableEvent::class, AppEnabledListener::class);
 		$context->registerEventListener(BeforeTemplateRenderedEvent::class, BeforeTemplateRenderedListener::class);
 	}
 
 	public function boot(IBootContext $context): void {
-		$serverContainer = $context->getServerContainer();
-		$serverContainer->getNotificationManager()->registerNotifierService(Notifier::class);
+		// Everything is already done in register()
 	}
 }

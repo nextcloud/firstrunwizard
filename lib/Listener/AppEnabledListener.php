@@ -7,7 +7,7 @@ declare(strict_types=1);
  *
  * @author Morris Jobke <hey@morrisjobke.de>
  *
- * @license GNU AGPL version 3 or any later version
+ * @license AGPL-3.0-or-later
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as
@@ -27,20 +27,20 @@ declare(strict_types=1);
 namespace OCA\FirstRunWizard\Listener;
 
 use OCA\FirstRunWizard\Notification\AppHint;
-use OCP\App\ManagerEvent;
+use OCP\App\Events\AppEnableEvent;
 use OCP\EventDispatcher\Event;
 use OCP\EventDispatcher\IEventListener;
 
+/** @template-implements IEventListener<AppEnableEvent> */
 class AppEnabledListener implements IEventListener {
-	/** @var AppHint */
-	private $appHint;
 
-	public function __construct(AppHint $appHint) {
-		$this->appHint = $appHint;
+	public function __construct(
+		private AppHint $appHint,
+	) {
 	}
 
 	public function handle(Event $event): void {
-		if (!$event instanceof ManagerEvent) {
+		if (!$event instanceof AppEnableEvent) {
 			return;
 		}
 
