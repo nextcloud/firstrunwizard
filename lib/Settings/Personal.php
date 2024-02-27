@@ -24,23 +24,18 @@
 namespace OCA\FirstRunWizard\Settings;
 
 use OCP\AppFramework\Http\TemplateResponse;
+use OCP\Defaults;
 use OCP\IConfig;
 use OCP\IURLGenerator;
 use OCP\Settings\ISettings;
 
 class Personal implements ISettings {
 
-	/** @var IConfig */
-	private $config;
-	/** @var IURLGenerator */
-	private $urlGenerator;
-	/** @var \OC_Defaults */
-	private $defaults;
-
-	public function __construct(IConfig $config, IURLGenerator $urlGenerator, \OC_Defaults $defaults) {
-		$this->config = $config;
-		$this->urlGenerator = $urlGenerator;
-		$this->defaults = $defaults;
+	public function __construct(
+		private IConfig $config,
+		private IURLGenerator $urlGenerator,
+		private Defaults $defaults,
+	) {
 	}
 
 	/**
