@@ -340,11 +340,11 @@ export default {
 	.modal-mask {
 		background-color: rgba(0, 0, 0, 0.7);
 
-		&::v-deep .modal-wrapper {
+		:deep(.modal-wrapper) {
 			position: relative;
 		}
 
-		&::v-deep .modal-container {
+		:deep(.modal-container) {
 			display: flex;
 			flex-direction: column;
 			position: absolute;
@@ -373,15 +373,14 @@ export default {
 			background-position: 50% 50%;
 			// Use custom background or plain primary colour if defined
 			// or fallback to default background with gradient
-			background-image: var(--image-background, var(--image-background-plain, url("../../../core/img/background.svg"), linear-gradient(
-		40deg, #0082c9 0%, #30b6ff 100%)));
+			background-image: var(--image-background, var(--image-background-plain, url('../../../core/img/background.svg'), linear-gradient(40deg, #0082c9 0%, #30b6ff 100%)));
 			background-color: var(--color-primary);
 			padding: 20px 12px;
 			color: var(--color-primary-text);
 			text-align: center;
 			.logo {
 				// Use custom logo if defined or fallback to default one
-				background: var(--image-logo, url("../../../core/img/logo/logo.svg")) no-repeat center;
+				background: var(--image-logo, url('../../../core/img/logo/logo.svg')) no-repeat center;
 				background-size: contain;
 				width: 175px;
 				height: 100px;
