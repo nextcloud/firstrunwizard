@@ -71,7 +71,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "pageStyles";
+@import 'pageStyles';
 
 .first-page{
 	margin-top: 100px;

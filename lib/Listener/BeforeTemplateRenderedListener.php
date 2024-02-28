@@ -93,7 +93,7 @@ class BeforeTemplateRenderedListener implements IEventListener {
 		}
 
 		if ($this->config->getUserValue($user->getUID(), Application::APP_ID, 'show', '1') !== '0') {
-			Util::addScript(Application::APP_ID, 'activate');
+			Util::addScript(Application::APP_ID, Application::APP_ID . '-activate');
 
 			$this->jobList->add('OCA\FirstRunWizard\Notification\BackgroundJob', ['uid' => $this->userSession->getUser()->getUID()]);
 		}
@@ -102,7 +102,7 @@ class BeforeTemplateRenderedListener implements IEventListener {
 			$this->appHint->sendAppHintNotifications();
 		}
 
-		Util::addScript(Application::APP_ID, 'about');
+		Util::addScript(Application::APP_ID, Application::APP_ID . '-about');
 
 		$this->initialState->provideInitialState(
 			'desktop',
