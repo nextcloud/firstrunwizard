@@ -4,6 +4,16 @@ A first run wizard that explains the usage of Nextcloud to new users
 
 ![](https://user-images.githubusercontent.com/3404133/51537050-bcc73e00-1e4d-11e9-8de0-29e6951c2b29.png)
 
+## Configuration
+
+No configuration is needed, but it is possible to prevent the wizard from opening for users by default.
+When disabled users can only open it from manually clicking "About" in the user menu.
+
+This can be done by setting an app setting value:
+
+```
+occ config:app:set --value false firstrunwizard wizard_enabled
+```
 
 ## Development setup
 
