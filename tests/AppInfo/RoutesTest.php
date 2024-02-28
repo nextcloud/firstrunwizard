@@ -38,7 +38,6 @@ class RoutesTest extends TestCase {
 		$this->assertArrayHasKey('routes', $routes);
 		$this->assertIsArray($routes['routes']);
 		$this->assertSame([
-			['name' => 'Wizard#show', 'url' => '/wizard', 'verb' => 'GET'],
 			['name' => 'Wizard#disable', 'url' => '/wizard', 'verb' => 'DELETE'],
 		], $routes['routes']);
 	}

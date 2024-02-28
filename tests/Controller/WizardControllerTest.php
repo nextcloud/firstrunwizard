@@ -23,13 +23,10 @@
 
 namespace OCA\FirstRunWizard\Tests\Controller;
 
-use OCA\FirstRunWizard\AppInfo\Application;
 use OCA\FirstRunWizard\Controller\WizardController;
 use OCP\AppFramework\Http;
 use OCP\AppFramework\Http\DataResponse;
-use OCP\Defaults;
 use OCP\IConfig;
-use OCP\IGroupManager;
 use OCP\IRequest;
 use Test\TestCase;
 
@@ -42,12 +39,10 @@ use Test\TestCase;
 class WizardControllerTest extends TestCase {
 	/** @var IConfig|\PHPUnit_Framework_MockObject_MockObject */
 	protected $config;
-	private $groupManager;
 
 	protected function setUp(): void {
 		parent::setUp();
 		$this->config = $this->createMock(IConfig::class);
-		$this->groupManager = $this->createMock(IGroupManager::class);
 	}
 
 	/**
@@ -58,10 +53,8 @@ class WizardControllerTest extends TestCase {
 		return new WizardController(
 			'firstrunwizard',
 			$this->createMock(IRequest::class),
-			$this->config,
 			$user,
-			\OC::$server->query(Defaults::class),
-			$this->groupManager
+			$this->config,
 		);
 	}
 
@@ -77,27 +70,15 @@ class WizardControllerTest extends TestCase {
 	 * @param string $user
 	 */
 	public function testDisable($user) {
-		$this->config->expects($this->once())
-			->method('getAppValue')
-			->with(Application::APP_ID, 'slides', 'video,values,apps,clients,final')
-			->willReturnArgument(2);
-
 		$controller = $this->getController($user);
 
 		$this->config->expects($this->once())
 			->method('setUserValue')
-			->with($user, 'firstrunwizard', 'show', 0);
+			->with($user, 'firstrunwizard', 'show', '0');
 
 		$response = $controller->disable();
 
 		$this->assertInstanceOf(DataResponse::class, $response);
 		$this->assertSame(Http::STATUS_OK, $response->getStatus());
-	}
-
-	public function dataShowAdmin(): array {
-		return [
-			'app store enabled' => [true, 4],
-			'app store disabled' => [false, 3]
-		];
 	}
 }
