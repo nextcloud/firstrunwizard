@@ -1,0 +1,7 @@
+{
+	"extends": "@vue/tsconfig",
+	"include": ["src/**/*.ts", "src/**/*.vue"],
+	"compilerOptions": {
+		"lib": ["DOM", "ESNext"]
+	}
+}
