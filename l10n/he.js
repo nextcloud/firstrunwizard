@@ -1,10 +1,8 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Copied!" : "הועתק!",
-    "Not supported!" : "אין תמיכה!",
-    "Press ⌘-C to copy." : "‎⌘-C להעתקה.",
-    "Press Ctrl-C to copy." : "Ctrl-C להעתקה.",
+    "Privacy" : "פרטיות",
+    "Community" : "קהילה",
     "First run wizard" : "אשף ההפעלה הראשונית",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "נא להוסיף את פרטי הפרופיל שלך! ניתן להגדיר תמונת פרופיל ושם מלא לצורך זיהוי פשוט יותר בין כל התכונות השונות.",
     "Add your profile information! Set a full name for easier recognition across all features." : "נא להוסיף את פרטי הפרופיל שלך! ניתן להגדיר שם מלא כדי להקל על הזיהוי בין כל התכונות השונות.",
@@ -19,8 +17,6 @@ OC.L10N.register(
     "Sync tasks from various devices with your Nextcloud and edit them online." : "סנכרון משימות בין מכשירים שונים עם ה־Nextcloud שלך ולערוך אותן באופן מקוון.",
     "About" : "על אודות",
     "A welcome and introduction wizard for Nextcloud" : "אשף קבלת פנים והיכרות ל־Nextcloud",
-    "Privacy" : "פרטיות",
-    "Community" : "קהילה",
     "Get the apps to sync your files" : "ניתן להוריד את היישומים כדי לסנכרן את הקבצים שלך",
     "Desktop client" : "לקוח לשולחן עבודה",
     "iOS app" : "יישומון iOS",
@@ -31,6 +27,10 @@ OC.L10N.register(
     "Server address" : "כתובת שרת",
     "Use this link to connect your apps and desktop client to this server:" : "יש להשתמש בקישור הזה כדי לחבר את היישומונים ואת לקוח שולחן העבודה שלך לשרת הזה:",
     "Copy link" : "העתקת קישור",
+    "Copied!" : "הועתק!",
+    "Not supported!" : "אין תמיכה!",
+    "Press ⌘-C to copy." : "‎⌘-C להעתקה.",
+    "Press Ctrl-C to copy." : "Ctrl-C להעתקה.",
     "Extend your cloud" : "הרחבת הענן שלך",
     "Groupware apps like Calendar, Contacts, Mail" : "יישומונים לעבודה קבוצתית כמו לוח שנה, אנשי קשר, דוא״ל",
     "Communication with Nextcloud Talk" : "תקשורת עם Nextcloud Talk",
@@ -56,4 +56,4 @@ OC.L10N.register(
     "Host your data and files where you decide" : "אירוח הנתונים והקבצים שלך במיקום לבחירתך",
     "Learn more about %s" : "מידע נוסף על %s"
 },
-"nplurals=3; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;");
+"nplurals=3; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: 2;");

@@ -1,10 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Copied!" : "Kopiita!",
-    "Not supported!" : "Ne subtenite!",
-    "Press ⌘-C to copy." : "Premu ⌘-C por kopii.",
-    "Press Ctrl-C to copy." : "Premu Ctrl-C por kopii.",
     "First run wizard" : "Asistilo pri unua instalado",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Aldonu vian profilinformon! Elektu profilbildon kaj entajpu vian plenan nomon por pli facila rekono en ĉiuj funkcioj.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Aldonu vian profilinformon! Entajpu vian plenan nomon por pli facila rekono en ĉiuj funkcioj.",
@@ -23,6 +19,10 @@ OC.L10N.register(
     "Download macOS/iOS configuration profile" : "Elŝuti agordoprofilon por macOS aŭ iOS",
     "Server address" : "Servila adreso",
     "Copy link" : "Kopii ligilon",
+    "Copied!" : "Kopiita!",
+    "Not supported!" : "Ne subtenite!",
+    "Press ⌘-C to copy." : "Premu ⌘-C por kopii.",
+    "Press Ctrl-C to copy." : "Premu Ctrl-C por kopii.",
     "Extend your cloud" : "Plivastigu vian nubon",
     "Groupware apps like Calendar, Contacts, Mail" : "Kunlaboraj aplikaĵoj kial Kalendaro, Kontaktaro, Retpoŝtilo",
     "Communication with Nextcloud Talk" : "Komunikado per Nextcloud Talk",

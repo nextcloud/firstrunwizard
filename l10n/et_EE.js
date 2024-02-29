@@ -1,10 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Copied!" : "Kopeeritud!",
-    "Not supported!" : "Pole toetatud!",
-    "Press ⌘-C to copy." : "Kopeerimiseks vajuta ⌘+C.",
-    "Press Ctrl-C to copy." : "Kopeerimiseks vajuta Ctrl+C.",
     "First run wizard" : "Esmase Käivituse Juhandaja",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Lisa oma profiili infot! Määra profiilipilt ja täisnimi, et sind oleks lihtsam ära tunda.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Lisa oma profiili infot! Lisa täisnimi, et sind oleks lihtsam ära tunda.",
@@ -21,6 +17,10 @@ OC.L10N.register(
     "Access files via WebDAV" : "Ligipääs WebDAV vahendusel",
     "Server address" : "Serveri aadress",
     "Copy link" : "Kopeeri link",
+    "Copied!" : "Kopeeritud!",
+    "Not supported!" : "Pole toetatud!",
+    "Press ⌘-C to copy." : "Kopeerimiseks vajuta ⌘+C.",
+    "Press Ctrl-C to copy." : "Kopeerimiseks vajuta Ctrl+C.",
     "Connect your desktop apps to %s" : "Ühenda oma töölaua rakendus %s",
     "A safe home for all your data" : "Turvaline koht sinu andmetele"
 },
