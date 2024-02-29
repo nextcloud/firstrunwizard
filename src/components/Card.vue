@@ -3,8 +3,9 @@
   -
   - @author Simon Lindner <szaimen@e.mail.de>
   - @author Marco Ambrosini <marcoambrosini@proton.me>
+  - @author Ferdinand Thiessen <opensource@fthiessen.de>
   -
-  - @license GNU AGPL version 3 or any later version
+  - @license AGPL-3.0-or-later
   -
   - This program is free software: you can redistribute it and/or modify
   - it under the terms of the GNU Affero General Public License as
@@ -23,77 +24,69 @@
 <template>
 	<element :is="isLink ? 'a' : 'div'"
 		:href="href || undefined"
-		class="card"
-		:class="{'card--link': isLink }"
+		:class="[$style.card, { [$style.link]: isLink }]"
 		:target="!isLink ? undefined : '_blank'"
 		:rel="!isLink ? undefined : 'noreferrer'">
-		<div v-if="!isLink" class="card__icon">
+		<div :class="$style.icon">
 			<slot />
 		</div>
-		<div class="card__text">
-			<h3 class="card__heading">
+		<div :class="$style.text">
+			<h3 :class="$style.heading">
 				{{ title }}
 			</h3>
-			<p>{{ subtitle }}</p>
+			<p v-if="subtitle !== undefined" v-text="subtitle" />
 		</div>
 	</element>
 </template>
 
-<script>
-export default {
-	name: 'Card',
+<script setup lang="ts">
+import { computed } from 'vue'
 
-	props: {
-		title: {
-			type: String,
-			required: true,
-		},
+const props = defineProps<{
+	title: string
+	subtitle?: string
+	href?: string
+}>()
 
-		href: {
-			type: String,
-			default: '',
-		},
-
-		subtitle: {
-			type: String,
-			required: true,
-		},
-	},
-
-	computed: {
-		isLink() {
-			return this.href !== ''
-		},
-	},
-}
+const isLink = computed(() => !!props.href)
 </script>
 
-<style lang="scss" scoped>
+<style module lang="scss">
 .card {
 	display: flex;
 	max-width: 250px;
 	box-sizing: border-box;
 	height: fit-content;
+}
 
-	&__icon {
-		display: flex;
-		flex: 0 0 44px;
-		align-items: center;
-	}
+.icon {
+	display: flex;
+	flex: 0 0 44px;
+	align-items: center;
 
-	&__heading {
-		font-weight: bold;
-		margin: 0;
+	&:empty {
+		display: none;
 	}
+}
 
-	&--link {
-		box-shadow: 0px 0px 10px 0px var(--color-box-shadow);
-		border-radius: var(--border-radius-large);
-		padding: calc(var(--default-grid-baseline) * 4);
-		&:focus-visible {
-			outline: 2px solid var(--color-main-text);
-			box-shadow: 0 0 0 4px var(--color-main-background);
-		}
+.heading {
+	font-weight: bold;
+	margin: 0;
+}
+
+.link {
+	box-shadow: 0px 0px 10px 0px var(--color-box-shadow);
+	border-radius: var(--border-radius-large);
+	padding: calc(var(--default-grid-baseline) * 4);
+	&:focus-visible {
+		outline: 2px solid var(--color-main-text);
+		box-shadow: 0 0 0 4px var(--color-main-background);
 	}
+}
+
+.text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 </style>

@@ -4,8 +4,9 @@
   - @author Julius Härtl <jus@bitgrid.net>
   - @author Simon Lindner <szaimen@e.mail.de>
   - @author Marco Ambrosini <marcoambrosini@proton.me>
+  - @author Ferdinand Thiessen <opensource@fthiessen.de>
   -
-  - @license GNU AGPL version 3 or any later version
+  - @license AGPL-3.0-or-later
   -
   - This program is free software: you can redistribute it and/or modify
   - it under the terms of the GNU Affero General Public License as
@@ -23,8 +24,8 @@
   -->
 
 <template>
-	<div class="video-wrapper">
-		<video ref="video"
+	<div :class="$style.wrapper">
+		<video :class="$style.video"
 			playsinline
 			autoplay
 			muted
@@ -36,39 +37,35 @@
 	</div>
 </template>
 
-<script>
-import { generateFilePath } from '@nextcloud/router'
+<script setup lang="ts">
+import { translate as t } from '@nextcloud/l10n'
+import { imagePath } from '@nextcloud/router'
 
-export default {
-	name: 'Page0',
-	data() {
-		return {
-			videoMp4: generateFilePath('firstrunwizard', 'img', 'Nextcloud.mp4'),
-			videoWebm: generateFilePath('firstrunwizard', 'img', 'Nextcloud.webm'),
-		}
-	},
-	computed: {
-		videoFallbackText() {
-			return t('firstrunwizard', 'Welcome to {cloudName}!', { cloudName: window.OC.theme.name })
-		},
-	},
+const emit = defineEmits<{
+	(e: 'next'): void
+}>()
 
-	methods: {
-		handleEnded() {
-			this.$emit('next')
-		},
-	},
+const videoMp4 = imagePath('firstrunwizard', 'Nextcloud.mp4')
+const videoWebm = imagePath('firstrunwizard', 'Nextcloud.webm')
+
+const videoFallbackText = t('firstrunwizard', 'Welcome to {cloudName}!', { cloudName: window.OC.theme.name })
+
+/**
+ * Handle video has ended
+ */
+function handleEnded() {
+	emit('next')
 }
 </script>
 
-<style scoped lang="scss">
-	video {
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-	}
+<style module>
+.video {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
 
-	.video-wrapper {
-		background-color: var(--color-primary-element);
-	}
+.wrapper {
+	background-color: var(--color-primary-element);
+}
 </style>

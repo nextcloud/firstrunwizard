@@ -3,8 +3,9 @@
   -
   - @author Simon Lindner <szaimen@e.mail.de>
   - @author Marco Ambrosini <marcoambrosini@proton.me>
+  - @author Ferdinand Thiessen <opensource@fthiessen.de>
   -
-  - @license GNU AGPL version 3 or any later version
+  - @license AGPL-3.0-or-later
   -
   - This program is free software: you can redistribute it and/or modify
   - it under the terms of the GNU Affero General Public License as
@@ -22,78 +23,67 @@
   -->
 
 <template>
-	<a class="app-store-badge"
+	<a :class="$style.badge"
 		:aria-label="ariaLabel"
 		target="_blank"
 		rel="noreferrer"
-		:href="href"
-		:style="badgeStyle" />
+		:href="href" />
 </template>
 
-<script>
-import { imagePath } from '@nextcloud/router'
+<script setup lang="ts">
 import { loadState } from '@nextcloud/initial-state'
+import { translate as t } from '@nextcloud/l10n'
+import { imagePath } from '@nextcloud/router'
+import { computed } from 'vue'
 
-const android = loadState('firstrunwizard', 'android')
-const ios = loadState('firstrunwizard', 'ios')
+const props = defineProps<{
+	type: 'ios' | 'android'
+}>()
 
-export default {
-	name: 'AppStoreBadge',
+const android = loadState<string>('firstrunwizard', 'android')
+const ios = loadState<string>('firstrunwizard', 'ios')
 
-	props: {
-		type: {
-			type: String,
-			required: true,
-			validator: type => ['ios', 'android'].includes(type),
-		},
-	},
+/**
+ * Path to the app store badge image
+ */
+const badgeImagePath = computed(() => {
+	if (props.type === 'ios') {
+		return imagePath('firstrunwizard', 'iosBadge.png')
+	} else if (props.type === 'android') {
+		return imagePath('firstrunwizard', 'androidBadge.png')
+	}
+	return undefined
+})
 
-	data() {
-		return {
-			android,
-			ios,
-		}
-	},
+/**
+ * The badge image as CSS source URL
+ */
+const cssBackgroundImage = computed(() => `url('${badgeImagePath.value}')`)
 
-	computed: {
-		imagePath() {
-			if (this.type === 'ios') {
-				return imagePath('firstrunwizard', 'iosBadge.png')
-			} else if (this.type === 'android') {
-				return imagePath('firstrunwizard', 'androidBadge.png')
-			}
-			return undefined
-		},
+const href = computed(() => {
+	if (props.type === 'ios') {
+		return ios
+	} else if (props.type === 'android') {
+		return android
+	}
+	return undefined
+})
 
-		badgeStyle() {
-			return { backgroundImage: 'url(' + this.imagePath + ')' }
-		},
-
-		href() {
-			if (this.type === 'ios') {
-				return this.ios
-			} else if (this.type === 'android') {
-				return this.android
-			}
-			return undefined
-		},
-
-		ariaLabel() {
-			if (this.type === 'ios') {
-				return t('firstrunwizard', 'Download on Apple app store')
-			} else if (this.type === 'android') {
-				return t('firstrunwizard', 'Download on Google play store')
-			}
-			return undefined
-		},
-	},
-}
+const ariaLabel = computed(() => {
+	if (props.type === 'ios') {
+		return t('firstrunwizard', 'Download on Apple app store')
+	} else if (props.type === 'android') {
+		return t('firstrunwizard', 'Download on Google play store')
+	}
+	return undefined
+})
 </script>
 
-<style lang="scss" scoped>
-.app-store-badge {
+<style module lang="scss">
+.badge {
 	height: 74px;
 	width: 250px;
+	background-image: v-bind(cssBackgroundImage);
 	background-size: contain;
 	background-repeat: no-repeat;
 	&:focus-visible {
