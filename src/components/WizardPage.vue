@@ -1,0 +1,77 @@
+<!--
+  - @copyright Copyright (c) 2024 Ferdinand Thiessen <opensource@fthiessen.de>
+  -
+  - @author Ferdinand Thiessen <opensource@fthiessen.de>
+  -
+  - @license AGPL-3.0-or-later
+  -
+  - This program is free software: you can redistribute it and/or modify
+  - it under the terms of the GNU Affero General Public License as
+  - published by the Free Software Foundation, either version 3 of the
+  - License, or (at your option) any later version.
+  -
+  - This program is distributed in the hope that it will be useful,
+  - but WITHOUT ANY WARRANTY; without even the implied warranty of
+  - MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  - GNU Affero General Public License for more details.
+  -
+  - You should have received a copy of the GNU Affero General Public License
+  - along with this program. If not, see <http://www.gnu.org/licenses/>.
+  -
+  -->
+
+<template>
+	<div :class="$style.wrapper">
+		<div :class="[$style.scroller, scrollerClasses]">
+			<h2 :class="$style.heaing">
+				{{ title }}
+			</h2>
+			<p v-if="subtitle" :class="$style.subtitle">
+				{{ subtitle }}
+			</p>
+			<div :class="$style.content">
+				<slot />
+			</div>
+		</div>
+	</div>
+</template>
+
+<script setup lang="ts">
+defineProps<{
+	title: string
+	subtitle?: string
+	scrollerClasses?: string | string[] | Record<string, boolean>
+}>()
+</script>
+
+<style module>
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: min(520px, 50dvh);
+}
+
+.scroller {
+	overflow-y: scroll;
+	margin-top: calc(var(--default-grid-baseline) * 8);
+}
+
+.heading {
+	text-align: center;
+}
+
+.subtitle{
+	max-width: 450px;
+	margin: auto;
+	text-align: center;
+}
+
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	gap: calc(var(--default-grid-baseline) * 6);
+	justify-content: center;
+	margin: calc(var(--default-grid-baseline) * 10) 0;
+}
+</style>
