@@ -1,10 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Copied!" : "¡Copiado!",
-    "Not supported!" : "¡No soportado!",
-    "Press ⌘-C to copy." : "Presiona ⌘-C para copiar.",
-    "Press Ctrl-C to copy." : "Presiona Ctrl-C para copiar.",
     "First run wizard" : "Asistente de Ejecución Inicial",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "¡Agregua tu información de perfil! Establece una imagen de perfil y nombre completo para reconocerte más fácilmente entre todas las funcionalidades. ",
     "Add your profile information! Set a full name for easier recognition across all features." : "Agregua tu información de perfil! Establece tu nombre completo para reconocerte más fácilmente entre todas las funcionalidades. ",
@@ -18,6 +14,10 @@ OC.L10N.register(
     "Access files via WebDAV" : "Accede tus archivos vía WebDAV",
     "Server address" : "Dirección del servidor",
     "Copy link" : "Copiar liga",
+    "Copied!" : "¡Copiado!",
+    "Not supported!" : "¡No soportado!",
+    "Press ⌘-C to copy." : "Presiona ⌘-C para copiar.",
+    "Press Ctrl-C to copy." : "Presiona Ctrl-C para copiar.",
     "Connect your desktop apps to %s" : "Conecta tu aplicación de escritorio a %s",
     "A safe home for all your data" : "Un lugar seguro para todos sus datos"
 },
