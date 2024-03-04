@@ -1,6 +1,9 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "symbol-registry" : "Symbol-Registrierung",
+    "symbols" : "Symbole",
+    "op-symbols" : "Betriebssystem-Symbole",
     "Welcome to {cloudName}!" : "Willkommen bei {cloudName}!",
     "A collaboration platform that puts you in control" : "Eine Kollaborationsplattform, mit der Sie die Kontrolle haben",
     "Privacy" : "Datenschutz",

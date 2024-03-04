@@ -1,6 +1,9 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "symbol-registry" : "سجل الرموز",
+    "symbols" : "الرموز",
+    "op-symbols" : "رموز العمليات op-symbols",
     "Welcome to {cloudName}!" : "أهلا بكم في {cloudName}!",
     "A collaboration platform that puts you in control" : "منصة تعاونية تتيح لك التحكم",
     "Privacy" : "الخصوصية",

@@ -3,6 +3,7 @@ OC.L10N.register(
     {
     "Welcome to {cloudName}!" : "¡Afáyate en {cloudName}!",
     "Privacy" : "Privacidá",
+    "Community" : "Comunidá",
     "First run wizard" : "Encontu pa la primer execución",
     "Desktop client" : "Veceru pa ordenadores",
     "Copied!" : "¡Copióse!",
