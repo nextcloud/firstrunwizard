@@ -1,6 +1,9 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "symbol-registry" : "registro de símbolos",
+    "symbols" : "símbolos",
+    "op-symbols" : "símbolos operacionais",
     "Welcome to {cloudName}!" : "Bem-vindo ao  {cloudName}!",
     "A collaboration platform that puts you in control" : "Uma plataforma colaborativa que te coloca no controle",
     "Privacy" : "Privacidade",
@@ -19,6 +22,7 @@ OC.L10N.register(
     "Download For Windows, Mac OS and Linux." : "Download Para Windows, Mac OS e Linux.",
     "Calendar and contacts ↗" : "Calendário e Contatos ↗",
     "Connect your calendar and contacts with your devices." : "Conecte seu calendário e contatos com seus dispositivos.",
+    "This Nextcloud is on version " : "Este Nextcloud está na versão",
     "More about Nextcloud" : "Mais sobre o Nextcloud",
     "Explore more apps ↗" : "Explorar mais apps ↗",
     "Extend the functionality of Nextcloud with hundreds of community-developed apps." : "Estenda as funcionalidades do Nextcloud com centenas de apps desenvolvidos pela comunidade",
