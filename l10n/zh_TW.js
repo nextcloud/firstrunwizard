@@ -1,6 +1,9 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "symbol-registry" : "symbol-registry",
+    "symbols" : "symbols",
+    "op-symbols" : "op-symbols",
     "Welcome to {cloudName}!" : "歡迎使用 {cloudName}！",
     "A collaboration platform that puts you in control" : "一個您可掌控的協作平台",
     "Privacy" : "隱私",
