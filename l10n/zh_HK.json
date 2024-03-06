@@ -1,4 +1,5 @@
 { "translations": {
+    "symbols" : "符號",
     "Welcome to {cloudName}!" : "歡迎來到 {cloudName}！",
     "A collaboration platform that puts you in control" : "一個您可掌控的協作平台",
     "Privacy" : "私隱",
