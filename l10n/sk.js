@@ -1,9 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Welcome to {cloudName}!" : "Vitajte v {cloudName}!",
-    "Privacy" : "Súkromie",
-    "Community" : "Komunita",
     "First run wizard" : "Sprievodca prvým spustením",
     "Add your profile information! For example your email is needed to receive notifications." : "Pridajte svoje informácie o profile! Váš e-mail je potrebný pre zasielanie oznámení.",
     "Add your profile information! For example your email is needed to receive notifications and reset your password." : "Pridajte svoje informácie o profile! Váš e-mail je napríklad potrebný na obnovenie hesla.",
@@ -29,6 +26,9 @@ OC.L10N.register(
     "About" : "O aplikácii",
     "A welcome and introduction wizard for Nextcloud" : "Uvítací a úvodný sprievodca pre Nextcloud",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Táto aplikácia zobrazí vyskakovacie okno, keď se používateľ prvýkrát prihlási do Nextcloudu. Toto okno privíta nového používateľa a obsahuje odkazy na štandardného desktopového klienta a aplikáciu pre Android a iOS. Okno tiež zobrazuje odkaz na prístup k Nextcloudu pomocou WebDAV. Neskôr je kedykoľvek možné toto okno otvoriť pomocou odkazu „O aplikácii“ v ponuke nastavenia. Sprievodcu prvým spustením je možné prispôsobiť pre splnenie konkrétnych estetických cieľov alebo zmeniť odkazy a správy. Vytvorte príslušný motív vzhľadu podľa pokynov v dokumentácii k motívom vzhľadu a jednoducho zmeňte vzhľad a chovanie tohoto sprievodcu. Viac informácii je k dispozícii v dokumentácii k Sprievodcovi prvým spustením a v dokumentácii k témam vzhľadu.",
+    "Welcome to {cloudName}!" : "Vitajte v {cloudName}!",
+    "Privacy" : "Súkromie",
+    "Community" : "Komunita",
     "Get the apps to sync your files" : "Získať aplikácie na synchronizáciu vašich súborov",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s vám umožňuje pristupovať k svojim súborom nech ste kdekoľvek. Naši ľahko použiteľní klienti pre počítače a mobilní klienti sú k dispozícii pre všetky hlavné platformy úplne zadarmo!",
     "Desktop client" : "Desktopový klient",

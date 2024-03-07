@@ -1,8 +1,8 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Privacy" : "Personvern",
     "About" : "Om",
+    "Privacy" : "Personvern",
     "Get the apps to sync your files" : "Få app-ar som kan synkronisera filene dine",
     "Access files via WebDAV" : "Bruk filene dine over WebDAV",
     "Server address" : "Server adresse",
