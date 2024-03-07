@@ -1,8 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Welcome to {cloudName}!" : "Ti damus ssa benebènnida a {cloudName}!",
-    "Community" : "Comunidade",
     "First run wizard" : "Protzedura ghiada de primu aviamentu",
     "Add your profile information! For example your email is needed to receive notifications." : "Agiunghe is informatziones tuas a su profilu! Pro nàrrere, s'indiritzu de posta tuo serbit pro retzire is notìficas.",
     "Add your profile information! For example your email is needed to receive notifications and reset your password." : "Agiunghe is informatziones tuas a su profilo! Pro nàrrere, s'indiritzu de posta serbit pro retzire is notìficas e ripristinare sa crae.",
@@ -24,6 +22,8 @@ OC.L10N.register(
     "About" : "In contu de",
     "A welcome and introduction wizard for Nextcloud" : "Una protzedura ghiada de benebènnida e introdutzione a Nextcloud",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Custa aplicatzione ativat una ventana a cumparsa cando un'utente intrat pro sa primu borta in Nextcloud. Custa ventana dat sa benebènnida a is utèntzias noas de Nextcloud e cuntenet ligòngios a is clientes de iscrivania istandard, a s'aplicatzione Android e a s'aplicatzione iOS. Sa ventana mustrat puru unu ligòngiu pro intrare in Nextcloud cun WebDAV. In cale si siat momentu, sa protzedura ghiada de prima intrada si podet abèrrere cun su ligòngiu \"In contu de\" in su menù de cunfiguratzione.\nSa protzedura ghiada de prima intrada si podet personalizare pro rispòndere a obietivos ispetzìficos de disegnu, o pro modificare ligòngios e messàgios. Creare unu tema sighende sa documentatzione de Temas e cambiare sa bista se sa protzedura ghiada est fàtzile. Àteras informatziones sunt a disponimentu in sa documentatzione relativa a sa protzedura ghiada de prima intrada aici comente in sa documentatzione relativa a is temas.",
+    "Welcome to {cloudName}!" : "Ti damus ssa benebènnida a {cloudName}!",
+    "Community" : "Comunidade",
     "Get the apps to sync your files" : "Iscàrriga is aplicatziones pro sincronizare is archìvios tuos",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%sti frunit s'intrada a is archìvios tuos dae totue. Is clientes nostros pro iscrivania e pro mòbile sunt fàtziles de impreare e sunt a disponimentu a gratis pro totu is prataformas prus mannas.",
     "Desktop client" : "Cliente de iscrivania",

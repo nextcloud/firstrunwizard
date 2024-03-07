@@ -1,8 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Privacy" : "פרטיות",
-    "Community" : "קהילה",
     "First run wizard" : "אשף ההפעלה הראשונית",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "נא להוסיף את פרטי הפרופיל שלך! ניתן להגדיר תמונת פרופיל ושם מלא לצורך זיהוי פשוט יותר בין כל התכונות השונות.",
     "Add your profile information! Set a full name for easier recognition across all features." : "נא להוסיף את פרטי הפרופיל שלך! ניתן להגדיר שם מלא כדי להקל על הזיהוי בין כל התכונות השונות.",
@@ -17,6 +15,8 @@ OC.L10N.register(
     "Sync tasks from various devices with your Nextcloud and edit them online." : "סנכרון משימות בין מכשירים שונים עם ה־Nextcloud שלך ולערוך אותן באופן מקוון.",
     "About" : "על אודות",
     "A welcome and introduction wizard for Nextcloud" : "אשף קבלת פנים והיכרות ל־Nextcloud",
+    "Privacy" : "פרטיות",
+    "Community" : "קהילה",
     "Get the apps to sync your files" : "ניתן להוריד את היישומים כדי לסנכרן את הקבצים שלך",
     "Desktop client" : "לקוח לשולחן עבודה",
     "iOS app" : "יישומון iOS",

@@ -1,9 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Welcome to {cloudName}!" : "Chào mừng đến với {cloudName}!",
-    "Privacy" : "Bảo mật",
-    "Community" : "Cộng đồng",
     "First run wizard" : "Trình hướng dẫn chạy lần đầu",
     "Add your profile information! For example your email is needed to receive notifications." : "Thêm thông tin hồ sơ của bạn! Ví dụ: email của bạn là cần thiết để nhận thông báo.",
     "Add your profile information! For example your email is needed to receive notifications and reset your password." : "Thêm thông tin hồ sơ của bạn! Ví dụ: email của bạn là cần thiết để nhận thông báo và đặt lại mật khẩu của bạn.",
@@ -28,6 +25,9 @@ OC.L10N.register(
     "Admin-configured folders shared by everyone in a group." : "Các thư mục do quản trị viên định cấu hình được chia sẻ bởi mọi người trong nhóm.",
     "About" : "Thông tin",
     "A welcome and introduction wizard for Nextcloud" : "Trình hướng dẫn chào mừng và giới thiệu",
+    "Welcome to {cloudName}!" : "Chào mừng đến với {cloudName}!",
+    "Privacy" : "Bảo mật",
+    "Community" : "Cộng đồng",
     "Get the apps to sync your files" : "Nhận ứng dụng để đồng bộ file của bạn",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s cho phép bạn truy cập vào các tập tin của mình mọi lúc mọi nơi. Ứng dụng khách trên máy tính để bàn và thiết bị di động dễ sử dụng của chúng tôi có sẵn cho tất cả các nền tảng chính với chi phí bằng 0.",
     "Desktop client" : "Máy khách để bàn",

@@ -1,12 +1,12 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Community" : "Kopiena",
     "First run wizard" : "Pirmās palaišanas vednis",
     "Schedule work & meetings, synced with all your devices." : "Ieplāno darbu un sapulces, kas sinhronizētas ar visām jūsu ierīcēm.",
     "Keep your colleagues and friends in one place without leaking their private info." : "Turiet savus kolēģus un draugus vienuviet, neizpludinot viņu privāto informāciju.",
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Vienkāršā e-pasta lietotne labi integrēta ar Failiem, Kontaktiem un Kalendāru.",
     "About" : "Par",
+    "Community" : "Kopiena",
     "Get the apps to sync your files" : "Saņem lietotnes, lai sinhronizētu savas datnes",
     "Desktop client" : "Darbvirsmas klients",
     "iOS app" : "iOS lietotne",

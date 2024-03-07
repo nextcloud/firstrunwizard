@@ -1,11 +1,11 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "First run wizard" : "ตัวช่วยเริ่มต้นครั้งแรก",
+    "About" : "เกี่ยวกับ",
     "Welcome to {cloudName}!" : "ยินดีต้อนรับสู่ {cloudName}!",
     "Privacy" : "ความเป็นส่วนตัว",
     "Community" : "ชุมชน",
-    "First run wizard" : "ตัวช่วยเริ่มต้นครั้งแรก",
-    "About" : "เกี่ยวกับ",
     "Get the apps to sync your files" : "ดาวน์โหลดแอปเพื่อซิงค์ไฟล์ของคุณ",
     "Desktop client" : "ไคลเอ็นต์เดสก์ทอป",
     "iOS app" : "แอป iOS",

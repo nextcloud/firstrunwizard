@@ -1,8 +1,8 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Privacy" : "පෞද්ගලිකත්වය",
     "About" : "පිළිබඳව",
+    "Privacy" : "පෞද්ගලිකත්වය",
     "Server address" : "සේවාදායක ලිපිනය",
     "Copy link" : "සබැඳිය පිටපත් කරන්න",
     "Copied!" : "පිටපත් කළා!",
