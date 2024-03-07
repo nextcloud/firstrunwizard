@@ -1,10 +1,10 @@
 { "translations": {
-    "Privacy" : "Confindențialitate",
-    "Community" : "Comunitate",
     "Schedule work & meetings, synced with all your devices." : "Organizează munca & întâlnirile, sincronizat pe toate dispozitivele.",
     "Keep your colleagues and friends in one place without leaking their private info." : "Un loc comun pentru colegi și prieteni fără scurgeri de informații private.",
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Aplicație simplă de mail, integrată cu Fișiere, Contacte și Calendar.",
     "About" : "Despre",
+    "Privacy" : "Confindențialitate",
+    "Community" : "Comunitate",
     "Get the apps to sync your files" : "Obține aplicația pentru sincronizarea fișierelor",
     "Desktop client" : "Client desktop",
     "iOS app" : "Aplicație iOS",

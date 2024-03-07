@@ -1,7 +1,4 @@
 { "translations": {
-    "Welcome to {cloudName}!" : "Welkom bij {cloudName}!",
-    "Privacy" : "Privacy",
-    "Community" : "Community",
     "First run wizard" : "Eerste start wizard",
     "Add your profile information! For example your email is needed to receive notifications." : "Voeg je profielinformatie toe! Je e-mailadres is bijvoorbeeld nodig om meldingen te ontvangen.",
     "Add your profile information! For example your email is needed to receive notifications and reset your password." : "Voeg je profielinformatie toe! Je e-mailadres is bijvoorbeeld nodig om meldingen te ontvangen en je wachtwoord te herstellen.",
@@ -27,6 +24,9 @@
     "About" : "Over",
     "A welcome and introduction wizard for Nextcloud" : "Een Hartelijk welkom en introductie wizard voor Nextcloud",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Deze applicatie activeert een pop-up venster wanneer een gebruiker voor de eerste keer inlogt in Nextcloud. Dit venster heet de nieuwe gebruiker welkom en bevat links naar de standaard desktop client, Android app en de iOS app. Het venster toont ook een link voor toegang tot Nextcloud via WebDAV. Deze eerste gebruik wizard kan altijd via de link \"Over\" in het intellingenmenu opnieuw worden gestart.\nDe Eerste gebruik wizard kan worden aangepast voor specific ontwerpuitgangspunten, of om de links en berichten te wijzigen. Creëer een passend thema conform de Theming documentatie en dan zijn wijzigingen aan het uiterlijk van de Wizard zijn simpel. Meer informatie is beschikbaar in de Eerste gebruik wizard documentatie, evenals de theming documentatie.",
+    "Welcome to {cloudName}!" : "Welkom bij {cloudName}!",
+    "Privacy" : "Privacy",
+    "Community" : "Community",
     "Get the apps to sync your files" : "Download de apps om bestanden te synchen",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s geeft je toegang tot je bestanden, waar je ook maar bent. Onze makkelijk te gebruiken desktop en mobiele applicaties zijn voor ieder groot platform gratis beschikbaar.",
     "Desktop client" : "Desktop client",

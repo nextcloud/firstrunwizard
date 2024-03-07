@@ -1,7 +1,4 @@
 { "translations": {
-    "Welcome to {cloudName}!" : "Sveiki atvykę į {cloudName}!",
-    "Privacy" : "Privatumas",
-    "Community" : "Bendruomenė",
     "First run wizard" : "Pirmojo paleidimo vediklis",
     "Add your profile information! For example your email is needed to receive notifications." : "Pridėkite savo profilio informaciją! Pavyzdžiui, jūsų el. paštas yra reikalingas, kad gautumėte pranešimus.",
     "Add your profile information! For example your email is needed to receive notifications and reset your password." : "Pridėkite savo profilio informaciją! Pavyzdžiui, jūsų el. paštas yra reikalingas, kad gautumėte pranešimus ir galėtumėte atstatyti slaptažodį.",
@@ -20,6 +17,9 @@
     "Kanban style organization for personal planning and team projects." : "Kanban stiliaus organizavimas asmeniniam planavimui ir komandiniams projektams.",
     "About" : "Apie",
     "A welcome and introduction wizard for Nextcloud" : "Pasisveikinimo ir pristatymo vediklis, skirtas Nextcloud",
+    "Welcome to {cloudName}!" : "Sveiki atvykę į {cloudName}!",
+    "Privacy" : "Privatumas",
+    "Community" : "Bendruomenė",
     "Get the apps to sync your files" : "Norėdami sinchronizuoti savo failus, atsisiųskite programėles",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s suteikia jums prieigą prie jūsų failų visur, kur bebūtumėte. Mūsų lengvi naudoti darbalaukio ir mobilieji klientai yra prieinami pagrindinėms platformoms visiškai nemokamai.",
     "Desktop client" : "Darbalaukio klientas",

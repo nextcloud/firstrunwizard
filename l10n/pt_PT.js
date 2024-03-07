@@ -1,7 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Community" : "Comunidade",
     "First run wizard" : "Wizard de arranque inicial",
     "Add your profile information! For example your email is needed to receive notifications." : "Adicione a sua informação de perfil! Por exemplo, o seu email é necessário para receber notificações.",
     "Add your profile information! For example your email is needed to receive notifications and reset your password." : "Adicione a sua informação de perfil! Por exemplo, o seu email é necessário para receber notificações e efectuar a reposição da sua palavra-passe.",
@@ -18,6 +17,7 @@ OC.L10N.register(
     "Smart media tagging for Nextcloud" : "Etiquetamento inteligente de mídia para o Nextcloud",
     "App recommendation: Group folders" : "Recomendação de aplicação: Pastas de grupo",
     "About" : "Sobre",
+    "Community" : "Comunidade",
     "Get the apps to sync your files" : "Obtenha as aplicações para sincronizar os seus ficheiros",
     "Desktop client" : "Cliente de PC",
     "iOS app" : "Aplicação iOS",

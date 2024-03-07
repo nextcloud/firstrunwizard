@@ -1,11 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Welcome to {cloudName}!" : "Üdvözli a(z) {cloudName}!",
-    "Privacy" : "Adatvédelem",
-    "Community" : "Közösség",
-    "Download on Apple app store" : "Alkalmazás letöltése az Apple app storeból",
-    "Download on Google play store" : "Alkalmazás letöltése az Google play storeból",
     "First run wizard" : "Első indítási varázsló",
     "Add your profile information! For example your email is needed to receive notifications." : "Adja hozzá a profiladatait. Például az e-mail szükséges az értesítések fogadásához.",
     "Add your profile information! For example your email is needed to receive notifications and reset your password." : "Adja hozzá a profiladatait. Például az e-mail szükséges az értesítések fogadásához és a jelszó-visszaállításához.",
@@ -31,6 +26,11 @@ OC.L10N.register(
     "About" : "Névjegy",
     "A welcome and introduction wizard for Nextcloud" : "Egy üdvözlő és bevezető varázsló a Nextcloudhoz",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "Ez az alkalmazás engedélyez egy előugró ablakot, amely a felhasználó első Nextcloudba történő bejelentkezésekor jelenik meg. Ez az új felhasználó üdvözlő ablak hivatkozásokat tartalmaz a szokásos asztali klienshez, az andoridos alkalmazáshoz és az iOS-es alkalmazáshoz. Az ablak tartalmaz egy további hivatkozást a Nextcloud WebDAV-on keresztüli eléréséhez. Az első futtatás varázsló bármikor újra megnyitható a beállítások menü „Névjegy” hivatkozásán keresztül.\nAz Első futtatás varázsló testreszabható úgy, hogy megfeleljen a meghatározott céloknak, és módosíthatja a hivatkozásokat és az üzeneteket. Hozzon létre egy Önnek megfelelő témát a Témázás dokumentációja alapján, és változtassa meg a varázsló megjelenését. További információ az első futtatás varázsló dokumentációjában, valamint a témázás dokumentációjában található.",
+    "Download on Apple app store" : "Alkalmazás letöltése az Apple app storeból",
+    "Download on Google play store" : "Alkalmazás letöltése az Google play storeból",
+    "Welcome to {cloudName}!" : "Üdvözli a(z) {cloudName}!",
+    "Privacy" : "Adatvédelem",
+    "Community" : "Közösség",
     "Go to previous page" : "Ugrás az előző oldalra",
     "Close dialog" : "Dialógus bezárása",
     "Get the apps to sync your files" : "Alkalmazások a fájljai szinkronizálásához",
