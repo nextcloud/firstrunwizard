@@ -1,9 +1,9 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "About" : "Γef",
     "Privacy" : "Vie privée",
     "Community" : "Tamezdagnut",
-    "About" : "Γef",
     "Copy link" : "Nɣel aseɣwen",
     "Copied!" : "Yenɣel!",
     "Not supported!" : "Ur yettusefrak ara!",

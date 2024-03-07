@@ -1,8 +1,8 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Community" : "Zajednica",
     "About" : "O programu",
+    "Community" : "Zajednica",
     "Server address" : "Adresa servera",
     "Copy link" : "Kopiraj vezu",
     "Copied!" : "Копирано!",

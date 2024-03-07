@@ -1,12 +1,12 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "Privacy" : "Confidencialitat",
     "Schedule work & meetings, synced with all your devices." : "Planificatz prètzfaches e reünions, sincronizats amb totes vòstres periferics.",
     "Keep your colleagues and friends in one place without leaking their private info." : "Gardatz vòstres companhs e amics a un sòl lòc sens divulgar lor vida privada.",
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Aplicacion simpla e simpatica de corrièl integrada a Fichièrs, Contactes e Calendièr.",
     "Smart media tagging for Nextcloud" : "Etiquetatge intelligent dels mèdias per Nextcloud",
     "About" : "A prepaus",
+    "Privacy" : "Confidencialitat",
     "Get the apps to sync your files" : "Obtenètz las aplicacions que vos permeton de sincronizar vòstres fichièrs",
     "Desktop client" : "Client de burèu",
     "iOS app" : "Aplicacion iOS",
