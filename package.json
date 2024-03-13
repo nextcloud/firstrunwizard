@@ -37,6 +37,6 @@
     "@nextcloud/stylelint-config": "^2.4.0",
     "@nextcloud/vite-config": "^1.2.2",
     "sass": "^1.71.1",
-    "vite": "^5.1.4"
+    "vite": "^5.1.6"
   }
 }
