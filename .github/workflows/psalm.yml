@@ -12,37 +12,10 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  changes:
-    runs-on: ubuntu-latest-low
-
-    outputs:
-      src: ${{ steps.changes.outputs.src}}
-
-    steps:
-      - uses: dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36 # v3.0.2
-        id: changes
-        continue-on-error: true
-        with:
-          filters: |
-            src:
-              - '.github/workflows/**'
-              - 'appinfo/**'
-              - 'lib/**'
-              - 'templates/**'
-              - 'tests/**'
-              - 'vendor/**'
-              - 'vendor-bin/**'
-              - '.php-cs-fixer.dist.php'
-              - 'composer.json'
-              - 'composer.lock'
-
-  psalm-static-analysis:
+  static-analysis:
     runs-on: ubuntu-latest
 
-    needs: [changes]
-    if: needs.changes.outputs.src != 'false'
-
-    name: psalm-static-analysis
+    name: static-psalm-analysis
     steps:
       - name: Checkout
         uses: actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633 # v4.1.2
@@ -66,17 +39,3 @@ jobs:
 
       - name: Run coding standards check
         run: composer run psalm
-
-  static-analysis:
-    permissions:
-      contents: none
-    runs-on: ubuntu-latest-low
-    needs: [changes, psalm-static-analysis]
-
-    if: always()
-
-    name: static-psalm-analysis
-
-    steps:
-      - name: Summary status
-        run: if ${{ needs.changes.outputs.src != 'false' && needs.psalm-static-analysis.result != 'success' }}; then exit 1; fi
