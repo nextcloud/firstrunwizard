@@ -5,4 +5,4 @@ function __vite__mapDeps(indexes) {
   return indexes.map((i) => __vite__mapDeps.viteFileDeps[i])
 }
 /*! third party licenses: js/vendor.LICENSE.txt */
-import{_ as t}from"./modulepreload-polyfill-hfIVPvwd.mjs";document.addEventListener("DOMContentLoaded",async function(){(await t(()=>import("./main-DO6i7fSe.mjs"),__vite__mapDeps([0,1]),import.meta.url)).open()});
+import{_ as t}from"./modulepreload-polyfill-DDskOgo1.mjs";document.addEventListener("DOMContentLoaded",async function(){(await t(()=>import("./main-DO6i7fSe.mjs"),__vite__mapDeps([0,1]),import.meta.url)).open()});
