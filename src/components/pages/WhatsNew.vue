@@ -21,7 +21,7 @@
   -->
 
 <template>
-	<WizardPage :title="t('firstrunwizard', 'What is new in Nextcloud Hub {version}?', { version: HubRelease.version })">
+	<WizardPage :title="t('firstrunwizard', 'New in Nextcloud Hub {version}', { version: HubRelease.version }) + ' 🚀'">
 		<ul :class="$style.list">
 			<li v-for="(entry, index) of HubRelease.releaseNotes" :key="index" :class="$style.entry">
 				{{ entry }}
