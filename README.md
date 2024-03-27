@@ -33,4 +33,5 @@ Make sure you have `node`, `npm` and `make` installed on your system.
 4. Add `releaseNotes`, this is an array of strings, for localization those are translated using `t('firstrunwizard', 'YOUR MESSAGE')`
 5. Change the `videoAltText` for the Hub release animation if needed (alternative text for accessibility)
 6. Adjust the `shareSubject` which is used when users share their thoughts about the release on social media
-7. Replace `img/nextcloudHub.mp4` and `img/nextcloudHub.webm` with updated animations
+7. Replace `img/nextcloudHub.mp4` and `img/nextcloudHub.webm` (VP9) with updated animations
+8. Update the current changelog version in `lib/Constants.php`

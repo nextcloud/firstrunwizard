@@ -27,7 +27,7 @@
 				playsinline
 				autoplay
 				muted>
-				<source :src="videoWebm" type="video/webm">
+				<source :src="videoWebm" type="video/webm;codecs=vp9">
 				<source :src="videoMp4" type="video/mp4">
 				{{ HUBRelease.videoAltText }}
 			</video>
