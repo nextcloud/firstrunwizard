@@ -1,7 +1,7 @@
 {
   "name": "firstrunwizard",
   "description": "A first run wizard that explains the usage of Nextcloud to new users",
-  "version": "2.18.0",
+  "version": "3.0.0",
   "author": "Julius Härtl <jus@bitgrid.net>",
   "license": "AGPL-3.0-or-later",
   "private": true,
