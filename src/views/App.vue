@@ -35,7 +35,7 @@
 		@close="close"
 		@next="currentPage += 1"
 		@previous="currentPage -= 1">
-		<IntroAnimation v-if="currentPage === null" @next="currentPage = 0" />
+		<IntroAnimation v-if="currentPage === null" @next="currentPage = showChangelogOnly ? changelogPage : 0" />
 		<SlideShow v-else :pages="pages" :current-index.sync="currentPage" />
 	</NcModal>
 </template>
@@ -49,8 +49,13 @@ import axios from '@nextcloud/axios'
 import IntroAnimation from '../components/pages/IntroAnimation.vue'
 import SlideShow from '../components/SlideShow.vue'
 import pages from '../pages'
+import { loadState } from '@nextcloud/initial-state'
 
 const isMobile = useIsSmallMobile()
+/** This is set to true in case the user already received the wizard but Nextcloud was updated to show the changelog only */
+const showChangelogOnly = loadState<boolean>('firstrunwizard', 'changelogOnly', false)
+/** The index of the changelog page for first run on updated Nextcloud Hub only */
+const changelogPage = Math.min(pages.findIndex((page) => page.id === 'hub-release'), 0)
 
 const showModal = ref(false)
 const currentPage = ref<number|null>(null)
