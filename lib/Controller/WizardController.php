@@ -42,7 +42,12 @@ class WizardController extends Controller {
 	 * @return DataResponse
 	 */
 	public function disable() {
-		$this->config->setUserValue($this->userId, 'firstrunwizard', 'show', '0');
+		// get the current Nextcloud version
+		$version = \OCP\Util::getVersion();
+		// we only use major.minor.patch
+		array_splice($version, 3);
+		// Set "show" to current version to only show on update
+		$this->config->setUserValue($this->userId, 'firstrunwizard', 'show', implode('.', $version));
 		return new DataResponse();
 	}
 }

@@ -27,6 +27,7 @@ declare(strict_types=1);
 namespace OCA\FirstRunWizard\Listener;
 
 use OCA\FirstRunWizard\AppInfo\Application;
+use OCA\FirstRunWizard\Constants;
 use OCA\FirstRunWizard\Notification\AppHint;
 use OCP\AppFramework\Http\Events\BeforeTemplateRenderedEvent;
 use OCP\AppFramework\Services\IAppConfig;
@@ -73,9 +74,19 @@ class BeforeTemplateRenderedListener implements IEventListener {
 		}
 
 		if ($this->appConfig->getAppValueBool('wizard_enabled', true)) {
-			if ($this->config->getUserValue($user->getUID(), Application::APP_ID, 'show', '1') !== '0') {
-				Util::addScript(Application::APP_ID, Application::APP_ID . '-activate');
+			$lastSeenVersion = $this->config->getUserValue($user->getUID(), Application::APP_ID, 'show', '0.0.0');
 
+			// If current is newer then last seen we activate the wizard
+			if (version_compare(Constants::CHANGELOG_VERSION, $lastSeenVersion, '>')) {
+				Util::addScript(Application::APP_ID, Application::APP_ID . '-activate');
+			}
+
+			// If the user was already seen before (compatibility with older wizard versions where the value was 1)
+			// then we only show the changelog
+			if (version_compare($lastSeenVersion, '1', '>')) {
+				$this->initialState->provideInitialState('changelogOnly', true);
+			} else {
+				// Otherwise if the user really uses Nextcloud for the very first time we create notifications for them
 				$this->jobList->add('OCA\FirstRunWizard\Notification\BackgroundJob', ['uid' => $this->userSession->getUser()->getUID()]);
 			}
 
