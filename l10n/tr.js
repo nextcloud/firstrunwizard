@@ -33,7 +33,7 @@ OC.L10N.register(
     "Privacy" : "Gizlilik",
     "Host your data and files where you decide." : "Veri ve dosyalarınızı istediğiniz yerde barındırın.",
     "Productivity" : "Üretkenlik",
-    "Collaborate and communicate across any platform." : "Herhangi bir platformla işbirliği yapın ve iletişim kurun.",
+    "Collaborate and communicate across any platform." : "Herhangi bir platformla iş birliği yapın ve iletişim kurun.",
     "Interoperability" : "Birlikte çalışabilirlik",
     "Import and export anything you want with open standards." : "İstediğiniz her şeyi açık standartlarla içe ve dışa aktarın.",
     "Community" : "Topluluk",
