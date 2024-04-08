@@ -16,13 +16,13 @@
     "stylelint:fix": "stylelint src/**/*.scss src/**/*.vue --fix"
   },
   "dependencies": {
+    "@mdi/js": "^7.4.47",
     "@nextcloud/axios": "^2.4.0",
     "@nextcloud/initial-state": "^2.1.0",
     "@nextcloud/l10n": "^2.2.0",
     "@nextcloud/router": "^3.0.0",
     "@nextcloud/vue": "^8.11.1",
-    "vue": "^2.7.16",
-    "vue-material-design-icons": "^5.3.0"
+    "vue": "^2.7.16"
   },
   "browserslist": [
     "extends @nextcloud/browserslist-config"
@@ -35,8 +35,10 @@
     "@nextcloud/browserslist-config": "^3.0.0",
     "@nextcloud/eslint-config": "^8.3.0",
     "@nextcloud/stylelint-config": "^2.4.0",
+    "@nextcloud/typings": "^1.8.0",
     "@nextcloud/vite-config": "^1.2.2",
+    "@vue/tsconfig": "^0.5.1",
     "sass": "^1.74.1",
-    "vite": "^5.2.7"
+    "vite": "^5.2.8"
   }
 }
