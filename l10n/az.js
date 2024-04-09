@@ -1,7 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "About" : "Haqqında",
     "Get the apps to sync your files" : "Fayllarınızın sinxronizasiyası üçün proqramları götürün",
     "Desktop client" : "Desktop client",
     "iOS app" : "iOS proqramı",
@@ -12,6 +11,7 @@ OC.L10N.register(
     "Not supported!" : "Dəstəklənmir!",
     "Press ⌘-C to copy." : "Kopyalamaq üçün ⌘-C basın.",
     "Press Ctrl-C to copy." : "Kopyalamaq üçün Ctrl-C basın.",
+    "About" : "Haqqında",
     "Connect your desktop apps to %s" : "Desktop proqramınızı %s-ə qoşun"
 },
 "nplurals=2; plural=(n != 1);");

@@ -8,7 +8,9 @@ OC.L10N.register(
     "Schedule work & meetings, synced with all your devices." : "Planeeri tööd ja kohtumisi, süngitud kõigi su seadmetega.",
     "Keep your colleagues and friends in one place without leaking their private info." : "Hoia oma kolleegid ja sõbrad ühes kohas ilma nende privaatset infot lekitamata.",
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Lihtne e-posti rakendus, mis on integreeritud Failide, Kontaktide ja Kalendriga.",
-    "About" : "Info",
+    "Close" : "Sulge",
+    "Read more" : "Loe rohkem",
+    "Share on social media" : "Jaga sotsiaalmeedias",
     "Get the apps to sync your files" : "Hangi rakendusi failide sünkroniseerimiseks",
     "Desktop client" : "Töölaua klient",
     "iOS app" : "iOS-i rakendus",
@@ -21,6 +23,7 @@ OC.L10N.register(
     "Not supported!" : "Pole toetatud!",
     "Press ⌘-C to copy." : "Kopeerimiseks vajuta ⌘+C.",
     "Press Ctrl-C to copy." : "Kopeerimiseks vajuta Ctrl+C.",
+    "About" : "Info",
     "Connect your desktop apps to %s" : "Ühenda oma töölaua rakendus %s",
     "A safe home for all your data" : "Turvaline koht sinu andmetele"
 },
