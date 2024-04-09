@@ -1,7 +1,6 @@
 OC.L10N.register(
     "firstrunwizard",
     {
-    "About" : "সমপরকে",
     "Get the apps to sync your files" : "আপনার ফাইলসমূহ সিংক করতে অ্যাপস নিন",
     "Access files via WebDAV" : "WebDAV হয়ে ফাইলে প্রবেশ করুন",
     "Server address" : "সার্ভার ঠিকানা",
@@ -10,6 +9,7 @@ OC.L10N.register(
     "Not supported!" : "সমর্থিত নয়! ",
     "Press ⌘-C to copy." : "অনুলিপি করতে ⌘-C টিপুন।",
     "Press Ctrl-C to copy." : "অনুলিপি করতে Ctrl-C টিপুন।",
+    "About" : "সমপরকে",
     "Connect your desktop apps to %s" : "আপনার ডেস্কটপ অ্যাপসমূহ %s এর সংগে যুক্ত করুন"
 },
 "nplurals=2; plural=(n != 1);");

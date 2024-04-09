@@ -1,5 +1,4 @@
 { "translations": {
-    "About" : "Haqqında",
     "Get the apps to sync your files" : "Fayllarınızın sinxronizasiyası üçün proqramları götürün",
     "Desktop client" : "Desktop client",
     "iOS app" : "iOS proqramı",
@@ -10,6 +9,7 @@
     "Not supported!" : "Dəstəklənmir!",
     "Press ⌘-C to copy." : "Kopyalamaq üçün ⌘-C basın.",
     "Press Ctrl-C to copy." : "Kopyalamaq üçün Ctrl-C basın.",
+    "About" : "Haqqında",
     "Connect your desktop apps to %s" : "Desktop proqramınızı %s-ə qoşun"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
