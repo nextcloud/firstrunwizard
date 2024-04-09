@@ -74,7 +74,7 @@ class WizardControllerTest extends TestCase {
 
 		$this->config->expects($this->once())
 			->method('setUserValue')
-			->with($user, 'firstrunwizard', 'show', '0');
+			->with($user, 'firstrunwizard', 'show');
 
 		$response = $controller->disable();
 
