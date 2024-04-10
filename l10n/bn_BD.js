@@ -1,6 +1,7 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "Close" : "বন্ধ",
     "Get the apps to sync your files" : "আপনার ফাইলসমূহ সিংক করতে অ্যাপস নিন",
     "Access files via WebDAV" : "WebDAV হয়ে ফাইলে প্রবেশ করুন",
     "Server address" : "সার্ভার ঠিকানা",
