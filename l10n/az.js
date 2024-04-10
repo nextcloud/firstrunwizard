@@ -1,6 +1,7 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "Close" : "Bağla",
     "Get the apps to sync your files" : "Fayllarınızın sinxronizasiyası üçün proqramları götürün",
     "Desktop client" : "Desktop client",
     "iOS app" : "iOS proqramı",

@@ -1,6 +1,7 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "Close" : "Cau",
     "Server address" : "Cyfeiriad gweinydd",
     "Copy link" : "Copïo dolen",
     "Copied!" : "Wedi'i gopïo!",

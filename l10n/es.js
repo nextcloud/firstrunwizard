@@ -57,6 +57,8 @@ OC.L10N.register(
     "Share via email" : "Compartir por correo electrónico",
     "What's new?" : "¿Qué novedades hay?",
     "Nextcloud on all your devices" : "Nextcloud en todos tus dispositivos",
+    "Read more" : "Ver más",
+    "Share on social media" : "Compartir en medios sociales",
     "Get started!" : "¡Comencemos!",
     "Get the apps to sync your files" : "Obtén las aplicaciones para sincronizar tus archivos",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s le da acceso a sus archivos esté donde esté. Nuestros clientes de escritorio y móviles son fáciles de usar y están disponibles para todas las principales plataformas a coste cero.",
