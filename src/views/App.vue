@@ -108,7 +108,7 @@ watchEffect(() => {
  * Global styles to override vue component styles of the modal
  */
 
-.modal-wrapper {
+.first-run-wizard .modal-wrapper {
 	.modal-container {
 		overflow: hidden;
 
@@ -126,13 +126,15 @@ watchEffect(() => {
 }
 
 @media only screen and (max-width: 512px) {
-	.modal-wrapper .modal-container {
-		height: 100dvh;
-		top: 0;
-	}
+	.first-run-wizard {
+		.modal-wrapper .modal-container {
+			height: 100dvh;
+			top: 0;
+		}
 
-	.modal-header {
-		pointer-events: none;
+		.modal-header {
+			pointer-events: none;
+		}
 	}
 }
 </style>
