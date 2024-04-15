@@ -39,7 +39,7 @@ OC.L10N.register(
     "Find out more about your Nextcloud setup with the admin, user or developer documentation." : "Apprenez-en plus sur votre configuration de Nextcloud avec la documentation d’administration, d’utilisation et de développement.",
     "For large organisations ↗" : "Pour les grandes organisations ↗",
     "Get Nextcloud Enterprise for mission critical environments where advanced security and compliance are important." : "Obtenez Nextcloud Enterprise pour les environnements critiques où la conformité et la sécurité sont importants.",
-    "This Nextcloud is on version {version}" : "Ce Nextcloud est à la version {version}",
+    "This Nextcloud is on version {version}" : "Ce Nextcloud est à la version {version}",
     "Seamless integration with your devices." : "Intégration fluide entre vos appareils.",
     "Sync your files across your devices with the desktop and mobile apps, and connect your calendar and contacts." : "Synchronisez vos fichiers sur tous vos appareils avec les applications pour ordinateurs et mobiles et connectez votre agenda ainsi que vos contacts.",
     "Desktop app ↗" : "Application pour ordinateur ↗",
@@ -133,7 +133,7 @@ OC.L10N.register(
     "Open standards and interoperability" : "Normes ouvertes et interopérabilité",
     "100%% open source & community-focused" : "100%% code source ouvert & axé sur la communauté ",
     "Learn more about %s" : "En savoir plus à propos de %s",
-    "This Nextcloud is on version %s" : "Ce Nextcloud est à la version %s",
+    "This Nextcloud is on version %s" : "Ce Nextcloud est à la version %s",
     "Close dialog" : "Fermer la fenêtre de dialogue",
     "This Nextcloud is on version " : "Ce Nextcloud est à la version"
 },
