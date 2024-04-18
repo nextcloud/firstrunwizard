@@ -21,7 +21,7 @@
   -->
 
 <template>
-	<WizardPage :title="t('firstrunwizard', 'Find our more on the blog')">
+	<WizardPage :title="t('firstrunwizard', 'Find out more on the blog')">
 		<NcButton :href="HubRelease.link" target="_blank">
 			{{ t('firstrunwizard', 'Read the Nextcloud Hub {version} blog', { version: HubRelease.version}) }} ↗
 		</NcButton>
