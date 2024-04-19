@@ -57,7 +57,6 @@ OC.L10N.register(
     "Import and export anything you want with open standards." : "Importe y exporte cualquier cosa que guste con estándares abiertos.",
     "Community" : "Comunidad",
     "Enjoy constant improvements from a thriving open-source community." : "Disfrute de mejoras continuas gracias a una creciente comunidad de código abierto.",
-    "Find our more on the blog" : "Descubra más en el blog",
     "Read the Nextcloud Hub {version} blog" : "Lea el blog de Nextcloud Hub {version}",
     "Share your opinion about Nextcloud Hub {version}" : "Comparta su opinión acerca de Nextcloud Hub {version}",
     "Share via email" : "Compartir por correo electrónico",
