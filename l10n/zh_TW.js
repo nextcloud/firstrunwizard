@@ -57,7 +57,6 @@ OC.L10N.register(
     "Import and export anything you want with open standards." : "使用開放標準匯入與匯出任何您想要的內容。",
     "Community" : "社群",
     "Enjoy constant improvements from a thriving open-source community." : "享受來自蓬勃發展的開放原始碼社群的不斷改善",
-    "Find our more on the blog" : "在部落格上找到我們的更多資訊",
     "Read the Nextcloud Hub {version} blog" : "閱讀 Nextcloud Hub {version} 部落格",
     "Share your opinion about Nextcloud Hub {version}" : "分享您對 Nextcloud Hub {version} 的看法",
     "Share via email" : "透過電郵分享",

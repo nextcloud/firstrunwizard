@@ -57,7 +57,6 @@ OC.L10N.register(
     "Import and export anything you want with open standards." : "تصدير و استيراد أي شيء بمعايير قياسية",
     "Community" : "الجماعة",
     "Enjoy constant improvements from a thriving open-source community." : "تمتع بالتطويرات المستمرة من جماعة المصادر المفتوحة.",
-    "Find our more on the blog" : "لمزيد المعلومات، أنظُر المدونة",
     "Read the Nextcloud Hub {version} blog" : "إقرأ مدونة نكست كلاود هب {version}",
     "Share your opinion about Nextcloud Hub {version}" : "شارك برأيك حول نكست كلاود هب {version}",
     "Share via email" : "مُشاركة عبر الإيميل",
