@@ -70,7 +70,7 @@ const isLink = computed(() => !!props.href)
 }
 
 .heading {
-	font-weight: bold;
+	font-size: 23px;
 	margin: 0;
 }
 

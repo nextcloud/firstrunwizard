@@ -23,7 +23,7 @@
 <template>
 	<div :class="$style.wrapper">
 		<div :class="[$style.scroller, scrollerClasses]">
-			<h2 :class="$style.heaing">
+			<h2 :class="$style.heading">
 				{{ title }}
 			</h2>
 			<p v-if="subtitle" :class="$style.subtitle">
@@ -58,6 +58,8 @@ defineProps<{
 }
 
 .heading {
+	font-size: 27px;
+	margin-block: 0;
 	text-align: center;
 }
 
