@@ -49,7 +49,7 @@ export default [
 		id: 'key-aspects',
 		component: KeyNotesPage,
 		buttons: [{
-			to: 'whats-new',
+			to: 'hub-release',
 			label: t('firstrunwizard', 'What\'s new?'),
 		}, {
 			to: 'devices',
