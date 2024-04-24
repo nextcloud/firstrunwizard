@@ -2,6 +2,11 @@ OC.L10N.register(
     "firstrunwizard",
     {
     "First run wizard" : "Encontu pa la primer execución",
+    "Add your profile information! For example your email is needed to receive notifications." : "¡Amiesta la información al to perfil! Por exemplu, la direición de corréu electrónicu ye necesariu pa recibir avisos.",
+    "Add your profile information! For example your email is needed to receive notifications and reset your password." : "¡Amiesta la información al to perfil! Por exemplu, la direición de corréu electrónicu ye necesariu pa recibir avisos y renaiciar la contraseña",
+    "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "¡Amiesta la información al to perfil! Afita una semeya pal perfil y amiesta'l to nome completu pa facilitar el reconocimientu en toles partes.",
+    "Add your profile information! Set a full name for easier recognition across all features." : "¡Amiesta la información al to perfil! Amiesta'l to nome completu pa facilitar el reconocimientu en toles partes.",
+    "Add your profile information! Set a profile picture for easier recognition across all features." : "¡Amiesta la información al to perfil! Afita una semeya pa facilitar el reconocimientu en toles partes.",
     "App recommendation: Nextcloud Calendar" : "Aplicación aconseyada: Calendariu",
     "Schedule work & meetings, synced with all your devices." : "Planifica'l trabayu y les reuniones con sincronización colos tos preseos.",
     "App recommendation: Nextcloud Contacts" : "Aplicación aconseyada: Contautos",
@@ -10,6 +15,7 @@ OC.L10N.register(
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Una aplicación de corréu electrónicu cenciella que s'integra bien con Ficheros, Contautos y Calendariu.",
     "App recommendation: Tasks" : "Aplicación aconseyada: Xeres",
     "Sync tasks from various devices with your Nextcloud and edit them online." : "Sincroniza les xeres de dellos preseos con Nextcloud y edítales en llinia.",
+    "Kanban style organization for personal planning and team projects." : "Organización d'estilu kanban pa la planificación personal y proyeutos n'equipu.",
     "App recommendation: Forms" : "Aplicación aconseyada: Formularios",
     "Go to previous page" : "Dir a la páxina anterior",
     "Close" : "Zarrar",
@@ -66,6 +72,9 @@ OC.L10N.register(
     "Host your data and files where you decide" : "Agospia datos y ficheros onde decidas",
     "Open standards and interoperability" : "Estándares abiertos ya interoperabilidá",
     "100%% open source & community-focused" : "100%% de códigu abiertu y enfocáu na comunidá",
-    "Close dialog" : "Zarrar el diálogu"
+    "Learn more about %s" : "Conoz más tocante a %s",
+    "This Nextcloud is on version %s" : "Esta instancia de Nextcloud ta na versión %s",
+    "Close dialog" : "Zarrar el diálogu",
+    "This Nextcloud is on version " : "Esta instancia de Nextcloud ta na versión"
 },
 "nplurals=2; plural=(n != 1);");
