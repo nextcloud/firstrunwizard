@@ -32,7 +32,7 @@
     "npm": "^10.0.0"
   },
   "devDependencies": {
-    "@nextcloud/browserslist-config": "^3.0.0",
+    "@nextcloud/browserslist-config": "^3.0.1",
     "@nextcloud/eslint-config": "^8.3.0",
     "@nextcloud/stylelint-config": "^2.4.0",
     "@nextcloud/typings": "^1.8.0",
