@@ -1,0 +1,56 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: firstrunwizard
+Upstream-Contact: Nextcloud <info@nextcloud.com>
+Source: https://github.com/nextcloud/firstrunwizard
+
+Files: .gitattributes .github/* .editorconfig babel.config.js .php-cs-fixer.dist.php package-lock.json package.json composer.json composer.lock */composer.json */composer.lock webpack.js stylelint.config.js .eslintrc.js .gitignore .jshintrc .l10nignore action/.gitignore action/package.json action/package-lock.json action/dist/index.js tests/* psalm.xml cypress/.env cypress/.eslintrc.js cypress/docker-compose.yml cypress/plugins/index.js cypress/tsconfig.json cypress.config.ts vendor-bin/*/composer.json stylelint.config.cjs vendor-bin/*/composer.lock .tx/config webpack.config.js tsconfig.json vite.config.ts vite.config.js js/vendor.LICENSE.txt krankerl.toml .npmignore cypress/fixtures/* postcss.config.js cypress/dockerNode.ts jest.config.js cypress.config.js relativeci.config.js .nextcloudignore .devcontainer/devcontainer.json .scrutinizer.yml .stylelintrc.js .tx/backport
+Copyright: none
+License: CC0-1.0
+
+Files: l10n/*.js l10n/*.json l10n/*.php
+Copyright: 2016-2024 Nextcloud GmbH and Nextcloud contributors
+License: AGPL-3.0-or-later
+
+Files: l10n/*.js l10n/*.json l10n/*.php
+Copyright: 2013-2016 ownCloud Inc. and ownCloud contributors
+License: AGPL-3.0-or-later
+
+Files: js/*.js.map js/*.js js/*.mjs js/*.mjs.map js/templates/*.handlebars emptyTemplates/*
+Copyright: 2016 Nextcloud GmbH and Nextcloud contributors
+License: AGPL-3.0-or-later
+
+Files: css/firstrunwizard-main.css
+Copyright: 2024 Nextcloud GmbH and Nextcloud contributors
+License: AGPL-3.0-or-later
+
+Files: img/Nextcloud.mp4 img/Nextcloud.webm img/nextcloudHub.mp4 img/nextcloudHub.webm img/nextcloudLogo.svg
+Copyright: 2016 Nextcloud GmbH and Nextcloud contributors
+License: LicenseRef-NextcloudTrademarks
+
+Files: img/apps/spreed.svg
+Copyright: 2019 Nextcloud GmbH and Nextcloud contributors
+License: LicenseRef-NextcloudTrademarks
+
+Files: img/apps/calendar.svg img/apps/contacts.svg img/apps/deck.svg img/apps/forms.svg img/apps/groupfolders.svg img/apps/mail.svg img/apps/notes.svg img/apps/recognize.svg img/apps/social.svg img/apps/tasks.svg img/app.svg img/info.svg img/user.svg
+Copyright: 2019 Nextcloud GmbH and Nextcloud contributors
+License: AGPL-3.0-or-later
+
+Files: img/x.svg
+Copyright: X Corp. 
+License: LicenseRef-XTrademarks
+
+Files: img/facebook.svg
+Copyright: 2024 Meta
+License: LicenseRef-FacebookTrademarks
+
+Files: img/mastodon.svg
+Copyright: 2024 Mastodon gGmbH
+License: LicenseRef-MastodonTrademarks
+
+Files: img/androidBadge.png
+Copyright: 2024 Google LLC.
+License: LicenseRef-GooglePlayBadge
+
+Files: img/iosBadge.png
+Copyright: 2024 Apple Inc.
+License: LicenseRef-AppleAppStoreBadge

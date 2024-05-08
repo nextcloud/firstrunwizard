@@ -1,4 +1,11 @@
+<!--
+  - SPDX-FileCopyrightText: 2016-2024 Nextcloud GmbH and Nextcloud contributors
+  - SPDX-FileCopyrightText: 2013-2016 ownCloud, Inc.
+  - SPDX-License-Identifier: AGPL-3.0-or-later
+-->
 # 🔮 First run wizard
+
+[![REUSE status](https://api.reuse.software/badge/github.com/nextcloud/firstrunwizard)](https://api.reuse.software/info/github.com/nextcloud/firstrunwizard)
 
 A first run wizard that explains the usage of Nextcloud to new users
 
