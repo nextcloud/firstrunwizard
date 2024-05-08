@@ -23,12 +23,16 @@ Files: css/firstrunwizard-main.css
 Copyright: 2024 Nextcloud GmbH and Nextcloud contributors
 License: AGPL-3.0-or-later
 
-Files: img/Nextcloud.mp4 img/Nextcloud.webm img/nextcloudHub.mp4 img/nextcloudHub.webm img/nextcloudLogo.svg
-Copyright: 2016 Nextcloud GmbH and Nextcloud contributors
+Files: img/Nextcloud.mp4 img/Nextcloud.webm img/nextcloudLogo.svg
+Copyright: 2019 Nextcloud GmbH
+License: LicenseRef-NextcloudTrademarks
+
+Files: img/nextcloudHub.mp4 img/nextcloudHub.webm
+Copyright: 2024 Nextcloud GmbH
 License: LicenseRef-NextcloudTrademarks
 
 Files: img/apps/spreed.svg
-Copyright: 2019 Nextcloud GmbH and Nextcloud contributors
+Copyright: 2019 Nextcloud GmbH
 License: LicenseRef-NextcloudTrademarks
 
 Files: img/apps/calendar.svg img/apps/contacts.svg img/apps/deck.svg img/apps/forms.svg img/apps/groupfolders.svg img/apps/mail.svg img/apps/notes.svg img/apps/recognize.svg img/apps/social.svg img/apps/tasks.svg img/app.svg img/info.svg img/user.svg
