@@ -1,8 +1,15 @@
+# SPDX-FileCopyrightText: 2016 Nextcloud GmbH and Nextcloud contributors
+# SPDX-License-Identifier: CC0-1.0
+
 # test coverage
 /tests/coverage*
 /tests/clover.xml
+
+# 3rdparty
 node_modules/
 /vendor
+
+# cache
 /.php-cs-fixer.cache
 /tests/.phpunit.result.cache
 .DS_Store
