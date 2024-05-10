@@ -21,7 +21,7 @@ version: 2.3.0
 license: GPL-3.0-or-later
 
 @nextcloud/axios
-version: 2.4.0
+version: 2.5.0
 license: GPL-3.0
 
 @nextcloud/browser-storage
@@ -81,7 +81,7 @@ version: 6.0.1
 license: MIT
 
 axios
-version: 1.6.1
+version: 1.6.8
 license: MIT
 
 char-regex
@@ -91,10 +91,6 @@ license: MIT
 charenc
 version: 0.0.2
 license: BSD-3-Clause
-
-core-js
-version: 3.37.0
-license: MIT
 
 crypt
 version: 0.0.2
