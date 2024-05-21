@@ -1,6 +1,9 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "Schedule work & meetings, synced with all your devices." : "Sceidealaigh obair & cruinnithe, sioncronaithe le do ghléasanna go léir.",
+    "Keep your colleagues and friends in one place without leaking their private info." : "Coinnigh do chomhghleacaithe agus do chairde in aon áit amháin gan a gcuid faisnéise príobháideacha a sceitheadh.",
+    "Simple email app nicely integrated with Files, Contacts and Calendar." : "Feidhmchlár ríomhphoist simplí atá comhtháite go deas le Comhaid, Teagmhálaithe agus Féilire.",
     "Close" : "Dún",
     "Privacy" : "Príobháideacht",
     "Server address" : "Seoladh an fhreastalaí",
