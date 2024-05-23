@@ -36,7 +36,7 @@ OC.L10N.register(
     "Get involved! ↗" : "¡Involúcrate!",
     "Be a part of the community that helps build, design, translate and promote Nextcloud!" : "¡Forma parte de la comunidad que ayuda a crear, diseñar, traducir y dar a conocer Nextcloud!",
     "Need help? ↗" : "¿Necesitas ayuda? ↗",
-    "Find out more about your Nextcloud setup with the admin, user or developer documentation." : "Aprende más sobre la configuración de Nextcloud con la documentación de administrador, usuario o desarrollador.",
+    "Find out more about your Nextcloud setup with the admin, user or developer documentation." : "Aprenda más sobre la configuración de Nextcloud con la documentación de administrador, usuario o desarrollador.",
     "For large organisations ↗" : "Para grandes organizaciones ↗",
     "Get Nextcloud Enterprise for mission critical environments where advanced security and compliance are important." : "Obtén Nextcloud Enterprise para entornos críticos donde la seguridad avanzada y el cumplimiento de normas y estándares son importantes.",
     "This Nextcloud is on version {version}" : "Este Nextcloud está na versión {version}",

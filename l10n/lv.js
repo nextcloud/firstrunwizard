@@ -6,8 +6,10 @@ OC.L10N.register(
     "Keep your colleagues and friends in one place without leaking their private info." : "Turiet savus kolēģus un draugus vienuviet, neizpludinot viņu privāto informāciju.",
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Vienkāršā e-pasta lietotne labi integrēta ar Failiem, Kontaktiem un Kalendāru.",
     "Close" : "Aizvērt",
+    "More about Nextcloud" : "Vairāk par Nextcloud",
     "Privacy" : "Privātums",
     "Community" : "Kopiena",
+    "Read more" : "Lasīt vairāk",
     "Get the apps to sync your files" : "Saņem lietotnes, lai sinhronizētu savas datnes",
     "Desktop client" : "Darbvirsmas klients",
     "iOS app" : "iOS lietotne",
@@ -19,6 +21,7 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "Spied ⌘-C lai kopētu.",
     "Press Ctrl-C to copy." : "Spied Ctrl-C lai kopētu.",
     "About" : "Par",
-    "A safe home for all your data" : "Droša vieta visiem jūsu datiem"
+    "Get more information" : "Iegūt vairāk informācijas",
+    "A safe home for all your data" : "Droša vieta visiem Taviem datiem"
 },
 "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);");
