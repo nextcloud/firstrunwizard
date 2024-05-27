@@ -68,6 +68,10 @@ OC.L10N.register(
     "Assistant: chat summaries, Mail reply suggestions, answers based on your data, and more" : "Laguntzailea: txataren laburpenak, posta elektronikoko erantzunen iradokizunak, zure datuetan oinarritutako erantzunak eta abar",
     "Interactive previews for files, folders, boards and events" : "Fitxategi, karpeta, arbel eta gertaeren aurrebista interaktiboak",
     "Federated chat and message editing in Talk" : "Txat federatua eta mezuen edizioa Talk-en",
+    "Mini-apps based on Tables" : "Tables-en oinarritutako mini-aplikazioak",
+    "Public Collectives sharing, previews and QR-codes" : "Kolektibo Publiko partekatzeak, aurreikuspenak eta QR-kodeak",
+    "Manage your team resources like a pro with Nextcloud Teams" : "Kudeatu zure taldearen baliabideak profesionala bazina Nextcloud Teams-ekin",
+    "Forms: automatically sync with a spreadsheet" : "Forms: automatikoki sinkronizatu kalkulu-orri batekin",
     "Get to know the new features of Hub 8" : "Ezagutu Hub 8-ren eginbide berriak",
     "What's new?" : "Zer berri?",
     "Nextcloud on all your devices" : "Nextcloud zure gailu guztietan",
@@ -130,6 +134,7 @@ OC.L10N.register(
     "100%% open source & community-focused" : "%% 100 kode irekian eta komunitatera zuzendua",
     "Learn more about %s" : "Ikasi gehiago honi buruz: %s",
     "This Nextcloud is on version %s" : "Nextcloud hau %s bertsioan dago",
-    "Close dialog" : "Itxi elkarrizketa"
+    "Close dialog" : "Itxi elkarrizketa",
+    "This Nextcloud is on version " : "Nextcloud hau hurrengo bertsioan dago"
 },
 "nplurals=2; plural=(n != 1);");
