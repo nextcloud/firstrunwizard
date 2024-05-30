@@ -8,6 +8,7 @@ OC.L10N.register(
     "Privacy" : "Príobháideacht",
     "Community" : "Pobal",
     "What's new?" : "Cad atá nua?",
+    "Read more" : "Leigh Nios mo",
     "Server address" : "Seoladh an fhreastalaí",
     "Copy link" : "Cóipeáil an nasc",
     "Copied!" : "Cóipeáladh!",
