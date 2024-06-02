@@ -23,6 +23,7 @@ OC.L10N.register(
     "Smart media tagging for Nextcloud" : "Nextcloud를 위한 스마트 미디어 태깅",
     "App recommendation: Group folders" : "추천 앱: Group folders",
     "Admin-configured folders shared by everyone in a group." : "그룹 내 모든 이용자가 공유하는 관리자 설정 폴더.",
+    "About & What's new" : "Nextcloud 정보",
     "A welcome and introduction wizard for Nextcloud" : "Nextcloud의 환영 및 소개 마법사",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "이 앱은 사용자가 Nextcloud에 처음 로그인 할 때 팝업창을 활성화합니다. 이 창은 새 사용자에 대한 환영 문구와 함께, 표준 데스크톱 클라이언트, 안드로이드 앱, iOS 앱을 설치할 수 있는 링크를 제공합니다. 또한 Nextcloud에 접근할 수 있는 WebDAV 링크를 제공합니다. 설정 메뉴의 \"About\" 링크를 통해 이 \"첫 가동 창\"을 다시 열 수 있습니다.\n첫 가동 창의 디자인은 사용자가 원하는 방향으로 수정 할 수 있고 링크와 문구 또한 변경할 수 있습니다. 테마(Theming) 문서를 참고하여 적절한 테마를 만들고, 심플한 모양으로 꾸미십시오. 더 많은 정보를 얻고 싶다면 테마(Theming) 문서와 첫 가동 창(First run wizard) 문서를 참고하십시오.",
     "Download on Apple app store" : "Apple app store에서 다운로드",
