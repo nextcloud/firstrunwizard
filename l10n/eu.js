@@ -70,7 +70,7 @@ OC.L10N.register(
     "Federated chat and message editing in Talk" : "Txat federatua eta mezuen edizioa Talk-en",
     "Mini-apps based on Tables" : "Tables-en oinarritutako mini-aplikazioak",
     "Public Collectives sharing, previews and QR-codes" : "Kolektibo Publiko partekatzeak, aurreikuspenak eta QR-kodeak",
-    "Manage your team resources like a pro with Nextcloud Teams" : "Kudeatu zure taldearen baliabideak profesionala bazina Nextcloud Teams-ekin",
+    "Manage your team resources like a pro with Nextcloud Teams" : "Kudeatu zure lantaldearen baliabideak profesionala bazina Nextcloud Teams-ekin",
     "Forms: automatically sync with a spreadsheet" : "Forms: automatikoki sinkronizatu kalkulu-orri batekin",
     "Get to know the new features of Hub 8" : "Ezagutu Hub 8-ren eginbide berriak",
     "What's new?" : "Zer berri?",
