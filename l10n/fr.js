@@ -21,7 +21,7 @@ OC.L10N.register(
     "Simple surveys and questionnaires, self-hosted" : "Simples enquêtes et questionnaires, auto-hébergés",
     "App recommendation: Recognize" : "Recommandation d’application : Recognize",
     "Smart media tagging for Nextcloud" : "Étiquetage intelligent des médias pour Nextcloud",
-    "App recommendation: Group folders" : "Application recommandée : Dossiers de groupes",
+    "App recommendation: Group folders" : "Application recommandée : Dossiers de groupe",
     "Admin-configured folders shared by everyone in a group." : "Dossiers configurés par l'administrateur accessibles à tous les membres d'un groupe.",
     "About & What's new" : "À propos & quoi de neuf ?",
     "A welcome and introduction wizard for Nextcloud" : "Un assistant de bienvenue et d'introduction pour Nextcloud",
