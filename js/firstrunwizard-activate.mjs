@@ -1,3 +1,3 @@
-const __vite__fileDeps=[OC.filePath('firstrunwizard', '', 'js/main-BYoL_izH.mjs'),OC.filePath('firstrunwizard', '', 'css/firstrunwizard-main.css')],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
+const __vite__fileDeps=[OC.filePath('firstrunwizard', '', 'js/main-DlZuZGQG.mjs'),OC.filePath('firstrunwizard', '', 'css/firstrunwizard-main.css')],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
 /*! third party licenses: js/vendor.LICENSE.txt */
-import{_ as t}from"./modulepreload-polyfill-DDskOgo1.mjs";document.addEventListener("DOMContentLoaded",async function(){(await t(()=>import("./main-BYoL_izH.mjs"),__vite__mapDeps([0,1]),import.meta.url)).open()});
+import{_ as t}from"./modulepreload-polyfill-DDskOgo1.mjs";document.addEventListener("DOMContentLoaded",async function(){(await t(()=>import("./main-DlZuZGQG.mjs"),__vite__mapDeps([0,1]),import.meta.url)).open()});
