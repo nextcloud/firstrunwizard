@@ -9,4 +9,12 @@ import { join } from 'node:path'
 export default createAppConfig({
 	activate: join(__dirname, 'src', 'first-run.js'),
 	about: join(__dirname, 'src', 'app-menu.js'),
+	settings: join(__dirname, 'src', 'personal-settings.ts'),
+}, {
+	config: {
+		build: {
+			// Just one CSS files for now
+			cssCodeSplit: false,
+		},
+	},
 })
