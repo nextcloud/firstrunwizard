@@ -78,6 +78,7 @@ class BeforeTemplateRenderedListener implements IEventListener {
 			}
 		}
 
+		Util::addStyle(Application::APP_ID, Application::APP_ID . '-style');
 		Util::addScript(Application::APP_ID, Application::APP_ID . '-about');
 
 		$this->initialState->provideInitialState(
