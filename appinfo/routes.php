@@ -21,7 +21,6 @@
 
 return [
 	'routes' => [
-		['name' => 'Wizard#show', 'url' => '/wizard', 'verb' => 'GET'],
 		['name' => 'Wizard#disable', 'url' => '/wizard', 'verb' => 'DELETE'],
 	],
 ];

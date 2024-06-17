@@ -27,7 +27,6 @@ use OCA\FirstRunWizard\AppInfo\Application;
 use OCA\FirstRunWizard\Controller\WizardController;
 use OCP\AppFramework\Http;
 use OCP\AppFramework\Http\DataResponse;
-use OCP\Defaults;
 use OCP\IConfig;
 use OCP\IGroupManager;
 use OCP\IRequest;
@@ -60,8 +59,6 @@ class WizardControllerTest extends TestCase {
 			$this->createMock(IRequest::class),
 			$this->config,
 			$user,
-			\OC::$server->query(Defaults::class),
-			$this->groupManager
 		);
 	}
 
