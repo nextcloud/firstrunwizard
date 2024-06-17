@@ -23,11 +23,9 @@
 
 namespace OCA\FirstRunWizard\Tests\Controller;
 
-use OCA\FirstRunWizard\AppInfo\Application;
 use OCA\FirstRunWizard\Controller\WizardController;
 use OCP\AppFramework\Http;
 use OCP\AppFramework\Http\DataResponse;
-use OCP\Defaults;
 use OCP\IConfig;
 use OCP\IGroupManager;
 use OCP\IRequest;
@@ -60,8 +58,6 @@ class WizardControllerTest extends TestCase {
 			$this->createMock(IRequest::class),
 			$this->config,
 			$user,
-			\OC::$server->query(Defaults::class),
-			$this->groupManager
 		);
 	}
 
@@ -77,11 +73,6 @@ class WizardControllerTest extends TestCase {
 	 * @param string $user
 	 */
 	public function testDisable($user) {
-		$this->config->expects($this->once())
-			->method('getAppValue')
-			->with(Application::APP_ID, 'slides', 'video,values,apps,clients,final')
-			->willReturnArgument(2);
-
 		$controller = $this->getController($user);
 
 		$this->config->expects($this->once())
