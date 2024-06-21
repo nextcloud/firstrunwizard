@@ -28,7 +28,7 @@
 <script setup lang="ts">
 import { mdiAccountGroup, mdiBriefcaseCheck, mdiLock, mdiSwapHorizontal } from '@mdi/js'
 import { translate as t } from '@nextcloud/l10n'
-import { NcIconSvgWrapper } from '@nextcloud/vue'
+import NcIconSvgWrapper from '@nextcloud/vue/dist/Components/NcIconSvgWrapper.js'
 
 import Card from '../Card.vue'
 import WizardPage from '../WizardPage.vue'

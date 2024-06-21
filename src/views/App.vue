@@ -23,7 +23,8 @@
 
 <script setup lang="ts">
 import { generateUrl } from '@nextcloud/router'
-import { NcModal, useIsSmallMobile } from '@nextcloud/vue'
+import NcModal from '@nextcloud/vue/dist/Components/NcModal.js'
+import { useIsSmallMobile } from '@nextcloud/vue/dist/Composables/useIsMobile.js'
 import { computed, ref, watchEffect } from 'vue'
 import axios from '@nextcloud/axios'
 
