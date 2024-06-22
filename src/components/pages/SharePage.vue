@@ -29,7 +29,8 @@
 <script setup lang="ts">
 import { mdiEmail } from '@mdi/js'
 import { translate as t } from '@nextcloud/l10n'
-import { NcButton, NcIconSvgWrapper } from '@nextcloud/vue'
+import NcButton from '@nextcloud/vue/dist/Components/NcButton.js'
+import NcIconSvgWrapper from '@nextcloud/vue/dist/Components/NcIconSvgWrapper.js'
 
 import facebookSvg from '../../../img/facebook.svg?raw'
 import mastodonSvg from '../../../img/mastodon.svg?raw'
