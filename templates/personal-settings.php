@@ -58,7 +58,7 @@ $usesTLS = \OC::$server->getRequest()->getServerProtocol() === 'https';
 		<p><?php print_unescaped($l->t('Set up sync clients using an <a href="%s">app password</a>. That way you can make sure you are able to revoke access in case you lose that device.', [$appPasswordUrl])); ?></p>
 	</div>
 	<div class="section">
-		<h2><?php p($l->t('Connect other apps to %s', array($theme->getName()))); ?></h2>
+		<h2><?php p($l->t('Connect other apps to %s', [$theme->getName()])); ?></h2>
 
 		<p class="settings-hint"><?php print_unescaped($l->t('Besides the mobile apps and desktop client you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s.', [$theme->getName()])); ?></p>
 
