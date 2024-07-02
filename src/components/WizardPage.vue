@@ -41,6 +41,8 @@ defineProps<{
 }
 
 .heading {
+	font-size: 27px;
+	margin-block: 0;
 	text-align: center;
 }
 
