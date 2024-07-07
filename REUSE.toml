@@ -1,0 +1,90 @@
+# SPDX-FileCopyrightText: 2024 Nextcloud GmbH and Nextcloud contributors
+# SPDX-License-Identifier: AGPL-3.0-or-later
+version = 1
+SPDX-PackageName = "firstrunwizard"
+SPDX-PackageSupplier = "Nextcloud <info@nextcloud.com>"
+SPDX-PackageDownloadLocation = "https://github.com/nextcloud/firstrunwizard"
+
+[[annotations]]
+path = [".gitattributes", ".github/issue_template.md", ".github/CODEOWNERS", ".editorconfig", "package-lock.json", "package.json", "composer.json", "composer.lock", "**/composer.json", "**/composer.lock", ".l10nignore", "cypress/tsconfig.json", "vendor-bin/**/composer.json", "vendor-bin/**/composer.lock", ".tx/config", "tsconfig.json", "js/vendor.LICENSE.txt", "krankerl.toml", ".npmignore", ".nextcloudignore", ".eslintrc.json"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "none"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = ["l10n/**.js", "l10n/**.json", "l10n/**.php"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2016-2024 Nextcloud GmbH and Nextcloud contributors"
+SPDX-License-Identifier = "AGPL-3.0-or-later"
+
+[[annotations]]
+path = ["l10n/**.js", "l10n/**.json", "l10n/**.php"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2013-2016 ownCloud Inc. and ownCloud contributors"
+SPDX-License-Identifier = "AGPL-3.0-or-later"
+
+[[annotations]]
+path = ["js/**.js.map", "js/**.js", "js/**.mjs", "js/**.mjs.map", "js/templates/**.handlebars", "emptyTemplates/**"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2016 Nextcloud GmbH and Nextcloud contributors"
+SPDX-License-Identifier = "AGPL-3.0-or-later"
+
+[[annotations]]
+path = "css/firstrunwizard-main.css"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2024 Nextcloud GmbH and Nextcloud contributors"
+SPDX-License-Identifier = "AGPL-3.0-or-later"
+
+[[annotations]]
+path = ["img/Nextcloud.mp4", "img/Nextcloud.webm", "img/nextcloudLogo.svg"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2019 Nextcloud GmbH"
+SPDX-License-Identifier = "LicenseRef-NextcloudTrademarks"
+
+[[annotations]]
+path = ["img/nextcloudHub.mp4", "img/nextcloudHub.webm"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2024 Nextcloud GmbH"
+SPDX-License-Identifier = "LicenseRef-NextcloudTrademarks"
+
+[[annotations]]
+path = "img/apps/spreed.svg"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2019 Nextcloud GmbH"
+SPDX-License-Identifier = "LicenseRef-NextcloudTrademarks"
+
+[[annotations]]
+path = ["img/apps/calendar.svg", "img/apps/contacts.svg", "img/apps/deck.svg", "img/apps/forms.svg", "img/apps/groupfolders.svg", "img/apps/mail.svg", "img/apps/notes.svg", "img/apps/recognize.svg", "img/apps/social.svg", "img/apps/tasks.svg", "img/app.svg", "img/info.svg", "img/user.svg"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2019 Nextcloud GmbH and Nextcloud contributors"
+SPDX-License-Identifier = "AGPL-3.0-or-later"
+
+[[annotations]]
+path = "img/x.svg"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "X Corp."
+SPDX-License-Identifier = "LicenseRef-XTrademarks"
+
+[[annotations]]
+path = "img/facebook.svg"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2024 Meta"
+SPDX-License-Identifier = "LicenseRef-FacebookTrademarks"
+
+[[annotations]]
+path = "img/mastodon.svg"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2024 Mastodon gGmbH"
+SPDX-License-Identifier = "LicenseRef-MastodonTrademarks"
+
+[[annotations]]
+path = "img/androidBadge.png"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2024 Google LLC."
+SPDX-License-Identifier = "LicenseRef-GooglePlayBadge"
+
+[[annotations]]
+path = "img/iosBadge.png"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2024 Apple Inc."
+SPDX-License-Identifier = "LicenseRef-AppleAppStoreBadge"
