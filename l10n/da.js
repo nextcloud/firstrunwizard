@@ -55,6 +55,7 @@ OC.L10N.register(
     "Community" : "Onlinefællesskab",
     "Enjoy constant improvements from a thriving open-source community." : "Nyd konstante forbedringer fra et ivrigt open-source fællesskab.",
     "Share via email" : "Del via e-mail",
+    "Assistant: chat summaries, Mail reply suggestions, answers based on your data, and more" : "Assistent: chatoversigter, svarforslag på mail, svar baseret på dine data og mere",
     "Nextcloud on all your devices" : "Nextcloud på alle dine enheder",
     "Read more" : "Læs mere",
     "Share on social media" : "Del på sociale medier",
