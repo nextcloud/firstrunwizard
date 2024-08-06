@@ -37,10 +37,12 @@ defineProps<{
 
 .scroller {
 	overflow-y: scroll;
-	margin-top: calc(var(--default-grid-baseline) * 8);
+	margin-top: calc(4 * var(--default-grid-baseline));
 }
 
 .heading {
+	font-size: 20px;
+	margin-block: 0;
 	text-align: center;
 }
 
@@ -53,8 +55,8 @@ defineProps<{
 .content {
 	display: flex;
 	flex-wrap: wrap;
-	gap: calc(var(--default-grid-baseline) * 6);
+	gap: calc(6 * var(--default-grid-baseline));
 	justify-content: center;
-	margin: calc(var(--default-grid-baseline) * 10) 0;
+	margin: calc(8 * var(--default-grid-baseline)) 0;
 }
 </style>

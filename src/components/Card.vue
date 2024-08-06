@@ -42,8 +42,8 @@ const isLink = computed(() => !!props.href)
 
 .icon {
 	display: flex;
-	flex: 0 0 44px;
-	align-items: center;
+	flex: 0 0 var(--default-clickable-area);
+	align-items: start;
 
 	&:empty {
 		display: none;
@@ -51,6 +51,8 @@ const isLink = computed(() => !!props.href)
 }
 
 .heading {
+	// While this is semantically a heading, visually it should be bold text
+	font-size: var(--default-font-size);
 	font-weight: bold;
 	margin: 0;
 }

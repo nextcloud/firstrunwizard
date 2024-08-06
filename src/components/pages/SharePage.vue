@@ -10,7 +10,9 @@
 		</NcButton>
 
 		<section :class="$style.share_section">
-			<h2>{{ t('firstrunwizard', 'Share your opinion about Nextcloud Hub {version}', { version: HubRelease.version }) }}</h2>
+			<h3 :class="$style.heading">
+				{{ t('firstrunwizard', 'Share your opinion about Nextcloud Hub {version}', { version: HubRelease.version }) }}
+			</h3>
 			<div :class="$style.share_wrapper">
 				<Card v-for="entry of shareLinks"
 					:key="entry.id"
@@ -91,5 +93,11 @@ const shareLinks = [
 
 	/* Reduce padding a bit as we only have a single line of text with icon */
 	padding: calc(var(--default-grid-baseline) * 2) !important;
+}
+
+.heading {
+	/* Semantically a heading but visually bold text */
+	font-size: var(--default-font-size);
+	font-weight: bold;
 }
 </style>

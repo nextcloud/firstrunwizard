@@ -70,12 +70,11 @@ import type { IPage } from '../pages'
 
 import { translate as t } from '@nextcloud/l10n'
 import { imagePath } from '@nextcloud/router'
-import NcButton from '@nextcloud/vue/dist/Components/NcButton.js'
-import NcIconSvgWrapper from '@nextcloud/vue/dist/Components/NcIconSvgWrapper.js'
+import { mdiArrowLeft, mdiArrowRight, mdiClose } from '@mdi/js'
 import { useIsSmallMobile } from '@nextcloud/vue/dist/Composables/useIsMobile.js'
 import { computed, ref, useCssModule, watch } from 'vue'
-
-import { mdiArrowLeft, mdiArrowRight, mdiClose } from '@mdi/js'
+import NcButton from '@nextcloud/vue/dist/Components/NcButton.js'
+import NcIconSvgWrapper from '@nextcloud/vue/dist/Components/NcIconSvgWrapper.js'
 
 const props = defineProps<{
 	pages: IPage[]
