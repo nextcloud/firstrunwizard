@@ -76,7 +76,6 @@ import { computed, ref, useCssModule, watch } from 'vue'
 import NcButton from '@nextcloud/vue/dist/Components/NcButton.js'
 import NcIconSvgWrapper from '@nextcloud/vue/dist/Components/NcIconSvgWrapper.js'
 
-
 const props = defineProps<{
 	pages: IPage[]
 	currentIndex: number
