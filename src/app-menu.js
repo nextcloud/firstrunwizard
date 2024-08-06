@@ -10,12 +10,10 @@ import 'vite/modulepreload-polyfill'
  * Handle adding the first-run-wizard as an app menu entry
  */
 document.addEventListener('DOMContentLoaded', function() {
-	const aboutEntry = document.querySelector('#firstrunwizard_about button')
+	const aboutEntry = () => document.querySelector('#firstrunwizard_about')
 
 	const addListener = () => {
-		const aboutEntry = document.querySelector('#firstrunwizard_about button')
-
-		aboutEntry.addEventListener('click', async function(event) {
+		aboutEntry().addEventListener('click', async function(event) {
 			event.stopPropagation()
 			event.preventDefault()
 			const focusReturn = document.querySelector('[aria-controls="header-menu-user-menu"]') ?? undefined
@@ -25,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		})
 	}
 
-	if (aboutEntry) {
+	if (aboutEntry()) {
 		addListener()
 	} else {
 		window._nc_event_bus.subscribe('core:user-menu:mounted', addListener)
