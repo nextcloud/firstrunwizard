@@ -21,48 +21,26 @@
 
 namespace OCA\FirstRunWizard\Controller;
 
-use OCA\FirstRunWizard\AppInfo\Application;
 use OCP\AppFramework\Controller;
 use OCP\AppFramework\Http\DataResponse;
-use OCP\AppFramework\Http\JSONResponse;
-use OCP\Defaults;
 use OCP\IConfig;
-use OCP\IGroupManager;
 use OCP\IRequest;
 
 class WizardController extends Controller {
-
-	/** @var IConfig */
-	protected $config;
-
-	/** @var string */
-	protected $userId;
-
-	/** @var Defaults */
-	protected $theming;
-
-	/** @var IGroupManager */
-	protected $groupManager;
-
-	/** @var array|false|string[] */
-	protected $slides = [];
 
 	/**
 	 * @param string $appName
 	 * @param IRequest $request
 	 * @param IConfig $config
-	 * @param string $userId
-	 * @param Defaults $theming
+	 * @param string|null $userId
 	 */
-	public function __construct($appName, IRequest $request, IConfig $config, $userId, Defaults $theming, IGroupManager $groupManager) {
+	public function __construct(
+		$appName,
+		IRequest $request,
+		private IConfig $config,
+		private ?string $userId,
+	) {
 		parent::__construct($appName, $request);
-
-		$this->config = $config;
-		$this->userId = $userId;
-		$this->theming = $theming;
-		$this->groupManager = $groupManager;
-
-		$this->slides = explode(',', $this->config->getAppValue(Application::APP_ID, 'slides', 'video,values,apps,clients,final'));
 	}
 
 	/**
@@ -70,58 +48,8 @@ class WizardController extends Controller {
 	 * @return DataResponse
 	 */
 	public function disable() {
+		\assert($this->userId !== null);
 		$this->config->setUserValue($this->userId, 'firstrunwizard', 'show', 0);
 		return new DataResponse();
-	}
-
-	/**
-	 * @NoAdminRequired
-	 * @return JsonResponse
-	 */
-	public function show() {
-		$appStore = $this->config->getSystemValue('appstoreenabled', true);
-
-		$data = [
-			'desktop' => $this->config->getSystemValue('customclient_desktop', $this->theming->getSyncClientUrl()),
-			'android' => $this->config->getSystemValue('customclient_android', $this->theming->getAndroidClientUrl()),
-			'fdroid' => $this->config->getSystemValue('customclient_fdroid', $this->theming->getFDroidClientUrl()),
-			'ios' => $this->config->getSystemValue('customclient_ios', $this->theming->getiOSClientUrl()),
-			'appStore' => $appStore,
-			'useTLS' => $this->request->getServerProtocol() === 'https',
-			'macOSProfile' => \OCP\Util::linkToRemote('dav') . 'provisioning/apple-provisioning.mobileconfig',
-		];
-
-		$slides = [];
-
-		$slides[] = $this->staticSlide('page.values', $data);
-		if ($appStore && $this->groupManager->isAdmin($this->userId)) {
-			$slides[] = $this->staticSlide('page.apps', $data);
-		}
-		$slides[] = $this->staticSlide('page.clients', $data);
-		$slides[] = $this->staticSlide('page.final', $data);
-
-		return new JSONResponse([
-			'hasVideo' => in_array('video', $this->slides, true),
-			'slides' => array_values(array_filter($slides, function ($slide) {
-				return $slide !== null;
-			}))
-		]);
-	}
-
-	public function staticSlide($name, $params) {
-		if (!in_array(substr($name, 5), $this->slides, true)) {
-			return null;
-		}
-
-		$template = new \OCP\Template($this->appName, $name, false);
-
-		foreach ($params as $key => $value) {
-			$template->assign($key, $value);
-		}
-
-		return [
-			'type' => 'inline',
-			'content' => $template->fetchPage($params)
-		];
 	}
 }
