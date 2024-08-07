@@ -6,37 +6,39 @@ import { translate as t } from '@nextcloud/l10n'
 
 /* How to do a new release?
  * 1. Update the `version` to the current HUB release
- * 2. Update the `link` for further informations
+ * 2. Update the `link` for further information
  * 3. Add release notes, each entry is a new point.
  * 4. Update the alt text for the animation if needed.
  */
 export default {
 	/** The HUB release version */
-	version: '8',
+	version: '9',
 
 	/** Link to further information (e.g. blog post) */
-	link: 'https://nextcloud.com/blog/nextcloud-hub8/',
+	link: 'https://nextcloud.com/blog/nextcloud-hub9/',
 
 	/** Release notes in list format */
 	releaseNotes: [
-		'✨ ' + t('firstrunwizard', 'Assistant: chat summaries, Mail reply suggestions, answers based on your data, and more'),
+		'🌐 ' + t('firstrunwizard', 'Federated collaboration: file sharing, messaging, calls'),
 
-		'🖱️ ' + t('firstrunwizard', 'Interactive previews for files, folders, boards and events'),
+		'🗂️ ' + t('firstrunwizard', 'Nextcloud Project'),
 
-		'🌐 ' + t('firstrunwizard', 'Federated chat and message editing in Talk'),
+		'📌 ' + t('firstrunwizard', 'Nextcloud Whiteboard'),
 
-		'🗒️ ' + t('firstrunwizard', 'Mini-apps based on Tables'),
+		'✳️ ' + t('firstrunwizard', 'Workflow Engine'),
+
+		'💌 ' + t('firstrunwizard', 'Safer and swifter mail'),
 
 		'🔗 ' + t('firstrunwizard', 'Public Collectives sharing, previews and QR-codes'),
 
-		'👥 ' + t('firstrunwizard', 'Manage your team resources like a pro with Nextcloud Teams'),
+		'🎨 ' + t('firstrunwizard', 'Office and PDF templates'),
 
-		'🔄 ' + t('firstrunwizard', 'Forms: automatically sync with a spreadsheet'),
+		'💬 ' + t('firstrunwizard', 'Chat mode for Nextcloud Assistant'),
 	],
 
 	/** Alternative text for the release animation */
-	videoAltText: t('firstrunwizard', 'Get to know the new features of Hub 8'),
+	videoAltText: t('firstrunwizard', 'Get to know the new features of Hub 9'),
 
 	/** Subject that is used when sharing the post */
-	shareSubject: t('firstrunwizard', 'Nextcloud Hub {version} release', { version: '8' }),
+	shareSubject: t('firstrunwizard', 'Nextcloud Hub {version} release', { version: '9' }),
 }
