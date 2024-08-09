@@ -3,15 +3,14 @@
     "Keep your colleagues and friends in one place without leaking their private info." : "Gardatz vòstres companhs e amics a un sòl lòc sens divulgar lor vida privada.",
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Aplicacion simpla e simpatica de corrièl integrada a Fichièrs, Contactes e Calendièr.",
     "Smart media tagging for Nextcloud" : "Etiquetatge intelligent dels mèdias per Nextcloud",
-    "Close" : "Plegar",
-    "Privacy" : "Confidencialitat",
-    "Read more" : "Ne legir mai",
-    "Get the apps to sync your files" : "Obtenètz las aplicacions que vos permeton de sincronizar vòstres fichièrs",
+    "Access files via WebDAV" : "Accedissètz a vòstres fichièrs via WebDAV",
     "Desktop client" : "Client de burèu",
     "iOS app" : "Aplicacion iOS",
-    "Access files via WebDAV" : "Accedissètz a vòstres fichièrs via WebDAV",
+    "Close" : "Plegar",
+    "Privacy" : "Confidencialitat",
+    "Get the apps to sync your files" : "Obtenètz las aplicacions que vos permeton de sincronizar vòstres fichièrs",
     "Server address" : "Adreça del servidor",
-    "Copy link" : "Copiar lo ligam",
+    "Read more" : "Ne legir mai",
     "Copied!" : "Copiat !",
     "Not supported!" : "Pas pres en carga !",
     "Press ⌘-C to copy." : "Quichar ⌘-C per copiar.",
@@ -19,6 +18,7 @@
     "About" : "A prepaus",
     "Communication with Nextcloud Talk" : "Comunicacion amb Nextcloud Talk",
     "Connect your desktop apps to %s" : "Connectatz vòstras aplicacions de burèu a %s",
-    "A safe home for all your data" : "Un ostal segur per vòstras donadas"
+    "A safe home for all your data" : "Un ostal segur per vòstras donadas",
+    "Copy link" : "Copiar lo ligam"
 },"pluralForm" :"nplurals=2; plural=(n > 1);"
 }
