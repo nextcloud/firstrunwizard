@@ -7,10 +7,10 @@ OC.L10N.register(
     "Close" : "ປິດ",
     "Privacy" : "ສ່ວນຕົວ",
     "Community" : "ຊຸມຊົນ",
-    "Copy link" : "ສຳເນົາລິງ",
     "Copied!" : "ກ໋ອບປີ້ແລ້ວ",
     "Not supported!" : "ບໍ່ຊັບຟອດ",
     "Press Ctrl-C to copy." : "ກົດ Ctrl-C ເພື່ອ copy",
-    "About" : "ກ່ຽວກັບ"
+    "About" : "ກ່ຽວກັບ",
+    "Copy link" : "ສຳເນົາລິງ"
 },
 "nplurals=1; plural=0;");
