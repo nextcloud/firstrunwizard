@@ -13,7 +13,7 @@
 The First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation.
 </description>
 
-	<version>3.0.0</version>
+	<version>4.0.0</version>
 	<licence>agpl</licence>
 	<author>Frank Karlitschek</author>
 	<author>Jan-Christoph Borchardt</author>
@@ -31,7 +31,7 @@ The First run wizard can be customized to meet specific design goals, or to chan
 	<repository>https://github.com/nextcloud/firstrunwizard.git</repository>
 
 	<dependencies>
-		<nextcloud min-version="30" max-version="30" />
+		<nextcloud min-version="31" max-version="31" />
 	</dependencies>
 
 	<settings>
