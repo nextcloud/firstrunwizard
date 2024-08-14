@@ -152,7 +152,7 @@ This file is generated from multiple sources. Included packages:
 	- version: 1.6.8
 	- license: MIT
 - firstrunwizard
-	- version: 3.0.0
+	- version: 4.0.0
 	- license: AGPL-3.0-or-later
 - semver
 	- version: 7.6.3

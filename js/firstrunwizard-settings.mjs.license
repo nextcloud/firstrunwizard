@@ -24,7 +24,7 @@ This file is generated from multiple sources. Included packages:
 	- version: 8.16.0
 	- license: AGPL-3.0-or-later
 - firstrunwizard
-	- version: 3.0.0
+	- version: 4.0.0
 	- license: AGPL-3.0-or-later
 - path-browserify
 	- version: 1.0.1
