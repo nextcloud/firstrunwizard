@@ -18,8 +18,6 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "Tekan ⌘-C untuk menyalin.",
     "Press Ctrl-C to copy." : "Tekan CTRL-C untuk menyalin.",
     "About" : "Tentang",
-    "Connect your desktop apps to %s" : "Hubungkan aplikasi desktop Anda ke %s",
-    "A safe home for all your data" : "Rumah yang aman untuk semua data Anda",
     "Copy link" : "Salin tautan"
 },
 "nplurals=1; plural=0;");

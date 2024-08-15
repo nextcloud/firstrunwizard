@@ -20,10 +20,6 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "Apasă ⌘-C pentru copiere.",
     "Press Ctrl-C to copy." : "Apasă Ctrl-C pentru copiere.",
     "About" : "Despre",
-    "Nextcloud gives you access to your files wherever you are." : "Nextcloud vă oferă acces la fișierele dumneavoastră oriunde v-ați afla.",
-    "Connect your desktop apps to %s" : "Conectează-ți aplicațiile desktop la %s",
-    "A safe home for all your data" : "O casă sigură pentru toate datele tale",
-    "Learn more about %s" : "Află mai multe despre %s",
     "Copy link" : "Copiză link"
 },
 "nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));");

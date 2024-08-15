@@ -23,8 +23,6 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "Kopeerimiseks vajuta ⌘+C.",
     "Press Ctrl-C to copy." : "Kopeerimiseks vajuta Ctrl+C.",
     "About" : "Info",
-    "Connect your desktop apps to %s" : "Ühenda oma töölaua rakendus %s",
-    "A safe home for all your data" : "Turvaline koht sinu andmetele",
     "Copy link" : "Kopeeri link"
 },
 "nplurals=2; plural=(n != 1);");
