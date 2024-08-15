@@ -17,17 +17,6 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "กด ⌘-C เพื่อคัดลอก",
     "Press Ctrl-C to copy." : "กด Ctrl-C เพื่อคัดลอก",
     "About" : "เกี่ยวกับ",
-    "Start using {cloudName}" : "เริ่มใช้ {cloudName}",
-    "Extend your cloud" : "ขยายคลาวด์ของคุณ",
-    "Connect your desktop apps to %s" : "เชื่อมต่อแอปเดสก์ท็อปของคุณไปยัง %s",
-    "Get help" : "รับความช่วยเหลือ",
-    "Get more information" : "รับข้อมูลเพิ่มเติม",
-    "The Nextcloud documentation for home users:" : "เอกสารประกอบ Nextcloud สำหรับผู้ใช้ที่บ้าน:",
-    "User manual" : "คู่มือผู้ใช้",
-    "Admin manual" : "คู่มือผู้ดูแลระบบ",
-    "Developer manual" : "คู่มือนักพัฒนา",
-    "A safe home for all your data" : "บ้านที่ปลอดภัยสำหรับข้อมูลของคุณ",
-    "Learn more about %s" : "ดูเพิ่มเติมเกี่ยวกับ %s",
     "Copy link" : "คัดลอกลิงก์"
 },
 "nplurals=1; plural=0;");

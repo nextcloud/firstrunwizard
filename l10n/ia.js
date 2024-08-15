@@ -16,7 +16,6 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "Pulsa ⌘-C pro copiar.",
     "Press Ctrl-C to copy." : "Pulsa Ctrl-C pro copiar.",
     "About" : "A proposito",
-    "Connect your desktop apps to %s" : "Connecte tu application de scriptorio a %s",
     "Copy link" : "Copiar ligamine"
 },
 "nplurals=2; plural=(n != 1);");

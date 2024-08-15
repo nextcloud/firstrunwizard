@@ -12,7 +12,6 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "Kopyalamaq üçün ⌘-C basın.",
     "Press Ctrl-C to copy." : "Kopyalamaq üçün Ctrl-C basın.",
     "About" : "Haqqında",
-    "Connect your desktop apps to %s" : "Desktop proqramınızı %s-ə qoşun",
     "Copy link" : "linki nüsxələ"
 },
 "nplurals=2; plural=(n != 1);");
