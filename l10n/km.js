@@ -8,7 +8,6 @@ OC.L10N.register(
     "Press ⌘-C to copy." : " ចុច ⌘-C ដើម្បីចម្លង",
     "Press Ctrl-C to copy." : "ចុច Ctrl-C ដើម្បីចម្លង",
     "About" : "អំពី",
-    "Connect your desktop apps to %s" : "ភ្ជាប់​កម្មវិធី​លើ​កុំព្យូទ័រ​របស់​អ្នក​ទៅ %s",
     "Copy link" : "ចម្លងតំណ"
 },
 "nplurals=1; plural=0;");

@@ -33,16 +33,6 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "Pressionar ⌘-C para copiar.",
     "Press Ctrl-C to copy." : "Pressionar Ctrl-C para copiar.",
     "About" : "Sobre",
-    "Connect your desktop apps to %s" : "Ligue as suas aplicações de PC para %s",
-    "Get help" : "Obter ajuda",
-    "Start contributing" : "Começar a contribuir",
-    "Become part of the Community" : "Faça parte da comunidade",
-    "Get more information" : "Obter mais informação",
-    "User manual" : "Manual do utilizador",
-    "Admin manual" : "Manual do administrador",
-    "Developer manual" : "Manual do programador",
-    "the Nextcloud forums" : "os fóruns Nextcloud",
-    "A safe home for all your data" : "Um local seguro para todos os seus dados",
     "Copy link" : "Copiar hiperligação"
 },
 "nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");

@@ -20,8 +20,6 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "Spied ⌘-C lai kopētu.",
     "Press Ctrl-C to copy." : "Spied Ctrl-C lai kopētu.",
     "About" : "Par",
-    "Get more information" : "Iegūt vairāk informācijas",
-    "A safe home for all your data" : "Droša vieta visiem Taviem datiem",
     "Copy link" : "Kopēt saiti"
 },
 "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);");

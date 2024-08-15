@@ -10,7 +10,6 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "অনুলিপি করতে ⌘-C টিপুন।",
     "Press Ctrl-C to copy." : "অনুলিপি করতে Ctrl-C টিপুন।",
     "About" : "সমপরকে",
-    "Connect your desktop apps to %s" : "আপনার ডেস্কটপ অ্যাপসমূহ %s এর সংগে যুক্ত করুন",
     "Copy link" : "লিঙ্ক কপি করো"
 },
 "nplurals=2; plural=(n != 1);");
