@@ -18,8 +18,6 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "კოპირებისთვის დააჭირეთ ⌘-C-ს.",
     "Press Ctrl-C to copy." : "კოპირებისთვის დააჭირეთ Ctrl-C-ს.",
     "About" : "შესახებ",
-    "Connect your desktop apps to %s" : "დაუკავშირეთ თქვენი დესკტოპ აპლიკაციები %s-ს",
-    "A safe home for all your data" : "უსაფრთხო სახლი მთელი თქვენი მონაცემებისათვის",
     "Copy link" : "ბმულის კოპირება"
 },
 "nplurals=2; plural=(n!=1);");

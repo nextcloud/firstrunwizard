@@ -18,9 +18,6 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "Quichar ⌘-C per copiar.",
     "Press Ctrl-C to copy." : "Quichar Ctrl-C per copiar.",
     "About" : "A prepaus",
-    "Communication with Nextcloud Talk" : "Comunicacion amb Nextcloud Talk",
-    "Connect your desktop apps to %s" : "Connectatz vòstras aplicacions de burèu a %s",
-    "A safe home for all your data" : "Un ostal segur per vòstras donadas",
     "Copy link" : "Copiar lo ligam"
 },
 "nplurals=2; plural=(n > 1);");

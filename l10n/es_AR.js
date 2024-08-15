@@ -18,9 +18,6 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "Presione ⌘-C para copiar.",
     "Press Ctrl-C to copy." : "Presione Ctrl-C para copiar.",
     "About" : "Acerca de",
-    "Connect your desktop apps to %s" : "Conecte su aplicación de escritorio a %s",
-    "Get more information" : "Obter más información",
-    "A safe home for all your data" : "Un hogar seguro para todos tus datos.",
     "Copy link" : "Copiar enlace"
 },
 "nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");

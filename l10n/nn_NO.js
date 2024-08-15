@@ -11,7 +11,6 @@ OC.L10N.register(
     "Press ⌘-C to copy." : "Trykk  ⌘-C for å kopiere.",
     "Press Ctrl-C to copy." : "Trykk Ctrl-C for å kopiere.",
     "About" : "Om",
-    "A safe home for all your data" : "Eit trygt heim for all din data",
     "Copy link" : "Kopier lenkje"
 },
 "nplurals=2; plural=(n != 1);");
