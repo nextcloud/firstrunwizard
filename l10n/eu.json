@@ -71,6 +71,7 @@
     "Nextcloud Hub {version} release" : "Nextcloud Hub {bertsioa} bertsioa",
     "Read more about it on the Nextcloud Hub {version} blog" : "Irakurri horri buruzko informazio gehiago Nextcloud Hub {version}-ren blogean",
     "New in Nextcloud Hub {version}" : "Berria Nextcloud Hub {bertsioa}-en",
+    "Connect other apps to {productName}" : "Konektatu beste aplikazio batzuk {productName}-ra",
     "Get the apps to sync your files" : "Lortu aplikazioak zure fitxategiak sinkronizatzeko",
     "Server address" : "Zerbitzariaren helbidea",
     "Use this link to connect your apps and desktop client to this server:" : "Erabili esteka hau zure aplikazioak eta mahaigaineko bezeroa zerbitzari honetara konektatzeko:",
