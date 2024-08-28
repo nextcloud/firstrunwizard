@@ -21,8 +21,6 @@ export default {
 	releaseNotes: [
 		'🌐 ' + t('firstrunwizard', 'Federated collaboration: file sharing, messaging, calls'),
 
-		'🗂️ ' + t('firstrunwizard', 'Nextcloud Project'),
-
 		'📌 ' + t('firstrunwizard', 'Nextcloud Whiteboard'),
 
 		'✳️ ' + t('firstrunwizard', 'Workflow Engine'),
