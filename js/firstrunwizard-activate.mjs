@@ -1,2 +1,2 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=[window.OC.filePath('firstrunwizard', '', 'js/main-CJwIL9Ll.chunk.mjs'),window.OC.filePath('firstrunwizard', '', 'js/NcIconSvgWrapper-Ckqpz-vm-DfxD4hqH.chunk.mjs')])))=>i.map(i=>d[i]);
-import{_ as t}from"./modulepreload-polyfill-xeIZn2tR.chunk.mjs";document.addEventListener("DOMContentLoaded",async function(){(await t(()=>import("./main-CJwIL9Ll.chunk.mjs"),__vite__mapDeps([0,1]),import.meta.url)).open()});
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=[window.OC.filePath('firstrunwizard', '', 'js/main-DTHjYcUf.chunk.mjs'),window.OC.filePath('firstrunwizard', '', 'js/NcIconSvgWrapper-Ckqpz-vm-BmlRkq83.chunk.mjs')])))=>i.map(i=>d[i]);
+import{_ as t}from"./modulepreload-polyfill-MVl3sFGm.chunk.mjs";document.addEventListener("DOMContentLoaded",async function(){(await t(()=>import("./main-DTHjYcUf.chunk.mjs"),__vite__mapDeps([0,1]),import.meta.url)).open()});
