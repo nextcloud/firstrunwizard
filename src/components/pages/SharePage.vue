@@ -90,6 +90,7 @@ const shareLinks = [
 
 .card {
 	flex: 1 1 auto;
+	min-width: calc(50% - var(--default-grid-baseline) * 10);
 
 	/* Reduce padding a bit as we only have a single line of text with icon */
 	padding: calc(var(--default-grid-baseline) * 2) !important;
