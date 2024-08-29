@@ -17,10 +17,6 @@
 		<Card href="https://nextcloud.com/enterprise/"
 			:title="t('firstrunwizard', 'For large organisations ↗')"
 			:subtitle="t('firstrunwizard', 'Get Nextcloud Enterprise for mission critical environments where advanced security and compliance are important.')" />
-
-		<p :class="$style.version">
-			{{ versionNumber }}
-		</p>
 	</WizardPage>
 </template>
 
@@ -29,14 +25,4 @@ import { translate as t } from '@nextcloud/l10n'
 
 import Card from '../Card.vue'
 import WizardPage from '../WizardPage.vue'
-
-const versionNumber = t('firstrunwizard', 'This Nextcloud is on version {version}', { version: window.OC.config.versionstring })
 </script>
-
-<style module>
-.version {
-	color: var(--color-text-maxcontrast);
-	margin-block: calc(var(--default-grid-baseline) * 4) 0;
-	text-align: center;
-}
-</style>

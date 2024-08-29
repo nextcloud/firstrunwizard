@@ -22,6 +22,10 @@
 			:subtitle="t('firstrunwizard', 'Enjoy constant improvements from a thriving open-source community.')">
 			<NcIconSvgWrapper :class="$style.icon" inline :path="mdiAccountGroup" />
 		</Card>
+
+		<p :class="$style.version">
+			{{ versionNumber }}
+		</p>
 	</WizardPage>
 </template>
 
@@ -36,10 +40,18 @@ import WizardPage from '../WizardPage.vue'
 defineProps<{
 	scrollerClasses?: string | string[] | Record<string, boolean>
 }>()
+
+const versionNumber = t('firstrunwizard', 'This Nextcloud is on version {version}', { version: window.OC.config.versionstring })
 </script>
 
 <style module>
 .icon {
 	margin-block: calc((1lh - 20px) / 2);
+}
+
+.version {
+	color: var(--color-text-maxcontrast);
+	margin-block: calc(var(--default-grid-baseline) * 4) 0;
+	text-align: center;
 }
 </style>
