@@ -18,7 +18,7 @@
 					:key="entry.id"
 					:class="$style.card"
 					:href="entry.link"
-					:title="entry.id === 'mail' ? t('firstrunwizard', 'Share via email') : t('firstrunwizard', 'Share on {socialMedia}', { socialMedia: entry.name })">
+					:title="entry.id === 'email' ? t('firstrunwizard', 'Share via email') : t('firstrunwizard', 'Share on {socialMedia}', { socialMedia: entry.name })">
 					<NcIconSvgWrapper v-if="entry.icon"
 						:svg="entry.id !== 'email' ? entry.icon : undefined"
 						:path="entry.id === 'email' ? entry.icon : undefined" />
