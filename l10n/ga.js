@@ -85,7 +85,6 @@ OC.L10N.register(
     "URL copied" : "URL cóipeáilte",
     "Could not copy the URL, please copy manually" : "Níorbh fhéidir an URL a chóipeáil, cóip de láimh le do thoil",
     "Federated collaboration: file sharing, messaging, calls" : "Comhoibriú cónaidhme: comhroinnt comhad, teachtaireachtaí, glaonna",
-    "Nextcloud Project" : "Tionscadal Nextcloud",
     "Nextcloud Whiteboard" : "Clár Bán Nextcloud",
     "Workflow Engine" : "Inneall Sreabhadh Oibre",
     "Safer and swifter mail" : "Ríomhphost níos sábháilte agus níos gasta",

@@ -82,7 +82,6 @@ OC.L10N.register(
     "URL copied" : "URL copiada",
     "Could not copy the URL, please copy manually" : "No se pudo copiar la URL, por favor, cópiela manualmente",
     "Federated collaboration: file sharing, messaging, calls" : "Colaboración federada: compartir archivos, mensajería, llamadas",
-    "Nextcloud Project" : "Proyecto de Nextcloud",
     "Nextcloud Whiteboard" : "Pizarrón de Nextcloud",
     "Workflow Engine" : "Motor de flujo de trabajo",
     "Safer and swifter mail" : "Correo más seguro y rápido",

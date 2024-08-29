@@ -85,7 +85,6 @@ OC.L10N.register(
     "URL copied" : "URLa kopiatu da",
     "Could not copy the URL, please copy manually" : "Ezin izan da URLa kopiatu, kopiatu eskuz",
     "Federated collaboration: file sharing, messaging, calls" : "Elkarlan federatua: fitxategiak partekatzea, mezularitza, deiak",
-    "Nextcloud Project" : "Nextcloud proiektua",
     "Nextcloud Whiteboard" : "Nextcloud arbela",
     "Workflow Engine" : "Lan-fluxuen motorra",
     "Safer and swifter mail" : "Posta seguruagoa eta azkarragoa",
