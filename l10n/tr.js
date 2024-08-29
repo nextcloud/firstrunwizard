@@ -85,7 +85,6 @@ OC.L10N.register(
     "URL copied" : "Adres kopyalandı",
     "Could not copy the URL, please copy manually" : "Adres kopyalanamadı. Lütfen el ile kopyalayın",
     "Federated collaboration: file sharing, messaging, calls" : "Birleşik işbirliği: Dosya paylaşımı, ileti gönderme, çağrılar",
-    "Nextcloud Project" : "Nextcloud Projesi",
     "Nextcloud Whiteboard" : "Nextcloud Beyaz Tahta",
     "Workflow Engine" : "İş akışı işleyici",
     "Safer and swifter mail" : "Daha güvenli ve daha hızlı e-posta",

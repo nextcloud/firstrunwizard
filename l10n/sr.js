@@ -85,7 +85,6 @@ OC.L10N.register(
     "URL copied" : "URL је копиран",
     "Could not copy the URL, please copy manually" : "Није успело копирање URL-а, молимо вас да га ручно копирате",
     "Federated collaboration: file sharing, messaging, calls" : "Здружена сарадња: дељење фајлова, поруке, позиви",
-    "Nextcloud Project" : "Nextcloud пројекат",
     "Nextcloud Whiteboard" : "Nextcloud бела табла",
     "Workflow Engine" : "Механизам тока рада",
     "Safer and swifter mail" : "Безбеднија и бржа пошта",

@@ -85,6 +85,8 @@ OC.L10N.register(
     "URL copied" : "Посилання скопійовано",
     "Could not copy the URL, please copy manually" : "Не вдалося скопіювати посилання, спробуйте скопіювати вручну",
     "Federated collaboration: file sharing, messaging, calls" : "Співпраця об'єднаних хмар: спільні документи, обмін повідомленням, дзвінки",
+    "Nextcloud Whiteboard" : "Дошка для Nextcloud",
+    "Workflow Engine" : "Рушій процесів",
     "Safer and swifter mail" : "Безпечніша та швидко доступна пошта",
     "Public Collectives sharing, previews and QR-codes" : "Можливість ділитися публічно даними Collectives, попередній перегляд та підтримка QR-коді",
     "Office and PDF templates" : "Шаблони офісних документів та PDF",
