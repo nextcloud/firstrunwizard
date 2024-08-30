@@ -2,7 +2,6 @@ OC.L10N.register(
     "firstrunwizard",
     {
     "First run wizard" : "اول ویزاد را اجرا کنید",
-    "Add your profile information! For example your email is needed to receive notifications." : "Add your profile information! For example your email is needed to receive notifications.",
     "Add your profile information! For example your email is needed to receive notifications and reset your password." : "Add your profile information! For example your email is needed to receive notifications and reset your password.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "اطلاعات نمایهٔ خود را اضافه کنید! یک تصویر نمایه و نام کامل برای تشخیص آسان‌تر در تمام ویژگی‌ها تنظیم کنید.",
     "Add your profile information! Set a full name for easier recognition across all features." : "اطلاعات نمایهٔ خود را اضافه کنید! یک نام کامل برای تشخیص آسان‌تر در تمام ویژگی‌ها تنظیم کنید.",
@@ -34,6 +33,7 @@ OC.L10N.register(
     "A welcome and introduction wizard for Nextcloud" : "خوش آمد گویی و معرفی ویزارد برای  Nextcloud",
     "This application enables a pop-up window when a user first logs into Nextcloud. This window welcomes new users to Nextcloud, and contains links to the standard desktop client, Android app, and the iOS app. The window also shows a link for accessing Nextcloud via WebDAV. At any time, the first run wizard can be opened again via link \"About\" on settings menu.\nThe First run wizard can be customized to meet specific design goals, or to change links and messages. Create an appropriate theme following the Theming documentation, and changes to the look and feel of this Wizard are simple. More information is available in the first run wizard documentation, as well as the theming documentation." : "این برنامه وقتی کاربر برای اولین بار وارد Nextcloud می شود ، پنجره بازشو را فعال می کند. این پنجره از کاربران جدید به Nextcloud استقبال می کند و شامل پیوندهایی به مشتری استاندارد رومیزی ، برنامه Android و برنامه iOS است. در پنجره همچنین پیوندی برای دسترسی به Nextcloud از طریق WebDAV نشان داده شده است. در هر زمان ، اولین جادوگر اجرا می تواند دوباره از طریق پیوند \"درباره\" در فهرست تنظیمات باز شود.\nجادوگر اجرای اول می تواند برای تحقق اهداف خاص طراحی یا تغییر لینک ها و پیام ها سفارشی شود. با دنبال کردن مستندات Theming ، یک تم مناسب ایجاد کنید و تغییراتی در ظاهر و احساس این جادوگر ساده است. اطلاعات بیشتر در مستندات جادوگر اول اجرا و همچنین اسناد مضامین موجود است.",
     "Close" : "بسته",
+    "Need help? ↗" : "نیاز به راهنمایی دارید؟ ↗",
     "Calendar and contacts ↗" : "تقویم و مخاطبین",
     "Welcome to {cloudName}!" : "Welcome to {cloudName}!",
     "Privacy" : "محرمانگی",
