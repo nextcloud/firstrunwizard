@@ -36,6 +36,8 @@
     "Privacy" : "Zasebnost",
     "Community" : "Skupnost",
     "Share via email" : "Povezava do datoteke po elektronski pošti",
+    "Connect other apps to {productName}" : "Z oblakom {productName} povežite druge programe",
+    "Besides the mobile apps and desktop client you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to {productName}." : "Ob odjemalcih za usklajevanje je mogoča povezava okoljem {productName}tudi z drugo programsko opremo, ki podpira protokole WebDAV / CalDAV / CardDAV.",
     "Get the apps to sync your files" : "Programi za usklajevanje datotek",
     "Server address" : "Naslov strežnika",
     "Use this link to connect your apps and desktop client to this server:" : "Naslov za povezavo programa s strežnikom:",
