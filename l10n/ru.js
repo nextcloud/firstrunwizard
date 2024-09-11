@@ -85,6 +85,7 @@ OC.L10N.register(
     "Could not copy the URL, please copy manually" : "Не удалось скопировать URL-адрес, пожалуйста, скопируйте вручную",
     "Federated collaboration: file sharing, messaging, calls" : "Федеративная совместная работа: общий доступ к файлам, обмен сообщениями, звонки",
     "Public Collectives sharing, previews and QR-codes" : "Общий доступ к группам, предварительный просмотр и QR-коды",
+    "Office and PDF templates" : "Шаблоны Office и PDF",
     "Get to know the new features of Hub 9" : "Познакомьтесь с новыми функциями Hub 9",
     "What's new?" : "Что нового?",
     "Nextcloud on all your devices" : "Nextcloud на всех ваших устройствах",
