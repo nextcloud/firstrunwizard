@@ -196,7 +196,7 @@ class Notifier implements INotifier {
 				break;
 			case 'whiteboard':
 				$notification->setParsedSubject($l->t('App recommendation: Whiteboard'));
-				$notification->setParsedMessage($l->t('Create and share whiteboards with other users and collaborate in real-time.'));
+				$notification->setParsedMessage($l->t('Create and share whiteboards with others and collaborate in real-time.'));
 				$appLink = '/office/whiteboard';
 				break;
 		}
