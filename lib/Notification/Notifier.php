@@ -100,6 +100,7 @@ class Notifier implements INotifier {
 			case 'apphint-notes':
 			case 'apphint-recognize':
 			case 'apphint-groupfolders':
+			case 'apphint-whiteboard':
 				$app = $notification->getObjectId();
 				return $this->setAppHintDetails($notification, $languageCode, $app);
 			default:
@@ -192,6 +193,11 @@ class Notifier implements INotifier {
 				$notification->setParsedSubject($l->t('App recommendation: Group folders'));
 				$notification->setParsedMessage($l->t('Admin-configured folders shared by everyone in a group.'));
 				$appLink = '/files/groupfolders';
+				break;
+			case 'whiteboard':
+				$notification->setParsedSubject($l->t('App recommendation: Whiteboard'));
+				$notification->setParsedMessage($l->t('Create and share whiteboards with other users and collaborate in real-time.'));
+				$appLink = '/office/whiteboard';
 				break;
 		}
 		$notification

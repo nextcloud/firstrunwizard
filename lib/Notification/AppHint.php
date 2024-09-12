@@ -28,7 +28,7 @@ class AppHint {
 	/** @var string */
 	private $userId;
 
-	public const APP_HINT_VERSION = '18';
+	public const APP_HINT_VERSION = '19';
 
 	public function __construct(INotificationManager $notificationManager, IGroupManager $groupManager, IAppManager $appManager, IConfig $config, $userId) {
 		$this->notificationManager = $notificationManager;
@@ -45,6 +45,7 @@ class AppHint {
 			$this->sendNotification('forms', $this->userId);
 			$this->sendNotification('deck', $this->userId);
 			$this->sendNotification('tasks', $this->userId);
+			$this->sendNotification('whiteboard', $this->userId);
 			$this->config->setUserValue($this->userId, 'firstrunwizard', 'apphint', self::APP_HINT_VERSION);
 		}
 	}
