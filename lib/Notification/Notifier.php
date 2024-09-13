@@ -154,17 +154,17 @@ class Notifier implements INotifier {
 		$appLink = '';
 		switch ($app) {
 			case 'calendar':
-				$notification->setParsedSubject($l->t('App recommendation: Nextcloud Calendar'));
+				$notification->setParsedSubject($l->t('App recommendation: Calendar'));
 				$notification->setParsedMessage($l->t('Schedule work & meetings, synced with all your devices.'));
 				$appLink = '/organization/calendar';
 				break;
 			case 'contacts':
-				$notification->setParsedSubject($l->t('App recommendation: Nextcloud Contacts'));
+				$notification->setParsedSubject($l->t('App recommendation: Contacts'));
 				$notification->setParsedMessage($l->t('Keep your colleagues and friends in one place without leaking their private info.'));
 				$appLink = '/organization/contacts';
 				break;
 			case 'mail':
-				$notification->setParsedSubject($l->t('App recommendation: Nextcloud Mail'));
+				$notification->setParsedSubject($l->t('App recommendation: Mail'));
 				$notification->setParsedMessage($l->t('Simple email app nicely integrated with Files, Contacts and Calendar.'));
 				$appLink = '/social/mail';
 				break;
