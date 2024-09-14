@@ -23,6 +23,8 @@ OC.L10N.register(
     "Smart media tagging for Nextcloud" : "Nextcloud向けのスマートメディアへのタグ付け",
     "App recommendation: Group folders" : "アプリのおすすめ：グループフォルダー",
     "Admin-configured folders shared by everyone in a group." : "管理者が設定したフォルダーをグループの全員で共有",
+    "App recommendation: Whiteboard" : "アプリのおすすめ：Whiteboard",
+    "Create and share whiteboards with others and collaborate in real-time." : "ホワイトボードを作成して他のユーザーと共有し、リアルタイムでコラボレーションできます。",
     "Connect your calendar" : "カレンダーに接続",
     "Connect your contacts" : "連絡先に接続",
     "Access files via WebDAV" : "WebDAV 経由でファイルにアクセス",
