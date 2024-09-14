@@ -23,6 +23,8 @@ OC.L10N.register(
     "Smart media tagging for Nextcloud" : "Nextcloud 的智慧型媒體標記",
     "App recommendation: Group folders" : "推薦功能: Group folders",
     "Admin-configured folders shared by everyone in a group." : "管理員設定的資料夾，與群組中的所有人分享。",
+    "App recommendation: Whiteboard" : "應用程式推薦：Whiteboard",
+    "Create and share whiteboards with others and collaborate in real-time." : "建立與其他人分享白板並即時協作。",
     "Connect your calendar" : "連結您的日曆",
     "Connect your contacts" : "連結您的聯絡人",
     "Access files via WebDAV" : "透過 WebDAV 存取檔案",
