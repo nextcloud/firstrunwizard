@@ -88,3 +88,9 @@ path = "img/iosBadge.png"
 precedence = "aggregate"
 SPDX-FileCopyrightText = "2024 Apple Inc."
 SPDX-License-Identifier = "LicenseRef-AppleAppStoreBadge"
+
+[[annotations]]
+path = ["img/apps/whiteboard.svg"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2019 Simran-B <https://pictogrammers.com/contributor/Simran-B/>"
+SPDX-License-Identifier = "Apache-2.0"
