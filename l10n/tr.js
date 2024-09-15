@@ -23,6 +23,8 @@ OC.L10N.register(
     "Smart media tagging for Nextcloud" : "Nextcloud için akıllı ortam etiketleme",
     "App recommendation: Group folders" : "Önerilen uygulama: Grup klasörleri",
     "Admin-configured folders shared by everyone in a group." : "Yönetici tarafından gruptaki herkesin görebilmesi için yapılandırılmış klasörler.",
+    "App recommendation: Whiteboard" : "Önerilen uygulama: Beyaz tahta",
+    "Create and share whiteboards with others and collaborate in real-time." : "Beyaz tahtalar oluşturun, başkalarıyla paylaşın ve gerçek zamanlı olarak işbirliği yapın.",
     "Connect your calendar" : "Takviminizi bağlayın",
     "Connect your contacts" : "Kişilerinizi bağlayın",
     "Access files via WebDAV" : "WebDAV üzerinden dosyalarınıza erişin",
