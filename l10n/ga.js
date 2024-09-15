@@ -23,6 +23,8 @@ OC.L10N.register(
     "Smart media tagging for Nextcloud" : "Clibeáil cliste meán do Nextcloud",
     "App recommendation: Group folders" : "Moladh aip: Fillteáin ghrúpa",
     "Admin-configured folders shared by everyone in a group." : "Fillteáin riarthóra-chumraithe arna roinnt ag gach duine i ngrúpa.",
+    "App recommendation: Whiteboard" : "Moladh aipe: Clár Bán",
+    "Create and share whiteboards with others and collaborate in real-time." : "Cláir bhána a chruthú agus a roinnt le daoine eile agus comhoibriú i bhfíor-am.",
     "Connect your calendar" : "Ceangail d'fhéilire",
     "Connect your contacts" : "Ceangail do theagmhálaithe",
     "Access files via WebDAV" : "Faigh rochtain ar chomhaid trí WebDAV",
