@@ -12,16 +12,19 @@ This file is generated from multiple sources. Included packages:
 	- version: 5.3.7
 	- license: AGPL-3.0-or-later
 - @nextcloud/vue
-	- version: 8.17.1
+	- version: 8.19.0
 	- license: AGPL-3.0-or-later
 - @nextcloud/vue
-	- version: 8.17.1
+	- version: 8.19.0
 	- license: AGPL-3.0-or-later
 - @nextcloud/vue
-	- version: 8.17.1
+	- version: 8.19.0
 	- license: AGPL-3.0-or-later
 - @nextcloud/vue
-	- version: 8.17.1
+	- version: 8.19.0
+	- license: AGPL-3.0-or-later
+- @nextcloud/vue
+	- version: 8.19.0
 	- license: AGPL-3.0-or-later
 - firstrunwizard
 	- version: 4.0.0
