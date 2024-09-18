@@ -5,11 +5,8 @@
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Adicione informação ao seu perfil! Definir uma image de perfil e um nome completo para facilitar o reconhecimento em todas as funcionalidades.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Adicione informação ao seu perfil! Defina um nome completo para facilitar o reconhecimento em todas as funcionalidades.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Adicione informação ao seu perfil! Defina uma imagem de perfil para facilitar o reconhecimento em todas as funcionalidades.",
-    "App recommendation: Nextcloud Calendar" : "Recomendação de aplicação: Calendário Nextcloud",
     "Schedule work & meetings, synced with all your devices." : "Agende trabalho e reuniões, sincronizando com todos os seus dispositivos.",
-    "App recommendation: Nextcloud Contacts" : "Recomendação de aplicação: Contactos Nextcloud",
     "Keep your colleagues and friends in one place without leaking their private info." : "Mantenha os seus colegas e amigos no mesmo lugar sem divulgar as suas informações privadas.",
-    "App recommendation: Nextcloud Mail" : "Recomendação de aplicação: Correio Nextcloud",
     "App recommendation: Tasks" : "Recomendação de aplicação: Tarefas Nextcloud",
     "App recommendation: Deck" : "Recomendação de aplicação: Deck",
     "Smart media tagging for Nextcloud" : "Etiquetamento inteligente de mídia para o Nextcloud",
@@ -30,6 +27,9 @@
     "Not supported!" : "Não suportado!",
     "Press ⌘-C to copy." : "Pressionar ⌘-C para copiar.",
     "Press Ctrl-C to copy." : "Pressionar Ctrl-C para copiar.",
+    "App recommendation: Nextcloud Calendar" : "Recomendação de aplicação: Calendário Nextcloud",
+    "App recommendation: Nextcloud Contacts" : "Recomendação de aplicação: Contactos Nextcloud",
+    "App recommendation: Nextcloud Mail" : "Recomendação de aplicação: Correio Nextcloud",
     "About" : "Sobre",
     "Copy link" : "Copiar hiperligação"
 },"pluralForm" :"nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;"
