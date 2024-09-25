@@ -1,2 +1,2 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=[window.OC.filePath('firstrunwizard', '', 'js/main-CbjDLxvY.chunk.mjs'),window.OC.filePath('firstrunwizard', '', 'js/NcIconSvgWrapper-DjrkBUkC-CP-rW7LR.chunk.mjs')])))=>i.map(i=>d[i]);
-import{_ as t}from"./modulepreload-polyfill-Be8VauhY.chunk.mjs";document.addEventListener("DOMContentLoaded",async function(){(await t(()=>import("./main-CbjDLxvY.chunk.mjs"),__vite__mapDeps([0,1]),import.meta.url)).open()});
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=[window.OC.filePath('firstrunwizard', '', 'js/main-eNc68v2W.chunk.mjs'),window.OC.filePath('firstrunwizard', '', 'js/NcIconSvgWrapper-DjrkBUkC-CP-rW7LR.chunk.mjs')])))=>i.map(i=>d[i]);
+import{_ as t}from"./modulepreload-polyfill-Be8VauhY.chunk.mjs";document.addEventListener("DOMContentLoaded",async function(){(await t(()=>import("./main-eNc68v2W.chunk.mjs"),__vite__mapDeps([0,1]),import.meta.url)).open()});
