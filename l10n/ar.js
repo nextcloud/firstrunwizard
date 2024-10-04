@@ -83,7 +83,7 @@ OC.L10N.register(
     "App for syncing" : "تطبيقات للمزامنة",
     "Set up sync clients using an {linkStart}app password{linkEnd}. That way you can make sure you are able to revoke access in case you lose that device." : "إعداد عملاء للمزامنة باستعمال {linkStart}كلمة مرور{linkEnd}. بهذه الطريقة ستكون قادراً على سحب صلاحية الوصول في حال فقدك لذلك الجهاز. ",
     "Server address" : "عنوان الخادم",
-    "Use this link to connect your apps and desktop client to this server:" : "إستخدم هذا الرابط للربط بين تطبيقاتك و سطح المكتب مع هذا الخادوم.",
+    "Use this link to connect your apps and desktop client to this server:" : "إستخدم هذا الرابط للربط بين تطبيقاتك و سطح المكتب مع هذا الخادم.",
     "URL copied" : "تمّ نسخ عنوان URL",
     "Could not copy the URL, please copy manually" : "تعذّر نسخ عنوان URL. يُرجى نسخه يدويّاً",
     "Federated collaboration: file sharing, messaging, calls" : "التعاون عبر السحابة الاتحادية: مشاركة الملفات، و التراسل، و المكالمات",
