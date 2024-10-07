@@ -20,10 +20,6 @@ The First run wizard can be customized to meet specific design goals, or to chan
 
 	<namespace>FirstRunWizard</namespace>
 
-	<types>
-		<logging/>
-	</types>
-
 	<category>tools</category>
 
 	<website>https://github.com/nextcloud/firstrunwizard</website>
