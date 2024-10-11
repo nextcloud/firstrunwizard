@@ -88,7 +88,7 @@ OC.L10N.register(
     "Could not copy the URL, please copy manually" : "تعذّر نسخ عنوان URL. يُرجى نسخه يدويّاً",
     "Federated collaboration: file sharing, messaging, calls" : "التعاون عبر السحابة الاتحادية: مشاركة الملفات، و التراسل، و المكالمات",
     "Nextcloud Whiteboard" : "سبُّورة نكست كلاود",
-    "Workflow Engine" : "محرك السير الإجرائي",
+    "Workflow Engine" : "محرك سير العمل",
     "Safer and swifter mail" : "بريد أسرع و آمَن",
     "Public Collectives sharing, previews and QR-codes" : "مشاركة و معاينة التجميعات العامة، و أكواد كيو آر QR",
     "Office and PDF templates" : "قوالب مستندات \"أوفس\" و \"بي دي إف\"",
