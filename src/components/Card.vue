@@ -56,7 +56,7 @@ const isLink = computed(() => !!props.href)
 	display: flex;
 	max-width: 250px;
 	box-sizing: border-box;
-	height: fit-content;
+	height: auto;
 }
 
 .icon {
