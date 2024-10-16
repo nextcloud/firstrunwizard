@@ -52,7 +52,7 @@ OC.L10N.register(
     "Seamless integration with your devices." : "تكامل سلس مع أجهزتك",
     "Sync your files across your devices with the desktop and mobile apps, and connect your calendar and contacts." : "قُم بمزامنة ملفاتك عبر أجهزتك المتعددة من خلال تطبيقات سطح المكتب و الهاتف النقال؛ و تواصل مع جهاتك اتصالك و تقويماتك.",
     "Desktop app ↗" : "تطبيق سطح المكتب ↗",
-    "Download For Windows, Mac OS and Linux." : "التحميل لوندوز، و ماك، و لينكس.",
+    "Download For Windows, Mac OS and Linux." : "التحميل لويندوز، و ماك، و لينكس.",
     "Calendar and contacts ↗" : "التقويم و جهات الاتصال",
     "Connect your calendar and contacts with your devices." : "أوصِل جهات اتصالك و تقويماتك مع أجهزتك",
     "Introducing Nextcloud Hub {version}" : "تقديم نكست كلاود Hub هب {version}",
