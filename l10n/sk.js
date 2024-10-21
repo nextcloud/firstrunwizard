@@ -70,6 +70,7 @@ OC.L10N.register(
     "Nextcloud Hub {version} release" : "Vydanie Nextcloud Hub {version}",
     "Read more about it on the Nextcloud Hub {version} blog" : "Prečítajte si o tom viac na blogu Nextcloud Hub {version}",
     "New in Nextcloud Hub {version}" : "Novinka v Nextcloud Hub {version}",
+    "Connect other apps to {productName}" : "Prepojte s {productName} ďalšie aplikácie",
     "Get the apps to sync your files" : "Získať aplikácie na synchronizáciu vašich súborov",
     "Server address" : "Adresa servera",
     "Use this link to connect your apps and desktop client to this server:" : "Pre prepojenie vašich aplikácii a desktopového klienta na tento server použite tento odkaz: ",
