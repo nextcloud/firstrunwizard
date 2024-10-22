@@ -119,7 +119,7 @@ OC.L10N.register(
     "Interactive previews for files, folders, boards and events" : "معاينات تفاعلية للملفات والمجلدات والمجالس والأحداث",
     "Federated chat and message editing in Talk" : "المحادثة عبر الشبكة الاتحادية، و تحرير الرسائل في تطبيق المحادثة Talk",
     "Mini-apps based on Tables" : "تطبيقات مُصغّرة مبنية على جداول",
-    "Manage your team resources like a pro with Nextcloud Teams" : "تولَّ إدارة موارد فريقك بشكل احترافي مع فِرَق نكست كلاود",
+    "Manage your team resources like a pro with Nextcloud Teams" : "تولَّ إدارة موارد فريقك بشكل احترافي مع فرق نكست كلاود",
     "Forms: automatically sync with a spreadsheet" : "النماذج: المزامنة التلقائية مع جداول إكسل",
     "Get to know the new features of Hub 8" : "تعرَّف على المزايا الجديدة في الإصدار 8 من نكست كلاود هب "
 },
