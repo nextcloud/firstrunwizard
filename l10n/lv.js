@@ -8,6 +8,7 @@ OC.L10N.register(
     "Access files via WebDAV" : "Piekļūt datnēm caur WebDAV",
     "Desktop client" : "Darbvirsmas klients",
     "iOS app" : "iOS lietotne",
+    "About & What's new" : "Par un kas jauns",
     "Close" : "Aizvērt",
     "More about Nextcloud" : "Vairāk par Nextcloud",
     "Privacy" : "Privātums",
