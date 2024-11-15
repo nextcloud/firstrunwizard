@@ -63,6 +63,7 @@ OC.L10N.register(
     "This Nextcloud is on version {version}" : "Nextcloud 的版本为 {version}",
     "Share your opinion about Nextcloud Hub {version}" : "分享您对 Nextcloud Hub {version} 的看法",
     "Share via email" : "通过 e-Mail 分享",
+    "Connect other apps to {productName}" : "将其他应用连接到 {productName}",
     "Besides the mobile apps and desktop client you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to {productName}." : "除了移动应用程序和桌面客户端，你还可以将支持 WebDAV/CalDAV/CardDAV 协议的任何其他软件连接到 {productName}。",
     "Get the apps to sync your files" : "安装应用进行文件同步",
     "{productName} gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "{productName} 让你不管身在何处都可以访问你的文件，我们免费提供各大主要平台上简单易用的桌面和移动客户端。",
@@ -85,7 +86,7 @@ OC.L10N.register(
     "Close dialog" : "关闭对话框",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s 让你不管身在何处都可以访问你的文件，我们免费提供各大主要平台上简单易用的桌面和移动客户端。",
     "Set up sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "为同步客户端设置一个<a href=\"%s\">应用密码</a>，这样设备丢失的时候你就可确保撤销访问权限了。",
-    "Connect other apps to %s" : "连接其它应用到 %s",
+    "Connect other apps to %s" : "将其他应用连接到 %s",
     "Besides the mobile apps and desktop client you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "除了移动应用程序和桌面客户端，你还可以将支持 WebDAV/CalDAV/CardDAV 协议的任何其他软件连接到 %s。",
     "Copy link" : "复制链接",
     "Manage your team resources like a pro with Nextcloud Teams" : "使用Nextcloud团队像专业人士一样管理您的团队资源"
