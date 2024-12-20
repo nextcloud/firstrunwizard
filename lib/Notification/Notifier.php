@@ -13,6 +13,7 @@ use OCP\L10N\IFactory;
 use OCP\Notification\IManager as INotificationManager;
 use OCP\Notification\INotification;
 use OCP\Notification\INotifier;
+use OCP\Notification\UnknownNotificationException;
 use OCP\User\Backend\ISetPasswordBackend;
 
 class Notifier implements INotifier {
@@ -74,7 +75,7 @@ class Notifier implements INotifier {
 	public function prepare(INotification $notification, string $languageCode): INotification {
 		if ($notification->getApp() !== 'firstrunwizard') {
 			// Not my app => throw
-			throw new \InvalidArgumentException();
+			throw new UnknownNotificationException();
 		}
 
 		switch ($notification->getSubject()) {
@@ -83,7 +84,7 @@ class Notifier implements INotifier {
 				if ($subject === '') {
 					// Everything done, mark the notification as processed...
 					$this->notificationManager->markProcessed($notification);
-					throw new \InvalidArgumentException();
+					throw new UnknownNotificationException();
 				}
 
 				$notification->setParsedSubject($subject)
@@ -105,7 +106,7 @@ class Notifier implements INotifier {
 				return $this->setAppHintDetails($notification, $languageCode, $app);
 			default:
 				// Unknown subject => Unknown notification => throw
-				throw new \InvalidArgumentException();
+				throw new UnknownNotificationException();
 		}
 	}
 
