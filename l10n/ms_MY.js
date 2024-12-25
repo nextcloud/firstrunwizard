@@ -3,6 +3,7 @@ OC.L10N.register(
     {
     "Close" : "Tutup",
     "Server address" : "Alamat pelayan",
+    "Read more" : "Baca lagi",
     "Copied!" : "Disalin!",
     "Not supported!" : "Tidak menyokong!",
     "Press ⌘-C to copy." : "Tekan ⌘-C untuk menyalin.",
