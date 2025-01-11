@@ -10,6 +10,7 @@ OC.L10N.register(
     "iOS app" : "Aplicación iOS",
     "Close" : "Cerrar",
     "Community" : "Comunidad",
+    "Share via email" : "Compartir por correo electrónico",
     "Get the apps to sync your files" : "Obtenga las aplicaciones para sincronizar sus archivos",
     "Server address" : "Dirección del servidor",
     "What's new?" : "¿Qué novedades hay?",
