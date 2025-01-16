@@ -49,7 +49,7 @@ jobs:
           author: nextcloud-command <nextcloud-command@users.noreply.github.com>
           signoff: true
           title: "[${{ matrix.branches }}] Update all workflows from templates"
-        #   token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           branch: automated/noid/${{ matrix.branches }}-update-workflows
           labels: |
             dependencies
