@@ -72,7 +72,7 @@ OC.L10N.register(
     "Share your opinion about Nextcloud Hub {version}" : "Comparta a túa opinión sobre Nextcloud Hub {versión}",
     "Share via email" : "Compartir por correo",
     "Share on {socialMedia}" : "Compartir en {socialMedia}",
-    "Nextcloud Hub {version} release" : "Publicación de Nextcloud Hub {versión}",
+    "Nextcloud Hub {version} release" : "Edición de Nextcloud Hub {version}",
     "Read more about it on the Nextcloud Hub {version} blog" : "Lea máis sobre isto no blog de Nextcloud Hub {versión}",
     "New in Nextcloud Hub {version}" : "Novo en Nextcloud Hub {versión}",
     "Connect other apps to {productName}" : "Conectar outras aplicacións a {productName}",
