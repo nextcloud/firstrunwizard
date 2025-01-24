@@ -38,18 +38,8 @@
     "What's new?" : "Wat is nieuw?",
     "Read more" : "Lees meer",
     "Share on social media" : "Delen op social media",
-    "Copied!" : "Gekopieerd!",
-    "Not supported!" : "Niet ondersteund!",
-    "Press ⌘-C to copy." : "Druk op ⌘-C om te kopiëren.",
-    "Press Ctrl-C to copy." : "Druk op Ctrl-C om te kopiëren.",
     "App recommendation: Nextcloud Calendar" : "App aanbeveling: Nextcloud Calendar",
     "App recommendation: Nextcloud Contacts" : "App aanbeveling: Nextcloud Contactpersonen",
-    "App recommendation: Nextcloud Mail" : "App aanbeveling: Nextcloud Mail",
-    "About" : "Over",
-    "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s geeft je toegang tot je bestanden, waar je ook maar bent. Onze makkelijk te gebruiken desktop en mobiele applicaties zijn voor ieder groot platform gratis beschikbaar.",
-    "Set up sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Installeer Sync clients met een <a href=\"%s\">app wachtwoord</a>. Dan kan je toegang intrekken zodra je je apparaat verliest.",
-    "Connect other apps to %s" : "Verbind andere apps met%s",
-    "Besides the mobile apps and desktop client you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Naast de mobiele clients kun je ook met %s verbinden met alle andere software die de WebDAV/CalDAV/CardDAV protocollen ondersteunt.",
-    "Copy link" : "Link kopiëren"
+    "App recommendation: Nextcloud Mail" : "App aanbeveling: Nextcloud Mail"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

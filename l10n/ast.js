@@ -62,17 +62,8 @@ OC.L10N.register(
     "Nextcloud on all your devices" : "Nextcloud en tolos preseos",
     "Read more" : "Lleer más",
     "Share on social media" : "Compartir el redes sociales",
-    "Copied!" : "¡Copióse!",
-    "Not supported!" : "¡Nun ye compatible!",
-    "Press ⌘-C to copy." : "Primi ⌘-C pa copiar.",
-    "Press Ctrl-C to copy." : "Primi Ctrl-C pa copiar.",
     "App recommendation: Nextcloud Calendar" : "Aplicación aconseyada: Calendariu",
     "App recommendation: Nextcloud Contacts" : "Aplicación aconseyada: Contautos",
-    "App recommendation: Nextcloud Mail" : "Aplicación aconseyada: Corréu",
-    "About" : "Tocante a",
-    "Close dialog" : "Zarrar el diálogu",
-    "This Nextcloud is on version " : "Esta instancia de Nextcloud ta na versión",
-    "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "«%s» date accesu a los tos ficheros onde seya. Los nuesos veceros pa ordenadores y móviles, fáciles d'usar, tán disponibles de baldre pa les plataformes principales.",
-    "Copy link" : "Copiar l'enllaz"
+    "App recommendation: Nextcloud Mail" : "Aplicación aconseyada: Corréu"
 },
 "nplurals=2; plural=(n != 1);");

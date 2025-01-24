@@ -24,15 +24,8 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "יש להשתמש בקישור הזה כדי לחבר את היישומונים ואת לקוח שולחן העבודה שלך לשרת הזה:",
     "What's new?" : "מה חדש?",
     "Read more" : "מידע נוסף",
-    "Copied!" : "הועתק!",
-    "Not supported!" : "אין תמיכה!",
-    "Press ⌘-C to copy." : "‎⌘-C להעתקה.",
-    "Press Ctrl-C to copy." : "Ctrl-C להעתקה.",
     "App recommendation: Nextcloud Calendar" : "המלצת יישומון: יומן מבית Nextcloud",
     "App recommendation: Nextcloud Contacts" : "המלצת יישומון: אנשי קשר מבית Nextcloud",
-    "App recommendation: Nextcloud Mail" : "המלצת יישומון: דוא״ל מבית Nextcloud",
-    "About" : "על אודות",
-    "Connect other apps to %s" : "חיבור של יישומונים אחרים אל %s",
-    "Copy link" : "העתקת קישור"
+    "App recommendation: Nextcloud Mail" : "המלצת יישומון: דוא״ל מבית Nextcloud"
 },
 "nplurals=3; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: 2;");

@@ -12,12 +12,6 @@
     "Privacy" : "Privatësi",
     "Community" : "Komuniteti",
     "Get the apps to sync your files" : "Merrni aplikacionet për njëkohësim të kartelave tuaja",
-    "Server address" : "Adresa e serverit",
-    "Copied!" : "I kopjuar!",
-    "Not supported!" : "Nuk mbështetet!",
-    "Press ⌘-C to copy." : "Shtyp ⌘-C për të kopjuar.",
-    "Press Ctrl-C to copy." : "Shtyp Ctrl-C për të kopjuar",
-    "About" : "Rreth ",
-    "Copy link" : "Kopjo linkun"
+    "Server address" : "Adresa e serverit"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

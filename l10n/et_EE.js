@@ -17,12 +17,6 @@ OC.L10N.register(
     "Get the apps to sync your files" : "Hangi rakendusi failide sünkroniseerimiseks",
     "Server address" : "Serveri aadress",
     "Read more" : "Loe rohkem",
-    "Share on social media" : "Jaga sotsiaalmeedias",
-    "Copied!" : "Kopeeritud!",
-    "Not supported!" : "Pole toetatud!",
-    "Press ⌘-C to copy." : "Kopeerimiseks vajuta ⌘+C.",
-    "Press Ctrl-C to copy." : "Kopeerimiseks vajuta Ctrl+C.",
-    "About" : "Info",
-    "Copy link" : "Kopeeri link"
+    "Share on social media" : "Jaga sotsiaalmeedias"
 },
 "nplurals=2; plural=(n != 1);");
