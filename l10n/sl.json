@@ -41,18 +41,8 @@
     "What's new?" : "Kaj je novega?",
     "Read more" : "Več o tem",
     "Share on social media" : "Objava na družbenem omrežju",
-    "Copied!" : "Kopirano!",
-    "Not supported!" : "Opravilo ni podprto!",
-    "Press ⌘-C to copy." : "Pritisni ⌘-C za kopiranje.",
-    "Press Ctrl-C to copy." : "Pritisnite Ctrl-C za kopiranje.",
     "App recommendation: Nextcloud Calendar" : "Priporočilo programa: Koledar Nextcloud",
     "App recommendation: Nextcloud Contacts" : "Priporočilo programa: Stiki Nextcloud",
-    "App recommendation: Nextcloud Mail" : "Priporočilo programa: Pošta Nextcloud",
-    "About" : "O programu",
-    "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "Spletni oblak %s omogoča dostop do datotek, kjerkoli že ste. Za uporabo na namizju in na mobilnih napravah so za različne sisteme na voljo samostojni usklajevalni programi.",
-    "Set up sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Nastavite si programe za usklajevanje in omogočite podporo za <a href=\"%s\">programska gesla</a>. S tem si zagotovite dostop tudi, če napravo izgubite.",
-    "Connect other apps to %s" : "Povežite druge programe z okoljem %s",
-    "Besides the mobile apps and desktop client you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Ob odjemalcih za usklajevanje je mogoča povezava okoljem %s tudi z drugo programsko opremo, ki podpira protokole WebDAV / CalDAV / CardDAV.",
-    "Copy link" : "Kopiraj povezavo"
+    "App recommendation: Nextcloud Mail" : "Priporočilo programa: Pošta Nextcloud"
 },"pluralForm" :"nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);"
 }

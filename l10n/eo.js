@@ -17,14 +17,6 @@ OC.L10N.register(
     "Get the apps to sync your files" : "Ekhavu la aplikaĵojn por sinkronigi viajn dosierojn",
     "Server address" : "Servila adreso",
     "What's new?" : "Kio nova?",
-    "Read more" : "Legi pli",
-    "Copied!" : "Kopiita!",
-    "Not supported!" : "Ne subtenite!",
-    "Press ⌘-C to copy." : "Premu ⌘-C por kopii.",
-    "Press Ctrl-C to copy." : "Premu Ctrl-C por kopii.",
-    "About" : "Pri",
-    "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s donas al vi aliron al ĉiuj viaj dosieroj, kie ajn vi estas. Niaj faciluzaj klientoj labortabla kaj portebla ekzistas por ĉiuj ĉefaj platformoj senpage.",
-    "Connect other apps to %s" : "Konekti aliajn aplikaĵojn al %s",
-    "Copy link" : "Kopii ligilon"
+    "Read more" : "Legi pli"
 },
 "nplurals=2; plural=(n != 1);");

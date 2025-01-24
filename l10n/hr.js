@@ -34,18 +34,8 @@ OC.L10N.register(
     "What's new?" : "Što je novog?",
     "Read more" : "Saznaj više",
     "Share on social media" : "Dijeli na društvenim mrežama",
-    "Copied!" : "Kopirano!",
-    "Not supported!" : "Nije podržano!",
-    "Press ⌘-C to copy." : "Pritisnite ⌘-C za kopiranje.",
-    "Press Ctrl-C to copy." : "Pritisnite Ctrl-C za kopiranje.",
     "App recommendation: Nextcloud Calendar" : "Preporučena aplikacija: Nextcloud Calendar",
     "App recommendation: Nextcloud Contacts" : "Preporučena aplikacija: Nextcloud Contacts",
-    "App recommendation: Nextcloud Mail" : "Preporučena aplikacija: Nextcloud Mail",
-    "About" : "Informacije",
-    "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s vam omogućuje pristupanje datotekama gdje god da se nalazite. Naši klijenti za osobna računala i mobilne uređaje jednostavni su za upotrebu i dostupni su za sve glavne platforme bez ikakvih troškova.",
-    "Set up sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Postavite klijente za sinkronizaciju s pomoću <a href=\"%s\">zaporke aplikacije</a>. Na taj način možete opozvati pristup u slučaju gubitka uređaja.",
-    "Connect other apps to %s" : "Povežite ostale aplikacije s %s",
-    "Besides the mobile apps and desktop client you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Osim mobilnih aplikacija i klijenata za osobna računala, s %s možete povezati bilo koji drugi softver koji podržava protokole WebDAV/CalDAV/CardDAV.",
-    "Copy link" : "Kopiraj poveznicu"
+    "App recommendation: Nextcloud Mail" : "Preporučena aplikacija: Nextcloud Mail"
 },
 "nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;");

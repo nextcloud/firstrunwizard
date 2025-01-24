@@ -65,19 +65,8 @@ OC.L10N.register(
     "Nextcloud on all your devices" : "Nextcloud á öllum tækjunum þínum",
     "Read more" : "Lesa meira",
     "Get started!" : "Komast í gang!",
-    "Copied!" : "Afritað!",
-    "Not supported!" : "Ekki stutt!",
-    "Press ⌘-C to copy." : "Ýttu á ⌘-C til að afrita.",
-    "Press Ctrl-C to copy." : "Ýttu á Ctrl-C til að afrita.",
     "App recommendation: Nextcloud Calendar" : "Forrit sem mælt er með: Nextcloud Calendar dagatalsforrit",
     "App recommendation: Nextcloud Contacts" : "Forrit sem mælt er með: Nextcloud Contacts tengiliðaforrit",
-    "App recommendation: Nextcloud Mail" : "Forrit sem mælt er með: Nextcloud Mail póstforrit",
-    "About" : "Um hugbúnaðinn",
-    "Close dialog" : "Loka glugga",
-    "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s veitir þér aðgang að skránum þínum hvar sem þú ert. Tengiforritin okkar fyrir tölvur og snjalltæki eru fáanleg fyrir flest algengustu stýrikerfi án nokkurs kostnaðar.",
-    "Set up sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Settu upp samstillingarbiðlara með <a href=\"%s\">lykilorði forrits</a>. Þannig geturðu verið viss um að geta afturkallað aðgangsheimildir fari svo að þú tapir því tæki.",
-    "Connect other apps to %s" : "Tengdu önnur forrit við %s",
-    "Besides the mobile apps and desktop client you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Fyrir utan samstillingaforritin fyrir snjalltæki og vinnutölvur geturðu tengt hvert það forrit sem styður WebDAV/CalDAV/CardDAV samskiptamátana við %s.",
-    "Copy link" : "Afrita tengil"
+    "App recommendation: Nextcloud Mail" : "Forrit sem mælt er með: Nextcloud Mail póstforrit"
 },
 "nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);");

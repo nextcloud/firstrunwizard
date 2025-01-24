@@ -67,19 +67,8 @@ OC.L10N.register(
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
     "Read more" : "Διαβάστε περισσότερα",
     "Share on social media" : "Κοινοποίηση στα μέσα κοινωνικής δικτύωσης",
-    "Copied!" : "Αντιγράφηκε!",
-    "Not supported!" : "Δεν υποστηρίζεται!",
-    "Press ⌘-C to copy." : "Για αντιγραφή πατήστε ⌘-C.",
-    "Press Ctrl-C to copy." : "Για αντιγραφή πατήστε Ctrl-C.",
     "App recommendation: Nextcloud Calendar" : "Προτεινόμενη εφαρμογή: Ημερολόγιο Nextclound ",
     "App recommendation: Nextcloud Contacts" : "Προτεινόμενη εφαρμογή: Επαφές Nextclound ",
-    "App recommendation: Nextcloud Mail" : "Προτεινόμενη εφαρμογή: Ηλ.Ταχυδρομείο Nextclound ",
-    "About" : "Περί",
-    "This Nextcloud is on version " : "Αυτό το Nextcloud είναι στην έκδοση",
-    "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s σας δίνει πρόσβαση στα αρχεία σας όπου κι αν βρίσκεστε. Οι εύχρηστες εφαρμογές υπολογιστών και κινητών είναι διαθέσιμες για όλες τις μεγάλες πλατφόρμες με μηδενικό κόστος.",
-    "Set up sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Ρυθμίστε τον συγχρονισμό υπολογιστών χρησιμοποιώντας <a href=\"%s\">εφαρμογή κωδικών</a>. Με αυτόν τον τρόπο μπορείτε να βεβαιωθείτε ότι είστε σε θέση να ανακαλέσετε την πρόσβαση σε περίπτωση που χάσετε τη συσκευή.",
-    "Connect other apps to %s" : "Σύνδεση άλλων εφαρμογών στο %s",
-    "Besides the mobile apps and desktop client you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Εκτός από εφαρμογές υπολογιστών και κινητών μπορείτε να συνδέσετε οποιοδήποτε άλλη εφαρμογή υποστηρίζει το πρωτόκολλο WebDAV/CalDAV/CardDAV %s.",
-    "Copy link" : "Αντιγραφή συνδέσμου"
+    "App recommendation: Nextcloud Mail" : "Προτεινόμενη εφαρμογή: Ηλ.Ταχυδρομείο Nextclound "
 },
 "nplurals=2; plural=(n != 1);");

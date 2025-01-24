@@ -72,20 +72,8 @@ OC.L10N.register(
     "Read more" : "Lue lisää",
     "Share on social media" : "Jaa sosiaalisessa mediassa",
     "Get started!" : "Aloitetaan!",
-    "Copied!" : "Kopioitu!",
-    "Not supported!" : "Ei tuettu!",
-    "Press ⌘-C to copy." : "Paina ⌘-C kopioidaksesi.",
-    "Press Ctrl-C to copy." : "Paina Ctrl-C kopioidaksesi.",
     "App recommendation: Nextcloud Calendar" : "Sovellussuositus: Nextcloud-kalenteri",
     "App recommendation: Nextcloud Contacts" : "Sovellussuositus: Nextcloud-yhteystiedot",
-    "App recommendation: Nextcloud Mail" : "Sovellussuositus: Nextcloud-sähköposti",
-    "About" : "Tietoja",
-    "Close dialog" : "Sulje ikkuna",
-    "This Nextcloud is on version " : "Tämä Nextcloud on versiossa",
-    "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s mahdollistaa pääsyn tiedostoihisi missä hyvänsä oletkin. Helppokäyttöiset työpöytä- ja mobiilisovellukset ovat saatavilla kaikille suurimmille alustoille veloituksetta.",
-    "Set up sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Määritä synkronointi käyttäen <a href=\"%s\">sovelluskohtaisia salasanoja</a>. Näin voit kumota käyttöoikeuden, jos satut esimerkiksi kadottamaan tietyn laitteesi",
-    "Connect other apps to %s" : "Yhdistä muita sovelluksia pilveen %s",
-    "Besides the mobile apps and desktop client you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Synkronointisovellusten lisäksi voit yhdistää minkä tahansa WebDAV-, CalDAV- ja CardDAV-yhteyskäytäntöjä tukevan ohjelmiston pilveen %s",
-    "Copy link" : "Kopioi linkki"
+    "App recommendation: Nextcloud Mail" : "Sovellussuositus: Nextcloud-sähköposti"
 },
 "nplurals=2; plural=(n != 1);");
