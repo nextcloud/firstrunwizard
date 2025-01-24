@@ -12,12 +12,6 @@ OC.L10N.register(
     "iOS app" : "iOS აპლიკაცია",
     "Close" : "დახურვა",
     "Get the apps to sync your files" : "თქვენი ფაილების სინქრონიზაციისთვის მოიპოვეთ აპლიკაციები",
-    "Server address" : "სერვერის მისამართი",
-    "Copied!" : "კოპირებულია!",
-    "Not supported!" : "არაა მხარდაჭერილი",
-    "Press ⌘-C to copy." : "კოპირებისთვის დააჭირეთ ⌘-C-ს.",
-    "Press Ctrl-C to copy." : "კოპირებისთვის დააჭირეთ Ctrl-C-ს.",
-    "About" : "შესახებ",
-    "Copy link" : "ბმულის კოპირება"
+    "Server address" : "სერვერის მისამართი"
 },
 "nplurals=2; plural=(n!=1);");

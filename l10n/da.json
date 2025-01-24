@@ -65,21 +65,9 @@
     "Read more" : "Læs mere",
     "Share on social media" : "Del på sociale medier",
     "Get started!" : "Kom i gang!",
-    "Copied!" : "Kopieret!",
-    "Not supported!" : "Ikke understøttet!",
-    "Press ⌘-C to copy." : "Tryk ⌘-C for at kopiere.",
-    "Press Ctrl-C to copy." : "Tryk Ctrl-C for at kopiere.",
     "App recommendation: Nextcloud Calendar" : "Appanbefaling: Nextcloud-kalender",
     "App recommendation: Nextcloud Contacts" : "Appanbefaling: Nextcloud-kontakter",
     "App recommendation: Nextcloud Mail" : "Appanbefaling: Nextcloud Mail",
-    "About" : "Om",
-    "Close dialog" : "Luk besked",
-    "This Nextcloud is on version " : "Denne Nextcloud er på version",
-    "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s giver dig adgang til dine filer, uanset hvor du er. Vores brugervenlige desktop- og mobilklienter er tilgængelige for alle større platforme uden omkostninger.",
-    "Set up sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Konfigurer synkroniseringsklienter ved hjælp af en <a href=\"%s\">app adgangskode</a>. På den måde kan du sikre dig, at du er i stand til at tilbagekalde adgangen, hvis du mister denne enhed.",
-    "Connect other apps to %s" : "Forbind andre apps til %s",
-    "Besides the mobile apps and desktop client you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Udover mobilapps og desktop-klient kan du forbinde enhver anden software, der understøtter WebDAV/CalDAV/CardDAV-protokollerne, til %s.",
-    "Copy link" : "Kopier link",
     "Assistant: chat summaries, Mail reply suggestions, answers based on your data, and more" : "Assistent: chatoversigter, svarforslag på mail, svar baseret på dine data og mere"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

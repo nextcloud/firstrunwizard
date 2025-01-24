@@ -10,12 +10,6 @@ OC.L10N.register(
     "iOS app" : "Application iOS",
     "Close" : "Clauder",
     "Get the apps to sync your files" : "Obtene le applicationes pro synchronisar tu files",
-    "Server address" : "Adresse de servitor",
-    "Copied!" : "Copiate!",
-    "Not supported!" : "Non supportate!",
-    "Press ⌘-C to copy." : "Pulsa ⌘-C pro copiar.",
-    "Press Ctrl-C to copy." : "Pulsa Ctrl-C pro copiar.",
-    "About" : "A proposito",
-    "Copy link" : "Copiar ligamine"
+    "Server address" : "Adresse de servitor"
 },
 "nplurals=2; plural=(n != 1);");

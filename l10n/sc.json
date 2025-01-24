@@ -40,19 +40,9 @@
     "What's new?" : "Ite noas?",
     "Read more" : "Leghe de prus",
     "Share on social media" : "Cumpartzi in is retes sotziales",
-    "Copied!" : "Copiadu!",
-    "Not supported!" : "Non suportadu!",
-    "Press ⌘-C to copy." : "Incarca ⌘-C pro copiare.",
-    "Press Ctrl-C to copy." : "Incarca Crtl-C pro copiare.",
     "App recommendation: Nextcloud Calendar" : "Racumandatzione aplicatzione: Nextcloud Calendar",
     "App recommendation: Nextcloud Contacts" : "Racumandatzione aplicatzione: Nextcloud Contacts",
     "App recommendation: Nextcloud Mail" : "Racumandatzione aplicatzione: Nextcloud Mail",
-    "About" : "In contu de",
-    "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%sti frunit s'intrada a is archìvios tuos dae totue. Is clientes nostros pro iscrivania e pro mòbile sunt fàtziles de impreare e sunt a disponimentu a gratis pro totu is prataformas prus mannas.",
-    "Set up sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Cunfigura is clientes de sincronizatzione impreende una <a href=\"%s\">crae de aplicatzione</a>. In cussa manera ti podes assegurare chi podes negare s'atzessu s'in casu as a pèrdere su dispositivu.",
-    "Connect other apps to %s" : "Collega àteras aplicatziones a %s",
-    "Besides the mobile apps and desktop client you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "In prus chi a is aplicatziones mòbiles e a su cliente de iscrivania, ti podes collegare a cale si siat àteru programma chi suportet is protocollos WebDAV/CalDAV/CardDAV in %s.",
-    "Copy link" : "Còpia ligòngiu",
     "Get to know the new features of Hub 8" : "Connosche is funtzionalidades noas de Hub 8"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

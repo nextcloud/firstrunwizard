@@ -13,12 +13,6 @@ OC.L10N.register(
     "Share via email" : "Compartir por correo electrónico",
     "Get the apps to sync your files" : "Obtenga las aplicaciones para sincronizar sus archivos",
     "Server address" : "Dirección del servidor",
-    "What's new?" : "¿Qué novedades hay?",
-    "Copied!" : "¡Copiado!",
-    "Not supported!" : "¡No soportado!",
-    "Press ⌘-C to copy." : "Presione ⌘-C para copiar.",
-    "Press Ctrl-C to copy." : "Presione Ctrl-C para copiar.",
-    "About" : "Acerca de",
-    "Copy link" : "Copiar enlace"
+    "What's new?" : "¿Qué novedades hay?"
 },
 "nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");

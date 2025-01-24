@@ -40,18 +40,8 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "Користете го овој линк за да ги поврзете вашите апликации со серверот:",
     "What's new?" : "Што е ново",
     "Read more" : "Прочитај повеќе",
-    "Copied!" : "Копирано!",
-    "Not supported!" : "Не е поддржано!",
-    "Press ⌘-C to copy." : "Притисни ⌘-C за да копираш",
-    "Press Ctrl-C to copy." : "Притисни Ctrl-C за да копираш.",
     "App recommendation: Nextcloud Calendar" : "Препорака за апликација: Nextcloud Календар",
     "App recommendation: Nextcloud Contacts" : "Препорака за апликација: Nextcloud Контакти",
-    "App recommendation: Nextcloud Mail" : "Препорака за апликација: Nextcloud Е-пошта",
-    "About" : "За",
-    "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s ви дава пристап до вашите датотеки каде и да сте. Нашите десктоп и мобилни клиенти се лесни за употреба и се достапни за сите платформи бесплатно.",
-    "Set up sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Подесете ги клиентите за синхронизација да користат <a href=\"%s\">лозинка за апликација</a>. Тоа ќе ви овозможи во секој момент да имате контрола и да го отстраните тој клиент во случај да го изгубите уредот.",
-    "Connect other apps to %s" : "Поврзете друга апликација на %s",
-    "Besides the mobile apps and desktop client you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Покрај мобилната апликација и десктоп клиентот, можете да поврзете кој било друг софтвер што поддржува WebDAV/CalDAV/CardDAV протоколи на %s.",
-    "Copy link" : "Копирај линк"
+    "App recommendation: Nextcloud Mail" : "Препорака за апликација: Nextcloud Е-пошта"
 },
 "nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1;");

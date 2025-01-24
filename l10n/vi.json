@@ -33,17 +33,8 @@
     "Server address" : "Địa chỉ máy chủ",
     "Use this link to connect your apps and desktop client to this server:" : "Sử dụng liên kết này để kết nối ứng dụng và máy khách để bàn của bạn với máy chủ này:",
     "Read more" : "Đọc thêm",
-    "Copied!" : "Đã sao chép!",
-    "Not supported!" : "Không hỗ trợ!",
-    "Press ⌘-C to copy." : "Bấm ⌘-C để sao chép.",
-    "Press Ctrl-C to copy." : "Bấm Ctrl-C để sao chép.",
     "App recommendation: Nextcloud Calendar" : "Đề xuất ứng dụng: Lịch",
     "App recommendation: Nextcloud Contacts" : "Đề xuất ứng dụng: Danh bạ",
-    "App recommendation: Nextcloud Mail" : "Đề xuất ứng dụng: Mail",
-    "About" : "Thông tin",
-    "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s cho phép bạn truy cập vào các tập tin của mình mọi lúc mọi nơi. Ứng dụng khách trên máy tính để bàn và thiết bị di động dễ sử dụng của chúng tôi có sẵn cho tất cả các nền tảng chính với chi phí bằng 0.",
-    "Connect other apps to %s" : "Kết nối các ứng dụng khác với %s",
-    "Besides the mobile apps and desktop client you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Ngoài ứng dụng dành cho thiết bị di động và máy tính để bàn, bạn có thể kết nối bất kỳ phần mềm nào khác hỗ trợ giao thức WebDAV/CalDAV/CardDAV với %s.",
-    "Copy link" : "Sao chép liên kết"
+    "App recommendation: Nextcloud Mail" : "Đề xuất ứng dụng: Mail"
 },"pluralForm" :"nplurals=1; plural=0;"
 }

@@ -6,11 +6,6 @@ OC.L10N.register(
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "ແອັບອີເມວລວມເຂົ້າກັບ ຟາຍຕ່າງໆ, ເບີຕິດຕໍ່ ແລະ ປະຕິທິນ",
     "Close" : "ປິດ",
     "Privacy" : "ສ່ວນຕົວ",
-    "Community" : "ຊຸມຊົນ",
-    "Copied!" : "ກ໋ອບປີ້ແລ້ວ",
-    "Not supported!" : "ບໍ່ຊັບຟອດ",
-    "Press Ctrl-C to copy." : "ກົດ Ctrl-C ເພື່ອ copy",
-    "About" : "ກ່ຽວກັບ",
-    "Copy link" : "ສຳເນົາລິງ"
+    "Community" : "ຊຸມຊົນ"
 },
 "nplurals=1; plural=0;");

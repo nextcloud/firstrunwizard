@@ -10,12 +10,6 @@
     "Privacy" : "Confidencialitat",
     "Get the apps to sync your files" : "Obtenètz las aplicacions que vos permeton de sincronizar vòstres fichièrs",
     "Server address" : "Adreça del servidor",
-    "Read more" : "Ne legir mai",
-    "Copied!" : "Copiat !",
-    "Not supported!" : "Pas pres en carga !",
-    "Press ⌘-C to copy." : "Quichar ⌘-C per copiar.",
-    "Press Ctrl-C to copy." : "Quichar Ctrl-C per copiar.",
-    "About" : "A prepaus",
-    "Copy link" : "Copiar lo ligam"
+    "Read more" : "Ne legir mai"
 },"pluralForm" :"nplurals=2; plural=(n > 1);"
 }

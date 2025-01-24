@@ -38,18 +38,8 @@
     "What's new?" : "¿Qué hay de nuevo?",
     "Read more" : "Leer más",
     "Share on social media" : "Compartir en redes sociales",
-    "Copied!" : "¡Copiado!",
-    "Not supported!" : "¡No soportado!",
-    "Press ⌘-C to copy." : "Presiona ⌘-C para copiar.",
-    "Press Ctrl-C to copy." : "Presiona Ctrl-C para copiar.",
     "App recommendation: Nextcloud Calendar" : "Recomendación de aplicación: Calendario Nextcloud",
     "App recommendation: Nextcloud Contacts" : "Recomendación de aplicación: Contactos Nextcloud",
-    "App recommendation: Nextcloud Mail" : "Recomendación de aplicación: Correo Nextcloud",
-    "About" : "Acerca de",
-    "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s te da acceso a tus archivos donde te encuentres. Nuestros clientes intuitivos para escritorio y móviles estan disponibles para la mayoria de las plataformas sin costo alguno. ",
-    "Set up sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Configura clientes de sincronización utilizando una <a href=\"%s\">contraseña de aplicación</a>. De esta manera, puedes asegurarte de poder revocar el acceso en caso de perder ese dispositivo.",
-    "Connect other apps to %s" : "Conectar otras aplicaciones a %s",
-    "Besides the mobile apps and desktop client you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Además de las aplicaciones móviles y el cliente de escritorio, puedes conectar cualquier otro software que admita los protocolos WebDAV/CalDAV/CardDAV a %s.",
-    "Copy link" : "Copiar liga"
+    "App recommendation: Nextcloud Mail" : "Recomendación de aplicación: Correo Nextcloud"
 },"pluralForm" :"nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;"
 }
