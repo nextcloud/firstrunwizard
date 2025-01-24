@@ -12,12 +12,6 @@ OC.L10N.register(
     "Community" : "Komunitas",
     "Get the apps to sync your files" : "Dapatkan aplikasi untuk sinkronisasi berkas Anda",
     "Server address" : "Alamat peladen",
-    "Share on social media" : "Bagikan di media sosial",
-    "Copied!" : "Tersalin!",
-    "Not supported!" : "Tidak didukung!",
-    "Press ⌘-C to copy." : "Tekan ⌘-C untuk menyalin.",
-    "Press Ctrl-C to copy." : "Tekan CTRL-C untuk menyalin.",
-    "About" : "Tentang",
-    "Copy link" : "Salin tautan"
+    "Share on social media" : "Bagikan di media sosial"
 },
 "nplurals=1; plural=0;");

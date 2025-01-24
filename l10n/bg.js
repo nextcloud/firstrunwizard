@@ -41,18 +41,8 @@ OC.L10N.register(
     "What's new?" : "Какви са промените?",
     "Read more" : "Прочети повече",
     "Share on social media" : "Споделяне в социалните мрежи",
-    "Copied!" : "Копирано!",
-    "Not supported!" : "Не се поддържа!",
-    "Press ⌘-C to copy." : "За копиране натиснете ⌘-C.",
-    "Press Ctrl-C to copy." : "За копиране натиснете Ctrl-C.",
     "App recommendation: Nextcloud Calendar" : "Препоръка за приложение: Календар Nextcloud",
     "App recommendation: Nextcloud Contacts" : "Препоръка за приложение: Контакти Nextcloud",
-    "App recommendation: Nextcloud Mail" : "Препоръка за приложение: Поща Nextcloud",
-    "About" : "Относно",
-    "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s ви дава достъп до вашите файлове независимо къде се намирате. Нашите лесни за ползване клиентски приложения са достъпни на всички основни платформи, абсолютно безплатно.",
-    "Set up sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Свържете приложение за синхронизация чрез<a href=\"%s\"> парола за приложения </a>. По този начин ще можете да отмените достъпа, в случай, че загубите устройството.",
-    "Connect other apps to %s" : "Свързване на други приложения с %s",
-    "Besides the mobile apps and desktop client you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "Освен мобилните приложения и настолния клиент, можете да свържете всеки друг софтуер, който поддържа протоколите WebDAV / CalDAV / CardDAV, към %s.",
-    "Copy link" : "Копирай връзката"
+    "App recommendation: Nextcloud Mail" : "Препоръка за приложение: Поща Nextcloud"
 },
 "nplurals=2; plural=(n != 1);");

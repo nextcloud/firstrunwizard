@@ -68,20 +68,8 @@ OC.L10N.register(
     "Read more" : "Més informació",
     "Share on social media" : "Comparteix a les xarxes socials",
     "Get started!" : "Començar!",
-    "Copied!" : "S'ha copiat!",
-    "Not supported!" : "No s'admet!",
-    "Press ⌘-C to copy." : "Premeu ⌘-C per a copiar.",
-    "Press Ctrl-C to copy." : "Premeu Ctrl-C per a copiar.",
     "App recommendation: Nextcloud Calendar" : "Aplicació recomanada: Calendari del Nextcloud",
     "App recommendation: Nextcloud Contacts" : "Aplicació recomanada: Contactes del Nextcloud",
-    "App recommendation: Nextcloud Mail" : "Aplicació recomanada: Correu del Nextcloud",
-    "About" : "Quant a",
-    "Close dialog" : "Tanca el quadre de diàleg",
-    "This Nextcloud is on version " : "Aquest servidor del Nextcloud té la versió ",
-    "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "El %s us dona accés als vostres fitxers des de qualsevol lloc. Els nostres clients d'escriptori i mòbils, fàcils d'utilitzar, estan disponibles per a les plataformes principals a cost zero.",
-    "Set up sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "Configureu els clients de sincronització amb una <a href=\"%s\">contrasenya d'aplicació</a>. D'aquesta manera, us assegurareu que podreu revocar l'accés en cas de perdre el dispositiu.",
-    "Connect other apps to %s" : "Connecteu altres aplicacions al %s",
-    "Besides the mobile apps and desktop client you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "A més de les aplicacions mòbils i del client d'escriptori, podeu connectar qualsevol altre programari compatible amb els protocols WebDAV/CalDAV/CardDAV al %s.",
-    "Copy link" : "Copia l'enllaç"
+    "App recommendation: Nextcloud Mail" : "Aplicació recomanada: Correu del Nextcloud"
 },
 "nplurals=2; plural=(n != 1);");

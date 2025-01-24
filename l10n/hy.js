@@ -2,12 +2,6 @@ OC.L10N.register(
     "firstrunwizard",
     {
     "Close" : "Փակել",
-    "Server address" : "սերվերի հասցեն",
-    "Copied!" : "Պատճենված է․",
-    "Not supported!" : "Չի՛ սպասարկվում։",
-    "Press ⌘-C to copy." : "Սեղմել ⌘-C պատճենելու համար։",
-    "Press Ctrl-C to copy." : "Սեղմել  Ctrl-C պատճենելու համար։",
-    "About" : "էջի վերաբերյալ",
-    "Copy link" : "Պատճենել հղումը"
+    "Server address" : "սերվերի հասցեն"
 },
 "nplurals=2; plural=(n != 1);");

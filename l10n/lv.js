@@ -15,12 +15,6 @@ OC.L10N.register(
     "Community" : "Kopiena",
     "Get the apps to sync your files" : "Saņem lietotnes, lai sinhronizētu savas datnes",
     "Server address" : "Servera adrese",
-    "Read more" : "Lasīt vairāk",
-    "Copied!" : "Nokopēts!",
-    "Not supported!" : "Nav atbalstīts!",
-    "Press ⌘-C to copy." : "Spied ⌘-C lai kopētu.",
-    "Press Ctrl-C to copy." : "Spied Ctrl-C lai kopētu.",
-    "About" : "Par",
-    "Copy link" : "Kopēt saiti"
+    "Read more" : "Lasīt vairāk"
 },
 "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);");

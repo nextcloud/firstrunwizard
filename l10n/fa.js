@@ -42,18 +42,8 @@ OC.L10N.register(
     "What's new?" : "What's new?",
     "Read more" : "بیشتر بخوانید",
     "Share on social media" : "Share on social media",
-    "Copied!" : "کپی انجام شد!",
-    "Not supported!" : "پشتیبانی وجود ندارد!",
-    "Press ⌘-C to copy." : "برای کپی کردن از دکمه های C+⌘ استفاده نمایید",
-    "Press Ctrl-C to copy." : "برای کپی کردن از دکمه ctrl+c استفاده نمایید",
     "App recommendation: Nextcloud Calendar" : "توصیه برنامه: تقویم نکست‌کلود",
     "App recommendation: Nextcloud Contacts" : "توصیه برنامه: مخاطبین Nextcloud",
-    "App recommendation: Nextcloud Mail" : "توصیه برنامه: ایمیل Nextcloud",
-    "About" : "درباره",
-    "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "به شما امکان می دهد در هر کجا که هستید به پرونده های خود دسترسی پیدا کنید. آسان برای استفاده از دسکتاپ و مشتری های تلفن همراه برای همه سیستم عامل های اصلی با هزینه صفر در %sدسترس است.",
-    "Set up sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "با استفاده از گذرواژه<a href=\"%s\"> برنامه ، مشتریانی را همگام سازی کنید. به این ترتیب می توانید مطمئن شوید که در صورت از دست دادن آن دستگاه می توانید دسترسی را لغو کنید.",
-    "Connect other apps to %s" : "برنامه های دیگر را به آنها وصل کنید%s",
-    "Besides the mobile apps and desktop client you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "علاوه بر برنامه های تلفن همراه و سرویس گیرنده دسک تاپ ، می توانید هر نرم افزار دیگری را پشتیبانی کنید که از پروتکل های WebDAV / CalDAV / CardDAV پشتیبانی می کند.%s",
-    "Copy link" : "کپی کردن لینک"
+    "App recommendation: Nextcloud Mail" : "توصیه برنامه: ایمیل Nextcloud"
 },
 "nplurals=2; plural=(n > 1);");

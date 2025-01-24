@@ -11,12 +11,6 @@ OC.L10N.register(
     "Community" : "ชุมชน",
     "Get the apps to sync your files" : "ดาวน์โหลดแอปเพื่อซิงค์ไฟล์ของคุณ",
     "Server address" : "ที่อยู่เซิร์ฟเวอร์",
-    "Read more" : "อ่านเพิ่มเติม",
-    "Copied!" : "คัดลอกแล้ว",
-    "Not supported!" : "ไม่สนับสนุน",
-    "Press ⌘-C to copy." : "กด ⌘-C เพื่อคัดลอก",
-    "Press Ctrl-C to copy." : "กด Ctrl-C เพื่อคัดลอก",
-    "About" : "เกี่ยวกับ",
-    "Copy link" : "คัดลอกลิงก์"
+    "Read more" : "อ่านเพิ่มเติม"
 },
 "nplurals=1; plural=0;");

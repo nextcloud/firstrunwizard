@@ -76,19 +76,8 @@ OC.L10N.register(
     "Read more" : "더 보기",
     "Share on social media" : "소셜 미디어에 공유",
     "Get started!" : "시작하기!",
-    "Copied!" : "복사 성공!",
-    "Not supported!" : "지원되지 않습니다!",
-    "Press ⌘-C to copy." : "복사하려면 ⌘-C 키를 누르십시오.",
-    "Press Ctrl-C to copy." : "복사하기 위해 Ctrl-C를 누르세요.",
     "App recommendation: Nextcloud Calendar" : "추천 앱: Nextcloud Calendar",
     "App recommendation: Nextcloud Contacts" : "추천 앱: Nextcloud Contacts",
-    "App recommendation: Nextcloud Mail" : "추천 앱: Nextcloud Mail",
-    "About" : "정보",
-    "Close dialog" : "대화 상자 닫기",
-    "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s는 어디서든 파일에 접근할 수 있게 해줍니다. 사용하기 쉬운 데스크톱과 모바일 클라이언트가 모든 주요 플랫폼에서 무료로 제공됩니다.",
-    "Set up sync clients using an <a href=\"%s\">app password</a>. That way you can make sure you are able to revoke access in case you lose that device." : "<a href=\"%s\">앱 암호</a>를 사용하여 동기화 클라이언트를 설정하면, 연결된 기기를 잃어버렸을 때 해당 기기에서의 접근 권한을 회수할 수 있습니다. ",
-    "Connect other apps to %s" : "다른 앱을 %s에 연결하세요.",
-    "Besides the mobile apps and desktop client you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to %s." : "모바일 앱과 데스크탑 클라이언트 외에도, WebDAV/CalDAV/CardDAV 프로토콜을 지원하는 다른 소프트웨어를 %s에 연결할 수 있습니다.",
-    "Copy link" : "링크 복사"
+    "App recommendation: Nextcloud Mail" : "추천 앱: Nextcloud Mail"
 },
 "nplurals=1; plural=0;");

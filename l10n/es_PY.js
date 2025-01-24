@@ -12,12 +12,6 @@ OC.L10N.register(
     "iOS app" : "Aplicación iOS",
     "Close" : "Cerrar",
     "Get the apps to sync your files" : "Obten las aplicaciones para sincronizar tus archivos",
-    "Server address" : "Dirección del servidor",
-    "Copied!" : "¡Copiado!",
-    "Not supported!" : "¡No soportado!",
-    "Press ⌘-C to copy." : "Presiona ⌘-C para copiar.",
-    "Press Ctrl-C to copy." : "Presiona Ctrl-C para copiar.",
-    "About" : "Acerca",
-    "Copy link" : "Copiar liga"
+    "Server address" : "Dirección del servidor"
 },
 "nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");

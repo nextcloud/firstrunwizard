@@ -26,14 +26,8 @@
     "Get the apps to sync your files" : "Obtenha as aplicações para sincronizar os seus ficheiros",
     "Server address" : "Endereço do servidor",
     "Read more" : "Ler mais",
-    "Copied!" : "Copiado!",
-    "Not supported!" : "Não suportado!",
-    "Press ⌘-C to copy." : "Pressionar ⌘-C para copiar.",
-    "Press Ctrl-C to copy." : "Pressionar Ctrl-C para copiar.",
     "App recommendation: Nextcloud Calendar" : "Recomendação de aplicação: Calendário Nextcloud",
     "App recommendation: Nextcloud Contacts" : "Recomendação de aplicação: Contactos Nextcloud",
-    "App recommendation: Nextcloud Mail" : "Recomendação de aplicação: Correio Nextcloud",
-    "About" : "Sobre",
-    "Copy link" : "Copiar hiperligação"
+    "App recommendation: Nextcloud Mail" : "Recomendação de aplicação: Correio Nextcloud"
 },"pluralForm" :"nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;"
 }
