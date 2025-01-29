@@ -3,12 +3,12 @@
   - SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 <template>
-	<NcSettingsSection :name="t('firstrunwizard', 'Connect other apps to {productName}', { productName })"
+	<NcSettingsSection :name="t('firstrunwizard', 'Connect other apps to {productName}', { productName }, null, {escape: false})"
 		:description="
-			t('firstrunwizard', 'Besides the mobile apps and desktop client you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to {productName}.', { productName })
+			t('firstrunwizard', 'Besides the mobile apps and desktop client you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to {productName}.', { productName }, null, {escape: false})
 		">
 		<ul :class="$style.list"
-			:aria-label="t('firstrunwizard', 'Apps to connect to {productName}', { productName })">
+			:aria-label="t('firstrunwizard', 'Apps to connect to {productName}', { productName }, null, {escape: false})">
 			<li v-for="app, id of apps"
 				:key="id">
 				<NcButton :href="app.link">
