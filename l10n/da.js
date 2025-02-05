@@ -63,6 +63,7 @@ OC.L10N.register(
     "Get the apps to sync your files" : "Hent applikationerne for at synkronisere dine filer",
     "Server address" : "Serveradresse",
     "Use this link to connect your apps and desktop client to this server:" : "Brug dette link til at forbinde dine apps og desktop-klient til denne server:",
+    "Public Collectives sharing, previews and QR-codes" : "Offentlige kollektiver delinger, forhåndsvisninger og QR-koder",
     "Nextcloud on all your devices" : "Nextcloud på alle dine enheder",
     "Read more" : "Læs mere",
     "Share on social media" : "Del på sociale medier",
