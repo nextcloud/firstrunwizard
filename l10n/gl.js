@@ -105,7 +105,7 @@ OC.L10N.register(
     "App recommendation: Nextcloud Mail" : "Aplicación recomendada: Correo de Nextcloud",
     "Assistant: chat summaries, Mail reply suggestions, answers based on your data, and more" : "Asistente: resumos de parolas, suxestións de respostas por correo-e, respostas baseadas nos seus datos e moito máis",
     "Interactive previews for files, folders, boards and events" : "Vistas previas interactivas de ficheiros, cartafoles, taboleiros e eventos",
-    "Federated chat and message editing in Talk" : "Parola federada e edición de mensaxes en Parlar",
+    "Federated chat and message editing in Talk" : "Parola federada e edición de mensaxes en Parladoiro",
     "Mini-apps based on Tables" : "Miniaplicacións baseadas en Táboas",
     "Manage your team resources like a pro with Nextcloud Teams" : "Xestione os recursos do seu equipo coma un profesional con Equipos de Nextcloud",
     "Forms: automatically sync with a spreadsheet" : "Formularios: sincronización automática cunha folla de cálculo",
