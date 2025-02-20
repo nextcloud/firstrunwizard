@@ -2,7 +2,7 @@
  * SPDX-FileCopyrightText: 2024 Nextcloud GmbH and Nextcloud contributors
  * SPDX-License-Identifier: AGPL-3.0-or-later
  */
-import { translate as t } from '@nextcloud/l10n'
+import { t } from '@nextcloud/l10n'
 
 /* How to do a new release?
  * 1. Update the `version` to the current HUB release
@@ -12,31 +12,33 @@ import { translate as t } from '@nextcloud/l10n'
  */
 export default {
 	/** The HUB release version */
-	version: '9',
+	version: '10',
 
 	/** Link to further information (e.g. blog post) */
-	link: 'https://nextcloud.com/blog/nextcloud-hub9/',
+	link: 'https://nextcloud.com/blog/nextcloud-hub10/',
 
 	/** Release notes in list format */
 	releaseNotes: [
-		'🌐 ' + t('firstrunwizard', 'Federated collaboration: file sharing, messaging, calls'),
+		'🔒 ' + t('firstrunwizard', 'End-to-end encryption in calls and web'),
 
-		'📌 ' + t('firstrunwizard', 'Nextcloud Whiteboard'),
+		'⚡ ' + t('firstrunwizard', 'Performance improvements across all our products'),
 
-		'✳️ ' + t('firstrunwizard', 'Workflow Engine'),
+		'⚙️ ' + t('firstrunwizard', 'Thousands of tweaks for improved UX and stability'),
 
-		'💌 ' + t('firstrunwizard', 'Safer and swifter mail'),
+		'✨ ' + t('firstrunwizard', 'Your own new personal assistant'),
 
-		'🔗 ' + t('firstrunwizard', 'Public Collectives sharing, previews and QR-codes'),
+		'🔄 ' + t('firstrunwizard', 'Seamless file conversions'),
 
-		'🎨 ' + t('firstrunwizard', 'Office and PDF templates'),
+		'👥 ' + t('firstrunwizard', 'Smarter team sharing with Team folders'),
 
-		'💬 ' + t('firstrunwizard', 'Chat mode for Nextcloud Assistant'),
+		'💬 ' + t('firstrunwizard', 'Schedule meetings directly in Talk'),
+
+		'📧 ' + t('firstrunwizard', 'Mail you love again: translations, summaries, and mentions'),
 	],
 
 	/** Alternative text for the release animation */
-	videoAltText: t('firstrunwizard', 'Get to know the new features of Hub 9'),
+	videoAltText: t('firstrunwizard', 'Get to know the new features of Hub {version}', { version: '10' }),
 
 	/** Subject that is used when sharing the post */
-	shareSubject: t('firstrunwizard', 'Nextcloud Hub {version} release', { version: '9' }),
+	shareSubject: t('firstrunwizard', 'Nextcloud Hub 10 is here – your modular & unified digital workspace! 💫'),
 }
