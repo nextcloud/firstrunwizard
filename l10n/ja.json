@@ -84,14 +84,6 @@
     "Use this link to connect your apps and desktop client to this server:" : "アプリやデスクトップクライアントをこのサーバーに接続するには、このリンクを使用してください:",
     "URL copied" : "URLをコピーしました",
     "Could not copy the URL, please copy manually" : "URLをコピーできませんでした。手動でコピーしてください",
-    "Federated collaboration: file sharing, messaging, calls" : "連携コラボレーション:ファイル共有、メッセージング、通話",
-    "Nextcloud Whiteboard" : "Nextcloudホワイトボード",
-    "Workflow Engine" : "ワークフローエンジン",
-    "Safer and swifter mail" : "より安全で迅速なメール",
-    "Public Collectives sharing, previews and QR-codes" : "パブリック・コレクティブの共有、プレビュー、QRコード",
-    "Office and PDF templates" : "OfficeおよびPDFテンプレート",
-    "Chat mode for Nextcloud Assistant" : "Nextcloud Assistantのチャットモード",
-    "Get to know the new features of Hub 9" : "Hub 9の新機能を知る",
     "What's new?" : "新着情報？",
     "Nextcloud on all your devices" : "あなたの全てのデバイスで Nextcloud を",
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
@@ -105,8 +97,16 @@
     "Interactive previews for files, folders, boards and events" : "ファイル、フォルダー、ボード、イベントのインタラクティブなプレビュー",
     "Federated chat and message editing in Talk" : "Talkのチャットとメッセージ編集の統合",
     "Mini-apps based on Tables" : "テーブルベースのミニアプリ",
+    "Public Collectives sharing, previews and QR-codes" : "パブリック・コレクティブの共有、プレビュー、QRコード",
     "Manage your team resources like a pro with Nextcloud Teams" : "Nextcloud Teamsでプロ並みのチームリソース管理",
     "Forms: automatically sync with a spreadsheet" : "フォーム：スプレッドシートと自動的に同期",
-    "Get to know the new features of Hub 8" : "Hub 8の新機能を知る"
+    "Get to know the new features of Hub 8" : "Hub 8の新機能を知る",
+    "Federated collaboration: file sharing, messaging, calls" : "連携コラボレーション:ファイル共有、メッセージング、通話",
+    "Nextcloud Whiteboard" : "Nextcloudホワイトボード",
+    "Workflow Engine" : "ワークフローエンジン",
+    "Safer and swifter mail" : "より安全で迅速なメール",
+    "Office and PDF templates" : "OfficeおよびPDFテンプレート",
+    "Chat mode for Nextcloud Assistant" : "Nextcloud Assistantのチャットモード",
+    "Get to know the new features of Hub 9" : "Hub 9の新機能を知る"
 },"pluralForm" :"nplurals=1; plural=0;"
 }

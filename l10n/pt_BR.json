@@ -84,14 +84,6 @@
     "Use this link to connect your apps and desktop client to this server:" : "Use este link para conectar seus aplicativos e clientes de desktop a este servidor:",
     "URL copied" : "URL copiado",
     "Could not copy the URL, please copy manually" : "Não foi possível copiar o URL, copie manualmente",
-    "Federated collaboration: file sharing, messaging, calls" : "Colaboração federada: compartilhamento de arquivos, mensagens, chamadas",
-    "Nextcloud Whiteboard" : "Quadro Branco Nextcloud",
-    "Workflow Engine" : "Motor de Fluxo de Trabalho",
-    "Safer and swifter mail" : "Correio mais seguro e rápido",
-    "Public Collectives sharing, previews and QR-codes" : "Compartilhamento de coletivos públicos, visualizações e códigos QR",
-    "Office and PDF templates" : "PDFPDFModelos de Office e PDF",
-    "Chat mode for Nextcloud Assistant" : "Modo de bate-papo para o Nextcloud Assistant",
-    "Get to know the new features of Hub 9" : "Conheça as novidades do Hub 9",
     "What's new?" : "O que há de novo?",
     "Nextcloud on all your devices" : "Nextcloud em todos os seus dispositivos",
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
@@ -105,8 +97,16 @@
     "Interactive previews for files, folders, boards and events" : "Visualizações interativas de arquivos, pastas, quadros e eventos",
     "Federated chat and message editing in Talk" : "Chat federado e edição de mensagens no Talk",
     "Mini-apps based on Tables" : "Miniaplicativos baseados em tabelas",
+    "Public Collectives sharing, previews and QR-codes" : "Compartilhamento de coletivos públicos, visualizações e códigos QR",
     "Manage your team resources like a pro with Nextcloud Teams" : "Gerencie os recursos da sua equipe como um profissional com Nextcloud Teams",
     "Forms: automatically sync with a spreadsheet" : "Formulários: sincronize automaticamente com uma planilha",
-    "Get to know the new features of Hub 8" : "Conheça as novas funcionalidades do Hub 8"
+    "Get to know the new features of Hub 8" : "Conheça as novas funcionalidades do Hub 8",
+    "Federated collaboration: file sharing, messaging, calls" : "Colaboração federada: compartilhamento de arquivos, mensagens, chamadas",
+    "Nextcloud Whiteboard" : "Quadro Branco Nextcloud",
+    "Workflow Engine" : "Motor de Fluxo de Trabalho",
+    "Safer and swifter mail" : "Correio mais seguro e rápido",
+    "Office and PDF templates" : "PDFPDFModelos de Office e PDF",
+    "Chat mode for Nextcloud Assistant" : "Modo de bate-papo para o Nextcloud Assistant",
+    "Get to know the new features of Hub 9" : "Conheça as novidades do Hub 9"
 },"pluralForm" :"nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;"
 }
