@@ -84,14 +84,6 @@
     "Use this link to connect your apps and desktop client to this server:" : "Erabili esteka hau zure aplikazioak eta mahaigaineko bezeroa zerbitzari honetara konektatzeko:",
     "URL copied" : "URLa kopiatu da",
     "Could not copy the URL, please copy manually" : "Ezin izan da URLa kopiatu, kopiatu eskuz",
-    "Federated collaboration: file sharing, messaging, calls" : "Elkarlan federatua: fitxategiak partekatzea, mezularitza, deiak",
-    "Nextcloud Whiteboard" : "Nextcloud arbela",
-    "Workflow Engine" : "Lan-fluxuen motorra",
-    "Safer and swifter mail" : "Posta seguruagoa eta azkarragoa",
-    "Public Collectives sharing, previews and QR-codes" : "Kolektibo Publiko partekatzeak, aurreikuspenak eta QR-kodeak",
-    "Office and PDF templates" : "Office eta PDF txantiloiak",
-    "Chat mode for Nextcloud Assistant" : "Nextcloud Laguntzailerako txat-modua",
-    "Get to know the new features of Hub 9" : "Ezagutu Hub 9-ren funtzio berriak",
     "What's new?" : "Zer berri?",
     "Nextcloud on all your devices" : "Nextcloud zure gailu guztietan",
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
@@ -105,8 +97,16 @@
     "Interactive previews for files, folders, boards and events" : "Fitxategi, karpeta, arbel eta gertaeren aurrebista interaktiboak",
     "Federated chat and message editing in Talk" : "Txat federatua eta mezuen edizioa Talk-en",
     "Mini-apps based on Tables" : "Tables-en oinarritutako mini-aplikazioak",
+    "Public Collectives sharing, previews and QR-codes" : "Kolektibo Publiko partekatzeak, aurreikuspenak eta QR-kodeak",
     "Manage your team resources like a pro with Nextcloud Teams" : "Kudeatu zure lantaldearen baliabideak profesionala bazina Nextcloud Teams-ekin",
     "Forms: automatically sync with a spreadsheet" : "Forms: automatikoki sinkronizatu kalkulu-orri batekin",
-    "Get to know the new features of Hub 8" : "Ezagutu Hub 8-ren eginbide berriak"
+    "Get to know the new features of Hub 8" : "Ezagutu Hub 8-ren eginbide berriak",
+    "Federated collaboration: file sharing, messaging, calls" : "Elkarlan federatua: fitxategiak partekatzea, mezularitza, deiak",
+    "Nextcloud Whiteboard" : "Nextcloud arbela",
+    "Workflow Engine" : "Lan-fluxuen motorra",
+    "Safer and swifter mail" : "Posta seguruagoa eta azkarragoa",
+    "Office and PDF templates" : "Office eta PDF txantiloiak",
+    "Chat mode for Nextcloud Assistant" : "Nextcloud Laguntzailerako txat-modua",
+    "Get to know the new features of Hub 9" : "Ezagutu Hub 9-ren funtzio berriak"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

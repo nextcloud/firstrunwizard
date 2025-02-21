@@ -83,10 +83,6 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "Используйте эту ссылку для соединения ваших приложений и десктоп-клиентов с этим сервером:",
     "URL copied" : "Скопированный URL-адрес",
     "Could not copy the URL, please copy manually" : "Не удалось скопировать URL-адрес, пожалуйста, скопируйте вручную",
-    "Federated collaboration: file sharing, messaging, calls" : "Федеративная совместная работа: общий доступ к файлам, обмен сообщениями, звонки",
-    "Public Collectives sharing, previews and QR-codes" : "Общий доступ к группам, предварительный просмотр и QR-коды",
-    "Office and PDF templates" : "Шаблоны Office и PDF",
-    "Get to know the new features of Hub 9" : "Познакомьтесь с новыми функциями Hub 9",
     "What's new?" : "Что нового?",
     "Nextcloud on all your devices" : "Nextcloud на всех ваших устройствах",
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
@@ -100,8 +96,12 @@ OC.L10N.register(
     "Interactive previews for files, folders, boards and events" : "Интерактивный предварительный просмотр файлов, папок, досок и событий",
     "Federated chat and message editing in Talk" : "Федеративные чаты и редактирование сообщений в Nextcloud Talk",
     "Mini-apps based on Tables" : "Мини-приложения на основе таблиц",
+    "Public Collectives sharing, previews and QR-codes" : "Общий доступ к группам, предварительный просмотр и QR-коды",
     "Manage your team resources like a pro with Nextcloud Teams" : "Профессионально управляйте ресурсами команды в Nextcloud Teams",
     "Forms: automatically sync with a spreadsheet" : "Формы: автоматическая синхронизация с таблицами",
-    "Get to know the new features of Hub 8" : "Познакомьтесь с новыми возможностями Hub 8"
+    "Get to know the new features of Hub 8" : "Познакомьтесь с новыми возможностями Hub 8",
+    "Federated collaboration: file sharing, messaging, calls" : "Федеративная совместная работа: общий доступ к файлам, обмен сообщениями, звонки",
+    "Office and PDF templates" : "Шаблоны Office и PDF",
+    "Get to know the new features of Hub 9" : "Познакомьтесь с новыми функциями Hub 9"
 },
 "nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);");

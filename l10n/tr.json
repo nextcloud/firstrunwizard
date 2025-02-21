@@ -84,14 +84,6 @@
     "Use this link to connect your apps and desktop client to this server:" : "Uygulamalarınızı ve masaüstü istemcinizi bu sunucuya bağlamak için şu adresi kullanın:",
     "URL copied" : "Adres kopyalandı",
     "Could not copy the URL, please copy manually" : "Adres kopyalanamadı. Lütfen el ile kopyalayın",
-    "Federated collaboration: file sharing, messaging, calls" : "Birleşik işbirliği: Dosya paylaşımı, ileti gönderme, çağrılar",
-    "Nextcloud Whiteboard" : "Nextcloud Beyaz Tahta",
-    "Workflow Engine" : "İş akışı işleyici",
-    "Safer and swifter mail" : "Daha güvenli ve daha hızlı e-posta",
-    "Public Collectives sharing, previews and QR-codes" : "Kamu toplulukları paylaşımı, ön izlemeler ve QR kodları",
-    "Office and PDF templates" : "Office ve PDF kalıpları",
-    "Chat mode for Nextcloud Assistant" : "Nextcloud Yardımcısı için sohbet kipi",
-    "Get to know the new features of Hub 9" : "Yeni Merkez 9 özellikleri ile ilgili bilgi alın",
     "What's new?" : "Yenilikler neler?",
     "Nextcloud on all your devices" : "Nextcloud tüm aygıtlarınızda",
     "Nextcloud Hub {version}" : "Nextcloud Merkez {version}",
@@ -105,8 +97,16 @@
     "Interactive previews for files, folders, boards and events" : "Dosyalar, klasörler, panolar ve etkinlikler için etkileşimli ön izlemeler",
     "Federated chat and message editing in Talk" : "Konuş üzerinde birleşik sohbet ve ileti düzenleme",
     "Mini-apps based on Tables" : "Tablolar uygulmasını kullanan mini uygulamalar",
+    "Public Collectives sharing, previews and QR-codes" : "Kamu toplulukları paylaşımı, ön izlemeler ve QR kodları",
     "Manage your team resources like a pro with Nextcloud Teams" : "Nextcloud Teams ile profesyonelce yönetebileceğiniz ekip kaynakları",
     "Forms: automatically sync with a spreadsheet" : "Formlar: Bir e-tabloyla otomatik olarak eşitleme",
-    "Get to know the new features of Hub 8" : "Yeni Merkez 8 özellikleri ile ilgili bilgi alın"
+    "Get to know the new features of Hub 8" : "Yeni Merkez 8 özellikleri ile ilgili bilgi alın",
+    "Federated collaboration: file sharing, messaging, calls" : "Birleşik işbirliği: Dosya paylaşımı, ileti gönderme, çağrılar",
+    "Nextcloud Whiteboard" : "Nextcloud Beyaz Tahta",
+    "Workflow Engine" : "İş akışı işleyici",
+    "Safer and swifter mail" : "Daha güvenli ve daha hızlı e-posta",
+    "Office and PDF templates" : "Office ve PDF kalıpları",
+    "Chat mode for Nextcloud Assistant" : "Nextcloud Yardımcısı için sohbet kipi",
+    "Get to know the new features of Hub 9" : "Yeni Merkez 9 özellikleri ile ilgili bilgi alın"
 },"pluralForm" :"nplurals=2; plural=(n > 1);"
 }
