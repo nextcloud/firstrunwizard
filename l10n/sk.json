@@ -84,14 +84,6 @@
     "Use this link to connect your apps and desktop client to this server:" : "Pre prepojenie vašich aplikácii a desktopového klienta na tento server použite tento odkaz: ",
     "URL copied" : "URL skopírovné",
     "Could not copy the URL, please copy manually" : "Nie je možné skopírovať URL, prosím skopírujte ho manuálne",
-    "Federated collaboration: file sharing, messaging, calls" : "Federatívna spolupráca: zdieľanie súborov, správy, hovory",
-    "Nextcloud Whiteboard" : "Nástenka Nextcloud",
-    "Workflow Engine" : "Workflow Engine",
-    "Safer and swifter mail" : "Bezpečnejší a svižnejši e-mail",
-    "Public Collectives sharing, previews and QR-codes" : "Verejné zdieľanie, ukážky a QR kódy",
-    "Office and PDF templates" : "Šablóny kancelárskych a PDF dokumentov",
-    "Chat mode for Nextcloud Assistant" : "Režim konverzácie pre službu Nextcloud Assistant",
-    "Get to know the new features of Hub 9" : "Zoznámte sa s novými funkciami Hub 9",
     "What's new?" : "Čo je nové?",
     "Nextcloud on all your devices" : "Nextcloud na všetkých vašich zariadeniach",
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
@@ -105,8 +97,16 @@
     "Interactive previews for files, folders, boards and events" : "Interaktívne náhľady pre súbory, adresáre, nástenky a udalosti",
     "Federated chat and message editing in Talk" : "Federovaný chat a úprava správ v aplikácii Talk",
     "Mini-apps based on Tables" : "Miniaplikácie založené na Tables",
+    "Public Collectives sharing, previews and QR-codes" : "Verejné zdieľanie, ukážky a QR kódy",
     "Manage your team resources like a pro with Nextcloud Teams" : "Spravujte svoje tímové zdroje ako profesionál pomocou Nextcloud Teams",
     "Forms: automatically sync with a spreadsheet" : "Formuláre: automatická synchronizácia s tabuľkou",
-    "Get to know the new features of Hub 8" : "Spoznajte nové funkcie Hub 8"
+    "Get to know the new features of Hub 8" : "Spoznajte nové funkcie Hub 8",
+    "Federated collaboration: file sharing, messaging, calls" : "Federatívna spolupráca: zdieľanie súborov, správy, hovory",
+    "Nextcloud Whiteboard" : "Nástenka Nextcloud",
+    "Workflow Engine" : "Workflow Engine",
+    "Safer and swifter mail" : "Bezpečnejší a svižnejši e-mail",
+    "Office and PDF templates" : "Šablóny kancelárskych a PDF dokumentov",
+    "Chat mode for Nextcloud Assistant" : "Režim konverzácie pre službu Nextcloud Assistant",
+    "Get to know the new features of Hub 9" : "Zoznámte sa s novými funkciami Hub 9"
 },"pluralForm" :"nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);"
 }

@@ -84,14 +84,6 @@
     "Use this link to connect your apps and desktop client to this server:" : "بۇ ئۇلىنىشنى ئىشلىتىپ پروگراممىلىرىڭىز ۋە ئۈستەل يۈزى خېرىدارلىرىڭىزنى بۇ مۇلازىمېتىرغا ئۇلاڭ:",
     "URL copied" : "URL كۆچۈرۈلدى",
     "Could not copy the URL, please copy manually" : "URL نى كۆچۈرەلمىدىڭىز ، قولدا كۆچۈرۈڭ",
-    "Federated collaboration: file sharing, messaging, calls" : "فېدېراتسىيە ھەمكارلىقى: ھۆججەت ئورتاقلىشىش ، ئۇچۇر يوللاش ، چاقىرىش",
-    "Nextcloud Whiteboard" : "Nextcloud ئاق دوسكا",
-    "Workflow Engine" : "خىزمەت ئېقىمى ماتورى",
-    "Safer and swifter mail" : "بىخەتەر ۋە تېز خەت",
-    "Public Collectives sharing, previews and QR-codes" : "ئاممىۋى كوللىكتىپ ئورتاقلىشىش ، ئالدىن كۆرۈش ۋە QR- كودلار",
-    "Office and PDF templates" : "ئىشخانا ۋە PDF قېلىپلىرى",
-    "Chat mode for Nextcloud Assistant" : "Nextcloud ياردەمچىسى ئۈچۈن پاراڭلىشىش ھالىتى",
-    "Get to know the new features of Hub 9" : "Hub 9 نىڭ يېڭى ئىقتىدارلىرى بىلەن تونۇشۇڭ",
     "What's new?" : "نېمە يېڭىلىق؟",
     "Nextcloud on all your devices" : "بارلىق ئۈسكۈنىلىرىڭىزدىكى Nextcloud",
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
@@ -105,8 +97,16 @@
     "Interactive previews for files, folders, boards and events" : "ھۆججەت ، ھۆججەت قىسقۇچ ، تاختاي ۋە ۋەقەلەرنىڭ ئۆز-ئارا ئالدىن كۆرۈلىشى",
     "Federated chat and message editing in Talk" : "سۆھبەتتىكى فېدېراتسىيە پاراڭ ۋە ئۇچۇر تەھرىرلەش",
     "Mini-apps based on Tables" : "جەدۋەلنى ئاساس قىلغان كىچىك ئەپلەر",
+    "Public Collectives sharing, previews and QR-codes" : "ئاممىۋى كوللىكتىپ ئورتاقلىشىش ، ئالدىن كۆرۈش ۋە QR- كودلار",
     "Manage your team resources like a pro with Nextcloud Teams" : "Nextcloud كوماندىلىرى بىلەن گۇرۇپپا بايلىقلىرىڭىزنى باشقۇرۇڭ",
     "Forms: automatically sync with a spreadsheet" : "جەدۋەللەر: ئېلېكترونلۇق جەدۋەل بىلەن ئاپتوماتىك ماسقەدەملىنىدۇ",
-    "Get to know the new features of Hub 8" : "Hub 8 نىڭ يېڭى ئىقتىدارلىرى بىلەن تونۇشۇڭ"
+    "Get to know the new features of Hub 8" : "Hub 8 نىڭ يېڭى ئىقتىدارلىرى بىلەن تونۇشۇڭ",
+    "Federated collaboration: file sharing, messaging, calls" : "فېدېراتسىيە ھەمكارلىقى: ھۆججەت ئورتاقلىشىش ، ئۇچۇر يوللاش ، چاقىرىش",
+    "Nextcloud Whiteboard" : "Nextcloud ئاق دوسكا",
+    "Workflow Engine" : "خىزمەت ئېقىمى ماتورى",
+    "Safer and swifter mail" : "بىخەتەر ۋە تېز خەت",
+    "Office and PDF templates" : "ئىشخانا ۋە PDF قېلىپلىرى",
+    "Chat mode for Nextcloud Assistant" : "Nextcloud ياردەمچىسى ئۈچۈن پاراڭلىشىش ھالىتى",
+    "Get to know the new features of Hub 9" : "Hub 9 نىڭ يېڭى ئىقتىدارلىرى بىلەن تونۇشۇڭ"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
