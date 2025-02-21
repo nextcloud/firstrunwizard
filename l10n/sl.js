@@ -70,10 +70,6 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "Naslov za povezavo programa s strežnikom:",
     "URL copied" : "Naslov URL je kopiran",
     "Could not copy the URL, please copy manually" : "Naslova URL ni mogoče kopirati. Storite to ročno.",
-    "Nextcloud Whiteboard" : "Tabla Nextcloud",
-    "Safer and swifter mail" : "Varnejša in hitrejša pošta",
-    "Office and PDF templates" : "Pisarniške predloge in PDF",
-    "Get to know the new features of Hub 9" : "Spoznajte zmožnosti okolja Hub 9",
     "What's new?" : "Kaj je novega?",
     "Nextcloud on all your devices" : "Oblak Nextcloud na vseh vaših napravah",
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
@@ -82,6 +78,10 @@ OC.L10N.register(
     "Get started!" : "Začnite!",
     "App recommendation: Nextcloud Calendar" : "Priporočilo programa: Koledar Nextcloud",
     "App recommendation: Nextcloud Contacts" : "Priporočilo programa: Stiki Nextcloud",
-    "App recommendation: Nextcloud Mail" : "Priporočilo programa: Pošta Nextcloud"
+    "App recommendation: Nextcloud Mail" : "Priporočilo programa: Pošta Nextcloud",
+    "Nextcloud Whiteboard" : "Tabla Nextcloud",
+    "Safer and swifter mail" : "Varnejša in hitrejša pošta",
+    "Office and PDF templates" : "Pisarniške predloge in PDF",
+    "Get to know the new features of Hub 9" : "Spoznajte zmožnosti okolja Hub 9"
 },
 "nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);");
