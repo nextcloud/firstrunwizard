@@ -72,7 +72,7 @@ OC.L10N.register(
     "Find out more on the blog" : "Докладно у блозі",
     "Read the Nextcloud Hub {version} blog" : "Дізнатися про Nextcloud Hub {version} у блозі",
     "Share your opinion about Nextcloud Hub {version}" : "Поділитися враженнями про Nextcloud Hub {version}",
-    "Share via email" : "Поділіться електронною поштою",
+    "Share via email" : "Поділіться за допомогою ел. пошти",
     "Share on {socialMedia}" : "Поділитися у {socialMedia}",
     "New in Nextcloud Hub {version}" : "Нове у Nextcloud Hub {version}",
     "Connect other apps to {productName}" : "Приєднати інші застосунки до {productName}",
