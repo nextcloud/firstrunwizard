@@ -13,6 +13,7 @@ OC.L10N.register(
     "Close" : "Aizvērt",
     "More about Nextcloud" : "Vairāk par Nextcloud",
     "Privacy" : "Privātums",
+    "Host your data and files where you decide." : "Izvēlies, kur mitināt savus datus un datnes!",
     "Community" : "Kopiena",
     "Get the apps to sync your files" : "Saņem lietotnes, lai sinhronizētu savas datnes",
     "Server address" : "Servera adrese",
