@@ -1,2 +1,3 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=[window.OC.filePath('firstrunwizard', '', 'js/main-BADrjg1v.chunk.mjs'),window.OC.filePath('firstrunwizard', '', 'js/NcIconSvgWrapper-CHmdAuhg-Dt0AYBAE.chunk.mjs')])))=>i.map(i=>d[i]);
-import{_ as t}from"./modulepreload-polyfill-Cp76Uzro.chunk.mjs";document.addEventListener("DOMContentLoaded",async function(){(await t(()=>import("./main-BADrjg1v.chunk.mjs"),__vite__mapDeps([0,1]),import.meta.url)).open()});
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=[window.OC.filePath('firstrunwizard', '', 'js/main-DTNuHamq.chunk.mjs'),window.OC.filePath('firstrunwizard', '', 'js/NcIconSvgWrapper-CHmdAuhg-Dt0AYBAE.chunk.mjs')])))=>i.map(i=>d[i]);
+import{_ as t}from"./modulepreload-polyfill-Cp76Uzro.chunk.mjs";document.addEventListener("DOMContentLoaded",async function(){(await t(()=>import("./main-DTNuHamq.chunk.mjs"),__vite__mapDeps([0,1]),import.meta.url)).open()});
+//# sourceMappingURL=firstrunwizard-activate.mjs.map
