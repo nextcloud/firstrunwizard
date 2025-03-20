@@ -14,6 +14,7 @@ OC.L10N.register(
     "Desktop client" : "Töölaua klient",
     "iOS app" : "iOS-i rakendus",
     "Close" : "Sulge",
+    "Community" : "Kogukond",
     "Get the apps to sync your files" : "Hangi rakendusi failide sünkroniseerimiseks",
     "Server address" : "Serveri aadress",
     "Read more" : "Loe rohkem",
