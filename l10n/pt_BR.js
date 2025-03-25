@@ -108,7 +108,7 @@ OC.L10N.register(
     "Assistant: chat summaries, Mail reply suggestions, answers based on your data, and more" : "Assistente: resumos de bate-papo, sugestões de respostas por e-mail, respostas baseadas em seus dados e muito mais",
     "Interactive previews for files, folders, boards and events" : "Visualizações interativas de arquivos, pastas, quadros e eventos",
     "Federated chat and message editing in Talk" : "Chat federado e edição de mensagens no Talk",
-    "Mini-apps based on Tables" : "Miniaplicativos baseados em tabelas",
+    "Mini-apps based on Tables" : "Miniaplicativos baseados em Tabelas",
     "Public Collectives sharing, previews and QR-codes" : "Compartilhamento de coletivos públicos, visualizações e códigos QR",
     "Manage your team resources like a pro with Nextcloud Teams" : "Gerencie os recursos da sua equipe como um profissional com Nextcloud Teams",
     "Forms: automatically sync with a spreadsheet" : "Formulários: sincronize automaticamente com uma planilha",
