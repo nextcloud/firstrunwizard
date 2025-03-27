@@ -20,7 +20,7 @@ OC.L10N.register(
     "App recommendation: Forms" : "Recomendação de aplicativo: Formulários",
     "Simple surveys and questionnaires, self-hosted" : "Pesquisas e questionários simples, auto-hospedados",
     "App recommendation: Recognize" : "Recomendação de aplicativo: Reconhecer",
-    "Smart media tagging for Nextcloud" : "Etiquetamento inteligente de mídia para o Nextcloud",
+    "Smart media tagging for Nextcloud" : "Marcação inteligente de mídia para o Nextcloud",
     "App recommendation: Group folders" : "Recomendação de aplicativo: Pastas de grupo",
     "Admin-configured folders shared by everyone in a group." : "Pastas configuradas pelo administrador compartilhadas por todos em um grupo.",
     "App recommendation: Whiteboard" : "Recomendação de aplicativo: Quadro Branco",
