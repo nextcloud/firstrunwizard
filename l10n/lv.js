@@ -14,6 +14,7 @@ OC.L10N.register(
     "More about Nextcloud" : "Vairāk par Nextcloud",
     "Privacy" : "Privātums",
     "Host your data and files where you decide." : "Izvēlies, kur mitināt savus datus un datnes!",
+    "Import and export anything you want with open standards." : "Ievieto un izgūsti jebko, ko vēlies, ar atvērtiem standartiem!",
     "Community" : "Kopiena",
     "Get the apps to sync your files" : "Saņem lietotnes, lai sinhronizētu savas datnes",
     "Server address" : "Servera adrese",
