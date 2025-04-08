@@ -6,6 +6,7 @@ OC.L10N.register(
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Ur meziant email simpl enfammet gant Restroù, Darempredoù ha Deizataer.",
     "Desktop client" : "Kliant burev",
     "iOS app" : "Meziant iOS",
+    "About & What's new" : "A-zivout & Petra nevez",
     "Close" : "Serriñ",
     "Community" : "Kumuniezh",
     "Server address" : "Chom-lec'h ar servijour",
