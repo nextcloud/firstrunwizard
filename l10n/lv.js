@@ -6,6 +6,7 @@ OC.L10N.register(
     "Keep your colleagues and friends in one place without leaking their private info." : "Turiet savus kolēģus un draugus vienuviet, neizpludinot viņu privāto informāciju.",
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Vienkārša e-pasta lietotne labi apvienota ar Datnēm, Kontaktiem un Kalendāru.",
     "App recommendation: Tasks" : "Lietotnes ieteikums: Uzdevumi",
+    "App recommendation: Forms" : "Lietotnes ieteikums: Veidlapas",
     "Access files via WebDAV" : "Piekļūt datnēm caur WebDAV",
     "Desktop client" : "Darbvirsmas klients",
     "iOS app" : "iOS lietotne",
@@ -18,6 +19,7 @@ OC.L10N.register(
     "Community" : "Kopiena",
     "Get the apps to sync your files" : "Saņem lietotnes, lai sinhronizētu savas datnes",
     "Server address" : "Servera adrese",
-    "Read more" : "Lasīt vairāk"
+    "Read more" : "Lasīt vairāk",
+    "Forms: automatically sync with a spreadsheet" : "Veidlapas: automātiski sinhronizēt ar izklājlapu"
 },
 "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);");
