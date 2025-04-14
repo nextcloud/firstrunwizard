@@ -48,7 +48,7 @@ OC.L10N.register(
     "Need help? ↗" : "Precisa de ajuda? ↗",
     "Find out more about your Nextcloud setup with the admin, user or developer documentation." : "Descubra mais sobre seu Nextcloud com as documentações para administradores, usuários ou desenvolvedores.",
     "For large organisations ↗" : "Para grandes organizações ↗",
-    "Get Nextcloud Enterprise for mission critical environments where advanced security and compliance are important." : "Adquira o Nextcloud Enterprise para ambientes críticos onde segurança e compliance são muito importantes.",
+    "Get Nextcloud Enterprise for mission critical environments where advanced security and compliance are important." : "Adquira o Nextcloud Empresarial para ambientes críticos onde segurança e compliance são muito importantes.",
     "Seamless integration with your devices." : "Integração perfeita com seus dispositivos.",
     "Sync your files across your devices with the desktop and mobile apps, and connect your calendar and contacts." : "Sincronize seus arquivos em todos os seus dispositivos com os aplicativos de desktop e aplicativos móveis, e conecte seu calendário e contatos.",
     "Desktop app ↗" : "Aplicativo Desktop ↗",
