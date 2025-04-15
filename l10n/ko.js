@@ -65,6 +65,7 @@ OC.L10N.register(
     "Find out more on the blog" : "자세한 내용은 블로그에서 확인하세요",
     "Read the Nextcloud Hub {version} blog" : "Nextcloud Hub {version} 블로그 읽기",
     "Share your opinion about Nextcloud Hub {version}" : "{version}에 대한 의견을 공유해 주세요",
+    "Share via email" : "이메일로 공유",
     "Share on {socialMedia}" : "{socialMedia}에 공유하기",
     "New in Nextcloud Hub {version}" : "Nextcloud Hub {version}의 새로운 기능",
     "Get the apps to sync your files" : "파일 동기화 앱 가져오기",
