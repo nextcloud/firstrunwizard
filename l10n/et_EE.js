@@ -17,6 +17,7 @@ OC.L10N.register(
     "iOS app" : "iOS-i rakendus",
     "Close" : "Sulge",
     "Community" : "Kogukond",
+    "Share via email" : "Jaga e-postiga",
     "Get the apps to sync your files" : "Hangi rakendusi failide sünkroniseerimiseks",
     "URL copied" : "Võrguaadress on kopeeritud",
     "Could not copy the URL, please copy manually" : "Võrguaadressi kopeerimine ei õnnestunud, palun tee seda käsitsi",
