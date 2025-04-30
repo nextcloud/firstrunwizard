@@ -7,6 +7,7 @@ OC.L10N.register(
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Oddiy elektron pochta ilovasi fayllar, kontaktlar va taqvim bilan yaxshi birlashtirilgan.",
     "App recommendation: Group folders" : "App recommendation: Group folders",
     "Close" : "Close",
+    "Share via email" : "Elektron pochta orqali ulashing",
     "Server address" : "Server address"
 },
 "nplurals=1; plural=0;");
