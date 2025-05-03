@@ -13,6 +13,7 @@ OC.L10N.register(
     "About & What's new" : "Par un kas jauns",
     "Close" : "Aizvērt",
     "More about Nextcloud" : "Vairāk par Nextcloud",
+    "Explore more apps ↗" : "Izpētīt vairāk lietotņu ↗",
     "Privacy" : "Privātums",
     "Host your data and files where you decide." : "Izvēlies, kur mitināt savus datus un datnes!",
     "Import and export anything you want with open standards." : "Ievieto un izgūsti jebko, ko vēlies, ar atvērtiem standartiem!",
