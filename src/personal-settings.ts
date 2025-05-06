@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: AGPL-3.0-or-later
  */
 
-import Vue from 'vue'
+import { createApp } from 'vue'
 import PersonalSettings from './views/PersonalSettings.vue'
 
-const View = Vue.extend(PersonalSettings)
-new View().$mount('#firstrunwizard-settings')
+const app = createApp(PersonalSettings)
+app.mount('#firstrunwizard-settings')

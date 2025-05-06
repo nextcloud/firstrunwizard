@@ -3,18 +3,22 @@
  * SPDX-License-Identifier: AGPL-3.0-or-later
  */
 
-import { translate, translatePlural } from '@nextcloud/l10n'
-import Vue from 'vue'
-import App from './views/App.vue'
+import { createApp } from 'vue'
+import FirstRunWizard from './views/App.vue'
 
-Vue.prototype.t = translate
-Vue.prototype.n = translatePlural
-
-const el = document.createElement('div')
-el.id = 'firstrunwizard'
-document.querySelector('body')!.appendChild(el)
-
-const View = Vue.extend(App)
-const vm = new View().$mount(el)
-
-export const open = vm.open
+let vm: InstanceType<typeof FirstRunWizard>
+/**
+ * Open the wizard and mount if needed.
+ *
+ * @param focusReturn - Where to return focus after the wizard is closed
+ */
+export function open(focusReturn?: HTMLElement | SVGElement | string) {
+	if (vm === undefined) {
+		const el = document.createElement('div')
+		el.id = 'firstrunwizard'
+		document.querySelector('body')!.appendChild(el)
+		vm = createApp(FirstRunWizard)
+			.mount(el) as InstanceType<typeof FirstRunWizard>
+	}
+	vm.open(focusReturn)
+}

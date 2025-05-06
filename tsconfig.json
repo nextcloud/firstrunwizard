@@ -5,5 +5,8 @@
 		"lib": ["DOM", "ESNext"],
 		"allowImportingTsExtensions": true,
 		"moduleResolution": "bundler"
+	},
+	"vueCompilerOptions": {
+		"target": 3.5
 	}
 }
