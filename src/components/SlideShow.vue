@@ -22,7 +22,7 @@
 			v-if="!isFirstPage && isMobile"
 			:aria-label="t('firstrunwizard', 'Go to previous page')"
 			:class="$style.button_back"
-			type="tertiary"
+			variant="tertiary"
 			@click="$emit('update:current-index', currentIndex - 1)">
 			<template #icon>
 				<NcIconSvgWrapper :path="mdiArrowLeft" />
@@ -33,7 +33,7 @@
 		<NcButton
 			:aria-label="t('firstrunwizard', 'Close')"
 			:class="$style.button_close"
-			:type="isFirstPage ? 'primary' : 'tertiary'"
+			:variant="isFirstPage ? 'primary' : 'tertiary'"
 			@click="$emit('update:current-index', -1)">
 			<template #icon>
 				<NcIconSvgWrapper :path="mdiClose" />
@@ -59,7 +59,7 @@
 				v-for="button, index of currentPage.buttons"
 				:key="button.to"
 				alignment="center-reverse"
-				:type="index === currentPage.buttons.length - 1 ? 'primary' : 'secondary'"
+				:variant="index === currentPage.buttons.length - 1 ? 'primary' : 'secondary'"
 				:wide="index === currentPage.buttons.length - 1"
 				@click="goToPage(button.to)">
 				<template v-if="!isLastPage" #icon>
