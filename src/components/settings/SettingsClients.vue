@@ -3,7 +3,8 @@
   - SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 <template>
-	<NcSettingsSection class="settings-clients"
+	<NcSettingsSection
+		class="settings-clients"
 		:name="t('firstrunwizard', 'Get the apps to sync your files')"
 		:description="
 			t(
@@ -11,18 +12,21 @@
 				'{productName} gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost.',
 				{ productName },
 				null,
-				{escape: false}
+				{ escape: false },
 			)
 		">
 		<ul :class="$style.list" :aria-label="t('firstrunwizard', 'App for syncing')">
-			<li v-for="client, id of clients"
+			<li
+				v-for="client, id of clients"
 				:key="id"
 				:class="$style.entry">
-				<a :class="$style.link"
+				<a
+					:class="$style.link"
 					:href="client.href"
 					rel="noreferrer noopener"
 					target="_blank">
-					<img :class="$style.image"
+					<img
+						:class="$style.image"
 						:src="client.image"
 						:alt="client.name">
 				</a>
@@ -36,8 +40,7 @@
 <script setup lang="ts">
 import { loadState } from '@nextcloud/initial-state'
 import { translate as t } from '@nextcloud/l10n'
-
-import NcSettingsSection from '@nextcloud/vue/dist/Components/NcSettingsSection.js'
+import NcSettingsSection from '@nextcloud/vue/components/NcSettingsSection'
 
 interface InitialState {
 	appPasswords: string
@@ -55,7 +58,8 @@ const { clients, appPasswords } = loadState<InitialState>('firstrunwizard', 'lin
 const productName = window.OC.theme.name ?? 'Nextcloud'
 const linkStart = `<a href="${appPasswords}">`
 const linkEnd = '</a>'
-const settingsText = t('firstrunwizard',
+const settingsText = t(
+	'firstrunwizard',
 	'Set up sync clients using an {linkStart}app password{linkEnd}. That way you can make sure you are able to revoke access in case you lose that device.',
 	{ linkStart, linkEnd },
 	undefined,

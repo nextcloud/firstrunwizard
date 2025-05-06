@@ -3,13 +3,16 @@
   - SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 <template>
-	<NcSettingsSection :name="t('firstrunwizard', 'Connect other apps to {productName}', { productName }, null, {escape: false})"
+	<NcSettingsSection
+		:name="t('firstrunwizard', 'Connect other apps to {productName}', { productName }, null, { escape: false })"
 		:description="
-			t('firstrunwizard', 'Besides the mobile apps and desktop client you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to {productName}.', { productName }, null, {escape: false})
+			t('firstrunwizard', 'Besides the mobile apps and desktop client you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to {productName}.', { productName }, null, { escape: false })
 		">
-		<ul :class="$style.list"
-			:aria-label="t('firstrunwizard', 'Apps to connect to {productName}', { productName }, null, {escape: false})">
-			<li v-for="app, id of apps"
+		<ul
+			:class="$style.list"
+			:aria-label="t('firstrunwizard', 'Apps to connect to {productName}', { productName }, null, { escape: false })">
+			<li
+				v-for="app, id of apps"
 				:key="id">
 				<NcButton :href="app.link">
 					<template #icon>
@@ -25,9 +28,8 @@
 <script setup lang="ts">
 import { loadState } from '@nextcloud/initial-state'
 import { translate as t } from '@nextcloud/l10n'
-
-import NcButton from '@nextcloud/vue/dist/Components/NcButton.js'
-import NcSettingsSection from '@nextcloud/vue/dist/Components/NcSettingsSection.js'
+import NcButton from '@nextcloud/vue/components/NcButton'
+import NcSettingsSection from '@nextcloud/vue/components/NcSettingsSection'
 
 const apps = loadState<{ [id: string]: { image: string, label: string, link: string } }>('firstrunwizard', 'apps')
 

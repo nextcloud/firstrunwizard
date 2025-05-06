@@ -6,7 +6,8 @@
 <template>
 	<div :class="$style.wrapper">
 		<!-- The "wave" background for the logo on the first page-->
-		<Transition :enter-class="waveTransitionClasses.enter"
+		<Transition
+			:enter-class="waveTransitionClasses.enter"
 			:enter-active-class="waveTransitionClasses.active"
 			:leave-active-class="waveTransitionClasses.active"
 			:leave-to-class="waveTransitionClasses.leave">
@@ -17,7 +18,8 @@
 		<div :class="$style.background_bar" />
 
 		<!-- Back button on mobile if not first page -->
-		<NcButton v-if="!isFirstPage && isMobile"
+		<NcButton
+			v-if="!isFirstPage && isMobile"
 			:aria-label="t('firstrunwizard', 'Go to previous page')"
 			:class="$style.button_back"
 			type="tertiary"
@@ -28,7 +30,8 @@
 		</NcButton>
 
 		<!-- Custom close button to fix color contrast on first page -->
-		<NcButton :aria-label="t('firstrunwizard', 'Close')"
+		<NcButton
+			:aria-label="t('firstrunwizard', 'Close')"
 			:class="$style.button_close"
 			:type="isFirstPage ? 'primary' : 'tertiary'"
 			@click="$emit('update:current-index', -1)">
@@ -41,7 +44,8 @@
 		<div v-if="isFirstPage" :class="$style.logo" />
 
 		<!-- The page that is currently show wrapped in a slide transition -->
-		<Transition mode="out-in"
+		<Transition
+			mode="out-in"
 			:enter-class="transitionClasses.enter"
 			:enter-active-class="transitionClasses.active"
 			:leave-active-class="transitionClasses.active"
@@ -51,7 +55,8 @@
 
 		<!-- Next button(s) -->
 		<div :class="$style.button_wrapper">
-			<NcButton v-for="button, index of currentPage.buttons"
+			<NcButton
+				v-for="button, index of currentPage.buttons"
 				:key="button.to"
 				alignment="center-reverse"
 				:type="index === currentPage.buttons.length - 1 ? 'primary' : 'secondary'"
@@ -65,16 +70,17 @@
 		</div>
 	</div>
 </template>
-<script setup lang="ts">
-import type { IPage } from '../pages'
 
+<script setup lang="ts">
+import type { IPage } from '../pages.ts'
+
+import { mdiArrowLeft, mdiArrowRight, mdiClose } from '@mdi/js'
 import { translate as t } from '@nextcloud/l10n'
 import { imagePath } from '@nextcloud/router'
-import { mdiArrowLeft, mdiArrowRight, mdiClose } from '@mdi/js'
-import { useIsSmallMobile } from '@nextcloud/vue/dist/Composables/useIsMobile.js'
+import { useIsSmallMobile } from '@nextcloud/vue/composables/useIsMobile'
 import { computed, ref, useCssModule, watch } from 'vue'
-import NcButton from '@nextcloud/vue/dist/Components/NcButton.js'
-import NcIconSvgWrapper from '@nextcloud/vue/dist/Components/NcIconSvgWrapper.js'
+import NcButton from '@nextcloud/vue/components/NcButton'
+import NcIconSvgWrapper from '@nextcloud/vue/components/NcIconSvgWrapper'
 
 const props = defineProps<{
 	pages: IPage[]
@@ -138,6 +144,7 @@ watch(() => props.currentIndex, (newPage, oldPage) => {
 
 /**
  * Move to page with given ID
+ *
  * @param pageId ID of the page to got to
  */
 function goToPage(pageId: string) {

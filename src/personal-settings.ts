@@ -4,7 +4,7 @@
  */
 
 import Vue from 'vue'
-import Settings from './views/Settings.vue'
+import PersonalSettings from './views/PersonalSettings.vue'
 
-const View = Vue.extend(Settings)
+const View = Vue.extend(PersonalSettings)
 new View().$mount('#firstrunwizard-settings')

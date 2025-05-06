@@ -4,7 +4,8 @@
 -->
 
 <template>
-	<a :class="$style.badge"
+	<a
+		:class="$style.badge"
 		:aria-label="ariaLabel"
 		target="_blank"
 		rel="noreferrer"
