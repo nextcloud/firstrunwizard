@@ -3,7 +3,8 @@
  * SPDX-License-Identifier: AGPL-3.0-or-later
  */
 
-// eslint-disable-next-line import/no-unresolved, n/no-missing-import
+import { subscribe } from '@nextcloud/event-bus'
+
 import 'vite/modulepreload-polyfill'
 
 /**
@@ -17,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			event.stopPropagation()
 			event.preventDefault()
 			const focusReturn = document.querySelector('[aria-controls="header-menu-user-menu"]') ?? undefined
-			const { open } = await import('./main.js')
+			const { open } = await import('./main.ts')
 			open(focusReturn)
 			OC.hideMenus(() => false)
 		})
@@ -26,6 +27,6 @@ document.addEventListener('DOMContentLoaded', function() {
 	if (aboutEntry()) {
 		addListener()
 	} else {
-		window._nc_event_bus.subscribe('core:user-menu:mounted', addListener)
+		subscribe('core:user-menu:mounted', addListener)
 	}
 })

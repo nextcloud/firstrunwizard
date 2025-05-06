@@ -15,9 +15,8 @@
 
 <script setup lang="ts">
 import { translate as t } from '@nextcloud/l10n'
-
-import HubRelease from '../../hub-release'
 import WizardPage from '../WizardPage.vue'
+import HubRelease from '../../hub-release.ts'
 </script>
 
 <style module>

@@ -5,7 +5,8 @@
 
 <template>
 	<!-- The dark prop is set to prevent backdrop "hit" when the first real page is shown -->
-	<NcModal v-if="showModal"
+	<NcModal
+		v-if="showModal"
 		id="firstrunwizard"
 		class="first-run-wizard"
 		size="normal"
@@ -22,16 +23,15 @@
 </template>
 
 <script setup lang="ts">
-import { generateUrl } from '@nextcloud/router'
-import NcModal from '@nextcloud/vue/dist/Components/NcModal.js'
-import { useIsSmallMobile } from '@nextcloud/vue/dist/Composables/useIsMobile.js'
-import { computed, ref, watchEffect } from 'vue'
 import axios from '@nextcloud/axios'
-
+import { loadState } from '@nextcloud/initial-state'
+import { generateUrl } from '@nextcloud/router'
+import { useIsSmallMobile } from '@nextcloud/vue/composables/useIsMobile'
+import { computed, ref, watchEffect } from 'vue'
+import NcModal from '@nextcloud/vue/components/NcModal'
 import IntroAnimation from '../components/pages/IntroAnimation.vue'
 import SlideShow from '../components/SlideShow.vue'
-import pages from '../pages'
-import { loadState } from '@nextcloud/initial-state'
+import pages from '../pages.ts'
 
 const isMobile = useIsSmallMobile()
 /** This is set to true in case the user already received the wizard but Nextcloud was updated to show the changelog only */
@@ -40,7 +40,7 @@ const showChangelogOnly = loadState<boolean>('firstrunwizard', 'changelogOnly', 
 const changelogPage = Math.min(pages.findIndex((page) => page.id === 'hub-release'), 0)
 
 const showModal = ref(false)
-const currentPage = ref<number|null>(null)
+const currentPage = ref<number | null>(null)
 const setReturnFocus = ref<HTMLElement | SVGElement | string>()
 
 /**
@@ -56,6 +56,7 @@ const hasNext = computed(() => !isMobile.value && currentPage.value !== null && 
 
 /**
  * Open the first run wizard modal
+ *
  * @param focusReturn The element to return focus after the modal is closed
  */
 function open(focusReturn?: HTMLElement | SVGElement | string) {

@@ -3,9 +3,11 @@
   - SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 <template>
-	<NcSettingsSection :name="t('firstrunwizard', 'Server address')"
+	<NcSettingsSection
+		:name="t('firstrunwizard', 'Server address')"
 		:description="t('firstrunwizard', 'Use this link to connect your apps and desktop client to this server:')">
-		<NcInputField id="endpoint-url"
+		<NcInputField
+			id="endpoint-url"
 			:class="$style.input"
 			:label="t('firstrunwizard', 'Server address')"
 			show-trailing-button
@@ -21,14 +23,13 @@
 
 <script setup lang="ts">
 import { mdiCheck, mdiContentCopy } from '@mdi/js'
-import { showError, showSuccess } from '@nextcloud/dialogs'
+import { showSuccess } from '@nextcloud/dialogs'
 import { translate as t } from '@nextcloud/l10n'
 import { getBaseUrl } from '@nextcloud/router'
 import { ref } from 'vue'
-
-import NcIconSvgWrapper from '@nextcloud/vue/dist/Components/NcIconSvgWrapper.js'
-import NcInputField from '@nextcloud/vue/dist/Components/NcInputField.js'
-import NcSettingsSection from '@nextcloud/vue/dist/Components/NcSettingsSection.js'
+import NcIconSvgWrapper from '@nextcloud/vue/components/NcIconSvgWrapper'
+import NcInputField from '@nextcloud/vue/components/NcInputField'
+import NcSettingsSection from '@nextcloud/vue/components/NcSettingsSection'
 
 const url = getBaseUrl()
 
@@ -48,9 +49,11 @@ function onCopyContent() {
 		}
 		// Update the icon to check to show success
 		copyIcon.value = mdiCheck
-		pendingTimeout.value = window.setTimeout(() => { copyIcon.value = mdiContentCopy }, 3000)
-	} catch (error) {
-		showError(t('firstrunwizard', 'Could not copy the URL, please copy manually'))
+		pendingTimeout.value = window.setTimeout(() => {
+			copyIcon.value = mdiContentCopy
+		}, 3000)
+	} catch {
+		window.prompt(t('firstrunwizard', 'Could not copy the URL, please copy manually'), url)
 	}
 }
 </script>

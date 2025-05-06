@@ -6,7 +6,8 @@
 <template>
 	<WizardPage :title="t('firstrunwizard', 'Introducing Nextcloud Hub {version}', { version: HUBRelease.version })">
 		<a :href="HUBRelease.link" :class="$style.anchor" target="_blank">
-			<video :class="$style.animation"
+			<video
+				:class="$style.animation"
 				playsinline
 				autoplay
 				muted>
@@ -21,9 +22,8 @@
 <script setup lang="ts">
 import { translate as t } from '@nextcloud/l10n'
 import { imagePath } from '@nextcloud/router'
-
-import HUBRelease from '../../hub-release'
 import WizardPage from '../WizardPage.vue'
+import HUBRelease from '../../hub-release.ts'
 
 const videoMp4 = imagePath('firstrunwizard', 'nextcloudHub.mp4')
 const videoWebm = imagePath('firstrunwizard', 'nextcloudHub.webm')

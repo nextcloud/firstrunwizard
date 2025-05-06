@@ -4,24 +4,29 @@
 -->
 
 <template>
-	<WizardPage :scroller-classes="scrollerClasses"
+	<WizardPage
+		:scroller-classes="scrollerClasses"
 		:title="t('firstrunwizard', 'A collaboration platform that puts you in control')">
-		<Card :title="t('firstrunwizard', 'Privacy')"
+		<InfoCard
+			:title="t('firstrunwizard', 'Privacy')"
 			:subtitle="t('firstrunwizard', 'Host your data and files where you decide.')">
 			<NcIconSvgWrapper :class="$style.icon" inline :path="mdiLock" />
-		</Card>
-		<Card :title="t('firstrunwizard', 'Productivity')"
+		</InfoCard>
+		<InfoCard
+			:title="t('firstrunwizard', 'Productivity')"
 			:subtitle="t('firstrunwizard', 'Collaborate and communicate across any platform.')">
 			<NcIconSvgWrapper :class="$style.icon" inline :path="mdiBriefcaseCheck" />
-		</Card>
-		<Card :title="t('firstrunwizard', 'Interoperability')"
+		</InfoCard>
+		<InfoCard
+			:title="t('firstrunwizard', 'Interoperability')"
 			:subtitle="t('firstrunwizard', 'Import and export anything you want with open standards.')">
 			<NcIconSvgWrapper :class="$style.icon" inline :path="mdiSwapHorizontal" />
-		</Card>
-		<Card :title="t('firstrunwizard', 'Community')"
+		</InfoCard>
+		<InfoCard
+			:title="t('firstrunwizard', 'Community')"
 			:subtitle="t('firstrunwizard', 'Enjoy constant improvements from a thriving open-source community.')">
 			<NcIconSvgWrapper :class="$style.icon" inline :path="mdiAccountGroup" />
-		</Card>
+		</InfoCard>
 
 		<p :class="$style.version">
 			{{ versionNumber }}
@@ -32,9 +37,8 @@
 <script setup lang="ts">
 import { mdiAccountGroup, mdiBriefcaseCheck, mdiLock, mdiSwapHorizontal } from '@mdi/js'
 import { translate as t } from '@nextcloud/l10n'
-import NcIconSvgWrapper from '@nextcloud/vue/dist/Components/NcIconSvgWrapper.js'
-
-import Card from '../Card.vue'
+import NcIconSvgWrapper from '@nextcloud/vue/components/NcIconSvgWrapper'
+import InfoCard from '../InfoCard.vue'
 import WizardPage from '../WizardPage.vue'
 
 defineProps<{

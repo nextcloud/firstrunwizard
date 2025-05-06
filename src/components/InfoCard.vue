@@ -3,7 +3,8 @@
   - SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 <template>
-	<element :is="isLink ? 'a' : 'div'"
+	<element
+		:is="isLink ? 'a' : 'div'"
 		:href="href || undefined"
 		:class="[$style.card, { [$style.link]: isLink }]"
 		:target="!isLink ? undefined : '_blank'"

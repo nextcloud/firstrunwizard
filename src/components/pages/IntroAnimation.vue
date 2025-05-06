@@ -5,7 +5,8 @@
 
 <template>
 	<div :class="$style.wrapper">
-		<video :class="$style.video"
+		<video
+			:class="$style.video"
 			playsinline
 			autoplay
 			muted
