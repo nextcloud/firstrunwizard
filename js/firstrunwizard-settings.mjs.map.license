@@ -9,10 +9,10 @@ SPDX-FileCopyrightText: Varun A P
 
 This file is generated from multiple sources. Included packages:
 - @nextcloud/dialogs
-	- version: 6.1.1
+	- version: 6.2.0
 	- license: AGPL-3.0-or-later
 - @nextcloud/vue
-	- version: 8.23.1
+	- version: 8.26.0
 	- license: AGPL-3.0-or-later
 - firstrunwizard
 	- version: 5.0.0-dev.0
