@@ -2,6 +2,8 @@
 	"extends": "@vue/tsconfig",
 	"include": ["src/*.ts", "src/**/*.ts", "src/**/*.vue"],
 	"compilerOptions": {
-		"lib": ["DOM", "ESNext"]
+		"lib": ["DOM", "ESNext"],
+		"allowImportingTsExtensions": true,
+		"moduleResolution": "bundler"
 	}
 }
