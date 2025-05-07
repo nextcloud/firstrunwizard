@@ -8,7 +8,7 @@ OC.L10N.register(
     "Desktop client" : "Client desktop",
     "iOS app" : "Aplicație iOS",
     "Close" : "Închide",
-    "Privacy" : "Confindențialitate",
+    "Privacy" : "Confidențialitate",
     "Community" : "Comunitate",
     "Get the apps to sync your files" : "Obține aplicația pentru sincronizarea fișierelor",
     "Server address" : "Adresă server",
