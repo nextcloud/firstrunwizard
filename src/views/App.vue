@@ -11,14 +11,19 @@
 		class="first-run-wizard"
 		size="normal"
 		:dark="!isMobile"
-		:has-next="hasNext"
-		:has-previous="hasPrevious"
-		:set-return-focus="setReturnFocus"
+		:has-next
+		:has-previous
+		:set-return-focus
 		@close="close"
 		@next="currentPage += 1"
 		@previous="currentPage -= 1">
-		<IntroAnimation v-if="currentPage === null" @next="currentPage = showChangelogOnly ? changelogPage : 0" />
-		<SlideShow v-else :pages="pages" :current-index.sync="currentPage" />
+		<IntroAnimation
+			v-if="currentPage === null"
+			@next="currentPage = showChangelogOnly ? changelogPage : 0" />
+		<SlideShow
+			v-else
+			v-model:current-index="currentPage"
+			:pages />
 	</NcModal>
 </template>
 
