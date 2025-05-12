@@ -15,6 +15,7 @@ OC.L10N.register(
     "Android app on Google Play Store" : "Androidi rakendus Google Play rakendustepoes",
     "Android app on F-Droid" : "Androidi rakendus F-Droidi rakendustepoes",
     "iOS app" : "iOS-i rakendus",
+    "Go to previous page" : "Mine eelmisele lehele",
     "Close" : "Sulge",
     "Community" : "Kogukond",
     "Share via email" : "Jaga e-postiga",
