@@ -44,7 +44,6 @@ OC.L10N.register(
     "App recommendation: Nextcloud Calendar" : "Racumandatzione aplicatzione: Nextcloud Calendar",
     "App recommendation: Nextcloud Contacts" : "Racumandatzione aplicatzione: Nextcloud Contacts",
     "App recommendation: Nextcloud Mail" : "Racumandatzione aplicatzione: Nextcloud Mail",
-    "Get to know the new features of Hub 8" : "Connosche is funtzionalidades noas de Hub 8",
     "Get to know the new features of Hub 9" : "Connosche is funtzionalidades noas de Hub 9"
 },
 "nplurals=2; plural=(n != 1);");
