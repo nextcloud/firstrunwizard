@@ -21,7 +21,6 @@ OC.L10N.register(
     "Get the apps to sync your files" : "Iegūsti lietotnes savu datņu sinhronizēšanai",
     "{productName} gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "{productName} sniedz piekļuvi Tavām datnēm, lai kur arī Tu būtu. Mūsu viegli izmantojamie darbvirsmas un viedierīču klienti ir bez maksas pieejami visās galvenajās platformās.",
     "Server address" : "Servera adrese",
-    "Read more" : "Lasīt vairāk",
-    "Forms: automatically sync with a spreadsheet" : "Veidlapas: automātiski sinhronizēt ar izklājlapu"
+    "Read more" : "Lasīt vairāk"
 },
 "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);");
