@@ -7,8 +7,11 @@ OC.L10N.register(
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Lisää profiilitietosi! Lisää profiilikuva ja koko nimi, jotta sinut on helpompi tunnistaa.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Lisää profiilitietosi! Lisää koko nimesi, jotta sinut on helpompi tunnistaa.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Lisää profiilitietosi! Lisää profiilikuva, jotta sinut on helpompi tunnistaa.",
+    "App recommendation: Calendar" : "Sovellussuositus: Kalenteri",
     "Schedule work & meetings, synced with all your devices." : "Aikatauluta työsi ja tapaamisesi synkronoidusti kaikkien laitteitesi välillä.",
+    "App recommendation: Contacts" : "Sovellussuositus: Yhteystiedot",
     "Keep your colleagues and friends in one place without leaking their private info." : "Pidä työkaverisi ja kaverisi samassa paikassa vuotamatta heidän yksityisiä tietojaan.",
+    "App recommendation: Mail" : "Sovellussuositus: Sähköposti",
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Yksinkertainen sähköpostisovellus, joka toimii yhdessä Tiedostojen, Kontaktien ja Kalenterin kanssa.",
     "App recommendation: Tasks" : "Sovellussuositus: Tehtävät",
     "Sync tasks from various devices with your Nextcloud and edit them online." : "Synkronoit tehtäviä eri laitteista Nextcloudiisi ja muokkaa niitä netissä.",
@@ -65,6 +68,7 @@ OC.L10N.register(
     "Share via email" : "Jaa sähköpostitse",
     "New in Nextcloud Hub {version}" : "Uutta Nextcloud Hubin versiossa {version}",
     "Get the apps to sync your files" : "Aseta sovellukset synkronoimaan tiedostosi",
+    "URL copied" : "Verkko-osoite kopioitu",
     "Server address" : "Palvelimen osoite",
     "Use this link to connect your apps and desktop client to this server:" : "Käytä tätä linkkiä yhdistääksesi sovellukset ja työpöytäsovelluksen tähän palvelimeen:",
     "What's new?" : "Mitä uutta?",
@@ -74,6 +78,7 @@ OC.L10N.register(
     "Get started!" : "Aloitetaan!",
     "App recommendation: Nextcloud Calendar" : "Sovellussuositus: Nextcloud-kalenteri",
     "App recommendation: Nextcloud Contacts" : "Sovellussuositus: Nextcloud-yhteystiedot",
-    "App recommendation: Nextcloud Mail" : "Sovellussuositus: Nextcloud-sähköposti"
+    "App recommendation: Nextcloud Mail" : "Sovellussuositus: Nextcloud-sähköposti",
+    "Workflow Engine" : "Työnkulkumoottori"
 },
 "nplurals=2; plural=(n != 1);");
