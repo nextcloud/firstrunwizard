@@ -34,6 +34,7 @@ OC.L10N.register(
     "Welcome to {cloudName}!" : "Welkom bij {cloudName}!",
     "Privacy" : "Privacy",
     "Community" : "Community",
+    "Share via email" : "Delen via e-mail",
     "Get the apps to sync your files" : "Download de apps om bestanden te synchen",
     "Server address" : "Serveradres",
     "Use this link to connect your apps and desktop client to this server:" : "Gebruik deze link om je apps en desktop client met deze server te verbinden:",
