@@ -64,7 +64,7 @@ OC.L10N.register(
     "Productivity" : "Få ting gjort",
     "Collaborate and communicate across any platform." : "Synkroniser og kommuniker på enhver platform.",
     "Interoperability" : "Gennemgående fleksibilitet",
-    "Import and export anything you want with open standards." : "Importer og eksporter alt ved brug af åbne standarder",
+    "Import and export anything you want with open standards." : "Importér og eksportér alt ved brug af åbne standarder",
     "Community" : "Onlinefællesskab",
     "Enjoy constant improvements from a thriving open-source community." : "Nyd konstante forbedringer fra et ivrigt open-source fællesskab.",
     "Nextcloud Hub {version} release" : "Nextcloud Hub {version} udgivelse",
