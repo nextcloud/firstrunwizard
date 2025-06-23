@@ -6,6 +6,7 @@ OC.L10N.register(
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Simple email app nicely integrated with Files, Contacts and Calendar.",
     "Go to previous page" : "Nenda ukurasa uliopita",
     "Close" : "Funga",
+    "Privacy" : "Faragha",
     "Server address" : "Anwani ya seva"
 },
 "nplurals=2; plural=(n != 1);");
