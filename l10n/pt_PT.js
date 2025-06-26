@@ -9,6 +9,7 @@ OC.L10N.register(
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Adicione informação ao seu perfil! Defina uma imagem de perfil para facilitar o reconhecimento em todas as funcionalidades.",
     "Schedule work & meetings, synced with all your devices." : "Agende trabalho e reuniões, sincronizando com todos os seus dispositivos.",
     "Keep your colleagues and friends in one place without leaking their private info." : "Mantenha os seus colegas e amigos no mesmo lugar sem divulgar as suas informações privadas.",
+    "Simple email app nicely integrated with Files, Contacts and Calendar." : "Aplicação de email simples integrada com Ficheiros, Contactos e Calendário.",
     "App recommendation: Tasks" : "Recomendação de aplicação: Tarefas Nextcloud",
     "App recommendation: Deck" : "Recomendação de aplicação: Deck",
     "Smart media tagging for Nextcloud" : "Etiquetamento inteligente de mídia para o Nextcloud",
