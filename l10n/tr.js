@@ -109,7 +109,7 @@ OC.L10N.register(
     "Nextcloud Whiteboard" : "Nextcloud Beyaz Tahta",
     "Workflow Engine" : "İş akışı işleyici",
     "Safer and swifter mail" : "Daha güvenli ve daha hızlı e-posta",
-    "Public Collectives sharing, previews and QR-codes" : "Kamu toplulukları paylaşımı, ön izlemeler ve QR kodları",
+    "Public Collectives sharing, previews and QR-codes" : "Kamu toplulukları paylaşımı, ön izlemeler ve kare kodlar",
     "Office and PDF templates" : "Office ve PDF kalıpları",
     "Chat mode for Nextcloud Assistant" : "Nextcloud Yardımcısı için sohbet kipi",
     "Get to know the new features of Hub 9" : "Yeni Merkez 9 özellikleri ile ilgili bilgi alın"
