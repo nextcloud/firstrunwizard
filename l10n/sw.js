@@ -7,6 +7,7 @@ OC.L10N.register(
     "Go to previous page" : "Nenda ukurasa uliopita",
     "Close" : "Funga",
     "Privacy" : "Faragha",
-    "Server address" : "Anwani ya seva"
+    "Server address" : "Anwani ya seva",
+    "Read more" : "Soma zaidi"
 },
 "nplurals=2; plural=(n != 1);");
