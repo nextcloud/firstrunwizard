@@ -4,6 +4,7 @@ OC.L10N.register(
     "Schedule work & meetings, synced with all your devices." : "Schedule work & meetings, synced with all your devices.",
     "Keep your colleagues and friends in one place without leaking their private info." : "Keep your colleagues and friends in one place without leaking their private info.",
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Simple email app nicely integrated with Files, Contacts and Calendar.",
+    "Desktop client" : "Desktop client",
     "Go to previous page" : "Nenda ukurasa uliopita",
     "Close" : "Funga",
     "Privacy" : "Faragha",
