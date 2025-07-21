@@ -11,6 +11,7 @@ OC.L10N.register(
     "Desktop client" : "Cliente de escritorio",
     "iOS app" : "Aplicación iOS",
     "Close" : "Cerrar",
+    "Community" : "Comunidad",
     "Get the apps to sync your files" : "Obten las aplicaciones para sincronizar tus archivos",
     "Server address" : "Dirección del servidor"
 },
