@@ -6,8 +6,8 @@ OC.L10N.register(
     "Keep your colleagues and friends in one place without leaking their private info." : "Hamkasblaringiz va do'stlaringizni shaxsiy ma'lumotlarini oshkor qilmasdan bir joyda saqlang.",
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Oddiy elektron pochta ilovasi fayllar, kontaktlar va taqvim bilan yaxshi birlashtirilgan.",
     "App recommendation: Group folders" : "App recommendation: Group folders",
-    "Close" : "Close",
+    "Close" : "Yopish",
     "Share via email" : "Elektron pochta orqali ulashing",
-    "Server address" : "Server address"
+    "Server address" : "Server manzili"
 },
 "nplurals=1; plural=0;");
