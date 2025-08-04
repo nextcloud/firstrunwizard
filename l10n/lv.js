@@ -7,7 +7,7 @@ OC.L10N.register(
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Vienkārša e-pasta lietotne labi apvienota ar Datnēm, Kontaktiem un Kalendāru.",
     "App recommendation: Tasks" : "Lietotnes ieteikums: Uzdevumi",
     "App recommendation: Forms" : "Lietotnes ieteikums: Veidlapas",
-    "Access files via WebDAV" : "Piekļūt datnēm caur WebDAV",
+    "Access files via WebDAV" : "Piekļūt datnēm ar WebDAV",
     "Desktop client" : "Darbvirsmas klients",
     "iOS app" : "iOS lietotne",
     "About & What's new" : "Par un kas jauns",
