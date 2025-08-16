@@ -27,7 +27,7 @@ OC.L10N.register(
     "Create and share whiteboards with others and collaborate in real-time." : "Crea y comparte pizarras con otros y colabora en tiempo real.",
     "Connect your calendar" : "Conecta tu calendario",
     "Connect your contacts" : "Conecta tus contactos",
-    "Access files via WebDAV" : "Accede tus archivos vía WebDAV",
+    "Access files via WebDAV" : "Acceda a sus archivos vía WebDAV",
     "Download macOS/iOS configuration profile" : "Descargar perfil de configuración de macOS/iOS",
     "Desktop client" : "Cliente de escritorio",
     "Android app on Google Play Store" : "Aplicación Android en la Play Store de Google",
