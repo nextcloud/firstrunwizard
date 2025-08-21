@@ -5,14 +5,15 @@
 -->
 <psalm
 	errorLevel="4"
+	errorBaseline="tests/psalm-baseline.xml"
+	findUnusedBaselineEntry="true"
+	findUnusedCode="false"
+	phpVersion="8.1"
 	resolveFromConfigFile="true"
 	totallyTyped="true"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns="https://getpsalm.org/schema/config"
 	xsi:schemaLocation="https://getpsalm.org/schema/config https://getpsalm.org/schema/config"
-	findUnusedBaselineEntry="true"
-	findUnusedCode="false"
-	errorBaseline="tests/psalm-baseline.xml"
 >
 	<projectFiles>
 		<directory name="lib" />
