@@ -1,6 +1,8 @@
 OC.L10N.register(
     "firstrunwizard",
     {
+    "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Дадайце інфармацыю пра свой профіль! Задайце аватар профілю і поўнае імя для большай пазнавальнасці ва ўсіх функцыях.",
+    "Add your profile information! Set a profile picture for easier recognition across all features." : "Дадайце інфармацыю пра свой профіль! Задайце аватар профілю для большай пазнавальнасці ва ўсіх функцыях.",
     "Close" : "Закрыць",
     "Calendar and contacts ↗" : "Каляндар і кантакты",
     "Welcome to {cloudName}!" : "Вітаем у {cloudName}!",
