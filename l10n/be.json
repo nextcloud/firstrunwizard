@@ -1,6 +1,9 @@
 { "translations": {
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Дадайце інфармацыю пра свой профіль! Задайце аватар профілю і поўнае імя для большай пазнавальнасці ва ўсіх функцыях.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Дадайце інфармацыю пра свой профіль! Задайце аватар профілю для большай пазнавальнасці ва ўсіх функцыях.",
+    "Schedule work & meetings, synced with all your devices." : "Плануйце працу і сустрэчы, сінхранізуючы іх паміж усімі вашымі прыладамі.",
+    "Keep your colleagues and friends in one place without leaking their private info." : "Трымайце калег і сяброў у адным месцы, не раскрываючы іх асабістую інфармацыю.",
+    "Simple email app nicely integrated with Files, Contacts and Calendar." : "Простая праграма электроннай пошты, добра інтэграваная з Файламі, Кантактамі і Календаром.",
     "Close" : "Закрыць",
     "Calendar and contacts ↗" : "Каляндар і кантакты",
     "Welcome to {cloudName}!" : "Вітаем у {cloudName}!",
