@@ -10,7 +10,7 @@ This file is generated from multiple sources. Included packages:
 	- version: 7.0.0-rc.2
 	- license: AGPL-3.0-or-later
 - @nextcloud/vue
-	- version: 9.0.0-rc.7
+	- version: 9.0.0-rc.8
 	- license: AGPL-3.0-or-later
 - firstrunwizard
 	- version: 5.0.0-dev.0
