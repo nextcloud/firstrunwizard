@@ -7,9 +7,10 @@
 	<WizardPage :title="t('firstrunwizard', 'Introducing Nextcloud Hub {version}', { version: HUBRelease.version })">
 		<a :href="HUBRelease.link" :class="$style.anchor" target="_blank">
 			<video :class="$style.animation"
-				playsinline
 				autoplay
-				muted>
+				muted
+				playsinline
+				:poster="videoFallbackImage">
 				<source :src="videoWebm" type="video/webm;codecs=vp9">
 				<source :src="videoMp4" type="video/mp4">
 				{{ HUBRelease.videoAltText }}
@@ -27,6 +28,7 @@ import WizardPage from '../WizardPage.vue'
 
 const videoMp4 = imagePath('firstrunwizard', 'nextcloudHub.mp4')
 const videoWebm = imagePath('firstrunwizard', 'nextcloudHub.webm')
+const videoFallbackImage = imagePath('firstrunwizard', 'nextcloudHub.webp')
 </script>
 
 <style module>
