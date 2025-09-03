@@ -66,6 +66,12 @@ SPDX-FileCopyrightText = "X Corp."
 SPDX-License-Identifier = "LicenseRef-XTrademarks"
 
 [[annotations]]
+path = "img/linkedin.svg"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "LinkedIn Corporation"
+SPDX-License-Identifier = "LicenseRef-LinkedInTrademarks"
+
+[[annotations]]
 path = "img/facebook.svg"
 precedence = "aggregate"
 SPDX-FileCopyrightText = "2024 Meta"
