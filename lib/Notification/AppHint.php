@@ -13,34 +13,22 @@ use OCP\IGroupManager;
 use OCP\Notification\IManager as INotificationManager;
 
 class AppHint {
-
-	/** @var INotificationManager */
-	protected $notificationManager;
-
-	/** @var IGroupManager */
-	protected $groupManager;
-
-	/** @var IAppManager */
-	protected $appManager;
-
-	/** @var IConfig */
-	protected $config;
-
-	/** @var string */
-	private $userId;
-
 	public const APP_HINT_VERSION = '19';
 
-	public function __construct(INotificationManager $notificationManager, IGroupManager $groupManager, IAppManager $appManager, IConfig $config, $userId) {
-		$this->notificationManager = $notificationManager;
-		$this->groupManager = $groupManager;
-		$this->appManager = $appManager;
-		$this->config = $config;
-		$this->userId = $userId;
+	public function __construct(
+		private INotificationManager $notificationManager,
+		private IGroupManager $groupManager,
+		private IAppManager $appManager,
+		private IConfig $config,
+		private ?string $userId,
+	) {
 	}
 
 	public function sendAppHintNotifications(): void {
-		if ($this->userId !== null && $this->groupManager->isAdmin($this->userId) && $this->config->getUserValue($this->userId, 'firstrunwizard', 'apphint') !== self::APP_HINT_VERSION) {
+		if ($this->userId !== null
+			&& $this->groupManager->isAdmin($this->userId)
+			&& $this->config->getUserValue($this->userId, 'firstrunwizard', 'apphint') !== self::APP_HINT_VERSION
+		) {
 			$this->sendNotification('recognize', $this->userId);
 			$this->sendNotification('groupfolders', $this->userId);
 			$this->sendNotification('forms', $this->userId);

@@ -15,7 +15,6 @@ use OCA\FirstRunWizard\Notification\AppHint;
 use OCP\AppFramework\Http\Events\BeforeTemplateRenderedEvent;
 use OCP\AppFramework\Services\IAppConfig;
 use OCP\AppFramework\Services\IInitialState;
-use OCP\BackgroundJob\IJobList;
 use OCP\Defaults;
 use OCP\EventDispatcher\Event;
 use OCP\EventDispatcher\IEventListener;
@@ -33,17 +32,10 @@ class BeforeTemplateRenderedListener implements IEventListener {
 		private IConfig $config,
 		private IAppConfig $appConfig,
 		private IUserSession $userSession,
-		private IJobList $jobList,
 		private AppHint $appHint,
 		private IInitialState $initialState,
 		private Defaults $theming,
 	) {
-		$this->userSession = $userSession;
-		$this->config = $config;
-		$this->appHint = $appHint;
-		$this->jobList = $jobList;
-		$this->initialState = $initialState;
-		$this->theming = $theming;
 	}
 
 	public function handle(Event $event): void {
@@ -68,13 +60,6 @@ class BeforeTemplateRenderedListener implements IEventListener {
 			// then we only show the changelog
 			if (version_compare($lastSeenVersion, '1', '>')) {
 				$this->initialState->provideInitialState('changelogOnly', true);
-			} else {
-				// Otherwise if the user really uses Nextcloud for the very first time we create notifications for them
-				$this->jobList->add('OCA\FirstRunWizard\Notification\BackgroundJob', ['uid' => $this->userSession->getUser()->getUID()]);
-			}
-
-			if ($this->config->getSystemValueBool('appstoreenabled', true)) {
-				$this->appHint->sendAppHintNotifications();
 			}
 		}
 
