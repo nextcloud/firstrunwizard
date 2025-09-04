@@ -1,6 +1,6 @@
 {
   "name": "firstrunwizard",
-  "version": "5.0.0-dev.0",
+  "version": "6.0.0-dev.0",
   "private": true,
   "description": "A first run wizard that explains the usage of Nextcloud to new users",
   "license": "AGPL-3.0-or-later",
