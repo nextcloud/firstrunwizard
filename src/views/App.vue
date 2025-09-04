@@ -10,6 +10,7 @@
 		id="firstrunwizard"
 		class="first-run-wizard"
 		size="normal"
+		no-close
 		:dark="!isMobile"
 		:has-next
 		:has-previous
@@ -104,11 +105,6 @@ watchEffect(() => {
 			overflow: hidden;
 			height: 100%;
 			display: contents;
-		}
-
-		// Hide the default close button in favor of our custom one
-		&__close {
-			display: none;
 		}
 	}
 }

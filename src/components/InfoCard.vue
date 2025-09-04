@@ -3,7 +3,7 @@
   - SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 <template>
-	<element
+	<component
 		:is="isLink ? 'a' : 'div'"
 		:href="href || undefined"
 		:class="[$style.card, { [$style.link]: isLink }]"
@@ -18,7 +18,7 @@
 			</h3>
 			<p v-if="subtitle !== undefined" v-text="subtitle" />
 		</div>
-	</element>
+	</component>
 </template>
 
 <script setup lang="ts">
@@ -36,6 +36,7 @@ const isLink = computed(() => !!props.href)
 <style module lang="scss">
 .card {
 	display: flex;
+	gap: var(--default-grid-baseline);
 	max-width: 250px;
 	box-sizing: border-box;
 	height: auto;
