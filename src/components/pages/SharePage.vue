@@ -37,7 +37,9 @@ import NcButton from '@nextcloud/vue/components/NcButton'
 import NcIconSvgWrapper from '@nextcloud/vue/components/NcIconSvgWrapper'
 import InfoCard from '../InfoCard.vue'
 import WizardPage from '../WizardPage.vue'
+import blueskySvg from '../../../img/bluesky.svg?raw'
 import facebookSvg from '../../../img/facebook.svg?raw'
+import linkedInSvg from '../../../img/linkedin.svg?raw'
 import mastodonSvg from '../../../img/mastodon.svg?raw'
 import xSvg from '../../../img/x.svg?raw'
 import HubRelease from '../../hub-release.ts'
@@ -48,22 +50,34 @@ const mailBody = encodeURIComponent(t('firstrunwizard', 'Read more about it on t
 
 const shareLinks = [
 	{
+		id: 'bluesky',
+		name: 'Bluesky',
+		link: `https://bsky.app/intent/compose?text=${encodedLink}`,
+		icon: blueskySvg,
+	},
+	{
 		id: 'facebook',
 		name: 'Facebook',
 		link: `https://www.facebook.com/sharer/sharer.php?u=${encodedLink}`,
 		icon: facebookSvg,
 	},
 	{
-		id: 'x',
-		name: 'X',
-		link: `https://x.com/intent/post?url=${encodedLink}&via=Nextclouders&text=${encodeURIComponent(HubRelease.shareSubject ?? '')}`,
-		icon: xSvg,
+		id: 'linkedin',
+		name: 'LinkedIn',
+		link: `https://www.linkedin.com/sharing/share-offsite/?url=${encodedLink}`,
+		icon: linkedInSvg,
 	},
 	{
 		id: 'mastodon',
 		name: 'Mastodon',
 		link: `https://mastodon.social/share?text=${encodedLink}`,
 		icon: mastodonSvg,
+	},
+	{
+		id: 'x',
+		name: 'X',
+		link: `https://x.com/intent/post?url=${encodedLink}&via=Nextclouders&text=${encodeURIComponent(HubRelease.shareSubject ?? '')}`,
+		icon: xSvg,
 	},
 	{
 		id: 'email',
