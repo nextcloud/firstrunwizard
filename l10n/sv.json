@@ -84,16 +84,7 @@
     "Could not copy the URL, please copy manually" : "Det gick inte att kopiera URL:en, kopiera manuellt",
     "Server address" : "Serveradress",
     "Use this link to connect your apps and desktop client to this server:" : "Använd den här länken för att ansluta dina appar och desktopklient till den här servern:",
-    "End-to-end encryption in calls and web" : "End-to-end-kryptering i samtal och webb",
-    "Performance improvements across all our products" : "Prestandaförbättringar i alla våra produkter",
-    "Thousands of tweaks for improved UX and stability" : "Tusentals justeringar för förbättrad användarupplevelse och stabilitet",
-    "Your own new personal assistant" : "Din egen nya personliga assistent",
-    "Seamless file conversions" : "Smidiga filkonverteringar",
-    "Smarter team sharing with Team folders" : "Smartare delning inom team med Teammappar",
-    "Schedule meetings directly in Talk" : "Schemalägg möten direkt i Talk",
-    "Mail you love again: translations, summaries, and mentions" : "E-post du älskar igen: översättningar, sammanfattningar och omnämnanden",
     "Get to know the new features of Hub {version}" : "Lär känna de nya funktionerna i Hub {version}",
-    "Nextcloud Hub 10 is here – your modular & unified digital workspace! 💫" : "Nextcloud Hub 10 är här – din modulära och enhetliga digitala arbetsyta! 💫",
     "What's new?" : "Vad är nytt?",
     "Nextcloud on all your devices" : "Nextcloud på alla dina enheter",
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
@@ -110,6 +101,15 @@
     "Public Collectives sharing, previews and QR-codes" : "Publik Collectives-delning, förhandsvisningar och QR-koder",
     "Office and PDF templates" : "Office och PDF-mallar",
     "Chat mode for Nextcloud Assistant" : "Chattläge för Nextcloud Assistant",
-    "Get to know the new features of Hub 9" : "Lär känna de nya funktionerna i Hub 9"
+    "Get to know the new features of Hub 9" : "Lär känna de nya funktionerna i Hub 9",
+    "End-to-end encryption in calls and web" : "End-to-end-kryptering i samtal och webb",
+    "Performance improvements across all our products" : "Prestandaförbättringar i alla våra produkter",
+    "Thousands of tweaks for improved UX and stability" : "Tusentals justeringar för förbättrad användarupplevelse och stabilitet",
+    "Your own new personal assistant" : "Din egen nya personliga assistent",
+    "Seamless file conversions" : "Smidiga filkonverteringar",
+    "Smarter team sharing with Team folders" : "Smartare delning inom team med Teammappar",
+    "Schedule meetings directly in Talk" : "Schemalägg möten direkt i Talk",
+    "Mail you love again: translations, summaries, and mentions" : "E-post du älskar igen: översättningar, sammanfattningar och omnämnanden",
+    "Nextcloud Hub 10 is here – your modular & unified digital workspace! 💫" : "Nextcloud Hub 10 är här – din modulära och enhetliga digitala arbetsyta! 💫"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

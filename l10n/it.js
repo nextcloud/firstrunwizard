@@ -86,8 +86,6 @@ OC.L10N.register(
     "Could not copy the URL, please copy manually" : "Impossibile copiare l'URL, copialo manualmente:",
     "Server address" : "Indirizzo del server",
     "Use this link to connect your apps and desktop client to this server:" : "Usa questo collegamento per connettere le tue applicazioni e il client desktop a questo server:",
-    "End-to-end encryption in calls and web" : "Cifratura end-to-end per chiamate e web",
-    "Your own new personal assistant" : "Il tuo assistente personale",
     "What's new?" : "Cosa c'è di nuovo?",
     "Nextcloud on all your devices" : "Nextcloud in tutti i tuoi dispositivi",
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
@@ -104,6 +102,8 @@ OC.L10N.register(
     "Public Collectives sharing, previews and QR-codes" : "Condivisione, anteprime e codici QR di Public Collectives",
     "Office and PDF templates" : "Office e modelli PDF",
     "Chat mode for Nextcloud Assistant" : "Modalità chat per Assistente di Nextcloud",
-    "Get to know the new features of Hub 9" : "Scopri le nuove caratteristiche di Hub 9"
+    "Get to know the new features of Hub 9" : "Scopri le nuove caratteristiche di Hub 9",
+    "End-to-end encryption in calls and web" : "Cifratura end-to-end per chiamate e web",
+    "Your own new personal assistant" : "Il tuo assistente personale"
 },
 "nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");
