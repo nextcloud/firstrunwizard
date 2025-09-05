@@ -84,16 +84,7 @@
     "Could not copy the URL, please copy manually" : "Haikuweza kunakili URL, tafadhali nakili wewe mwenyewe",
     "Server address" : "Anwani ya seva",
     "Use this link to connect your apps and desktop client to this server:" : "Tumia kiungo hiki kuunganisha programu zako na kiteja cha eneo-kazi kwenye seva hii:",
-    "End-to-end encryption in calls and web" : "Usimbaji fiche kutoka mwisho hadi mwisho katika simu na wavuti",
-    "Performance improvements across all our products" : "Maboresho ya utendaji katika bidhaa zetu zote",
-    "Thousands of tweaks for improved UX and stability" : "Maelfu ya marekebisho ya UX iliyoboreshwa na uthabiti",
-    "Your own new personal assistant" : "Msaidizi wako mpya wa kibinafsi",
-    "Seamless file conversions" : "Ubadilishaji wa faili usio na mshono",
-    "Smarter team sharing with Team folders" : "Kushiriki kwa timu nadhifu na folda za Timu",
-    "Schedule meetings directly in Talk" : "Panga mikutano moja kwa moja kwenye Talk",
-    "Mail you love again: translations, summaries, and mentions" : "Tuma barua unayopenda tena: tafsiri, muhtasari, na mitajo",
     "Get to know the new features of Hub {version}" : "Pata kufahamu vipengele vipya vya kitovu {version}",
-    "Nextcloud Hub 10 is here – your modular & unified digital workspace! 💫" : "Kitovu cha Nextcloud 10 iko hapa - nafasi yako ya kazi ya kawaida na iliyounganishwa ya dijiti! 💫",
     "What's new?" : "Nini kipya?",
     "Nextcloud on all your devices" : "Nextcloud kwenye vifaa vyako vyote",
     "Nextcloud Hub {version}" : "Kitovu cha Nextcloud {version}",
@@ -110,6 +101,15 @@
     "Public Collectives sharing, previews and QR-codes" : "Kushiriki kwa Mikusanyiko ya Umma, muhtasari na misimbo ya QR",
     "Office and PDF templates" : "Violezo vya Office na PDF",
     "Chat mode for Nextcloud Assistant" : "Hali ya gumzo ya msaidizi wa Nextcloud",
-    "Get to know the new features of Hub 9" : "Jua vipengele vipya vya kitovu 9"
+    "Get to know the new features of Hub 9" : "Jua vipengele vipya vya kitovu 9",
+    "End-to-end encryption in calls and web" : "Usimbaji fiche kutoka mwisho hadi mwisho katika simu na wavuti",
+    "Performance improvements across all our products" : "Maboresho ya utendaji katika bidhaa zetu zote",
+    "Thousands of tweaks for improved UX and stability" : "Maelfu ya marekebisho ya UX iliyoboreshwa na uthabiti",
+    "Your own new personal assistant" : "Msaidizi wako mpya wa kibinafsi",
+    "Seamless file conversions" : "Ubadilishaji wa faili usio na mshono",
+    "Smarter team sharing with Team folders" : "Kushiriki kwa timu nadhifu na folda za Timu",
+    "Schedule meetings directly in Talk" : "Panga mikutano moja kwa moja kwenye Talk",
+    "Mail you love again: translations, summaries, and mentions" : "Tuma barua unayopenda tena: tafsiri, muhtasari, na mitajo",
+    "Nextcloud Hub 10 is here – your modular & unified digital workspace! 💫" : "Kitovu cha Nextcloud 10 iko hapa - nafasi yako ya kazi ya kawaida na iliyounganishwa ya dijiti! 💫"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

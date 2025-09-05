@@ -84,16 +84,7 @@
     "Could not copy the URL, please copy manually" : "Impossible de copier l'URL, veuillez copier manuellement",
     "Server address" : "Adresse du serveur",
     "Use this link to connect your apps and desktop client to this server:" : "Utilisez ce lien pour connecter vos applications et votre client de bureau à ce serveur :",
-    "End-to-end encryption in calls and web" : "Chiffrement de bout en bout pour les appels et le web",
-    "Performance improvements across all our products" : "Améliorations des performances à travers tous nos produits",
-    "Thousands of tweaks for improved UX and stability" : "Des milliers d'ajustements pour une expérience utilisateur et une stabilité améliorée",
-    "Your own new personal assistant" : "Votre nouveau propre assistant personnel",
-    "Seamless file conversions" : "Conversion de fichiers sans couture",
-    "Smarter team sharing with Team folders" : "Partages d'équipe intelligents avec les Dossiers d'équipe",
-    "Schedule meetings directly in Talk" : "Programmer les réunions directement dans Talk",
-    "Mail you love again: translations, summaries, and mentions" : "L'e-mail que vous allez aimer à nouveau : traductions, résumés, et mentions",
     "Get to know the new features of Hub {version}" : "Découvrez les nouvelles fonctionnalités du Hub {version}",
-    "Nextcloud Hub 10 is here – your modular & unified digital workspace! 💫" : "Nextcloud Hub 10 est là - votre espace de travail numérique unique et modulaire ! 💫",
     "What's new?" : "Quoi de neuf ?",
     "Nextcloud on all your devices" : "Nextcloud sur tous vos appareils",
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
@@ -110,6 +101,15 @@
     "Public Collectives sharing, previews and QR-codes" : "Partage de collectifs publics, aperçus et QR codes",
     "Office and PDF templates" : "Modèles bureautiques et PDF",
     "Chat mode for Nextcloud Assistant" : "Mode conversation pour Nextcloud Assistant",
-    "Get to know the new features of Hub 9" : "Découvrez les nouvelles fonctionnalités de Hub 9"
+    "Get to know the new features of Hub 9" : "Découvrez les nouvelles fonctionnalités de Hub 9",
+    "End-to-end encryption in calls and web" : "Chiffrement de bout en bout pour les appels et le web",
+    "Performance improvements across all our products" : "Améliorations des performances à travers tous nos produits",
+    "Thousands of tweaks for improved UX and stability" : "Des milliers d'ajustements pour une expérience utilisateur et une stabilité améliorée",
+    "Your own new personal assistant" : "Votre nouveau propre assistant personnel",
+    "Seamless file conversions" : "Conversion de fichiers sans couture",
+    "Smarter team sharing with Team folders" : "Partages d'équipe intelligents avec les Dossiers d'équipe",
+    "Schedule meetings directly in Talk" : "Programmer les réunions directement dans Talk",
+    "Mail you love again: translations, summaries, and mentions" : "L'e-mail que vous allez aimer à nouveau : traductions, résumés, et mentions",
+    "Nextcloud Hub 10 is here – your modular & unified digital workspace! 💫" : "Nextcloud Hub 10 est là - votre espace de travail numérique unique et modulaire ! 💫"
 },"pluralForm" :"nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;"
 }

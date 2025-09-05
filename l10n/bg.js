@@ -38,12 +38,12 @@ OC.L10N.register(
     "Get the apps to sync your files" : "Изтеглете приложение, за синхронизиране на файлове",
     "Server address" : "Адрес на сървъра",
     "Use this link to connect your apps and desktop client to this server:" : "Използвайте тази връзка, за да свържете вашите приложения и настолен клиент към този сървър:",
-    "Your own new personal assistant" : "Твоят нов личен асистент",
     "What's new?" : "Какви са промените?",
     "Read more" : "Прочети повече",
     "Share on social media" : "Споделяне в социалните мрежи",
     "App recommendation: Nextcloud Calendar" : "Препоръка за приложение: Календар Nextcloud",
     "App recommendation: Nextcloud Contacts" : "Препоръка за приложение: Контакти Nextcloud",
-    "App recommendation: Nextcloud Mail" : "Препоръка за приложение: Поща Nextcloud"
+    "App recommendation: Nextcloud Mail" : "Препоръка за приложение: Поща Nextcloud",
+    "Your own new personal assistant" : "Твоят нов личен асистент"
 },
 "nplurals=2; plural=(n != 1);");

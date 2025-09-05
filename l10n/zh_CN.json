@@ -84,16 +84,7 @@
     "Could not copy the URL, please copy manually" : "无法复制 URL，请手动复制",
     "Server address" : "服务器地址",
     "Use this link to connect your apps and desktop client to this server:" : "使用此链接将您的应用和桌面客户端连接到此服务器：",
-    "End-to-end encryption in calls and web" : "通话和网页端到端加密",
-    "Performance improvements across all our products" : "我们所有产品的性能改进",
-    "Thousands of tweaks for improved UX and stability" : "数千次调整以提高用户体验和稳定性",
-    "Your own new personal assistant" : "您自己的新个人助手",
-    "Seamless file conversions" : "无缝文件转换",
-    "Smarter team sharing with Team folders" : "通过团队文件夹进行更智能的团队共享",
-    "Schedule meetings directly in Talk" : "直接在 Talk 中安排会议",
-    "Mail you love again: translations, summaries, and mentions" : "发送您喜欢的邮件：翻译、摘要和提及",
     "Get to know the new features of Hub {version}" : "了解 Hub {version} 的新功能",
-    "Nextcloud Hub 10 is here – your modular & unified digital workspace! 💫" : "Nextcloud Hub 10 来了 – 您的模块化和统一的数字工作空间！💫",
     "What's new?" : "有哪些更新？",
     "Nextcloud on all your devices" : "您所有设备上的 Nextcloud",
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
@@ -110,6 +101,15 @@
     "Public Collectives sharing, previews and QR-codes" : "公开收藏集分享、预览和二维码",
     "Office and PDF templates" : "Office 和 PDF 模板",
     "Chat mode for Nextcloud Assistant" : "Nextcloud 助手的聊天模式",
-    "Get to know the new features of Hub 9" : "了解 Hub 9 的新功能"
+    "Get to know the new features of Hub 9" : "了解 Hub 9 的新功能",
+    "End-to-end encryption in calls and web" : "通话和网页端到端加密",
+    "Performance improvements across all our products" : "我们所有产品的性能改进",
+    "Thousands of tweaks for improved UX and stability" : "数千次调整以提高用户体验和稳定性",
+    "Your own new personal assistant" : "您自己的新个人助手",
+    "Seamless file conversions" : "无缝文件转换",
+    "Smarter team sharing with Team folders" : "通过团队文件夹进行更智能的团队共享",
+    "Schedule meetings directly in Talk" : "直接在 Talk 中安排会议",
+    "Mail you love again: translations, summaries, and mentions" : "发送您喜欢的邮件：翻译、摘要和提及",
+    "Nextcloud Hub 10 is here – your modular & unified digital workspace! 💫" : "Nextcloud Hub 10 来了 – 您的模块化和统一的数字工作空间！💫"
 },"pluralForm" :"nplurals=1; plural=0;"
 }
