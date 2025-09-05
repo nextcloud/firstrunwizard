@@ -84,16 +84,7 @@
     "Could not copy the URL, please copy manually" : "Nie je možné skopírovať URL, prosím skopírujte ho manuálne",
     "Server address" : "Adresa servera",
     "Use this link to connect your apps and desktop client to this server:" : "Pre prepojenie vašich aplikácii a desktopového klienta na tento server použite tento odkaz: ",
-    "End-to-end encryption in calls and web" : "Koncové šifrovanie pre hovory a web",
-    "Performance improvements across all our products" : "Zlepšenie výkonu všetkých našich produktov",
-    "Thousands of tweaks for improved UX and stability" : "Tisíce vylepšení pre vylepšené uživateľké rozhranie a stabilitu",
-    "Your own new personal assistant" : "Váš nový osobný asistent",
-    "Seamless file conversions" : "Bezproblémová konverzia súborov",
-    "Smarter team sharing with Team folders" : "Inteligentnejšie tímové zdieľanie s priečinkami Team",
-    "Schedule meetings directly in Talk" : "Naplánujte si stretnutia priamo v Talk",
-    "Mail you love again: translations, summaries, and mentions" : "Pošta, ktorú máte znova radi: preklady, súhrny a zmienky",
     "Get to know the new features of Hub {version}" : "Spoznajte nové funkcie Hubu {version}",
-    "Nextcloud Hub 10 is here – your modular & unified digital workspace! 💫" : "Nextcloud Hub 10 je tu – váš modulárny a jednotný digitálny pracovný priestor! 💫",
     "What's new?" : "Čo je nové?",
     "Nextcloud on all your devices" : "Nextcloud na všetkých vašich zariadeniach",
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
@@ -110,6 +101,15 @@
     "Public Collectives sharing, previews and QR-codes" : "Verejné zdieľanie, ukážky a QR kódy",
     "Office and PDF templates" : "Šablóny kancelárskych a PDF dokumentov",
     "Chat mode for Nextcloud Assistant" : "Režim konverzácie pre službu Nextcloud Assistant",
-    "Get to know the new features of Hub 9" : "Zoznámte sa s novými funkciami Hub 9"
+    "Get to know the new features of Hub 9" : "Zoznámte sa s novými funkciami Hub 9",
+    "End-to-end encryption in calls and web" : "Koncové šifrovanie pre hovory a web",
+    "Performance improvements across all our products" : "Zlepšenie výkonu všetkých našich produktov",
+    "Thousands of tweaks for improved UX and stability" : "Tisíce vylepšení pre vylepšené uživateľké rozhranie a stabilitu",
+    "Your own new personal assistant" : "Váš nový osobný asistent",
+    "Seamless file conversions" : "Bezproblémová konverzia súborov",
+    "Smarter team sharing with Team folders" : "Inteligentnejšie tímové zdieľanie s priečinkami Team",
+    "Schedule meetings directly in Talk" : "Naplánujte si stretnutia priamo v Talk",
+    "Mail you love again: translations, summaries, and mentions" : "Pošta, ktorú máte znova radi: preklady, súhrny a zmienky",
+    "Nextcloud Hub 10 is here – your modular & unified digital workspace! 💫" : "Nextcloud Hub 10 je tu – váš modulárny a jednotný digitálny pracovný priestor! 💫"
 },"pluralForm" :"nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);"
 }
