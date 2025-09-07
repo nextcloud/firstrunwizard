@@ -86,6 +86,7 @@ OC.L10N.register(
     "Could not copy the URL, please copy manually" : "Не удалось скопировать URL-адрес, пожалуйста, скопируйте вручную",
     "Server address" : "Адрес сервера",
     "Use this link to connect your apps and desktop client to this server:" : "Используйте эту ссылку для соединения ваших приложений и десктоп-клиентов с этим сервером:",
+    "Quick presets & many other admin updates" : "Быстрые настройки и множество других обновлений администратора",
     "Get to know the new features of Hub {version}" : "Ознакомьтесь с новыми возможностями Hub{version} ",
     "What's new?" : "Что нового?",
     "Nextcloud on all your devices" : "Nextcloud на всех ваших устройствах",
