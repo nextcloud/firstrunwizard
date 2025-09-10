@@ -21,6 +21,8 @@
     "Smart media tagging for Nextcloud" : "Median älykästä merkitsemistä tunnisteilla Nextcloudille",
     "App recommendation: Group folders" : "Sovellussuositus: Ryhmäkansiot",
     "Admin-configured folders shared by everyone in a group." : "Ylläpitäjän määrittämät kansiot jaettuina kaikille ryhmän jäsenille.",
+    "App recommendation: Whiteboard" : "Sovellussuositus: Whiteboard",
+    "Create and share whiteboards with others and collaborate in real-time." : "Luo ja jaa valkotauluja muiden kanssa, ja tee yhteistyötä reaaliajassa.",
     "Connect your calendar" : "Yhdistä kalenteriisi",
     "Connect your contacts" : "Yhdistä yhteystietoihisi",
     "Access files via WebDAV" : "Käytä tiedostoja WebDAVin välityksellä",
@@ -62,13 +64,17 @@
     "Import and export anything you want with open standards." : "Tuo ja vie mitä tahansa avoimiin standardeihin perustuen.",
     "Community" : "Yhteisö",
     "Enjoy constant improvements from a thriving open-source community." : "Nauti jatkuvista parannuksista kukoistavan avoimen lähdekoodin yhteisön toimesta.",
+    "Nextcloud Hub {version} release" : "Nextcloud Hub {version} -julkaisu",
+    "Read more about it on the Nextcloud Hub {version} blog" : "Lue lisää Nextcloud Hub {version} -blogista",
     "Find out more on the blog" : "Lue lisää blogista",
+    "Read the Nextcloud Hub {version} blog" : "Lue Nextcloud Hub {version} -blogia",
     "Share via email" : "Jaa sähköpostitse",
     "New in Nextcloud Hub {version}" : "Uutta Nextcloud Hubin versiossa {version}",
     "Get the apps to sync your files" : "Aseta sovellukset synkronoimaan tiedostosi",
     "URL copied" : "Verkko-osoite kopioitu",
     "Server address" : "Palvelimen osoite",
     "Use this link to connect your apps and desktop client to this server:" : "Käytä tätä linkkiä yhdistääksesi sovellukset ja työpöytäsovelluksen tähän palvelimeen:",
+    "… and much more!" : "… ja paljon muuta!",
     "What's new?" : "Mitä uutta?",
     "Nextcloud on all your devices" : "Nextcloud kaikilla laitteillasi",
     "Read more" : "Lue lisää",
@@ -77,6 +83,8 @@
     "App recommendation: Nextcloud Calendar" : "Sovellussuositus: Nextcloud-kalenteri",
     "App recommendation: Nextcloud Contacts" : "Sovellussuositus: Nextcloud-yhteystiedot",
     "App recommendation: Nextcloud Mail" : "Sovellussuositus: Nextcloud-sähköposti",
-    "Workflow Engine" : "Työnkulkumoottori"
+    "Workflow Engine" : "Työnkulkumoottori",
+    "Office and PDF templates" : "Office- ja PDF-mallipohjat",
+    "Your own new personal assistant" : "Uusi henkilökohtainen avustajasi"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
