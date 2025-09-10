@@ -12,8 +12,6 @@
 		size="normal"
 		no-close
 		:dark="!isMobile"
-		:has-next
-		:has-previous
 		:set-return-focus
 		@close="close"
 		@next="currentPage += 1"
@@ -33,11 +31,14 @@ import axios from '@nextcloud/axios'
 import { loadState } from '@nextcloud/initial-state'
 import { generateUrl } from '@nextcloud/router'
 import { useIsSmallMobile } from '@nextcloud/vue/composables/useIsMobile'
-import { computed, ref, watchEffect } from 'vue'
+import { ref, watchEffect } from 'vue'
 import NcModal from '@nextcloud/vue/components/NcModal'
 import IntroAnimation from '../components/pages/IntroAnimation.vue'
 import SlideShow from '../components/SlideShow.vue'
 import pages from '../pages.ts'
+
+// Exposes open and close functions from the component
+defineExpose({ open, close })
 
 const isMobile = useIsSmallMobile()
 /** This is set to true in case the user already received the wizard but Nextcloud was updated to show the changelog only */
@@ -49,16 +50,12 @@ const showModal = ref(false)
 const currentPage = ref<number | null>(null)
 const setReturnFocus = ref<HTMLElement | SVGElement | string>()
 
-/**
- * If the "previous" button of the modal should be shown
- * Disable on mobile and only show if there is a previous page (the intro animation does not count)
- */
-const hasPrevious = computed(() => !isMobile.value && currentPage.value !== null && currentPage.value > 0)
-/**
- * If the "next" button of the modal should be shown
- * Disable on mobile and only show if there is a next page
- */
-const hasNext = computed(() => !isMobile.value && currentPage.value !== null && currentPage.value < (pages.length - 1))
+// If the current page index is set to -1 then close the modal
+watchEffect(() => {
+	if (currentPage.value === -1) {
+		close()
+	}
+})
 
 /**
  * Open the first run wizard modal
@@ -81,15 +78,6 @@ function close() {
 	// Important: Do not show again automatically
 	axios.delete(generateUrl('/apps/firstrunwizard/wizard'))
 }
-// Exposes open and close functions from the component
-defineExpose({ open, close })
-
-// If the current page index is set to -1 then close the modal
-watchEffect(() => {
-	if (currentPage.value === -1) {
-		close()
-	}
-})
 </script>
 
 <style lang="scss">
