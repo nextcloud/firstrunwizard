@@ -162,6 +162,7 @@ function goToPage(pageId: string) {
 	flex-direction: column;
 	justify-content: space-between;
 	width: 100%;
+	min-height: min(590px, calc(100dvh - 2 * var(--header-height)));
 }
 
 .background_circle {
