@@ -14,7 +14,7 @@ OC.L10N.register(
     "App recommendation: Mail" : "App anbefaling: Mail",
     "Simple email app nicely integrated with Files, Contacts and Calendar." : "Simpel email-app som er integreret med Filer, Kontakter og Kalender.",
     "App recommendation: Tasks" : "Appanbefaling: Opgaver",
-    "Sync tasks from various devices with your Nextcloud and edit them online." : "Synkroniser opgaver fra forskellige enheder med din Nextcloud og rediger dem online.",
+    "Sync tasks from various devices with your Nextcloud and edit them online." : "Synkroniser opgaver fra forskellige enheder med din Nextcloud og redigér dem online.",
     "App recommendation: Deck" : "Appanbefaling: Opslag",
     "Kanban style organization for personal planning and team projects." : "Kanban-stilorganisation til personlig planlægning og teamprojekter.",
     "App recommendation: Forms" : "Appanbefaling: Formularer",
