@@ -19,7 +19,7 @@
 
 		<!-- Back button on mobile if not first page -->
 		<NcButton
-			v-if="!isFirstPage && isMobile"
+			v-if="!isFirstPage"
 			:aria-label="t('firstrunwizard', 'Go to previous page')"
 			:class="$style.button_back"
 			variant="tertiary-no-background"
@@ -77,7 +77,6 @@ import type { IPage } from '../pages.ts'
 import { mdiArrowLeft, mdiArrowRight, mdiClose } from '@mdi/js'
 import { translate as t } from '@nextcloud/l10n'
 import { imagePath } from '@nextcloud/router'
-import { useIsSmallMobile } from '@nextcloud/vue/composables/useIsMobile'
 import { computed, ref, useCssModule, watch } from 'vue'
 import NcButton from '@nextcloud/vue/components/NcButton'
 import NcIconSvgWrapper from '@nextcloud/vue/components/NcIconSvgWrapper'
@@ -90,8 +89,6 @@ const props = defineProps<{
 const emit = defineEmits<{
 	(e: 'update:current-index', index: number): void
 }>()
-
-const isMobile = useIsSmallMobile()
 
 /**
  * True if the transition effect should be reversed (e.g. going back)
