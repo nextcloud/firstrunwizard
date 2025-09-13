@@ -8,6 +8,7 @@ OC.L10N.register(
     "App recommendation: Group folders" : "App recommendation: Group folders",
     "Close" : "Yopish",
     "Share via email" : "Elektron pochta orqali ulashing",
-    "Server address" : "Server manzili"
+    "Server address" : "Server manzili",
+    "Read more" : "Ko'proq o'qish"
 },
 "nplurals=1; plural=0;");
