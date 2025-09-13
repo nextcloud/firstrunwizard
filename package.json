@@ -37,7 +37,7 @@
     "@nextcloud/vite-config": "^1.7.0",
     "@vue/tsconfig": "^0.5.1",
     "sass": "^1.92.1",
-    "vite": "^7.1.4"
+    "vite": "^7.1.5"
   },
   "engines": {
     "node": "^20.0.0",
