@@ -80,7 +80,7 @@ This file is generated from multiple sources. Included packages:
 	- version: 6.2.0
 	- license: MIT
 - vite
-	- version: 7.1.5
+	- version: 7.1.6
 	- license: MIT
 - vite-plugin-node-polyfills
 	- version: 0.24.0
