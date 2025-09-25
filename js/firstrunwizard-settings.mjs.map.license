@@ -7,7 +7,7 @@ SPDX-FileCopyrightText: Varun A P
 
 This file is generated from multiple sources. Included packages:
 - @nextcloud/dialogs
-	- version: 7.0.0-rc.2
+	- version: 7.0.0-rc.3
 	- license: AGPL-3.0-or-later
 - @nextcloud/vue
 	- version: 9.0.0-rc.9
