@@ -38,7 +38,7 @@
     "@nextcloud/eslint-config": "^8.4.2",
     "@nextcloud/stylelint-config": "^3.0.1",
     "@nextcloud/typings": "^1.9.1",
-    "@nextcloud/vite-config": "^1.7.0",
+    "@nextcloud/vite-config": "^1.7.1",
     "@vue/tsconfig": "^0.5.1",
     "sass": "^1.92.1",
     "vite": "^7.1.6"
