@@ -41,9 +41,6 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "برای اتصال برنامه ها و مشتری دسک تاپ خود به این سرور از این لینک استفاده کنید:",
     "What's new?" : "What's new?",
     "Read more" : "بیشتر بخوانید",
-    "Share on social media" : "Share on social media",
-    "App recommendation: Nextcloud Calendar" : "توصیه برنامه: تقویم نکست‌کلود",
-    "App recommendation: Nextcloud Contacts" : "توصیه برنامه: مخاطبین Nextcloud",
-    "App recommendation: Nextcloud Mail" : "توصیه برنامه: ایمیل Nextcloud"
+    "Share on social media" : "Share on social media"
 },
 "nplurals=2; plural=(n > 1);");

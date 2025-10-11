@@ -39,9 +39,6 @@
     "Use this link to connect your apps and desktop client to this server:" : "Gebruik deze link om je apps en desktop client met deze server te verbinden:",
     "What's new?" : "Wat is nieuw?",
     "Read more" : "Lees meer",
-    "Share on social media" : "Delen op social media",
-    "App recommendation: Nextcloud Calendar" : "App aanbeveling: Nextcloud Calendar",
-    "App recommendation: Nextcloud Contacts" : "App aanbeveling: Nextcloud Contactpersonen",
-    "App recommendation: Nextcloud Mail" : "App aanbeveling: Nextcloud Mail"
+    "Share on social media" : "Delen op social media"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

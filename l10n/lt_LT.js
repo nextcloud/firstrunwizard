@@ -32,9 +32,6 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "Naudokite šią nuorodą norėdami prijungti savo programėles bei darbalaukio kliento programas prie šio serverio:",
     "What's new?" : "Kas naujo?",
     "Read more" : "Daugiau skaitykite",
-    "Share on social media" : "Bendrinti socialiniuose tinkluose",
-    "App recommendation: Nextcloud Calendar" : "Programėlės rekomendacija: Nextcloud kalendorius",
-    "App recommendation: Nextcloud Contacts" : "Programėlės rekomendacija: Nextcloud adresatai",
-    "App recommendation: Nextcloud Mail" : "Programėlės rekomendacija: Nextcloud paštas"
+    "Share on social media" : "Bendrinti socialiniuose tinkluose"
 },
 "nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);");

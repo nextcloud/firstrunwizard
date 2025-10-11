@@ -33,9 +33,6 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "Iskoristite ovu poveznicu za povezivanje aplikacija i klijenata za osobna računala s ovim poslužiteljem:",
     "What's new?" : "Što je novog?",
     "Read more" : "Saznaj više",
-    "Share on social media" : "Dijeli na društvenim mrežama",
-    "App recommendation: Nextcloud Calendar" : "Preporučena aplikacija: Nextcloud Calendar",
-    "App recommendation: Nextcloud Contacts" : "Preporučena aplikacija: Nextcloud Contacts",
-    "App recommendation: Nextcloud Mail" : "Preporučena aplikacija: Nextcloud Mail"
+    "Share on social media" : "Dijeli na društvenim mrežama"
 },
 "nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;");

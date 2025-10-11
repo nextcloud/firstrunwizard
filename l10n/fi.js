@@ -82,11 +82,6 @@ OC.L10N.register(
     "Read more" : "Lue lisää",
     "Share on social media" : "Jaa sosiaalisessa mediassa",
     "Get started!" : "Aloitetaan!",
-    "App recommendation: Nextcloud Calendar" : "Sovellussuositus: Nextcloud-kalenteri",
-    "App recommendation: Nextcloud Contacts" : "Sovellussuositus: Nextcloud-yhteystiedot",
-    "App recommendation: Nextcloud Mail" : "Sovellussuositus: Nextcloud-sähköposti",
-    "Workflow Engine" : "Työnkulkumoottori",
-    "Office and PDF templates" : "Office- ja PDF-mallipohjat",
     "Your own new personal assistant" : "Uusi henkilökohtainen avustajasi"
 },
 "nplurals=2; plural=(n != 1);");
