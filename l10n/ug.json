@@ -89,17 +89,6 @@
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
     "Read more" : "تېخىمۇ كۆپ ئوقۇڭ",
     "Share on social media" : "ئىجتىمائىي تاراتقۇلاردا ھەمبەھىرلىنىڭ",
-    "Get started!" : "باشلاڭ!",
-    "App recommendation: Nextcloud Calendar" : "ئەپ تەۋسىيەسى: Nextcloud كالېندارى",
-    "App recommendation: Nextcloud Contacts" : "ئەپ تەۋسىيەسى: Nextcloud ئالاقىسى",
-    "App recommendation: Nextcloud Mail" : "ئەپ تەۋسىيەسى: Nextcloud خەت",
-    "Federated collaboration: file sharing, messaging, calls" : "فېدېراتسىيە ھەمكارلىقى: ھۆججەت ئورتاقلىشىش ، ئۇچۇر يوللاش ، چاقىرىش",
-    "Nextcloud Whiteboard" : "Nextcloud ئاق دوسكا",
-    "Workflow Engine" : "خىزمەت ئېقىمى ماتورى",
-    "Safer and swifter mail" : "بىخەتەر ۋە تېز خەت",
-    "Public Collectives sharing, previews and QR-codes" : "ئاممىۋى كوللىكتىپ ئورتاقلىشىش ، ئالدىن كۆرۈش ۋە QR- كودلار",
-    "Office and PDF templates" : "ئىشخانا ۋە PDF قېلىپلىرى",
-    "Chat mode for Nextcloud Assistant" : "Nextcloud ياردەمچىسى ئۈچۈن پاراڭلىشىش ھالىتى",
-    "Get to know the new features of Hub 9" : "Hub 9 نىڭ يېڭى ئىقتىدارلىرى بىلەن تونۇشۇڭ"
+    "Get started!" : "باشلاڭ!"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

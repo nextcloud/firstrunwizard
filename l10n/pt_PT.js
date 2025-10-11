@@ -28,9 +28,6 @@ OC.L10N.register(
     "Share via email" : "Partilhar via correio eletrónico",
     "Get the apps to sync your files" : "Obtenha as aplicações para sincronizar os seus ficheiros",
     "Server address" : "Endereço do servidor",
-    "Read more" : "Ler mais",
-    "App recommendation: Nextcloud Calendar" : "Recomendação de aplicação: Calendário Nextcloud",
-    "App recommendation: Nextcloud Contacts" : "Recomendação de aplicação: Contactos Nextcloud",
-    "App recommendation: Nextcloud Mail" : "Recomendação de aplicação: Correio Nextcloud"
+    "Read more" : "Ler mais"
 },
 "nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");

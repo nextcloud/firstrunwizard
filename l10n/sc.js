@@ -40,10 +40,6 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "Imprea custu ligòngiu pro collegare is aplicatziones tuas e su cliente de iscrivania a custu serbidore:",
     "What's new?" : "Ite noas?",
     "Read more" : "Leghe de prus",
-    "Share on social media" : "Cumpartzi in is retes sotziales",
-    "App recommendation: Nextcloud Calendar" : "Racumandatzione aplicatzione: Nextcloud Calendar",
-    "App recommendation: Nextcloud Contacts" : "Racumandatzione aplicatzione: Nextcloud Contacts",
-    "App recommendation: Nextcloud Mail" : "Racumandatzione aplicatzione: Nextcloud Mail",
-    "Get to know the new features of Hub 9" : "Connosche is funtzionalidades noas de Hub 9"
+    "Share on social media" : "Cumpartzi in is retes sotziales"
 },
 "nplurals=2; plural=(n != 1);");

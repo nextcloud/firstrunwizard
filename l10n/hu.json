@@ -89,17 +89,6 @@
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
     "Read more" : "Továbbolvasás",
     "Share on social media" : "Megosztás a közösségi médiában",
-    "Get started!" : "Kezdjen bele!",
-    "App recommendation: Nextcloud Calendar" : "Alkalmazásjavaslat: Nextcloud Naptár",
-    "App recommendation: Nextcloud Contacts" : "Alkalmazásjavaslat: Nextcloud Névjegyek",
-    "App recommendation: Nextcloud Mail" : "Alkalmazásjavaslat: Nextcloud Levelezés",
-    "Federated collaboration: file sharing, messaging, calls" : "Szövetségi együttműködés: fájl megosztás, üzenetküldés, hívások",
-    "Nextcloud Whiteboard" : "Nextcloud Tábla",
-    "Workflow Engine" : "Munkafolyamat Motor",
-    "Safer and swifter mail" : "Biztonságosabb és gyorsabb levél",
-    "Public Collectives sharing, previews and QR-codes" : "Nyilvános kollektívák megosztása, előnézetei és QR kódok",
-    "Office and PDF templates" : "Office és PDF minták",
-    "Chat mode for Nextcloud Assistant" : "Chat mód a Nextcloud Assistant-hoz",
-    "Get to know the new features of Hub 9" : "Tudj meg többet a HUB 9 újdonságairól"
+    "Get started!" : "Kezdjen bele!"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
