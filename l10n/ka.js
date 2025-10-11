@@ -66,9 +66,6 @@ OC.L10N.register(
     "Nextcloud on all your devices" : "Nextcloud on all your devices",
     "Read more" : "Read more",
     "Share on social media" : "Share on social media",
-    "Get started!" : "Get started!",
-    "App recommendation: Nextcloud Calendar" : "App recommendation: Nextcloud Calendar",
-    "App recommendation: Nextcloud Contacts" : "App recommendation: Nextcloud Contacts",
-    "App recommendation: Nextcloud Mail" : "App recommendation: Nextcloud Mail"
+    "Get started!" : "Get started!"
 },
 "nplurals=2; plural=(n!=1);");

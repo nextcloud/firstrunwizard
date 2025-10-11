@@ -41,9 +41,6 @@ OC.L10N.register(
     "What's new?" : "Какви са промените?",
     "Read more" : "Прочети повече",
     "Share on social media" : "Споделяне в социалните мрежи",
-    "App recommendation: Nextcloud Calendar" : "Препоръка за приложение: Календар Nextcloud",
-    "App recommendation: Nextcloud Contacts" : "Препоръка за приложение: Контакти Nextcloud",
-    "App recommendation: Nextcloud Mail" : "Препоръка за приложение: Поща Nextcloud",
     "Your own new personal assistant" : "Твоят нов личен асистент"
 },
 "nplurals=2; plural=(n != 1);");

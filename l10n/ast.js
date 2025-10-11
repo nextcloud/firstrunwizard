@@ -61,9 +61,6 @@ OC.L10N.register(
     "What's new?" : "Novedaes",
     "Nextcloud on all your devices" : "Nextcloud en tolos preseos",
     "Read more" : "Lleer más",
-    "Share on social media" : "Compartir el redes sociales",
-    "App recommendation: Nextcloud Calendar" : "Aplicación aconseyada: Calendariu",
-    "App recommendation: Nextcloud Contacts" : "Aplicación aconseyada: Contautos",
-    "App recommendation: Nextcloud Mail" : "Aplicación aconseyada: Corréu"
+    "Share on social media" : "Compartir el redes sociales"
 },
 "nplurals=2; plural=(n != 1);");

@@ -74,9 +74,6 @@
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
     "Read more" : "더 보기",
     "Share on social media" : "소셜 미디어에 공유",
-    "Get started!" : "시작하기!",
-    "App recommendation: Nextcloud Calendar" : "추천 앱: Nextcloud Calendar",
-    "App recommendation: Nextcloud Contacts" : "추천 앱: Nextcloud Contacts",
-    "App recommendation: Nextcloud Mail" : "추천 앱: Nextcloud Mail"
+    "Get started!" : "시작하기!"
 },"pluralForm" :"nplurals=1; plural=0;"
 }

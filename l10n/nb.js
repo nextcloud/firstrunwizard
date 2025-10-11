@@ -86,17 +86,6 @@ OC.L10N.register(
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
     "Read more" : "Les mer",
     "Share on social media" : "Del på sosiale medier",
-    "Get started!" : "Kom i gang!",
-    "App recommendation: Nextcloud Calendar" : "Appanbefaling: Nextcloud-kalender",
-    "App recommendation: Nextcloud Contacts" : "Appanbefaling: Nextcloud-kontakter",
-    "App recommendation: Nextcloud Mail" : "Appanbefaling: Nextcloud Mail",
-    "Federated collaboration: file sharing, messaging, calls" : "Forent samarbeid: fildeling, meldinger, samtaler",
-    "Nextcloud Whiteboard" : "Nextcloud Whiteboard",
-    "Workflow Engine" : "Arbeidsflytmotor",
-    "Safer and swifter mail" : "Tryggere og raskere post",
-    "Public Collectives sharing, previews and QR-codes" : "Deling av offentlige kollektiver, forhåndsvisninger og QR-koder",
-    "Office and PDF templates" : "Office og PDF-maler",
-    "Chat mode for Nextcloud Assistant" : "Chat-modus for Nextcloud Assistant",
-    "Get to know the new features of Hub 9" : "Bli kjent med de nye funksjonene til Hub 9"
+    "Get started!" : "Kom i gang!"
 },
 "nplurals=2; plural=(n != 1);");

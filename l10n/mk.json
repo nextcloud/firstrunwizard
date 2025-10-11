@@ -37,9 +37,6 @@
     "Server address" : "Адреса на серверот",
     "Use this link to connect your apps and desktop client to this server:" : "Користете го овој линк за да ги поврзете вашите апликации со серверот:",
     "What's new?" : "Што е ново",
-    "Read more" : "Прочитај повеќе",
-    "App recommendation: Nextcloud Calendar" : "Препорака за апликација: Nextcloud Календар",
-    "App recommendation: Nextcloud Contacts" : "Препорака за апликација: Nextcloud Контакти",
-    "App recommendation: Nextcloud Mail" : "Препорака за апликација: Nextcloud Е-пошта"
+    "Read more" : "Прочитај повеќе"
 },"pluralForm" :"nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1;"
 }

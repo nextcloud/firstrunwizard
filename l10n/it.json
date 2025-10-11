@@ -90,17 +90,6 @@
     "Read more" : "Leggi altro",
     "Share on social media" : "Condividi nei social",
     "Get started!" : "Cominciamo!",
-    "App recommendation: Nextcloud Calendar" : "Applicazione consigliata: Calendario di Nextcloud",
-    "App recommendation: Nextcloud Contacts" : "Applicazione consigliata: Contatti di Nextcloud",
-    "App recommendation: Nextcloud Mail" : "Applicazione consigliata: Posta di Nextcloud",
-    "Federated collaboration: file sharing, messaging, calls" : "Collaborazione federata: condivisione di file, messaggistica, chiamate",
-    "Nextcloud Whiteboard" : "Lavagna di Nextcloud",
-    "Workflow Engine" : "Motore del flusso di lavoro",
-    "Safer and swifter mail" : "Email più sicura e leggera",
-    "Public Collectives sharing, previews and QR-codes" : "Condivisione, anteprime e codici QR di Public Collectives",
-    "Office and PDF templates" : "Office e modelli PDF",
-    "Chat mode for Nextcloud Assistant" : "Modalità chat per Assistente di Nextcloud",
-    "Get to know the new features of Hub 9" : "Scopri le nuove caratteristiche di Hub 9",
     "End-to-end encryption in calls and web" : "Cifratura end-to-end per chiamate e web",
     "Your own new personal assistant" : "Il tuo assistente personale"
 },"pluralForm" :"nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;"
