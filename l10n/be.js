@@ -22,6 +22,7 @@ OC.L10N.register(
     "Server address" : "Адрас сервера",
     "Nextcloud on all your devices" : "Nextcloud на ўсіх вашых прыладах",
     "Read more" : "Больш падрабязна",
-    "Mail you love again: translations, summaries, and mentions" : "Пошта, якую вы зноў палюбіце: пераклады, рэзюмэ і згадкі"
+    "Mail you love again: translations, summaries, and mentions" : "Пошта, якую вы зноў палюбіце: пераклады, рэзюмэ і згадкі",
+    "Nextcloud Hub 10 is here – your modular & unified digital workspace! 💫" : "Nextcloud Hub 10 ужо тут — ваша модульная і ўніфікаваная лічбавая працоўная прастора! 💫"
 },
 "nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);");
