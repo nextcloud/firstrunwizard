@@ -17,15 +17,14 @@ use Test\TestCase;
  * Class BackgroundJobTest
  *
  * @package OCA\FirstRunWizard\Tests\Notification
- * @group DB
  */
+#[\PHPUnit\Framework\Attributes\Group('DB')]
 class BackgroundJobTest extends TestCase {
 	protected ITimeFactory $timeFactory;
 	protected IManager $notificationManager;
 	protected BackgroundJob $job;
 
 	protected function setUp(): void {
-		parent::setUp();
 		$this->timeFactory = $this->createMock(ITimeFactory::class);
 		$this->notificationManager = $this->createMock(IManager::class);
 		$this->job = new BackgroundJob(
@@ -34,20 +33,15 @@ class BackgroundJobTest extends TestCase {
 		);
 	}
 
-	public function dataRun() {
+	public static function dataRun() {
 		return [
 			['user1', 1, false],
 			['user2', 0, true],
 		];
 	}
 
-	/**
-	 * @dataProvider dataRun
-	 * @param string $user
-	 * @param int $count
-	 * @param bool $notify
-	 */
-	public function testRun($user, $count, $notify) {
+	#[\PHPUnit\Framework\Attributes\DataProvider('dataRun')]
+	public function testRun(string $user, int $count, bool $notify) {
 		$notification = $this->createMock(INotification::class);
 		$notification->expects($this->once())
 			->method('setApp')
