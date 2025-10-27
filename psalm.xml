@@ -6,7 +6,7 @@
 <psalm
 	errorLevel="4"
 	resolveFromConfigFile="true"
-	phpVersion="8.1"
+	phpVersion="8.2"
 	totallyTyped="true"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns="https://getpsalm.org/schema/config"
