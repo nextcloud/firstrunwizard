@@ -12,20 +12,20 @@ use OCP\AppFramework\Http;
 use OCP\AppFramework\Http\DataResponse;
 use OCP\IConfig;
 use OCP\IRequest;
+use PHPUnit\Framework\MockObject\MockObject;
 use Test\TestCase;
 
 /**
  * Class WizardControllerTest
  *
  * @package OCA\FirstRunWizard\Tests\Controller
- * @group DB
  */
+#[\PHPUnit\Framework\Attributes\Group('DB')]
 class WizardControllerTest extends TestCase {
-	/** @var IConfig|\PHPUnit_Framework_MockObject_MockObject */
-	protected $config;
+
+	protected IConfig&MockObject $config;
 
 	protected function setUp(): void {
-		parent::setUp();
 		$this->config = $this->createMock(IConfig::class);
 	}
 
@@ -42,18 +42,15 @@ class WizardControllerTest extends TestCase {
 		);
 	}
 
-	public function dataDisable() {
+	public static function dataDisable() {
 		return [
 			['test1'],
 			['test2'],
 		];
 	}
 
-	/**
-	 * @dataProvider dataDisable
-	 * @param string $user
-	 */
-	public function testDisable($user) {
+	#[\PHPUnit\Framework\Attributes\DataProvider('dataDisable')]
+	public function testDisable(string $user) {
 		$controller = $this->getController($user);
 
 		$this->config->expects($this->once())

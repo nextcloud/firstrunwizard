@@ -13,6 +13,7 @@ use OCA\FirstRunWizard\Notification\BackgroundJob;
 use OCA\FirstRunWizard\Notification\Notifier;
 use OCP\AppFramework\App;
 use OCP\AppFramework\Controller;
+use OCP\AppFramework\IAppContainer;
 use OCP\BackgroundJob\IJob;
 use OCP\Notification\INotifier;
 use Test\TestCase;
@@ -21,21 +22,19 @@ use Test\TestCase;
  * Class ApplicationTest
  *
  * @package OCA\FirstRunWizard\Tests\AppInfo
- * @group DB
  */
+#[\PHPUnit\Framework\Attributes\Group('DB')]
 class ApplicationTest extends TestCase {
-	/** @var \OCA\FirstRunWizard\AppInfo\Application */
-	protected $app;
+	protected ?Application $app = null;
 
-	/** @var \OCP\AppFramework\IAppContainer */
-	protected $container;
+	protected ?IAppContainer $container = null;
 
 	public function testContainerAppName() {
 		$app = new Application();
 		$this->assertEquals('firstrunwizard', $app->getContainer()->getAppName());
 	}
 
-	public function dataContainerQuery() {
+	public static function dataContainerQuery() {
 		return [
 			[Application::class, Application::class],
 			[Application::class, App::class],
@@ -51,12 +50,8 @@ class ApplicationTest extends TestCase {
 		];
 	}
 
-	/**
-	 * @dataProvider dataContainerQuery
-	 * @param string $service
-	 * @param string $expected
-	 */
-	public function testContainerQuery($service, $expected) {
+	#[\PHPUnit\Framework\Attributes\DataProvider('dataContainerQuery')]
+	public function testContainerQuery(string $service, string $expected) {
 		$app = new Application();
 		$this->assertInstanceOf($expected, $app->getContainer()->query($service));
 	}
