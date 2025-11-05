@@ -55,9 +55,8 @@ class NotifierTest extends TestCase {
 		);
 	}
 
-	public function testPrepareWrongApp() {
+	public function testPrepareWrongApp(): void {
 		$this->expectException(InvalidArgumentException::class);
-		/** @var INotification|\PHPUnit_Framework_MockObject_MockObject $notification */
 		$notification = $this->createMock(INotification::class);
 		$notification->expects($this->once())
 			->method('getApp')
@@ -68,9 +67,8 @@ class NotifierTest extends TestCase {
 		$this->notifier->prepare($notification, 'en');
 	}
 
-	public function testPrepareWrongSubject() {
+	public function testPrepareWrongSubject(): void {
 		$this->expectException(InvalidArgumentException::class);
-		/** @var INotification|\PHPUnit_Framework_MockObject_MockObject $notification */
 		$notification = $this->createMock(INotification::class);
 		$notification->expects($this->once())
 			->method('getApp')
@@ -82,16 +80,7 @@ class NotifierTest extends TestCase {
 		$this->notifier->prepare($notification, 'en');
 	}
 
-	/**
-	 * @param bool $changeName
-	 * @param bool $changeAvatar
-	 * @param string $uid
-	 * @param string $name
-	 * @param string $email
-	 * @param IImage|null $avatar
-	 * @return IUser|\PHPUnit_Framework_MockObject_MockObject
-	 */
-	protected function getUserMock($changeName, $changeAvatar, $uid, $name, $email, $avatar) {
+	protected function getUserMock(bool $changeName, bool $changeAvatar, string $uid, string $name, string $email, ?IImage $avatar): IUser&MockObject {
 		$user = $this->createMock(IUser::class);
 		$user->expects($this->atMost(1))
 			->method('canChangeDisplayName')
@@ -114,7 +103,7 @@ class NotifierTest extends TestCase {
 		return $user;
 	}
 
-	public static function dataPrepare() {
+	public static function dataPrepare(): array {
 		return [
 			['en', 'user', false, false, 'Changed Name', 'Changed Email', true, false],
 			['en', 'user', true, true, 'Changed Name', 'Changed Email', true, false],
@@ -127,9 +116,8 @@ class NotifierTest extends TestCase {
 	}
 
 	#[\PHPUnit\Framework\Attributes\DataProvider('dataPrepare')]
-	public function testPrepare($language, $user, $changeName, $changeAvatar, $name, $email, $hasAvatar, $subjectContains) {
+	public function testPrepare(string $language, string $user, bool $changeName, bool $changeAvatar, string $name, string $email, bool $hasAvatar, bool|string $subjectContains) {
 		$avatar = $hasAvatar ? $this->createMock(IImage::class) : null;
-		/** @var \OCP\Notification\INotification|\PHPUnit_Framework_MockObject_MockObject $notification */
 		$notification = $this->createMock(INotification::class);
 
 		$notification->expects($this->once())

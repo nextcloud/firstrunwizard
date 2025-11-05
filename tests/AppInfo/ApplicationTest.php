@@ -13,7 +13,6 @@ use OCA\FirstRunWizard\Notification\BackgroundJob;
 use OCA\FirstRunWizard\Notification\Notifier;
 use OCP\AppFramework\App;
 use OCP\AppFramework\Controller;
-use OCP\AppFramework\IAppContainer;
 use OCP\BackgroundJob\IJob;
 use OCP\Notification\INotifier;
 use Test\TestCase;
@@ -26,8 +25,6 @@ use Test\TestCase;
 #[\PHPUnit\Framework\Attributes\Group('DB')]
 class ApplicationTest extends TestCase {
 	protected ?Application $app = null;
-
-	protected ?IAppContainer $container = null;
 
 	public function testContainerAppName() {
 		$app = new Application();

@@ -12,6 +12,7 @@ namespace OCA\FirstRunWizard\Notification;
 use OCP\AppFramework\Utility\ITimeFactory;
 use OCP\BackgroundJob\QueuedJob;
 use OCP\Notification\IManager as INotificationManager;
+use Override;
 
 class BackgroundJob extends QueuedJob {
 	public function __construct(
@@ -23,9 +24,9 @@ class BackgroundJob extends QueuedJob {
 
 	/**
 	 * @param array $argument
-	 * @return void
 	 */
-	protected function run($argument) {
+	#[Override]
+	protected function run($argument): void {
 		$notification = $this->notificationManager->createNotification();
 		$notification->setApp('firstrunwizard')
 			->setSubject('profile')

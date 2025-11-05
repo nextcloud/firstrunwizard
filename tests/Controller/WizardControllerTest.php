@@ -12,6 +12,7 @@ use OCP\AppFramework\Http;
 use OCP\AppFramework\Http\DataResponse;
 use OCP\IConfig;
 use OCP\IRequest;
+use OCP\ServerVersion;
 use PHPUnit\Framework\MockObject\MockObject;
 use Test\TestCase;
 
@@ -39,6 +40,7 @@ class WizardControllerTest extends TestCase {
 			$this->createMock(IRequest::class),
 			$user,
 			$this->config,
+			$this->createMock(ServerVersion::class),
 		);
 	}
 
