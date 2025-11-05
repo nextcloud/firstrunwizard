@@ -4,7 +4,7 @@
  - SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 <psalm
-	errorLevel="4"
+	errorLevel="1"
 	resolveFromConfigFile="true"
 	phpVersion="8.2"
 	totallyTyped="true"
