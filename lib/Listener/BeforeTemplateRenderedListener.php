@@ -29,17 +29,17 @@ use Override;
 class BeforeTemplateRenderedListener implements IEventListener {
 
 	public function __construct(
-		private IConfig $config,
-		private IAppConfig $appConfig,
-		private IUserSession $userSession,
-		private IInitialState $initialState,
-		private Defaults $theming,
+		private readonly IConfig $config,
+		private readonly IAppConfig $appConfig,
+		private readonly IUserSession $userSession,
+		private readonly IInitialState $initialState,
+		private readonly Defaults $theming,
 	) {
 	}
 
 	#[Override]
 	public function handle(Event $event): void {
-		if (!$event instanceof BeforeTemplateRenderedEvent || !$event->isLoggedIn()) {
+		if (!$event->isLoggedIn()) {
 			return;
 		}
 

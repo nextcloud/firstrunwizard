@@ -17,11 +17,11 @@ class AppHint {
 	public const APP_HINT_VERSION = '19';
 
 	public function __construct(
-		private INotificationManager $notificationManager,
-		private IGroupManager $groupManager,
-		private IAppManager $appManager,
-		private IConfig $config,
-		private ?string $userId,
+		private readonly INotificationManager $notificationManager,
+		private readonly IGroupManager $groupManager,
+		private readonly IAppManager $appManager,
+		private readonly IConfig $config,
+		private readonly ?string $userId,
 	) {
 	}
 
@@ -51,7 +51,6 @@ class AppHint {
 			$this->notificationManager->notify($notification);
 		}
 		if ($this->notificationManager->getCount($notification) === 0) {
-			return;
 		}
 	}
 

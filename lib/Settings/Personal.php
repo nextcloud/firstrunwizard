@@ -20,12 +20,12 @@ use Override;
 class Personal implements ISettings {
 
 	public function __construct(
-		private IConfig $config,
-		private IURLGenerator $urlGenerator,
-		private Defaults $defaults,
-		private IInitialState $initialState,
-		private IL10N $l,
-		private IRequest $request,
+		private readonly IConfig $config,
+		private readonly IURLGenerator $urlGenerator,
+		private readonly Defaults $defaults,
+		private readonly IInitialState $initialState,
+		private readonly IL10N $l,
+		private readonly IRequest $request,
 	) {
 	}
 
@@ -78,7 +78,7 @@ class Personal implements ISettings {
 	}
 
 	private function getClientLinks(): array {
-		$clients = [
+		return [
 			'desktop' => [
 				'href' => $this->config->getSystemValue('customclient_desktop', $this->defaults->getSyncClientUrl()),
 				'name' => $this->l->t('Desktop client'),
@@ -100,6 +100,5 @@ class Personal implements ISettings {
 				'image' => $this->urlGenerator->imagePath('core', 'appstore.svg'),
 			],
 		];
-		return $clients;
 	}
 }
