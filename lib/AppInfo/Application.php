@@ -18,6 +18,7 @@ use OCP\AppFramework\Bootstrap\IBootstrap;
 use OCP\AppFramework\Bootstrap\IRegistrationContext;
 use OCP\AppFramework\Http\Events\BeforeTemplateRenderedEvent;
 use OCP\User\Events\UserLoggedInEvent;
+use Override;
 
 class Application extends App implements IBootstrap {
 	public const APP_ID = 'firstrunwizard';
@@ -26,6 +27,7 @@ class Application extends App implements IBootstrap {
 		parent::__construct(self::APP_ID);
 	}
 
+	#[Override]
 	public function register(IRegistrationContext $context): void {
 		$context->registerNotifierService(Notifier::class);
 
@@ -34,6 +36,7 @@ class Application extends App implements IBootstrap {
 		$context->registerEventListener(BeforeTemplateRenderedEvent::class, BeforeTemplateRenderedListener::class);
 	}
 
+	#[Override]
 	public function boot(IBootContext $context): void {
 		// Everything is already done in register()
 	}

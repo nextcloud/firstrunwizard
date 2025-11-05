@@ -11,7 +11,6 @@ namespace OCA\FirstRunWizard\Listener;
 
 use OCA\FirstRunWizard\AppInfo\Application;
 use OCA\FirstRunWizard\Constants;
-use OCA\FirstRunWizard\Notification\AppHint;
 use OCP\AppFramework\Http\Events\BeforeTemplateRenderedEvent;
 use OCP\AppFramework\Services\IAppConfig;
 use OCP\AppFramework\Services\IInitialState;
@@ -22,6 +21,7 @@ use OCP\IConfig;
 use OCP\IUser;
 use OCP\IUserSession;
 use OCP\Util;
+use Override;
 
 /**
  * @template-implements IEventListener<BeforeTemplateRenderedEvent>
@@ -32,12 +32,12 @@ class BeforeTemplateRenderedListener implements IEventListener {
 		private IConfig $config,
 		private IAppConfig $appConfig,
 		private IUserSession $userSession,
-		private AppHint $appHint,
 		private IInitialState $initialState,
 		private Defaults $theming,
 	) {
 	}
 
+	#[Override]
 	public function handle(Event $event): void {
 		if (!$event instanceof BeforeTemplateRenderedEvent || !$event->isLoggedIn()) {
 			return;

@@ -16,63 +16,29 @@ use OCP\Notification\INotification;
 use OCP\Notification\INotifier;
 use OCP\Notification\UnknownNotificationException;
 use OCP\User\Backend\ISetPasswordBackend;
+use Override;
 
 class Notifier implements INotifier {
-
-	/** @var IFactory */
-	protected $factory;
-
-	/** @var IUserManager */
-	protected $userManager;
-
-	/** @var INotificationManager */
-	protected $notificationManager;
-
-	/** @var IURLGenerator */
-	protected $url;
-
-	/** @var IConfig */
-	protected $config;
-
-	public function __construct(IFactory $factory,
-		IUserManager $userManager,
-		INotificationManager $notificationManager,
-		IURLGenerator $urlGenerator,
-		IConfig $config) {
-		$this->factory = $factory;
-		$this->userManager = $userManager;
-		$this->notificationManager = $notificationManager;
-		$this->url = $urlGenerator;
-		$this->config = $config;
+	public function __construct(
+		private readonly IFactory $factory,
+		private readonly IUserManager $userManager,
+		private readonly INotificationManager $notificationManager,
+		private readonly IURLGenerator $url,
+		private readonly IConfig $config,
+	) {
 	}
 
-	/**
-	 * Identifier of the notifier, only use [a-z0-9_]
-	 *
-	 * @return string
-	 * @since 17.0.0
-	 */
+	#[Override]
 	public function getID(): string {
 		return 'firstrunwizard';
 	}
 
-	/**
-	 * Human readable name describing the notifier
-	 *
-	 * @return string
-	 * @since 17.0.0
-	 */
+	#[Override]
 	public function getName(): string {
 		return $this->factory->get('firstrunwizard')->t('First run wizard');
 	}
 
-	/**
-	 * @param INotification $notification
-	 * @param string $languageCode The code of the language that should be used to prepare the notification
-	 * @return INotification
-	 * @throws \InvalidArgumentException When the notification was not prepared by a notifier
-	 * @since 9.0.0
-	 */
+	#[Override]
 	public function prepare(INotification $notification, string $languageCode): INotification {
 		if ($notification->getApp() !== 'firstrunwizard') {
 			// Not my app => throw
@@ -111,11 +77,6 @@ class Notifier implements INotifier {
 		}
 	}
 
-	/**
-	 * @param INotification $notification
-	 * @param string $languageCode
-	 * @return string
-	 */
 	protected function getSubject(INotification $notification, string $languageCode): string {
 		$l = $this->factory->get('firstrunwizard', $languageCode);
 		$user = $this->userManager->get($notification->getUser());
@@ -146,12 +107,7 @@ class Notifier implements INotifier {
 		}
 	}
 
-	/**
-	 * @param INotification $notification
-	 * @param string $languageCode
-	 * @return INotification
-	 */
-	protected function setAppHintDetails(INotification $notification, $languageCode, $app) {
+	protected function setAppHintDetails(INotification $notification, $languageCode, $app): INotification {
 		$l = $this->factory->get('firstrunwizard', $languageCode);
 		$appLink = '';
 		switch ($app) {

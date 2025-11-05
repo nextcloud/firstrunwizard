@@ -18,6 +18,7 @@ use OCP\EventDispatcher\Event;
 use OCP\EventDispatcher\IEventListener;
 use OCP\IConfig;
 use OCP\User\Events\UserLoggedInEvent;
+use Override;
 
 /**
  * @template-implements IEventListener<UserLoggedInEvent>
@@ -32,6 +33,7 @@ class UserLoggedInListener implements IEventListener {
 	) {
 	}
 
+	#[Override]
 	public function handle(Event $event): void {
 		if (!$event instanceof UserLoggedInEvent) {
 			return;
