@@ -33,7 +33,7 @@ class BackgroundJobTest extends TestCase {
 		);
 	}
 
-	public static function dataRun() {
+	public static function dataRun(): array {
 		return [
 			['user1', 1, false],
 			['user2', 0, true],
@@ -41,7 +41,7 @@ class BackgroundJobTest extends TestCase {
 	}
 
 	#[\PHPUnit\Framework\Attributes\DataProvider('dataRun')]
-	public function testRun(string $user, int $count, bool $notify) {
+	public function testRun(string $user, int $count, bool $notify): void {
 		$notification = $this->createMock(INotification::class);
 		$notification->expects($this->once())
 			->method('setApp')

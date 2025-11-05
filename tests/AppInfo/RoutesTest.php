@@ -15,7 +15,7 @@ use Test\TestCase;
  * @package OCA\FirstRunWizard\Tests\AppInfo
  */
 class RoutesTest extends TestCase {
-	public function testRoutes() {
+	public function testRoutes(): void {
 		$routes = include(__DIR__ . '/../../appinfo/routes.php');
 		$this->assertIsArray($routes);
 		$this->assertCount(1, $routes);
