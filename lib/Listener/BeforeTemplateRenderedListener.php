@@ -68,17 +68,17 @@ class BeforeTemplateRenderedListener implements IEventListener {
 
 		$this->initialState->provideInitialState(
 			'desktop',
-			$this->config->getSystemValue('customclient_desktop', $this->theming->getSyncClientUrl())
+			$this->config->getSystemValueString('customclient_desktop', $this->theming->getSyncClientUrl())
 		);
 
 		$this->initialState->provideInitialState(
 			'android',
-			$this->config->getSystemValue('customclient_android', $this->theming->getAndroidClientUrl())
+			$this->config->getSystemValueString('customclient_android', $this->theming->getAndroidClientUrl())
 		);
 
 		$this->initialState->provideInitialState(
 			'ios',
-			$this->config->getSystemValue('customclient_ios', $this->theming->getiOSClientUrl())
+			$this->config->getSystemValueString('customclient_ios', $this->theming->getiOSClientUrl())
 		);
 	}
 }

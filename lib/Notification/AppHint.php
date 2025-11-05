@@ -50,8 +50,6 @@ class AppHint {
 			$notification->setDateTime(new \DateTime());
 			$this->notificationManager->notify($notification);
 		}
-		if ($this->notificationManager->getCount($notification) === 0) {
-		}
 	}
 
 	public function dismissNotification(string $app): void {
