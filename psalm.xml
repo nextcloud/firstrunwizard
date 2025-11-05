@@ -21,6 +21,9 @@
 			<directory name="vendor" />
 		</ignoreFiles>
 	</projectFiles>
+	<extraFiles>
+		<directory name="vendor-bin/psalm/vendor/nextcloud/ocp" />
+	</extraFiles>
 	<stubs>
 		<file name="tests/stubs/oc_template.php" />
 	</stubs>
