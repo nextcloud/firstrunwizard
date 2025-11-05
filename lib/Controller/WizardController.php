@@ -19,9 +19,9 @@ class WizardController extends Controller {
 	public function __construct(
 		string $appName,
 		IRequest $request,
-		private ?string $userId,
-		private IConfig $config,
-		private ServerVersion $serverVersion,
+		private readonly ?string $userId,
+		private readonly IConfig $config,
+		private readonly ServerVersion $serverVersion,
 	) {
 		parent::__construct($appName, $request);
 	}

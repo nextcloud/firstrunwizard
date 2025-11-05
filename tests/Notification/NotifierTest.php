@@ -116,7 +116,7 @@ class NotifierTest extends TestCase {
 	}
 
 	#[\PHPUnit\Framework\Attributes\DataProvider('dataPrepare')]
-	public function testPrepare(string $language, string $user, bool $changeName, bool $changeAvatar, string $name, string $email, bool $hasAvatar, bool|string $subjectContains) {
+	public function testPrepare(string $language, string $user, bool $changeName, bool $changeAvatar, string $name, string $email, bool $hasAvatar, bool|string $subjectContains): void {
 		$avatar = $hasAvatar ? $this->createMock(IImage::class) : null;
 		$notification = $this->createMock(INotification::class);
 
