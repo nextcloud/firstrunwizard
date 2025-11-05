@@ -11,6 +11,7 @@ use OCP\App\IAppManager;
 use OCP\IConfig;
 use OCP\IGroupManager;
 use OCP\Notification\IManager as INotificationManager;
+use OCP\Notification\INotification;
 
 class AppHint {
 	public const APP_HINT_VERSION = '19';
@@ -54,7 +55,7 @@ class AppHint {
 		}
 	}
 
-	public function dismissNotification(string $app) {
+	public function dismissNotification(string $app): void {
 		$notification = $this->notificationManager->createNotification();
 		$notification->setApp('firstrunwizard')
 			->setSubject('apphint-' . $app)
@@ -62,7 +63,7 @@ class AppHint {
 		$this->notificationManager->markProcessed($notification);
 	}
 
-	protected function generateNotification(string $app, string $user) {
+	protected function generateNotification(string $app, string $user): INotification {
 		$notification = $this->notificationManager->createNotification();
 		$notification->setApp('firstrunwizard')
 			->setSubject('apphint-' . $app)
