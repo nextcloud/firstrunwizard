@@ -29,17 +29,17 @@ use Override;
 class BeforeTemplateRenderedListener implements IEventListener {
 
 	public function __construct(
-		private IConfig $config,
-		private IAppConfig $appConfig,
-		private IUserSession $userSession,
-		private IInitialState $initialState,
-		private Defaults $theming,
+		private readonly IConfig $config,
+		private readonly IAppConfig $appConfig,
+		private readonly IUserSession $userSession,
+		private readonly IInitialState $initialState,
+		private readonly Defaults $theming,
 	) {
 	}
 
 	#[Override]
 	public function handle(Event $event): void {
-		if (!$event instanceof BeforeTemplateRenderedEvent || !$event->isLoggedIn()) {
+		if (!$event->isLoggedIn()) {
 			return;
 		}
 
@@ -68,17 +68,17 @@ class BeforeTemplateRenderedListener implements IEventListener {
 
 		$this->initialState->provideInitialState(
 			'desktop',
-			$this->config->getSystemValue('customclient_desktop', $this->theming->getSyncClientUrl())
+			$this->config->getSystemValueString('customclient_desktop', $this->theming->getSyncClientUrl())
 		);
 
 		$this->initialState->provideInitialState(
 			'android',
-			$this->config->getSystemValue('customclient_android', $this->theming->getAndroidClientUrl())
+			$this->config->getSystemValueString('customclient_android', $this->theming->getAndroidClientUrl())
 		);
 
 		$this->initialState->provideInitialState(
 			'ios',
-			$this->config->getSystemValue('customclient_ios', $this->theming->getiOSClientUrl())
+			$this->config->getSystemValueString('customclient_ios', $this->theming->getiOSClientUrl())
 		);
 	}
 }

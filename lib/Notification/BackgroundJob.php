@@ -23,7 +23,7 @@ class BackgroundJob extends QueuedJob {
 	}
 
 	/**
-	 * @param array $argument
+	 * @param array{uid: string} $argument
 	 */
 	#[Override]
 	protected function run($argument): void {

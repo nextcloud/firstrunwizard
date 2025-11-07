@@ -7,7 +7,7 @@
 
 namespace OCA\FirstRunWizard;
 
-class Constants {
+final class Constants {
 	/**
 	 * Version for which the latest changelog entries are available
 	 * This is used to decide if we show the wizard for users on an update

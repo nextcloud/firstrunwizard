@@ -19,7 +19,7 @@ use Override;
 class AppEnabledListener implements IEventListener {
 
 	public function __construct(
-		private AppHint $appHint,
+		private readonly AppHint $appHint,
 	) {
 	}
 
