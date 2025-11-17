@@ -4,7 +4,7 @@
  - SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 <psalm
-	errorLevel="4"
+	errorLevel="1"
 	resolveFromConfigFile="true"
 	phpVersion="8.2"
 	totallyTyped="true"
@@ -19,9 +19,20 @@
 		<directory name="lib" />
 		<ignoreFiles>
 			<directory name="vendor" />
+			<directory name="vendor-bin" />
 		</ignoreFiles>
 	</projectFiles>
+	<extraFiles>
+		<directory name="vendor-bin/psalm/vendor/nextcloud/ocp" />
+	</extraFiles>
 	<stubs>
 		<file name="tests/stubs/oc_template.php" />
 	</stubs>
+	<issueHandlers>
+		<ClassMustBeFinal>
+			<errorLevel type="suppress">
+				<directory name="lib" />
+			</errorLevel>
+		</ClassMustBeFinal>
+	</issueHandlers>
 </psalm>

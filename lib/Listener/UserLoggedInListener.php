@@ -26,10 +26,10 @@ use Override;
 class UserLoggedInListener implements IEventListener {
 
 	public function __construct(
-		private IConfig $config,
-		private IAppConfig $appConfig,
-		private IJobList $jobList,
-		private AppHint $appHint,
+		private readonly IConfig $config,
+		private readonly IAppConfig $appConfig,
+		private readonly IJobList $jobList,
+		private readonly AppHint $appHint,
 	) {
 	}
 

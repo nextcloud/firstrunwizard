@@ -11,16 +11,17 @@ use OCP\App\IAppManager;
 use OCP\IConfig;
 use OCP\IGroupManager;
 use OCP\Notification\IManager as INotificationManager;
+use OCP\Notification\INotification;
 
 class AppHint {
 	public const APP_HINT_VERSION = '19';
 
 	public function __construct(
-		private INotificationManager $notificationManager,
-		private IGroupManager $groupManager,
-		private IAppManager $appManager,
-		private IConfig $config,
-		private ?string $userId,
+		private readonly INotificationManager $notificationManager,
+		private readonly IGroupManager $groupManager,
+		private readonly IAppManager $appManager,
+		private readonly IConfig $config,
+		private readonly ?string $userId,
 	) {
 	}
 
@@ -49,12 +50,9 @@ class AppHint {
 			$notification->setDateTime(new \DateTime());
 			$this->notificationManager->notify($notification);
 		}
-		if ($this->notificationManager->getCount($notification) === 0) {
-			return;
-		}
 	}
 
-	public function dismissNotification(string $app) {
+	public function dismissNotification(string $app): void {
 		$notification = $this->notificationManager->createNotification();
 		$notification->setApp('firstrunwizard')
 			->setSubject('apphint-' . $app)
@@ -62,7 +60,7 @@ class AppHint {
 		$this->notificationManager->markProcessed($notification);
 	}
 
-	protected function generateNotification(string $app, string $user) {
+	protected function generateNotification(string $app, string $user): INotification {
 		$notification = $this->notificationManager->createNotification();
 		$notification->setApp('firstrunwizard')
 			->setSubject('apphint-' . $app)

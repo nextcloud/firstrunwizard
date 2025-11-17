@@ -107,7 +107,7 @@ class Notifier implements INotifier {
 		}
 	}
 
-	protected function setAppHintDetails(INotification $notification, $languageCode, $app): INotification {
+	protected function setAppHintDetails(INotification $notification, string $languageCode, string $app): INotification {
 		$l = $this->factory->get('firstrunwizard', $languageCode);
 		$appLink = '';
 		switch ($app) {

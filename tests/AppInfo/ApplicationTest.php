@@ -26,12 +26,12 @@ use Test\TestCase;
 class ApplicationTest extends TestCase {
 	protected ?Application $app = null;
 
-	public function testContainerAppName() {
+	public function testContainerAppName(): void {
 		$app = new Application();
 		$this->assertEquals('firstrunwizard', $app->getContainer()->getAppName());
 	}
 
-	public static function dataContainerQuery() {
+	public static function dataContainerQuery(): array {
 		return [
 			[Application::class, Application::class],
 			[Application::class, App::class],
@@ -48,7 +48,7 @@ class ApplicationTest extends TestCase {
 	}
 
 	#[\PHPUnit\Framework\Attributes\DataProvider('dataContainerQuery')]
-	public function testContainerQuery(string $service, string $expected) {
+	public function testContainerQuery(string $service, string $expected): void {
 		$app = new Application();
 		$this->assertInstanceOf($expected, $app->getContainer()->query($service));
 	}

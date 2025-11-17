@@ -30,11 +30,7 @@ class WizardControllerTest extends TestCase {
 		$this->config = $this->createMock(IConfig::class);
 	}
 
-	/**
-	 * @param string $user
-	 * @return WizardController
-	 */
-	protected function getController($user = 'test') {
+	protected function getController(string $user = 'test'): WizardController {
 		return new WizardController(
 			'firstrunwizard',
 			$this->createMock(IRequest::class),
@@ -44,7 +40,7 @@ class WizardControllerTest extends TestCase {
 		);
 	}
 
-	public static function dataDisable() {
+	public static function dataDisable(): array {
 		return [
 			['test1'],
 			['test2'],
@@ -52,7 +48,7 @@ class WizardControllerTest extends TestCase {
 	}
 
 	#[\PHPUnit\Framework\Attributes\DataProvider('dataDisable')]
-	public function testDisable(string $user) {
+	public function testDisable(string $user): void {
 		$controller = $this->getController($user);
 
 		$this->config->expects($this->once())
