@@ -76,7 +76,7 @@
     "Connect other apps to {productName}" : "{productName} ile diğer uygulamaları bağlayın",
     "Besides the mobile apps and desktop client you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to {productName}." : "Mobil ve bilgisayar istemci uygulamaları yanında WebDAV/CalDAV/CardDAV iletişim kurallarını destekleyen uygulamalar da {productName} ile bağlantı kurabilir.",
     "Apps to connect to {productName}" : "{productName} ile bağlanacak uygulamalar",
-    "Set up sync clients using an {linkStart}app password{linkEnd}. That way you can make sure you are able to revoke access in case you lose that device." : "Bir {linkStart}uygulama parolası{linkEnd} kullanan eşitleme istemcilerini kurun. Böylece aygıtınızı kaybederseniz erişimi geri alabileceğinizden emin olursunuz.",
+    "Set up sync clients using an {linkStart}app password{linkEnd}. That way you can make sure you are able to revoke access in case you lose that device." : "Bir {linkStart}uygulama parolası{linkEnd} kullanan eşitleme istemcilerini kurun. Böylece aygıtınızı kaybederseniz erişimi geçersiz kılabileceğinden emin olursunuz.",
     "Get the apps to sync your files" : "Dosyalarınızı eşitlemek için uygulamaları indirin",
     "{productName} gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "{productName} dosyalarınıza istediğiniz her yerden erişme olanağı sunar. Kullanımı kolay bilgisayar ve mobil uygulamalarımız yaygın tüm platformlar için bulunabilir ve herhangi bir ücret ödemeden kullanılabilir.",
     "App for syncing" : "Eşitleme uygulaması",
