@@ -93,6 +93,7 @@ OC.L10N.register(
     "Talk threads & live transcription" : "Talk hariak eta zuzeneko itzulpena",
     "Calendar: date poll for participants" : "Egutegia: data-inkesta kideentzat",
     "Intuitive file search" : "Fitxategi bilaketa intuitiboa",
+    "Vue3, WebSockets and more OpenAPI for devs" : "Vue3, WebSockets eta garatzaileentzako beste OpenAPIak",
     "… and much more!" : "… eta askoz gehiago!",
     "Get to know the new features of Hub {version}" : "Ezagutu Hub {version}-ren ezaugarri berriak",
     "Nextcloud Hub 25 Autumn – Your digital workspace, ready in no time ⚡" : "Nextcloud Hub 25eko udazkena - Zure lanerako espazio digitala, denbora gutxian prest ⚡",
