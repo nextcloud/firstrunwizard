@@ -6,11 +6,16 @@ OC.L10N.register(
     "Desktop client" : "ไคลเอ็นต์เดสก์ทอป",
     "iOS app" : "แอป iOS",
     "Close" : "ปิด",
+    "Download For Windows, Mac OS and Linux." : "ดาวน์โหลดสำหรับ Windows, Mac OS และ Linux",
+    "Connect your calendar and contacts with your devices." : "เชื่อมต่อปฏิทินและรายชื่อติดต่อของคุณเข้ากับอุปกรณ์ต่าง ๆ ของคุณ",
     "Welcome to {cloudName}!" : "ยินดีต้อนรับสู่ {cloudName}!",
+    "This Nextcloud is on version {version}" : "Nextcloud นี้อยู่บนรุ่น {version}",
     "Privacy" : "ความเป็นส่วนตัว",
     "Community" : "ชุมชน",
     "Get the apps to sync your files" : "ดาวน์โหลดแอปเพื่อซิงค์ไฟล์ของคุณ",
     "Server address" : "ที่อยู่เซิร์ฟเวอร์",
+    "What's new?" : "มีอะไรใหม่บ้าง?",
+    "Nextcloud on all your devices" : "Nextcloud บนอุปกรณ์ทั้งหมดของคุณ",
     "Read more" : "อ่านเพิ่มเติม"
 },
 "nplurals=1; plural=0;");
