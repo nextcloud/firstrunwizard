@@ -60,7 +60,7 @@ This file is generated from multiple sources. Included packages:
 	- version: 5.0.1
 	- license: MIT
 - firstrunwizard
-	- version: 6.0.0-dev.0
+	- version: 7.0.0-dev.0
 	- license: AGPL-3.0-or-later
 - linkifyjs
 	- version: 4.3.2
