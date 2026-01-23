@@ -76,7 +76,7 @@
     "Connect other apps to {productName}" : "Під'єднати інші застосунки до {productName}",
     "Besides the mobile apps and desktop client you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to {productName}." : "Крім застосунків для смартфону та настільного клієнта ви можете під'єднати інші програми з підтримкою протоколів WebDAV/CalDAV/CardDAV до {productName}.",
     "Apps to connect to {productName}" : "Застосунки, які можна під'єднати до {productName}",
-    "Set up sync clients using an {linkStart}app password{linkEnd}. That way you can make sure you are able to revoke access in case you lose that device." : "Налаштуйте клієнти синхронізації з використанням {linkStart}паролю для застсунків{linkEnd}. Таким чином ви будете певні, що зможете легко відкликати доступ у разі втрати пристрою.",
+    "Set up sync clients using an {linkStart}app password{linkEnd}. That way you can make sure you are able to revoke access in case you lose that device." : "Налаштуйте клієнти синхронізації з використанням {linkStart}пароля для застсунків{linkEnd}. Таким чином ви будете певні, що зможете легко відкликати доступ у разі втрати пристрою.",
     "Get the apps to sync your files" : "Отримати застосунки для синхронізації ваших файлів",
     "{productName} gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "{productName} дозволяє отримувати доступ до ваших документів звідусіль. Настільний клієнт та застосунок для мобільного телефону доступні безкоштовно для більшості платформ.",
     "App for syncing" : "Застосунок для синхронізації",
