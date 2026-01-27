@@ -9,8 +9,8 @@
   "scripts": {
     "build": "vite --mode production build",
     "dev": "vite --mode development build",
-    "lint": "eslint --ext .js,.vue src",
-    "lint:fix": "eslint --ext .js,.vue src --fix",
+    "lint": "eslint src",
+    "lint:fix": "eslint --fix",
     "stylelint": "stylelint src/**/*.scss src/**/*.vue",
     "stylelint:fix": "stylelint src/**/*.scss src/**/*.vue --fix",
     "watch": "vite --mode development build --watch"
@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@nextcloud/browserslist-config": "^3.1.2",
-    "@nextcloud/eslint-config": "^9.0.0-rc.5",
+    "@nextcloud/eslint-config": "^9.0.0-rc.7",
     "@nextcloud/event-bus": "^3.3.3",
     "@nextcloud/stylelint-config": "^3.2.0",
     "@nextcloud/typings": "^1.10.0",
