@@ -36,7 +36,7 @@ SPDX-FileCopyrightText = "2024 Nextcloud GmbH and Nextcloud contributors"
 SPDX-License-Identifier = "AGPL-3.0-or-later"
 
 [[annotations]]
-path = ["img/Nextcloud.mp4", "img/Nextcloud.webm", "img/Nextcloud.webp", "img/nextcloudLogo.svg"]
+path = ["img/Nextcloud.mp4", "img/Nextcloud.webm", "img/Nextcloud.webp", "img/Nextcloud-preload.webp", "img/nextcloudLogo.svg"]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "2019 Nextcloud GmbH"
 SPDX-License-Identifier = "LicenseRef-NextcloudTrademarks"
