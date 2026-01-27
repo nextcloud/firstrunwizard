@@ -10,9 +10,9 @@
 		id="firstrunwizard"
 		class="first-run-wizard"
 		size="normal"
-		no-close
+		noClose
 		:dark="!isMobile"
-		:set-return-focus
+		:setReturnFocus
 		@close="close"
 		@next="currentPage += 1"
 		@previous="currentPage -= 1">
@@ -21,7 +21,7 @@
 			@next="currentPage = showChangelogOnly ? changelogPage : 0" />
 		<SlideShow
 			v-else
-			v-model:current-index="currentPage"
+			v-model:currentIndex="currentPage"
 			:pages />
 	</NcModal>
 </template>
