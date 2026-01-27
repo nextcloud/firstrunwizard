@@ -34,7 +34,7 @@
   "devDependencies": {
     "@nextcloud/browserslist-config": "^3.0.1",
     "@nextcloud/eslint-config": "^9.0.0-rc.5",
-    "@nextcloud/event-bus": "^3.3.2",
+    "@nextcloud/event-bus": "^3.3.3",
     "@nextcloud/stylelint-config": "^3.1.1",
     "@nextcloud/typings": "^1.9.1",
     "@nextcloud/vite-config": "^2.5.2",
