@@ -169,13 +169,13 @@ function goToPage(pageId: string) {
 	background-color: var(--color-primary-element);
 	position: absolute;
 	top: -5900px;
-	left: calc( -3000px + 50%);
+	inset-inline-start: calc( -3000px + 50%);
 }
 
 .background_bar {
 	position:absolute;
 	top: 0;
-	left: 0;
+	inset-inline-start: 0;
 	width: 100%;
 	height: 10px;
 	background-color: var(--color-primary-element);
@@ -184,13 +184,13 @@ function goToPage(pageId: string) {
 .button_back {
 	position: absolute!important;
 	top: var(--default-grid-baseline);
-	left: var(--default-grid-baseline);
+	inset-inline-start: var(--default-grid-baseline);
 }
 
 .button_close {
 	position: absolute!important;
 	top: var(--default-grid-baseline);
-	right: var(--default-grid-baseline);
+	inset-inline-end: var(--default-grid-baseline);
 }
 
 .button_wrapper {
@@ -218,7 +218,7 @@ function goToPage(pageId: string) {
 	background-size: 100px;
 	margin: auto;
 	position: absolute;
-	left: 0;
+	inset-inline-start: 0;
 	width: 100%;
 	pointer-events: none;
 }
