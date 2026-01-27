@@ -53,7 +53,7 @@ updates:
     ignore:
       # ignore all GitHub linguist patch updates
       - dependency-name: "*"
-        update-types: ["version-update:semver-major", "version-update:semver-minor"]
+        update-types: ["version-update:semver-major"]
 
   - package-ecosystem: npm
     directory: "/"
