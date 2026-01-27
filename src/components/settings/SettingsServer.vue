@@ -12,7 +12,7 @@
 			:label="t('firstrunwizard', 'Server address')"
 			show-trailing-button
 			readonly
-			:value="url"
+			:model-value="url"
 			@trailing-button-click="onCopyContent">
 			<template #trailing-button-icon>
 				<NcIconSvgWrapper :path="copyIcon" />
