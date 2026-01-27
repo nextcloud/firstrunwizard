@@ -11,7 +11,6 @@
 				'firstrunwizard',
 				'{productName} gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost.',
 				{ productName },
-				null,
 				{ escape: false },
 			)
 		">

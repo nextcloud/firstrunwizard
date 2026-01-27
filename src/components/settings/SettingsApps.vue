@@ -4,13 +4,13 @@
 -->
 <template>
 	<NcSettingsSection
-		:name="t('firstrunwizard', 'Connect other apps to {productName}', { productName }, null, { escape: false })"
+		:name="t('firstrunwizard', 'Connect other apps to {productName}', { productName }, { escape: false })"
 		:description="
-			t('firstrunwizard', 'Besides the mobile apps and desktop client you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to {productName}.', { productName }, null, { escape: false })
+			t('firstrunwizard', 'Besides the mobile apps and desktop client you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to {productName}.', { productName }, { escape: false })
 		">
 		<ul
 			:class="$style.list"
-			:aria-label="t('firstrunwizard', 'Apps to connect to {productName}', { productName }, null, { escape: false })">
+			:aria-label="t('firstrunwizard', 'Apps to connect to {productName}', { productName }, { escape: false })">
 			<li
 				v-for="app, id of apps"
 				:key="id">
@@ -27,7 +27,7 @@
 
 <script setup lang="ts">
 import { loadState } from '@nextcloud/initial-state'
-import { translate as t } from '@nextcloud/l10n'
+import { t } from '@nextcloud/l10n'
 import NcButton from '@nextcloud/vue/components/NcButton'
 import NcSettingsSection from '@nextcloud/vue/components/NcSettingsSection'
 
