@@ -33,7 +33,8 @@ export default [
 			{
 				to: 'hub-release',
 				label: t('firstrunwizard', 'What\'s new?'),
-			}, {
+			},
+			{
 				to: 'devices',
 				label: t('firstrunwizard', 'Nextcloud on all your devices'),
 			},
