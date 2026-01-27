@@ -13,7 +13,7 @@
 			show-trailing-button
 			readonly
 			:model-value="url"
-			@trailing-button-click="onCopyContent">
+			@trailingButtonClick="onCopyContent">
 			<template #trailing-button-icon>
 				<NcIconSvgWrapper :path="copyIcon" />
 			</template>
