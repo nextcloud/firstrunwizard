@@ -24,13 +24,17 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        branches: ['main', 'master', 'stable33', 'stable32', 'stable31']
+        branches:
+          - ${{ github.event.repository.default_branch }}
+          - 'stable33'
+          - 'stable32'
+          - 'stable31'
 
     name: update-nextcloud-ocp-${{ matrix.branches }}
 
     steps:
       - id: checkout
-        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           persist-credentials: false
           ref: ${{ matrix.branches }}
@@ -59,7 +63,7 @@ jobs:
         if: steps.checkout.outcome == 'success'
         run: composer install
 
-      - name: Composer update nextcloud/ocp
+      - name: Composer update nextcloud/ocp # zizmor: ignore[template-injection]
         id: update_branch
         if: ${{ steps.checkout.outcome == 'success' && matrix.branches != 'main' }}
         run: composer require --dev 'nextcloud/ocp:dev-${{ matrix.branches }}'
