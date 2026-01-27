@@ -10,10 +10,10 @@
 			id="endpoint-url"
 			:class="$style.input"
 			:label="t('firstrunwizard', 'Server address')"
-			show-trailing-button
+			showTrailingButton
 			readonly
-			:model-value="url"
-			@trailing-button-click="onCopyContent">
+			:modelValue="url"
+			@trailingButtonClick="onCopyContent">
 			<template #trailing-button-icon>
 				<NcIconSvgWrapper :path="copyIcon" />
 			</template>
