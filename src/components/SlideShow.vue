@@ -7,10 +7,10 @@
 	<div :class="$style.wrapper">
 		<!-- The "wave" background for the logo on the first page-->
 		<Transition
-			:enter-class="waveTransitionClasses.enter"
-			:enter-active-class="waveTransitionClasses.active"
-			:leave-active-class="waveTransitionClasses.active"
-			:leave-to-class="waveTransitionClasses.leave">
+			:enterClass="waveTransitionClasses.enter"
+			:enterActiveClass="waveTransitionClasses.active"
+			:leaveActiveClass="waveTransitionClasses.active"
+			:leaveToClass="waveTransitionClasses.leave">
 			<div v-if="isFirstPage" :class="$style.background_circle" />
 		</Transition>
 
@@ -46,11 +46,11 @@
 		<!-- The page that is currently show wrapped in a slide transition -->
 		<Transition
 			mode="out-in"
-			:enter-class="transitionClasses.enter"
-			:enter-active-class="transitionClasses.active"
-			:leave-active-class="transitionClasses.active"
-			:leave-to-class="transitionClasses.leave">
-			<component :is="currentPage.component" :scroller-classes="isFirstPage ? $style.first_page_scroller : ''" />
+			:enterClass="transitionClasses.enter"
+			:enterActiveClass="transitionClasses.active"
+			:leaveActiveClass="transitionClasses.active"
+			:leaveToClass="transitionClasses.leave">
+			<component :is="currentPage.component" :scrollerClasses="isFirstPage ? $style.first_page_scroller : ''" />
 		</Transition>
 
 		<!-- Next button(s) -->
