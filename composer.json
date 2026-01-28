@@ -29,11 +29,11 @@
 		"test:unit": "vendor/bin/phpunit --color --fail-on-warning -c tests/phpunit.xml",
 		"rector": "rector && composer cs:fix",
 		"post-install-cmd": [
-			"@composer bin all install --ansi",
+			"[ $COMPOSER_DEV_MODE -eq 0 ] || composer bin all install --ansi",
 			"composer dump-autoload"
 		],
 		"post-update-cmd": [
-			"@composer bin all update --ansi",
+			"[ $COMPOSER_DEV_MODE -eq 0 ] || composer bin all install --ansi",
 			"composer dump-autoload"
 		]
 	},
