@@ -11,7 +11,9 @@
 			playsinline
 			autoplay
 			muted
-			@ended="handleEnded">
+			:poster="videoPoster"
+			@ended="handleEnded"
+			@play="videoStarted = true">
 			<source :src="videoWebm" type="video/webm">
 			<source :src="videoMp4" type="video/mp4">
 			{{ videoFallbackText }}
@@ -22,7 +24,7 @@
 <script setup lang="ts">
 import { translate as t } from '@nextcloud/l10n'
 import { imagePath } from '@nextcloud/router'
-import { onMounted, useTemplateRef } from 'vue'
+import { computed, onMounted, ref, useTemplateRef } from 'vue'
 
 const emit = defineEmits<{
 	(e: 'next'): void
@@ -30,17 +32,31 @@ const emit = defineEmits<{
 
 const videoMp4 = imagePath('firstrunwizard', 'Nextcloud.mp4')
 const videoWebm = imagePath('firstrunwizard', 'Nextcloud.webm')
-const videoFallbackImage = imagePath('firstrunwizard', 'Nextcloud.webp')
+const videoFallbackImagePre = imagePath('firstrunwizard', 'Nextcloud-preload.webp') // first frame of the video
+const videoFallbackImage = imagePath('firstrunwizard', 'Nextcloud.webp') // best visual fallback image of the video
 const videoFallbackText = t('firstrunwizard', 'Welcome to {cloudName}!', { cloudName: window.OC.theme.name })
 
 const videoElement = useTemplateRef('video')
 
+const autoPlayDisabled = ref(false)
+const videoStarted = ref(false)
+const videoPoster = computed(() => (autoPlayDisabled.value || videoStarted.value) ? videoFallbackImage : videoFallbackImagePre)
+
 onMounted(() => {
-	// check if the browser allows auto play - otherwise we need to skip this
-	if (navigator.getAutoplayPolicy && navigator.getAutoplayPolicy(videoElement.value) === 'disallowed') {
-		videoElement.value!.poster = videoFallbackImage
-		window.setTimeout(handleEnded, 2500)
-	}
+	autoPlayDisabled.value = 'getAutoplayPolicy' in navigator
+		// @ts-expect-error -- firefox experimental API
+		&& navigator.getAutoplayPolicy(videoElement.value) === 'disallowed'
+
+	window.setTimeout(() => {
+		if (!videoStarted.value || autoPlayDisabled) {
+			// skip to the end after showing the fallback image for a short time
+			window.setTimeout(handleEnded, 1700)
+		}
+		if (!videoStarted.value) {
+			// video has not started playing within 800ms - probably due to browser restrictions
+			videoStarted.value = true
+		}
+	}, 800)
 })
 
 /**
