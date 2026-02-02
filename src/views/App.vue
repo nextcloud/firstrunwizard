@@ -45,7 +45,7 @@ const isMobile = useIsSmallMobile()
 /** This is set to true in case the user already received the wizard but Nextcloud was updated to show the changelog only */
 const showChangelogOnly = loadState<boolean>('firstrunwizard', 'changelogOnly', false)
 /** The index of the changelog page for first run on updated Nextcloud Hub only */
-const changelogPage = Math.min(pages.findIndex((page) => page.id === 'hub-release'), 0)
+const changelogPage = Math.max(pages.findIndex((page) => page.id === 'whats-new'), 0)
 
 const showModal = ref(false)
 const currentPage = ref(-1)
