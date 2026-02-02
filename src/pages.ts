@@ -8,7 +8,6 @@ import type { Component } from 'vue'
 import { translate as t } from '@nextcloud/l10n'
 import AboutNextcloudPage from './components/pages/AboutNextcloud.vue'
 import DeviceIntegrationPage from './components/pages/DeviceIntegration.vue'
-import HubReleasePage from './components/pages/HubRelease.vue'
 import KeyNotesPage from './components/pages/KeyNotes.vue'
 import SharePage from './components/pages/SharePage.vue'
 import WhatsNewPage from './components/pages/WhatsNew.vue'
@@ -31,7 +30,7 @@ export default [
 		component: KeyNotesPage,
 		buttons: [
 			{
-				to: 'hub-release',
+				to: 'whats-new',
 				label: t('firstrunwizard', 'What\'s new?'),
 			},
 			{
@@ -57,19 +56,8 @@ export default [
 		component: AboutNextcloudPage,
 		buttons: [
 			{
-				to: 'hub-release',
-				label: t('firstrunwizard', 'Nextcloud Hub {version}', { version: HubRelease.version }),
-			},
-		],
-	},
-
-	{
-		id: 'hub-release',
-		component: HubReleasePage,
-		buttons: [
-			{
 				to: 'whats-new',
-				label: t('firstrunwizard', 'Read more'),
+				label: t('firstrunwizard', 'Nextcloud Hub {version}', { version: HubRelease.version }),
 			},
 		],
 	},
