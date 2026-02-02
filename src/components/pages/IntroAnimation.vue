@@ -69,9 +69,10 @@ function handleEnded() {
 
 <style module>
 .video {
-	width: 100%;
-	height: 100%;
+	display: block;
 	object-fit: cover;
+	height: 100%;
+	width: 100%;
 }
 
 .wrapper {
