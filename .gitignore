@@ -7,7 +7,7 @@
 
 # 3rdparty
 node_modules/
-/vendor
+vendor/
 
 # cache
 /.php-cs-fixer.cache
