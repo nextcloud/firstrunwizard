@@ -30,10 +30,10 @@ const emit = defineEmits<{
 	(e: 'next'): void
 }>()
 
-const videoMp4 = imagePath('firstrunwizard', 'Nextcloud.mp4')
-const videoWebm = imagePath('firstrunwizard', 'Nextcloud.webm')
-const videoFallbackImagePre = imagePath('firstrunwizard', 'Nextcloud-preload.webp') // first frame of the video
-const videoFallbackImage = imagePath('firstrunwizard', 'Nextcloud.webp') // best visual fallback image of the video
+const videoMp4 = imagePath('firstrunwizard', 'nextcloudHub.mp4')
+const videoWebm = imagePath('firstrunwizard', 'nextcloudHub.webm')
+const videoFallbackImagePre = imagePath('firstrunwizard', 'nextcloudHub-preload.webp') // first frame of the video
+const videoFallbackImage = imagePath('firstrunwizard', 'nextcloudHub.webp') // best visual fallback image of the video
 const videoFallbackText = t('firstrunwizard', 'Welcome to {cloudName}!', { cloudName: window.OC.theme.name })
 
 const videoElement = useTemplateRef('video')
@@ -48,7 +48,7 @@ onMounted(() => {
 		&& navigator.getAutoplayPolicy(videoElement.value) === 'disallowed'
 
 	window.setTimeout(() => {
-		if (!videoStarted.value || autoPlayDisabled) {
+		if (!videoStarted.value || autoPlayDisabled.value) {
 			// skip to the end after showing the fallback image for a short time
 			window.setTimeout(handleEnded, 1700)
 		}
