@@ -14,6 +14,7 @@ use OCA\FirstRunWizard\Notification\AppHint;
 use OCA\FirstRunWizard\Notification\BackgroundJob;
 use OCP\AppFramework\Services\IAppConfig;
 use OCP\BackgroundJob\IJobList;
+use OCP\Config\IUserConfig;
 use OCP\EventDispatcher\Event;
 use OCP\EventDispatcher\IEventListener;
 use OCP\IConfig;
@@ -26,8 +27,9 @@ use Override;
 class UserLoggedInListener implements IEventListener {
 
 	public function __construct(
-		private readonly IConfig $config,
+		private readonly IConfig $systemConfig,
 		private readonly IAppConfig $appConfig,
+		private readonly IUserConfig $userConfig,
 		private readonly IJobList $jobList,
 		private readonly AppHint $appHint,
 	) {
@@ -43,14 +45,14 @@ class UserLoggedInListener implements IEventListener {
 			return;
 		}
 
-		$lastSeenVersion = $this->config->getUserValue($event->getUid(), Application::APP_ID, 'show', '0.0.0');
+		$lastSeenVersion = $this->userConfig->getValueString($event->getUid(), Application::APP_ID, 'show', '0.0.0');
 		// If the user really uses Nextcloud for the very first time we create notifications for them
 		// (compatibility with older wizard versions where the value was 1)
 		if (version_compare($lastSeenVersion, '1', '<=')) {
 			$this->jobList->add(BackgroundJob::class, ['uid' => $event->getUid()]);
 		}
 
-		if ($this->config->getSystemValueBool('appstoreenabled', true)) {
+		if ($this->systemConfig->getSystemValueBool('appstoreenabled', true)) {
 			$this->appHint->sendAppHintNotifications();
 		}
 	}
