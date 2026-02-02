@@ -23,7 +23,7 @@
 			:aria-label="t('firstrunwizard', 'Go to previous page')"
 			:class="$style.button_back"
 			variant="tertiary-no-background"
-			@click="$emit('update:current-index', currentIndex - 1)">
+			@click="currentIndex -= 1">
 			<template #icon>
 				<NcIconSvgWrapper :path="mdiArrowLeft" />
 			</template>
@@ -34,7 +34,7 @@
 			:aria-label="t('firstrunwizard', 'Close')"
 			:class="$style.button_close"
 			:variant="isFirstPage ? 'tertiary-on-primary' : 'tertiary-no-background'"
-			@click="$emit('update:current-index', -1)">
+			@click="$emit('close')">
 			<template #icon>
 				<NcIconSvgWrapper :path="mdiClose" />
 			</template>
@@ -81,13 +81,14 @@ import { computed, ref, useCssModule, watch } from 'vue'
 import NcButton from '@nextcloud/vue/components/NcButton'
 import NcIconSvgWrapper from '@nextcloud/vue/components/NcIconSvgWrapper'
 
+const currentIndex = defineModel<number>({ required: true })
+
 const props = defineProps<{
 	pages: IPage[]
-	currentIndex: number
 }>()
 
-const emit = defineEmits<{
-	(e: 'update:current-index', index: number): void
+defineEmits<{
+	close: []
 }>()
 
 /**
@@ -95,9 +96,9 @@ const emit = defineEmits<{
  */
 const reverseTransition = ref(false)
 
-const currentPage = computed(() => props.pages[props.currentIndex])
-const isFirstPage = computed(() => props.currentIndex === 0)
-const isLastPage = computed(() => props.currentIndex === (props.pages.length - 1))
+const currentPage = computed(() => props.pages[currentIndex.value]!)
+const isFirstPage = computed(() => currentIndex.value === 0)
+const isLastPage = computed(() => currentIndex.value === (props.pages.length - 1))
 
 const cssLogoUrl = `url('${imagePath('firstrunwizard', 'nextcloudLogo.svg')}')`
 
@@ -131,7 +132,7 @@ const waveTransitionClasses = computed(() => {
 /**
  * When we show a previous page we want to reverse the transition
  */
-watch(() => props.currentIndex, (newPage, oldPage) => {
+watch(() => currentIndex.value, (newPage, oldPage) => {
 	if (newPage < oldPage) {
 		reverseTransition.value = true
 	} else {
@@ -146,7 +147,7 @@ watch(() => props.currentIndex, (newPage, oldPage) => {
  */
 function goToPage(pageId: string) {
 	const id = props.pages.findIndex((page) => page.id === pageId)
-	emit('update:current-index', id)
+	currentIndex.value = id
 }
 </script>
 
