@@ -17,12 +17,13 @@
 		@next="currentPage += 1"
 		@previous="currentPage -= 1">
 		<IntroAnimation
-			v-if="currentPage === null"
+			v-if="currentPage === -1"
 			@next="currentPage = showChangelogOnly ? changelogPage : 0" />
 		<SlideShow
 			v-else
-			v-model:currentIndex="currentPage"
-			:pages />
+			v-model="currentPage"
+			:pages
+			@close="close" />
 	</NcModal>
 </template>
 
@@ -31,7 +32,7 @@ import axios from '@nextcloud/axios'
 import { loadState } from '@nextcloud/initial-state'
 import { generateUrl } from '@nextcloud/router'
 import { useIsSmallMobile } from '@nextcloud/vue/composables/useIsMobile'
-import { ref, watchEffect } from 'vue'
+import { ref } from 'vue'
 import NcModal from '@nextcloud/vue/components/NcModal'
 import IntroAnimation from '../components/pages/IntroAnimation.vue'
 import SlideShow from '../components/SlideShow.vue'
@@ -47,15 +48,8 @@ const showChangelogOnly = loadState<boolean>('firstrunwizard', 'changelogOnly', 
 const changelogPage = Math.min(pages.findIndex((page) => page.id === 'hub-release'), 0)
 
 const showModal = ref(false)
-const currentPage = ref<number | null>(null)
+const currentPage = ref(-1)
 const setReturnFocus = ref<HTMLElement | SVGElement | string>()
-
-// If the current page index is set to -1 then close the modal
-watchEffect(() => {
-	if (currentPage.value === -1) {
-		close()
-	}
-})
 
 /**
  * Open the first run wizard modal
@@ -64,7 +58,7 @@ watchEffect(() => {
  */
 function open(focusReturn?: HTMLElement | SVGElement | string) {
 	setReturnFocus.value = focusReturn
-	currentPage.value = null
+	currentPage.value = -1
 	showModal.value = true
 }
 
@@ -72,7 +66,7 @@ function open(focusReturn?: HTMLElement | SVGElement | string) {
  * Close the modal
  */
 function close() {
-	currentPage.value = null
+	currentPage.value = -1
 	showModal.value = false
 
 	// Important: Do not show again automatically
