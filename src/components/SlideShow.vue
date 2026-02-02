@@ -87,7 +87,7 @@ const props = defineProps<{
 	pages: IPage[]
 }>()
 
-defineEmits<{
+const emit = defineEmits<{
 	close: []
 }>()
 
@@ -146,6 +146,11 @@ watch(() => currentIndex.value, (newPage, oldPage) => {
  * @param pageId ID of the page to got to
  */
 function goToPage(pageId: string) {
+	if (pageId === 'close') {
+		// special case: close the wizard
+		emit('close')
+		return
+	}
 	const id = props.pages.findIndex((page) => page.id === pageId)
 	currentIndex.value = id
 }
