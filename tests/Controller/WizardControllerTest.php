@@ -10,7 +10,7 @@ namespace OCA\FirstRunWizard\Tests\Controller;
 use OCA\FirstRunWizard\Controller\WizardController;
 use OCP\AppFramework\Http;
 use OCP\AppFramework\Http\DataResponse;
-use OCP\IConfig;
+use OCP\Config\IUserConfig;
 use OCP\IRequest;
 use OCP\ServerVersion;
 use PHPUnit\Framework\MockObject\MockObject;
@@ -24,10 +24,10 @@ use Test\TestCase;
 #[\PHPUnit\Framework\Attributes\Group('DB')]
 class WizardControllerTest extends TestCase {
 
-	protected IConfig&MockObject $config;
+	protected IUserConfig&MockObject $config;
 
 	protected function setUp(): void {
-		$this->config = $this->createMock(IConfig::class);
+		$this->config = $this->createMock(IUserConfig::class);
 	}
 
 	protected function getController(string $user = 'test'): WizardController {
@@ -52,7 +52,7 @@ class WizardControllerTest extends TestCase {
 		$controller = $this->getController($user);
 
 		$this->config->expects($this->once())
-			->method('setUserValue')
+			->method('setValueString')
 			->with($user, 'firstrunwizard', 'show');
 
 		$response = $controller->disable();
