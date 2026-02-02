@@ -10,7 +10,7 @@ namespace OCA\FirstRunWizard\Controller;
 use OCP\AppFramework\Controller;
 use OCP\AppFramework\Http\Attribute\NoAdminRequired;
 use OCP\AppFramework\Http\DataResponse;
-use OCP\IConfig;
+use OCP\Config\IUserConfig;
 use OCP\IRequest;
 use OCP\ServerVersion;
 
@@ -20,7 +20,7 @@ class WizardController extends Controller {
 		string $appName,
 		IRequest $request,
 		private readonly ?string $userId,
-		private readonly IConfig $config,
+		private readonly IUserConfig $config,
 		private readonly ServerVersion $serverVersion,
 	) {
 		parent::__construct($appName, $request);
@@ -36,7 +36,7 @@ class WizardController extends Controller {
 		array_splice($version, 3);
 		/** @var list<int> $version */
 		// Set "show" to current version to only show on update
-		$this->config->setUserValue($this->userId, 'firstrunwizard', 'show', implode('.', $version));
+		$this->config->setValueString($this->userId, 'firstrunwizard', 'show', implode('.', $version));
 		return new DataResponse();
 	}
 }

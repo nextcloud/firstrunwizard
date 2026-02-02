@@ -14,6 +14,7 @@ use OCA\FirstRunWizard\Constants;
 use OCP\AppFramework\Http\Events\BeforeTemplateRenderedEvent;
 use OCP\AppFramework\Services\IAppConfig;
 use OCP\AppFramework\Services\IInitialState;
+use OCP\Config\IUserConfig;
 use OCP\Defaults;
 use OCP\EventDispatcher\Event;
 use OCP\EventDispatcher\IEventListener;
@@ -29,8 +30,9 @@ use Override;
 class BeforeTemplateRenderedListener implements IEventListener {
 
 	public function __construct(
-		private readonly IConfig $config,
+		private readonly IConfig $systemConfig,
 		private readonly IAppConfig $appConfig,
+		private readonly IUserConfig $userConfig,
 		private readonly IUserSession $userSession,
 		private readonly IInitialState $initialState,
 		private readonly Defaults $theming,
@@ -39,6 +41,10 @@ class BeforeTemplateRenderedListener implements IEventListener {
 
 	#[Override]
 	public function handle(Event $event): void {
+		if (!$event instanceof BeforeTemplateRenderedEvent) {
+			return;
+		}
+
 		if (!$event->isLoggedIn()) {
 			return;
 		}
@@ -49,7 +55,7 @@ class BeforeTemplateRenderedListener implements IEventListener {
 		}
 
 		if ($this->appConfig->getAppValueBool('wizard_enabled', true)) {
-			$lastSeenVersion = $this->config->getUserValue($user->getUID(), Application::APP_ID, 'show', '0.0.0');
+			$lastSeenVersion = $this->userConfig->getValueString($user->getUID(), Application::APP_ID, 'show', '0.0.0');
 
 			// If current is newer then last seen we activate the wizard
 			if (version_compare(Constants::CHANGELOG_VERSION, $lastSeenVersion, '>')) {
@@ -68,17 +74,17 @@ class BeforeTemplateRenderedListener implements IEventListener {
 
 		$this->initialState->provideInitialState(
 			'desktop',
-			$this->config->getSystemValueString('customclient_desktop', $this->theming->getSyncClientUrl())
+			$this->systemConfig->getSystemValueString('customclient_desktop', $this->theming->getSyncClientUrl())
 		);
 
 		$this->initialState->provideInitialState(
 			'android',
-			$this->config->getSystemValueString('customclient_android', $this->theming->getAndroidClientUrl())
+			$this->systemConfig->getSystemValueString('customclient_android', $this->theming->getAndroidClientUrl())
 		);
 
 		$this->initialState->provideInitialState(
 			'ios',
-			$this->config->getSystemValueString('customclient_ios', $this->theming->getiOSClientUrl())
+			$this->systemConfig->getSystemValueString('customclient_ios', $this->theming->getiOSClientUrl())
 		);
 	}
 }
