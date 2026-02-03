@@ -55,7 +55,6 @@ OC.L10N.register(
     "Download For Windows, Mac OS and Linux." : "Baixada per a Windows, Mac OS i Linux.",
     "Calendar and contacts ↗" : "Calendari i contactes ↗",
     "Connect your calendar and contacts with your devices." : "Connecteu el calendari i els contactes amb els vostres dispositius.",
-    "Introducing Nextcloud Hub {version}" : "Presentació de Nextcloud Hub {version}",
     "Welcome to {cloudName}!" : "Us donem la benvinguda al {cloudName}!",
     "This Nextcloud is on version {version}" : "Aquest Nextcloud està a la versió {version}",
     "A collaboration platform that puts you in control" : "Una plataforma de col·laboració que us dona el control",
@@ -90,9 +89,9 @@ OC.L10N.register(
     "What's new?" : "Quines novetats hi ha?",
     "Nextcloud on all your devices" : "El Nextcloud en tots els vostres dispositius",
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
-    "Read more" : "Més informació",
     "Share on social media" : "Comparteix a les xarxes socials",
     "Get started!" : "Comença!",
+    "Introducing Nextcloud Hub {version}" : "Presentació de Nextcloud Hub {version}",
     "End-to-end encryption in calls and web" : "Xifratge d'extrem a extrem en trucades i web",
     "Performance improvements across all our products" : "Millores de rendiment en tots els nostres productes",
     "Thousands of tweaks for improved UX and stability" : "Milers de retocs per millorar l'UX i l'estabilitat",
@@ -101,6 +100,7 @@ OC.L10N.register(
     "Smarter team sharing with Team folders" : "Compartició d'equips més intel·ligent amb carpetes d’Equip",
     "Schedule meetings directly in Talk" : "Programeu reunions directament a Converses",
     "Mail you love again: translations, summaries, and mentions" : "Correu que us agradarà de nou: traduccions, resums i mencions",
-    "Nextcloud Hub 10 is here – your modular & unified digital workspace! 💫" : "Nextcloud Hub 10 ja és aquí: el vostre espai de treball digital modular i unificat! 💫"
+    "Nextcloud Hub 10 is here – your modular & unified digital workspace! 💫" : "Nextcloud Hub 10 ja és aquí: el vostre espai de treball digital modular i unificat! 💫",
+    "Read more" : "Més informació"
 },
 "nplurals=2; plural=(n != 1);");

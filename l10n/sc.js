@@ -39,7 +39,7 @@ OC.L10N.register(
     "Server address" : "Indiritzu de su serbidore",
     "Use this link to connect your apps and desktop client to this server:" : "Imprea custu ligòngiu pro collegare is aplicatziones tuas e su cliente de iscrivania a custu serbidore:",
     "What's new?" : "Ite noas?",
-    "Read more" : "Leghe de prus",
-    "Share on social media" : "Cumpartzi in is retes sotziales"
+    "Share on social media" : "Cumpartzi in is retes sotziales",
+    "Read more" : "Leghe de prus"
 },
 "nplurals=2; plural=(n != 1);");
