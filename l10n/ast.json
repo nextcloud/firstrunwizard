@@ -40,7 +40,6 @@
     "Desktop app ↗" : "Aplicación pa ordenadores",
     "Calendar and contacts ↗" : "Calendariu y contautos ↗",
     "Connect your calendar and contacts with your devices." : "Conecta'l calendariu y los contautos colos tos preseos.",
-    "Introducing Nextcloud Hub {version}" : "Presentación de Nextcloud Hub {version}",
     "Welcome to {cloudName}!" : "¡Afáyate en {cloudName}!",
     "This Nextcloud is on version {version}" : "Esta instancia de Nextcloud ta na versión {version}",
     "A collaboration platform that puts you in control" : "Una plataforma de collaboración que te da'l control",
@@ -58,7 +57,8 @@
     "Use this link to connect your apps and desktop client to this server:" : "Usa esti enllaz pa conectar les aplicaciones a esti sirvidor",
     "What's new?" : "Novedaes",
     "Nextcloud on all your devices" : "Nextcloud en tolos preseos",
-    "Read more" : "Lleer más",
-    "Share on social media" : "Compartir el redes sociales"
+    "Share on social media" : "Compartir el redes sociales",
+    "Introducing Nextcloud Hub {version}" : "Presentación de Nextcloud Hub {version}",
+    "Read more" : "Lleer más"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

@@ -54,7 +54,6 @@ OC.L10N.register(
     "Download For Windows, Mac OS and Linux." : "Lataa Windowsille, macOS:lle ja Linuxille.",
     "Calendar and contacts ↗" : "Kalenteri ja yhteystiedot ↗",
     "Connect your calendar and contacts with your devices." : "Yhdistä kalenteri ja yhteystiedot laitteisiisi.",
-    "Introducing Nextcloud Hub {version}" : "Esittelyssä Nextcloud Hub versio {version}",
     "Welcome to {cloudName}!" : "Tervetuloa pilveen {cloudName}!",
     "This Nextcloud is on version {version}" : "Tämä Nextcloud on versiossa {version}",
     "A collaboration platform that puts you in control" : "Yhteistyöalusta, joka antaa sinulle hallinnan",
@@ -78,12 +77,13 @@ OC.L10N.register(
     "URL copied" : "Verkko-osoite kopioitu",
     "Server address" : "Palvelimen osoite",
     "Use this link to connect your apps and desktop client to this server:" : "Käytä tätä linkkiä yhdistääksesi sovellukset ja työpöytäsovelluksen tähän palvelimeen:",
-    "… and much more!" : "… ja paljon muuta!",
     "What's new?" : "Mitä uutta?",
     "Nextcloud on all your devices" : "Nextcloud kaikilla laitteillasi",
-    "Read more" : "Lue lisää",
     "Share on social media" : "Jaa sosiaalisessa mediassa",
     "Get started!" : "Aloitetaan!",
-    "Your own new personal assistant" : "Uusi henkilökohtainen avustajasi"
+    "Introducing Nextcloud Hub {version}" : "Esittelyssä Nextcloud Hub versio {version}",
+    "Your own new personal assistant" : "Uusi henkilökohtainen avustajasi",
+    "Read more" : "Lue lisää",
+    "… and much more!" : "… ja paljon muuta!"
 },
 "nplurals=2; plural=(n != 1);");

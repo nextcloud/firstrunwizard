@@ -50,7 +50,6 @@ OC.L10N.register(
     "Download For Windows, Mac OS and Linux." : "Last ned for Windows, Mac OS og Linux.",
     "Calendar and contacts ↗" : "Kalender og kontakter ↗",
     "Connect your calendar and contacts with your devices." : "Koble kalenderen og kontaktene til enhetene dine.",
-    "Introducing Nextcloud Hub {version}" : "Introduserer Nextcloud Hub {version}",
     "Welcome to {cloudName}!" : "Velkommen til {cloudName}!",
     "This Nextcloud is on version {version}" : "Denne Nextcloud er på versjon {version}",
     "A collaboration platform that puts you in control" : "En samarbeidsplattform som setter deg i førersetet",
@@ -84,8 +83,9 @@ OC.L10N.register(
     "What's new?" : "Hva er nytt?",
     "Nextcloud on all your devices" : "Nextcloud på alle dine enheter",
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
-    "Read more" : "Les mer",
     "Share on social media" : "Del på sosiale medier",
-    "Get started!" : "Kom i gang!"
+    "Get started!" : "Kom i gang!",
+    "Introducing Nextcloud Hub {version}" : "Introduserer Nextcloud Hub {version}",
+    "Read more" : "Les mer"
 },
 "nplurals=2; plural=(n != 1);");
