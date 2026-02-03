@@ -40,7 +40,7 @@ OC.L10N.register(
     "Server address" : "Serveradres",
     "Use this link to connect your apps and desktop client to this server:" : "Gebruik deze link om je apps en desktop client met deze server te verbinden:",
     "What's new?" : "Wat is nieuw?",
-    "Read more" : "Lees meer",
-    "Share on social media" : "Delen op social media"
+    "Share on social media" : "Delen op social media",
+    "Read more" : "Lees meer"
 },
 "nplurals=2; plural=(n != 1);");

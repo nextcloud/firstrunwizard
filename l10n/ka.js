@@ -64,8 +64,8 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "Use this link to connect your apps and desktop client to this server:",
     "What's new?" : "What's new?",
     "Nextcloud on all your devices" : "Nextcloud on all your devices",
-    "Read more" : "Read more",
     "Share on social media" : "Share on social media",
-    "Get started!" : "Get started!"
+    "Get started!" : "Get started!",
+    "Read more" : "Read more"
 },
 "nplurals=2; plural=(n!=1);");

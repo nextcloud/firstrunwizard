@@ -55,7 +55,6 @@ OC.L10N.register(
     "Download For Windows, Mac OS and Linux." : "Letöltés Windowsra, Mac OS-re és Linuxra.",
     "Calendar and contacts ↗" : "Naptár és névjegyek ↗",
     "Connect your calendar and contacts with your devices." : "Kapcsolja össze a naptárát és névjegyeit az eszközein.",
-    "Introducing Nextcloud Hub {version}" : "Nextcloud Hub {version} bemutatása",
     "Welcome to {cloudName}!" : "Üdvözli a(z) {cloudName}!",
     "This Nextcloud is on version {version}" : "Ezen Nextcloud verziója: {version}",
     "A collaboration platform that puts you in control" : "Együttműködési platform, ami az Ön kezébe adja az irányítást",
@@ -89,8 +88,9 @@ OC.L10N.register(
     "What's new?" : "Újdonságok",
     "Nextcloud on all your devices" : "Nextcloud az összes eszközén",
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
-    "Read more" : "Továbbolvasás",
     "Share on social media" : "Megosztás a közösségi médiában",
-    "Get started!" : "Kezdjen bele!"
+    "Get started!" : "Kezdjen bele!",
+    "Introducing Nextcloud Hub {version}" : "Nextcloud Hub {version} bemutatása",
+    "Read more" : "Továbbolvasás"
 },
 "nplurals=2; plural=(n != 1);");
