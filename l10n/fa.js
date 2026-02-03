@@ -40,7 +40,7 @@ OC.L10N.register(
     "Server address" : "آدرس سرور",
     "Use this link to connect your apps and desktop client to this server:" : "برای اتصال برنامه ها و مشتری دسک تاپ خود به این سرور از این لینک استفاده کنید:",
     "What's new?" : "What's new?",
-    "Read more" : "بیشتر بخوانید",
-    "Share on social media" : "Share on social media"
+    "Share on social media" : "Share on social media",
+    "Read more" : "بیشتر بخوانید"
 },
 "nplurals=2; plural=(n > 1);");

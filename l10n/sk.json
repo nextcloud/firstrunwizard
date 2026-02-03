@@ -53,7 +53,6 @@
     "Download For Windows, Mac OS and Linux." : "Stiahnuť pre Windows, Mac OS a Linux.",
     "Calendar and contacts ↗" : "Kalendár a Kontakty ↗",
     "Connect your calendar and contacts with your devices." : "Prepojte svoj kalendár a kontakty so svojimi zariadeniami.",
-    "Introducing Nextcloud Hub {version}" : "Predstavujeme Nextcloud Hub {version}",
     "Welcome to {cloudName}!" : "Vitajte v {cloudName}!",
     "This Nextcloud is on version {version}" : "Tento Nextcloud je vo verzii {version}",
     "A collaboration platform that puts you in control" : "Kolaboračná platforma, ktorá vám dáva kontrolu",
@@ -88,9 +87,9 @@
     "What's new?" : "Čo je nové?",
     "Nextcloud on all your devices" : "Nextcloud na všetkých vašich zariadeniach",
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
-    "Read more" : "Ćítať viac",
     "Share on social media" : "Zdieľať cez sociálne médiá",
     "Get started!" : "Začnite!",
+    "Introducing Nextcloud Hub {version}" : "Predstavujeme Nextcloud Hub {version}",
     "End-to-end encryption in calls and web" : "Koncové šifrovanie pre hovory a web",
     "Performance improvements across all our products" : "Zlepšenie výkonu všetkých našich produktov",
     "Thousands of tweaks for improved UX and stability" : "Tisíce vylepšení pre vylepšené uživateľké rozhranie a stabilitu",
@@ -99,6 +98,7 @@
     "Smarter team sharing with Team folders" : "Inteligentnejšie tímové zdieľanie s priečinkami Team",
     "Schedule meetings directly in Talk" : "Naplánujte si stretnutia priamo v Talk",
     "Mail you love again: translations, summaries, and mentions" : "Pošta, ktorú máte znova radi: preklady, súhrny a zmienky",
-    "Nextcloud Hub 10 is here – your modular & unified digital workspace! 💫" : "Nextcloud Hub 10 je tu – váš modulárny a jednotný digitálny pracovný priestor! 💫"
+    "Nextcloud Hub 10 is here – your modular & unified digital workspace! 💫" : "Nextcloud Hub 10 je tu – váš modulárny a jednotný digitálny pracovný priestor! 💫",
+    "Read more" : "Ćítať viac"
 },"pluralForm" :"nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);"
 }
