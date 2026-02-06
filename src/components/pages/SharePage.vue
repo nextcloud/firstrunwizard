@@ -41,7 +41,6 @@ import blueskySvg from '../../../img/bluesky.svg?raw'
 import facebookSvg from '../../../img/facebook.svg?raw'
 import linkedInSvg from '../../../img/linkedin.svg?raw'
 import mastodonSvg from '../../../img/mastodon.svg?raw'
-import xSvg from '../../../img/x.svg?raw'
 import HubRelease from '../../hub-release.ts'
 
 const encodedLink = encodeURIComponent(encodeURI(HubRelease.link))
@@ -72,12 +71,6 @@ const shareLinks = [
 		name: 'Mastodon',
 		link: `https://mastodon.social/share?text=${encodedLink}`,
 		icon: mastodonSvg,
-	},
-	{
-		id: 'x',
-		name: 'X',
-		link: `https://x.com/intent/post?url=${encodedLink}&via=Nextclouders&text=${encodeURIComponent(HubRelease.shareSubject ?? '')}`,
-		icon: xSvg,
 	},
 	{
 		id: 'email',

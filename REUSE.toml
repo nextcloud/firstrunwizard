@@ -60,12 +60,6 @@ SPDX-FileCopyrightText = "2019 Nextcloud GmbH and Nextcloud contributors"
 SPDX-License-Identifier = "AGPL-3.0-or-later"
 
 [[annotations]]
-path = "img/x.svg"
-precedence = "aggregate"
-SPDX-FileCopyrightText = "X Corp."
-SPDX-License-Identifier = "LicenseRef-XTrademarks"
-
-[[annotations]]
 path = "img/linkedin.svg"
 precedence = "aggregate"
 SPDX-FileCopyrightText = "LinkedIn Corporation"
