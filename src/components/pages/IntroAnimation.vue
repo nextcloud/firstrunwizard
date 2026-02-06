@@ -4,10 +4,10 @@
 -->
 
 <template>
-	<div :class="$style.wrapper">
+	<div :class="$style.introAnimation">
 		<video
 			ref="video"
-			:class="$style.video"
+			:class="$style.introAnimation__video"
 			playsinline
 			autoplay
 			muted
@@ -18,13 +18,27 @@
 			<source :src="videoMp4" type="video/mp4">
 			{{ videoFallbackText }}
 		</video>
+		<NcButton
+			v-if="canSkip"
+			:class="$style.introAnimation__skipButton"
+			alignment="end-reverse"
+			variant="primary"
+			@click="handleEnded">
+			<template #icon>
+				<NcIconSvgWrapper directional :path="mdiChevronRight" />
+			</template>
+			{{ t('firstrunwizard', 'Skip') }}
+		</NcButton>
 	</div>
 </template>
 
 <script setup lang="ts">
-import { translate as t } from '@nextcloud/l10n'
+import { mdiChevronRight } from '@mdi/js'
+import { t } from '@nextcloud/l10n'
 import { imagePath } from '@nextcloud/router'
 import { computed, onMounted, ref, useTemplateRef } from 'vue'
+import NcButton from '@nextcloud/vue/components/NcButton'
+import NcIconSvgWrapper from '@nextcloud/vue/components/NcIconSvgWrapper'
 
 const emit = defineEmits<{
 	(e: 'next'): void
@@ -40,6 +54,7 @@ const videoElement = useTemplateRef('video')
 
 const autoPlayDisabled = ref(false)
 const videoStarted = ref(false)
+const canSkip = ref(false)
 const videoPoster = computed(() => (autoPlayDisabled.value || videoStarted.value) ? videoFallbackImage : videoFallbackImagePre)
 
 onMounted(() => {
@@ -48,10 +63,16 @@ onMounted(() => {
 		&& navigator.getAutoplayPolicy(videoElement.value) === 'disallowed'
 
 	window.setTimeout(() => {
+		// allow skipping after 2 seconds
+		window.setTimeout(() => {
+			canSkip.value = true
+		}, 1200)
+
 		if (!videoStarted.value || autoPlayDisabled.value) {
 			// skip to the end after showing the fallback image for a short time
-			window.setTimeout(handleEnded, 1700)
+			window.setTimeout(handleEnded, 1200)
 		}
+
 		if (!videoStarted.value) {
 			// video has not started playing within 800ms - probably due to browser restrictions
 			videoStarted.value = true
@@ -68,14 +89,20 @@ function handleEnded() {
 </script>
 
 <style module>
-.video {
+.introAnimation {
+	background-color: var(--color-primary-element);
+}
+
+.introAnimation__video {
 	display: block;
 	object-fit: cover;
 	height: 100%;
 	width: 100%;
 }
 
-.wrapper {
-	background-color: var(--color-primary-element);
+.introAnimation__skipButton {
+	position: absolute !important;
+	inset-block-end: var(--default-grid-baseline);
+	inset-inline-end: var(--default-grid-baseline);
 }
 </style>
