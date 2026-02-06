@@ -2,6 +2,18 @@
   - SPDX-FileCopyrightText: 2023 Nextcloud GmbH and Nextcloud contributors
   - SPDX-License-Identifier: AGPL-3.0-or-later
 -->
+<script setup lang="ts">
+import { computed } from 'vue'
+
+const props = defineProps<{
+	title: string
+	subtitle?: string
+	href?: string
+}>()
+
+const isLink = computed(() => !!props.href)
+</script>
+
 <template>
 	<component
 		:is="isLink ? 'a' : 'div'"
@@ -20,18 +32,6 @@
 		</div>
 	</component>
 </template>
-
-<script setup lang="ts">
-import { computed } from 'vue'
-
-const props = defineProps<{
-	title: string
-	subtitle?: string
-	href?: string
-}>()
-
-const isLink = computed(() => !!props.href)
-</script>
 
 <style module lang="scss">
 .card {

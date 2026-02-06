@@ -2,25 +2,6 @@
   - SPDX-FileCopyrightText: 2024 Nextcloud GmbH and Nextcloud contributors
   - SPDX-License-Identifier: AGPL-3.0-or-later
 -->
-<template>
-	<NcSettingsSection
-		:name="t('firstrunwizard', 'Server address')"
-		:description="t('firstrunwizard', 'Use this link to connect your apps and desktop client to this server:')">
-		<NcInputField
-			id="endpoint-url"
-			:class="$style.input"
-			:label="t('firstrunwizard', 'Server address')"
-			showTrailingButton
-			readonly
-			:modelValue="url"
-			@trailingButtonClick="onCopyContent">
-			<template #trailing-button-icon>
-				<NcIconSvgWrapper :path="copyIcon" />
-			</template>
-		</NcInputField>
-	</NcSettingsSection>
-</template>
-
 <script setup lang="ts">
 import { mdiCheck, mdiContentCopy } from '@mdi/js'
 import { showSuccess } from '@nextcloud/dialogs'
@@ -57,6 +38,25 @@ function onCopyContent() {
 	}
 }
 </script>
+
+<template>
+	<NcSettingsSection
+		:name="t('firstrunwizard', 'Server address')"
+		:description="t('firstrunwizard', 'Use this link to connect your apps and desktop client to this server:')">
+		<NcInputField
+			id="endpoint-url"
+			:class="$style.input"
+			:label="t('firstrunwizard', 'Server address')"
+			showTrailingButton
+			readonly
+			:modelValue="url"
+			@trailingButtonClick="onCopyContent">
+			<template #trailing-button-icon>
+				<NcIconSvgWrapper :path="copyIcon" />
+			</template>
+		</NcInputField>
+	</NcSettingsSection>
+</template>
 
 <style module>
 .input {

@@ -3,33 +3,6 @@
   - SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
-<template>
-	<WizardPage :title="t('firstrunwizard', 'Find out more on the blog')">
-		<NcButton :href="HubRelease.link" target="_blank">
-			{{ t('firstrunwizard', 'Read the Nextcloud Hub {version} blog', { version: HubRelease.version }) }} ↗
-		</NcButton>
-
-		<section :class="$style.share_section">
-			<h3 :class="$style.heading">
-				{{ t('firstrunwizard', 'Share your opinion about Nextcloud Hub {version}', { version: HubRelease.version }) }}
-			</h3>
-			<div :class="$style.share_wrapper">
-				<InfoCard
-					v-for="entry of shareLinks"
-					:key="entry.id"
-					:class="$style.card"
-					:href="entry.link"
-					:title="entry.id === 'email' ? t('firstrunwizard', 'Share via email') : t('firstrunwizard', 'Share on {socialMedia}', { socialMedia: entry.name })">
-					<NcIconSvgWrapper
-						v-if="entry.icon"
-						:svg="entry.id !== 'email' ? entry.icon : undefined"
-						:path="entry.id === 'email' ? entry.icon : undefined" />
-				</InfoCard>
-			</div>
-		</section>
-	</WizardPage>
-</template>
-
 <script setup lang="ts">
 import { mdiEmail } from '@mdi/js'
 import { translate as t } from '@nextcloud/l10n'
@@ -80,6 +53,33 @@ const shareLinks = [
 	},
 ]
 </script>
+
+<template>
+	<WizardPage :title="t('firstrunwizard', 'Find out more on the blog')">
+		<NcButton :href="HubRelease.link" target="_blank">
+			{{ t('firstrunwizard', 'Read the Nextcloud Hub {version} blog', { version: HubRelease.version }) }} ↗
+		</NcButton>
+
+		<section :class="$style.share_section">
+			<h3 :class="$style.heading">
+				{{ t('firstrunwizard', 'Share your opinion about Nextcloud Hub {version}', { version: HubRelease.version }) }}
+			</h3>
+			<div :class="$style.share_wrapper">
+				<InfoCard
+					v-for="entry of shareLinks"
+					:key="entry.id"
+					:class="$style.card"
+					:href="entry.link"
+					:title="entry.id === 'email' ? t('firstrunwizard', 'Share via email') : t('firstrunwizard', 'Share on {socialMedia}', { socialMedia: entry.name })">
+					<NcIconSvgWrapper
+						v-if="entry.icon"
+						:svg="entry.id !== 'email' ? entry.icon : undefined"
+						:path="entry.id === 'email' ? entry.icon : undefined" />
+				</InfoCard>
+			</div>
+		</section>
+	</WizardPage>
+</template>
 
 <style module>
 .share_section {

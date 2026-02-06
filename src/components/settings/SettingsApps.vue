@@ -2,6 +2,17 @@
   - SPDX-FileCopyrightText: 2024 Nextcloud GmbH and Nextcloud contributors
   - SPDX-License-Identifier: AGPL-3.0-or-later
 -->
+<script setup lang="ts">
+import { loadState } from '@nextcloud/initial-state'
+import { t } from '@nextcloud/l10n'
+import NcButton from '@nextcloud/vue/components/NcButton'
+import NcSettingsSection from '@nextcloud/vue/components/NcSettingsSection'
+
+const apps = loadState<{ [id: string]: { image: string, label: string, link: string } }>('firstrunwizard', 'apps')
+
+const productName = window.OC.theme.name ?? 'Nextcloud'
+</script>
+
 <template>
 	<NcSettingsSection
 		:name="t('firstrunwizard', 'Connect other apps to {productName}', { productName }, { escape: false })"
@@ -24,17 +35,6 @@
 		</ul>
 	</NcSettingsSection>
 </template>
-
-<script setup lang="ts">
-import { loadState } from '@nextcloud/initial-state'
-import { t } from '@nextcloud/l10n'
-import NcButton from '@nextcloud/vue/components/NcButton'
-import NcSettingsSection from '@nextcloud/vue/components/NcSettingsSection'
-
-const apps = loadState<{ [id: string]: { image: string, label: string, link: string } }>('firstrunwizard', 'apps')
-
-const productName = window.OC.theme.name ?? 'Nextcloud'
-</script>
 
 <style module>
 .list {

@@ -3,15 +3,6 @@
   - SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
-<template>
-	<a
-		:class="$style.badge"
-		:aria-label="ariaLabel"
-		target="_blank"
-		rel="noreferrer"
-		:href="href" />
-</template>
-
 <script setup lang="ts">
 import { loadState } from '@nextcloud/initial-state'
 import { translate as t } from '@nextcloud/l10n'
@@ -60,6 +51,15 @@ const ariaLabel = computed(() => {
 	return undefined
 })
 </script>
+
+<template>
+	<a
+		:class="$style.badge"
+		:aria-label="ariaLabel"
+		target="_blank"
+		rel="noreferrer"
+		:href="href" />
+</template>
 
 <style module lang="scss">
 .badge {

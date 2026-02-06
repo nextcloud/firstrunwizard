@@ -3,30 +3,6 @@
   - SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
-<template>
-	<!-- The dark prop is set to prevent backdrop "hit" when the first real page is shown -->
-	<NcModal
-		v-if="showModal"
-		id="firstrunwizard"
-		class="first-run-wizard"
-		size="normal"
-		noClose
-		:dark="!isMobile"
-		:setReturnFocus
-		@close="close"
-		@next="currentPage += 1"
-		@previous="currentPage -= 1">
-		<IntroAnimation
-			v-if="currentPage === -1"
-			@next="currentPage = showChangelogOnly ? changelogPage : 0" />
-		<SlideShow
-			v-else
-			v-model="currentPage"
-			:pages
-			@close="close" />
-	</NcModal>
-</template>
-
 <script setup lang="ts">
 import axios from '@nextcloud/axios'
 import { loadState } from '@nextcloud/initial-state'
@@ -73,6 +49,30 @@ function close() {
 	axios.delete(generateUrl('/apps/firstrunwizard/wizard'))
 }
 </script>
+
+<template>
+	<!-- The dark prop is set to prevent backdrop "hit" when the first real page is shown -->
+	<NcModal
+		v-if="showModal"
+		id="firstrunwizard"
+		class="first-run-wizard"
+		size="normal"
+		noClose
+		:dark="!isMobile"
+		:setReturnFocus
+		@close="close"
+		@next="currentPage += 1"
+		@previous="currentPage -= 1">
+		<IntroAnimation
+			v-if="currentPage === -1"
+			@next="currentPage = showChangelogOnly ? changelogPage : 0" />
+		<SlideShow
+			v-else
+			v-model="currentPage"
+			:pages
+			@close="close" />
+	</NcModal>
+</template>
 
 <style lang="scss">
 /**

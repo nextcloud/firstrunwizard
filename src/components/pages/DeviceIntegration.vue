@@ -3,6 +3,18 @@
   - SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
+<script setup lang="ts">
+import { loadState } from '@nextcloud/initial-state'
+import { translate as t } from '@nextcloud/l10n'
+import { generateUrl } from '@nextcloud/router'
+import AppStoreBadge from '../AppStoreBadge.vue'
+import InfoCard from '../InfoCard.vue'
+import WizardPage from '../WizardPage.vue'
+
+const desktop = loadState<string>('firstrunwizard', 'desktop')
+const syncClientsUrl = generateUrl('settings/user/sync-clients')
+</script>
+
 <template>
 	<WizardPage
 		:title="t('firstrunwizard', 'Seamless integration with your devices.')"
@@ -19,15 +31,3 @@
 			:subtitle="t('firstrunwizard', 'Connect your calendar and contacts with your devices.')" />
 	</WizardPage>
 </template>
-
-<script setup lang="ts">
-import { loadState } from '@nextcloud/initial-state'
-import { translate as t } from '@nextcloud/l10n'
-import { generateUrl } from '@nextcloud/router'
-import AppStoreBadge from '../AppStoreBadge.vue'
-import InfoCard from '../InfoCard.vue'
-import WizardPage from '../WizardPage.vue'
-
-const desktop = loadState<string>('firstrunwizard', 'desktop')
-const syncClientsUrl = generateUrl('settings/user/sync-clients')
-</script>

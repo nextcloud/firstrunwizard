@@ -3,6 +3,12 @@
   - SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
+<script setup lang="ts">
+import { translate as t } from '@nextcloud/l10n'
+import InfoCard from '../InfoCard.vue'
+import WizardPage from '../WizardPage.vue'
+</script>
+
 <template>
 	<WizardPage :title="t('firstrunwizard', 'More about Nextcloud')">
 		<InfoCard
@@ -23,9 +29,3 @@
 			:subtitle="t('firstrunwizard', 'Get Nextcloud Enterprise for mission critical environments where advanced security and compliance are important.')" />
 	</WizardPage>
 </template>
-
-<script setup lang="ts">
-import { translate as t } from '@nextcloud/l10n'
-import InfoCard from '../InfoCard.vue'
-import WizardPage from '../WizardPage.vue'
-</script>
