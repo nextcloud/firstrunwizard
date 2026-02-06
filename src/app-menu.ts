@@ -14,13 +14,13 @@ document.addEventListener('DOMContentLoaded', function() {
 	const aboutEntry = () => document.querySelector('#firstrunwizard_about')
 
 	const addListener = () => {
-		aboutEntry().addEventListener('click', async function(event) {
+		aboutEntry()!.addEventListener('click', async function(event) {
 			event.stopPropagation()
 			event.preventDefault()
-			const focusReturn = document.querySelector('[aria-controls="header-menu-user-menu"]') ?? undefined
 			const { open } = await import('./main.ts')
-			open(focusReturn)
-			OC.hideMenus(() => false)
+			const focusReturn = document.querySelector('[aria-controls="header-menu-user-menu"]') as HTMLElement | null
+			open(focusReturn ?? undefined)
+			window.OC.hideMenus(() => false)
 		})
 	}
 

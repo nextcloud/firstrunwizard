@@ -13,6 +13,7 @@
     "lint:fix": "eslint --fix",
     "stylelint": "stylelint src/**/*.scss src/**/*.vue",
     "stylelint:fix": "stylelint src/**/*.scss src/**/*.vue --fix",
+    "ts:check": "vue-tsc --noEmit",
     "watch": "vite --mode development build --watch"
   },
   "browserslist": [
@@ -40,8 +41,8 @@
     "@nextcloud/vite-config": "^2.5.2",
     "@vue/tsconfig": "^0.8.1",
     "sass": "^1.97.3",
-    "stylelint": "^17.1.1",
-    "vite": "^7.3.1"
+    "vite": "^7.3.1",
+    "vue-tsc": "^3.2.4"
   },
   "engines": {
     "node": "^24.0.0",
