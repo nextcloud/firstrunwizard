@@ -3,6 +3,20 @@
   - SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
+<script setup lang="ts">
+import { mdiAccountGroup, mdiBriefcaseCheck, mdiLock, mdiSwapHorizontal } from '@mdi/js'
+import { translate as t } from '@nextcloud/l10n'
+import NcIconSvgWrapper from '@nextcloud/vue/components/NcIconSvgWrapper'
+import InfoCard from '../InfoCard.vue'
+import WizardPage from '../WizardPage.vue'
+
+defineProps<{
+	scrollerClasses?: string | string[] | Record<string, boolean>
+}>()
+
+const versionNumber = t('firstrunwizard', 'This Nextcloud is on version {version}', { version: window.OC.config.versionstring })
+</script>
+
 <template>
 	<WizardPage
 		:scrollerClasses="scrollerClasses"
@@ -33,20 +47,6 @@
 		</p>
 	</WizardPage>
 </template>
-
-<script setup lang="ts">
-import { mdiAccountGroup, mdiBriefcaseCheck, mdiLock, mdiSwapHorizontal } from '@mdi/js'
-import { translate as t } from '@nextcloud/l10n'
-import NcIconSvgWrapper from '@nextcloud/vue/components/NcIconSvgWrapper'
-import InfoCard from '../InfoCard.vue'
-import WizardPage from '../WizardPage.vue'
-
-defineProps<{
-	scrollerClasses?: string | string[] | Record<string, boolean>
-}>()
-
-const versionNumber = t('firstrunwizard', 'This Nextcloud is on version {version}', { version: window.OC.config.versionstring })
-</script>
 
 <style module>
 .icon {

@@ -3,74 +3,6 @@
   - SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
-<template>
-	<div :class="$style.wrapper">
-		<!-- The "wave" background for the logo on the first page-->
-		<Transition
-			:enterClass="waveTransitionClasses.enter"
-			:enterActiveClass="waveTransitionClasses.active"
-			:leaveActiveClass="waveTransitionClasses.active"
-			:leaveToClass="waveTransitionClasses.leave">
-			<div v-if="isFirstPage" :class="$style.background_circle" />
-		</Transition>
-
-		<!-- Bar on the modal top -->
-		<div :class="$style.background_bar" />
-
-		<!-- Back button on mobile if not first page -->
-		<NcButton
-			v-if="!isFirstPage"
-			:aria-label="t('firstrunwizard', 'Go to previous page')"
-			:class="$style.button_back"
-			variant="tertiary-no-background"
-			@click="currentIndex -= 1">
-			<template #icon>
-				<NcIconSvgWrapper :path="mdiArrowLeft" />
-			</template>
-		</NcButton>
-
-		<!-- Custom close button to fix color contrast on first page -->
-		<NcButton
-			:aria-label="t('firstrunwizard', 'Close')"
-			:class="$style.button_close"
-			:variant="isFirstPage ? 'tertiary-on-primary' : 'tertiary-no-background'"
-			@click="$emit('close')">
-			<template #icon>
-				<NcIconSvgWrapper :path="mdiClose" />
-			</template>
-		</NcButton>
-
-		<!-- The first page has the logo within a "wave" style background -->
-		<div v-if="isFirstPage" :class="$style.logo" />
-
-		<!-- The page that is currently show wrapped in a slide transition -->
-		<Transition
-			mode="out-in"
-			:enterClass="transitionClasses.enter"
-			:enterActiveClass="transitionClasses.active"
-			:leaveActiveClass="transitionClasses.active"
-			:leaveToClass="transitionClasses.leave">
-			<component :is="currentPage.component" :scrollerClasses="isFirstPage ? $style.first_page_scroller : ''" />
-		</Transition>
-
-		<!-- Next button(s) -->
-		<div :class="$style.button_wrapper">
-			<NcButton
-				v-for="button, index of currentPage.buttons"
-				:key="button.to"
-				alignment="center-reverse"
-				:variant="index === currentPage.buttons.length - 1 ? 'primary' : 'secondary'"
-				:wide="index === currentPage.buttons.length - 1"
-				@click="goToPage(button.to)">
-				<template v-if="!isLastPage" #icon>
-					<NcIconSvgWrapper :path="mdiArrowRight" />
-				</template>
-				{{ button.label }}
-			</NcButton>
-		</div>
-	</div>
-</template>
-
 <script setup lang="ts">
 import type { IPage } from '../pages.ts'
 
@@ -155,6 +87,74 @@ function goToPage(pageId: string) {
 	currentIndex.value = id
 }
 </script>
+
+<template>
+	<div :class="$style.wrapper">
+		<!-- The "wave" background for the logo on the first page-->
+		<Transition
+			:enterClass="waveTransitionClasses.enter"
+			:enterActiveClass="waveTransitionClasses.active"
+			:leaveActiveClass="waveTransitionClasses.active"
+			:leaveToClass="waveTransitionClasses.leave">
+			<div v-if="isFirstPage" :class="$style.background_circle" />
+		</Transition>
+
+		<!-- Bar on the modal top -->
+		<div :class="$style.background_bar" />
+
+		<!-- Back button on mobile if not first page -->
+		<NcButton
+			v-if="!isFirstPage"
+			:aria-label="t('firstrunwizard', 'Go to previous page')"
+			:class="$style.button_back"
+			variant="tertiary-no-background"
+			@click="currentIndex -= 1">
+			<template #icon>
+				<NcIconSvgWrapper :path="mdiArrowLeft" />
+			</template>
+		</NcButton>
+
+		<!-- Custom close button to fix color contrast on first page -->
+		<NcButton
+			:aria-label="t('firstrunwizard', 'Close')"
+			:class="$style.button_close"
+			:variant="isFirstPage ? 'tertiary-on-primary' : 'tertiary-no-background'"
+			@click="$emit('close')">
+			<template #icon>
+				<NcIconSvgWrapper :path="mdiClose" />
+			</template>
+		</NcButton>
+
+		<!-- The first page has the logo within a "wave" style background -->
+		<div v-if="isFirstPage" :class="$style.logo" />
+
+		<!-- The page that is currently show wrapped in a slide transition -->
+		<Transition
+			mode="out-in"
+			:enterClass="transitionClasses.enter"
+			:enterActiveClass="transitionClasses.active"
+			:leaveActiveClass="transitionClasses.active"
+			:leaveToClass="transitionClasses.leave">
+			<component :is="currentPage.component" :scrollerClasses="isFirstPage ? $style.first_page_scroller : ''" />
+		</Transition>
+
+		<!-- Next button(s) -->
+		<div :class="$style.button_wrapper">
+			<NcButton
+				v-for="button, index of currentPage.buttons"
+				:key="button.to"
+				alignment="center-reverse"
+				:variant="index === currentPage.buttons.length - 1 ? 'primary' : 'secondary'"
+				:wide="index === currentPage.buttons.length - 1"
+				@click="goToPage(button.to)">
+				<template v-if="!isLastPage" #icon>
+					<NcIconSvgWrapper :path="mdiArrowRight" />
+				</template>
+				{{ button.label }}
+			</NcButton>
+		</div>
+	</div>
+</template>
 
 <style module lang="scss">
 .wrapper {

@@ -3,35 +3,6 @@
   - SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
-<template>
-	<div :class="$style.introAnimation">
-		<video
-			ref="video"
-			:class="$style.introAnimation__video"
-			playsinline
-			autoplay
-			muted
-			:poster="videoPoster"
-			@ended="handleEnded"
-			@play="videoStarted = true">
-			<source :src="videoWebm" type="video/webm">
-			<source :src="videoMp4" type="video/mp4">
-			{{ videoFallbackText }}
-		</video>
-		<NcButton
-			v-if="canSkip"
-			:class="$style.introAnimation__skipButton"
-			alignment="end-reverse"
-			variant="primary"
-			@click="handleEnded">
-			<template #icon>
-				<NcIconSvgWrapper directional :path="mdiChevronRight" />
-			</template>
-			{{ t('firstrunwizard', 'Skip') }}
-		</NcButton>
-	</div>
-</template>
-
 <script setup lang="ts">
 import { mdiChevronRight } from '@mdi/js'
 import { t } from '@nextcloud/l10n'
@@ -87,6 +58,35 @@ function handleEnded() {
 	emit('next')
 }
 </script>
+
+<template>
+	<div :class="$style.introAnimation">
+		<video
+			ref="video"
+			:class="$style.introAnimation__video"
+			playsinline
+			autoplay
+			muted
+			:poster="videoPoster"
+			@ended="handleEnded"
+			@play="videoStarted = true">
+			<source :src="videoWebm" type="video/webm">
+			<source :src="videoMp4" type="video/mp4">
+			{{ videoFallbackText }}
+		</video>
+		<NcButton
+			v-if="canSkip"
+			:class="$style.introAnimation__skipButton"
+			alignment="end-reverse"
+			variant="primary"
+			@click="handleEnded">
+			<template #icon>
+				<NcIconSvgWrapper directional :path="mdiChevronRight" />
+			</template>
+			{{ t('firstrunwizard', 'Skip') }}
+		</NcButton>
+	</div>
+</template>
 
 <style module>
 .introAnimation {

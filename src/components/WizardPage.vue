@@ -3,6 +3,14 @@
   - SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
+<script setup lang="ts">
+defineProps<{
+	title: string
+	subtitle?: string
+	scrollerClasses?: string | string[] | Record<string, boolean>
+}>()
+</script>
+
 <template>
 	<div :class="$style.wrapper">
 		<div :class="[$style.scroller, scrollerClasses]">
@@ -18,14 +26,6 @@
 		</div>
 	</div>
 </template>
-
-<script setup lang="ts">
-defineProps<{
-	title: string
-	subtitle?: string
-	scrollerClasses?: string | string[] | Record<string, boolean>
-}>()
-</script>
 
 <style module>
 .wrapper {
