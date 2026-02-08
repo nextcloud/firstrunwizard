@@ -25,6 +25,7 @@ OC.L10N.register(
     "Close" : "Užverti",
     "More about Nextcloud" : "Daugiau apie Nextcloud",
     "Welcome to {cloudName}!" : "Sveiki atvykę į {cloudName}!",
+    "Skip" : "Praleisti",
     "Privacy" : "Privatumas",
     "Community" : "Bendruomenė",
     "Get the apps to sync your files" : "Norėdami sinchronizuoti savo failus, atsisiųskite programėles",

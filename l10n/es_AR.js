@@ -9,6 +9,7 @@ OC.L10N.register(
     "Desktop client" : "Cliente de escritorio",
     "iOS app" : "Aplicación iOS",
     "Close" : "Cerrar",
+    "Skip" : "Saltar",
     "Community" : "Comunidad",
     "Share via email" : "Compartir por correo electrónico",
     "Get the apps to sync your files" : "Obtenga las aplicaciones para sincronizar sus archivos",

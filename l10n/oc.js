@@ -9,6 +9,7 @@ OC.L10N.register(
     "Desktop client" : "Client de burèu",
     "iOS app" : "Aplicacion iOS",
     "Close" : "Plegar",
+    "Skip" : "Sautar",
     "Privacy" : "Confidencialitat",
     "Get the apps to sync your files" : "Obtenètz las aplicacions que vos permeton de sincronizar vòstres fichièrs",
     "Server address" : "Adreça del servidor",

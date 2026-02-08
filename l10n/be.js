@@ -16,6 +16,7 @@ OC.L10N.register(
     "Be a part of the community that helps build, design, translate and promote Nextcloud!" : "Станьце часткай супольнасці, якая дапамагае ствараць, праектаваць, перакладаць і прасоўваць Nextcloud!",
     "Calendar and contacts ↗" : "Каляндар і кантакты",
     "Welcome to {cloudName}!" : "Вітаем у {cloudName}!",
+    "Skip" : "Прапусціць",
     "Privacy" : "Прыватнасць",
     "Community" : "Супольнасць",
     "URL copied" : "URL-адрас скапіяваны",

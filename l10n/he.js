@@ -17,6 +17,7 @@ OC.L10N.register(
     "iOS app" : "יישומון iOS",
     "A welcome and introduction wizard for Nextcloud" : "אשף קבלת פנים והיכרות ל־Nextcloud",
     "Close" : "סגירה",
+    "Skip" : "דלג",
     "Privacy" : "פרטיות",
     "Community" : "קהילה",
     "Get the apps to sync your files" : "ניתן להוריד את היישומים כדי לסנכרן את הקבצים שלך",

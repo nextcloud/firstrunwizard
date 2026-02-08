@@ -56,6 +56,7 @@ OC.L10N.register(
     "Calendar and contacts ↗" : "كالېندار ۋە ئالاقىلىشىش ↗",
     "Connect your calendar and contacts with your devices." : "كالېندارىڭىزنى ۋە ئالاقىداشلىرىڭىزنى ئۈسكۈنىلىرىڭىز بىلەن ئۇلاڭ.",
     "Welcome to {cloudName}!" : "{cloudName} غا خۇش كەپسىز!",
+    "Skip" : "ئاتلاش",
     "This Nextcloud is on version {version}" : "بۇ Nextcloud نەشرى {version}",
     "A collaboration platform that puts you in control" : "سىزنى كونترول قىلىدىغان ھەمكارلىق سۇپىسى",
     "Privacy" : "مەخپىيەتلىك",

@@ -56,6 +56,7 @@ OC.L10N.register(
     "Calendar and contacts ↗" : "Féilire agus teagmhálacha ↗",
     "Connect your calendar and contacts with your devices." : "Ceangail d'fhéilire agus teagmhálaithe le do ghléasanna.",
     "Welcome to {cloudName}!" : "Fáilte go dtí {cloudName}!",
+    "Skip" : "Scipeáil",
     "This Nextcloud is on version {version}" : "Tá an Nextcloud seo ar leagan {version}",
     "A collaboration platform that puts you in control" : "Ardán comhoibrithe a chuireann tú i gceannas",
     "Privacy" : "Príobháideacht",

@@ -56,6 +56,7 @@ OC.L10N.register(
     "Calendar and contacts ↗" : "Календар и контакти ↗",
     "Connect your calendar and contacts with your devices." : "Повежите свој календа и контактате са својим уређајима.",
     "Welcome to {cloudName}!" : "Добродошли у {cloudName}!",
+    "Skip" : "Прескочи",
     "This Nextcloud is on version {version}" : "Ово је Nextcloud верзије {version}",
     "A collaboration platform that puts you in control" : "Платформа за сарадња која вам даје контролу",
     "Privacy" : "Приватност",

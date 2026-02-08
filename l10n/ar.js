@@ -56,6 +56,7 @@ OC.L10N.register(
     "Calendar and contacts ↗" : "التقويم و جهات الاتصال",
     "Connect your calendar and contacts with your devices." : "أوصِل جهات اتصالك و تقويماتك مع أجهزتك",
     "Welcome to {cloudName}!" : "أهلا بكم في {cloudName}!",
+    "Skip" : "تخطي",
     "This Nextcloud is on version {version}" : "رقم الإصدار لنكست كلاود هذه هو {version}",
     "A collaboration platform that puts you in control" : "منصة تعاونية تتيح لك التحكم",
     "Privacy" : "الخصوصية",

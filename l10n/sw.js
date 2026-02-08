@@ -56,6 +56,7 @@ OC.L10N.register(
     "Calendar and contacts ↗" : "Kalenda na anwani ↗",
     "Connect your calendar and contacts with your devices." : "Unganisha kalenda yako na anwani na vifaa vyako.",
     "Welcome to {cloudName}!" : "Karibu katika {cloudName}!",
+    "Skip" : "Ruka",
     "This Nextcloud is on version {version}" : "Nextcloud hii iko katika toleo {version}",
     "A collaboration platform that puts you in control" : "Jukwaa la ushirikiano ambalo hukuweka katika udhibiti",
     "Privacy" : "Faragha",
