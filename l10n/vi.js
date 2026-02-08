@@ -29,6 +29,7 @@ OC.L10N.register(
     "A welcome and introduction wizard for Nextcloud" : "Trình hướng dẫn chào mừng và giới thiệu",
     "Close" : "Đóng",
     "Welcome to {cloudName}!" : "Chào mừng đến với {cloudName}!",
+    "Skip" : "Bỏ qua",
     "Privacy" : "Bảo mật",
     "Community" : "Cộng đồng",
     "Get the apps to sync your files" : "Nhận ứng dụng để đồng bộ file của bạn",

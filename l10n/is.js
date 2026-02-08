@@ -55,6 +55,7 @@ OC.L10N.register(
     "Calendar and contacts ↗" : "Dagatal og tengiliðir ↗",
     "Connect your calendar and contacts with your devices." : "Tengdu dagatalið þitt og tengiliðina við öll tækin þín.",
     "Welcome to {cloudName}!" : "Velkomin í {cloudName}!",
+    "Skip" : "Sleppa",
     "This Nextcloud is on version {version}" : "Þetta Nextcloud er í útgáfu {version}",
     "A collaboration platform that puts you in control" : "Samstarfskerfi sem gefur þér stjórnina",
     "Privacy" : "Meðferð persónuupplýsinga",

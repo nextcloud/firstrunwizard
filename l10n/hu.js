@@ -56,6 +56,7 @@ OC.L10N.register(
     "Calendar and contacts ↗" : "Naptár és névjegyek ↗",
     "Connect your calendar and contacts with your devices." : "Kapcsolja össze a naptárát és névjegyeit az eszközein.",
     "Welcome to {cloudName}!" : "Üdvözli a(z) {cloudName}!",
+    "Skip" : "Kihagyás",
     "This Nextcloud is on version {version}" : "Ezen Nextcloud verziója: {version}",
     "A collaboration platform that puts you in control" : "Együttműködési platform, ami az Ön kezébe adja az irányítást",
     "Privacy" : "Adatvédelem",

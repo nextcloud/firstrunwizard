@@ -15,6 +15,7 @@ OC.L10N.register(
     "More about Nextcloud" : "Vairāk par Nextcloud",
     "Explore more apps ↗" : "Izpētīt vairāk lietotņu ↗",
     "Find out more about your Nextcloud setup with the admin, user or developer documentation." : "Uzzini vairāk par savu Nextcloud serveri dokumentācijā pārvaldītājiem, lietotājiem vai izstrādātājiem!",
+    "Skip" : "Izlaist",
     "This Nextcloud is on version {version}" : "Šim Nextcloud ir versija {version}",
     "A collaboration platform that puts you in control" : "Sadarbošanās platforma, kas nodod pārraudzību Tavās rokās",
     "Privacy" : "Privātums",

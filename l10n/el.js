@@ -56,6 +56,7 @@ OC.L10N.register(
     "Calendar and contacts ↗" : "Ημερολόγιο και Επαφές ↗",
     "Connect your calendar and contacts with your devices." : "Συνδέστε το ημερολόγιο και τις επαφές σας με τις συσκευές σας.",
     "Welcome to {cloudName}!" : "Καλώς ήρθατε στο {cloudName}!",
+    "Skip" : "Παράλειψη",
     "This Nextcloud is on version {version}" : "Αυτό το Nextcloud είναι στην έκδοση {version}",
     "A collaboration platform that puts you in control" : "Μια πλατφόρμα συνεργασίας που σας δίνει τον έλεγχο",
     "Privacy" : "Ιδιωτικότητα",

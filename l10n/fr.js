@@ -56,6 +56,7 @@ OC.L10N.register(
     "Calendar and contacts ↗" : "Agenda et Contacts",
     "Connect your calendar and contacts with your devices." : "Connectez votre agenda et vos contacts avec vos appareils.",
     "Welcome to {cloudName}!" : "Bienvenue à {cloudName} !",
+    "Skip" : "Ignorer",
     "This Nextcloud is on version {version}" : "Ce Nextcloud est en version {version}",
     "A collaboration platform that puts you in control" : "Une plateforme de collaboration qui vous donne le contrôle",
     "Privacy" : "Confidentialité",

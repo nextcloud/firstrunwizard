@@ -8,6 +8,7 @@ OC.L10N.register(
     "Desktop client" : "Client desktop",
     "iOS app" : "Aplicație iOS",
     "Close" : "Închide",
+    "Skip" : "Sari peste",
     "Privacy" : "Confidențialitate",
     "Community" : "Comunitate",
     "Get the apps to sync your files" : "Obține aplicația pentru sincronizarea fișierelor",

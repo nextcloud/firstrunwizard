@@ -51,6 +51,7 @@ OC.L10N.register(
     "Calendar and contacts ↗" : "Kalender og kontakter ↗",
     "Connect your calendar and contacts with your devices." : "Koble kalenderen og kontaktene til enhetene dine.",
     "Welcome to {cloudName}!" : "Velkommen til {cloudName}!",
+    "Skip" : "Hopp over",
     "This Nextcloud is on version {version}" : "Denne Nextcloud er på versjon {version}",
     "A collaboration platform that puts you in control" : "En samarbeidsplattform som setter deg i førersetet",
     "Privacy" : "Personvern",

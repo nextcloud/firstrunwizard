@@ -11,6 +11,7 @@ OC.L10N.register(
     "Desktop client" : "Klient për desktop",
     "iOS app" : "Aplikacion iOS",
     "Close" : "Mbylleni",
+    "Skip" : "Kalo",
     "Privacy" : "Privatësi",
     "Community" : "Komuniteti",
     "Get the apps to sync your files" : "Merrni aplikacionet për njëkohësim të kartelave tuaja",
