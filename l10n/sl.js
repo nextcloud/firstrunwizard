@@ -48,6 +48,7 @@ OC.L10N.register(
     "Calendar and contacts ↗" : "Koledar in stiki ↗",
     "Connect your calendar and contacts with your devices." : "Povezovanje koledarja in stikov z različnimi napravami.",
     "Welcome to {cloudName}!" : "Dobrodošli v oblaku {cloudName}!",
+    "Skip" : "Preskoči",
     "A collaboration platform that puts you in control" : "Sodelovalno okolje, v katerem imate vi nadzor",
     "Privacy" : "Zasebnost",
     "Host your data and files where you decide." : "Shranjujte podatke in datoteke, kjer sami želite",

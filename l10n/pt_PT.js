@@ -24,6 +24,7 @@ OC.L10N.register(
     "Download on Google play store" : "Transferir na loja Google Play",
     "Close" : "Fechar",
     "Download For Windows, Mac OS and Linux." : "Transferir para Windows, Mac OS e Linux.",
+    "Skip" : "Ignorar",
     "Privacy" : "Privacidade",
     "Community" : "Comunidade",
     "Share via email" : "Partilhar via correio eletrónico",

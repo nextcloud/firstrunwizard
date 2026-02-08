@@ -8,6 +8,7 @@ OC.L10N.register(
     "iOS app" : "Meziant iOS",
     "About & What's new" : "A-zivout & Petra nevez",
     "Close" : "Serriñ",
+    "Skip" : "Lezel a-gostez",
     "Community" : "Kumuniezh",
     "Server address" : "Chom-lec'h ar servijour",
     "Read more" : "Lenn muioc'h"

@@ -33,6 +33,7 @@ OC.L10N.register(
     "Need help? ↗" : "نیاز به راهنمایی دارید؟ ↗",
     "Calendar and contacts ↗" : "تقویم و مخاطبین",
     "Welcome to {cloudName}!" : "Welcome to {cloudName}!",
+    "Skip" : "پرش.",
     "Privacy" : "محرمانگی",
     "Community" : "انجمن",
     "Share via email" : "Share via email",
