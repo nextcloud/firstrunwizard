@@ -56,6 +56,7 @@ OC.L10N.register(
     "Calendar and contacts ↗" : "Kalendár a Kontakty ↗",
     "Connect your calendar and contacts with your devices." : "Prepojte svoj kalendár a kontakty so svojimi zariadeniami.",
     "Welcome to {cloudName}!" : "Vitajte v {cloudName}!",
+    "Skip" : "Preskočiť",
     "This Nextcloud is on version {version}" : "Tento Nextcloud je vo verzii {version}",
     "A collaboration platform that puts you in control" : "Kolaboračná platforma, ktorá vám dáva kontrolu",
     "Privacy" : "Súkromie",

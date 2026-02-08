@@ -56,6 +56,7 @@ OC.L10N.register(
     "Calendar and contacts ↗" : "Takvimler ve kişiler ↗",
     "Connect your calendar and contacts with your devices." : "Takviminizi ve kişilerinizi aygıtlarınızla ilişkilendirin.",
     "Welcome to {cloudName}!" : "{cloudName} platformuna hoş geldiniz!",
+    "Skip" : "Atla",
     "This Nextcloud is on version {version}" : "Bu Nextcloud sürümü {version}",
     "A collaboration platform that puts you in control" : "Sizin kontrolunuzda olan iş birliği platformu",
     "Privacy" : "Gizlilik",

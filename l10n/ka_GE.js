@@ -11,6 +11,7 @@ OC.L10N.register(
     "Desktop client" : "დესკტოპ-კლიენტი",
     "iOS app" : "iOS აპლიკაცია",
     "Close" : "დახურვა",
+    "Skip" : "გამოტოვება",
     "Get the apps to sync your files" : "თქვენი ფაილების სინქრონიზაციისთვის მოიპოვეთ აპლიკაციები",
     "Server address" : "სერვერის მისამართი"
 },

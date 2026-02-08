@@ -9,6 +9,7 @@ OC.L10N.register(
     "Download For Windows, Mac OS and Linux." : "ดาวน์โหลดสำหรับ Windows, Mac OS และ Linux",
     "Connect your calendar and contacts with your devices." : "เชื่อมต่อปฏิทินและรายชื่อติดต่อของคุณเข้ากับอุปกรณ์ต่าง ๆ ของคุณ",
     "Welcome to {cloudName}!" : "ยินดีต้อนรับสู่ {cloudName}!",
+    "Skip" : "ข้าม",
     "This Nextcloud is on version {version}" : "Nextcloud นี้อยู่บนรุ่น {version}",
     "Privacy" : "ความเป็นส่วนตัว",
     "Community" : "ชุมชน",
