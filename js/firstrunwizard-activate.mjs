@@ -1,3 +1,3 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=[window.OC.filePath('firstrunwizard', '', 'js/main-D3kaeEu7.chunk.mjs'),window.OC.filePath('firstrunwizard', '', 'js/NcModal-PlfVmTTk-BSKFV0OY.chunk.mjs'),window.OC.filePath('firstrunwizard', '', 'js/index-EKlYWjzp.chunk.mjs')])))=>i.map(i=>d[i]);
-import{_ as t}from"./modulepreload-polyfill-CBWYtosv.chunk.mjs";document.addEventListener("DOMContentLoaded",async function(){(await t(()=>import("./main-D3kaeEu7.chunk.mjs"),__vite__mapDeps([0,1,2]),import.meta.url)).open()});
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=[window.OC.filePath('firstrunwizard', '', 'js/main-C9WfqQza.chunk.mjs'),window.OC.filePath('firstrunwizard', '', 'js/NcModal-PlfVmTTk-BSKFV0OY.chunk.mjs'),window.OC.filePath('firstrunwizard', '', 'js/index-EKlYWjzp.chunk.mjs')])))=>i.map(i=>d[i]);
+import{_ as t}from"./modulepreload-polyfill-CBWYtosv.chunk.mjs";document.addEventListener("DOMContentLoaded",async function(){(await t(()=>import("./main-C9WfqQza.chunk.mjs"),__vite__mapDeps([0,1,2]),import.meta.url)).open()});
 //# sourceMappingURL=firstrunwizard-activate.mjs.map
