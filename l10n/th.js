@@ -16,7 +16,6 @@ OC.L10N.register(
     "Get the apps to sync your files" : "ดาวน์โหลดแอปเพื่อซิงค์ไฟล์ของคุณ",
     "Server address" : "ที่อยู่เซิร์ฟเวอร์",
     "What's new?" : "มีอะไรใหม่บ้าง?",
-    "Nextcloud on all your devices" : "Nextcloud บนอุปกรณ์ทั้งหมดของคุณ",
-    "Read more" : "อ่านเพิ่มเติม"
+    "Nextcloud on all your devices" : "Nextcloud บนอุปกรณ์ทั้งหมดของคุณ"
 },
 "nplurals=1; plural=0;");

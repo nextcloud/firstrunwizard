@@ -17,7 +17,6 @@ OC.L10N.register(
     "Skip" : "Preterpasi",
     "Get the apps to sync your files" : "Ekhavu la aplikaĵojn por sinkronigi viajn dosierojn",
     "Server address" : "Servila adreso",
-    "What's new?" : "Kio nova?",
-    "Read more" : "Legi pli"
+    "What's new?" : "Kio nova?"
 },
 "nplurals=2; plural=(n != 1);");

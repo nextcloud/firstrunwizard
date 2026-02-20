@@ -34,7 +34,6 @@ OC.L10N.register(
     "Community" : "Cộng đồng",
     "Get the apps to sync your files" : "Nhận ứng dụng để đồng bộ file của bạn",
     "Server address" : "Địa chỉ máy chủ",
-    "Use this link to connect your apps and desktop client to this server:" : "Sử dụng liên kết này để kết nối ứng dụng và máy khách để bàn của bạn với máy chủ này:",
-    "Read more" : "Đọc thêm"
+    "Use this link to connect your apps and desktop client to this server:" : "Sử dụng liên kết này để kết nối ứng dụng và máy khách để bàn của bạn với máy chủ này:"
 },
 "nplurals=1; plural=0;");

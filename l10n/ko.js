@@ -75,8 +75,6 @@ OC.L10N.register(
     "Nextcloud on all your devices" : "모든 기기에 Nextcloud 호환",
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
     "Share on social media" : "소셜 미디어에 공유",
-    "Get started!" : "시작하기!",
-    "Introducing Nextcloud Hub {version}" : "Nextcloud Hub {version} 소개",
-    "Read more" : "더 보기"
+    "Get started!" : "시작하기!"
 },
 "nplurals=1; plural=0;");

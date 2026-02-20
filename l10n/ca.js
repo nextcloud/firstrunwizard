@@ -91,17 +91,6 @@ OC.L10N.register(
     "Nextcloud on all your devices" : "El Nextcloud en tots els vostres dispositius",
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
     "Share on social media" : "Comparteix a les xarxes socials",
-    "Get started!" : "Comença!",
-    "Introducing Nextcloud Hub {version}" : "Presentació de Nextcloud Hub {version}",
-    "End-to-end encryption in calls and web" : "Xifratge d'extrem a extrem en trucades i web",
-    "Performance improvements across all our products" : "Millores de rendiment en tots els nostres productes",
-    "Thousands of tweaks for improved UX and stability" : "Milers de retocs per millorar l'UX i l'estabilitat",
-    "Your own new personal assistant" : "El teu propi assistent personal nou",
-    "Seamless file conversions" : "Conversions de fitxers sense problemes",
-    "Smarter team sharing with Team folders" : "Compartició d'equips més intel·ligent amb carpetes d’Equip",
-    "Schedule meetings directly in Talk" : "Programeu reunions directament a Converses",
-    "Mail you love again: translations, summaries, and mentions" : "Correu que us agradarà de nou: traduccions, resums i mencions",
-    "Nextcloud Hub 10 is here – your modular & unified digital workspace! 💫" : "Nextcloud Hub 10 ja és aquí: el vostre espai de treball digital modular i unificat! 💫",
-    "Read more" : "Més informació"
+    "Get started!" : "Comença!"
 },
 "nplurals=2; plural=(n != 1);");
