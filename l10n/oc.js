@@ -12,7 +12,6 @@ OC.L10N.register(
     "Skip" : "Sautar",
     "Privacy" : "Confidencialitat",
     "Get the apps to sync your files" : "Obtenètz las aplicacions que vos permeton de sincronizar vòstres fichièrs",
-    "Server address" : "Adreça del servidor",
-    "Read more" : "Ne legir mai"
+    "Server address" : "Adreça del servidor"
 },
 "nplurals=2; plural=(n > 1);");

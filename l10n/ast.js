@@ -60,8 +60,6 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "Usa esti enllaz pa conectar les aplicaciones a esti sirvidor",
     "What's new?" : "Novedaes",
     "Nextcloud on all your devices" : "Nextcloud en tolos preseos",
-    "Share on social media" : "Compartir el redes sociales",
-    "Introducing Nextcloud Hub {version}" : "Presentación de Nextcloud Hub {version}",
-    "Read more" : "Lleer más"
+    "Share on social media" : "Compartir el redes sociales"
 },
 "nplurals=2; plural=(n != 1);");

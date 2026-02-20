@@ -38,7 +38,6 @@ OC.L10N.register(
     "Server address" : "Dirección del servidor",
     "Use this link to connect your apps and desktop client to this server:" : "Utiliza este enlace para conectar tus aplicaciones y el cliente de escritorio a este servidor:",
     "What's new?" : "¿Qué hay de nuevo?",
-    "Share on social media" : "Compartir en redes sociales",
-    "Read more" : "Leer más"
+    "Share on social media" : "Compartir en redes sociales"
 },
 "nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");

@@ -10,7 +10,6 @@ OC.L10N.register(
     "Skip" : "O'tkazib yuborish",
     "Share via email" : "Elektron pochta orqali ulashing",
     "Server address" : "Server manzili",
-    "Growing sovereignty: new federation features, improved data export and import" : "O'sib borayotgan suverenitet: Jamg'armaning yangi xususiyatlari, ma'lumotlar eksporti va importining yaxshilanishi",
-    "Read more" : "Ko'proq o'qish"
+    "Growing sovereignty: new federation features, improved data export and import" : "O'sib borayotgan suverenitet: Jamg'armaning yangi xususiyatlari, ma'lumotlar eksporti va importining yaxshilanishi"
 },
 "nplurals=1; plural=0;");

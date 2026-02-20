@@ -66,7 +66,6 @@ OC.L10N.register(
     "What's new?" : "What's new?",
     "Nextcloud on all your devices" : "Nextcloud on all your devices",
     "Share on social media" : "Share on social media",
-    "Get started!" : "Get started!",
-    "Read more" : "Read more"
+    "Get started!" : "Get started!"
 },
 "nplurals=2; plural=(n!=1);");

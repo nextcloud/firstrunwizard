@@ -82,9 +82,6 @@ OC.L10N.register(
     "Nextcloud on all your devices" : "Nextcloud kaikilla laitteillasi",
     "Share on social media" : "Jaa sosiaalisessa mediassa",
     "Get started!" : "Aloitetaan!",
-    "Introducing Nextcloud Hub {version}" : "Esittelyssä Nextcloud Hub versio {version}",
-    "Your own new personal assistant" : "Uusi henkilökohtainen avustajasi",
-    "Read more" : "Lue lisää",
     "… and much more!" : "… ja paljon muuta!"
 },
 "nplurals=2; plural=(n != 1);");

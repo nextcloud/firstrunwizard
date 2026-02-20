@@ -29,8 +29,6 @@ OC.L10N.register(
     "Community" : "Comunidade",
     "Share via email" : "Partilhar via correio eletrónico",
     "Get the apps to sync your files" : "Obtenha as aplicações para sincronizar os seus ficheiros",
-    "Server address" : "Endereço do servidor",
-    "Smarter team sharing with Team folders" : "Partilha de equipa mais inteligente com as Pastas de Equipa.",
-    "Read more" : "Ler mais"
+    "Server address" : "Endereço do servidor"
 },
 "nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");

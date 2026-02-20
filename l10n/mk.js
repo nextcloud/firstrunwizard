@@ -39,7 +39,6 @@ OC.L10N.register(
     "Get the apps to sync your files" : "Преземете апликации за синхронизирање на вашите датотеки",
     "Server address" : "Адреса на серверот",
     "Use this link to connect your apps and desktop client to this server:" : "Користете го овој линк за да ги поврзете вашите апликации со серверот:",
-    "What's new?" : "Што е ново",
-    "Read more" : "Прочитај повеќе"
+    "What's new?" : "Што е ново"
 },
 "nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1;");
