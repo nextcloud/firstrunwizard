@@ -210,7 +210,7 @@ function goToPage(pageId: string) {
 	background-image: var(--image-logoheader, var(--image-logo, v-bind(cssLogoUrl)));
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 100px;
+	background-size: contain;
 	margin: auto;
 	position: absolute;
 	left: 0;
