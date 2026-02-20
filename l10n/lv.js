@@ -30,7 +30,6 @@ OC.L10N.register(
     "{productName} gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "{productName} sniedz piekļuvi Tavām datnēm, lai kur arī Tu būtu. Mūsu viegli izmantojamie darbvirsmas un viedierīču klienti ir bez maksas pieejami visās galvenajās platformās.",
     "Server address" : "Servera adrese",
     "What's new?" : "Kas jauns?",
-    "Nextcloud on all your devices" : "Nextcloud visās Tavās ierīcēs",
-    "Read more" : "Lasīt vairāk"
+    "Nextcloud on all your devices" : "Nextcloud visās Tavās ierīcēs"
 },
 "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);");

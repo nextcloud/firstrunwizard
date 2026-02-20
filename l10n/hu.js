@@ -90,8 +90,6 @@ OC.L10N.register(
     "Nextcloud on all your devices" : "Nextcloud az összes eszközén",
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
     "Share on social media" : "Megosztás a közösségi médiában",
-    "Get started!" : "Kezdjen bele!",
-    "Introducing Nextcloud Hub {version}" : "Nextcloud Hub {version} bemutatása",
-    "Read more" : "Továbbolvasás"
+    "Get started!" : "Kezdjen bele!"
 },
 "nplurals=2; plural=(n != 1);");

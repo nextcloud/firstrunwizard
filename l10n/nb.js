@@ -85,8 +85,6 @@ OC.L10N.register(
     "Nextcloud on all your devices" : "Nextcloud på alle dine enheter",
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
     "Share on social media" : "Del på sosiale medier",
-    "Get started!" : "Kom i gang!",
-    "Introducing Nextcloud Hub {version}" : "Introduserer Nextcloud Hub {version}",
-    "Read more" : "Les mer"
+    "Get started!" : "Kom i gang!"
 },
 "nplurals=2; plural=(n != 1);");

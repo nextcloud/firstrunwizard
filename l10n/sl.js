@@ -74,8 +74,6 @@ OC.L10N.register(
     "Nextcloud on all your devices" : "Oblak Nextcloud na vseh vaših napravah",
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
     "Share on social media" : "Objava na družbenem omrežju",
-    "Get started!" : "Začnite!",
-    "Introducing Nextcloud Hub {version}" : "Predstavljamo vam Nextcloud Hub {version}",
-    "Read more" : "Več o tem"
+    "Get started!" : "Začnite!"
 },
 "nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);");
