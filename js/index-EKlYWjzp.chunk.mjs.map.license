@@ -11,7 +11,7 @@ This file is generated from multiple sources. Included packages:
 	- version: 3.3.3
 	- license: GPL-3.0-or-later
 - semver
-	- version: 7.7.3
+	- version: 7.7.4
 	- license: ISC
 - vite
 	- version: 7.1.12
