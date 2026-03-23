@@ -13,3 +13,8 @@ vendor/
 /.php-cs-fixer.cache
 /tests/.phpunit.result.cache
 .DS_Store
+
+# Playwright e2e test artifacts
+/playwright-report/
+/test-results/
+/blob-report/
