@@ -1,27 +1,15 @@
 /**
- * SPDX-FileCopyrightText: 2024 Nextcloud GmbH and Nextcloud contributors
+ * SPDX-FileCopyrightText: 2026 Nextcloud GmbH and Nextcloud contributors
  * SPDX-License-Identifier: AGPL-3.0-or-later
  */
 
-import { expect, test } from '@playwright/test'
-import { createRandomUser, deleteUser, login } from './support/utils.ts'
-import type { User } from './support/utils.ts'
+import { expect } from '@playwright/test'
+import { test } from './support/fixtures.ts'
 
 test.describe('Settings page', () => {
-	let user: User
-
-	test.beforeAll(async () => {
-		user = await createRandomUser()
-	})
-
-	test.afterAll(async () => {
-		await deleteUser(user.userId)
-	})
-
 	test.beforeEach(async ({ page }) => {
-		await login(page, user.userId, user.password)
-		// Navigate to the personal settings page for sync clients
-		await page.goto('/settings/user/sync-clients')
+		// Use the index.php URL to avoid relying on mod_rewrite
+		await page.goto('/index.php/settings/user/sync-clients')
 	})
 
 	test('shows the sync clients section', async ({ page }) => {

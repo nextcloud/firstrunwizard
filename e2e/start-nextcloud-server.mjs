@@ -11,6 +11,7 @@ import {
 } from '@nextcloud/e2e-test-server/docker'
 import { readFileSync } from 'fs'
 import { execSync } from 'node:child_process'
+import { basename } from 'node:path'
 
 async function start() {
 	const appinfo = readFileSync('appinfo/info.xml').toString()
@@ -35,6 +36,28 @@ async function start() {
 	})
 }
 
+/**
+ * Generate a self-signed SSL certificate inside the Nextcloud container.
+ * The Docker image enables SSL in its run.sh but doesn't bundle a certificate,
+ * so Apache will fail to start without one.
+ */
+async function generateSslCertificate() {
+	const containerName = `nextcloud-e2e-test-server_${basename(process.cwd())}`
+	try {
+		execSync(
+			`docker exec ${containerName} openssl req -x509 -nodes -days 365`
+			+ ` -newkey rsa:2048`
+			+ ` -keyout /etc/ssl/private/nextcloud.key`
+			+ ` -out /etc/ssl/certs/nextcloud.crt`
+			+ ` -subj /CN=localhost`,
+			{ stdio: 'pipe', timeout: 30_000 },
+		)
+	} catch (err) {
+		// Non-fatal: if the image already bundles the cert this step is not needed
+		process.stderr.write(`Warning: SSL certificate generation failed: ${err.message}\n`)
+	}
+}
+
 async function stop() {
 	process.stderr.write('Stopping Nextcloud server…\n')
 	await stopNextcloud()
@@ -46,6 +69,10 @@ process.on('SIGINT', stop)
 
 // Start the Nextcloud docker container
 const ip = await start()
+
+// Generate the SSL certificate the Docker image requires before Apache starts
+await generateSslCertificate()
+
 await waitOnNextcloud(ip)
 await configureNextcloud(['firstrunwizard'])
 
