@@ -5,13 +5,13 @@
 
 import {
 	configureNextcloud,
+	getContainerName,
 	startNextcloud,
 	stopNextcloud,
 	waitOnNextcloud,
 } from '@nextcloud/e2e-test-server/docker'
 import { readFileSync } from 'fs'
 import { execSync } from 'node:child_process'
-import { basename } from 'node:path'
 
 async function start() {
 	const appinfo = readFileSync('appinfo/info.xml').toString()
@@ -37,25 +37,26 @@ async function start() {
 }
 
 /**
- * Generate a self-signed SSL certificate inside the Nextcloud container.
- * The Docker image enables SSL in its run.sh but doesn't bundle a certificate,
- * so Apache will fail to start without one.
+ * Patch the container's run.sh to remove SSL configuration so Apache starts
+ * on HTTP only. The Docker image's run.sh enables SSL but does not ship with
+ * a certificate, which causes Apache to fail to start. By removing the SSL
+ * directives we run on plain HTTP instead.
+ *
+ * This must be called after startNextcloud() (container is running) but before
+ * waitOnNextcloud() (Apache has not started yet), while initnc.sh is still
+ * setting up the Nextcloud instance.
  */
-async function generateSslCertificate() {
-	const containerName = `nextcloud-e2e-test-server_${basename(process.cwd())}`
-	try {
-		execSync(
-			`docker exec ${containerName} openssl req -x509 -nodes -days 365`
-			+ ` -newkey rsa:2048`
-			+ ` -keyout /etc/ssl/private/nextcloud.key`
-			+ ` -out /etc/ssl/certs/nextcloud.crt`
-			+ ` -subj /CN=localhost`,
-			{ stdio: 'pipe', timeout: 30_000 },
-		)
-	} catch (err) {
-		// Non-fatal: if the image already bundles the cert this step is not needed
-		process.stderr.write(`Warning: SSL certificate generation failed: ${err.message}\n`)
-	}
+function makeHttpOnly() {
+	execSync(
+		`docker exec ${getContainerName()} `
+		+ `sed -i `
+		+ `-e '/a2enmod ssl/d' `
+		+ `-e '/a2ensite default-ssl/d' `
+		+ `-e '/a2enconf ssl-params/d' `
+		+ `-e '/apache2ctl configtest/d' `
+		+ `/usr/local/bin/run.sh`,
+		{ stdio: 'pipe', timeout: 30_000 },
+	)
 }
 
 async function stop() {
@@ -70,8 +71,8 @@ process.on('SIGINT', stop)
 // Start the Nextcloud docker container
 const ip = await start()
 
-// Generate the SSL certificate the Docker image requires before Apache starts
-await generateSslCertificate()
+// Patch run.sh to disable SSL so Apache starts on plain HTTP
+makeHttpOnly()
 
 await waitOnNextcloud(ip)
 await configureNextcloud(['firstrunwizard'])

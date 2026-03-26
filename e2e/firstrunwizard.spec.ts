@@ -9,8 +9,8 @@ import { setUserPreference } from './support/utils.ts'
 
 test.describe('First Run Wizard', () => {
 	test('opens automatically on first login', async ({ page }) => {
-		// After login the browser is redirected to the dashboard where the wizard
-		// is injected and opened automatically – no extra navigation needed.
+		// The fixture already logged in; the post-login redirect lands on the
+		// dashboard where the wizard is injected and opened automatically.
 		const wizard = page.locator('.first-run-wizard')
 		await expect(wizard).toBeVisible()
 

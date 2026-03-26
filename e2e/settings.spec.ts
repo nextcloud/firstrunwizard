@@ -8,7 +8,6 @@ import { test } from './support/fixtures.ts'
 
 test.describe('Settings page', () => {
 	test.beforeEach(async ({ page }) => {
-		// Use the index.php URL to avoid relying on mod_rewrite
 		await page.goto('/index.php/settings/user/sync-clients')
 	})
 
