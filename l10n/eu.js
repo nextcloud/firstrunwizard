@@ -86,6 +86,7 @@ OC.L10N.register(
     "Could not copy the URL, please copy manually" : "Ezin izan da URLa kopiatu, kopiatu eskuz",
     "Server address" : "Zerbitzariaren helbidea",
     "Use this link to connect your apps and desktop client to this server:" : "Erabili esteka hau zure aplikazioak eta mahaigaineko bezeroa zerbitzari honetara konektatzeko:",
+    "Whiteboard: comments, reactions, timers" : "Arbela: iruzkinak, erantzunak, kronometroak",
     "Get to know the new features of Hub {version}" : "Ezagutu Hub {version}-ren ezaugarri berriak",
     "What's new?" : "Zer berri?",
     "Nextcloud on all your devices" : "Nextcloud zure gailu guztietan",
