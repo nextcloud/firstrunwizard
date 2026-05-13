@@ -13,27 +13,27 @@ import { t } from '@nextcloud/l10n'
  */
 export default {
 	/** The HUB release version */
-	version: '26 Winter',
+	version: '26 Spring',
 
 	/** Link to further information (e.g. blog post) */
-	link: 'https://nextcloud.com/blog/nextcloud-hub26-winter/',
+	link: 'https://nextcloud.com/blog/nextcloud-hub26-spring/',
 
 	/** Release notes in list format */
 	releaseNotes: [
-		'🌐 ' + t('firstrunwizard', 'Growing sovereignty: new federation features, improved data export and import'),
-		'💬 ' + t('firstrunwizard', 'Nextcloud Talk: live translations, pinned messages, scheduling'),
-		'🔎 ' + t('firstrunwizard', 'Office document comparison'),
-		'🧑‍🎨 ' + t('firstrunwizard', 'Whiteboard: comments, reactions, timers'),
-		'✨ ' + t('firstrunwizard', 'Nextcloud Assistant performance upgrade and AI labeling'),
-		'🔐 ' + t('firstrunwizard', 'Powerful E2EE in the web interface'),
-		'💪 ' + t('firstrunwizard', 'Speed-up with ADA engine'),
+		'💫' + t('firstrunwizard', 'Refined design, optimized performance'),
+		'💪' + t('firstrunwizard', 'Empowering developers with an open platform'),
+		'✏️' + t('firstrunwizard', 'Your choice: Nextcloud Office powered by Collabora or Euro-Office'),
+		'💌' + t('firstrunwizard', 'Delegate calendars, meetings and mail boxes for better collaboration'),
+		'📈' + t('firstrunwizard', 'Gantt charts, dependencies & more in Nextcloud Deck'),
+		'🧠' + t('firstrunwizard', 'More agency: let the Assistant work for you across files, emails, forms, and more'),
+		'🧩' + t('firstrunwizard', 'Pexip, Matrix, and more updates in integrations'),
 		t('firstrunwizard', '… and many more improvements in all apps!'),
 		t('firstrunwizard', 'Experience the brand new Nextcloud Hub!'),
 	],
 
 	/** Alternative text for the release animation */
-	videoAltText: t('firstrunwizard', 'Get to know the new features of Hub {version}', { version: '26 Winter' }),
+	videoAltText: t('firstrunwizard', 'Get to know the new features of Hub {version}', { version: '26 Spring' }),
 
 	/** Subject that is used when sharing the post */
-	shareSubject: t('firstrunwizard', 'Time to own your collaboration: Meet Nextcloud Hub 26 Winter! 🚀'),
+	shareSubject: t('firstrunwizard', 'Time to own your collaboration: Meet Nextcloud Hub 26 Spring! 🚀'),
 }
