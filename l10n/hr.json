@@ -84,17 +84,9 @@
     "Could not copy the URL, please copy manually" : "Nije moguće kopirati URL, kopirajte ručno",
     "Server address" : "Adresa poslužitelja",
     "Use this link to connect your apps and desktop client to this server:" : "Iskoristite ovu poveznicu za povezivanje aplikacija i klijenata za osobna računala s ovim poslužiteljem:",
-    "Growing sovereignty: new federation features, improved data export and import" : "Rastući suverenitet: nove značajke udruženja, poboljšan izvoz i uvoz podataka",
-    "Nextcloud Talk: live translations, pinned messages, scheduling" : "Nextcloud Talk: prijevodi uživo, prikvačene poruke, zakazivanje",
-    "Office document comparison" : "Usporedba uredskih dokumenata",
-    "Whiteboard: comments, reactions, timers" : "Whiteboard: komentari, reakcije, mjerači vremena",
-    "Nextcloud Assistant performance upgrade and AI labeling" : "Nadogradnja performansi Nextcloud Assistanta i označavanje pomoću umjetne inteligencije",
-    "Powerful E2EE in the web interface" : "Snažno E2EE šifriranje u web-sučelju",
-    "Speed-up with ADA engine" : "Ubrzanje uz ADA mehanizam",
     "… and many more improvements in all apps!" : "…  i još mnogo poboljšanja u svim aplikacijama!",
     "Experience the brand new Nextcloud Hub!" : "Doživite potpuno novi Nextcloud Hub!",
     "Get to know the new features of Hub {version}" : "Upoznajte nove značajke Huba {version}",
-    "Time to own your collaboration: Meet Nextcloud Hub 26 Winter! 🚀" : "Vrijeme je da preuzmete kontrolu nad suradnjom: upoznajte Nextcloud Hub 26 Winter! 🚀",
     "What's new?" : "Što je novog?",
     "Nextcloud on all your devices" : "Nextcloud na svim vašim uređajima",
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
@@ -111,6 +103,14 @@
     "Quick presets & many other admin updates" : "Brze postavke i mnoge druge administrativne nadogradnje",
     "Vue3, WebSockets and more OpenAPI for devs" : "Vue3, WebSockets i više OpenAPI-ja za programere",
     "… and much more!" : "… i mnogo više!",
-    "Nextcloud Hub 25 Autumn – Your digital workspace, ready in no time ⚡" : "Nextcloud Hub 25 Jesen – Vaše digitalno radno okruženje, spremno u trenu ⚡"
+    "Nextcloud Hub 25 Autumn – Your digital workspace, ready in no time ⚡" : "Nextcloud Hub 25 Jesen – Vaše digitalno radno okruženje, spremno u trenu ⚡",
+    "Growing sovereignty: new federation features, improved data export and import" : "Rastući suverenitet: nove značajke udruženja, poboljšan izvoz i uvoz podataka",
+    "Nextcloud Talk: live translations, pinned messages, scheduling" : "Nextcloud Talk: prijevodi uživo, prikvačene poruke, zakazivanje",
+    "Office document comparison" : "Usporedba uredskih dokumenata",
+    "Whiteboard: comments, reactions, timers" : "Whiteboard: komentari, reakcije, mjerači vremena",
+    "Nextcloud Assistant performance upgrade and AI labeling" : "Nadogradnja performansi Nextcloud Assistanta i označavanje pomoću umjetne inteligencije",
+    "Powerful E2EE in the web interface" : "Snažno E2EE šifriranje u web-sučelju",
+    "Speed-up with ADA engine" : "Ubrzanje uz ADA mehanizam",
+    "Time to own your collaboration: Meet Nextcloud Hub 26 Winter! 🚀" : "Vrijeme je da preuzmete kontrolu nad suradnjom: upoznajte Nextcloud Hub 26 Winter! 🚀"
 },"pluralForm" :"nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;"
 }
