@@ -84,17 +84,9 @@
     "Could not copy the URL, please copy manually" : "Nem sikerült a webcím másolása, másolja kézileg",
     "Server address" : "Kiszolgálócím",
     "Use this link to connect your apps and desktop client to this server:" : "Használja ezt a hivatkozást az alkalmazások és az asztali kliens csatlakoztatásához a kiszolgálóhoz:",
-    "Growing sovereignty: new federation features, improved data export and import" : "Növekvő szuverenitás: új föderációs funkciók, javított adatexportálás és -importálás.",
-    "Nextcloud Talk: live translations, pinned messages, scheduling" : "Nextcloud Beszélgetés: élő fordítások, rögzített üzenetek, ütemezés",
-    "Office document comparison" : "Irodai dokumentumok összehasonlítása",
-    "Whiteboard: comments, reactions, timers" : "Tábla: megjegyzések, reakciók, időzítők",
-    "Nextcloud Assistant performance upgrade and AI labeling" : "Nextcloud Asszisztens teljesítménybeli fejlesztése és MI-címkézés",
-    "Powerful E2EE in the web interface" : "Sokoldalú E2EE a webes felületen",
-    "Speed-up with ADA engine" : "Gyorsulás az ADA motorral",
     "… and many more improvements in all apps!" : "…és számos fejlesztéssel az összes alkalmazásban!",
     "Experience the brand new Nextcloud Hub!" : "Tapasztalja meg a vadonatúj Nextcloud Hubot!",
     "Get to know the new features of Hub {version}" : "Tudjon meg többet a Hub {version} új funkcióiról",
-    "Time to own your collaboration: Meet Nextcloud Hub 26 Winter! 🚀" : "Itt az együttműködés ideje: találkozzon a Nextcloud Hub 26 Winter kiadással! 🚀",
     "What's new?" : "Újdonságok",
     "Nextcloud on all your devices" : "Nextcloud az összes eszközén",
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
@@ -111,6 +103,14 @@
     "Quick presets & many other admin updates" : "Gyors előnézetek és számos rendszergazdai frissítés",
     "Vue3, WebSockets and more OpenAPI for devs" : "Vue3, WebSockets és további OpenAPI eszközök fejlesztőknek",
     "… and much more!" : "…és még sok más!",
-    "Nextcloud Hub 25 Autumn – Your digital workspace, ready in no time ⚡" : "Nextcloud Hub 25 Autumn – Az Ön digitális munkaterülete, pillanatok alatt készen ⚡"
+    "Nextcloud Hub 25 Autumn – Your digital workspace, ready in no time ⚡" : "Nextcloud Hub 25 Autumn – Az Ön digitális munkaterülete, pillanatok alatt készen ⚡",
+    "Growing sovereignty: new federation features, improved data export and import" : "Növekvő szuverenitás: új föderációs funkciók, javított adatexportálás és -importálás.",
+    "Nextcloud Talk: live translations, pinned messages, scheduling" : "Nextcloud Beszélgetés: élő fordítások, rögzített üzenetek, ütemezés",
+    "Office document comparison" : "Irodai dokumentumok összehasonlítása",
+    "Whiteboard: comments, reactions, timers" : "Tábla: megjegyzések, reakciók, időzítők",
+    "Nextcloud Assistant performance upgrade and AI labeling" : "Nextcloud Asszisztens teljesítménybeli fejlesztése és MI-címkézés",
+    "Powerful E2EE in the web interface" : "Sokoldalú E2EE a webes felületen",
+    "Speed-up with ADA engine" : "Gyorsulás az ADA motorral",
+    "Time to own your collaboration: Meet Nextcloud Hub 26 Winter! 🚀" : "Itt az együttműködés ideje: találkozzon a Nextcloud Hub 26 Winter kiadással! 🚀"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

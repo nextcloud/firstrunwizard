@@ -86,7 +86,6 @@ OC.L10N.register(
     "Could not copy the URL, please copy manually" : "Ezin izan da URLa kopiatu, kopiatu eskuz",
     "Server address" : "Zerbitzariaren helbidea",
     "Use this link to connect your apps and desktop client to this server:" : "Erabili esteka hau zure aplikazioak eta mahaigaineko bezeroa zerbitzari honetara konektatzeko:",
-    "Whiteboard: comments, reactions, timers" : "Arbela: iruzkinak, erantzunak, kronometroak",
     "Get to know the new features of Hub {version}" : "Ezagutu Hub {version}-ren ezaugarri berriak",
     "What's new?" : "Zer berri?",
     "Nextcloud on all your devices" : "Nextcloud zure gailu guztietan",
@@ -102,6 +101,7 @@ OC.L10N.register(
     "Intuitive file search" : "Fitxategi bilaketa intuitiboa",
     "Vue3, WebSockets and more OpenAPI for devs" : "Vue3, WebSockets eta garatzaileentzako beste OpenAPIak",
     "… and much more!" : "… eta askoz gehiago!",
-    "Nextcloud Hub 25 Autumn – Your digital workspace, ready in no time ⚡" : "Nextcloud Hub 25eko udazkena - Zure lanerako espazio digitala, denbora gutxian prest ⚡"
+    "Nextcloud Hub 25 Autumn – Your digital workspace, ready in no time ⚡" : "Nextcloud Hub 25eko udazkena - Zure lanerako espazio digitala, denbora gutxian prest ⚡",
+    "Whiteboard: comments, reactions, timers" : "Arbela: iruzkinak, erantzunak, kronometroak"
 },
 "nplurals=2; plural=(n != 1);");
