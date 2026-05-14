@@ -84,17 +84,9 @@
     "Could not copy the URL, please copy manually" : "Nie można skopiować adresu URL. Skopiuj ręcznie",
     "Server address" : "Adres serwera",
     "Use this link to connect your apps and desktop client to this server:" : "Użyj tego linku, aby podłączyć swoje aplikacje i klienta desktopowego do tego serwera:",
-    "Growing sovereignty: new federation features, improved data export and import" : "Rosnąca suwerenność: nowe funkcje federacji, ulepszony eksport i import danych",
-    "Nextcloud Talk: live translations, pinned messages, scheduling" : "Nextcloud Talk: tłumaczenia na żywo, przypięte wiadomości, planowanie",
-    "Office document comparison" : "Porównywanie dokumentów biurowych",
-    "Whiteboard: comments, reactions, timers" : "Whiteboard: komentarze, reakcje, timery",
-    "Nextcloud Assistant performance upgrade and AI labeling" : "Ulepszona wydajność Nextcloud Assistant i etykietowanie AI",
-    "Powerful E2EE in the web interface" : "Zaawansowane E2EE w interfejsie webowym",
-    "Speed-up with ADA engine" : "Przyspieszenie dzięki silnikowi ADA",
     "… and many more improvements in all apps!" : "… i wiele innych ulepszeń we wszystkich aplikacjach!",
     "Experience the brand new Nextcloud Hub!" : "Poznaj zupełnie nowy Nextcloud Hub!",
     "Get to know the new features of Hub {version}" : "Poznaj nowe funkcje Huba {version}",
-    "Time to own your collaboration: Meet Nextcloud Hub 26 Winter! 🚀" : "Czas przejąć kontrolę nad swoją współpracą: poznaj Nextcloud Hub 26 Winter! 🚀",
     "What's new?" : "Co nowego?",
     "Nextcloud on all your devices" : "Nextcloud na wszystkich twoich urządzeniach",
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
@@ -111,6 +103,14 @@
     "Quick presets & many other admin updates" : "Szybkie presety i wiele innych aktualizacji dla administratorów",
     "Vue3, WebSockets and more OpenAPI for devs" : "Vue3, WebSockets i więcej OpenAPI dla deweloperów",
     "… and much more!" : "...i wiele więcej!",
-    "Nextcloud Hub 25 Autumn – Your digital workspace, ready in no time ⚡" : "Nextcloud Hub 25 Autumn – Twoje cyfrowe środowisko pracy, gotowe w mgnieniu oka ⚡"
+    "Nextcloud Hub 25 Autumn – Your digital workspace, ready in no time ⚡" : "Nextcloud Hub 25 Autumn – Twoje cyfrowe środowisko pracy, gotowe w mgnieniu oka ⚡",
+    "Growing sovereignty: new federation features, improved data export and import" : "Rosnąca suwerenność: nowe funkcje federacji, ulepszony eksport i import danych",
+    "Nextcloud Talk: live translations, pinned messages, scheduling" : "Nextcloud Talk: tłumaczenia na żywo, przypięte wiadomości, planowanie",
+    "Office document comparison" : "Porównywanie dokumentów biurowych",
+    "Whiteboard: comments, reactions, timers" : "Whiteboard: komentarze, reakcje, timery",
+    "Nextcloud Assistant performance upgrade and AI labeling" : "Ulepszona wydajność Nextcloud Assistant i etykietowanie AI",
+    "Powerful E2EE in the web interface" : "Zaawansowane E2EE w interfejsie webowym",
+    "Speed-up with ADA engine" : "Przyspieszenie dzięki silnikowi ADA",
+    "Time to own your collaboration: Meet Nextcloud Hub 26 Winter! 🚀" : "Czas przejąć kontrolę nad swoją współpracą: poznaj Nextcloud Hub 26 Winter! 🚀"
 },"pluralForm" :"nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);"
 }

@@ -78,13 +78,6 @@
     "Could not copy the URL, please copy manually" : "URL хуулж чадсангүй, гараар хуулна уу",
     "Server address" : "—Ö“Ø–ª—ç—ç–Ω –∞–≤–∞–≥—á–∏–π–Ω —Ö–∞—è–≥",
     "Use this link to connect your apps and desktop client to this server:" : "Апп болон ширээний клиентээ энэ сервертэй холбохын тулд энэ холбоосыг ашиглана уу:",
-    "Growing sovereignty: new federation features, improved data export and import" : "Бүрэн эрхт байдлыг нэмэгдүүлэх: холбооны шинэ боломжууд, сайжруулсан өгөгдлийн экспорт ба импорт",
-    "Nextcloud Talk: live translations, pinned messages, scheduling" : "Nextcloud Talk: шууд орчуулга, тогтоосон мессежүүд, цаг товлолт",
-    "Office document comparison" : "Оффисын баримт бичгийг харьцуулах",
-    "Whiteboard: comments, reactions, timers" : "Цагаан самбар: сэтгэгдэл, урвалууд, цагийн тоолуур",
-    "Nextcloud Assistant performance upgrade and AI labeling" : "Nextcloud Assistant гүйцэтгэлийн сайжруулалт болон AI шошгололт",
-    "Powerful E2EE in the web interface" : "Вэб интерфэйс дэх хүчирхэг E2EE",
-    "Speed-up with ADA engine" : "ADA системээр хурдасгах",
     "Experience the brand new Nextcloud Hub!" : "Шинэ Nextcloud Hub-г туршина уу!",
     "Get to know the new features of Hub {version}" : "Hub {version}-ийн шинэ функцуудтай танилцаарай",
     "What's new?" : "Шинэ юу байна?",
@@ -101,6 +94,13 @@
     "Intuitive file search" : "Ойлгомжтой файл хайлт",
     "Teams 2.0 & quick Guest accounts" : "Teams 2.0 ба хурдан Зочин бүртгэлүүд",
     "Quick presets & many other admin updates" : "Хурдан урьдчилсан тохиргоонууд ба бусад админ шинэчлэлтүүд",
-    "Vue3, WebSockets and more OpenAPI for devs" : "Хөгжүүлэгчдэд Vue3, WebSockets ба OpenAPI"
+    "Vue3, WebSockets and more OpenAPI for devs" : "Хөгжүүлэгчдэд Vue3, WebSockets ба OpenAPI",
+    "Growing sovereignty: new federation features, improved data export and import" : "Бүрэн эрхт байдлыг нэмэгдүүлэх: холбооны шинэ боломжууд, сайжруулсан өгөгдлийн экспорт ба импорт",
+    "Nextcloud Talk: live translations, pinned messages, scheduling" : "Nextcloud Talk: шууд орчуулга, тогтоосон мессежүүд, цаг товлолт",
+    "Office document comparison" : "Оффисын баримт бичгийг харьцуулах",
+    "Whiteboard: comments, reactions, timers" : "Цагаан самбар: сэтгэгдэл, урвалууд, цагийн тоолуур",
+    "Nextcloud Assistant performance upgrade and AI labeling" : "Nextcloud Assistant гүйцэтгэлийн сайжруулалт болон AI шошгололт",
+    "Powerful E2EE in the web interface" : "Вэб интерфэйс дэх хүчирхэг E2EE",
+    "Speed-up with ADA engine" : "ADA системээр хурдасгах"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
