@@ -14,7 +14,7 @@ This file is generated from multiple sources. Included packages:
 	- version: 1.16.0
 	- license: MIT
 - firstrunwizard
-	- version: 7.0.0-dev.0
+	- version: 8.0.0-dev.0
 	- license: AGPL-3.0-or-later
 - vite-plugin-node-polyfills
 	- version: 0.24.0
