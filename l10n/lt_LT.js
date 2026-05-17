@@ -86,6 +86,7 @@ OC.L10N.register(
     "Could not copy the URL, please copy manually" : "Nepavyko nukopijuoti URL adreso, nukopijuokite jį rankiniu būdu",
     "Server address" : "Serverio adresas",
     "Use this link to connect your apps and desktop client to this server:" : "Naudokite šią nuorodą norėdami prijungti savo programėles bei darbalaukio kliento programas prie šio serverio:",
+    "Gantt charts, dependencies & more in Nextcloud Deck" : "Gantt diagramos, priklausomybės ir kita Nextcloud „Darbai“ sistemoje",
     "… and many more improvements in all apps!" : "... ir daugybė kitų patobulinimų visose programėlėse!",
     "Experience the brand new Nextcloud Hub!" : "Išbandykite visiškai naują „Nextcloud Hub“!",
     "Get to know the new features of Hub {version}" : "Susipažinkite su naujomis „Hub“ {version} funkcijomis ",
