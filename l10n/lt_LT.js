@@ -103,7 +103,7 @@ OC.L10N.register(
     "Share on social media" : "Bendrinti socialiniuose tinkluose",
     "Get started!" : "Pradėkime!",
     "Global redesign and usability lift" : "Visuotinis dizaino atnaujinimas ir patogumo gerinimas",
-    "New Office UI: colors, tabs, bars" : "Nauja „Office“ vartotojo sąsaja: spalvos, skirtukai, juostos",
+    "New Office UI: colors, tabs, bars" : "Nauja „Biuro“ vartotojo sąsaja: spalvos, skirtukai, juostos",
     "Performance and stability boost" : "Našumo ir stabilumo padidinimas",
     "New AI Agency tools unlocked" : "Pristatyti nauji „AI Agency“ įrankiai",
     "Talk threads & live transcription" : "Diskusijų temos ir tiesioginis transkribavimas",
