@@ -10,6 +10,7 @@ OC.L10N.register(
     "Access files via WebDAV" : "Accede tus archivos vía WebDAV",
     "Desktop client" : "Cliente de escritorio",
     "iOS app" : "Aplicación iOS",
+    "Close" : "Close",
     "Share via email" : "Compartir vía correo electrónico",
     "Get the apps to sync your files" : "Obten las aplicaciones para sincronizar tus archivos",
     "Server address" : "Dirección del servidor"
