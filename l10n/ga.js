@@ -73,7 +73,7 @@ OC.L10N.register(
     "Read the Nextcloud Hub {version} blog" : "Léigh an blag Nextcloud Hub {version}",
     "Share your opinion about Nextcloud Hub {version}" : "Roinn do thuairim faoi Nextcloud Hub {version}",
     "Share via email" : "Roinn trí ríomhphost",
-    "Share on {socialMedia}" : "Roinn ar {social Media}",
+    "Share on {socialMedia}" : "Roinn ar {socialMedia}",
     "New in Nextcloud Hub {version}" : "Nua i Nextcloud Hub {version}",
     "Connect other apps to {productName}" : "Ceangail aipeanna eile le {productName}",
     "Besides the mobile apps and desktop client you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to {productName}." : "Seachas na haipeanna móibíleacha agus an cliant deisce is féidir leat aon bhogearraí eile a thacaíonn le prótacail WebDAV/CalDAV/CardDAV a nascadh le {productName}.",
