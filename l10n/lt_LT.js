@@ -19,7 +19,7 @@ OC.L10N.register(
     "Kanban style organization for personal planning and team projects." : "Kanban stiliaus organizavimas asmeniniam planavimui ir komandiniams projektams.",
     "App recommendation: Forms" : "Rekomenduojama programėlė: „Formos“",
     "Simple surveys and questionnaires, self-hosted" : "Paprastos apklausos ir anketos, savarankiškai prižiūrimos",
-    "App recommendation: Recognize" : "Rekomenduojama programėlė: „Atpažinti“",
+    "App recommendation: Recognize" : "Rekomenduojama programėlė: „Atpažink“",
     "Smart media tagging for Nextcloud" : "Išmanusis medijos žymėjimas „Nextcloud“",
     "App recommendation: Group folders" : "Rekomenduojama programėlė: \"Grupinės aplankai\"",
     "Admin-configured folders shared by everyone in a group." : "Administratoriaus sukonfigūruoti aplankai, prieinami visiems grupės nariams.",
