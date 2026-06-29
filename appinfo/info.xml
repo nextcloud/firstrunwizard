@@ -14,7 +14,7 @@ The First run wizard can be customized to meet specific design goals, or to chan
 </description>
 
 	<version>8.0.0-dev.0</version>
-	<licence>agpl</licence>
+	<licence>AGPL-3.0-or-later</licence>
 	<author>Frank Karlitschek</author>
 	<author>Jan-Christoph Borchardt</author>
 

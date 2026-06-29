@@ -1,7 +1,7 @@
 {
 	"name": "nextcloud/firstrunwizard",
 	"description": "The Nextcloud firstrunwizard",
-	"license": "AGPL",
+	"license": "AGPL-3.0-or-later",
 	"config": {
 		"optimize-autoloader": true,
 		"classmap-authoritative": true,
