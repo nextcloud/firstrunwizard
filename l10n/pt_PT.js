@@ -29,6 +29,7 @@ OC.L10N.register(
     "About & What's new" : "Sobre & Novidades",
     "Download on Apple app store" : "Transferir na loja App Store",
     "Download on Google play store" : "Transferir na loja Google Play",
+    "Go to previous page" : "Ir para a página anterior",
     "Close" : "Fechar",
     "Seamless integration with your devices." : "Integração perfeita com seus dispositivos.",
     "Download For Windows, Mac OS and Linux." : "Transferir para Windows, Mac OS e Linux.",
