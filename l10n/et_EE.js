@@ -79,7 +79,7 @@ OC.L10N.register(
     "Besides the mobile apps and desktop client you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to {productName}." : "Lisaks tavalistele töölaua- ja nutiseadme klientidele saad {productName}i serveriga ühendamiseks kasutada muid tarkvaralahendusi, mis toetavad WebDAV/CalDAV/CardDAV protokolle.",
     "Apps to connect to {productName}" : "Rakendused, mida saad ühendada {productName}i teenusega",
     "Set up sync clients using an {linkStart}app password{linkEnd}. That way you can make sure you are able to revoke access in case you lose that device." : "Kasutades {linkStart}rakenduse salasõna{linkEnd} seadista endale vajalikud sünkroonimiskliendid. Sellisel moel jätad endale võimaluse blokeerida ligipääsu andmetele olukorras, kus seade peaks kaduma.",
-    "Get the apps to sync your files" : "Hangi rakendusi failide sünkroniseerimiseks",
+    "Get the apps to sync your files" : "Siit leiad rakendusi oma failide sünkroonimiseks",
     "{productName} gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "{productName} võimaldab ligipääsu sinu failidele kõikjal, kus sa oled. Meie lihtsaltkasutatavad kliendid nii töölauale, kui nutiseadmetele on tasuta saadaval kõikidel põhilistel platvormidel.",
     "App for syncing" : "Rakendus sünkroonimise jaoks",
     "URL copied" : "Võrguaadress on kopeeritud",
