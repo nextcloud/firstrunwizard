@@ -24,7 +24,7 @@ OC.L10N.register(
     "App recommendation: Group folders" : "Önerilen uygulama: Grup klasörleri",
     "Admin-configured folders shared by everyone in a group." : "Yönetici tarafından gruptaki herkesin görebilmesi için yapılandırılmış klasörler.",
     "App recommendation: Whiteboard" : "Önerilen uygulama: Beyaz Tahta",
-    "Create and share whiteboards with others and collaborate in real-time." : "Beyaz tahtalar oluşturun, başkalarıyla paylaşın ve gerçek zamanlı olarak işbirliği yapın.",
+    "Create and share whiteboards with others and collaborate in real-time." : "Beyaz tahtalar oluşturun, başkalarıyla paylaşın ve gerçek zamanlı olarak iş birliği yapın.",
     "Connect your calendar" : "Takviminizi bağlayın",
     "Connect your contacts" : "Kişilerinizi bağlayın",
     "Access files via WebDAV" : "WebDAV üzerinden dosyalarınıza erişin",
@@ -96,7 +96,7 @@ OC.L10N.register(
     "… and many more improvements in all apps!" : "… ve tüm uygulamalarda pek çok iyileştirme!",
     "Experience the brand new Nextcloud Hub!" : "Yepyeni Nextcloud Hub deneyimi!",
     "Get to know the new features of Hub {version}" : "Yeni Merkez {version} özellikleri ile ilgili bilgi alın",
-    "Time to own your collaboration: Meet Nextcloud Hub 26 Spring! 🚀" : "Kendi işbirliğinizi yapma zamanı: Nextcloud Hub 26 Spring ile tanışın! 🚀",
+    "Time to own your collaboration: Meet Nextcloud Hub 26 Spring! 🚀" : "Kendi iş birliğinizi yapma zamanı: Nextcloud Hub 26 Spring ile tanışın! 🚀",
     "What's new?" : "Yenilikler neler?",
     "Nextcloud on all your devices" : "Nextcloud tüm aygıtlarınızda",
     "Nextcloud Hub {version}" : "Nextcloud Merkez {version}",
@@ -121,6 +121,6 @@ OC.L10N.register(
     "Nextcloud Assistant performance upgrade and AI labeling" : "Nextcloud Yardımcı başarımında iyileştirmeler ve yapay zeka ile etiketleme",
     "Powerful E2EE in the web interface" : "İnternet arayüzünde güçlü uçtan uca şifreleme",
     "Speed-up with ADA engine" : "ADA işleyici ile hızlandırma",
-    "Time to own your collaboration: Meet Nextcloud Hub 26 Winter! 🚀" : "İşbirliği yapma zamanı: Nextcloud Hub 26 Winter ile tanışın! 🚀"
+    "Time to own your collaboration: Meet Nextcloud Hub 26 Winter! 🚀" : "İş birliği yapma zamanı: Nextcloud Hub 26 Winter ile tanışın! 🚀"
 },
 "nplurals=2; plural=(n > 1);");
