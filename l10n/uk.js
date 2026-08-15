@@ -88,7 +88,7 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "Посилання на під'єднання застосунків та клієнта ПК чи смартфону до цього сервера:",
     "Refined design, optimized performance" : "Оновлений дизайн, оптимізоція швидкодії",
     "Empowering developers with an open platform" : "Розширення можливостей розробників відкритою платформою",
-    "Your choice: Nextcloud Office powered by Collabora or Euro-Office" : "Офіс на ваш вибір: Офіс Nextcloud від Collabora або Euro-Office",
+    "Your choice: Nextcloud Office powered by Collabora or Euro-Office" : "Офіс на ваш вибір: Офіс для Nextcloud від Collabora або Euro-Office",
     "Delegate calendars, meetings and mail boxes for better collaboration" : "Делегуйте календарі, зустрічі та поштові скриньки для організації кращої співпраці",
     "Gantt charts, dependencies & more in Nextcloud Deck" : "Діяграми Ґанта, залежності та інше у Колоді Nextcloud",
     "More agency: let the Assistant work for you across files, emails, forms, and more" : "Більше аґентності: дозвольте Асистенту замінити вас у роботі з файлами, поштою, формами тощо",
