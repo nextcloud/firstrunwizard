@@ -57,7 +57,7 @@ function close() {
 		id="firstrunwizard"
 		class="first-run-wizard"
 		size="normal"
-		noClose
+		closeOnClickOutside
 		:dark="!isMobile"
 		:setReturnFocus
 		@close="close"
