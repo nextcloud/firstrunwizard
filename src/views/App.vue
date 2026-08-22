@@ -91,6 +91,17 @@ function close() {
 	}
 }
 
+/**
+ * Soften the backdrop. NcModal's opaque/dark backdrop is ~92% black, which dims
+ * the whole page quite heavily behind the wizard; ease it to a gentler tint that
+ * still lifts the modal off the page. (`--opaque` is the current class; `--dark`
+ * is kept for older NcModal versions.)
+ */
+.first-run-wizard.modal-mask--opaque,
+.first-run-wizard.modal-mask--dark {
+	background-color: rgba(0, 0, 0, 0.75) !important;
+}
+
 @media only screen and (max-width: 512px) {
 	.first-run-wizard {
 		.modal-wrapper .modal-container {
