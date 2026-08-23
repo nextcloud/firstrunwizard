@@ -7,7 +7,7 @@ import type { Component } from 'vue'
 
 import { translate as t } from '@nextcloud/l10n'
 import AboutNextcloudPage from './components/pages/AboutNextcloud.vue'
-import DeviceIntegrationPage from './components/pages/DeviceIntegration.vue'
+import GetStartedPage from './components/pages/GetStarted.vue'
 import KeyNotesPage from './components/pages/KeyNotes.vue'
 import SharePage from './components/pages/SharePage.vue'
 import WhatsNewPage from './components/pages/WhatsNew.vue'
@@ -35,14 +35,14 @@ export default [
 			},
 			{
 				to: 'devices',
-				label: t('firstrunwizard', 'Nextcloud on all your devices'),
+				label: t('firstrunwizard', 'Let\'s get set up'),
 			},
 		],
 	},
 
 	{
 		id: 'devices',
-		component: DeviceIntegrationPage,
+		component: GetStartedPage,
 		buttons: [
 			{
 				to: 'about',

@@ -5,7 +5,6 @@
 
 <script setup lang="ts">
 import axios from '@nextcloud/axios'
-import { loadState } from '@nextcloud/initial-state'
 import { generateUrl } from '@nextcloud/router'
 import { useIsSmallMobile } from '@nextcloud/vue/composables/useIsMobile'
 import { ref } from 'vue'
@@ -18,10 +17,6 @@ import pages from '../pages.ts'
 defineExpose({ open, close })
 
 const isMobile = useIsSmallMobile()
-/** This is set to true in case the user already received the wizard but Nextcloud was updated to show the changelog only */
-const showChangelogOnly = loadState<boolean>('firstrunwizard', 'changelogOnly', false)
-/** The index of the changelog page for first run on updated Nextcloud Hub only */
-const changelogPage = Math.max(pages.findIndex((page) => page.id === 'whats-new'), 0)
 
 const showModal = ref(false)
 const currentPage = ref(-1)
@@ -65,7 +60,7 @@ function close() {
 		@previous="currentPage -= 1">
 		<IntroAnimation
 			v-if="currentPage === -1"
-			@next="currentPage = showChangelogOnly ? changelogPage : 0" />
+			@next="currentPage = 0" />
 		<SlideShow
 			v-else
 			v-model="currentPage"
@@ -100,6 +95,86 @@ function close() {
 .first-run-wizard.modal-mask--opaque,
 .first-run-wizard.modal-mask--dark {
 	background-color: rgba(0, 0, 0, 0.75) !important;
+	// Frosted backdrop. The blur radius itself is animated on enter/leave (below)
+	// for a "focus pull" — the page behind gradually softens as the wizard arrives.
+	backdrop-filter: blur(5px) saturate(1.08);
+	-webkit-backdrop-filter: blur(5px) saturate(1.08);
+}
+
+/**
+ * Custom appear/disappear animation. NcModal drives this modal with its `fade`
+ * transition, which by default just eases opacity (250ms) and lightly scales the
+ * container. We override it (scoped styles, so !important is required) to give the
+ * wizard a polished entrance: it rises with a spring, sharpens from a soft blur
+ * into focus, and the backdrop pulls focus behind it — then folds away cleanly.
+ */
+
+// Backdrop: fade + animate the blur radius so the page eases out of / into focus.
+.first-run-wizard.fade-enter-active {
+	transition: opacity .45s ease, backdrop-filter .55s ease, -webkit-backdrop-filter .55s ease !important;
+}
+
+.first-run-wizard.fade-leave-active {
+	transition: opacity .8s ease, backdrop-filter .9s ease, -webkit-backdrop-filter .9s ease !important;
+}
+
+.first-run-wizard.fade-enter-from,
+.first-run-wizard.fade-leave-to {
+	backdrop-filter: blur(0) saturate(1) !important;
+	-webkit-backdrop-filter: blur(0) saturate(1) !important;
+}
+
+// Container: spring up into place while sharpening from a soft blur.
+.first-run-wizard.fade-enter-active .modal-container {
+	transition:
+		transform .62s cubic-bezier(0.22, 1.35, 0.5, 1),
+		filter .45s ease,
+		box-shadow .62s ease !important;
+}
+
+.first-run-wizard.fade-leave-active .modal-container {
+	// Long, gently accelerating ease so it drifts away serenely.
+	transition:
+		transform .8s cubic-bezier(0.33, 0, 0.2, 1),
+		filter .8s ease,
+		box-shadow .8s ease !important;
+}
+
+.first-run-wizard.fade-enter-from .modal-container {
+	transform: translateY(40px) scale(0.9) !important;
+	filter: blur(12px) !important;
+	box-shadow: 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+.first-run-wizard.fade-enter-to .modal-container,
+.first-run-wizard.fade-leave-from .modal-container {
+	// Resting elevation the entrance settles into (and the exit lifts off from).
+	box-shadow: 0 24px 60px -12px rgba(0, 0, 0, 0.35) !important;
+}
+
+.first-run-wizard.fade-leave-to .modal-container {
+	transform: translateY(22px) scale(0.93) !important;
+	filter: blur(6px) !important;
+	box-shadow: 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.first-run-wizard.modal-mask--opaque,
+	.first-run-wizard.modal-mask--dark {
+		backdrop-filter: none !important;
+		-webkit-backdrop-filter: none !important;
+	}
+
+	.first-run-wizard.fade-enter-active .modal-container,
+	.first-run-wizard.fade-leave-active .modal-container {
+		transition: none !important;
+	}
+
+	.first-run-wizard.fade-enter-from .modal-container,
+	.first-run-wizard.fade-leave-to .modal-container {
+		transform: none !important;
+		filter: none !important;
+	}
 }
 
 @media only screen and (max-width: 512px) {
