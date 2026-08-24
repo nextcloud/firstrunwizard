@@ -51,7 +51,7 @@ class Personal implements ISettings {
 		if ($this->request->getServerProtocol() === 'https') {
 			$apps['mac'] = [
 				'label' => $this->l->t('Download macOS/iOS configuration profile'),
-				'link' => \OCP\Util::linkToRemote('dav') . 'provisioning/apple-provisioning.mobileconfig',
+				'link' => $this->urlGenerator->linkToRemote('dav') . 'provisioning/apple-provisioning.mobileconfig',
 				'image' => $this->urlGenerator->imagePath('core', 'actions/settings.svg'),
 			];
 		}
