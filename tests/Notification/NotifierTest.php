@@ -31,7 +31,6 @@ class NotifierTest extends TestCase {
 	protected IURLGenerator&MockObject $urlGenerator;
 	protected IL10N&MockObject $l;
 
-
 	protected function setUp(): void {
 		$this->manager = $this->createMock(IManager::class);
 		$this->userManager = $this->createMock(IUserManager::class);
