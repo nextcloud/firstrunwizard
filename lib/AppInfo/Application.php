@@ -21,7 +21,7 @@ use OCP\User\Events\UserLoggedInEvent;
 use Override;
 
 class Application extends App implements IBootstrap {
-	public const APP_ID = 'firstrunwizard';
+	public const string APP_ID = 'firstrunwizard';
 
 	public function __construct() {
 		parent::__construct(self::APP_ID);

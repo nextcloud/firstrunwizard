@@ -23,7 +23,7 @@
 		</ignoreFiles>
 	</projectFiles>
 	<extraFiles>
-		<directory name="vendor-bin/nextcloud-ocp/vendor/nextcloud/ocp" />
+		<directory name="vendor-bin/nextcloud-ocp/vendor" />
 	</extraFiles>
 	<stubs>
 		<file name="tests/stubs/oc_template.php" />
