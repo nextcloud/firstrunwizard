@@ -14,7 +14,7 @@ use OCP\Notification\IManager as INotificationManager;
 use OCP\Notification\INotification;
 
 class AppHint {
-	public const APP_HINT_VERSION = 19;
+	public const int APP_HINT_VERSION = 19;
 
 	public function __construct(
 		private readonly INotificationManager $notificationManager,
