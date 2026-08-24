@@ -6,7 +6,7 @@
 <psalm
 	errorLevel="1"
 	resolveFromConfigFile="true"
-	phpVersion="8.2"
+	phpVersion="8.3"
 	totallyTyped="true"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns="https://getpsalm.org/schema/config"
@@ -23,7 +23,7 @@
 		</ignoreFiles>
 	</projectFiles>
 	<extraFiles>
-		<directory name="vendor-bin/psalm/vendor/nextcloud/ocp" />
+		<directory name="vendor-bin/nextcloud-ocp/vendor/nextcloud/ocp" />
 	</extraFiles>
 	<stubs>
 		<file name="tests/stubs/oc_template.php" />
