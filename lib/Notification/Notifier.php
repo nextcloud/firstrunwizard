@@ -159,7 +159,7 @@ class Notifier implements INotifier {
 				break;
 		}
 		$notification
-			->setLink($this->url->linkToRouteAbsolute('settings.AppSettings.viewApps') . $appLink)
+			->setLink($this->url->linkToRouteAbsolute('appstore.Page.viewApps') . $appLink)
 			->setIcon($this->url->getAbsoluteURL($this->url->imagePath('firstrunwizard', 'apps/' . $app . '.svg')));
 		return $notification;
 	}
