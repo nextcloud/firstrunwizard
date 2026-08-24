@@ -13,27 +13,28 @@ import { t } from '@nextcloud/l10n'
  */
 export default {
 	/** The HUB release version */
-	version: '26 Spring',
+	version: '26 Summer',
 
 	/** Link to further information (e.g. blog post) */
-	link: 'https://nextcloud.com/blog/nextcloud-hub26-spring/',
+	link: 'https://nextcloud.com/blog/nextcloud-hub26-summer/',
 
 	/** Release notes in list format */
 	releaseNotes: [
-		'💫' + t('firstrunwizard', 'Refined design, optimized performance'),
-		'💪' + t('firstrunwizard', 'Empowering developers with an open platform'),
-		'✏️' + t('firstrunwizard', 'Your choice: Nextcloud Office powered by Collabora or Euro-Office'),
-		'💌' + t('firstrunwizard', 'Delegate calendars, meetings and mail boxes for better collaboration'),
-		'📈' + t('firstrunwizard', 'Gantt charts, dependencies & more in Nextcloud Deck'),
-		'🧠' + t('firstrunwizard', 'More agency: let the Assistant work for you across files, emails, forms, and more'),
-		'🧩' + t('firstrunwizard', 'Pexip, Matrix, and more updates in integrations'),
+		'✨' + t('firstrunwizard', 'Refined design, optimized performance'),
+		'👥' + t('firstrunwizard', 'Your team’s own space with Nextcloud Teams app'),
+		'💬' + t('firstrunwizard', 'Classified conversations, channels and announcements'),
+		'✍️' + t('firstrunwizard', 'Comments & footnotes in Nextcloud Text'),
+		'💫' + t('firstrunwizard', 'Nextcloud Assistant: skills, OCR, split-second performance'),
+		'🌄' + t('firstrunwizard', 'Photos, reimagined'),
+		'🖥️' + t('firstrunwizard', 'Nextcloud Office for desktop'),
+		'🌳' + t('firstrunwizard', 'A new phase for the ecosystem and ISVs'),
 		t('firstrunwizard', '… and many more improvements in all apps!'),
 		t('firstrunwizard', 'Experience the brand new Nextcloud Hub!'),
 	],
 
 	/** Alternative text for the release animation */
-	videoAltText: t('firstrunwizard', 'Get to know the new features of Hub {version}', { version: '26 Spring' }),
+	videoAltText: t('firstrunwizard', 'Get to know the new features of Hub {version}', { version: '26 Summer' }),
 
 	/** Subject that is used when sharing the post */
-	shareSubject: t('firstrunwizard', 'Time to own your collaboration: Meet Nextcloud Hub 26 Spring! 🚀'),
+	shareSubject: t('firstrunwizard', 'Time to own your collaboration: Meet Nextcloud Hub 26 Summer! 🚀'),
 }
