@@ -68,14 +68,8 @@ OC.L10N.register(
     "Could not copy the URL, please copy manually" : "Não foi possível copiar o URL, copie manualmente",
     "Server address" : "Endereço do servidor",
     "Use this link to connect your apps and desktop client to this server:" : "Use este link para conectar seus aplicativos e clientes de desktop a este servidor:",
-    "Empowering developers with an open platform" : "Capacitando desenvolvedores com uma plataforma aberta",
-    "Your choice: Nextcloud Office powered by Collabora or Euro-Office" : "Sua escolha: Nextcloud Office com tecnologia Collabora ou Euro-Office",
-    "Delegate calendars, meetings and mail boxes for better collaboration" : "Delegue calendários, reuniões e caixas de correio para melhorar a colaboração",
-    "Gantt charts, dependencies & more in Nextcloud Deck" : "Gráficos de Gantt, dependências e muito mais no Nextcloud Deck",
-    "Pexip, Matrix, and more updates in integrations" : "Pexip, Matrix e outras atualizações nas integrações",
     "Experience the brand new Nextcloud Hub!" : "Experimente o novo Nextcloud Hub!",
     "Get to know the new features of Hub {version}" : "Saiba mais sobre os novos recursos do Hub {version}",
-    "Time to own your collaboration: Meet Nextcloud Hub 26 Spring! 🚀" : "É hora de assumir o controle da sua colaboração: conheça o Nextcloud Hub 26 Primavera! 🚀",
     "What's new?" : "O que há de novo?",
     "Nextcloud on all your devices" : "Nextcloud em todos os seus dispositivos",
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
@@ -92,6 +86,12 @@ OC.L10N.register(
     "Office document comparison" : "Comparação de documentos do Office",
     "Whiteboard: comments, reactions, timers" : "Quadro branco: comentários, reações, temporizadores",
     "Powerful E2EE in the web interface" : "Criptografia de ponta-a-ponta poderosa na interface web",
-    "Speed-up with ADA engine" : "Aceleração com o ADA engine"
+    "Speed-up with ADA engine" : "Aceleração com o ADA engine",
+    "Empowering developers with an open platform" : "Capacitando desenvolvedores com uma plataforma aberta",
+    "Your choice: Nextcloud Office powered by Collabora or Euro-Office" : "Sua escolha: Nextcloud Office com tecnologia Collabora ou Euro-Office",
+    "Delegate calendars, meetings and mail boxes for better collaboration" : "Delegue calendários, reuniões e caixas de correio para melhorar a colaboração",
+    "Gantt charts, dependencies & more in Nextcloud Deck" : "Gráficos de Gantt, dependências e muito mais no Nextcloud Deck",
+    "Pexip, Matrix, and more updates in integrations" : "Pexip, Matrix e outras atualizações nas integrações",
+    "Time to own your collaboration: Meet Nextcloud Hub 26 Spring! 🚀" : "É hora de assumir o controle da sua colaboração: conheça o Nextcloud Hub 26 Primavera! 🚀"
 },
 "nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");
