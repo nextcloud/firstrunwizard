@@ -85,16 +85,9 @@
     "Server address" : "Serveradresse",
     "Use this link to connect your apps and desktop client to this server:" : "Diesen Link verwenden, um deine Apps und deinen Desktop-Clienten mit diesem Server zu verbinden:",
     "Refined design, optimized performance" : "Verfeinertes Design, optimierte Leistung",
-    "Empowering developers with an open platform" : "Entwickler mit einer offenen Plattform stärken",
-    "Your choice: Nextcloud Office powered by Collabora or Euro-Office" : "Zur Wahl stehen: Nextcloud Office mit Collabora oder Euro-Office",
-    "Delegate calendars, meetings and mail boxes for better collaboration" : "Kalender, Besprechungen und E-Mailpostfächer delegieren, um die Zusammenarbeit zu vereinfachen",
-    "Gantt charts, dependencies & more in Nextcloud Deck" : "Gantt-Diagramme, Abhängigkeiten und mehr in Nextcloud Deck",
-    "More agency: let the Assistant work for you across files, emails, forms, and more" : "Mehr Handlungsspielraum: Der Assistent arbeitet übergreifend mit Dateien, E-Mails, Formularen und mehr",
-    "Pexip, Matrix, and more updates in integrations" : "Pexip, Matrix und weitere Aktualisierungen in den Integrationen",
     "… and many more improvements in all apps!" : "… und viele weitere Verbesserungen in allen Apps!",
     "Experience the brand new Nextcloud Hub!" : "Den brandneuen Nextcloud Hub erleben!",
     "Get to know the new features of Hub {version}" : "Lerne die neuen Funktionen von Hub {version} kennen",
-    "Time to own your collaboration: Meet Nextcloud Hub 26 Spring! 🚀" : "Zeit, deine Zusammenarbeitsplattform zu besitzen: Lerne Nextcloud Hub 26 Spring kennen! 🚀",
     "What's new?" : "Was ist neu?",
     "Nextcloud on all your devices" : "Nextcloud auf all deinen Geräten",
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
@@ -119,6 +112,13 @@
     "Nextcloud Assistant performance upgrade and AI labeling" : "Leistungssteigerung und KI-Kennzeichnung für den Nextcloud Assistant",
     "Powerful E2EE in the web interface" : "Leistungsstarke Ende-zu-Ende-Verschlüsselung in der Weboberfläche",
     "Speed-up with ADA engine" : "Schneller mit der ADA-Engine ",
-    "Time to own your collaboration: Meet Nextcloud Hub 26 Winter! 🚀" : "Zeit, deine Zusammenarbeit selbst in die Hand zu nehmen: Lerne Nextcloud Hub 26 Winter kennen! 🚀"
+    "Time to own your collaboration: Meet Nextcloud Hub 26 Winter! 🚀" : "Zeit, deine Zusammenarbeit selbst in die Hand zu nehmen: Lerne Nextcloud Hub 26 Winter kennen! 🚀",
+    "Empowering developers with an open platform" : "Entwickler mit einer offenen Plattform stärken",
+    "Your choice: Nextcloud Office powered by Collabora or Euro-Office" : "Zur Wahl stehen: Nextcloud Office mit Collabora oder Euro-Office",
+    "Delegate calendars, meetings and mail boxes for better collaboration" : "Kalender, Besprechungen und E-Mailpostfächer delegieren, um die Zusammenarbeit zu vereinfachen",
+    "Gantt charts, dependencies & more in Nextcloud Deck" : "Gantt-Diagramme, Abhängigkeiten und mehr in Nextcloud Deck",
+    "More agency: let the Assistant work for you across files, emails, forms, and more" : "Mehr Handlungsspielraum: Der Assistent arbeitet übergreifend mit Dateien, E-Mails, Formularen und mehr",
+    "Pexip, Matrix, and more updates in integrations" : "Pexip, Matrix und weitere Aktualisierungen in den Integrationen",
+    "Time to own your collaboration: Meet Nextcloud Hub 26 Spring! 🚀" : "Zeit, deine Zusammenarbeitsplattform zu besitzen: Lerne Nextcloud Hub 26 Spring kennen! 🚀"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

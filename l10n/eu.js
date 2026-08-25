@@ -87,10 +87,6 @@ OC.L10N.register(
     "Server address" : "Zerbitzariaren helbidea",
     "Use this link to connect your apps and desktop client to this server:" : "Erabili esteka hau zure aplikazioak eta mahaigaineko bezeroa zerbitzari honetara konektatzeko:",
     "Refined design, optimized performance" : "Diseinu findua, errendimendu optimizatua",
-    "Empowering developers with an open platform" : "Garatzaileei ahalduntzea plataforma ireki batekin",
-    "Your choice: Nextcloud Office powered by Collabora or Euro-Office" : "Zure aukera: Collabora edo Euro-Office-k bultzatutako Nextcloud Office",
-    "Delegate calendars, meetings and mail boxes for better collaboration" : "Egutegiak, bilerak eta postontziak delegatzea, lankidetza hobea izateko",
-    "Gantt charts, dependencies & more in Nextcloud Deck" : "Gantt diagramak, mendekotasunak eta gehiago Nextcloud Deck-en",
     "Get to know the new features of Hub {version}" : "Ezagutu Hub {version}-ren ezaugarri berriak",
     "What's new?" : "Zer berri?",
     "Nextcloud on all your devices" : "Nextcloud zure gailu guztietan",
@@ -107,6 +103,10 @@ OC.L10N.register(
     "Vue3, WebSockets and more OpenAPI for devs" : "Vue3, WebSockets eta garatzaileentzako beste OpenAPIak",
     "… and much more!" : "… eta askoz gehiago!",
     "Nextcloud Hub 25 Autumn – Your digital workspace, ready in no time ⚡" : "Nextcloud Hub 25eko udazkena - Zure lanerako espazio digitala, denbora gutxian prest ⚡",
-    "Whiteboard: comments, reactions, timers" : "Arbela: iruzkinak, erantzunak, kronometroak"
+    "Whiteboard: comments, reactions, timers" : "Arbela: iruzkinak, erantzunak, kronometroak",
+    "Empowering developers with an open platform" : "Garatzaileei ahalduntzea plataforma ireki batekin",
+    "Your choice: Nextcloud Office powered by Collabora or Euro-Office" : "Zure aukera: Collabora edo Euro-Office-k bultzatutako Nextcloud Office",
+    "Delegate calendars, meetings and mail boxes for better collaboration" : "Egutegiak, bilerak eta postontziak delegatzea, lankidetza hobea izateko",
+    "Gantt charts, dependencies & more in Nextcloud Deck" : "Gantt diagramak, mendekotasunak eta gehiago Nextcloud Deck-en"
 },
 "nplurals=2; plural=(n != 1);");
