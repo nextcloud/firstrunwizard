@@ -88,7 +88,7 @@ OC.L10N.register(
     "Use this link to connect your apps and desktop client to this server:" : "Use este link para conectar seus aplicativos e clientes de desktop a este servidor:",
     "Refined design, optimized performance" : "Design sofisticado, desempenho otimizado",
     "Your team’s own space with Nextcloud Teams app" : "O espaço exclusivo da sua equipe com o aplicativo Nextcloud Equipes",
-    "Classified conversations, channels and announcements" : "Conversas, canais e anúncios confidenciais",
+    "Classified conversations, channels and announcements" : "Conversas confidenciais, canais e anúncios",
     "Comments & footnotes in Nextcloud Text" : "Comentários e notas de rodapé no Nextcloud Texto",
     "Nextcloud Assistant: skills, OCR, split-second performance" : "Nextcloud Assistente: habilidades, OCR, desempenho em frações de segundo",
     "Photos, reimagined" : "Fotos, repensadas",
