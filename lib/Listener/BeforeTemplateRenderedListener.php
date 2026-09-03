@@ -61,12 +61,6 @@ class BeforeTemplateRenderedListener implements IEventListener {
 			if (version_compare(Constants::CHANGELOG_VERSION, $lastSeenVersion, '>')) {
 				Util::addScript(Application::APP_ID, Application::APP_ID . '-activate');
 			}
-
-			// If the user was already seen before (compatibility with older wizard versions where the value was 1)
-			// then we only show the changelog
-			if (version_compare($lastSeenVersion, '1', '>')) {
-				$this->initialState->provideInitialState('changelogOnly', true);
-			}
 		}
 
 		Util::addStyle(Application::APP_ID, Application::APP_ID . '-style');
@@ -86,5 +80,16 @@ class BeforeTemplateRenderedListener implements IEventListener {
 			'ios',
 			$this->systemConfig->getSystemValueString('customclient_ios', $this->theming->getiOSClientUrl())
 		);
+
+		// Live onboarding state for the "Get set up" checklist: which profile
+		// basics are already done, so the wizard can tick them off.
+		$this->initialState->provideInitialState('onboarding', [
+			'displayName' => $user->getDisplayName(),
+			'hasAvatar' => $user->getAvatarImage(64) !== null,
+			'hasName' => $user->getDisplayName() !== '' && $user->getDisplayName() !== $user->getUID(),
+			'hasEmail' => ($user->getEMailAddress() ?? '') !== '',
+			'canChangeAvatar' => $user->canChangeAvatar(),
+			'canChangeName' => $user->canChangeDisplayName(),
+		]);
 	}
 }
