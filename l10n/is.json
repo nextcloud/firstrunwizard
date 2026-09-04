@@ -83,6 +83,8 @@
     "Could not copy the URL, please copy manually" : "Tókst ekki að afrita slóðina, afritaðu hana handvirkt",
     "Server address" : "Vistfang þjóns",
     "Use this link to connect your apps and desktop client to this server:" : "Notaðu þessa slóð fyrir forritin þín til að tengjast þessum þjóni:",
+    "Refined design, optimized performance" : "Fínpússað viðmót, bestuð afköst",
+    "Nextcloud Office for desktop" : "Nextcloud Office fyrir vinnutölvur",
     "Get to know the new features of Hub {version}" : "Kynntu þér nýja eiginleika í Hub {version}",
     "What's new?" : "Hvað er nýtt á döfinni?",
     "Nextcloud on all your devices" : "Nextcloud á öllum tækjunum þínum",
@@ -100,6 +102,7 @@
     "Quick presets & many other admin updates" : "Fljótlegar forstillingar og margar aðrar uppfærslur fyrir kerfisstjóra",
     "Vue3, WebSockets and more OpenAPI for devs" : "Vue3, WebSockets og meira OpenAPI fyrir forritara",
     "… and much more!" : "… og margt fleira!",
-    "Nextcloud Hub 25 Autumn – Your digital workspace, ready in no time ⚡" : "Nextcloud Hub 25 Autumn er komið – Stafrænta vinnusvæðið þitt, tilbúið í hvelli  ⚡"
+    "Nextcloud Hub 25 Autumn – Your digital workspace, ready in no time ⚡" : "Nextcloud Hub 25 Autumn er komið – Stafrænta vinnusvæðið þitt, tilbúið í hvelli  ⚡",
+    "Office document comparison" : "Samanburður skrifstofuskjala"
 },"pluralForm" :"nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);"
 }
