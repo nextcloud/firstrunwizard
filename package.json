@@ -38,7 +38,7 @@
     "@nextcloud/event-bus": "^3.3.3",
     "@nextcloud/stylelint-config": "^3.2.2",
     "@nextcloud/typings": "^1.10.0",
-    "@nextcloud/vite-config": "^2.5.2",
+    "@nextcloud/vite-config": "^2.5.4",
     "@vue/tsconfig": "^0.9.1",
     "eslint": "^10.4.0",
     "sass": "^1.101.0",
