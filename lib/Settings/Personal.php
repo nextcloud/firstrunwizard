@@ -59,6 +59,7 @@ class Personal implements ISettings {
 		$this->initialState->provideInitialState('apps', $apps);
 		$this->initialState->provideInitialState('links', [
 			'clients' => $this->getClientLinks(),
+			'office' => $this->getOfficeLinks(),
 			'appPasswords' => $this->urlGenerator->linkToRoute('settings.PersonalSettings.index', ['section' => 'security']),
 		]);
 
@@ -98,6 +99,26 @@ class Personal implements ISettings {
 				'href' => $this->config->getSystemValue('customclient_ios', $this->defaults->getiOSClientUrl()),
 				'name' => $this->l->t('iOS app'),
 				'image' => $this->urlGenerator->imagePath('core', 'appstore.svg'),
+			],
+		];
+	}
+
+	private function getOfficeLinks(): array {
+		return [
+			'nextcloud' => [
+				'href' => 'https://nextcloud.com/office/',
+				'name' => $this->l->t('Download Euro-Office desktop editor'),
+				'image' => $this->urlGenerator->imagePath('core', 'nextcloud-office.svg'),
+			],
+			'libreoffice' => [
+				'href' => 'https://www.libreoffice.org/download/',
+				'name' => $this->l->t('Download LibreOffice desktop editor'),
+				'image' => $this->urlGenerator->imagePath('core', 'libreoffice.svg'),
+			],
+			'collabora' => [
+				'href' => 'https://www.collaboraoffice.com/collabora-office/',
+				'name' => $this->l->t('Download Collabora Office desktop editor'),
+				'image' => $this->urlGenerator->imagePath('core', 'collabora-office.svg'),
 			],
 		];
 	}
