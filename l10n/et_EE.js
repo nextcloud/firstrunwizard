@@ -90,6 +90,7 @@ OC.L10N.register(
     "… and many more improvements in all apps!" : "... ja palju muid täiendusi kõikides rakendustes!",
     "Experience the brand new Nextcloud Hub!" : "Tutvu täitsa uue Nextcloud Hubiga!",
     "Get to know the new features of Hub {version}" : "Tutvu Nextcloudi Hubi versioonis {version} leiduvate uuendustega",
+    "Time to own your collaboration: Meet Nextcloud Hub 26 Summer! 🚀" : "On aeg, et sinu ühistöörakendus oleks sinu oma: Nextcloudi viimane versioon (Nextcloud Hub 26 Summer) on siin! 🚀",
     "What's new?" : "Mida on uut?",
     "Nextcloud on all your devices" : "Nextcloud kõigis sinu seadmetes",
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
