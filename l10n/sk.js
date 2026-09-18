@@ -109,7 +109,7 @@ OC.L10N.register(
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
     "Share on social media" : "Zdieľať cez sociálne médiá",
     "Get started!" : "Začnite!",
-    "Global redesign and usability lift" : "Globálny redesign a zlepšenie použiteľnosti",
+    "Global redesign and usability lift" : "Globálny redizajn a zlepšenie použiteľnosti",
     "New Office UI: colors, tabs, bars" : "Nové rozhranie kancelárie: farby, karty, panely ",
     "Performance and stability boost" : "Zvýšenie výkonu a stability",
     "New AI Agency tools unlocked" : "Nové nástroje agentúry AI odomknuté",
