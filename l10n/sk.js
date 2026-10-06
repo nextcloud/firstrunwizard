@@ -89,7 +89,7 @@ OC.L10N.register(
     "Edit office documents on your desktop, available for all major platforms at zero cost." : "Upravujte kancelárske dokumenty na svojom počítači, dostupné bezplatne pre všetky hlavné platformy.",
     "Office desktop editors" : "Počítačové editory kancelárskych dokumentov",
     "URL copied" : "URL skopírovné",
-    "Could not copy the URL, please copy manually" : "Nie je možné skopírovať URL, prosím skopírujte ho manuálne",
+    "Could not copy the URL, please copy manually" : "Nie je možné skopírovať URL, prosím skopírujte ju manuálne",
     "Server address" : "Adresa servera",
     "Use this link to connect your apps and desktop client to this server:" : "Pre prepojenie vašich aplikácií a desktopového klienta na tento server použite tento odkaz:",
     "Refined design, optimized performance" : "Prepracovaný dizajn, optimalizovaný výkon",
