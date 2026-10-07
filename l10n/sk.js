@@ -25,7 +25,7 @@ OC.L10N.register(
     "Admin-configured folders shared by everyone in a group." : "Správcom nastavené priečinky, zdieľané každému v skupine.",
     "App recommendation: Whiteboard" : "Odporúčaná aplikácia: Whiteboard",
     "Create and share whiteboards with others and collaborate in real-time." : "Vytvárajte a zdieľajte nástenky s ostatnými a spolupracujte v reálnom čase.",
-    "Connect your calendar" : "Pripojte svoj ​​kalendár",
+    "Connect your calendar" : "Pripojte svoj kalendár",
     "Connect your contacts" : "Pripojte svoje kontakty",
     "Access files via WebDAV" : "Pristupovať k súborom cez WebDAV",
     "Download macOS/iOS configuration profile" : "Prevziať profil nastavení pre macOS/iOS",
