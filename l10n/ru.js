@@ -132,7 +132,7 @@ OC.L10N.register(
     "Empowering developers with an open platform" : "Открытая платформа даёт разработчикам больше возможностей",
     "Your choice: Nextcloud Office powered by Collabora or Euro-Office" : "Ваш выбор: Nextcloud Office на базе Collabora или Euro-Office",
     "Delegate calendars, meetings and mail boxes for better collaboration" : "Делегируйте календари, встречи и почтовые ящики — работать вместе станет удобнее",
-    "Gantt charts, dependencies & more in Nextcloud Deck" : "Диаграммы Ганта, зависимости и многое другое в Nextcloud Deck",
+    "Gantt charts, dependencies & more in Nextcloud Deck" : "Диаграммы Ганта, зависимости и многое другое в «Карточках Nextcloud»",
     "More agency: let the Assistant work for you across files, emails, forms, and more" : "Больше автономности: позвольте Помощнику работать за вас с файлами, письмами, формами и не только",
     "Pexip, Matrix, and more updates in integrations" : "Pexip, Matrix и другие обновления интеграций",
     "Time to own your collaboration: Meet Nextcloud Hub 26 Spring! 🚀" : "Пора взять совместную работу под свой контроль: встречайте Nextcloud Hub 26 Spring! 🚀"
