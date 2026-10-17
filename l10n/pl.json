@@ -78,7 +78,7 @@
     "Apps to connect to {productName}" : "Aplikacje, które można połączyć z {productName}",
     "Set up sync clients using an {linkStart}app password{linkEnd}. That way you can make sure you are able to revoke access in case you lose that device." : "Skonfiguruj klientów synchronizacji przy użyciu {linkStart}hasła aplikacji{linkEnd}. W ten sposób możesz mieć pewność, że będziesz w stanie odwołać dostęp w przypadku utraty tego urządzenia.",
     "Get the apps to sync your files" : "Pobierz aplikacje do synchronizacji plików",
-    "{productName} gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "{productName} zapewnia dostęp do plików gdziekolwiek jesteś. Nasi łatwy w obsłudze klienci na komputery stacjonarne i urządzenia mobilne są dostępni dla wszystkich głównych platform za darmo.",
+    "{productName} gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "{productName} zapewnia dostęp do plików gdziekolwiek jesteś. Nasi łatwi w obsłudze klienci na komputery stacjonarne i urządzenia mobilne są dostępni dla wszystkich głównych platform za darmo.",
     "App for syncing" : "Aplikacja do synchronizacji",
     "URL copied" : "Adres URL skopiowany",
     "Could not copy the URL, please copy manually" : "Nie można skopiować adresu URL. Skopiuj ręcznie",
