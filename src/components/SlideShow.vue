@@ -240,27 +240,42 @@ function goToPage(pageId: string) {
  * The transition classes
  */
 .slide-active {
-	transition: all .2s;
+	/* A springy easing with a little overshoot so pages settle with bounce.
+	   `all` (not just transform/opacity) so the first-page "wave" top still animates. */
+	transition: all .42s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 .slide-left-enter {
 	opacity: 0;
-	transform: translateX(30%);
+	transform: translateX(44px) scale(.96);
 }
 
 .slide-left-leave-to {
 	opacity: 0;
-	transform: translateX(-30%);
+	transform: translateX(-44px) scale(.96);
 }
 
 .slide-right-enter {
 	opacity: 0;
-	transform: translateX(-30%);
+	transform: translateX(-44px) scale(.96);
 }
 
 .slide-right-leave-to {
 	opacity: 0;
-	transform: translateX(30%);
+	transform: translateX(44px) scale(.96);
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.slide-active {
+		transition: opacity .15s linear;
+	}
+
+	.slide-left-enter,
+	.slide-left-leave-to,
+	.slide-right-enter,
+	.slide-right-leave-to {
+		transform: none;
+	}
 }
 
 .slide-up-enter {
