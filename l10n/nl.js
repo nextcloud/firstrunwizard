@@ -55,7 +55,6 @@ OC.L10N.register(
     "What's new?" : "Wat is nieuw?",
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
     "Share on social media" : "Delen op social media",
-    "Get started!" : "Ga van start!",
-    "… and much more!" : "… en nog veel meer!"
+    "Get started!" : "Ga van start!"
 },
 "nplurals=2; plural=(n != 1);");
