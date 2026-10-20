@@ -97,18 +97,6 @@ OC.L10N.register(
     "Nextcloud on all your devices" : "Nextcloud in tutti i tuoi dispositivi",
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
     "Share on social media" : "Condividi nei social",
-    "Get started!" : "Cominciamo!",
-    "Global redesign and usability lift" : "Riprogettazione globale e miglioramento dell'usabilità",
-    "New Office UI: colors, tabs, bars" : "Nuova UI dell'ufficio: colori, schede, barre",
-    "Performance and stability boost" : "Miglioramento delle prestazioni e della stabilità",
-    "New AI Agency tools unlocked" : "Nuovi strumenti Agenti AI sbloccati",
-    "Talk threads & live transcription" : "Argomenti e trascrizione in tempo reale su Talk",
-    "Calendar: date poll for participants" : "Calendario: sondaggio sulla data per i partecipanti",
-    "Intuitive file search" : "Ricerca intuitiva dei file",
-    "Teams 2.0 & quick Guest accounts" : "Teams 2.0 e account Ospite rapidi",
-    "Quick presets & many other admin updates" : "Preimpostazioni rapide e molti altri aggiornamenti per gli amministratori",
-    "Vue3, WebSockets and more OpenAPI for devs" : "Vue3, WebSocket e altre OpenAPI per sviluppatori",
-    "… and much more!" : "… e molto altro ancora!",
-    "Nextcloud Hub 25 Autumn – Your digital workspace, ready in no time ⚡" : "Nextcloud Hub 25 Autunno – Il tuo spazio di lavoro digitale, pronto in un attimo ⚡"
+    "Get started!" : "Cominciamo!"
 },
 "nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");

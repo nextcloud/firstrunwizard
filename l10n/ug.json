@@ -89,18 +89,6 @@
     "Nextcloud on all your devices" : "بارلىق ئۈسكۈنىلىرىڭىزدىكى Nextcloud",
     "Nextcloud Hub {version}" : "Nextcloud مەركىزى {version}",
     "Share on social media" : "ئىجتىمائىي تاراتقۇلاردا ھەمبەھىرلىنىڭ",
-    "Get started!" : "باشلاڭ!",
-    "Global redesign and usability lift" : "ئۇمۇمىي قايتا لايىھەلەش ھەمدە ئىشلىتىشچانلىق كۆتۈرمىسى",
-    "New Office UI: colors, tabs, bars" : "يېڭى ئىشخانا كۆرۈنمە يۈزى، رەڭلەر، بەتلەر، بالداقلار",
-    "Performance and stability boost" : "ئىجرا قىلىش ھەمدە تۇراقلىق يۇقىرى كۆتۈرۈش",
-    "New AI Agency tools unlocked" : "يېڭى سۈنئىي ئەقىل قورلى ئېچىلدى",
-    "Talk threads & live transcription" : "پاراڭ يىپى ھەمدە نەق مەيدان خاتىرە يېزىش",
-    "Calendar: date poll for participants" : "يىلنامە: قاتناشقۇچىلار ئۈچۈن چېسلا راي سىناش",
-    "Intuitive file search" : "چۈشىنىشلىك ھۆججەت ئىزدەش",
-    "Teams 2.0 & quick Guest accounts" : "Teams 2.0 ھەمدە تېز مىھمان ھېساباتى",
-    "Quick presets & many other admin updates" : "تېز ئالدىن تەڭشەك ھەمدە نۇرغۇن باشقۇرغۇچى يېڭىلانمىلىرى",
-    "Vue3, WebSockets and more OpenAPI for devs" : "Vue3، WebSockets ھەمدە پروگراممىرلار ئۈچۈن تېخىمۇ كۆپ OpenAPI",
-    "… and much more!" : "...   نۇرغۇن نۇرغۇن!",
-    "Nextcloud Hub 25 Autumn – Your digital workspace, ready in no time ⚡" : "Nextcloud Hub 25 كۈز پەسلى - سىزنىڭ رەقەملىك ئىشخانىڭىز، نۆۋەتتە تەييار ⚡"
+    "Get started!" : "باشلاڭ!"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

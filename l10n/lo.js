@@ -91,18 +91,6 @@ OC.L10N.register(
     "Nextcloud on all your devices" : "Nextcloud ໃນທຸກອຸປະກອນຂອງທ່ານ",
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
     "Share on social media" : "ແບ່ງປັນໃນໂຊຊຽວມີເດຍ",
-    "Get started!" : "ເລີ່ມກັນເລີຍ!",
-    "Global redesign and usability lift" : "ປັບປຸງການອອກແບບໃໝ່ທົ່ວລະບົບ ແລະ ຍົກລະດັບການໃຊ້ງານ",
-    "New Office UI: colors, tabs, bars" : "UI ໃໝ່ຂອງ Office: ສີສັນ, ແຖບ, ແທບເຄື່ອງມື",
-    "Performance and stability boost" : "ເພີ່ມປະສິດທິພາບ ແລະ ຄວາມສະຖຽນ",
-    "New AI Agency tools unlocked" : "ປົດລັອກເຄື່ອງມື AI Agency ໃໝ່",
-    "Talk threads & live transcription" : "ກະທູ້ໃນ Talk ແລະ ການຖອດຂໍ້ຄວາມແບບສົດ",
-    "Calendar: date poll for participants" : "ປະຕິທິນ: ການສຳຫຼວດວັນທີສຳລັບຜູ້ເຂົ້າຮ່ວມ",
-    "Intuitive file search" : "ການຄົ້ນຫາໄຟລ໌ທີ່ສະຫຼາດຂຶ້ນ",
-    "Teams 2.0 & quick Guest accounts" : "Teams 2.0 ແລະ ບັນຊີຜູ້ໃຊ້ຊົ່ວຄາວແບບດ່ວນ",
-    "Quick presets & many other admin updates" : "ຄ່າທີ່ຕັ້ງໄວ້ລ່ວງໜ້າແບບດ່ວນ ແລະ ການອັບເດດອື່ນໆສຳລັບຜູ້ເບິ່ງແຍງລະບົບ",
-    "Vue3, WebSockets and more OpenAPI for devs" : "Vue3, WebSockets ແລະ OpenAPI ເພີ່ມເຕີມສຳລັບນັກພັດທະນາ",
-    "… and much more!" : "… ແລະ ອື່ນໆອີກຫຼາຍຢ່າງ!",
-    "Nextcloud Hub 25 Autumn – Your digital workspace, ready in no time ⚡" : "Nextcloud Hub 25 Autumn – ພື້ນທີ່ເຮັດວຽກດິຈິຕອນຂອງທ່ານ, ພ້ອມໃຊ້ໃນທັນທີ ⚡"
+    "Get started!" : "ເລີ່ມກັນເລີຍ!"
 },
 "nplurals=1; plural=0;");
