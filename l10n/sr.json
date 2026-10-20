@@ -89,18 +89,6 @@
     "Nextcloud on all your devices" : "Nextcloud на свим вашим уређајима",
     "Nextcloud Hub {version}" : "Nextcloud Hub {version}",
     "Share on social media" : "Поделите на друштвеним медијима",
-    "Get started!" : "Хајде да почнемо!",
-    "Global redesign and usability lift" : "Глобални редизајн и побољшање употребљивости",
-    "New Office UI: colors, tabs, bars" : "Нови канцеларијски КИ: боје, картице, траке",
-    "Performance and stability boost" : "Унапређење перформанси и стабилности",
-    "New AI Agency tools unlocked" : "Откључан нови алати AI агентуре",
-    "Talk threads & live transcription" : "Talk низови & транскрипција уживо",
-    "Calendar: date poll for participants" : "Календар: гласање учесника о датуму",
-    "Intuitive file search" : "Интуитивна претрага фајлова",
-    "Teams 2.0 & quick Guest accounts" : "Тимови 2.0 & брзи налози госта",
-    "Quick presets & many other admin updates" : "Сачуване поставке брзих подешавања & многе друге админ новости",
-    "Vue3, WebSockets and more OpenAPI for devs" : "Vue3, WebSockets и још OpenAPI за програмере",
-    "… and much more!" : "… и још доста тога!",
-    "Nextcloud Hub 25 Autumn – Your digital workspace, ready in no time ⚡" : "Nextcloud Hub 25 Јесен – Ваш дигитални радни простор, очас посла ⚡"
+    "Get started!" : "Хајде да почнемо!"
 },"pluralForm" :"nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
 }
