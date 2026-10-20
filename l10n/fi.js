@@ -81,7 +81,6 @@ OC.L10N.register(
     "What's new?" : "Mitä uutta?",
     "Nextcloud on all your devices" : "Nextcloud kaikilla laitteillasi",
     "Share on social media" : "Jaa sosiaalisessa mediassa",
-    "Get started!" : "Aloitetaan!",
-    "… and much more!" : "… ja paljon muuta!"
+    "Get started!" : "Aloitetaan!"
 },
 "nplurals=2; plural=(n != 1);");
