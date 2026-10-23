@@ -2,8 +2,8 @@ OC.L10N.register(
     "firstrunwizard",
     {
     "First run wizard" : "Introduktions guide",
-    "Add your profile information! For example your email is needed to receive notifications." : "Tilføj dine profiloplysninger! For eksempel er din e-mail nødvendig for at modtage meddelelser.",
-    "Add your profile information! For example your email is needed to receive notifications and reset your password." : "Tilføj dine profiloplysninger! For eksempel er din e-mail nødvendig for at modtage meddelelser og nulstille din adgangskode.",
+    "Add your profile information! For example your email is needed to receive notifications." : "Tilføj dine profiloplysninger! Din e-mail er for eksempel nødvendig for at modtage notifikationer.",
+    "Add your profile information! For example your email is needed to receive notifications and reset your password." : "Tilføj dine profiloplysninger! Din e-mail er for eksempel nødvendig for at modtage notifikationer og nulstille din adgangskode.",
     "Add your profile information! Set a profile picture and full name for easier recognition across all features." : "Tilføj dine profiloplysninger! Vælg et profilbillede og dit fulde navn, så du er lettere at genkende på tværs af alle funktioner.",
     "Add your profile information! Set a full name for easier recognition across all features." : "Tilføj dine profil informationer! Tilføj et fuldt navn for nemmere genkendelse på tværs af alle funktioner.",
     "Add your profile information! Set a profile picture for easier recognition across all features." : "Tilføj dine profiloplysninger! Vælg et profilbillede, så du er lettere at genkende på tværs af alle funktioner.",
