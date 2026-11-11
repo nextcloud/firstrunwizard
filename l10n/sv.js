@@ -81,7 +81,7 @@ OC.L10N.register(
     "Connect other apps to {productName}" : "Anslut andra appar till {productName}",
     "Besides the mobile apps and desktop client you can connect any other software that supports the WebDAV/CalDAV/CardDAV protocols to {productName}." : "Förutom mobilapparna och skrivbordsklienten kan du ansluta vilken annan programvara som helst som stöder WebDAV/CalDAV/CardDAV-protokollen till {productName}.",
     "Apps to connect to {productName}" : "Appar att ansluta till {productName}",
-    "Set up sync clients using an {linkStart}app password{linkEnd}. That way you can make sure you are able to revoke access in case you lose that device." : "Konfigurera synkroniseringsklienter med ett {linkStart}applösenord{linkEnd}. På så sätt kan du se till att du kan återkalla åtkomst om du skulle förlora den enheten.",
+    "Set up sync clients using an {linkStart}app password{linkEnd}. That way you can make sure you are able to revoke access in case you lose that device." : "Konfigurera synkroniseringsklienter med ett {linkStart}applösenord{linkEnd}. På så sätt ser du till att du kan återkalla åtkomst om du skulle förlora den enheten.",
     "Get the apps to sync your files" : "Skaffa apparna för att synkronisera dina filer",
     "{productName} gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "{productName} ger dig åtkomst till dina filer var du än är. Våra lättanvända skrivbords- och mobilklienter finns kostnadsfritt för alla större plattformar.",
     "App for syncing" : "App för synkronisering",
