@@ -7,10 +7,10 @@ SPDX-FileCopyrightText: Nextcloud GmbH and Nextcloud contributors
 
 This file is generated from multiple sources. Included packages:
 - @nextcloud/axios
-	- version: 2.5.2
+	- version: 2.6.0
 	- license: GPL-3.0-or-later
 - axios
-	- version: 1.19.0
+	- version: 1.21.1
 	- license: MIT
 - firstrunwizard
 	- version: 5.0.0-dev.0
