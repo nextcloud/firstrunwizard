@@ -66,6 +66,8 @@ OC.L10N.register(
     "Set up sync clients using an {linkStart}app password{linkEnd}. That way you can make sure you are able to revoke access in case you lose that device." : "Nastavite si programe za usklajevanje in omogočite podporo za {linkStart}programska gesla{linkEnd}. S tem si zagotovite dostop tudi, če napravo izgubite.",
     "Get the apps to sync your files" : "Programi za usklajevanje datotek",
     "App for syncing" : "Programi za usklajevanje",
+    "Get office editing on your desktop" : "Urejanje pisarniških dokumentov na namizju",
+    "Edit office documents on your desktop, available for all major platforms at zero cost." : "Brezplačno urejajte pisarniške dokumente na namizju. Na voljo za vse glavne platforme.",
     "URL copied" : "Naslov URL je kopiran",
     "Could not copy the URL, please copy manually" : "Naslova URL ni mogoče kopirati. Storite to ročno.",
     "Server address" : "Naslov strežnika",
